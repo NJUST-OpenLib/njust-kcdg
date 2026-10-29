@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>南京理工大学 · 课程大纲索引</title>
+<style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+
+body{background:#fff}
+.wrap{max-width:1080px}
+.bar{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);padding:18px 0 14px;border-bottom:1px solid var(--line);z-index:10;margin-bottom:8px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+input[type=search],select{font:inherit;font-size:14px;padding:9px 13px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--fg);outline:none}
+input[type=search]{flex:1;min-width:200px}
+input[type=search]:focus,select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(26,95,180,.09)}
+.stat{font-size:13px;color:var(--muted);margin-top:10px}
+.stat b{color:var(--fg);font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:14px}
+thead th{position:sticky;top:74px;background:#fff;text-align:left;font-size:12.5px;color:var(--muted);font-weight:600;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap;z-index:5}
+tbody td{padding:10px 12px;border-bottom:1px solid #f1f2f4;vertical-align:top}
+tbody tr:hover{background:#fafbfc}
+td.code{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px;white-space:nowrap;width:96px}
+td.name a{color:var(--fg);text-decoration:none;font-weight:500}
+td.name a:hover{color:var(--accent)}
+td.credit{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;width:56px}
+td.dept{color:#4b5563;font-size:13px;width:210px}
+td.st{width:74px}
+.tag{display:inline-block;padding:1px 7px;border-radius:9px;font-size:11.5px;white-space:nowrap}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+.tag.yes{background:#e8f1fb;color:#1a5fb4}
+.empty{text-align:center;color:var(--muted);padding:60px 0;font-size:14px}
+.more{text-align:center;padding:22px 0 60px}
+.more button{font:inherit;font-size:14px;padding:9px 26px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--accent);cursor:pointer}
+.more button:hover{border-color:var(--accent);background:#f5f9ff}
+</style></head><body><div class="wrap">
+<h1>课程大纲索引</h1>
+<div class="sub">南京理工大学课程总库离线快照 · 共 <b>12,991</b> 门课程，其中 <b>1,181</b> 门附课程大纲</div>
+
+<div class="bar">
+<div class="row">
+<input type="search" id="q" placeholder="搜索课程名称或课程编号…" autocomplete="off">
+<select id="dept"><option value="">全部开课单位</option></select>
+<select id="ol"><option value="">全部课程</option><option value="1">仅看有纲课程</option><option value="0">仅看无纲课程</option></select>
+<select id="st"><option value="">全部状态</option><option value="1">在用</option><option value="0">停用</option></select>
+</div>
+<div class="stat" id="stat"></div>
+</div>
+
+<table><thead><tr><th>编号</th><th>课程名称</th><th style="text-align:right">学分</th><th>开课单位</th><th>状态</th><th>大纲</th></tr></thead>
+<tbody id="tb"></tbody></table>
+<div class="empty" id="empty" style="display:none">没有匹配的课程</div>
+<div class="more" id="more" style="display:none"><button id="btnMore">加载更多</button></div>
+
+<footer>数据来源：南京理工大学教务系统课程总库（bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz）。<br>
+校内需经 智慧理工门户 → 教务系统 → 培养系统 → 课程总库 打开；校外请从 VPN 进入，需登录 2 次；互联网直连无法加载。</footer>
+</div>
+
+<script>
+const PAGE = 200;
+let ALL = [], VIEW = [], shown = 0, timer = null;
+const $ = id => document.getElementById(id);
+
+function tag(c){
+  const s = c.active ? '<span class="tag on">在用</span>' : '<span class="tag off">停用</span>';
+  return s;
+}
+function ol(c){
+  return c.hasOutline ? '<span class="tag yes">有</span>' : '<span class="tag no">无</span>';
+}
+
+function render(reset){
+  if (reset){ $('tb').innerHTML = ''; shown = 0; }
+  const frag = document.createDocumentFragment();
+  const end = Math.min(shown + PAGE, VIEW.length);
+  for (let i = shown; i < end; i++){
+    const c = VIEW[i];
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td class="code">' + (c.code || '—') + '</td>'
+      + '<td class="name"><a href="html/' + c.slug + '.html">' + esc(c.name) + '</a></td>'
+      + '<td class="credit">' + (c.credit === null ? '—' : c.credit) + '</td>'
+      + '<td class="dept">' + esc(c.dept || '—') + '</td>'
+      + '<td class="st">' + tag(c) + '</td>'
+      + '<td class="st">' + ol(c) + '</td>';
+    frag.appendChild(tr);
+  }
+  $('tb').appendChild(frag);
+  shown = end;
+  $('more').style.display = shown < VIEW.length ? 'block' : 'none';
+  $('empty').style.display = VIEW.length ? 'none' : 'block';
+  $('stat').innerHTML = '匹配 <b>' + VIEW.length.toLocaleString() + '</b> 门，当前显示 ' + shown.toLocaleString() + ' 门';
+}
+function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function apply(){
+  const q = $('q').value.trim().toLowerCase();
+  const d = $('dept').value, o = $('ol').value, s = $('st').value;
+  VIEW = ALL.filter(c => {
+    if (d && c.dept !== d) return false;
+    if (o && String(c.hasOutline ? 1 : 0) !== o) return false;
+    if (s && String(c.active ? 1 : 0) !== s) return false;
+    if (q){
+      const hit = (c.name || '').toLowerCase().includes(q)
+               || (c.code || '').toLowerCase().includes(q)
+               || (c.nameEn || '').toLowerCase().includes(q);
+      if (!hit) return false;
+    }
+    return true;
+  });
+  render(true);
+}
+
+fetch('index.json').then(r => r.json()).then(data => {
+  ALL = data;
+  const ds = [...new Set(ALL.map(c => c.dept).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'zh'));
+  const sel = $('dept');
+  ds.forEach(d => { const op = document.createElement('option'); op.value = d; op.textContent = d; sel.appendChild(op); });
+  apply();
+}).catch(e => {
+  $('stat').textContent = '索引加载失败：' + e.message;
+});
+
+$('q').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(apply, 120); });
+['dept','ol','st'].forEach(id => $(id).addEventListener('change', apply));
+$('btnMore').addEventListener('click', () => render(false));
+</script></body></html>
