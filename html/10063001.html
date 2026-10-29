@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>数据结构 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>数据结构<span class="tag on">在用</span></h1><div class="sub">课程编号 10063001</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10063001</td></tr><tr><th>英文名称</th><td>Data Structure</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>苏智勇</td></tr><tr><th>审核人</th><td>谢云云</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>平时作业:20%；单元测验:30%；闭卷笔试:50%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>能够根据实际问题特点和需求选择合适的数据逻辑结构和存储结构，能够设计和开发正确的数据结构操作算法，并分析算法的时空复杂度；毕业要求3.1</li><li>能够根据实际问题特点和需求选择合适的查找/排序算法，能够设计和开发正确的查找/排序程序，并分析算法的时空复杂度；毕业要求3.1</li><li>能够分析实际问题的功能和性能需求，综合运用常用数据结构及相应操作算法，设计和构建系统性的解决方案，能够评估方案的性能并根据评估结果对方案进行迭代优化，满足实际应用需求；毕业要求5.2</li></ul><h2>课程简介</h2><p class="body">数据结构是“自动化”、“智能电网与信息工程”、“轨道交通信号与控制”、“电气工程及其自动化专业”等专业的专业基础课，是非计算机专业学生从事计算机软件开发及应用程序设计的必不可少的基础课。
+
+《数据结构》是研究数据的关系学科，主要介绍用计算机解决一系列问题特别是非数值信息处理问题时所用的各种组织数据的方法、存储数据结构的方法以及在各种结构上执行操作的算法。培养学生选用合适的数据结和编写质量高、风格好的应用程序的能力，分析问题、解决问题的能力，工程实践能力以及工程师的使命和责任，为后续专业课程的学习以及解决软件设计和开发领域复杂工程问题奠定坚实的基础。
+
+教学内容：（一）线性数据结构，包括线性表、队列、堆栈的基本概念、顺序/链式存储结构、读写操作，数组、矩阵的压缩；（二）非线性结构，包括树、二叉树的基本概念、存储结构、遍历及其应用，哈弗曼树和哈夫曼编码，图的基本概念、存储结构，图的遍历、最短路径。（三）查找和排序，包括静态查找表、哈希表，插入排序、快速排序、二叉树排序等。
+
+先修课程：高等数学、C程序设计。</p><h2>教学目的与要求</h2><p class="body">通过本门课程的学习，使学生掌握各种线性、非线性数据结构的基本原理及相应的基本算法，能够根据实际问题选择合适的数据逻辑结构和存储结构，设计并开发满足实际需求的算法程序；掌握查找和排序的基本原理，能够根据实际问题比较和选择合适的查找或排序算法，设计并开发满足实际需求的查找和排序算法程序。
+
+通过本课程的学习，培养学生勤奋刻苦的求学精神和追求真理的科学精神，以及社会责任感和使命意识。
+
+本课程支撑的毕业要求内涵观测点为：
+
+3.1 能够根据需求，描述智能电网中单元和系统的设计任务，确定针对智能电网信息工程专业领域复杂工程问题的设计目标和方案。
+
+5.2 能够开发、选择和运用现代工程工具和信息技术工具，对智能电网信息领域复杂工程问题进行预测、模拟、分析和解决，并能够理解其局限性。</p><h2>教学内容</h2><p class="body">数据结构的概念；数据结构的抽象数据类型；算法与算法分析。
+线性表的基本概念； 线性表的顺序存储结构△；线性表的链式存储结构△★；线性表的应用。
+栈的基本概念；栈的顺序表示与实现△；栈的链式表示与实现；队列的基本概念；队列的顺序表示与实现△；队列的链式表示与实现△★。
+数组、矩阵的压缩；稀疏矩阵表示★。
+树、二叉树的概念△；二叉树存储结构、遍历及其应用★△；哈夫曼树和哈夫曼编码△★。
+图的基本概念；图的存储结构△；图的遍历△；最短路径△★。
+查找表的基本概念；静态查找表；哈希表 △★。
+排序的基本概念；插入排序 △；快速排序★△；归并排序；二叉排序树△；基数排序△。</p><h2>课程思政</h2><p class="body">结合数据结构的发展背景，讲述我国在相关领域的发展成就、相关历史人物的励志故事以及一些历史往事，培养学生的使命感和责任担当。
+结合图论的最短路径算法原理，培养学生正确的价值观以及批判思维的能力。
+通过各种排序算法的设计和优化，培养精益求精、一丝不苟的职业精神与态度。</p><h2>章节安排（8 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>数据结构的概念；数据结构的抽象数据类型；算法与算法分析。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>线性表的基本概念； 线性表的顺序存储结构△；线性表的链式存储结构△★；线性表的应用。</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">3</td><td>栈的基本概念；栈的顺序表示与实现△；栈的链式表示与实现；队列的基本概念；队列的顺序表示与实现△；队列的链式表示与实现△★。</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">4</td><td>数组、矩阵的压缩；稀疏矩阵表示★。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">5</td><td>树、二叉树的概念△；二叉树存储结构、遍历及其应用★△；哈夫曼树和哈夫曼编码△★。</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">6</td><td>图的基本概念；图的存储结构△；图的遍历△；最短路径△★。</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">7</td><td>查找表的基本概念；静态查找表；哈希表 △★。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">8</td><td>排序的基本概念；插入排序 △；快速排序★△；归并排序；二叉排序树△；基数排序△。</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 结合数据结构的发展背景，讲述我国在相关领域的发展成就、相关历史人物的励志故事以及一些历史往事，培养学生的使命感和责任担当。</li><li><b>第6章</b> 结合图论的最短路径算法原理，培养学生正确的价值观以及批判思维的能力。</li><li><b>第8章</b> 通过各种排序算法的设计和优化，培养精益求精、一丝不苟的职业精神与态度。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10063001.html">查看原始页面</a><a href="../json/10063001.json">下载 JSON</a><a href="../txt/10063001.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

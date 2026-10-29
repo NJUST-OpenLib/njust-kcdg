@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>智能电网中的机器学习方法 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>智能电网中的机器学习方法<span class="tag on">在用</span></h1><div class="sub">课程编号 10054002</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10054002</td></tr><tr><th>英文名称</th><td>Machine learning methods in Smart Grid</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>项文波</td></tr><tr><th>审核人</th><td>谢云云</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂作业:30%；期末大作业:70%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>能够理解和阐述各类机器学习方法的原理和特性；能够根据智能电网的数据特点及处理要求提出解决方案，选择使用恰当的机器学习方法，进行算法设计；毕业要求3.1</li><li>能够应用Python机器学习编程开发语言和相关平台工具(Keras/Tensorflow)，来处理智能电网的相关数据，能够根据要求对设计的算法进行编程实现和结果分析；毕业要求5.2</li></ul><h2>课程简介</h2><p class="body">《智能电网中的机器学习方法》是智能电网专业的一门专业选修课。
+
+课程主要介绍机器学习概论及其数学基础、编程基础，机器学习中的分类方法、预测方法、无监督学习、深度学习方法在智能电网中的应用。培养学生的工程实践能力以及工程师的使命和责任，使其具有基本的实践技能和使用机器学习方法分析处理智能电网中复杂数据的工作能力，为今后从事相关工作奠定必需的理论和实践基础。
+
+教学内容：（一）数学基础和编程基础， 包括向量、导数偏导数、累加与累乘、矩阵、指数函数对数函数：Sigmoid函数和Softmax函数；Jupyter Notebook、Keras和TensorFlow、Python基础语法、Python绘图（二）机器学习中各类方法及其应用，分类方法、预测方法、无监督学习方法和深度学习方法。(三) 智能电网中机器学习方法应用示例，在发电、输电、配电和用电各环节中应用示例。
+
+先修课程：高等数学、概率与统计、线性代数 、数据结构、C程序设计。</p><h2>教学目的与要求</h2><p class="body">通过本门课程的学习，使学生掌握机器学习的分类方法、预测方法和无监督学习方法基本概念和应用条件；理解深度学习方法中的基本概念。能够对智能电网中的复杂数据熟练的融合使用各类机器学习方法进行分析处理。 
+
+通过本课程的学习，培养学生勤奋刻苦的求学精神和追求真理的科学精神，以及社会责任感和使命意识。
+
+本课程支撑的毕业要求内涵观测点为：
+
+3.1 能够根据需求，描述智能电网中单元和系统的设计任务，确定针对智能电网信息工程专业领域复杂工程问题的设计目标和方案。
+
+5.2 能够开发、选择和运用现代工程工具和信息技术工具，对智能电网信息领域复杂工程问题进行预测、模拟、分析和解决，并能够理解其局限性。</p><h2>教学内容</h2><p class="body">课程概论（智能电网的框架结构，机器学习基本概念和框架△）
+机器学习中的数学基础(向量；导数偏导数△；累加与累乘；矩阵；指数函数对数函数：Sigmoid函数和Softmax函数△★)
+机器学习编程基础(环境配置：Python,Jupyter Notebook,Keras和Tensorflow★;Python基础语法△；Python绘图△)
+分类方法及其应用（K近邻算法△；基于概率论的贝叶斯方法；支持向量机△★）(含课堂作业)
+预测方法及其应用（利用回归预测数值型数据△）(含课堂作业)
+无监督学习及其应用（K-均值聚类算法△）
+深度学习方法及其应用（人工神经网络，BP算法，卷积神经网络CNN△★、循环神经网络RNN△）(含课堂作业)
+智能电网中机器学习方法应用示例△。（智能电网发电、输电、配电和用电中机器学习应用示例）</p><h2>课程思政</h2><p class="body">讲述我国的人工智能发展历史成就，穿插相关历史人物的励志故事以及一些历史往事，培养学生的使命感和责任担当。
+结合无监督学习方法，类比生活中学习例子，培养学生正确的价值观以及批判思维的能力
+通过神经网络的模型讲解和推导，培养学生精益求精、一丝不苟的职业精神与态度</p><h2>章节安排（8 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>课程概论（智能电网的框架结构，机器学习基本概念和框架△）</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>机器学习中的数学基础(向量；导数偏导数△；累加与累乘；矩阵；指数函数对数函数：Sigmoid函数和Softmax函数△★)</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">3</td><td>机器学习编程基础(环境配置：Python,Jupyter Notebook,Keras和Tensorflow★;Python基础语法△；Python绘图△)</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">4</td><td>分类方法及其应用（K近邻算法△；基于概率论的贝叶斯方法；支持向量机△★）(含课堂作业)</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">5</td><td>预测方法及其应用（利用回归预测数值型数据△）(含课堂作业)</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">6</td><td>无监督学习及其应用（K-均值聚类算法△）</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">7</td><td>深度学习方法及其应用（人工神经网络，BP算法，卷积神经网络CNN△★、循环神经网络RNN△）(含课堂作业)</td><td class="n">10</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">10</td></tr><tr><td class="c">8</td><td>智能电网中机器学习方法应用示例△。（智能电网发电、输电、配电和用电中机器学习应用示例）</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 讲述我国的人工智能发展历史成就，穿插相关历史人物的励志故事以及一些历史往事，培养学生的使命感和责任担当。</li><li><b>第6章</b> 结合无监督学习方法，类比生活中学习例子，培养学生正确的价值观以及批判思维的能力</li><li><b>第7章</b> 通过神经网络的模型讲解和推导，培养学生精益求精、一丝不苟的职业精神与态度</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10054002.html">查看原始页面</a><a href="../json/10054002.json">下载 JSON</a><a href="../txt/10054002.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

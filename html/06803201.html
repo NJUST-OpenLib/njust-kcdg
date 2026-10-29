@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>流体力学 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>流体力学<span class="tag on">在用</span></h1><div class="sub">课程编号 06803201</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>06803201</td></tr><tr><th>英文名称</th><td>Fluid Mechanics</td></tr><tr><th>开课单位</th><td>新能源学院</td></tr><tr><th>学分</th><td>4</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(含实践环节)</td></tr><tr><th>课程负责人</th><td>朱呈勇</td></tr><tr><th>审核人</th><td>朱曙光</td></tr><tr><th>总学时</th><td>64</td></tr><tr><th>讲课学时</th><td>58</td></tr><tr><th>实验学时</th><td>6</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>平时作业、课堂表现:20%；课程实验:10%；期末考试:70%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>掌握流体的主要物理和力学性质；</li><li>掌握流体静力学的压强分布规律、压强计算、测压原理；</li><li>具备综合运用连续方程、能量方程和动量方程进行流动分析和计算能力；</li><li>掌握流体运动相似的基本概念和相似准则；理解量纲分析的基本原理和意义；</li><li>掌握粘性流体运动的基本规律、边界层基本概念和分析计算方法；</li><li>掌握流体运动的两种不同型态和管道阻力系数的确定方法；</li><li>熟悉可压缩气体喷管内流动，具备运用可压缩气体一元流动基本方程进行计算的能力；</li><li>具备进行流体力学试验和运用所学知识解决工程实际问题的能力。</li></ul><h2>课程简介</h2><p class="body">流体力学是能源热工类、机械类、土木类、航空航天类等专业的必修基础课。该课程的学习为将来专业课的学习、从事专业工作或者进行专业课题研究打下重要基础。
+流体力学研究流体在静止和运动时的力学规律及其在工程中的应用，主要教学内容包括：第一章流体的物理性质，第二章流体运动学基础，第三章流体动力学的基本原理，第四章理想流体动力学，第五章理想不可压缩流体的二维无旋和有旋流动，第六章相似原理与量纲分析，第七章气体动力学基础，第八章粘性流体力学基础，第九章湍流，第十章边界层理论基础，第十一章流体力学工程应用。
+本课程所需要的先修课程主要有高等数学、普通物理、理论力学等。
+本课程考核方式为闭卷笔试，总评成绩评定包括二部分：闭卷考试占70%、平时成绩30%。平时成绩主要有实验、考勤、作业及课内外讨论成绩组成。</p><h2>教学目的与要求</h2><p class="body">通过讲授、讨论和实验操作等教学环节，使学生掌握流体力学的基本知识和分析原理，熟悉基本的计算方法，并具备基本实验技能和工程设计基础，为学生进一步学习、研究和处理相关问题打下坚实的基础。学习完本课程后，学生应具备以下几方面知识：1、掌握流体的主要物理和力学性质（包括流体的粘性、可压缩性和表面张力等），能够运用相关理论进行受力分析。2、掌握流体静力学的压强分布规律、压强计算、测压原理，能够运用流体静力学知识进行工程设计计算和校核计算。3、具备综合运用连续方程、能量方程和动量方程进行流动分析和计算能力。4、掌握流体运动相似的基本概念和相似准则，理解量纲分析的基本原理和意义，具备运用量纲分析和相似原理进行模型实验设计的能力。5、掌握粘性流体运动的基本规律、边界层基本概念和分析计算方法，能够运用边界层理论对物体受力进行综合分析。6、掌握流体运动的两种不同型态和管道阻力系数的确定方法，具备减阻设计的基本知识和方法体系。7、熟悉可压缩气体喷管内流动特性，理解形成激波的物理机制，掌握激波前后气体参数的变化规律，具备运用可压缩气体一元流动基本方程进行计算的能力；8、具备进行流体力学试验设计和运用所学知识解决工程实际问题的能力。
+通过与流体力学课程内容有机融合，以我国重大重点工程需求中流体力学基本原理为切入点，结合南理工军工特色，介绍我国在航空、航天、航海、兵器和能源工程领域的发展历程和技术突破，从而培养学生专业精神和爱国情操，增强学生对中国的自信，树立正确的人生观、价值观、世界观，培养学生光荣的使命感，并激发学生的创造力和想象力，成为时代责任的担当者。</p><h2>教学内容</h2><p class="body">流体的连续介质模型；作用在流体上的体积力和表面力★；流体的易流性和压缩性△；流体的界面现象和性质△
+描述流体运动的两种方法△；流场的几何描述；质点的加速度公式和质点导数△★；流体微团运动分析△★；流场的旋度；给定流场的散度和旋度求速度场
+流体动力学的积分型方程△★；伯努利公式的应用；定常流控制体积分型守恒方程的应用△★；流体动力学的微分型控制方程△；流体静力学△
+理想流体运动的基本方程和初边值条件；理想流体在势力场中运动的主要性质△★；兰姆型方程和理想流体运动的几个积分；理想不可压缩无旋流动问题的数学提法及主要性质；不可压缩无旋流动速度势方程的基本解叠加法△★；物体在不可压缩理想流体中运动时的附加惯性；理想不可压缩流体中的涡动力学★
+不可压缩平面流动和轴对称流动的流函数★；不可压缩轴对称定常无旋流动；解不可压缩平面无旋流动问题的复变函数方法；不可压缩流体绕圆柱的定常无旋流动△★；解平面不可压缩无旋绕流的保角映象法；翼型气动力特性和库塔-儒可夫斯基条件；奇点镜像法；理想不可压缩流体的二维有旋流动△★
+相似原理△；量纲分析法△★；相似与模型试验；完全相似与部分相似；近似模型法
+气体动力学基本方程△★；声传播方程和马赫数；理想气体等熵流动的主要性质△★；激波理论及应用★；定常超声速气流绕凸角流动(普朗特-迈耶流动) ；完全气体在变截面绝热管内的准一维定常流动△★
+粘性流体的本构方程★；牛顿型流体的运动方程纳维斯托克斯方程△；粘性流体运动的相似律；不可压缩粘性流体的解析解△；小雷诺数粘性流体运动的近似解
+湍流的发生★；流动的稳定性分析★；湍流的统计理论；湍流封闭模式；圆管中的定常湍流△★；切变湍流的拟序结构★
+牛顿流体大雷诺数的定常绕流★；不可压缩流体层流边界层的相似性解△★；卡门动量积分关系式△★；边界层内的流动与分离★；可压缩流体定常层流边界层的主要特性；绕平板定常湍流边界层△★
+流体力学工程应用</p><h2>课程思政</h2><p class="body">讲述深海探测的挑战，介绍我国蛟龙号取得的技术突破，培养学生专业精神和爱国情操。
+播放我国歼20战斗机的飞行视频，介绍突破音障过程中的跨音速不可压流动，培养学生专业精神和爱国情操。
+介绍我国C919大飞机研制过程中的风洞和飞行试验，培养学生专业精神和爱国情操。</p><h2>章节安排（11 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>流体的连续介质模型；作用在流体上的体积力和表面力★；流体的易流性和压缩性△；流体的界面现象和性质△</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">2</td><td>描述流体运动的两种方法△；流场的几何描述；质点的加速度公式和质点导数△★；流体微团运动分析△★；流场的旋度；给定流场的散度和旋度求速度场</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">3</td><td>流体动力学的积分型方程△★；伯努利公式的应用；定常流控制体积分型守恒方程的应用△★；流体动力学的微分型控制方程△；流体静力学△</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">4</td><td>理想流体运动的基本方程和初边值条件；理想流体在势力场中运动的主要性质△★；兰姆型方程和理想流体运动的几个积分；理想不可压缩无旋流动问题的数学提法及主要性质；不可压缩无旋流动速度势方程的基本解叠加法△★；物体在不可压缩理想流体中运动时的附加惯性；理想不可压缩流体中的涡动力学★</td><td class="n">5</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">7</td></tr><tr><td class="c">5</td><td>不可压缩平面流动和轴对称流动的流函数★；不可压缩轴对称定常无旋流动；解不可压缩平面无旋流动问题的复变函数方法；不可压缩流体绕圆柱的定常无旋流动△★；解平面不可压缩无旋绕流的保角映象法；翼型气动力特性和库塔-儒可夫斯基条件；奇点镜像法；理想不可压缩流体的二维有旋流动△★</td><td class="n">4</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">6</td><td>相似原理△；量纲分析法△★；相似与模型试验；完全相似与部分相似；近似模型法</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">7</td><td>气体动力学基本方程△★；声传播方程和马赫数；理想气体等熵流动的主要性质△★；激波理论及应用★；定常超声速气流绕凸角流动(普朗特-迈耶流动) ；完全气体在变截面绝热管内的准一维定常流动△★</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">8</td><td>粘性流体的本构方程★；牛顿型流体的运动方程纳维斯托克斯方程△；粘性流体运动的相似律；不可压缩粘性流体的解析解△；小雷诺数粘性流体运动的近似解</td><td class="n">6</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">9</td><td>湍流的发生★；流动的稳定性分析★；湍流的统计理论；湍流封闭模式；圆管中的定常湍流△★；切变湍流的拟序结构★</td><td class="n">7</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">7</td></tr><tr><td class="c">10</td><td>牛顿流体大雷诺数的定常绕流★；不可压缩流体层流边界层的相似性解△★；卡门动量积分关系式△★；边界层内的流动与分离★；可压缩流体定常层流边界层的主要特性；绕平板定常湍流边界层△★</td><td class="n">7</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">7</td></tr><tr><td class="c">11</td><td>流体力学工程应用</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><th></th><th>合计</th><th style="text-align:right">58</th><th style="text-align:right">6</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">64</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第3章</b> 讲述深海探测的挑战，介绍我国蛟龙号取得的技术突破，培养学生专业精神和爱国情操。</li><li><b>第5章</b> 播放我国歼20战斗机的飞行视频，介绍突破音障过程中的跨音速不可压流动，培养学生专业精神和爱国情操。</li><li><b>第6章</b> 介绍我国C919大飞机研制过程中的风洞和飞行试验，培养学生专业精神和爱国情操。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/06803201.html">查看原始页面</a><a href="../json/06803201.json">下载 JSON</a><a href="../txt/06803201.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

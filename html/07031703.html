@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>多变量数据分析 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>多变量数据分析<span class="tag on">在用</span></h1><div class="sub">课程编号 07031703</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>07031703</td></tr><tr><th>英文名称</th><td>Multivariate Statistical Analysis</td></tr><tr><th>开课单位</th><td>经济管理学院</td></tr><tr><th>学分</th><td>3</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人</th><td>程龙生</td></tr><tr><th>审核人</th><td>沈静远</td></tr><tr><th>总学时</th><td>48</td></tr><tr><th>讲课学时</th><td>40</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>8</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂考勤:10%；平时作业:10%；实验报告:10%；课程论文:70%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>学生深入了解方差分析、多元线性回归分析、聚类分析、判别分析、主成分分析及因子分析等多种多变量数据分析方法的基本原理和分析步骤</li><li>能结合有关统计分析软件（如Minitab）使用这些方法</li></ul><h2>课程简介</h2><p class="body">本课程是工商管理学科工商管理专业的专业基础课和市场营销等专业的专业选修课程，是分析、处理高维观测数据、研究多个变量间相互关系、研究问题内在规律性的一门方法论课程。本课程注重对学生运用计算机技术（Minitab的主要功能模块）分析有关管理问题、抓住主要因素、把握问题本质的能力的培养。课程教学内容包括：Minitab的基本功能简介；参数估计与假设检验概述；多元正态分布及其参数的统计推断；方差分析；多元线性回归分析；聚类分析；判别分析；主成分分析；因子分析。
+ 本课程所需的预修课程有：高等数学、线性代数、管理统计。
+ 本课程的考核包括期末考核和平时考核。期末考核方式为课程论文，平时考核方式包括平时作业、实验报告、课堂考勤等。
+ 成绩按百分制记载。其中，期末考核占70%；平时作业占10%、实验报告占10%、课堂考勤占10%。</p><h2>教学目的与要求</h2><p class="body">本课程的主要作用是在《管理统计》的基础上，讲解如何应用统计软件在多变量数据情形进行多元统计模型构建和分析，培养学生综合应用计算机技术和多元统计方法从事各类工商管理问题定量分析的能力。通过课堂讲授、辅导答疑、上机实验、文献研讨等教学手段，使学生深入了解方差分析、多元线性回归分析、聚类分析、判别分析、主成分分析及因子分析等多种多变量数据分析方法的基本原理和分析步骤，并能结合有关统计分析软件（如Minitab）使用这些方法，从而具备用定量手段分析研究复杂的现实经济管理问题的能力。</p><h2>教学内容</h2><p class="body">绪论：统计科学的发展与大数据时代对数据分析方法论的要求；企业管理中的多变量数据案例△；Minitab基础
+参数估计假设检验概述：常见抽样分布；参数估计方式及方法；假设检验原理及方法
+方差分析：方差分析与假设检验关系；单因子方差分析△；双因子方差分析△★
+多元正态分布及其参数的统计推断：多维随机变量及其数字特征△；多元正态分布定义与性质△；多元正态分布的参数估计△；多元正态分布的参数假设检验△★
+多元线性回归分析：一元线性回归模型△；多元线性回归模型构建与应用△★
+聚类分析：聚类分析原理；系统聚类法及应用△；K-means聚类法及应用△
+判别分析：距离判别法及应用△；Fisher判别法及应用△★
+主成分分析：主成分分析法原理△；总体主成分及样本主成分性质△；主成分分析法建模及应用
+因子分析：因子分析法建模思想△；因子载荷阵△；因子旋转与因子得分△★</p><h2>课程思政</h2><p class="body">介绍“中国制造2025”战略及国家对装备制造业高端化、智能化的发展要求，以及在传感器、互联网技术与云平台等基础上，企业基于大数据分析的故障诊断与健康管理案例，使学生更好地了解我国制造业发展实际并增强对国家发展的自豪感。
+结合我国各省份经济发展水平开展聚类分析，全面了解我国经济发展不平衡问题，从而更好地了解我国扶贫事业的巨大成就，理解中国特色社会所倡导“共同富裕”的意义。
+结合我国经济发展情况开展案例分析，从而增强学生对中国特色社会主义的“道路自信、理论自信和制度自信。”</p><h2>章节安排（9 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>绪论：统计科学的发展与大数据时代对数据分析方法论的要求；企业管理中的多变量数据案例△；Minitab基础</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">2</td><td>参数估计假设检验概述：常见抽样分布；参数估计方式及方法；假设检验原理及方法</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">3</td><td>方差分析：方差分析与假设检验关系；单因子方差分析△；双因子方差分析△★</td><td class="n">4</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">4</td><td>多元正态分布及其参数的统计推断：多维随机变量及其数字特征△；多元正态分布定义与性质△；多元正态分布的参数估计△；多元正态分布的参数假设检验△★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">5</td><td>多元线性回归分析：一元线性回归模型△；多元线性回归模型构建与应用△★</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">6</td><td>聚类分析：聚类分析原理；系统聚类法及应用△；K-means聚类法及应用△</td><td class="n">6</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">9</td></tr><tr><td class="c">7</td><td>判别分析：距离判别法及应用△；Fisher判别法及应用△★</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">8</td><td>主成分分析：主成分分析法原理△；总体主成分及样本主成分性质△；主成分分析法建模及应用</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">9</td><td>因子分析：因子分析法建模思想△；因子载荷阵△；因子旋转与因子得分△★</td><td class="n">6</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">9</td></tr><tr><th></th><th>合计</th><th style="text-align:right">40</th><th style="text-align:right"></th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">48</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 介绍“中国制造2025”战略及国家对装备制造业高端化、智能化的发展要求，以及在传感器、互联网技术与云平台等基础上，企业基于大数据分析的故障诊断与健康管理案例，使学生更好地了解我国制造业发展实际并增强对国家发展的自豪感。</li><li><b>第6章</b> 结合我国各省份经济发展水平开展聚类分析，全面了解我国经济发展不平衡问题，从而更好地了解我国扶贫事业的巨大成就，理解中国特色社会所倡导“共同富裕”的意义。</li><li><b>第7章</b> 结合我国经济发展情况开展案例分析，从而增强学生对中国特色社会主义的“道路自信、理论自信和制度自信。”</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/07031703.html">查看原始页面</a><a href="../json/07031703.json">下载 JSON</a><a href="../txt/07031703.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

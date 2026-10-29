@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>机器学习 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>机器学习<span class="tag on">在用</span></h1><div class="sub">课程编号 07083002</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>07083002</td></tr><tr><th>英文名称</th><td>Machine Learning</td></tr><tr><th>开课单位</th><td>经济管理学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人</th><td>哈进兵</td></tr><tr><th>审核人</th><td>杨慧</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>16</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>16</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂表现:10%；实验报告:20%；课程设计:70%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>理解聚类、回归、分类、标注相关算法并掌握它们的应用方法。</li><li>理解概率类模型并掌握它们的应用方法</li><li>理解神经网络类模型并掌握它们的应用方法</li><li>理解深度学习模型并掌握它们的应用方法</li><li>理解距离度量、模型评价、过拟合、最优化等机器学习基础知识</li><li>掌握特征工程、降维与超参数调优等机器学习工程应用方法</li><li>具备面向特定经济管理领域的智能化数据处理和服务设计的创新能力</li></ul><h2>课程简介</h2><p class="body">机器学习是研究怎样使用计算机模拟或实现人类学习活动的科学，是人工智能中最具智能特征，最前沿的研究领域之一。近十几年来，机器学习领域的研究工作发展很快，它已成为人工智能的重要课题之一。机器学习不仅在基于知识的系统中得到应用，而且在自然语言理解、非单调推理、机器视觉、模式识别等许多领域也得到了广泛应用。
+本课程结合最新的研究前沿和基本理论、方法和技术，介绍机器学习的概念，解决的问题与分类。系统全面地对机器学习模型进行详细介绍，包括支持向量机、决策树、随机森林和集成方法，并提供基于具体软件平台进行机器学习的端到端训练示例。
+修学该课程所需的预备知识：机器学习中涉及大量向量运算，概率计算等线性代数、概率论与数理统计等课程内容，学生应具有该部分的基本知识；此外，课程需要进行基于Python语言实现的案例和实验以及作业，需要提前学习Python程序设计与开发的基本知识。</p><h2>教学目的与要求</h2><p class="body">通过本课程学习，让学生可以使用简单有效的工具和代码实现从数据中学习的复杂应用程序。在此基础上，进一步面向经济管理类专业特定需求和领域数据，完整掌握数据获取、处理、建模、分析和解读全流程的方法技能，让学生具备面向特定经济管理领域的智能化数据处理和服务设计的创新能力。课程思政目标为：结合课程学习，引导学生树立“四个自信”并激励学生投身国家社会经济发展建设的崇高理想。</p><h2>教学内容</h2><p class="body">机器学习概述：什么是机器学习；为什么使用机器学习； 机器学习的应用示例；机器学习系统的类型；△机器学习的主要挑战
+端到端的机器学习项目：使用真实数据；观察大局；获取数据；从数据探索和可视化中获得洞见△；机器学习算法的数据准备；选择和训练模型；微调模型；★启动、监控和维护你的系统
+分类：训练二元分类器；△性能测量；多类分类器；误差分析；多标签分类；△多输出分类
+训练模型：线性回归；梯度下降；△多项式回归；学习曲线；正则化线性模型；★逻辑回归△
+支持向量机：线性SVM分类；△非线性SVM分类；△★SVM回归；工作原理
+决策树：训练和可视化决策树；△做出预测；估计类概率； CART训练算法；计算复杂度；基尼不纯度或熵；★正则化超参数；★回归；；不稳定性
+集成学习和随机森林：投票分类器；△bagging和pasting；随机补丁和随机子空间；随机森林；★提升法；堆叠法
+降维：降维的主要方法；△PCA；内核PCA；LLE；其他降维技术
+无监督学习技术：聚类；△高斯混合模型★
+神经元与感知机;前馈网络模型,模型训练基本流程 ★深度卷积网络;卷积网络概述;△基本网络模型;改进网络模型;深度循环网络;△模型训练策略</p><h2>课程思政</h2><p class="body">阐述互联网、大数据和物联网背景下中国信息产业的快速发展，引导学生树立“四个自信”并建立学生职业发展意识。
+引导学生认识世界信息产业的发展水平和前沿的机器学习技术，理解机器学习与人工智能在国家未来战略中的重要地位。增强学生对我国科学技术发展的自信心，培养爱国情怀，激发学生努力学好知识，为国家和民族富强贡献自己的力量。
+勇挑重担、甘于奉献；3.团结、包容，互助、合作
+通过对目前机器学习领域核心技术的介绍，积极引导学生的科技兴趣，激发社会责任感，树立远大理想，增强爱国热情，培养刻苦奋斗精神。
+培养学生一丝不苟、严谨求真的科学精神；探讨合适统计模型的选择，引导学生具体问题具体分析，反对形而上学
+结合近期时事热点问题，挖掘知识点中的思政元素，激发学生的社会责任感。
+结合集成学习的核心思路，引导学生树立团队协作意识。
+不同方法的选择、不同参数的选择，反复拟合曲线，反复尝试模型，培养学生精益求精的工匠精神
+课程总结，激励学生投身国家社会经济发展建设的崇高理想。</p><h2>章节安排（10 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>机器学习概述：什么是机器学习；为什么使用机器学习； 机器学习的应用示例；机器学习系统的类型；△机器学习的主要挑战</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>端到端的机器学习项目：使用真实数据；观察大局；获取数据；从数据探索和可视化中获得洞见△；机器学习算法的数据准备；选择和训练模型；微调模型；★启动、监控和维护你的系统</td><td class="n">1</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">3</td><td>分类：训练二元分类器；△性能测量；多类分类器；误差分析；多标签分类；△多输出分类</td><td class="n">1</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">4</td><td>训练模型：线性回归；梯度下降；△多项式回归；学习曲线；正则化线性模型；★逻辑回归△</td><td class="n">1</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">5</td><td>支持向量机：线性SVM分类；△非线性SVM分类；△★SVM回归；工作原理</td><td class="n">1</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">6</td><td>决策树：训练和可视化决策树；△做出预测；估计类概率； CART训练算法；计算复杂度；基尼不纯度或熵；★正则化超参数；★回归；；不稳定性</td><td class="n">2</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">7</td><td>集成学习和随机森林：投票分类器；△bagging和pasting；随机补丁和随机子空间；随机森林；★提升法；堆叠法</td><td class="n">2</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">8</td><td>降维：降维的主要方法；△PCA；内核PCA；LLE；其他降维技术</td><td class="n">2</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">9</td><td>无监督学习技术：聚类；△高斯混合模型★</td><td class="n">2</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">10</td><td>神经元与感知机;前馈网络模型,模型训练基本流程 ★深度卷积网络;卷积网络概述;△基本网络模型;改进网络模型;深度循环网络;△模型训练策略</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><th></th><th>合计</th><th style="text-align:right">16</th><th style="text-align:right"></th><th style="text-align:right">16</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 阐述互联网、大数据和物联网背景下中国信息产业的快速发展，引导学生树立“四个自信”并建立学生职业发展意识。</li><li><b>第2章</b> 引导学生认识世界信息产业的发展水平和前沿的机器学习技术，理解机器学习与人工智能在国家未来战略中的重要地位。增强学生对我国科学技术发展的自信心，培养爱国情怀，激发学生努力学好知识，为国家和民族富强贡献自己的力量。</li><li><b>第3章</b> 勇挑重担、甘于奉献；3.团结、包容，互助、合作</li><li><b>第4章</b> 通过对目前机器学习领域核心技术的介绍，积极引导学生的科技兴趣，激发社会责任感，树立远大理想，增强爱国热情，培养刻苦奋斗精神。</li><li><b>第5章</b> 培养学生一丝不苟、严谨求真的科学精神；探讨合适统计模型的选择，引导学生具体问题具体分析，反对形而上学</li><li><b>第6章</b> 结合近期时事热点问题，挖掘知识点中的思政元素，激发学生的社会责任感。</li><li><b>第7章</b> 结合集成学习的核心思路，引导学生树立团队协作意识。</li><li><b>第8章</b> 不同方法的选择、不同参数的选择，反复拟合曲线，反复尝试模型，培养学生精益求精的工匠精神</li><li><b>第10章</b> 课程总结，激励学生投身国家社会经济发展建设的崇高理想。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/07083002.html">查看原始页面</a><a href="../json/07083002.json">下载 JSON</a><a href="../txt/07083002.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

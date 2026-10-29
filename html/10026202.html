@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>数据库原理及应用 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>数据库原理及应用<span class="tag on">在用</span></h1><div class="sub">课程编号 10026202</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10026202</td></tr><tr><th>英文名称</th><td>Database principle and Application</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(含实践环节)</td></tr><tr><th>课程负责人</th><td>王学慧</td></tr><tr><th>审核人</th><td>陈新</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>24</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>8</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>数据库程序设计:40%；上机操作:20%；闭卷考试:40%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>理解数据库原理最基本概念和理论知识，了解数据库技术最重要的成果，熟练的运用数据库的基本知识、原理，识别、表达、分析复杂工程问题。</li><li>熟练掌握关系模型和关系运算理论；掌握SQL语言；了解数据库安全性控制；熟练掌握关系数据库的规范化理论；掌握数据库设计方法；掌握数据库恢复的一般原理和方法。能够设计针对复杂数据库工程问题的解决方案，设计满足特定需求的数据库系统。</li><li>能够采用数据库原理并采用科学方法设计数据库系统实验，能够使用数据库技术、资源和工具，对复杂工程问题进行实现。</li><li>能够在数据库系统开发的团队中承担个体、团队成员以及负责人的角色。</li></ul><h2>课程简介</h2><p class="body">数据库原理及应用是为自动化大类专业学生开设的一门专业选修课，基于数据库的应用已经成为计算机应用的主流，数据库技术是数据管理最有效的手段，是构成信息系统重要基础。
+本课程主要讲授SQL SERVER数据库管理系统基础理论与应用，介绍数据库的新技术和新应用，使学生掌握有关关系数据库的基本概念和基础理论。通过对本课程的学习，学生可全面深入地了解数据库系统的工作原理，掌握SQL语言应用的基本方法、编程语言与数据库的连接，数据库的编程设计，能够根据要求编写数据库程序并正确运行。
+ 本课程的主要内容：（一）数据库基础理论：包括数据库系统概述、数据模型、关系数据库、数据库设计；（二）SQL SERVER数据库管理系统：包括 SQL Server 2008数据库管理、 SQL Server 2008数据表管理、数据查询与视图；（三）编程实例：包括Microsoft.NET及其开发工具、 Windows窗体编程、使用C#开发数据库。
+ 预备知识：程序设计语言</p><h2>教学目的与要求</h2><p class="body">《数据库原理及应用》以SQL SERVER为对象，通过课堂讲授、辅导答疑、上机实验等教学手段，使学生掌握数据库的基本知识、基本理论和基本方法，具有较强的数据库设计、数据库系统管理和应用开发能力。本课程旨在培养学生掌握数据库的管理与应用、数据维护、数据安全设置等技能。从单项技能培养的角度来说，本课程需要学生掌握数据库及数据表的创建与管理的方法，掌握数据完整性的实施方法，能实现对表中数据的维护与查询，能进行数据库安全设置和数据库管理的基本操作，掌握关系数据库的设计理论和方法。从综合技能的角度出发，需要学生掌握数据库应用系统的设计方法与思维能力，能根据实际需求进行数据库设计和综合应用开发。
+通过数据库技术的发展与运用，增强学生民族自尊心、自信心和自豪感，激发学生科技报国的家国情怀和使命担当；通过课程中的马克思主义哲学思想，培养学生正确、规范的思维方式和分析方法；通过实践培养学生勤于动手、善于动脑，学思结合、知行统一，增强学生精益求精的工匠精神和不怕困难、勇于探索的创新精神。</p><h2>教学内容</h2><p class="body">第1章 数据库系统概述 1.1 信息、数据和数据处理 1.2 数据管理技术的发展 1.3 数据库系统的组成与结构
+第2章 数据模型 2.1 现实世界的抽象过程 2.2 概念模型 2.3 数据模型及组成要素△ 2.4 常见的数据库类型
+第3章 关系数据库 3.1 关系数据库的基本概念△ 3.2 关系的数学定义 3.3 关系代数
+第4章 关系数据库规范化理论 4.1 关系数据库规范化理论问题的提出 4.2 函数依赖 4.3 范式
+第5章 数据库设计 5.1 数据库设计概述 5.2 数据库设计实例
+第6章 Microsoft SQL Server 2008概述 6.1 Microsofl SQL Server 2008简介 6.2 安装SQL Server 2008 6.3 使用SQL Server Management Studio
+第7章 SQL Server 2008数据库管理 7.1 SQLServer 2008数据库结构 7.2 创建数据库 7.3 修改数据库 7.4 删除数据库 7.5 分离与附加数据库△
+第8章 SQL Server 2008数据表管理 8.1 SOL Server 2008基础 8.2 数据表的创建 8.3 数据表的修改和删除△ 8.4 表数据的操纵 8.5 索引
+第9章 数据查询与视图△★ 9.1 SELECT语句概述 9.2 单表查询 9.3 多表查询 9.4 嵌套查询 9.5 视图
+第10章 Microsoft.NET及其开发工具 10.1 Microsoft.NET概述 10.2 Microsoft.NET Framework介绍 10.3 Visual Studio.NET IDE简介
+第11章 C#编程基础 11.1 标识符和关键字 11.2 变量和常量 11.3 数据类型 11.4 运算符和表达式 11.5 流程控制语句 11.6 异常处理
+第12章 C#面向对象基础 12.1 面向对象编程概述 12.2 类和对象 12.3 属性和索引器 12.4 方法 12.5 接口 12.6 继承与多态 12.7 委托与事件
+第13章 Windows窗体编程 13.1 窗体编程概述 13.2 用C#创建Windows窗体程序实例 13.3 Windows窗体简介 13.4 常用公共控件 13.5 定时器组件 13.6 消息框
+第14章 使用C#开发数据库 14.1 数据库的连接 14.2 ADO.NET概述△ 14.3 ADO.NET应用实例★</p><h2>课程思政</h2><p class="body">培养学生民族认同感，树立远大职业理想。
+关系模型经过严格的数学推导引出诚信为本的价值观
+培养学生精益求精、工匠精神。
+1.SQL标准发展历程引出工匠精神 2.中美数据库之争引出民族认同感</p><h2>章节安排（14 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>第1章 数据库系统概述 1.1 信息、数据和数据处理 1.2 数据管理技术的发展 1.3 数据库系统的组成与结构</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>第2章 数据模型 2.1 现实世界的抽象过程 2.2 概念模型 2.3 数据模型及组成要素△ 2.4 常见的数据库类型</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">3</td><td>第3章 关系数据库 3.1 关系数据库的基本概念△ 3.2 关系的数学定义 3.3 关系代数</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">4</td><td>第4章 关系数据库规范化理论 4.1 关系数据库规范化理论问题的提出 4.2 函数依赖 4.3 范式</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td></tr><tr><td class="c">5</td><td>第5章 数据库设计 5.1 数据库设计概述 5.2 数据库设计实例</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">6</td><td>第6章 Microsoft SQL Server 2008概述 6.1 Microsofl SQL Server 2008简介 6.2 安装SQL Server 2008 6.3 使用SQL Server Management Studio</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">7</td><td>第7章 SQL Server 2008数据库管理 7.1 SQLServer 2008数据库结构 7.2 创建数据库 7.3 修改数据库 7.4 删除数据库 7.5 分离与附加数据库△</td><td class="n">2</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">8</td><td>第8章 SQL Server 2008数据表管理 8.1 SOL Server 2008基础 8.2 数据表的创建 8.3 数据表的修改和删除△ 8.4 表数据的操纵 8.5 索引</td><td class="n">3</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">9</td><td>第9章 数据查询与视图△★ 9.1 SELECT语句概述 9.2 单表查询 9.3 多表查询 9.4 嵌套查询 9.5 视图</td><td class="n">3</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">10</td><td>第10章 Microsoft.NET及其开发工具 10.1 Microsoft.NET概述 10.2 Microsoft.NET Framework介绍 10.3 Visual Studio.NET IDE简介</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr><tr><td class="c">11</td><td>第11章 C#编程基础 11.1 标识符和关键字 11.2 变量和常量 11.3 数据类型 11.4 运算符和表达式 11.5 流程控制语句 11.6 异常处理</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr><tr><td class="c">12</td><td>第12章 C#面向对象基础 12.1 面向对象编程概述 12.2 类和对象 12.3 属性和索引器 12.4 方法 12.5 接口 12.6 继承与多态 12.7 委托与事件</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr><tr><td class="c">13</td><td>第13章 Windows窗体编程 13.1 窗体编程概述 13.2 用C#创建Windows窗体程序实例 13.3 Windows窗体简介 13.4 常用公共控件 13.5 定时器组件 13.6 消息框</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr><tr><td class="c">14</td><td>第14章 使用C#开发数据库 14.1 数据库的连接 14.2 ADO.NET概述△ 14.3 ADO.NET应用实例★</td><td class="n">5</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">7</td></tr><tr><th></th><th>合计</th><th style="text-align:right">24</th><th style="text-align:right"></th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 培养学生民族认同感，树立远大职业理想。</li><li><b>第3章</b> 关系模型经过严格的数学推导引出诚信为本的价值观</li><li><b>第5章</b> 培养学生精益求精、工匠精神。</li><li><b>第6章</b> 1.SQL标准发展历程引出工匠精神 2.中美数据库之争引出民族认同感</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10026202.html">查看原始页面</a><a href="../json/10026202.json">下载 JSON</a><a href="../txt/10026202.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

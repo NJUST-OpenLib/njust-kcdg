@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>建模与辨识基础 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>建模与辨识基础<span class="tag on">在用</span></h1><div class="sub">课程编号 10031801</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10031801</td></tr><tr><th>英文名称</th><td>Introduction to System Modelling and Identification</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(含实践环节)</td></tr><tr><th>课程负责人</th><td>张益军</td></tr><tr><th>审核人</th><td>樊卫华</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>24</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>8</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>(未填):10%；(未填):20%；(未填):30%；(未填):40%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>能够将检测、分析和系统辨识等专业基础知识用于解决电气系统领域相关复杂工程问题；</li><li>能够识别电气信息领域中的复杂工程问题，正确建立数学模型并分析特性；</li></ul><h2>课程简介</h2><p class="body">建模与辨识技术旨在建立研究对象的数学模型，目前广泛应用于工业、农业、交通、国防、宇航、金融等领域。本课程是电气信息类专业一门重要的专业课，主要介绍系统建模与参数辨识基本理论和方法，培养电气信息工程领域工程实践能力以及工程师的使命和责任，为后续课程的学习以及适应现代信息社会的快速变化奠定坚实的基础。课程内容包括系统辨识的基本概念；系统数学模型的描述方法；随机信号的描述与分析；伪随机信号的产生及性质；相关分析法系统辨识；系统辨识的最小二乘算法，包括一般最小二乘法、递推最小二乘法、增广最小二乘法、广义最小二乘法以及最小二乘适应算法等；模型的结构辨识等。课程教学以讲授为主，辅以计算机仿真实验。考核方式为考试，根据平时成绩、开卷考试成绩和实验成绩综合评定。预备知识：Matlab或C编程基本知识、高等数学。</p><h2>教学目的与要求</h2><p class="body">通过本课程的学习，使学生了解系统建模与辨识领域国内外的研究现状与发展趋势，掌握系统建模与辨识的基本理论和分析方法，通过仿真实例使学生掌握实验设计、数据采集、系统辨识、数据验证以及误差分析的全过程，学生能够以彼此关联的方式思考系统建模与辨识的知识点，并和其它相关课程的知识相联系，具有深层学习能力和系统思维意识，以及从系统的观点解决实际工程问题的能力。</p><h2>教学内容</h2><p class="body">1. 引言 1.1 系统辨识的基本介绍； 1.2 △系统辨识的研究目的； 1.3 系统辨识的基本内容
+2 系统辨识的基本原理 2.1 △系统辨识的基本原理 2.2 系统的数学模型 2.2.1 数学模型分类 2.2.2 确定性模型 2.2.3 △随机模型 2.3 随机信号的描述与分析 2.3.1 随机过程的基本概念 2.3.2 随机过程的数字特征 2.3.3 △★随机过程的平稳性与各态历经性 2.3.4 自相关函数、互相关函数 2.4 白噪声与伪随机信号 2.4.1 白噪声基本概念 2.4.2 辨识输入信号的选择 2.4.3 △伪随机信号的产生及性质 2.4.4 △ M 序列的定义、性质及自相关函数
+3 系统辨识的经典方法 3.1 阶跃响应法系统辨识 3.2 △★相关分析法系统辨识 3.2.1 脉冲响应 3.2.2 卷积定理 3.2.3 Wiener-Hopf 方程 3.2.4 用白噪声输入信号进行辨识 3.2.5 用M 序列进行辨识
+4 系统辨识的最小二乘算法 4.1 △最小二乘法原理 4.1.1△ 最小二乘问题求解 4.1.2 加权最小二乘法 4.1.3 最小二乘法统计特性 4.2 △递推最小二乘法 4.3 增广最小二乘法 4.4 ★广义最小二乘法 4.5 最小二乘适应算法 4.5.1 遗忘因子法 4.5.2 限定记忆法
+5 极大似然法辨识 5.1 贝叶斯决策 5.2 极大似然原理 5.3 △系统参数的极大似然估计 5.4 数值解法
+6 数学模型的结构辨识 6.1 根据残差平方和估计模型的阶次 6.2 F 检验法 6.3 根据汉格尔矩阵估计模型的阶次</p><h2>课程思政</h2><p class="body">系统建模与辨识理论与技术发展史上，一批中外科学家敢于挑战自我，突破认知禁区，取得巨大成就，通过学习这些技术的发明过程和控制理论的建立过程，激发学生的科学精神。
+理解系统所含不同的类型的噪声以及对系统的影响，理解系统中噪声的好处与危害，和科学的应对方法，在未来生活和工作中学会利用噪声以及抑制噪声的方法与技术方法，利用专业知识保护国家财产安全，并培养科学的创新精神。
+领会系统辨识会存在多种方案，学会对不同方案进行评价，发展学生的高阶思维，培养学生学无止境、追求真理的科学精神。</p><h2>章节安排（6 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1. 引言 1.1 系统辨识的基本介绍； 1.2 △系统辨识的研究目的； 1.3 系统辨识的基本内容</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td></tr><tr><td class="c">2</td><td>2 系统辨识的基本原理 2.1 △系统辨识的基本原理 2.2 系统的数学模型 2.2.1 数学模型分类 2.2.2 确定性模型 2.2.3 △随机模型 2.3 随机信号的描述与分析 2.3.1 随机过程的基本概念 2.3.2 随机过程的数字特征 2.3.3 △★随机过程的平稳性与各态历经性 2.3.4 自相关函数、互相关函数 2.4 白噪声与伪随机信号 2.4.1 白噪声基本概念 2.4.2 辨识输入信号的选择 2.4.3 △伪随机信号的产生及性质 2.4.4 △ M 序列的定义、性质及自相关函数</td><td class="n">7</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">9</td></tr><tr><td class="c">3</td><td>3 系统辨识的经典方法 3.1 阶跃响应法系统辨识 3.2 △★相关分析法系统辨识 3.2.1 脉冲响应 3.2.2 卷积定理 3.2.3 Wiener-Hopf 方程 3.2.4 用白噪声输入信号进行辨识 3.2.5 用M 序列进行辨识</td><td class="n">3</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">4</td><td>4 系统辨识的最小二乘算法 4.1 △最小二乘法原理 4.1.1△ 最小二乘问题求解 4.1.2 加权最小二乘法 4.1.3 最小二乘法统计特性 4.2 △递推最小二乘法 4.3 增广最小二乘法 4.4 ★广义最小二乘法 4.5 最小二乘适应算法 4.5.1 遗忘因子法 4.5.2 限定记忆法</td><td class="n">9</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">12</td></tr><tr><td class="c">5</td><td>5 极大似然法辨识 5.1 贝叶斯决策 5.2 极大似然原理 5.3 △系统参数的极大似然估计 5.4 数值解法</td><td class="n">2</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">6</td><td>6 数学模型的结构辨识 6.1 根据残差平方和估计模型的阶次 6.2 F 检验法 6.3 根据汉格尔矩阵估计模型的阶次</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><th></th><th>合计</th><th style="text-align:right">24</th><th style="text-align:right"></th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 系统建模与辨识理论与技术发展史上，一批中外科学家敢于挑战自我，突破认知禁区，取得巨大成就，通过学习这些技术的发明过程和控制理论的建立过程，激发学生的科学精神。</li><li><b>第2章</b> 理解系统所含不同的类型的噪声以及对系统的影响，理解系统中噪声的好处与危害，和科学的应对方法，在未来生活和工作中学会利用噪声以及抑制噪声的方法与技术方法，利用专业知识保护国家财产安全，并培养科学的创新精神。</li><li><b>第4章</b> 领会系统辨识会存在多种方案，学会对不同方案进行评价，发展学生的高阶思维，培养学生学无止境、追求真理的科学精神。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10031801.html">查看原始页面</a><a href="../json/10031801.json">下载 JSON</a><a href="../txt/10031801.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

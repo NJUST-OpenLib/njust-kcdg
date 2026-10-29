@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>开关电源设计与应用 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>开关电源设计与应用<span class="tag on">在用</span></h1><div class="sub">课程编号 10041601</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10041601</td></tr><tr><th>英文名称</th><td>Design  Application of Switching Power Supply</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>3</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人</th><td>胡文斌</td></tr><tr><th>审核人</th><td>杨飞</td></tr><tr><th>总学时</th><td>48</td></tr><tr><th>讲课学时</th><td>40</td></tr><tr><th>实验学时</th><td>8</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>(未填):10%；(未填):10%；(未填):10%；(未填):20%；(未填):50%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>掌握各种常用开关电源变换器，如隔离型DC/DC变换器、有源功率因数校正变换器等的工作原理以及分析方法，掌握元器件的选型计算方法，能进行方案设计并对电路性能进行验证。毕业要求2.3</li><li>掌握常用开关电源系统缓冲电路和保护电路的设计方法，能结合不同工况提出解决方案，并对应用效果进行有效分析，比较不同方案的优缺点。毕业要求2.3</li><li>掌握磁性元件设计技术；了解高频开关电源中的磁元件（包括高频变压器和电感器）的设计方法和制作工艺；能独立设计、制作电感和变压器，并完成实验和调试，拥有解决相关专业问题的能力。毕业要求3.2</li><li>能够了解并掌握开关电源设计的基本流程，根据系统工况对拓扑进行选型，对典型开关电源系统进行初步设计、搭建和调试；掌握电路性能测量方法以及实验方法。毕业要求4.2</li><li>掌握开关电源常用驱动和控制电路工作原理，学会采用电源控制芯片完成开关电源控制和保护电路设计。能结合具体应用提出解决方案，并进行分析评估。掌握相关开关控制电路的实验方法，初步具备调试和解决实际相关工程问题的能力。毕业要求4.2</li></ul><h2>课程简介</h2><p class="body">本课程是电气工程专业的专业基础课。主要介绍开关电源设计的基础知识、方法以及相关技能。重点介绍高频化发展背景下的常用开关电源拓扑工作原理、电路的驱动与保护、元件选型与设计方法以及综合应用。课程致力于培养学生对理论知识的应用能力，为今后从事开关电源理论研究和工程应用打下基础。
+ 教学内容主要包括四个方面: 
+（一）现代变换器拓扑及工作原理以及设计方法，包括隔离直流变换器、功率因数校正变换器、谐振变换器等；（二）开关电源中的高频磁元件设计；（三）电路保护和性能改进，包括软开关技术、过压过流保护技术等；（四）开关电源的驱动及控制技术以及实验方法，包括常用PWM控制芯片及其应用；电路测试方法等。
+ 修学该课程所需的预备知识：《电路》、《模拟电子技术》、《电力电子技术》等。</p><h2>教学目的与要求</h2><p class="body">本课程培养学生利用电力电子学相关知识，解决开关电源生产实际过程中分析、设计、调试的能力，为进后研究和从事电力电子技术工作打下坚实的基础。
+ 通过本课程的学习学生应掌握常用开关电源变换器的工作原理、能分析比较不同方案的优缺点；根据系统工况对电路元件进行参数设计和器件选型；能够了解并掌握开关电源设计的基本流程，对典型开关电源系统进行初步设计、搭建和调试；掌握电路性能测量方法以及评估方法；掌握多种软开关和保护电路技术的工作原理，能提出解决方案，并对应用结果进行有效分析；掌握高频开关电源中的磁元件（包括高频变压器和电感器）的设计方法，以及磁性元件制造和测量方法；掌握开关电源常用驱动和控制电路工作原理，能结合具体应用给出多种方案，并进行对比评估。介绍并拓展开关电源技术的新发展、新应用。
+ 本课程将培养学生严谨求实，精益求精、敢于创新的治学精神和追求真理的科学精神。。
+ 本课程支撑的毕业要求内涵观测点为：
+2.3 能够认识到电气工程及其自动化领域复杂工程问题有多种方案可选择，会通过文献资料研究，寻求可替代解决方案，并分析设计过程中的影响因素，获得有效结论。
+3.2 能够运用电气工程及其自动化专业知识，设计满足特定需求的系统、单元（部件）或工艺流程，并能够在设计环节中体现创新意识。
+4.2 能够根据实验方案，基于科学原理并采用科学方法对实验数据进行采集、分析与解释。</p><h2>教学内容</h2><p class="body">1.1什么是开关变换器和开关电源； 1.2DC/DC变换器的分类； 1.3DC/DC变换器的主回路使用元件； 1.4直流开关电源的特点、应用及其发展；
+2.1Buck变换器； 2.2Boost变换器； 2.3Buck-Boost变换器； 2.4Cuk变换器；
+3.1隔离型Buck变换器； 3.2隔离型Buck-Boost变换器；△★ 3.3单端变压隔离器的磁通复位技术；★ 3.4带隔离的Cuk变换器； 3.5双管正激式DC/DC变换器；△★ 3.6推挽变换器； 3.7全桥变换器；△ 3.8半桥变换器； 3.9双倍磁通效应及软启动；
+4.1磁性材料概述； 4.2磁性材料； 4.3变换器中磁芯的工作要求； 4.4线圈； 4.5功率变压器的设计；△★ 4.6电感和反激变压器的设计；△★
+5.1Buck变换器的设计举例； 5.2反激变换器的设计举例； 5.3双管正激变换器的设计举例；
+6.1概述； 6.2准谐振软开关变换器；△★ 6.3PWM软开关变换器； 6.4移相控制ZVS-PWM全桥变换器；△★ 6.5移相控制ZVZCS-PWM全桥变换器；★
+7.1CW3524脉冲宽度调制器； 7.2CW3525A脉冲宽度调制器； 7.3TL494型脉宽调制器； 7.4UC3846/3847电流控制型脉冲宽度调制器；△★ 7.5UC3842/3843电流控制型脉冲宽度调制器；△ 7.6相移脉冲宽度调制器谐振控制器； 7.7开关电源中常用的光电耦合器；△
+8.1概述； 8.2有源功率因数校正的基本原理及控制方法；△ 8.3有源功率因数校正的集成控制芯片； 8.4基于UC3854的有源功率因数校正电路；△★ 8.5基于FAN7930的有源功率因数校正电路； 8.6带PFC功能的单管反激变换器；△
+9.1驱动电路；△ 9.2保护电路； 9.3采样电路； 9.4同步整流电路；</p><h2>课程思政</h2><p class="body">通过讲述开关电源的发展历程，培养学生精益求精、追求真理、献身科学的精神，培养学生的创新精神。
+在介绍磁性元件设计时，结合实际系统的需求，让学生理论联系实际，培养学生解决复杂工程问题的能力。
+在介绍有源功率因数校正的实际应用时，可以融入党的十九大精神，社会主义核心价值观。</p><h2>章节安排（9 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1.1什么是开关变换器和开关电源； 1.2DC/DC变换器的分类； 1.3DC/DC变换器的主回路使用元件； 1.4直流开关电源的特点、应用及其发展；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">2</td><td>2.1Buck变换器； 2.2Boost变换器； 2.3Buck-Boost变换器； 2.4Cuk变换器；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">3</td><td>3.1隔离型Buck变换器； 3.2隔离型Buck-Boost变换器；△★ 3.3单端变压隔离器的磁通复位技术；★ 3.4带隔离的Cuk变换器； 3.5双管正激式DC/DC变换器；△★ 3.6推挽变换器； 3.7全桥变换器；△ 3.8半桥变换器； 3.9双倍磁通效应及软启动；</td><td class="n">6</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">9</td></tr><tr><td class="c">4</td><td>4.1磁性材料概述； 4.2磁性材料； 4.3变换器中磁芯的工作要求； 4.4线圈； 4.5功率变压器的设计；△★ 4.6电感和反激变压器的设计；△★</td><td class="n">6</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">5</td><td>5.1Buck变换器的设计举例； 5.2反激变换器的设计举例； 5.3双管正激变换器的设计举例；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">6</td><td>6.1概述； 6.2准谐振软开关变换器；△★ 6.3PWM软开关变换器； 6.4移相控制ZVS-PWM全桥变换器；△★ 6.5移相控制ZVZCS-PWM全桥变换器；★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">7</td><td>7.1CW3524脉冲宽度调制器； 7.2CW3525A脉冲宽度调制器； 7.3TL494型脉宽调制器； 7.4UC3846/3847电流控制型脉冲宽度调制器；△★ 7.5UC3842/3843电流控制型脉冲宽度调制器；△ 7.6相移脉冲宽度调制器谐振控制器； 7.7开关电源中常用的光电耦合器；△</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">8</td><td>8.1概述； 8.2有源功率因数校正的基本原理及控制方法；△ 8.3有源功率因数校正的集成控制芯片； 8.4基于UC3854的有源功率因数校正电路；△★ 8.5基于FAN7930的有源功率因数校正电路； 8.6带PFC功能的单管反激变换器；△</td><td class="n">4</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">7</td></tr><tr><td class="c">9</td><td>9.1驱动电路；△ 9.2保护电路； 9.3采样电路； 9.4同步整流电路；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><th></th><th>合计</th><th style="text-align:right">40</th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">48</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 通过讲述开关电源的发展历程，培养学生精益求精、追求真理、献身科学的精神，培养学生的创新精神。</li><li><b>第4章</b> 在介绍磁性元件设计时，结合实际系统的需求，让学生理论联系实际，培养学生解决复杂工程问题的能力。</li><li><b>第8章</b> 在介绍有源功率因数校正的实际应用时，可以融入党的十九大精神，社会主义核心价值观。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10041601.html">查看原始页面</a><a href="../json/10041601.json">下载 JSON</a><a href="../txt/10041601.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

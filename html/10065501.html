@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>控制工程中的博弈论 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>控制工程中的博弈论<span class="tag on">在用</span></h1><div class="sub">课程编号 10065501</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10065501</td></tr><tr><th>英文名称</th><td>Game Theory in Control Engineering</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人</th><td>叶茂娇</td></tr><tr><th>审核人</th><td>樊卫华</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>出勤、课堂表现、课堂练习:40%；课程论文:60%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>掌握博弈相关基础知识，包括相关定义和分析方法等</li><li>结合控制系统与工程中的典型案例，进行案例教学，了解博弈在控制系统与工程中的广泛应用，培养综合运用所学的博弈知识对实际问题进行分析和接解决的能力</li><li>为将来从事科学研究奠定一定的理论与技术基础，为将来解决复杂工程问题奠定知识和思维能力基础。</li></ul><h2>课程简介</h2><p class="body">博弈论广泛应用于多学科领域，如经济学，社会科学，控制科学，政治科学和生物演化学，能够提供给学生在战略交互作用下的分析工具。特别地，近年来，博弈论在控制系统与工程中起到了越来越广泛的作用。为此，本课程从基础理论出发，结合实际生活中的示例，讲解博弈入门知识及其在控制系统中的应用，主要内容包括：二人同时博弈、纳什均衡概念及其分析、序贯博弈、重复博弈及控制工程中的典型博弈问题。课堂采取讲授、小组游戏、小组讨论相结合的形式。通过讲授，帮助学生理解博弈论的要点和难点，通过小组游戏和讨论，帮助学生加深理解、扩展思维、提高分析问题、解决问题以及运用博弈思维思考现实问题的能力。本门课程需一定的数学及控制理论基础。</p><h2>教学目的与要求</h2><p class="body">通过本课程的学习学生能够说出博弈论的基本概念和定义、知道博弈论在社会科学各个领域的广泛应用。能够区别并解释博弈的不同类型、举例说明不同类型在现实中的具体存在形式，能够阐述博弈的基本分析方法并将博弈论的知识和方法运用到对现实新情况的解释与说明，能够用所学的博弈理论深入分析和理解现实问题，并提出对策方案。
+本课程以近平新时代中国特色社会主义思想为指引，着重培养学生理论联系实际的能力和独立思考、创新的科学态度，树立正确的人生观和价值观。</p><h2>教学内容</h2><p class="body">博弈论概述： 1.1 博弈定义 1.2 生活中的博弈问题举例 1.3 博弈论发展历史 1.4 博弈应用领域△ 1.5 博弈分类
+2 二人同时博弈 2.1 博弈三要素△ 2.2 矩阵支付表达 2.3 优势策略含义及分析 2.4 纳什均衡的定义及分析△★ 2.5 纳什均衡在古诺博弈和博川德模型中的应用△★ 2.6 纳什均衡的考察与验证△★ 2.7 弱劣势策略消去法及其应用△★
+3 混合策略纳什均衡 3.1 混合策略与纯策略 3.2 混合策略纳什均衡性质与的定义 3.3 期望支付 3.4 反应函数法求解混合策略纳什均衡△★
+4 序贯决策博弈 4.1 序贯决策博弈与博弈树 4.2 策略与行动 4.3 序贯博弈的纳什均衡 4.4 倒推法△★ 4.5 先动优势与后动优势
+5 同时博弈与序贯博弈 5.1 正规性表示与展开型表示 5.2 同时决策与序贯决策的混合博弈 5.3 树形博弈的子博弈 5.4 子博弈精炼纳什均衡△★ 5.5 完美博弈的库恩定理
+6 重复博弈与策略性行动 6.1 囚徒困境的有限重复△★ 6.2 囚徒困境的无限次重复△★ 6.3 策略性行动的分类 6.4 承诺及其可信性 6.5 威胁、允诺及其可信性
+7 控制系统与工程中的博弈论 7.1 工程博弈论 7.2 控制论与博弈论 7.2 控制系统与工程中的博弈论举例 7.3 电力系统控制与决策问题的博弈内涵 7.4 工程博弈的求解方法△</p><h2>课程思政</h2><p class="body">大国责任与零和博弈
+约翰纳什生平与启发
+中美贸易摩擦</p><h2>章节安排（7 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>博弈论概述： 1.1 博弈定义 1.2 生活中的博弈问题举例 1.3 博弈论发展历史 1.4 博弈应用领域△ 1.5 博弈分类</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>2 二人同时博弈 2.1 博弈三要素△ 2.2 矩阵支付表达 2.3 优势策略含义及分析 2.4 纳什均衡的定义及分析△★ 2.5 纳什均衡在古诺博弈和博川德模型中的应用△★ 2.6 纳什均衡的考察与验证△★ 2.7 弱劣势策略消去法及其应用△★</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">3</td><td>3 混合策略纳什均衡 3.1 混合策略与纯策略 3.2 混合策略纳什均衡性质与的定义 3.3 期望支付 3.4 反应函数法求解混合策略纳什均衡△★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">4</td><td>4 序贯决策博弈 4.1 序贯决策博弈与博弈树 4.2 策略与行动 4.3 序贯博弈的纳什均衡 4.4 倒推法△★ 4.5 先动优势与后动优势</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">5</td><td>5 同时博弈与序贯博弈 5.1 正规性表示与展开型表示 5.2 同时决策与序贯决策的混合博弈 5.3 树形博弈的子博弈 5.4 子博弈精炼纳什均衡△★ 5.5 完美博弈的库恩定理</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">6</td><td>6 重复博弈与策略性行动 6.1 囚徒困境的有限重复△★ 6.2 囚徒困境的无限次重复△★ 6.3 策略性行动的分类 6.4 承诺及其可信性 6.5 威胁、允诺及其可信性</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">7</td><td>7 控制系统与工程中的博弈论 7.1 工程博弈论 7.2 控制论与博弈论 7.2 控制系统与工程中的博弈论举例 7.3 电力系统控制与决策问题的博弈内涵 7.4 工程博弈的求解方法△</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 大国责任与零和博弈</li><li><b>第2章</b> 约翰纳什生平与启发</li><li><b>第4章</b> 中美贸易摩擦</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10065501.html">查看原始页面</a><a href="../json/10065501.json">下载 JSON</a><a href="../txt/10065501.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

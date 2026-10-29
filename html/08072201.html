@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>能源系统的多物理场仿真技术 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>能源系统的多物理场仿真技术<span class="tag on">在用</span></h1><div class="sub">课程编号 08072201</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>08072201</td></tr><tr><th>英文名称</th><td>Multiphysics Simulation Technology of Energy Systems</td></tr><tr><th>开课单位</th><td>能源与动力工程学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人</th><td>殷二帅</td></tr><tr><th>审核人</th><td>韩玉阁</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>出勤、课堂表现:10%；平时作业:30%；课程大论文:60%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>了解能源系统的基本原理、发展现状与未来趋势</li><li>掌握使用有限元工程软件针对能源应用研究过程中遇到的各种工程问题进行数值建模和分析优化设计的技能</li><li>具备通过继续学习掌握与能源工程相关的建模、仿真分析的新方法、新技术的自学能力</li><li>掌握常见传质、传热、动量、电学、光学仿真具体案例的软件操作方法</li></ul><h2>课程简介</h2><p class="body">“能源系统的多物理场仿真技术”课程是能源与动力工程专业的专业选修课，课程内容主要针对本专业常见的光伏发电、光热利用、燃料电池、能源利用系统等装置中的流动、传热、传质等问题，通过实例方式提供能源系统基本原理、仿真分析方法以及数据分析处理方法的认识、理解和应用，培养能源与功力工程领域工程实践能力，为后续专业课程的学习以及适应现代信息社会的快速变化奠定坚实的基础。
+教学内容：绪论、几何建模、网格划分、传质仿真、传热仿真、动量仿真、电学仿真、光学仿真、燃料电池仿真、太阳能光伏电池仿真
+主要先修课程：工程热力学、传热学、流体力学相关专业基础课程。</p><h2>教学目的与要求</h2><p class="body">了解能源系统的基本原理、发展现状与未来趋势；掌握使用有限元工程软件针对能源应用研究过程中遇到的各种工程问题进行数值建模和分析优化设计的技能；具备通过继续学习掌握与能源工程相关的建模、仿真分析的新方法、新技术的自学能力；掌握常见传质、传热、动量、电学、光学仿真具体案例的软件操作方法；并培养学生践行社会主义核心价值观，坚持文化自信，引导学生逐步树立科学世界观和人生观，提升学生爱国情怀，发展具有自主知识产权的科学技术，为国家和社会发展贡献力量。</p><h2>教学内容</h2><p class="body">1 绪论 1.1 能源使用与环境 1.2 当前能源利用概述 1.3 发展多物理场仿真技术的重要性
+2 几何建模 2.1 一维几何建模 2.2 二维几何建模△ 2.3 三维几何建模△ 2.4 复杂几何建模△★
+3 网格划分 3.1 自由网格划分 3.2 结构网格划分△ 3.3 边界网格划分△ 3.4 网格划分综合实例△★
+4 传质仿真 4.1 物质扩散原理及模型 4.2 Fick's model应用实例△ 4.3 Stefan-Maxwell model应用实例△ 4.4 Dusty gas model应用实例△
+5 传热仿真 5.1 传热仿真原理 5.2 换热器仿真△ 5.3 汽车刹车盘在刹车前后温度变化仿真 5.4 水杯中的自然对流仿真△★
+6 动量仿真 6.1 动量仿真原理 6.2 流体阀仿真 6.3 混合器内部流场数值模拟△★
+7 电学仿真 7.1 电学仿真原理 7.2 有效电导率的计算△
+8 光学仿真 8.1 光学仿真原理 8.2 碟式太阳能接收器仿真△ 8.3 六边形光栅仿真△
+9 燃料电池仿真 9.1 燃料电池简介 9.2 燃料电池建模仿真△★
+10 太阳能光伏电池仿真 10.1 光伏电池原理 10.2 光伏电池建模仿真△★</p><h2>课程思政</h2><p class="body">认识新能源系统是我国能源体系的重要组成部分以及对实现“碳达峰、碳中和”目标的关键作用，培养学生阶跃能源、低碳出行的绿色生活理念。
+让学生了解我国在课程相关领域的成就，增强学生服务新时代工业发展的意识。
+将自然科学理论联系工程实际，培养学生解决复杂问题的能力；树立学生节能减排的理念和对职业、社会、环境的责任感。</p><h2>章节安排（10 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1 绪论 1.1 能源使用与环境 1.2 当前能源利用概述 1.3 发展多物理场仿真技术的重要性</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>2 几何建模 2.1 一维几何建模 2.2 二维几何建模△ 2.3 三维几何建模△ 2.4 复杂几何建模△★</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">3</td><td>3 网格划分 3.1 自由网格划分 3.2 结构网格划分△ 3.3 边界网格划分△ 3.4 网格划分综合实例△★</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">4</td><td>4 传质仿真 4.1 物质扩散原理及模型 4.2 Fick's model应用实例△ 4.3 Stefan-Maxwell model应用实例△ 4.4 Dusty gas model应用实例△</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">5</td><td>5 传热仿真 5.1 传热仿真原理 5.2 换热器仿真△ 5.3 汽车刹车盘在刹车前后温度变化仿真 5.4 水杯中的自然对流仿真△★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">6</td><td>6 动量仿真 6.1 动量仿真原理 6.2 流体阀仿真 6.3 混合器内部流场数值模拟△★</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">7</td><td>7 电学仿真 7.1 电学仿真原理 7.2 有效电导率的计算△</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">8</td><td>8 光学仿真 8.1 光学仿真原理 8.2 碟式太阳能接收器仿真△ 8.3 六边形光栅仿真△</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">9</td><td>9 燃料电池仿真 9.1 燃料电池简介 9.2 燃料电池建模仿真△★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">10</td><td>10 太阳能光伏电池仿真 10.1 光伏电池原理 10.2 光伏电池建模仿真△★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 认识新能源系统是我国能源体系的重要组成部分以及对实现“碳达峰、碳中和”目标的关键作用，培养学生阶跃能源、低碳出行的绿色生活理念。</li><li><b>第9章</b> 让学生了解我国在课程相关领域的成就，增强学生服务新时代工业发展的意识。</li><li><b>第10章</b> 将自然科学理论联系工程实际，培养学生解决复杂问题的能力；树立学生节能减排的理念和对职业、社会、环境的责任感。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/08072201.html">查看原始页面</a><a href="../json/08072201.json">下载 JSON</a><a href="../txt/08072201.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

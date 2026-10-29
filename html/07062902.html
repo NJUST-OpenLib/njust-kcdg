@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>自然语言处理 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>自然语言处理<span class="tag on">在用</span></h1><div class="sub">课程编号 07062902</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>07062902</td></tr><tr><th>英文名称</th><td>Nature Language Processing</td></tr><tr><th>开课单位</th><td>经济管理学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人</th><td>章成志</td></tr><tr><th>审核人</th><td>杨慧</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>24</td></tr><tr><th>实验学时</th><td>8</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂表现:10%；平时作业:30%；期末考核:60%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>本课程将创新性的采用理论与应用相结合的方式展开教学，在讲解相关自然语言关键方法与技术的同时，也将注重对学生在具体应用情境下实际动手编程能力的锻炼。</li><li>通过本课程的学习，不仅能够引导学生构建数据科学思维体系，提升学生运用自然语言处理技术进行文本数据挖掘与应用的能力，也能提升学生对非结构化数据的感知能力，学会如何快速提取与分析海量的文本信息，自主地完成基础的自然语言处理应用任务。</li><li>掌握自然语言处理的流行方法、技术和应用，尤其是关键问题，如信息提取、文本分类等，懂得非结构化数据在大数据管理与应用中的实际应用，进而逐渐培养学生成为具备人工智能、数据思维和数据分析等专业能力的高素质复合型管理人才。</li></ul><h2>课程简介</h2><p class="body">“自然语言处理”是大数据管理与应用专业本科生的一门专业选修课。学生通过本课程的学习，能初步掌握自然语言处理的基本知识，具备从信息处理的角度思考问题和对自然语言进行简单形式化描述的能力，为进一步学习相关的研究打下基础。该课程主要包括自然语言处理基础、自然语言处理的基础技术、自然语言处理的应用技术等三个方面的内容。
+
+（1）自然语言处理基础：介绍自然语言处理基本概念、流派及挑战，讲解语言学基础，包括语言学与人类的语言、语言系统及其知识模型、语言的歧义性与创造性等，内容涉及第1,2章。
+
+（2）自然语言处理的基础技术： 在课内教学活动中，侧重培养学生理解自然语言处理的基本技术，包括词法分析、句法分析和语义分析，内容涉及第3、4、5章。
+
+（3）自然语言处理的应用技术：通过阅读相关的专业论文和课程作业的实现，了解自然语言处理的流行方法、技术和应用领域，以及发展趋势等，为毕业设计从事这方面的研究打下良好的基础，主要内容包括信息抽取、篇章分析、文本摘要与文本挖掘，涉及第6,、7、8章。 
+
+ 该门课程的预备知识包括：Python编程、概率论与数理统计、线性代数、机器学习等。</p><h2>教学目的与要求</h2><p class="body">本课程建设以紧密结合大数据管理与应用专业的人才培养方案为目标，旨在重点关注学生对文本大数据管理与应用能力的全面提升。本课程将创新性的采用理论与应用相结合的方式展开教学，在讲解相关自然语言关键方法与技术的同时，也将注重对学生在具体应用情境下实际动手编程能力的锻炼。通过本课程的学习，不仅能够引导学生构建数据科学思维体系，提升学生运用自然语言处理技术进行文本数据挖掘与应用的能力，也能提升学生对非结构化数据的感知能力，学会如何快速提取与分析海量的文本信息，自主地完成基础的自然语言处理应用任务，真正懂得非结构化数据在大数据管理与应用中的实际应用，进而逐渐培养学生成为具备人工智能、数据思维和数据分析等专业能力的高素质复合型管理人才。</p><h2>教学内容</h2><p class="body">第一章 绪论：什么是自然语言处理 △1.1 自然语言处理的定义； △1.2 自然语言处理的研究内容； 1.3 自然语言处理的流派； 1.4 自然语言处理的的挑战。
+第二章 现代语言学基础 2.1 语言学与人类的语言； 2.2 语言系统及其知识模型； 2.3 语言的歧义性与创造性； △2.4 语言知识资源。
+△第三章 词法分析 3.1 词形分析； 3.2 词语切分； 3.3 词性标注。
+第四章 句法分析 4.1 概述； ★4.2 短语结构句法分析； 4.3 依存结构句法分析； 4.4 句法分析语料。
+第五章 语义分析 5.1语义的形式化表示； ★5.2 词义消歧； 5.3 语义角色标注。
+第六章 信息抽取 ★6.1 命名实体识别； 6.2 实体关系抽取； 6.3 事件抽取； 6.4 实体链接； △6.5 开放域信息抽取。
+第七章 篇章分析 7.1 概述； 7.2 共指消解； 7.3 话题分割； 7.4 篇章关系分析。
+★第八章 文本摘要与文本挖掘 8.1 文本摘要； 8.2 文本分类； 8.3 文本聚类。</p><h2>课程思政</h2><p class="body">引导学生提高教学认知，对计算机的软件应用产生本国保护意识，养成良好的思政教育作用模式.,
+了解汉语中词的地位，注意区分汉语“词”和英语”词“，深刻理解文化自信，主动传承中国语言文化。
+了解信息抽取在舆情分析、评论挖掘等大数据环境中的应用，培养学生解决实际问题的能力。</p><h2>章节安排（8 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>第一章 绪论：什么是自然语言处理 △1.1 自然语言处理的定义； △1.2 自然语言处理的研究内容； 1.3 自然语言处理的流派； 1.4 自然语言处理的的挑战。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>第二章 现代语言学基础 2.1 语言学与人类的语言； 2.2 语言系统及其知识模型； 2.3 语言的歧义性与创造性； △2.4 语言知识资源。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">3</td><td>△第三章 词法分析 3.1 词形分析； 3.2 词语切分； 3.3 词性标注。</td><td class="n">4</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">4</td><td>第四章 句法分析 4.1 概述； ★4.2 短语结构句法分析； 4.3 依存结构句法分析； 4.4 句法分析语料。</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">5</td><td>第五章 语义分析 5.1语义的形式化表示； ★5.2 词义消歧； 5.3 语义角色标注。</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">6</td><td>第六章 信息抽取 ★6.1 命名实体识别； 6.2 实体关系抽取； 6.3 事件抽取； 6.4 实体链接； △6.5 开放域信息抽取。</td><td class="n">4</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">7</td><td>第七章 篇章分析 7.1 概述； 7.2 共指消解； 7.3 话题分割； 7.4 篇章关系分析。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">8</td><td>★第八章 文本摘要与文本挖掘 8.1 文本摘要； 8.2 文本分类； 8.3 文本聚类。</td><td class="n">4</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><th></th><th>合计</th><th style="text-align:right">24</th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 引导学生提高教学认知，对计算机的软件应用产生本国保护意识，养成良好的思政教育作用模式.,</li><li><b>第3章</b> 了解汉语中词的地位，注意区分汉语“词”和英语”词“，深刻理解文化自信，主动传承中国语言文化。</li><li><b>第6章</b> 了解信息抽取在舆情分析、评论挖掘等大数据环境中的应用，培养学生解决实际问题的能力。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/07062902.html">查看原始页面</a><a href="../json/07062902.json">下载 JSON</a><a href="../txt/07062902.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>芯片封装热管理 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>芯片封装热管理<span class="tag on">在用</span></h1><div class="sub">课程编号 08075601</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>08075601</td></tr><tr><th>英文名称</th><td>Thermal Management of Chip Packaging</td></tr><tr><th>开课单位</th><td>能源与动力工程学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(含实践环节)</td></tr><tr><th>课程负责人</th><td>李佳琦</td></tr><tr><th>审核人</th><td>韩玉阁</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>26</td></tr><tr><th>实验学时</th><td>6</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>出勤、课堂表现:10%；课后学习和测试:10%；PPT汇报和讨论:30%；课程作业:50%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>了解芯片工作中涉及的热问题及其基本热管理方法</li><li>掌握常用芯片封装材料的热学性质的理论与实验研究方法</li><li>实现运用相关知识分析常用芯片封装工艺在热管理方面的优点与不足</li><li>对未来的高功率芯片封装原理和技术的发展具备前瞻性思考</li></ul><h2>课程简介</h2><p class="body">随着微电子器件向体积更小、功能更强和效率更高的方向发展，散热已经成为电子封装设计中要考虑的关键问题。针对高功率芯片的封装，必须要在散热原理、散热材料和散热设计上取得突破，以应对器件高温造成的不利影响。为了让学生对主要的芯片封装热管理原理与技术有详细而深入的认识与理解，对国际前沿的芯片热管理技术有前瞻性的了解，特开设本课程。本课程主要教学内容从芯片产热、传热与散热基本原理出发，侧重于芯片封装热管理技术，主要教学内容包括：芯片封装发展趋势、芯片制造基础知识、芯片产热与散热技术基础、芯片封装技术与材料、芯片封装热设计、芯片封装热管理及评价方法等。学习本课程所需预备知识包括：高等数学、固体物理学、传热学、流体力学、热物理量测试技术等课程中涉及的基本原理与方法。该课程的学习为学生将来从事相关热设计研究工作和工程设计打下良好基础。</p><h2>教学目的与要求</h2><p class="body">集成电路是我国实现社会发展、经济振兴、国力增强的战略研究领域之一。学生学习本课程后应理解高温对芯片正常工作的负面影响、掌握芯片封装材料传热性能的测量与调控方法、实现运用相关理论和软件对芯片封装进行热设计、能够采用相关测温方法评估芯片热管理措施的控温效果。在综合了解封装材料物性、设计高效散热结构的基础上，能够根据高热流、小尺寸、极端工作环境等实际问题提出具有针对性的创新方案。本课程也将安排一些相关实验，培养和提高学生的动手能力，使学生打下一定的科学研究基础。通过本课程的各种教学环节，在潜移默化中使学生了解微电子技术对我国科技发展的关键作用，介绍我国在建设世界一流国家道路上取得的重要成就，激发学生对我国科技快速发展的自豪感和爱国情怀，激励学生将来在各自工作岗位上为国家科技发展做出贡献。</p><h2>教学内容</h2><p class="body">1 芯片制造与封装发展 1.1 概述 1.2 芯片主要制造工艺 1.3 芯片封装介绍△ 1.4 芯片封装与热管理基础△
+2 2D封装及散热技术 2.1 陶瓷封装集成结构 2.2 多芯片堆叠封装结构△★ 2.3 埋入式封装结构 2.4 封装体堆叠封装结构 2.5 双面封装结构 2.6 MEMS封装结构△★ 2.7 SiP和SoC封装对比△★
+3 封装材料表征方法 3.1 概述 3.2 传热性能及其测量技术△★ 3.3 电性能测量技术 3.4 热力学性能表征 3.5 磁学特性分析技术 3.6 表面特性表征技术△ 3.7 界面结合特性表征△★
+4 先进封装热管理技术 4.1 封装集成基板及其散热强化 4.2 先进热界面材料及界面热阻的调控方法△★ 4.3 封装壳体及其散热强化△★ 4.4 高导热金属基复合材料△ 4.5 微通道复合相变热管理技术的研究进展△★
+5 2.5D 封装及散热技术 5.1 TSV中介层的结构与特点 5.2 TSV中介层技术发展与应用△ 5.3 2.5D TSV 中介层封装热设计与仿真△★ 5.4 2.5D TSV中介层封装研究实例
+6 3D芯片封装及散热技术 6.1 3D芯片封装集成方法 6.2 异质芯片3D集成 6.3 3D封装芯片中的热管理★ 6.4 3D芯片散热影响因素及改进△ 6.5 3D集成芯片中的电迁移 6.5 3D集成芯片中热力学可靠性★
+7 嵌入式芯片近结热管理技术 7.1 概念 7.2 TTSV工艺及其热管理 7.3 高导热异质散热材料集成及其热管理△★ 7.4 嵌入式微通道优化设计△ 7.5 流电互连一体化封装集成 7.5 基于TSV的热-电-力-流多物理场耦合优化△★</p><h2>课程思政</h2><p class="body">介绍集成电路作为21世纪科技竞争制高点所面临的发展瓶颈，了解国家的重大需求，培养学生追求科技进步、勇于担当重任的高尚品格。
+先进芯片的制造技术直接关系到国家经济发展和国防建设，而温度的控制对芯片安全高效运行至关重要，芯片封装热管理技术有助于我国早日实现芯片制造自主化和自给自足的目标。
+介绍我国科技工作者在芯片温度控制方面做出的突出贡献以及对未来科技发展的推动作用，培养学生对我国科技发展的自信心。</p><h2>章节安排（7 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1 芯片制造与封装发展 1.1 概述 1.2 芯片主要制造工艺 1.3 芯片封装介绍△ 1.4 芯片封装与热管理基础△</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>2 2D封装及散热技术 2.1 陶瓷封装集成结构 2.2 多芯片堆叠封装结构△★ 2.3 埋入式封装结构 2.4 封装体堆叠封装结构 2.5 双面封装结构 2.6 MEMS封装结构△★ 2.7 SiP和SoC封装对比△★</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">3</td><td>3 封装材料表征方法 3.1 概述 3.2 传热性能及其测量技术△★ 3.3 电性能测量技术 3.4 热力学性能表征 3.5 磁学特性分析技术 3.6 表面特性表征技术△ 3.7 界面结合特性表征△★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">4</td><td>4 先进封装热管理技术 4.1 封装集成基板及其散热强化 4.2 先进热界面材料及界面热阻的调控方法△★ 4.3 封装壳体及其散热强化△★ 4.4 高导热金属基复合材料△ 4.5 微通道复合相变热管理技术的研究进展△★</td><td class="n">3</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">5</td><td>5 2.5D 封装及散热技术 5.1 TSV中介层的结构与特点 5.2 TSV中介层技术发展与应用△ 5.3 2.5D TSV 中介层封装热设计与仿真△★ 5.4 2.5D TSV中介层封装研究实例</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">6</td><td>6 3D芯片封装及散热技术 6.1 3D芯片封装集成方法 6.2 异质芯片3D集成 6.3 3D封装芯片中的热管理★ 6.4 3D芯片散热影响因素及改进△ 6.5 3D集成芯片中的电迁移 6.5 3D集成芯片中热力学可靠性★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">7</td><td>7 嵌入式芯片近结热管理技术 7.1 概念 7.2 TTSV工艺及其热管理 7.3 高导热异质散热材料集成及其热管理△★ 7.4 嵌入式微通道优化设计△ 7.5 流电互连一体化封装集成 7.5 基于TSV的热-电-力-流多物理场耦合优化△★</td><td class="n">5</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><th></th><th>合计</th><th style="text-align:right">26</th><th style="text-align:right">6</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 介绍集成电路作为21世纪科技竞争制高点所面临的发展瓶颈，了解国家的重大需求，培养学生追求科技进步、勇于担当重任的高尚品格。</li><li><b>第4章</b> 先进芯片的制造技术直接关系到国家经济发展和国防建设，而温度的控制对芯片安全高效运行至关重要，芯片封装热管理技术有助于我国早日实现芯片制造自主化和自给自足的目标。</li><li><b>第7章</b> 介绍我国科技工作者在芯片温度控制方面做出的突出贡献以及对未来科技发展的推动作用，培养学生对我国科技发展的自信心。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/08075601.html">查看原始页面</a><a href="../json/08075601.json">下载 JSON</a><a href="../txt/08075601.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

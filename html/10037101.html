@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>航天控制概论 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>航天控制概论<span class="tag on">在用</span></h1><div class="sub">课程编号 10037101</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10037101</td></tr><tr><th>英文名称</th><td>Introduction to Astronautics Control</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>戚国庆</td></tr><tr><th>审核人</th><td>樊卫华</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>(未填):10%；(未填):20%；(未填):70%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>在熟练掌握自动控制理论的基础上，运用所学过的数学及控制理论专业知识，分析航天器轨道动力学特性，分析控制系统模型；</li><li>能够运用所学过的数学及控制理论相关知识对航天器系统性能进行分析，能够通过查阅文献，对航天控制问题最新研究成果进行学习和探究；</li><li>能够运用所学的控制理论针对航天任务的特定需求，分析控制系统相关设计方法，通过对航天任务的深入分析培养创新意识；</li><li>能够运用所学习的航天器轨道动力学特性及控制原理，不断探究相关领域的先进科学技术方法，能够根据搜集的资料设计实验、分析和解释数据结果；</li><li>能够利用Matlab等工具软件，测试、验证航天飞行器轨道动力学特性和分析相关控制策略。</li></ul><h2>课程简介</h2><p class="body">航天器控制是一门重要而高度综合的技术，它的发展对现代军事和社会生活产生了广泛而深远的影响。随着我国航天事业的迅速发展，迫切需要掌握航天飞行器控制机理的专门人才。通过本课程的学习，可以领略和掌握航天器控制的基础理论知识，丰富学生的知识结构，并能拓展学生的就业面和就业层次，更好地为我国的科学技术现代化服务。
+
+ 本课程涉及与航天控制相关的运载工具发展、轨道运动学及动力学分析、航天控制系统组成及原理、航天器空间机动基础理论、航天器的发射与回收、航天器子系统组成，以及太空资源利用等内容。课程的教学目标是了解航天领域发展现状，熟练掌握航天二体动力学理论及轨道分析方法、熟悉航天器控制相关原理、熟悉航天发射、回收及空间机动的原理。
+
+ 预备知识：控制工程基础，现代控制理论基础，导航技术基础，控制系统计算机辅助设计等。
+
+ 考核与成绩记载方式：综合考虑课堂表现（考勤）、平时作业、期末开卷笔试等。</p><h2>教学目的与要求</h2><p class="body">通过本课程的学习，使学生掌握有关空间飞行器运动分析以及航天器导航与控制的基本理论，了解相关技术在国民经济各个领域中的地位与发挥的作用。对学生的具体要求有：
+
+ (1) 熟悉航天任务的基本组成；
+
+ (2) 理解空间轨道的定义、描述，理解变轨的基本方法，能够借助软件工具，熟练绘制航天器运行轨道，并能够分析航天器运动参数；
+
+ (3) 理解航天器发射及返回技术，能够根据航天任务要求，分析航天器发射窗口；
+
+ (4) 掌握航天器控制系统的组成，姿态与轨道控制的基本理论与技术，能够独立分析航天器控制算法。</p><h2>教学内容</h2><p class="body">1.绪论 1.1 世界航天技术发展的概况 1.2 航天器的分类与系统组成 1.3 航天器控制的基本概念
+2.航天器的轨道与轨道力学△ 2.1 航天器轨道的基本定律 2.2 二体轨道力学和运动方程 2.3 航天器轨道的几何特性 2.4 航天器的轨道描述★ 2.5 计算轨道根数★ 2.6 轨道预测★ 2.7 航天器的轨道摄动 2.8 欧拉-希尔方程★
+3. 进入轨道和空间机动△ 3.1 进入轨道 3.2 空间机动 3.3 交会对接
+4.火箭与运载工具 4.1 火箭科学 4.2 热动力火箭与喷嘴△ 4.3 热动力火箭的分类 4.4 电动力火箭 4.5 其它类型的推进方法 4.6 运载工具
+5.姿态运动学与动力学分析 5.1 航天器的姿态运动学△ 5.2 航天器的姿态动力学△ 5.3 航天器的一般运动方程★ 5.4 姿态干扰力矩
+6.航天器控制系统 6.1 姿态控制△ 6.2 轨道控制△ 6.3 载人飞船的控制技术 6.4 航天飞机的控制技术
+7.星际旅行△ 7.1 星际旅行规划 7.2 圆锥曲线拼接法 7.3 引力辅助轨迹
+8.航天器再入返回技术 8.1 返回运动分析 8.2 弹道设计△ 8.3 飞行器设计的参数选择△ 8.4 升力式返回
+9.航天器的被动姿态控制系统 9.1 自旋卫星的稳定性和章动性△ 9.2 自旋卫星的章动阻尼★ 9.3 双自旋卫星稳定系统 9.4 重力梯度稳定系统△ 9.5 重力梯度稳定卫星的天平动阻尼★ 9.6 重力梯度稳定系统的伸缩杆 9.7 重力梯度稳定卫星姿态捕获 9.8 其它类型被动姿态稳定系统
+10.航天器子系统 10.1 通信与数据处理子系统 10.2 电源子系统 10.3 环境控制与生命保障子系统△ 10.4 结构与机械装置
+11.利用太空 11.1 航天工业△ 11.2 航天政治△ 11.3 航天经济</p><h2>课程思政</h2><p class="body">通过了解航天控制领域的国内外学者，特别是国内学者的故事，以及中国航天事业的发展历程，增强“四个自信”，树立崇高的报效国家的人生观和责任感。
+通过了解航天器二体动力学模型、轨道参数表示形式以及航天器相对运动方程，在掌握近地轨道航天器运动规律的基础上，拓展专业知识，培养创新性思维。
+通过理解载人飞船再入返回地球的动力学模型、运动方程，培养学生创新性思维。</p><h2>章节安排（11 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1.绪论 1.1 世界航天技术发展的概况 1.2 航天器的分类与系统组成 1.3 航天器控制的基本概念</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>2.航天器的轨道与轨道力学△ 2.1 航天器轨道的基本定律 2.2 二体轨道力学和运动方程 2.3 航天器轨道的几何特性 2.4 航天器的轨道描述★ 2.5 计算轨道根数★ 2.6 轨道预测★ 2.7 航天器的轨道摄动 2.8 欧拉-希尔方程★</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">3</td><td>3. 进入轨道和空间机动△ 3.1 进入轨道 3.2 空间机动 3.3 交会对接</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">4</td><td>4.火箭与运载工具 4.1 火箭科学 4.2 热动力火箭与喷嘴△ 4.3 热动力火箭的分类 4.4 电动力火箭 4.5 其它类型的推进方法 4.6 运载工具</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">5</td><td>5.姿态运动学与动力学分析 5.1 航天器的姿态运动学△ 5.2 航天器的姿态动力学△ 5.3 航天器的一般运动方程★ 5.4 姿态干扰力矩</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">6</td><td>6.航天器控制系统 6.1 姿态控制△ 6.2 轨道控制△ 6.3 载人飞船的控制技术 6.4 航天飞机的控制技术</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">7</td><td>7.星际旅行△ 7.1 星际旅行规划 7.2 圆锥曲线拼接法 7.3 引力辅助轨迹</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">8</td><td>8.航天器再入返回技术 8.1 返回运动分析 8.2 弹道设计△ 8.3 飞行器设计的参数选择△ 8.4 升力式返回</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">9</td><td>9.航天器的被动姿态控制系统 9.1 自旋卫星的稳定性和章动性△ 9.2 自旋卫星的章动阻尼★ 9.3 双自旋卫星稳定系统 9.4 重力梯度稳定系统△ 9.5 重力梯度稳定卫星的天平动阻尼★ 9.6 重力梯度稳定系统的伸缩杆 9.7 重力梯度稳定卫星姿态捕获 9.8 其它类型被动姿态稳定系统</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">10</td><td>10.航天器子系统 10.1 通信与数据处理子系统 10.2 电源子系统 10.3 环境控制与生命保障子系统△ 10.4 结构与机械装置</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">11</td><td>11.利用太空 11.1 航天工业△ 11.2 航天政治△ 11.3 航天经济</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 通过了解航天控制领域的国内外学者，特别是国内学者的故事，以及中国航天事业的发展历程，增强“四个自信”，树立崇高的报效国家的人生观和责任感。</li><li><b>第2章</b> 通过了解航天器二体动力学模型、轨道参数表示形式以及航天器相对运动方程，在掌握近地轨道航天器运动规律的基础上，拓展专业知识，培养创新性思维。</li><li><b>第8章</b> 通过理解载人飞船再入返回地球的动力学模型、运动方程，培养学生创新性思维。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10037101.html">查看原始页面</a><a href="../json/10037101.json">下载 JSON</a><a href="../txt/10037101.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
