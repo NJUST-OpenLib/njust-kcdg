@@ -192,6 +192,42 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Vowels and Consonants (2nd edition)",
+   "editor": "Peter Ladefoged",
+   "isbn": "978-1405124584",
+   "press": "Blackwell Publishing",
+   "year": "2005"
+  },
+  {
+   "title": "A Course in Phonetics (7th edition)",
+   "editor": "Peter Ladefoged, Kieth Johnson",
+   "isbn": "9787301279328",
+   "press": "北京大学出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [
+  {
+   "name": "元音声学实验",
+   "content": "使用Praat录音，测量英语和汉语普通话元音的第一、第二共振峰，使用坐标图画出元音空间",
+   "hours": "1",
+   "type": "操作性实验"
+  },
+  {
+   "name": "超音段声学实验",
+   "content": "使用Praat录音，测量韵律的时长、音强和基频。",
+   "hours": "1",
+   "type": "操作性实验"
+  },
+  {
+   "name": "辅音声学实验",
+   "content": "使用Praat录音，测量塞音的响音起始时间及起始基频，测量鼻音及其所在音节的音强和基频。",
+   "hours": "1",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C153E0CFB413404D9A6F9DD7ADA51626",
  "hasOriginal": true
 }

@@ -115,6 +115,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "现代焊接机器人实践讲义",
+   "editor": "冯曰海",
+   "isbn": "自编",
+   "press": "南京理工大学",
+   "year": "2008"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=16035202",
  "hasOriginal": true
 }

@@ -142,6 +142,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "日语写作教程",
+   "editor": "凌蓉、山岸爱美",
+   "isbn": "978-7-5446-5091-5",
+   "press": "上海外语教育出版社",
+   "year": "2018年6月1日"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4452D5E3AAD845699CD1FABDC2A97D05",
  "hasOriginal": true
 }

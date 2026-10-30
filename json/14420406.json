@@ -241,6 +241,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "新编日语第四册（重排版）",
+   "editor": "周平、陈小芬",
+   "isbn": "978-7-5446-5895-9",
+   "press": "上海外语教育出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4A2AAE475A844F2F9403FFE3CEB163C6",
  "hasOriginal": true
 }

@@ -127,6 +127,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "高级日语2",
+   "editor": "吴侃、村木新次郎",
+   "isbn": "978-7-5446-2489-3",
+   "press": "上海外语教育出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=75879A18E8084BB7AED70D2FE85C9A90",
  "hasOriginal": true
 }

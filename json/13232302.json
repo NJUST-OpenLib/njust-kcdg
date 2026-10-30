@@ -101,6 +101,49 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Mathematical Foundations\nfor Data Analysis",
+   "editor": "Jeff M. Phillips",
+   "isbn": "ISBN 978-3-030-62340-1",
+   "press": "Springer",
+   "year": "2021"
+  },
+  {
+   "title": "Mathematical Foundations of Data Sciences",
+   "editor": "Gabriel Peyre",
+   "isbn": "",
+   "press": "https://mathematical-tours.github.io\nwww.numerical-tours.com",
+   "year": "2021"
+  },
+  {
+   "title": "A Mathematical Introduction to Data Science",
+   "editor": "Yuan Yao",
+   "isbn": "",
+   "press": "https://www.math.pku.edu.cn/teachers/yaoy/2014.fall/",
+   "year": "2014"
+  }
+ ],
+ "labs": [
+  {
+   "name": "数据降维问题",
+   "content": "针对高维数据，利用PCA、流形学习方法进行降维",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "数据分类问题",
+   "content": "利用LR、SVM、VB等方法对图像进行分类",
+   "hours": "4",
+   "type": "验证性实验"
+  },
+  {
+   "name": "数据的稀疏表示",
+   "content": "利用不同域的稀疏先验，对数据进行稀疏表示",
+   "hours": "2",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C1411461F8C0446988344A3D39BEF568",
  "hasOriginal": true
 }

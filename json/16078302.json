@@ -140,6 +140,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《激光加工》",
+   "editor": "曹凤国",
+   "isbn": "9787122217820",
+   "press": "化学工业出版社",
+   "year": "2015"
+  },
+  {
+   "title": "《增材制造与 3D 打印技术及应用》",
+   "editor": "杨占尧, 赵敬云",
+   "isbn": "9787302588511",
+   "press": "清华大学出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [
+  {
+   "name": "激光增材实验",
+   "content": "掌握激光增材的基本原理及设备使用方法",
+   "hours": "4",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D42CA61FD2B445EB9EADFD43EADDF4EA",
  "hasOriginal": true
 }

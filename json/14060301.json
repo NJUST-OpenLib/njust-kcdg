@@ -139,6 +139,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "法律英语",
+   "editor": "沙丽金",
+   "isbn": "ISBN 978-7-5620-6895-2",
+   "press": "中国政法大学出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=29543659E6074D4FA24E02B1BEF05538",
  "hasOriginal": true
 }

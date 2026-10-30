@@ -112,6 +112,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "知识产权国际保护",
+   "editor": "叶建川等",
+   "isbn": "978-7-5130-5073-9",
+   "press": "知识产权出版社",
+   "year": "2017"
+  },
+  {
+   "title": "知识产权国际保护制度研究",
+   "editor": "吴汉东",
+   "isbn": "978-8-0198-708-2",
+   "press": "知识产权出版社",
+   "year": "2007"
+  },
+  {
+   "title": "知识产权的国际保护",
+   "editor": "董新凯等",
+   "isbn": "978-7-5130-0045-1",
+   "press": "知识产权出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=15052001",
  "hasOriginal": true
 }

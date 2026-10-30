@@ -140,6 +140,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Manufacturing Technology —Foundry, Forming and Welding（制造技术—铸造、成形和焊接）原版",
+   "editor": "P N Rao",
+   "isbn": "978-7-111-2906704",
+   "press": "机械工业出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=57042A10F6934C438E15F37C55E726FD",
  "hasOriginal": true
 }

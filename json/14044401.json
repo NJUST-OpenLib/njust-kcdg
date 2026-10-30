@@ -111,6 +111,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "日本国家概况",
+   "editor": "刘笑明",
+   "isbn": "9787310014644",
+   "press": "南开大学出版社",
+   "year": "2007"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14044401",
  "hasOriginal": true
 }

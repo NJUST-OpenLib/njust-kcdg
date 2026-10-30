@@ -73,6 +73,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "工科数学分析（第三版，下册）【教材】",
+   "editor": "马知恩、王棉森",
+   "isbn": "",
+   "press": "高等教育出版社",
+   "year": "2018"
+  },
+  {
+   "title": "微积分和数学分析引论（第二卷）",
+   "editor": "R.柯朗、F.约翰",
+   "isbn": "",
+   "press": "科学出版社",
+   "year": "2005"
+  },
+  {
+   "title": "数学分析（下册）",
+   "editor": "华东师范大学数学系",
+   "isbn": "",
+   "press": "高等教育出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=92B044C58E944ACF9E2F32F9C2BA5E55",
  "hasOriginal": true
 }

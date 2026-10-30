@@ -128,6 +128,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《中国文化概论（修订版）》",
+   "editor": "廖华英",
+   "isbn": "978-7-5135-5668-2",
+   "press": "外语教学与研究出版社",
+   "year": "2015"
+  },
+  {
+   "title": "《新指南跨文化思想文化英语》",
+   "editor": "赵雪琴、刘进",
+   "isbn": "978-7-100-16078-0",
+   "press": "上海外语音像出版社、商务印书馆",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5E9AC0C420FE4EEFA309AC24031D52D0",
  "hasOriginal": true
 }

@@ -153,6 +153,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《现代表面工程技术》",
+   "editor": "姜银方",
+   "isbn": "9787502579210",
+   "press": "化学工业出版社",
+   "year": "2006"
+  },
+  {
+   "title": "《现代表面技术》",
+   "editor": "钱苗根",
+   "isbn": "9787111018988",
+   "press": "机械工业出版社",
+   "year": "2002"
+  }
+ ],
+ "labs": [
+  {
+   "name": "激光选区熔化增材实验",
+   "content": "掌握激光增材的基本原理及设备使用方法",
+   "hours": "2",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=16024201",
  "hasOriginal": true
 }

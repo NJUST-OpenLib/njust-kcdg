@@ -153,6 +153,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "现代大学英语精读3",
+   "editor": "杨立民",
+   "isbn": "9787513516938",
+   "press": "外语教学与研究出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8620B4D6099D4E09B26ED9686F371E78",
  "hasOriginal": true
 }

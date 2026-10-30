@@ -113,6 +113,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "英汉比较与翻译",
+   "editor": "秦洪武王克非",
+   "isbn": "9787513504416",
+   "press": "外语教学与研究出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14046901",
  "hasOriginal": true
 }

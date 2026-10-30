@@ -182,6 +182,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "新编语用学教程",
+   "editor": "陈新仁",
+   "isbn": "9787521322750",
+   "press": "外语教学与研究出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=783E29EF292841F28626FB1536AFE91B",
  "hasOriginal": true
 }

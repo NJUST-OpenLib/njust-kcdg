@@ -139,6 +139,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "英语专业八级考试模拟试题集",
+   "editor": "李战子",
+   "isbn": "9787544641739",
+   "press": "上海外语教育出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14045802",
  "hasOriginal": true
 }

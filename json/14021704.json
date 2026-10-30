@@ -126,6 +126,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "英语短篇小说",
+   "editor": "王守仁，刘玉红，赵宇",
+   "isbn": "978-7-3050-9551-1",
+   "press": "南京大学出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=791FEE77D57F415CAA21517E567960A7",
  "hasOriginal": true
 }

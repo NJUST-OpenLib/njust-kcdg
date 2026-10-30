@@ -113,6 +113,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国家赔偿法：原理与案例（第3版）",
+   "editor": "沈岿",
+   "isbn": "9787301327975",
+   "press": "北京大学出版社",
+   "year": "2022"
+  },
+  {
+   "title": "行政法与行政诉讼法学（第2版）",
+   "editor": "应松年",
+   "isbn": "978-7-04-050118-6",
+   "press": "高等教育出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=15050101",
  "hasOriginal": true
 }

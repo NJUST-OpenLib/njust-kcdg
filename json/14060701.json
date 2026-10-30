@@ -166,6 +166,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《新视野大学英语：读写教程》第三、四册",
+   "editor": "郑树棠",
+   "isbn": "978-7-5135-5734-3",
+   "press": "外语教学与研究出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070F6A1499294B5586505D97C24327AB",
  "hasOriginal": true
 }

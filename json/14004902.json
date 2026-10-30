@@ -141,6 +141,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "演讲的艺术（第十三版）",
+   "editor": "Stephen E. Lucas",
+   "isbn": "978-7-5213-1284-3",
+   "press": "外语教学与研究出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14004902",
  "hasOriginal": true
 }

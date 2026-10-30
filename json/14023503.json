@@ -113,6 +113,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "语言产生--心理语言学的视角",
+   "editor": "杨玉芳",
+   "isbn": "9787567587977",
+   "press": "华东师范大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "心理语言学",
+   "editor": "杨玉芳",
+   "isbn": "9787030427717",
+   "press": "科学出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6CCF4802A66248F99BEF224C3E8C9F63",
  "hasOriginal": true
 }

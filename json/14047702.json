@@ -139,6 +139,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "无",
+   "editor": "",
+   "isbn": "",
+   "press": "",
+   "year": ""
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A9F5697D2FF242359D98ECE45A35A3D1",
  "hasOriginal": true
 }

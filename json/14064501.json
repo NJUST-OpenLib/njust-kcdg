@@ -85,6 +85,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "语料库语言学—理论、工具与案例",
+   "editor": "刘华",
+   "isbn": "978-7521-3-2283-5",
+   "press": "外语教学与研究出版社",
+   "year": "2020"
+  },
+  {
+   "title": "注：\n1.",
+   "editor": "",
+   "isbn": "",
+   "press": "",
+   "year": ""
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A6E15470577F4EEC8DF1EACF893241BF",
  "hasOriginal": true
 }

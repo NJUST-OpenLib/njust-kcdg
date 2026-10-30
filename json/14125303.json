@@ -101,6 +101,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "新编大学德语 第二册（第二版）",
+   "editor": "朱建华",
+   "isbn": "ISBN978-7-5135-0484-3",
+   "press": "外语教学与研究出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14125303",
  "hasOriginal": true
 }

@@ -164,6 +164,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《增材制造与3D打印技术及应用》",
+   "editor": "杨占尧",
+   "isbn": "",
+   "press": "清华大学出版社",
+   "year": "2017"
+  },
+  {
+   "title": "《增材制造技术及应用实例》",
+   "editor": "王广春",
+   "isbn": "",
+   "press": "机械工业出版社",
+   "year": "2014"
+  },
+  {
+   "title": "《3D打印和增材制造的原理及应用》",
+   "editor": "蔡志楷",
+   "isbn": "",
+   "press": "国防工业出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [
+  {
+   "name": "机器人电弧增材实验",
+   "content": "学会工业机器人操作，利用CMT等电弧增材工艺方法打印简易金属构件，分析外观成形质量，优化工艺参数。",
+   "hours": "4",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=71DD98687BB34EF28F8D5CFE0D6829FE",
  "hasOriginal": true
 }

@@ -112,6 +112,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《科技论文写作教程》",
+   "editor": "赵秀珍",
+   "isbn": "9787564004460",
+   "press": "北京理工大学出版社",
+   "year": "2005"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=394892A2144649F78786FC44064CB3D0",
  "hasOriginal": true
 }

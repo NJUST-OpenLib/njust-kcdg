@@ -101,6 +101,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "材料科学基础",
+   "editor": "潘金生、田民波、仝健民",
+   "isbn": "9787302247616",
+   "press": "清华大学出版社",
+   "year": "2011"
+  },
+  {
+   "title": "Materials Science and Engineering – An Introduction",
+   "editor": "William D. Callister",
+   "isbn": "978-0-471-73696-7",
+   "press": "John Wiley&Sons, Inc.",
+   "year": "2007"
+  },
+  {
+   "title": "材料科学基础",
+   "editor": "吴锵、刘瑛、丁锡锋",
+   "isbn": "9787118078664",
+   "press": "北京：国防工业出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A9335A7A535641AB94B0E3D415227935",
  "hasOriginal": true
 }

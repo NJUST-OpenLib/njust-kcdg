@@ -112,6 +112,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Magnetism and Magnetic Materials",
+   "editor": "J.M.D. Coey",
+   "isbn": "9780521816144",
+   "press": "Cambridge University Press",
+   "year": "2010"
+  },
+  {
+   "title": "Magnetic Materials Fundamentals, Products, Properties, Applications",
+   "editor": "Hilzinger, Rainer, Rodewald, Werner",
+   "isbn": "9783895783524",
+   "press": "Wiley",
+   "year": "2013"
+  },
+  {
+   "title": "Physics of Magnetism and Magnetic Materials",
+   "editor": "K.H.J. Buschow, F.R.De Boer",
+   "isbn": "9780306474217",
+   "press": "Springer, Boston, MA",
+   "year": "2003"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B95BD4AABCE34E968A53E3132893C422",
  "hasOriginal": true
 }

@@ -101,6 +101,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "新訂版　聞いておぼえる関西（大阪）弁入門",
+   "editor": "岡本牧子、氏原庸子、真田信治（監修）",
+   "isbn": "9784894762961",
+   "press": "ひつじ書房",
+   "year": "2006"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14244001",
  "hasOriginal": true
 }

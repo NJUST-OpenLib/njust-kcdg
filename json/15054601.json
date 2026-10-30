@@ -177,6 +177,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "法社会学（第三版）",
+   "editor": "朱景文",
+   "isbn": "978-7-300-17129-6",
+   "press": "中国人民大学出版社",
+   "year": "2013"
+  },
+  {
+   "title": "法社会学",
+   "editor": "Niklas Luhmann 著，宾凯 赵春燕 译",
+   "isbn": "978-7-208-11456-2",
+   "press": "上海人民出版社",
+   "year": "2013"
+  },
+  {
+   "title": "法社会学",
+   "editor": "何珊君 著",
+   "isbn": "978-7-301-22798-5",
+   "press": "北京大学出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=15054601",
  "hasOriginal": true
 }

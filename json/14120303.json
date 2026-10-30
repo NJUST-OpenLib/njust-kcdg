@@ -125,6 +125,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《走遍俄罗斯3》",
+   "editor": "赵桂莲",
+   "isbn": "978-7-5600-7917-2",
+   "press": "外语教学与研究出版社",
+   "year": "2008.10（2021.11重印）"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E016E675CA00449A87DBA8AA4B799FA3",
  "hasOriginal": true
 }

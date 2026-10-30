@@ -141,6 +141,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "新版中日交流标准日本语初级(第二版)下册",
+   "editor": "（中日合编）唐磊等",
+   "isbn": "9787107278303",
+   "press": "人民教育出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14125403",
  "hasOriginal": true
 }

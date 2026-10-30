@@ -243,6 +243,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "新日本语学入门——考察语言的结构",
+   "editor": "庵功雄",
+   "isbn": "9787560040738",
+   "press": "外语教学与研究出版社",
+   "year": "2005年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6AF2EAB3615B4DCA9BDC1927E994CE3F",
  "hasOriginal": true
 }

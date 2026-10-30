@@ -74,6 +74,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "中国文化读本（英文版）",
+   "editor": "朱良志，叶朗",
+   "isbn": "",
+   "press": "外语教学与研究出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=293871350BC1443184F07D4C56F7778E",
  "hasOriginal": true
 }

@@ -196,6 +196,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《口译教程》",
+   "editor": "雷天放 陈菁",
+   "isbn": "978-7-81095-935-3",
+   "press": "上海外语教育出版社",
+   "year": "2007"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=86A0B7E1CE6748A7B6B8058DF293D7F5",
  "hasOriginal": true
 }

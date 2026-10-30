@@ -167,6 +167,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "英美报刊高级阅读教程",
+   "editor": "段云礼",
+   "isbn": "978-7-8113-4915-3",
+   "press": "对外经济贸易大学出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14021402",
  "hasOriginal": true
 }

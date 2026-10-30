@@ -166,6 +166,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "全新版大学高阶英语：综合教程 学生用书3,4",
+   "editor": "夏国佐, 吴晓真",
+   "isbn": "978-7-5446-6819-4",
+   "press": "上海外语教育出版社",
+   "year": "2021"
+  },
+  {
+   "title": "《新视野大学英语：读写教程》第三、四册",
+   "editor": "郑树棠",
+   "isbn": "978-7-5135-5687-3",
+   "press": "外语教学与研究出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B563E7CDB39D4AF89F0DBC06962A538C",
  "hasOriginal": true
 }

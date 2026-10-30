@@ -154,6 +154,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "焊接自动化技术及其应用",
+   "editor": "胡绳荪",
+   "isbn": "9787111208129",
+   "press": "机械工业出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [
+  {
+   "name": "基于PLC的电机控制",
+   "content": "学习了解基于PLC控制电机的基本原理，对整个电器控制线路进行分析和设计，掌握弧焊控制系统的设计、安装和调试。",
+   "hours": "4",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BEA082F92B104A74B1F271A6291DCEEE",
  "hasOriginal": true
 }

@@ -129,6 +129,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Western Civilizations: Their History and Their Culture",
+   "editor": "Cole, Joshua",
+   "isbn": "978-0-4957-9641-1",
+   "press": "W. W. Norton & Company",
+   "year": "2011"
+  },
+  {
+   "title": "西方文明史手册",
+   "editor": "[美]威廉·H. 麦克尼尔",
+   "isbn": "978-7-3081-5514-4",
+   "press": "浙江大学出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=9A20229E902B404087926BE6B9F8AAFE",
  "hasOriginal": true
 }

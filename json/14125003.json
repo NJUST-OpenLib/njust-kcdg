@@ -192,6 +192,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "理解当代中国英语读写教程",
+   "editor": "孙有中",
+   "isbn": "",
+   "press": "外语教学与研究出版社",
+   "year": "2022"
+  },
+  {
+   "title": "英语写作教程(第一册)（第二版）",
+   "editor": "徐李洁",
+   "isbn": "9787300291802",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=96A54461E61B4248B45D0A54ECE13C73",
  "hasOriginal": true
 }

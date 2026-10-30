@@ -155,6 +155,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Core Syntax: A Minimalist Approach",
+   "editor": "David Adger",
+   "isbn": "978-0-1992-4370-9",
+   "press": "Oxford University Press",
+   "year": "2003"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=AF29BD455C3449A39FC0747121FCE96B",
  "hasOriginal": true
 }

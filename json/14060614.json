@@ -100,6 +100,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "雅思精品阅读",
+   "editor": "贾若寒、赵瑜斌",
+   "isbn": "978-7-313-21164-4/H",
+   "press": "上海交通大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "Cambridge English IELTS",
+   "editor": "Cambridge ESOL",
+   "isbn": "978-0-521-71906-3",
+   "press": "Cambridge University Press",
+   "year": "2014"
+  },
+  {
+   "title": "雅思听力官方题库",
+   "editor": "王燕",
+   "isbn": "978-7-305-10948-5",
+   "press": "南京大学出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=DD0B98C3E2FC414A9D1D99846A673B12",
  "hasOriginal": true
 }

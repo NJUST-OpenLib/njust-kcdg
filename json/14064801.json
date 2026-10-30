@@ -75,6 +75,42 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Research methods in language acquisition: Principles, procedures, and practices",
+   "editor": "María Blume,Barbara C. Lust,Yuchin Chien, Cristina D. Dye, Claire A. Foley, and Yarden Kedar",
+   "isbn": "",
+   "press": "American Psychological Association",
+   "year": "2017"
+  },
+  {
+   "title": "Research Methods in Child Language: A practical guide",
+   "editor": "Erika Hof",
+   "isbn": "",
+   "press": "Wiley-Blackwell",
+   "year": "2012"
+  }
+ ],
+ "labs": [
+  {
+   "name": "Comprehension tasks",
+   "content": "操作语言理解性实验任务，包括 (1) the Peabody Picture Vocabulary Test, (2) Pointing task, (3) Gramaticality judgment task 和 (4) Truth value judgment task 等。",
+   "hours": "8",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Nonverbal tasks",
+   "content": "操作非语言实验任务，包括 (1) The habituation task, (2) The intermodal preferential looking task 和 (3) The looking-while-listening task 等。",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Production tasks",
+   "content": "操作语言产出实验任务，包括 (1) Repetition tasks 和 (2) Syntactic priming 等。熟悉语料搜集流程，并使用CHILIDES语料库获取目标语料。",
+   "hours": "8",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=90D3FE809CD14E53810FBD1A198F9051",
  "hasOriginal": true
 }

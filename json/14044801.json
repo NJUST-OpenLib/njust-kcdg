@@ -138,6 +138,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "日语专业毕业论文写作指导",
+   "editor": "[日]松下和幸，[日]松下佐智子",
+   "isbn": "978-7-5446-4874-5",
+   "press": "上海外语教育出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14044801",
  "hasOriginal": true
 }

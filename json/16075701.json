@@ -127,6 +127,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "大学生创新教程",
+   "editor": "曹培强",
+   "isbn": "9787512909496",
+   "press": "中国人事出版社",
+   "year": "2015"
+  },
+  {
+   "title": "智能制造概论",
+   "editor": "李培根，高亮",
+   "isbn": "9787302579076",
+   "press": "清华大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "企业家和创新创业精神",
+   "editor": "顾庆良",
+   "isbn": "978-7-302-57432-3",
+   "press": "东北大学出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=2B9CBC24D1C64FA2AD1DA61F6CF5C82B",
  "hasOriginal": true
 }

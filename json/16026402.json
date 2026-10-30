@@ -138,6 +138,36 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "微纳米技术及其应用",
+   "editor": "李德胜，关佳亮，石照耀等",
+   "isbn": "703015288",
+   "press": "科学出版社",
+   "year": "2005"
+  },
+  {
+   "title": "微纳米加工技术及其应用",
+   "editor": "崔铮",
+   "isbn": "9877040369749",
+   "press": "高等教育出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [
+  {
+   "name": "光刻试验（2）",
+   "content": "对光刻制备的纳米结构进行表征及刻蚀，要求掌握表征方法和刻蚀的关键步骤控制",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "光刻试验（1）",
+   "content": "采用光刻系统曝光获得纳米结构图形，要求掌握光刻的操作步骤",
+   "hours": "2",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=443B8D14CF7D4C8CB85CD75F1ECA1E9E",
  "hasOriginal": true
 }

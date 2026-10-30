@@ -127,6 +127,36 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《智能化焊接机器人技术》",
+   "editor": "陈善本，林涛",
+   "isbn": "9787111180227",
+   "press": "机械工业出版社",
+   "year": "2006"
+  },
+  {
+   "title": "《数字化设计与制造 第3版》",
+   "editor": "苏春",
+   "isbn": "9787111621393",
+   "press": "机械工业出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [
+  {
+   "name": "简易PLC程序设计及仿真验证",
+   "content": "熟悉可编程逻辑控制器基本工作原理；能够设计简易PLC程序，并在仿真器上开展功能验证",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Solidworks三维建模基本操作",
+   "content": "掌握数字化设计基本概念及其在软件中的应用；了解Solidworks软件特点及主要功能；熟悉Solidworks软件基本建模操作",
+   "hours": "2",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=75A09D24227C41219F658E1969BFA722",
  "hasOriginal": true
 }

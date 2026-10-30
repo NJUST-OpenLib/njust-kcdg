@@ -177,6 +177,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "解析深度学习：语音识别实践",
+   "editor": "俞栋、邓力著，俞凯、钱彦旻等译",
+   "isbn": "978-7-121-28796-1",
+   "press": "中国工信出版集团、电子工业出版社",
+   "year": "2019"
+  },
+  {
+   "title": "语音信号处理",
+   "editor": "韩纪庆、张磊、郑铁然",
+   "isbn": "978-7-302-51760-3",
+   "press": "清华大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C1C48AF24EE345DF97EE6E988F7818F8",
  "hasOriginal": true
 }

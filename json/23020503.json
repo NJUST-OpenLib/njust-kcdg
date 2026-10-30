@@ -154,6 +154,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "实习操作指导书",
+   "editor": "电子部",
+   "isbn": "",
+   "press": "内部资料",
+   "year": ""
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=23020503",
  "hasOriginal": true
 }

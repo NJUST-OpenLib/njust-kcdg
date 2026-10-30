@@ -103,6 +103,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Transformational Grammar: A First Course",
+   "editor": "Andrew Radford",
+   "isbn": "9780521347501",
+   "press": "Cambridge University Press",
+   "year": "1988"
+  },
+  {
+   "title": "Verb Meaning and the Lexicon: A First-Phase Syntax",
+   "editor": "Gillian Ramchand",
+   "isbn": "9780521842402",
+   "press": "Cambridge University Press",
+   "year": "2008"
+  },
+  {
+   "title": "The Normal Course of Events",
+   "editor": "Hagit Borer",
+   "isbn": "9780199263929",
+   "press": "Oxford University Press",
+   "year": "2005"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D088ECD9277447B19C6C34CDD400038A",
  "hasOriginal": true
 }

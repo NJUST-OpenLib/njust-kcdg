@@ -165,6 +165,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Audiovisual translation: subtitling",
+   "editor": "Jorge Diaz Cintas and Aline Remael",
+   "isbn": "9781315759678",
+   "press": "Routledge",
+   "year": "2007"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BEA71AD4455A45D5956C4A605BB96F0F",
  "hasOriginal": true
 }

@@ -137,6 +137,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "现代科技日语",
+   "editor": "陈瑞英、朱琳",
+   "isbn": "9787308102667",
+   "press": "浙江大学出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=482BA9CBDAFA468DA8FF1BAD3B56D736",
  "hasOriginal": true
 }

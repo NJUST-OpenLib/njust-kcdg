@@ -242,6 +242,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Articulatory Phonetics",
+   "editor": "Bryan Gick, Ian Wilson, Donald Derrick",
+   "isbn": "978-1-4051-9321-4",
+   "press": "Wiley-Blackwell",
+   "year": "2013"
+  },
+  {
+   "title": "Phonetic Data Analysis",
+   "editor": "Peter Ladefoged",
+   "isbn": "978-0-631-23270-4",
+   "press": "Blackwell",
+   "year": "2011"
+  },
+  {
+   "title": "Acoustic and Auditory Phonetics",
+   "editor": "Keith Johnson",
+   "isbn": "978-1-405-19466-2",
+   "press": "Wiley-Blackwell",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4409A649C2D34B4C81ED171ADC849DD2",
  "hasOriginal": true
 }

@@ -139,6 +139,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "How to Write and Publish a Scientific Paper",
+   "editor": "Barbara Gastel, Robert A. Day",
+   "isbn": "9781440842634",
+   "press": "Green Wood",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=00E54FFAADFB47629FF52110D25DA58F",
  "hasOriginal": true
 }

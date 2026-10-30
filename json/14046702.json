@@ -182,6 +182,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Semantics",
+   "editor": "John Saeed",
+   "isbn": "978-1118430163",
+   "press": "Oxford: Wiley-Blackwell",
+   "year": "2011"
+  },
+  {
+   "title": "Semantics: An Introduction to Meaning in Language",
+   "editor": "Ronnie Cann, Ruth Kempson, Eleni Gregoromichelaki",
+   "isbn": "978-0521819626",
+   "press": "Cambridge",
+   "year": "2009"
+  },
+  {
+   "title": "Semantics",
+   "editor": "Kate Kearns",
+   "isbn": "978-0230232303",
+   "press": "Palgrave Macmillan",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=48C16CE3998040B587B459E29D987004",
  "hasOriginal": true
 }

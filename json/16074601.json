@@ -144,6 +144,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "无",
+   "editor": "无",
+   "isbn": "无",
+   "press": "无",
+   "year": "无"
+  }
+ ],
+ "labs": [
+  {
+   "name": "南京博物院参观",
+   "content": "分组组长带领一组同学到南京博物院的主要涉及金属艺术品的展馆参观，包括青铜器陈列馆、谢子好珍宝馆、吴为山文化名人雕塑馆等等。",
+   "hours": "2",
+   "type": "演示性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=08258DE5FA384D5EB1E874441ECE22FC",
  "hasOriginal": true
 }

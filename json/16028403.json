@@ -153,6 +153,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《微电子焊接技术》第二版",
+   "editor": "薛鹏等",
+   "isbn": "978-7-111-66863-3",
+   "press": "机械工业出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [
+  {
+   "name": "无铅钎料显微组织观察",
+   "content": "通过观察无铅钎料金相试样的显微组织，了解无铅钎料金相试样制备的基本方法,熟悉锡基无铅钎料的典型组织特征。",
+   "hours": "4",
+   "type": "演示性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=16028403",
  "hasOriginal": true
 }

@@ -245,6 +245,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《英美报刊阅读精选》",
+   "editor": "郝昕荣、李君",
+   "isbn": "978-7-305-23137-7",
+   "press": "南京大学出版社",
+   "year": "2020.06"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8B73E75BFA204355837427A3FFA64161",
  "hasOriginal": true
 }

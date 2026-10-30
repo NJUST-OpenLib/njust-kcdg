@@ -126,6 +126,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《朗诵艺术旨要（第2版）》",
+   "editor": "曾致",
+   "isbn": "9787565706950",
+   "press": "中国传媒大学出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14047401",
  "hasOriginal": true
 }

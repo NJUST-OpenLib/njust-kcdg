@@ -75,6 +75,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "材料科学基础",
+   "editor": "吴锵",
+   "isbn": "",
+   "press": "国防工业出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=49BEAD6B964B43B49B75B809EDDB96D4",
  "hasOriginal": true
 }

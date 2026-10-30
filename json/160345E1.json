@@ -112,6 +112,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Introduction to Nanoscience and Nanomaterials",
+   "editor": "Dinesh C Agrawal",
+   "isbn": "",
+   "press": "World Scientific",
+   "year": "2013"
+  },
+  {
+   "title": "Nanostructures and Nanomaterials",
+   "editor": "Guozhong Cao and Ying Wang",
+   "isbn": "",
+   "press": "World Scientific",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=18C772708A6F4F45AEFD2DB27F002F0E",
  "hasOriginal": true
 }

@@ -151,6 +151,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "信息网络法学",
+   "editor": "孙占利",
+   "isbn": "978-7-561-54399-3",
+   "press": "厦门大学出版社",
+   "year": "2022"
+  },
+  {
+   "title": "网络法学",
+   "editor": "于志刚",
+   "isbn": "978-7-562-08848-6",
+   "press": "中国政法大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "网络、电子商务与数据法",
+   "editor": "吴伟光",
+   "isbn": "978-7-302-55074-7",
+   "press": "清华大学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=15055101",
  "hasOriginal": true
 }

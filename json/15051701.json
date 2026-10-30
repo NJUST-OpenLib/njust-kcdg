@@ -138,6 +138,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "专利法原理",
+   "editor": "马一德",
+   "isbn": "978-7-0405-6440-2",
+   "press": "高等教育出版社",
+   "year": "2021"
+  },
+  {
+   "title": "专利法原理（第2版）",
+   "editor": "[美] Roger？？Schechter,？John？？Thomas.著，余仲儒等译.",
+   "isbn": "978-7-5130-3626-9",
+   "press": "知识产权出版社",
+   "year": "2016"
+  },
+  {
+   "title": "专利法原论",
+   "editor": "彭玉勇",
+   "isbn": "978-7-5197-3389-6",
+   "press": "法律出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=15051701",
  "hasOriginal": true
 }

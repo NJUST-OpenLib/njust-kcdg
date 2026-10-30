@@ -178,6 +178,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "应用语言学定量数据统计分析SPSS22.0",
+   "editor": "蒲显伟",
+   "isbn": "自编",
+   "press": "",
+   "year": ""
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A836AEC83ED24E9BACA08DF9F61A277D",
  "hasOriginal": true
 }

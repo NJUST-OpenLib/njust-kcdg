@@ -190,6 +190,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Engineering Materials 1: An Introduction to Properties, Applications and Design",
+   "editor": "Ashby, Michael F.; Jones, D. R. H.,",
+   "isbn": "",
+   "press": "Elsevier Science & Technology Books.",
+   "year": ""
+  },
+  {
+   "title": "Mechanical behavior of materials",
+   "editor": "Thomas H. Courtney",
+   "isbn": "",
+   "press": "McGraw-Hill Inc",
+   "year": "2000"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=19708D31741B4A0C91BBEDF4CF0F514A",
  "hasOriginal": true
 }

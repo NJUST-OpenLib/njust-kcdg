@@ -190,6 +190,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "法理学（第二版）",
+   "editor": "张文显、信春鹰 等",
+   "isbn": "978-7-010-22827-3",
+   "press": "人民出版社高等教育出版社",
+   "year": "2021"
+  },
+  {
+   "title": "法理学（第四版）",
+   "editor": "朱景文",
+   "isbn": "978-7-300-29608-1",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "法理学（第五版）",
+   "editor": "舒国滢",
+   "isbn": "978-7-300-26466-0",
+   "press": "中国人民大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=57A10140",
  "hasOriginal": true
 }

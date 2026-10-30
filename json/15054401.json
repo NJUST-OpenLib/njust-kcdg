@@ -152,6 +152,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "法律方法教程",
+   "editor": "孙笑侠",
+   "isbn": "9787040552270",
+   "press": "高等教育出版社",
+   "year": "2020"
+  },
+  {
+   "title": "法律方法阶梯（第四版）",
+   "editor": "郑永流",
+   "isbn": "9787301316320",
+   "press": "北京大学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=15054401",
  "hasOriginal": true
 }

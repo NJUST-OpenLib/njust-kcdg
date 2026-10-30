@@ -178,6 +178,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "近代中国与日本--互动与影响（参考书）",
+   "editor": "王晓秋",
+   "isbn": "9787800407934",
+   "press": "昆仑出版社",
+   "year": "2005年"
+  },
+  {
+   "title": "近现代中日文化交流概说：1840-1990（教材）",
+   "editor": "孙承",
+   "isbn": "9787562077527",
+   "press": "中国政法大学出版社",
+   "year": "2017年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=7968461C0A0945038979B378F95271AF",
  "hasOriginal": true
 }

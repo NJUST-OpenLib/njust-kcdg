@@ -75,6 +75,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "现代语言学名著选读",
+   "editor": "郑玉荣、 王庆忠",
+   "isbn": "",
+   "press": "哈尔滨工程大学",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C6D797B7E1C34070B5105E786422398E",
  "hasOriginal": true
 }

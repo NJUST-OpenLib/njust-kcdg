@@ -60,6 +60,29 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "语言学方法论:实验方法",
+   "editor": "桂诗春",
+   "isbn": "9787513595179",
+   "press": "外语教学与研究出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [
+  {
+   "name": "E-Prime实验教学",
+   "content": "E-prime软件的安装、设置、实验设计和运行、数据的导出和简单分析",
+   "hours": "8",
+   "type": "综合性实验"
+  },
+  {
+   "name": "眼动实验教学",
+   "content": "眼动实验的设计；眼动仪的调试、校准、数据采集；眼动数据的初步分析",
+   "hours": "12",
+   "type": "验证性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=592116921E56482F882CBB631D9E1D29",
  "hasOriginal": true
 }

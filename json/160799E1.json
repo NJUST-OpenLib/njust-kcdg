@@ -145,6 +145,44 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Concepts of Nanochemistry",
+   "editor": "Ludovico Cademartiri, Geoffrey A. Ozin, Jean-Marie Lehn",
+   "isbn": "978-3-527-32626-6",
+   "press": "John Wiley & Sons",
+   "year": "2009"
+  },
+  {
+   "title": "Intermolecular and Surface Forces (Third Edition)",
+   "editor": "Jacob N. Israelachvili",
+   "isbn": "978-0123919274",
+   "press": "Elsevier",
+   "year": "2011"
+  },
+  {
+   "title": "Nanochemistry: A Chemical Approach to Nanomaterials (Edition 2)",
+   "editor": "Geoffrey A Ozin, Andr？ Arsenault, Ludovico Cademartiri",
+   "isbn": "978-1-84755-895-4",
+   "press": "Royal Society of Chemistry",
+   "year": "2008"
+  },
+  {
+   "title": "Chemistry of Nanomaterials Fundamentals and Applications",
+   "editor": "Tahir Awan, Almas Bashir, Aqsa Tehseen",
+   "isbn": "‘9780128189085",
+   "press": "Elsevier",
+   "year": "2020"
+  },
+  {
+   "title": "Nanostructures and Nanomaterials: Synthesis, Properties, and Applications (2nd Edition)",
+   "editor": "Guozhong Cao, Ying Wang",
+   "isbn": "978-9814322508",
+   "press": "World Scientific",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=63AAAEB6E91B4B5EBC17D63291825DED",
  "hasOriginal": true
 }

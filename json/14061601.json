@@ -141,6 +141,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "SFLEP专门用途英语：理工英语听说教程",
+   "editor": "刘芹 顾定兰",
+   "isbn": "9787544661027",
+   "press": "上海外语教育出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5C837E628631458289F0DAE347FB95D1",
  "hasOriginal": true
 }

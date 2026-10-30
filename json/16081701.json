@@ -76,6 +76,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "焊接自动化技术及其应用",
+   "editor": "胡绳荪",
+   "isbn": "9787111208129",
+   "press": "机械工业出版社",
+   "year": "2007"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=0CE256A7CF50490AA7ACCE68D938032C",
  "hasOriginal": true
 }

@@ -88,6 +88,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《学术英语(理工)》第二版",
+   "editor": "蔡基刚",
+   "isbn": "978-7-5135-7239-2",
+   "press": "外语教学与研究出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BEA3AA05C79240569F070FC7B977C931",
  "hasOriginal": true
 }

@@ -191,6 +191,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "日语视听说教程（附音视频）",
+   "editor": "陆留弟、陆薇薇、劳轶琛",
+   "isbn": "978-7-5628-6320-5",
+   "press": "华东理工大学出版社",
+   "year": "2021年8月1日"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=23437345A2EB4EC0897553A77436EB21",
  "hasOriginal": true
 }

@@ -100,6 +100,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "日汉翻译方法",
+   "editor": "陶振孝",
+   "isbn": "9787513505666",
+   "press": "外语教学与研究出版社",
+   "year": "2011年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=589D394A66B4411FADA8E06C9309B410",
  "hasOriginal": true
 }
