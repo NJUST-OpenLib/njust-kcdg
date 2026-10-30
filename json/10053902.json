@@ -177,6 +177,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "工业控制网络安全技术与实践",
+   "editor": "姚羽等",
+   "isbn": "9787111569077",
+   "press": "机械工业出版社",
+   "year": "2017"
+  },
+  {
+   "title": "工业控制系统安全",
+   "editor": "[美]？帕斯卡·阿克曼（Pascal Ackerman） 著，蒋蓓 宋纯 梁邬江 刘璐等译？译",
+   "isbn": "9787111652007",
+   "press": "机械工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=758E174174864C53923F237727C2A9E9",
  "hasOriginal": true
 }

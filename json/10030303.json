@@ -87,6 +87,41 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "EDA技术实用教程",
+   "editor": "潘松",
+   "isbn": "9787030585592",
+   "press": "科学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [
+  {
+   "name": "步进电机控制实验",
+   "content": "完成驱动设计并验证",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "数据采集实验",
+   "content": "完成电路设计、驱动设计并验证",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "直流电机的测速实验",
+   "content": "完成驱动设计并验证",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "步进电机驱动实验",
+   "content": "完成驱动设计并验证",
+   "hours": "4",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10030303",
  "hasOriginal": true
 }

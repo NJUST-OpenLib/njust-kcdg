@@ -75,6 +75,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "泛函分析讲义（第二版）（上）",
+   "editor": "张恭庆，林源渠",
+   "isbn": "9787301309643",
+   "press": "北京大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "泛函分析",
+   "editor": "W.Rudin",
+   "isbn": "9787111654742",
+   "press": "机械工业出版社",
+   "year": "2020"
+  },
+  {
+   "title": "现代数学物理方法，第一卷：泛函分析",
+   "editor": "M.Reed, B.Simon",
+   "isbn": "9787506259316",
+   "press": "世界图书出版公司",
+   "year": "2003"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11037201",
  "hasOriginal": true
 }

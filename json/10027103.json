@@ -87,6 +87,36 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "自动控制原理（第六版，参考书）",
+   "editor": "胡寿松",
+   "isbn": "978-7-03-037056-3",
+   "press": "科学出版社",
+   "year": "2013"
+  },
+  {
+   "title": "Modern Control Systems （第十二版，教材）",
+   "editor": "R.C. Dorf and R.H. Bishop",
+   "isbn": "978-7-121-25414-7",
+   "press": "电子工业出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [
+  {
+   "name": "一级倒立摆控制系统的实时控制",
+   "content": "设计LQR控制器进行实时控制",
+   "hours": "4",
+   "type": "设计性实验"
+  },
+  {
+   "name": "一级倒立摆控制系统的数学模型及数值仿真",
+   "content": "建立模型，设计控制器进行数字仿真",
+   "hours": "4",
+   "type": "验证性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10027103",
  "hasOriginal": true
 }

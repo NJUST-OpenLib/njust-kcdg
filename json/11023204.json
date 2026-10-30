@@ -140,6 +140,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "线性代数与空间解析几何(第三版)",
+   "editor": "哈尔滨工业大学数学系，郑宝东主编",
+   "isbn": "978-7-04-023904-1",
+   "press": "高等教育出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11023204",
  "hasOriginal": true
 }

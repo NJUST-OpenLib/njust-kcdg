@@ -125,6 +125,29 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "机器人驱动与控制及应用实例",
+   "editor": "黄志坚？",
+   "isbn": "9787122264152",
+   "press": "化学工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [
+  {
+   "name": "局部路径规划算法实验",
+   "content": "局部路径规划算法，完成算法仿真",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "全局路径规划算法实验",
+   "content": "全局路径规划算法，完成算法仿真",
+   "hours": "4",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=58F053F3EEB94D8BA35133D58AF38A58",
  "hasOriginal": true
 }

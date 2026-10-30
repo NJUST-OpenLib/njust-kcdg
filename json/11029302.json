@@ -219,6 +219,62 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "数学模型（第五版）",
+   "editor": "姜启源、谢金星、叶俊",
+   "isbn": "978-7-04-049222-4",
+   "press": "高等教育出版社",
+   "year": "2018"
+  },
+  {
+   "title": "数学建模与数学实验(第二版)",
+   "editor": "汪晓银、周保平",
+   "isbn": "978-7-03-035256-9",
+   "press": "科学出版社",
+   "year": "2012"
+  },
+  {
+   "title": "大学数学实验(第二版)",
+   "editor": "姜启源、谢金星、邢文训等",
+   "isbn": "978-7-302-24077-4",
+   "press": "清华大学出版社",
+   "year": "2010"
+  },
+  {
+   "title": "数学实验与数学软件",
+   "editor": "许春根、李宝成等",
+   "isbn": "978-7-5641-8652-4",
+   "press": "东南大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [
+  {
+   "name": "Mathematica软件应用",
+   "content": "1-2示例",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Python软件应用",
+   "content": "1-2示例",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Lingo软件应用",
+   "content": "1-2示例",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Matlab软件应用",
+   "content": "1-2示例",
+   "hours": "2",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11029302",
  "hasOriginal": true
 }

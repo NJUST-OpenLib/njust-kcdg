@@ -191,6 +191,29 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Labview2018虚拟仪器从入门到精通",
+   "editor": "胡仁喜，闫聪聪",
+   "isbn": "9787111615675",
+   "press": "机械工业出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [
+  {
+   "name": "虚拟仪器软件开发平台LabVIEW的基本的编程方法及调试技术（二）",
+   "content": "掌握LabVIEW中图形化显示数据的方法；掌握LabVIEW中 Express VI技术；文件I/O技术与子VI的编程；掌握LabVIEW中属性节点和方法节点的使用；掌握LabVIEW的人机界面交互设计",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "虚拟仪器软件开发平台LabVIEW的基本的编程方法及调试技术（一）",
+   "content": "熟悉LabVIEW的工作环境。掌握VI程序的创建、编辑技术及调试VI程序的技术。掌握LabVIEW的数值型、布尔型、字符串，变量等对象与操作，掌握LabVIEW中常用的结构控制形式；并编程举例",
+   "hours": "4",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=631E894D157E489585A73134AC585AB9",
  "hasOriginal": true
 }

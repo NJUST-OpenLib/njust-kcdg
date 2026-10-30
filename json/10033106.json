@@ -164,6 +164,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电力设备的在线监测与故障诊断(第2版)",
+   "editor": "高胜友",
+   "isbn": "9787302507482",
+   "press": "北京：清华大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03E994EC9C904304A45A788C77C5D67F",
  "hasOriginal": true
 }

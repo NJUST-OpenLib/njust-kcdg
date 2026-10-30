@@ -86,6 +86,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "自动化导论",
+   "editor": "周献中，盛安冬，姜斌",
+   "isbn": "9787030251794",
+   "press": "科学出版社",
+   "year": "2009"
+  },
+  {
+   "title": "现代控制理论与方法概论",
+   "editor": "董景新、吴秋平",
+   "isbn": "9787302424154",
+   "press": "清华大学出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=01261A3188B643DA9A1272BFECEE09C5",
  "hasOriginal": true
 }

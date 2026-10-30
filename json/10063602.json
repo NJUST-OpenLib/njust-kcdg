@@ -112,6 +112,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "信号与系统（第六版）",
+   "editor": "钱玲",
+   "isbn": "9787121425516",
+   "press": "电子工业出版社",
+   "year": "2021"
+  },
+  {
+   "title": "信号与系统（第二版）",
+   "editor": "Alan，V.，Oppenheim(著)，刘树棠(译)",
+   "isbn": "9787121388378",
+   "press": "电子工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D1070546BC2D4A5FB5EA3BCD88FE7307",
  "hasOriginal": true
 }

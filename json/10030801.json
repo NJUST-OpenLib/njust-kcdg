@@ -127,6 +127,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "供配电技术",
+   "editor": "刘燕",
+   "isbn": "978-7-111-52381-9",
+   "press": "北京：机械工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10030801",
  "hasOriginal": true
 }

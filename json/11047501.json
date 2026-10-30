@@ -112,6 +112,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "统计决策论及贝叶斯分析",
+   "editor": "J.O.Berger",
+   "isbn": "9787503777011",
+   "press": "中国统计出版社",
+   "year": "1998"
+  },
+  {
+   "title": "贝叶斯统计（第二版）",
+   "editor": "茆诗松",
+   "isbn": "9787503729300",
+   "press": "中国统计出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11047501",
  "hasOriginal": true
 }

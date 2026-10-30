@@ -115,6 +115,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "人工智能技术",
+   "editor": "修春波",
+   "isbn": "9787111604099",
+   "press": "机械工业出版社",
+   "year": "2018"
+  },
+  {
+   "title": "人工智能与电气应用",
+   "editor": "胡维昊",
+   "isbn": "9787030682260",
+   "press": "科学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "强化学习",
+   "editor": "柯良军",
+   "isbn": "9787302532408",
+   "press": "清华大学出版社",
+   "year": "20019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=322058DB8ADE4B54A8D7814ADC92823B",
  "hasOriginal": true
 }

@@ -242,6 +242,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "JMAG电机电磁仿真分析与实例解析",
+   "editor": "陈天赠等",
+   "isbn": "9787111688563",
+   "press": "机械工业出版社",
+   "year": "2021"
+  },
+  {
+   "title": "电机系统及其计算机仿真",
+   "editor": "安跃军等",
+   "isbn": "9787111476344",
+   "press": "机械工业出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=764DDB6385DE4C55A0D9D82D890C2F00",
  "hasOriginal": true
 }

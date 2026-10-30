@@ -206,6 +206,35 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "多媒体技术基础（第三版）",
+   "editor": "林福宗",
+   "isbn": "9787302177807",
+   "press": "清华大学出版社",
+   "year": "2009"
+  }
+ ],
+ "labs": [
+  {
+   "name": "视频采集卡处理声音，视频",
+   "content": "利用视频采集卡处理声音，视频",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "无损压缩算法实现",
+   "content": "进行无损压缩算法实现",
+   "hours": "2",
+   "type": "设计性实验"
+  },
+  {
+   "name": "桌面会议系统",
+   "content": "使用桌面会议系统",
+   "hours": "2",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10022701",
  "hasOriginal": true
 }

@@ -101,6 +101,36 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "图像工程（上册）图像处理",
+   "editor": "章毓晋",
+   "isbn": "9787302492993",
+   "press": "清华大学出版社",
+   "year": "2018"
+  },
+  {
+   "title": "Digital Image Processing",
+   "editor": "Kenneth R.Castleman箸，阮秋琦 译",
+   "isbn": "9787121377471",
+   "press": "电子工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [
+  {
+   "name": "图像增强",
+   "content": "内容：图像直方图均衡化，平均值滤波、中值滤波、基于微分算子的边缘检测等图像增强算法。要求：利用MATLAB、Python等编程语言上机实现上述操作，并显示实验结果。",
+   "hours": "3",
+   "type": "验证性实验"
+  },
+  {
+   "name": "图像恢复",
+   "content": "实现维纳滤波、全变差、低秩正则等图像恢复方法。要求：利用MATLAB、Python等编程语言上机实现上述操作，并显示实验结果。",
+   "hours": "3",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5E1848473F3343CFBE1821855CEAF8A5",
  "hasOriginal": true
 }

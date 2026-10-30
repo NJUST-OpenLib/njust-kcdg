@@ -114,6 +114,29 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电子电气设备工艺设计与制造技术",
+   "editor": "胡俊达",
+   "isbn": "7111146921",
+   "press": "机械工业出版社",
+   "year": "2004"
+  }
+ ],
+ "labs": [
+  {
+   "name": "基于PROTEL的印刷电路板布线方法",
+   "content": "通过PROTEL软件对实际的电路进行布线，要求布局合理和美观，且布线符合实际设备要求。",
+   "hours": "2",
+   "type": "设计性实验"
+  },
+  {
+   "name": "基于AutoCAD的机柜机箱设计",
+   "content": "通过AutoCAD绘制实际的实际电气设备的机柜机箱，要求机柜机箱结构合理、美观，且尺寸复合实际要求。",
+   "hours": "2",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=86316180C9B0454AB397FA3473444AE1",
  "hasOriginal": true
 }

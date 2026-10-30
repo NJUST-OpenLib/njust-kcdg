@@ -101,6 +101,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Real Analysis: Measure theory, Integration theory, Hilbert spaces",
+   "editor": "Elias.M.Stein & Rami Shakarchi",
+   "isbn": "978-751-004-053-5",
+   "press": "世界图书出版社",
+   "year": "2012"
+  },
+  {
+   "title": "实变函数论（第三版）",
+   "editor": "周民强",
+   "isbn": "978-730-127-647-1",
+   "press": "北京大学出版社",
+   "year": "2016"
+  },
+  {
+   "title": "实变函数与泛函分析概要（1）",
+   "editor": "郑维行 王声望",
+   "isbn": "978-704-051-236-6",
+   "press": "高等教育出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D0B666B46D2048FBBBAAB6DD64D4A14C",
  "hasOriginal": true
 }

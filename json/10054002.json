@@ -137,6 +137,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "机器学习",
+   "editor": "周志华",
+   "isbn": "9787302423287",
+   "press": "北京：清华大学出版社",
+   "year": "2016"
+  },
+  {
+   "title": "智能电网中的机器学习方法实验讲义",
+   "editor": "项文波",
+   "isbn": "无",
+   "press": "自编",
+   "year": "2022"
+  },
+  {
+   "title": "用Python动手学机器学习",
+   "editor": "郑明智译",
+   "isbn": "9787115550583",
+   "press": "北京：人民邮电出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E5C95D043C39426987D88C54A06C1EDC",
  "hasOriginal": true
 }

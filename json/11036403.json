@@ -166,6 +166,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "工程承包项目案例及解析",
+   "editor": "杨俊杰",
+   "isbn": "978-7-112-09330-4",
+   "press": "中国建筑工业出版社",
+   "year": "2007"
+  },
+  {
+   "title": "国际工程项目管理",
+   "editor": "王雪青",
+   "isbn": "7-112-04497-9",
+   "press": "中国建筑工业出版社",
+   "year": "2000"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=9AAC9585A8DC444FA794DA0F0E04356E",
  "hasOriginal": true
 }

@@ -127,6 +127,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "偏微分方程（第二版）",
+   "editor": "陈祖墀",
+   "isbn": "7-312-01385-6",
+   "press": "中国科技大学出版社",
+   "year": "2002"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5E574CEB6F4C42F69AF328836B6C6088",
  "hasOriginal": true
 }

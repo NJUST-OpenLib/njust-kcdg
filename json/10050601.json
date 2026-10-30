@@ -141,6 +141,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "宽禁带电力电子器件原理与应用",
+   "editor": "秦海鸿等",
+   "isbn": "9787030633439",
+   "press": "科学出版社",
+   "year": "2020"
+  },
+  {
+   "title": "现代电力电子器件原理与应用技术",
+   "editor": "徐德鸿",
+   "isbn": "9787111230229",
+   "press": "机械工业出版社",
+   "year": "2008"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10050601",
  "hasOriginal": true
 }

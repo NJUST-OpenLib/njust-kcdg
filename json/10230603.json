@@ -179,6 +179,55 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电机学",
+   "editor": "张俊芳",
+   "isbn": "",
+   "press": "中国电力出版社",
+   "year": "2010"
+  },
+  {
+   "title": "电机学",
+   "editor": "李发海",
+   "isbn": "",
+   "press": "科学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "电机学",
+   "editor": "汤蕴璆",
+   "isbn": "",
+   "press": "机械工业出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [
+  {
+   "name": "三相异步电动机参数测定",
+   "content": "测定三相异步电动机的参数",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "三相异步电动机的星—三角起动",
+   "content": "三相异步电动机的星—三角降压起动试验",
+   "hours": "2",
+   "type": "验证性实验"
+  },
+  {
+   "name": "三相异步电动机的正反转控制",
+   "content": "三相异步电动机的正反转原理、单方向起停、正反转控制试验",
+   "hours": "2",
+   "type": "验证性实验"
+  },
+  {
+   "name": "三相同步发电机对称稳定运行特性实验",
+   "content": "测取三相同步发电机空载特性、短路特性、外特性、调整特性试验",
+   "hours": "2",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=50B9D2BE975C41B28D02D0861A4C1D67",
  "hasOriginal": true
 }

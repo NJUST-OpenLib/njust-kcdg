@@ -124,6 +124,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "应用随机过程",
+   "editor": "张波 商豪 邓军",
+   "isbn": "978-7-300-27817-9",
+   "press": "中国人民大学出版社",
+   "year": "2020"
+  },
+  {
+   "title": "Introduction to Probability Models",
+   "editor": "Sheldon M. Ross",
+   "isbn": "978-7-115-40430-5",
+   "press": "人民邮电出版社（译文版）",
+   "year": "2016"
+  },
+  {
+   "title": "应用随机过程",
+   "editor": "林元烈",
+   "isbn": "978-7-302-05958-5",
+   "press": "清华大学出版社",
+   "year": "2002"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A1207C7E9FC3401381ED0F7C2DAF1282",
  "hasOriginal": true
 }

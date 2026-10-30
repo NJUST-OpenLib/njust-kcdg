@@ -99,6 +99,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "城市轨道交通概论",
+   "editor": "姚林泉",
+   "isbn": "ISBN：9787302524229",
+   "press": "清华大学出版社",
+   "year": "2019年"
+  },
+  {
+   "title": "城市轨道交通网络化运营优化理论与方法",
+   "editor": "徐永能",
+   "isbn": "ISBN：9787512418516",
+   "press": "北京航空航天大学出版社",
+   "year": "2022年"
+  },
+  {
+   "title": "轨道交通信号与控制综合实验",
+   "editor": "戴胜华",
+   "isbn": "ISBN：9787113232139",
+   "press": "中国铁道出版社",
+   "year": "2019年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10020405",
  "hasOriginal": true
 }

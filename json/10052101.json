@@ -140,6 +140,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "智联未来——从物联网到智联网",
+   "editor": "中国通信工业协会物联网应用分会",
+   "isbn": "",
+   "press": "科学技术文献出版社",
+   "year": "2021"
+  },
+  {
+   "title": "物联网技术导论（第2版）",
+   "editor": "桂小林",
+   "isbn": "",
+   "press": "清华大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6A14E229C072403785A131BFB4C3D137",
  "hasOriginal": true
 }

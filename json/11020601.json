@@ -112,6 +112,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "常微分方程及其应用",
+   "editor": "周义仓",
+   "isbn": "9787030115447",
+   "press": "科学出版社",
+   "year": "2003"
+  },
+  {
+   "title": "常微分方程",
+   "editor": "王高雄等",
+   "isbn": "9787040514650",
+   "press": "高等教育出版社",
+   "year": "2019"
+  },
+  {
+   "title": "常微分方程教程",
+   "editor": "丁同仁、李承治",
+   "isbn": "9787040573053",
+   "press": "高等教育出版社",
+   "year": "2022"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11020601",
  "hasOriginal": true
 }

@@ -190,6 +190,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "故障诊断与预测原理、技术及应用",
+   "editor": "吕琛",
+   "isbn": "",
+   "press": "北京航空航天大学出版社",
+   "year": "2012"
+  },
+  {
+   "title": "城市轨道交通车辆故障诊断",
+   "editor": "黄立新",
+   "isbn": "9787113172794",
+   "press": "中国铁道出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=9FCB6375CC9F4BAC86915E8A3A6BBAC4",
  "hasOriginal": true
 }

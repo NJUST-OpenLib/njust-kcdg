@@ -152,6 +152,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "智能优化算法",
+   "editor": "刘勇",
+   "isbn": "9787208159266",
+   "press": "上海人民出版社",
+   "year": "2019"
+  },
+  {
+   "title": "Handbook of Metaheuristics",
+   "editor": "Michel Gendreau",
+   "isbn": "9783319910857",
+   "press": "Springer",
+   "year": "2018"
+  },
+  {
+   "title": "MATLAB智能优化算法：从写代码到算法思想",
+   "editor": "曹旺",
+   "isbn": "9787301322383",
+   "press": "北京大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "智能优化算法及其MATLAB实例（第3版）",
+   "editor": "包子阳",
+   "isbn": "9787121401510",
+   "press": "电子工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=0DFB1171C2A7417992738BC1D469550F",
  "hasOriginal": true
 }

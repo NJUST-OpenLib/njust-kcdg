@@ -114,6 +114,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "创新创业教程（第2版）",
+   "editor": "李伟",
+   "isbn": "9787302535959",
+   "press": "清华大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "大学生创新创业基础",
+   "editor": "张春兰",
+   "isbn": "9787302505273",
+   "press": "清华大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D0713F1B98464C07990AA73B9531B57F",
  "hasOriginal": true
 }

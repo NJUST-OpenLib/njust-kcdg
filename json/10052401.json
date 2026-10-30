@@ -101,6 +101,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "分散自律调度集中系统",
+   "editor": "中国铁路总公司",
+   "isbn": "978-7-113-17277-0",
+   "press": "中国铁道出版社",
+   "year": "2017"
+  },
+  {
+   "title": "中国铁路分散自律调度集中",
+   "editor": "刘朝英",
+   "isbn": "978-7-113-09717-2",
+   "press": "中国铁道出版社",
+   "year": "2009"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=F99438DEA86447ACB663758920914104",
  "hasOriginal": true
 }

@@ -139,6 +139,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Principles of Electric Machines and Power Electronics,",
+   "editor": "P. C. Sen",
+   "isbn": "",
+   "press": "Wiley",
+   "year": "2013"
+  },
+  {
+   "title": "Electric machinery fundamentals, 5th Edition",
+   "editor": "S. J. Chapman",
+   "isbn": "",
+   "press": "Mcgraw Hill Higher Education; 5th Revised edition",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=9DF5216F0BDD47CC860B7EB5A594E55C",
  "hasOriginal": true
 }

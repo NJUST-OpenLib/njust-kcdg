@@ -88,6 +88,42 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "几何与图形",
+   "editor": "陈发来、刘利刚",
+   "isbn": "9787040516449",
+   "press": "高等教育出版社",
+   "year": "2019"
+  },
+  {
+   "title": "计算机图形学基础教程(第2版)",
+   "editor": "孙家广、胡事民",
+   "isbn": "9787302207115",
+   "press": "清华大学出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [
+  {
+   "name": "泊松图像编辑",
+   "content": "实验内容：\n\n实现论文Patrick Perez, Michel Ganget and andrew Blake. Poisson Image Editing. SIGGRAPH2003；\n\n实验要求：\n\n1.学习并实现Laplace算子离散以及数值求解Poisson方程. \n\n2.选择不同的算例进行测试，并分析测试结果。\n\n3.完成实验报告",
+   "hours": "4",
+   "type": "操作性实验"
+  },
+  {
+   "name": "使用Tutte/Folater算法将三角网格平面参数化",
+   "content": "实验内容：\n\n实现论文 Floater 1997. Parametrization and smooth approximation of surface triangulations；\n\n实验要求：\n\n1.学习曲面的三角网格常用数据结构。\n\n2.在三角网格曲面上实习图Laplace算子并应用于三角网格曲面参数化。\n\n3.测试不同的三角网格曲面数据，进行结果分析。\n\n4.完成实验报告",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "B样条插值曲线交互式生成程序",
+   "content": "实验内容：\n\n参考Microsoft Word或者Powerpoint中的“曲线”的画图工具的交互界面；\n\n实验要求：\n\n1.熟悉Qt GUI编程；\n\n2.实现B样条De Boor算法;\n\n3.从用户的角度完善B样条插值曲线的友好交互的界面设计；\n\n4.完成实验报告",
+   "hours": "2",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8DD299CF3B0B4512B3619934107577F7",
  "hasOriginal": true
 }

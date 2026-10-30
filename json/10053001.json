@@ -166,6 +166,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "创新创业基础(普通高等院校创新创业教育规划教材)",
+   "editor": "郗婷婷",
+   "isbn": "9787302571322",
+   "press": "清华大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "“互联网+”大学生创新创业基础与实践（ 全国高等学校创新创业教育“十三五”规划教材）",
+   "editor": "叶明全、陈付龙",
+   "isbn": "9787030535542",
+   "press": "科学出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=AA8B1291C75A49879D0E3531ACA16784",
  "hasOriginal": true
 }

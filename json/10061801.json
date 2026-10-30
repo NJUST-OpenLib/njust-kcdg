@@ -125,6 +125,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "轨道智能维护技术与实践",
+   "editor": "刘建利",
+   "isbn": "ISBN：9787113273361",
+   "press": "中国铁道出版社",
+   "year": "2010年"
+  },
+  {
+   "title": "智能运维：从0搭建大规模分布式AIOps系统",
+   "editor": "彭冬",
+   "isbn": "ISBN ：9787121346637",
+   "press": "电子工业出版社",
+   "year": "2018年"
+  },
+  {
+   "title": "应用智能运维实践",
+   "editor": "许力",
+   "isbn": "ISBN ：9787121401336",
+   "press": "电子工业出版社",
+   "year": "2020年"
+  },
+  {
+   "title": "轨道交通智能技术导论",
+   "editor": "张秀彬",
+   "isbn": "ISBN：9787313251701",
+   "press": "上海交通大学出版社",
+   "year": "2021年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=EAD4EA88FBFD441698798D85E498BA6D",
  "hasOriginal": true
 }

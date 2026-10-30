@@ -125,6 +125,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电力系统控制与调度自动化",
+   "editor": "王士政",
+   "isbn": "9787512333932",
+   "press": "中国电力出版社",
+   "year": "2012"
+  },
+  {
+   "title": "电力系统调度自动化",
+   "editor": "吴文传",
+   "isbn": "9787302260639",
+   "press": "清华大学出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E98501DC36A2492C8BC62051BD230C73",
  "hasOriginal": true
 }

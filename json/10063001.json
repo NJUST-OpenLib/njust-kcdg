@@ -138,6 +138,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "数据结构（C语言版）（第2版）",
+   "editor": "严蔚敏",
+   "isbn": "9787115576668",
+   "press": "人民邮电出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4F0EB6F118634BB194E9356D27D31901",
  "hasOriginal": true
 }

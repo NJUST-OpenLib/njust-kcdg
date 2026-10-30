@@ -113,6 +113,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "空间解析几何(自编)",
+   "editor": "吕新民",
+   "isbn": "自编",
+   "press": "自编",
+   "year": "2021"
+  },
+  {
+   "title": "高等代数（第五版）",
+   "editor": "北京大学数学系几何与代数教研室前代数小组编，王萼芳 石生明 修订",
+   "isbn": "978-7-04-050733-1",
+   "press": "高等教育出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11223202",
  "hasOriginal": true
 }

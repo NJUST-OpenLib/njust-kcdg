@@ -112,6 +112,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "曲线和曲面的微分几何学",
+   "editor": "杜卡莫著，田畴等译",
+   "isbn": "978-711-115-2712",
+   "press": "机械工业出版社",
+   "year": "2005"
+  },
+  {
+   "title": "微分几何（第二版）",
+   "editor": "陈维桓",
+   "isbn": "978-730-128-6548",
+   "press": "北京大学出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11040202",
  "hasOriginal": true
 }

@@ -217,6 +217,54 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "SQL Server 2012 数据库应用与开发教程",
+   "editor": "李春葆，曾平，喻丹丹",
+   "isbn": "9787302400080",
+   "press": "清华大学出版社",
+   "year": "2015.6"
+  },
+  {
+   "title": "数据库实用教程（SQL Server 2008+C#）",
+   "editor": "罗贤缙 秦金磊 张锋奇 谢萍",
+   "isbn": "9787512373730",
+   "press": "中国电力出版社",
+   "year": "2015.5"
+  }
+ ],
+ "labs": [
+  {
+   "name": "数据库及表的创建",
+   "content": "1、熟悉SQL Server Management Studio环境的使用。\n2、熟悉SQL Server配置管理器的使用，如何启动与关闭SQL Server服务。\n3、分别使用SQL Server Management Studio和SQL命令创建数据库。\n4、分别使用SQL Server Management Studio和SQL命令创建数据库中的数据表。",
+   "hours": "2",
+   "type": "验证性实验"
+  },
+  {
+   "name": "数据库基本操作",
+   "content": "1、熟练掌握使用SQL的基本操作：查询、添加、删除及修改。\n2、熟练掌握聚合函数的使用。",
+   "hours": "2",
+   "type": "设计性实验"
+  },
+  {
+   "name": "数据库设计综合应用",
+   "content": "每个开发团队分别选择一个题目完成数据库系统设计，并提交综合设计报告，内容包括： 1． 综合设计说明（含设计题目、设计任务与要求、开发环境说明） 2． 功能需求分析 3． 数据库概念设计 4． 数据库逻辑设计 5． 应用系统功能模块 6． 源程序代码及运行结果（含运行界面屏幕截图）。 7． 总结",
+   "hours": "",
+   "type": "综合性实验"
+  },
+  {
+   "name": "数据库的安全性与完整性",
+   "content": "1．了解数据库的安全性及完整性机制。\n2．熟练掌握SQL Sever2008中常用的数据库安全性及完整性机制。\n3. 掌握创建用户和角色的方法\n4. 掌握SQL授权命令和收回权限的命令",
+   "hours": "2",
+   "type": "设计性实验"
+  },
+  {
+   "name": "视图与数据更新",
+   "content": "1、熟练使用SQL Server Management Studio创建视图、查询视图和删除视图的操作。 \n2、使用SQL语句创建视图和更新数据。",
+   "hours": "2",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C55D39C385FC4432BA4415EB3082FD04",
  "hasOriginal": true
 }

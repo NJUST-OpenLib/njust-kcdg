@@ -128,6 +128,35 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "测控系统原理与设计（第4版）",
+   "editor": "孙传友",
+   "isbn": "9787512413610",
+   "press": "北京航空航天大学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [
+  {
+   "name": "通信及键盘实验",
+   "content": "实现数据的发送与接收、键盘数据的读取",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "中断实验",
+   "content": "完成中断流程的设计调试",
+   "hours": "2",
+   "type": "设计性实验"
+  },
+  {
+   "name": "数据采集实验",
+   "content": "实验模拟电压数据的采样",
+   "hours": "2",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D03D4D86884F4EA189929549CA6F218D",
  "hasOriginal": true
 }

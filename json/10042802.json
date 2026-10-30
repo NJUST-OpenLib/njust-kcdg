@@ -150,6 +150,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "计算机网络（第8版）",
+   "editor": "谢希仁",
+   "isbn": "9787121411748",
+   "press": "电子工业出版社",
+   "year": "2021"
+  },
+  {
+   "title": "电力系统通信技术（第三版）",
+   "editor": "张淑娥",
+   "isbn": "9787512365353",
+   "press": "中国电力出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10042802",
  "hasOriginal": true
 }

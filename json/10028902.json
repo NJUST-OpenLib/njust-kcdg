@@ -98,6 +98,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Modern Control Systems （第十二版，教材）",
+   "editor": "R.C. Dorf and R.H. Bishop",
+   "isbn": "978-7-121-25414-7",
+   "press": "电子工业出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10028902",
  "hasOriginal": true
 }

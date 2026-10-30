@@ -114,6 +114,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "高等数学（第三版）",
+   "editor": "许春根等",
+   "isbn": "9787040523867",
+   "press": "高等教育出版社",
+   "year": "2019"
+  },
+  {
+   "title": "高等数学(第七版)",
+   "editor": "同济大学数学教研室",
+   "isbn": "9787040396638",
+   "press": "高等教育出版社",
+   "year": "2014"
+  },
+  {
+   "title": "高等数学学习辅导(第2版)",
+   "editor": "南京理工大学应用数学系",
+   "isbn": "9787111545002",
+   "press": "机械工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11223301",
  "hasOriginal": true
 }

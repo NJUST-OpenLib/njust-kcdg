@@ -128,6 +128,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "智能传感器技术",
+   "editor": "吴盘龙",
+   "isbn": "9787512386600",
+   "press": "中国电力出版社",
+   "year": "2015"
+  },
+  {
+   "title": "智能传感器原理、设计与应用",
+   "editor": "何金田",
+   "isbn": "9787121153839",
+   "press": "电子工业出版社",
+   "year": "2012"
+  },
+  {
+   "title": "传感器技术及应用",
+   "editor": "陈艳红",
+   "isbn": "9787560647906",
+   "press": "西安电子科技大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=834EC849B3734A75B6352679B6B54ACC",
  "hasOriginal": true
 }

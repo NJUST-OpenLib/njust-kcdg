@@ -126,6 +126,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "微电网运行控制与保护技术",
+   "editor": "张建华",
+   "isbn": "9787508399775",
+   "press": "中国电力出版社",
+   "year": "2010年"
+  },
+  {
+   "title": "分布式发电与微电网技术",
+   "editor": "徐青山",
+   "isbn": "9787115264220",
+   "press": "中国邮电出版社",
+   "year": "2011年"
+  },
+  {
+   "title": "微电网技术及工程应用",
+   "editor": "李富生",
+   "isbn": "9787512333581",
+   "press": "中国电力出版社",
+   "year": "2013年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C45E617B611C4B4DA611BD3C4E001D4C",
  "hasOriginal": true
 }

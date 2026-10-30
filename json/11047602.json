@@ -140,6 +140,36 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "抽样调查理论与方法(第二版)",
+   "editor": "冯士雍,倪加勋,邹国华",
+   "isbn": "9787503765926",
+   "press": "中国统计出版社",
+   "year": "2012"
+  },
+  {
+   "title": "应用抽样技术(第三版)",
+   "editor": "李金昌",
+   "isbn": "9787030429940",
+   "press": "科学出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [
+  {
+   "name": "利用Spss和R软件进行分层抽样",
+   "content": "运用R和Spass软件进行单变量分层及双变量分层抽样",
+   "hours": "1",
+   "type": "综合性实验"
+  },
+  {
+   "name": "利用Excel、R或者Spass软件的简单随机抽样的实现",
+   "content": "运用Excel、R或者Spass软件产生随机数并进行随机抽样和简单随机抽样",
+   "hours": "1",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BCF0BF2BC84F4B1F8A4C278A9B9FB15D",
  "hasOriginal": true
 }

@@ -177,6 +177,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "城市轨道交通车辆",
+   "editor": "吴海超等",
+   "isbn": "918-7-113-22092-1",
+   "press": "中国铁道出版社",
+   "year": "2016"
+  },
+  {
+   "title": "城市轨道交通车辆概论",
+   "editor": "方宇",
+   "isbn": "9787113140458",
+   "press": "中国铁道出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10043301",
  "hasOriginal": true
 }

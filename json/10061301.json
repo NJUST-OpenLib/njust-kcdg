@@ -115,6 +115,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电气与控制工程项目管理",
+   "editor": "邹红利",
+   "isbn": "9787522602370",
+   "press": "中国水利水电出版社",
+   "year": "2022"
+  },
+  {
+   "title": "工程思维",
+   "editor": "马克 N.霍伦斯坦",
+   "isbn": "9787111583301",
+   "press": "机械工业出版社",
+   "year": "2019"
+  },
+  {
+   "title": "设计开发流程与工程项目管理的原理及运用",
+   "editor": "杨毅刚",
+   "isbn": "9787115570581",
+   "press": "人民邮电出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D17F773C32BD463285EA47D2F0F2FBA4",
  "hasOriginal": true
 }

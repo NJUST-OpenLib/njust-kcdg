@@ -127,6 +127,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "现代电能质量测量技术",
+   "editor": "何学农",
+   "isbn": "9787512380653",
+   "press": "北京：中国电力出版社",
+   "year": "2014"
+  },
+  {
+   "title": "电能质量分析与控制",
+   "editor": "肖湘宁",
+   "isbn": "9787508398051",
+   "press": "北京：中国电力出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [
+  {
+   "name": "谐波分析软件实验",
+   "content": "生成谐波信号、分析谐波频频特性，进行滤波处理",
+   "hours": "5",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10033502",
  "hasOriginal": true
 }

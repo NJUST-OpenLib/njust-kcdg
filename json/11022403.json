@@ -126,6 +126,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "复分析基础",
+   "editor": "廖良文",
+   "isbn": "978-7030404077",
+   "press": "科学出版社",
+   "year": "2014"
+  },
+  {
+   "title": "复变函数论（第四版）",
+   "editor": "钟玉泉",
+   "isbn": "978-7040555875",
+   "press": "高等教育出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11022403",
  "hasOriginal": true
 }

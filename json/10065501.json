@@ -125,6 +125,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "博弈论与信息经济学",
+   "editor": "张维迎",
+   "isbn": "9787208052765",
+   "press": "上海人民出版社",
+   "year": "2004"
+  },
+  {
+   "title": "博弈论教程（第三版）",
+   "editor": "王则柯等",
+   "isbn": "9787300255897",
+   "press": "中国人民大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8B9C386279AC4660BF5E0E50D727D7DD",
  "hasOriginal": true
 }

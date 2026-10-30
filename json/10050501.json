@@ -177,6 +177,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "微特电机及系统",
+   "editor": "程明",
+   "isbn": "",
+   "press": "中国电力出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10050501",
  "hasOriginal": true
 }

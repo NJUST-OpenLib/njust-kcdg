@@ -73,6 +73,41 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "控制系统数字仿真与CAD（第四版）",
+   "editor": "张晓华",
+   "isbn": "978-7-111-65063-8",
+   "press": "北京：机械工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [
+  {
+   "name": "MATLAB 和Simulink的运用与编程",
+   "content": "了解MATLAB基本语句结构、编程基础与绘图功能；了解图形对象的概念及控件设计技术；熟悉Simulink仿真环境的建立。",
+   "hours": "8",
+   "type": "验证性实验"
+  },
+  {
+   "name": "倒立摆双闭环PID控制器设计与仿真",
+   "content": "针对一阶倒立摆控制系统模型及设计指标，进行双闭环PID控制器的设计与仿真实验。",
+   "hours": "8",
+   "type": "设计性实验"
+  },
+  {
+   "name": "基于Bode图的串联校正装置设计仿真",
+   "content": "学习控制系统时域分析、根轨迹和频域分析的 MATLAB 实现；利用时域响应、根轨迹以及频率响应进行系统分析。",
+   "hours": "4",
+   "type": "设计性实验"
+  },
+  {
+   "name": "控制系统性能分析",
+   "content": "线性系统的模型描述与转换；时域与频域响应分析。",
+   "hours": "4",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10025501",
  "hasOriginal": true
 }

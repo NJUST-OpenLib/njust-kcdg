@@ -108,6 +108,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "数学物理方程与特殊函数",
+   "editor": "于涛",
+   "isbn": "978703021860",
+   "press": "科学出版社",
+   "year": "2008"
+  },
+  {
+   "title": "数学物理方程与特殊函数(第5版)",
+   "editor": "王元明",
+   "isbn": "9787040512373",
+   "press": "高等教育出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11040302",
  "hasOriginal": true
 }

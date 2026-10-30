@@ -203,6 +203,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电动车辆动力电池系统及应用技术",
+   "editor": "王震坡 孙逢春 刘鹏",
+   "isbn": "9787111566397",
+   "press": "机械工业出版社",
+   "year": "2017"
+  },
+  {
+   "title": "插电式混合动力与纯电动汽车的能量管理策略",
+   "editor": "威廉森",
+   "isbn": "9787111523956",
+   "press": "机械工业出版社",
+   "year": "2016"
+  },
+  {
+   "title": "电动汽车动力电池及电源管理",
+   "editor": "徐艳民",
+   "isbn": "9787111484868",
+   "press": "机械工业出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=342399964FB54BF4A5FF5D8C64FB61BC",
  "hasOriginal": true
 }

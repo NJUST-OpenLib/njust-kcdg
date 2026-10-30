@@ -125,6 +125,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "科技论文写作",
+   "editor": "闫茂德",
+   "isbn": "9787111670971",
+   "press": "机械工业出版社",
+   "year": "2021"
+  },
+  {
+   "title": "英语科技论文写作",
+   "editor": "吴红梅",
+   "isbn": "9787300293523",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "文献检索与科技论文写作入门",
+   "editor": "王红军",
+   "isbn": "9787111607120",
+   "press": "机械工业出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=51FBAEDCCE7E4098B321FC6C193768D9",
  "hasOriginal": true
 }

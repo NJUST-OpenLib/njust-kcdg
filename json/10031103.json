@@ -100,6 +100,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "柔性交流输电系统（第2版）",
+   "editor": "程汉湘，聂一雄",
+   "isbn": "9787111415756",
+   "press": "机械工业出版社",
+   "year": "2013"
+  },
+  {
+   "title": "高压直流输电与柔性交流输电",
+   "editor": "杨晓萍",
+   "isbn": "9787512309166",
+   "press": "中国电力出版社",
+   "year": "2010"
+  },
+  {
+   "title": "柔性交流输电系统的原理与应用（第2版）",
+   "editor": "谢小荣，姜齐荣",
+   "isbn": "9787303354741",
+   "press": "清华大学出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10031103",
  "hasOriginal": true
 }

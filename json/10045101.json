@@ -125,6 +125,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "高可靠性配电网规划",
+   "editor": "胡列翔",
+   "isbn": "9787111664499",
+   "press": "机械工业出版社",
+   "year": "2020"
+  },
+  {
+   "title": "配电网规划",
+   "editor": "朴在林",
+   "isbn": "9787512375086",
+   "press": "中国电力出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10045101",
  "hasOriginal": true
 }

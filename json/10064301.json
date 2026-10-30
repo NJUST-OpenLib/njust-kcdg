@@ -139,6 +139,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "地铁列车自动驾驶系统原理",
+   "editor": "路向阳",
+   "isbn": "9787548743583",
+   "press": "中南大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "自动驾驶技术概论",
+   "editor": "王建",
+   "isbn": "9787302537786",
+   "press": "清华大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "智能列车无人驾驶系统（英文版）",
+   "editor": "刘辉",
+   "isbn": "9787548743521",
+   "press": "中南大学出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=ADD51C01ACEC4FB6AEDF30D317C2150B",
  "hasOriginal": true
 }

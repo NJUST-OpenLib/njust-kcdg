@@ -127,6 +127,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电机设计（第二版）",
+   "editor": "陈世坤",
+   "isbn": "9787111020615",
+   "press": "机械工业出版社",
+   "year": "2018年"
+  },
+  {
+   "title": "现代永磁电机理论与设计",
+   "editor": "唐任远",
+   "isbn": "9787111525370",
+   "press": "机械工业出版社",
+   "year": "2019年"
+  },
+  {
+   "title": "中小旋转电机设计手册",
+   "editor": "黄国治、傅丰礼",
+   "isbn": "9787508349336",
+   "press": "中国电力出版社",
+   "year": "2014年"
+  },
+  {
+   "title": "旋转电机设计（Design of Rotating Electrical Machines）（第2版）",
+   "editor": "Juha Pyrhonen",
+   "isbn": "9787111597001",
+   "press": "机械工业出版社",
+   "year": "2018年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=546FB1BA3C5A417F87F56EFFD1E87899",
  "hasOriginal": true
 }

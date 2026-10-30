@@ -73,6 +73,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "代数学",
+   "editor": "吕新民",
+   "isbn": "978-751-241-794-6",
+   "press": "北京航空航天大学出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=483A3F6C006B4658A0AE291F4FF2748A",
  "hasOriginal": true
 }

@@ -112,6 +112,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "最优化与最优控制",
+   "editor": "赫孝良、葛照强",
+   "isbn": "978-756-056-966-6",
+   "press": "西按交通大学出版社",
+   "year": "2014"
+  },
+  {
+   "title": "最优控制理论简明教程",
+   "editor": "雍炯敏，楼红卫",
+   "isbn": "978-704-019-9536",
+   "press": "高等教育出版社",
+   "year": "2006"
+  },
+  {
+   "title": "线性系统理论",
+   "editor": "郑大钟",
+   "isbn": "978-730-205-5013",
+   "press": "清华大学出版社",
+   "year": "2002"
+  },
+  {
+   "title": "最优控制理论基础",
+   "editor": "吕显瑞，黄庆道",
+   "isbn": "978-703-021-861-2",
+   "press": "科学出版社",
+   "year": "2008"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=CF5CE3465E3D4C5690781DB615BEE0FE",
  "hasOriginal": true
 }

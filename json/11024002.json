@@ -139,6 +139,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《复变函数》(第四版)",
+   "editor": "西安交通大学高等数学教研室",
+   "isbn": "978-7-04-005553-5",
+   "press": "高等教育出版社",
+   "year": "1996"
+  },
+  {
+   "title": "《积分变换》(第四版)",
+   "editor": "张元林",
+   "isbn": "7-04-012955-8",
+   "press": "高等教育出版社",
+   "year": "2003"
+  },
+  {
+   "title": "《工程数学 复变函数、积分变换与场论》",
+   "editor": "许孟",
+   "isbn": "978-7-04-053851-9",
+   "press": "高等教育出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11024002",
  "hasOriginal": true
 }

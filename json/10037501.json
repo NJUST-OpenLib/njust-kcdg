@@ -133,6 +133,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "列车运行控制系统",
+   "editor": "唐涛",
+   "isbn": "ISBN：9787113147983",
+   "press": "中国铁道出版社",
+   "year": "2012年"
+  },
+  {
+   "title": "列车运行控制系统实时性的建模与验证",
+   "editor": "谢雨飞",
+   "isbn": "ISBN：9787113253097",
+   "press": "中国铁道出版社",
+   "year": "2019年"
+  },
+  {
+   "title": "列车运行控制系统",
+   "editor": "刘伯鸿",
+   "isbn": "ISBN：9787113240394",
+   "press": "中国铁道出版社",
+   "year": "2018年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10037501",
  "hasOriginal": true
 }

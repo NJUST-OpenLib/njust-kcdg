@@ -104,6 +104,67 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "机器学习",
+   "editor": "周志华",
+   "isbn": "978-7-111-65424-7",
+   "press": "清华大学出版社",
+   "year": "2016"
+  },
+  {
+   "title": "数据挖掘概念与技术(第3版)",
+   "editor": "Jianwei Han等",
+   "isbn": "978-7-111-39140-1",
+   "press": "机械工业出版社",
+   "year": "2015"
+  },
+  {
+   "title": "数据挖掘十大算法",
+   "editor": "Xindong Wu等",
+   "isbn": "978-7-302-31061-7",
+   "press": "清华大学出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [
+  {
+   "name": "数据预处理的综合应用",
+   "content": "以数据集为基础，实现数据的数据预处理的综合应用",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "关联分析：Apriori算法",
+   "content": "使用事务性数据集，实现Apriori、FP-Growth算法关联分析",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Python数据挖掘建模平台操作",
+   "content": "利用Python数据挖掘建模平台，针对实例实现数据挖掘流程",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "弱分类：Bayes、SVM、KNN、C4.5和CART算法",
+   "content": "利用Bayes、SVM等多种弱分类算法实现数据集的数据分类",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "强分类与模型评价：Adaboost算法及AUC、F1评价指标",
+   "content": "利用Adaboost强分类算法及AUC、F1指标实现数据分类及评价",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "聚类分析：k-means、EM算法",
+   "content": "利用k-means、DBScan等算法实现数据集的数据聚类",
+   "hours": "4",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=CE14C1D1123B4C5B93B84F0AC8DD4385",
  "hasOriginal": true
 }

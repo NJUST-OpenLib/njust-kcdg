@@ -127,6 +127,29 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "计算智能的数学基础",
+   "editor": "禇蕾蕾，陈绥阳，周梦",
+   "isbn": "978-7-03-008434-7",
+   "press": "科学出版社",
+   "year": "2002"
+  }
+ ],
+ "labs": [
+  {
+   "name": "遗传算法数值实验",
+   "content": "编写程序用遗传算法求解TSP",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "线性感知器算法数值实验",
+   "content": "编写程序把两个集合作线性分类",
+   "hours": "4",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=1A99741FED5F4BC788939564C3355C8E",
  "hasOriginal": true
 }

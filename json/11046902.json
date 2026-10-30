@@ -87,6 +87,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "应用线性回归",
+   "editor": "[美] S. Weisberg 著，王静龙，梁小筠，李宝慧译",
+   "isbn": "7-5037-2346-7/0.25",
+   "press": "中国统计出版社",
+   "year": "1998"
+  },
+  {
+   "title": "应用回归分析",
+   "editor": "何晓群，刘文卿",
+   "isbn": "978-7-300-14276-0",
+   "press": "中国人民大学出版社",
+   "year": "2007"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=7FAE50B3CB6F4A488E1FF418F2FE2664",
  "hasOriginal": true
 }

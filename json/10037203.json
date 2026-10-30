@@ -125,6 +125,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "铁路概论",
+   "editor": "佟立本",
+   "isbn": "978-7-113-14685-6",
+   "press": "中国铁道出版社",
+   "year": "2012"
+  },
+  {
+   "title": "城市轨道交通概论",
+   "editor": "姚林泉，汪一鸣",
+   "isbn": "978-7-302-52422-9",
+   "press": "清华大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5D1E77E0C8D44666B04968483B8F4574",
  "hasOriginal": true
 }

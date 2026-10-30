@@ -87,6 +87,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "智能控制原理与应用（第三版）",
+   "editor": "蔡自兴",
+   "isbn": "9787302533450",
+   "press": "清华大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "模糊控制技术",
+   "editor": "席爱民",
+   "isbn": "9787560620152",
+   "press": "西安电子科技大学出版社",
+   "year": "2008"
+  },
+  {
+   "title": "智能控制",
+   "editor": "李士勇，李研",
+   "isbn": "9787302436560",
+   "press": "清华大学出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=690193698E7049A284A11C40419D3638",
  "hasOriginal": true
 }

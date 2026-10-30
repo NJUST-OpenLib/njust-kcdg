@@ -139,6 +139,55 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "密码学与编码理论（第二版）",
+   "editor": "Wade Trappe（王全龙等译）",
+   "isbn": "9787115174352",
+   "press": "人民邮电出版社",
+   "year": "2008"
+  },
+  {
+   "title": "密码学原理与实践（第三版）",
+   "editor": "D.Stinson.（冯登国译）",
+   "isbn": "9787121279713",
+   "press": "电子工业出版社",
+   "year": "2009"
+  },
+  {
+   "title": "信息论与编码",
+   "editor": "姜丹",
+   "isbn": "9787312046643",
+   "press": "中国科技大学出版社",
+   "year": "2004"
+  }
+ ],
+ "labs": [
+  {
+   "name": "DES加密实验",
+   "content": "在信息安全平台实现DES加密",
+   "hours": "2",
+   "type": "演示性实验"
+  },
+  {
+   "name": "数论实验",
+   "content": "会用Mathematical等数学软件（1）求模乘的逆元；（2）模乘的本原根",
+   "hours": "2",
+   "type": "验证性实验"
+  },
+  {
+   "name": "数字签名实验",
+   "content": "实现盲签名等特殊性数字签名",
+   "hours": "2",
+   "type": "研究创新性实验"
+  },
+  {
+   "name": "RSA加密实验",
+   "content": "设计并实现RSA加密",
+   "hours": "2",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=16B78C42E58D414C90D506C446CA276E",
  "hasOriginal": true
 }

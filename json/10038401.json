@@ -127,6 +127,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "交通信息技术",
+   "editor": "欧冬秀",
+   "isbn": "978-7-5608-5410-6",
+   "press": "同济大学出版社",
+   "year": "2009"
+  },
+  {
+   "title": "城市轨道交通信息技术",
+   "editor": "蔡国强",
+   "isbn": "978-7-5121-0919-3",
+   "press": "北京交通大学出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10038401",
  "hasOriginal": true
 }

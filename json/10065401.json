@@ -125,6 +125,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "分布式电源与微电网并网技术",
+   "editor": "苏剑",
+   "isbn": "9787512382718",
+   "press": "中国电力出版社",
+   "year": "2015"
+  },
+  {
+   "title": "最优化理论与算法（第二版）",
+   "editor": "陈宝林",
+   "isbn": "9787302113768",
+   "press": "清华大学出版社",
+   "year": "2005"
+  },
+  {
+   "title": "微电网分布式控制理论与方法",
+   "editor": "顾伟",
+   "isbn": "9787030628749",
+   "press": "科学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=EB73A19BB48F4FD0B484C9C88781AFC0",
  "hasOriginal": true
 }
