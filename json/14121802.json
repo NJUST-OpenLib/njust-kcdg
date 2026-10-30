@@ -1,0 +1,249 @@
+{
+ "code": "14121802",
+ "slug": "14121802",
+ "name": "笔译（Ⅰ）",
+ "nameEn": "Translation (Ⅰ)",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9939,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "李淙南",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):30%；(未填):60%",
+  "goals": [
+   "专业知识：能够熟练掌握该课程所教授的基础知识。",
+   "问题分析：能够将所学到的基础知识用于问题分析，提升翻译能力。",
+   "使用现代工具：能够利用现代网络、翻译词典、翻译软件进行翻译辅助实践。",
+   "使用现代工具：能够利用现代网络、翻译词典、翻译软件进行翻译辅助实践。",
+   "环境与可持续发展：建立自己的翻译生态，形成终身学习、终生可持续发展的态势。"
+  ],
+  "intro": "笔译（I）是英语专业本科教学中的专业基础课程，在三年级上期开设。该课程旨在培养学生的英汉翻译技能，为将来的工作或进一步深造打下英汉翻译的基础。课程的特点是有一定的理论性，更强调实践性，要求学生具备较好的英汉双语转换能力，勤于学习，勤于实践，不断提高英汉语翻译操作能力，为以后工作中解决类似问题做好准备。\n该课程以知识传授和师生互动为主，配备章节练习强化实践能力。教学内容分为16章。第1章翻译的本质。第2章翻译过程。第3章翻译方法。第4章翻译技巧：选词法。第5章翻译技巧：增词法。第6章翻译技巧：减词法。第7章翻译技巧：词类转换法。第8章翻译技巧：正反法。第9章翻译技巧：重复法。第10章翻译技巧：分句法。第11章翻译技巧：和句法。第12章翻译技巧：词序调整法。第13章翻译技巧：定语从句翻译法（1）。第14章翻译技巧：定语从句翻译法（2）。第15章翻译技巧：长句译法。第16章翻译技巧：修饰语的翻译法。",
+  "objectives": "通过该课程的教学，使学生能够运用英汉翻译技巧，忠实、通顺地翻译英美国家报刊杂志上有关政治、经济、历史、文化等方面的论述文以及文学作品原著的节录，翻译速度达到每小时300-400词。要求学生在熟读指定教材及相关参考资料之外，还要在课外有针对性地阅读英汉双语材料，仔细体会英汉翻译技巧的奥秘，认真做好所给的单元练习题，积极参加课外翻译实践，做到心灵手巧。",
+  "contents": "Nature of Translation\nProcess of Translation\nTranslation Methods\nTranslation Technique: Diction\nTranslation Technique: Amplification△\nTranslation Technique: Omission\nTranslation Technique: Conversion△\nTranslation Technique: Negation\nTranslation Technique: Repetition△\nTranslation Technique: Division△\nTranslation Technique: Combination\nTranslation Technique: Inversion△★\nTranslation Technique: Translation of Attributive Clauses（1）△★\nTranslation Technique: Translation of Attributive Clauses（2）△★\nTranslation Technique: Translation of Long Sentences△★\nTranslation Technique: Translation of Modifiers△★",
+  "ideology": "介绍英译汉对于国家历史发展所作的贡献。\n通过学习英汉翻译的基本知识，了解英汉笔译的各种技巧，培养精益求精的学习精神\n把学到的英汉翻译技巧应用到笔译实践，为以后进一步深造打下扎实的专业基础，培养敬业精神\n迎合国家文化建设需要，为强化中国语言的话语权提供外语方面的贡献。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Nature of Translation",
+   "ideology": "介绍英译汉对于国家历史发展所作的贡献。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Process of Translation",
+   "ideology": "通过学习英汉翻译的基本知识，了解英汉笔译的各种技巧，培养精益求精的学习精神",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Translation Methods",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Translation Technique: Diction",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Translation Technique: Amplification△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Translation Technique: Omission",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Translation Technique: Conversion△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Translation Technique: Negation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Translation Technique: Repetition△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Translation Technique: Division△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "Translation Technique: Combination",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "Translation Technique: Inversion△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 13,
+   "title": "Translation Technique: Translation of Attributive Clauses（1）△★",
+   "ideology": "把学到的英汉翻译技巧应用到笔译实践，为以后进一步深造打下扎实的专业基础，培养敬业精神",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 14,
+   "title": "Translation Technique: Translation of Attributive Clauses（2）△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 15,
+   "title": "Translation Technique: Translation of Long Sentences△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 16,
+   "title": "Translation Technique: Translation of Modifiers△★",
+   "ideology": "迎合国家文化建设需要，为强化中国语言的话语权提供外语方面的贡献。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14121802",
+ "hasOriginal": true
+}

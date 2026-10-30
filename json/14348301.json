@@ -1,0 +1,169 @@
+{
+ "code": "14348301",
+ "slug": "14348301",
+ "name": "英语名篇诵读实践（Ⅲ）",
+ "nameEn": "Guide Reading of American and English Famous Essays(III)",
+ "credit": 0.5,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 10143,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "集中性实践环节",
+  "teacher": "李娟",
+  "reviewer": "李娟",
+  "totalHours": 20,
+  "lectureHours": 0,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):30%；(未填):30%；(未填):40%",
+  "goals": [
+   "学生在任课教师的指导下，诵读诗歌和经典语篇15篇",
+   "做到内容完整、发音正确、吐词清晰、语调自然流畅。",
+   "学生在体会语言音韵之美的同时，接受人文哲理的熏陶。"
+  ],
+  "intro": "《英语名篇诵读实践》是英语专业学生二年级的必修课程，0.5学分。该课程以“认识语言\"和“培养诵读”为主旨，选择了节奏韵律强、意象清新、意旨令人深思的诗歌和经典语篇，共计15篇。希望学生能通过诵读感受语言的节奏、意象，增强语感，养成阅读的习惯。此外, 本实践课布置3本英文原著的泛读作业，要求学生一个月左右读完一本英文原著，任课老师会定期检查学生的阅读情况。该实践课程总共十周，共计背诵15篇英文名篇经典。要求学生每日诵读，以“诵\"为主，兼顾理解。任课老师每两周抽背一次（3篇），共计五次，最后一次为期末考试。每次班级一半学生参加，每位学生每学期会被现场抽背两次。",
+  "objectives": "要求学生在任课教师的指导下，诵读诗歌和经典语篇15篇（每篇约300词）。做到内容完整、发音正确、吐词清晰、语调自然流畅。课程所选短文均为英美文学名篇中的精华，文风各异，语言地道规范，让学生在体会语言音韵之美的同时，接受人文哲理的熏陶。\n英语名篇诵读实践(III)课程旨在通过对优秀作品的学习和诵读，提高学生阅读能力、语言和文化审美能力，深化对文化的思辨能力，进一步增强文化自信，使其能深刻感受到中西文化的差异，并引导学生对文学经典传递的价值和思想观念进行批判性思考。",
+  "contents": "1. Work and Man 2. Instructions for Life\n3.Man Review & Spot Check（抽背) Tuesday with Morrie阅读情况检查\n4. The Paradox of Our Times 5. Learn from Animals\n6. The Past Review & Spot Check（抽背) Tuesday with Morrie阅读情况检查\n7. The Singer of Life 8. Health\n9. The Pursuit of Happiness Review & Spot Check（抽背) To Kill a Mocking Bird阅读情况检查\n10. The Road of Science 11. Forgive for Good\n12. The Doer of Deeds Review & Spot Check（抽背) To Kill a Mocking Bird阅读情况检查\n13. Happiness 14. Song\n15. Astonishing World Review & Final Examination（期末考试) Silent Spring 阅读情况检查",
+  "ideology": "通过诵读Work and Man和Instructions for Life，培养学生的思辨能力。\n通过诵读 Man，培养学生树立正确的人生观、价值观、世界观。\n通过诵读The Road of Science，培养学生的批判性思维和科学素养。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "1. Work and Man 2. Instructions for Life",
+   "ideology": "通过诵读Work and Man和Instructions for Life，培养学生的思辨能力。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "3.Man Review & Spot Check（抽背) Tuesday with Morrie阅读情况检查",
+   "ideology": "通过诵读 Man，培养学生树立正确的人生观、价值观、世界观。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "4. The Paradox of Our Times 5. Learn from Animals",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "6. The Past Review & Spot Check（抽背) Tuesday with Morrie阅读情况检查",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "7. The Singer of Life 8. Health",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "9. The Pursuit of Happiness Review & Spot Check（抽背) To Kill a Mocking Bird阅读情况检查",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "10. The Road of Science 11. Forgive for Good",
+   "ideology": "通过诵读The Road of Science，培养学生的批判性思维和科学素养。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "12. The Doer of Deeds Review & Spot Check（抽背) To Kill a Mocking Bird阅读情况检查",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "13. Happiness 14. Song",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "15. Astonishing World Review & Final Examination（期末考试) Silent Spring 阅读情况检查",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=476A8BE773304BE5804A4921FA176863",
+ "hasOriginal": true
+}

@@ -1,0 +1,146 @@
+{
+ "code": "14004902",
+ "slug": "14004902",
+ "name": "英语演讲",
+ "nameEn": "English Public Speaking",
+ "credit": 1,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9619,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(含实践环节)",
+  "teacher": "李娟",
+  "reviewer": "李娟",
+  "totalHours": 16,
+  "lectureHours": 16,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):20%；(未填):20%；(未填):20%；(未填):40%",
+  "goals": [
+   "掌握演讲方面的专业知识，能够将演讲专业知识用于各类公共演讲中，使学生有逻辑、有艺术、有策略、幽默流利地表达自己的观点。",
+   "提高问题分析能力，演讲题目的选择，演讲稿的结构组织，相关材料支撑需要学生形成问题意识，带着问题去形成观点，通过检索资料形成分论点和支撑材料，形成有效论证，通过写作和演讲来说服观众。",
+   "通过实践了解社会，能够基于演讲的专业知识合理分析演讲题目和观点，演讲观点和例证与社会生活、文化等息息相关，学生通过广泛阅读和了解社会知识来进行思辨，理解并承担社会责任。通过演讲题目“Protecting the Blue Planet”深化学生对环境和社会可持续发展的认识。",
+   "培养职业规范，培养学生具有人文社会科学素养、社会责任感，能够在实践中理解并遵守职业道德和规范，熟悉演讲稿中的引用规范，明白学术诚信，履行责任。",
+   "通过演讲知识讲解、示范和多次演讲操练，使学生能够与业界同行及社会公众进行有效沟通和交流，包括撰写演讲稿、陈述发言、清晰表达或回应指令。并具备一定的国际视野，能够在跨文化背景下进行沟通和交流。培养团队合作精神，通过小组活动和小组课堂陈述，使学生了解在团队中承担个体、团队成员以及负责人的角色。",
+   "培养终身学习的能力：通过课程学习，让学生意识到公共演讲的重要性，树立其自主学习和终身学习的意识，有不断学习和适应发展的能力。"
+  ],
+  "intro": "本课程为英语专业一年级学生开设的语言运用于实践技能课，学生应具备一定的英语语法、口语等基础英语能力。该课程采用翻转课堂的教学模式，以学生为中心，将英语语言训练与演讲技巧结合起来，旨在通过介绍英语演讲的技巧、发展历史以及实训操练，提高学生综合运用语言和知识的能力，帮助学生掌握演讲稿的写作方法，增强学生公共场合表达自我的交际能力，提高文化素质、心理素质、思辨能力、研究能力等在内的综合素养，并通过思政元素增强学生的文化自信，培养社会主义核心价值观。\n教学内容包括：\n1. 演讲题目的选择和演讲大纲，演讲的开头和结尾（第4章和第8章）\n2. 演讲语言的运用（第10章）\n3. 公共演讲的魅力（第1章和第17章）\n4. 如何克服怯场，演讲的道德考量（第2章和第3章）\n5. 如何支撑观点（第6章和第13章）\n6. 演讲结构组织（第7章和第11章）\n7. 说服的技巧（第14章）\n8. 演讲汇报及点评",
+  "objectives": "本课程向学生传授英语演讲的基本知识和演讲稿撰写技巧，通过对著名经典演讲词的学习借鉴，了解英语演讲的目的、功能、结构、风格和修辞手段，通过演讲实践，提高学生演讲稿的写作能力和口语表达能力，并提高文化素质、心理素质、思辨能力、研究能力等在内的综合素养。教师在演讲培训中，应注重演讲话题和演讲内容的选择。在演讲破题、结构组织、事例支撑和语言组织等各个环节，多融入中国政治、经济、社会和传统文化等要素，帮助学生深入思考，辨证或批判性地看待西方文化，取其精华，去其糟粕，增强文化自信，并引导学生继承、传播和弘扬中国的传统文化、哲学思想、集体主义精神和社会主义核心价值观。",
+  "contents": "Selecting a topic and outlining the speech, Beginning and ending of a speech (Chapter 4, 8) Choosing a topic Determining the general purpose Determining the specific purpose Phrasing the central idea△★ The introduction△★ The conclusion△★\nUsing language (Chapter 10) Using language accurately△★ Using language clearly△ Using language vividly△★ Using language appropriately△ Using language inclusively\nPower of public speaking (Chapter 1) The tradition of public speaking Public speaking and intercultural communicative competence Public speaking and critical thinking△★ Public speaking and conversation△ The speech communication process Speaking Online (Chapter 17)\nSpeaking confidently and ethically (Chapter 2)△★ Giving your first speech (Chapter 3)\nSupport your ideas (Chapter 6) Examples△★ Statistics△ Testimony△ Evaluating online supporting materials Speaking to inform (Chapter 13)\nSupport your ideas (Chapter 6) Examples△★ Statistics△ Testimony△ Evaluating online supporting materials Delivering the speech△(Chapter 11)\nSpeaking to persuade (Chapter 14) The psychology of persuasion The target audience Persuasive speeches on questions of fact △★ Persuasive speeches on questions of value △★ Persuasive speeches on questions of policy △★ Methods of persuasion △ Sample speech with commentary\nFinal speech delivery and comments",
+  "ideology": "在介绍演讲题目的选择时，启发学生从中华传统和中国文化中寻找演讲灵感，培养学生的文化自信\n通过讲解公共演讲与思辨能力的关系，培养学生的思辨能力\n通过讲解如何克服怯场，以及演讲的道德考量，培养学生具有人文社会科学素养、社会责任感，能够在实践中理解并遵守职业道德和规范，熟悉演讲稿中的引用规范，明白学术诚信，履行责任。\n讲解如何支撑演讲观点，如何引用可靠公正的事例，对学生进行社会公德教育，培养学生的道德评判能力\n在讲解劝说的技巧时，培养学生在社会、人生、事业等方面树立正确的理想与奋斗目标。\n通过演讲题目“Protecting the Blue Planet”深化学生对环境和社会可持续发展的认识，深入学习习近平总书记提出的“青山绿水就是金山银山”等论述。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Selecting a topic and outlining the speech, Beginning and ending of a speech (Chapter 4, 8) Choosing a topic Determining the general purpose Determining the specific purpose Phrasing the central idea△★ The introduction△★ The conclusion△★",
+   "ideology": "在介绍演讲题目的选择时，启发学生从中华传统和中国文化中寻找演讲灵感，培养学生的文化自信",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Using language (Chapter 10) Using language accurately△★ Using language clearly△ Using language vividly△★ Using language appropriately△ Using language inclusively",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Power of public speaking (Chapter 1) The tradition of public speaking Public speaking and intercultural communicative competence Public speaking and critical thinking△★ Public speaking and conversation△ The speech communication process Speaking Online (Chapter 17)",
+   "ideology": "通过讲解公共演讲与思辨能力的关系，培养学生的思辨能力",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Speaking confidently and ethically (Chapter 2)△★ Giving your first speech (Chapter 3)",
+   "ideology": "通过讲解如何克服怯场，以及演讲的道德考量，培养学生具有人文社会科学素养、社会责任感，能够在实践中理解并遵守职业道德和规范，熟悉演讲稿中的引用规范，明白学术诚信，履行责任。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Support your ideas (Chapter 6) Examples△★ Statistics△ Testimony△ Evaluating online supporting materials Speaking to inform (Chapter 13)",
+   "ideology": "讲解如何支撑演讲观点，如何引用可靠公正的事例，对学生进行社会公德教育，培养学生的道德评判能力",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Support your ideas (Chapter 6) Examples△★ Statistics△ Testimony△ Evaluating online supporting materials Delivering the speech△(Chapter 11)",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Speaking to persuade (Chapter 14) The psychology of persuasion The target audience Persuasive speeches on questions of fact △★ Persuasive speeches on questions of value △★ Persuasive speeches on questions of policy △★ Methods of persuasion △ Sample speech with commentary",
+   "ideology": "在讲解劝说的技巧时，培养学生在社会、人生、事业等方面树立正确的理想与奋斗目标。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Final speech delivery and comments",
+   "ideology": "通过演讲题目“Protecting the Blue Planet”深化学生对环境和社会可持续发展的认识，深入学习习近平总书记提出的“青山绿水就是金山银山”等论述。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14004902",
+ "hasOriginal": true
+}

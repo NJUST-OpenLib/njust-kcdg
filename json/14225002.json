@@ -1,0 +1,201 @@
+{
+ "code": "14225002",
+ "slug": "14225002",
+ "name": "大学法语（Ⅱ）",
+ "nameEn": "College French (Ⅱ)",
+ "credit": 4,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 10065,
+ "outline": {
+  "version": "2022",
+  "lang": "中法",
+  "category": "理论课(不含实践环节)",
+  "teacher": "胡园园",
+  "reviewer": "李娟",
+  "totalHours": 64,
+  "lectureHours": 64,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "平时考勤、课堂表现、作业、测试等:30%；期末闭卷考试:70%",
+  "goals": [
+   "掌握法语语音和简单句型的基础上，扩大词汇量",
+   "掌握1000字左右的单词",
+   "熟练朗读法语课文",
+   "掌握初级的法语语法知识",
+   "看懂一般对话和短文",
+   "能就所学题材按一定情境进行对话和叙述，语法基本正确",
+   "具有初级的听、说、读、写、译能力",
+   "扩大知识面和文化视野",
+   "增进对本民族语言、文化的认同感、亲切感和自豪感"
+  ],
+  "intro": "《大学法语Ⅱ》系《大学法语》和《高级法语》课程中的一门，是面向英语专业开设的第二外语必修课。此系列课程从入门阶段开始，为二、三、四年级的学生传授基本、实用的法语语言文化知识。该系列课程能增加学生的知识量、扩大学生的文化视野，使学生成为掌握两门语言的双语人才，有利于他们在未来的求学、就业过程中占据一定的竞争优势。《大学法语Ⅱ》的教学内容为《法语1》教材的第十五课到第十八课内容以及《法语2》教材的第一课到第四课内容，包括基础词汇（1000字左右）；加减乘除表达法；钟点表达法；序数词；分数、百分比和小数点的表达；基础句法、语法（复合过去时，简单将来时，未完成过去时，感叹句，强调句，代词式动词，副代词，中性代词，直宾间宾人称代词，宾语人称代词的位置，介词de的用法等）；法国文化介绍。《大学法语Ⅱ》是继《大学法语Ⅰ》的后续课程，要求已修过《大学法语Ⅰ》并已掌握该课程所学内容。",
+  "objectives": "《大学法语Ⅱ》课程紧接《大学法语Ⅰ》课程，在学生掌握法语语音和简单句型的基础上，扩大他们的词汇量，使学生掌握1000字左右的单词；熟练朗读法语课文；掌握初级的法语语法知识，看懂一般对话和短文；能就所学题材按一定情境进行对话和叙述，语法基本正确；具有初级的听、说、读、写、译能力。通过语言学习，本课程还将增进学生对法国和法兰西民族的了解，对本民族语言、文化的认同感、亲切感和自豪感，在积极正面的文化交流与碰撞中扩大学生的知识面和文化视野。本课程要以习近平新时代中国特色社会主义思想为指引，将知识传授与价值引导相结合，培养学生爱国主义精神和家国情怀，帮助学生建立文化自信以及树立与国家、民族同心、同向的理想信念。",
+  "contents": "第十五课：课文（Cours de fran？ais、\"C’est pour te faire plaisir…\"） 语法（直陈式复合过去时△、间接及物动词、间接宾语人称代词★、介词de代替不定冠词des★、状语、数词200 000 000——900 000 000 000） 语言文化（法国学校的学制） 阅读（Christine a maigri、Un jeune écolier） 视听说（现代法语：法国欢迎您 第三课：巴黎夜晚）（教学视频）\n第十六课：课文（Ne fais pas la grasse matinée!、Une journée bien remplie） 语法（代词式动词、以être作助动词的复合过去时△、副代词y★、介词de、加法的表达） 语言文化（法兰西习俗点滴） 阅读（La journée de Philippe） 视听说（现代法语：法国欢迎您 第三课：巴黎夜晚）（教学视频）\n第十七课：课文（Une lettre de Paris、Une lettre de Beijing、Une lettre） 语法（代词式动词的复合过去时★、代词式动词的意义△、直接宾语人称代词△、中性代词 le△、减法的表达） 语言文化（和法国人交往应注意1） 阅读（Lettre pour l’anniversaire、Voeux du nouvel An、En remerciement d’un cadeau、Pour les succuès、Pour le Noel） 视听说（现代法语：法国欢迎您 第四课：去跳蚤市场）（教学视频）\n第十八课：课文（Amie de Jean、Le portrait de mes parents、Mon voisin Michel） 语法（qui, que, qu’est-ce qui疑问词的用法、钟点表示方法△、乘法的表达） 语言文化（和法国人交往应注意2） 阅读（Curriculum vitae、Une petite annonce） 视听说（现代法语：法国欢迎您 第四课：去跳蚤市场）（教学视频）\n复习课：单词句型测验 第一册课本动词变位总结 第一册课本语法总结 列国图志——discovery 法国介绍（1）（教学视频）\n第一课：课文（Demander son chemin、A tout à l’heure） 语法（感叹句的表达、宾语人称代词在句子中的位置★、序数词△、除法的表达） 语言文化（巴黎的地铁） 阅读（Chercher un appartement） 实用练习（用法语问路）△ 视听说（现代法语：法国欢迎您 第五课：开往里昂的高速火车）（教学视频）\n第二课：课文（Projet de vacances、Une lettre） 语法（简单将来时△） 语言文化（法国的铁路） 阅读（Les grandes vacances） 补充文化（中法两国的节日） 视听说（现代法语：法国欢迎您 第五课：开往里昂的高速火车）（教学视频）\n第三课：课文（Une Normande visite Paris、Un étranger en France） 语法（插入句中的主谓倒装、地点专有名词前使用à还是en△、形容词补语△、复合句（1）、分数的表达） 语言文化（怎样致握手礼） 阅读（Le Quartier Latin） 补充文化（法国旅游景点介绍） 教唱法语歌曲《香榭丽舍大街》 视听说（现代法语：法国欢迎您 第六课：喂！喂！）（教学视频）\n第四课：课文（Une concierge parisienne、La concierge travailleuse） 语法（强调句的表达、直陈式未完成过去时△、百分比和小数点的表达） 语言文化（巴黎的“门房”） 阅读（Comme j’aime l’été） 补充文化（《刺猬的优雅》）（教学视频） 视听说（现代法语：法国欢迎您 第六课：喂！喂！）（教学视频）\n复习课：单词句型测验 第二册（1—4课）课本动词变位总结 第二册（1—4课）课本语法总结 列国图志——discovery 法国介绍（2）（教学视频）\n期末总复习：单词句型、动词变位测验 本学期时态用法总结 本学期语法总讲解\n考前答疑",
+  "ideology": "对比中法外语课堂，在肯定法国语言教学中广泛使用的交际法的有效功能的同时，让学生们思考重背诵、重语法、重练习的中国传统的外语学习方法的有效性，引导学生们辩证地看待和使用中外不同的语言学习方法，并为我所用。\n通过课文中的两封中法学生的通信，介绍中法建交以来的文化交流，培养学生的民族文化自信心和正确的文化交流观。\n在补充文化板块，通过介绍法国的中国红色足迹，带领学生们了解和追思中共早期领导人在法国勤工俭学的奋斗历程。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "第十五课：课文（Cours de fran？ais、\"C’est pour te faire plaisir…\"） 语法（直陈式复合过去时△、间接及物动词、间接宾语人称代词★、介词de代替不定冠词des★、状语、数词200 000 000——900 000 000 000） 语言文化（法国学校的学制） 阅读（Christine a maigri、Un jeune écolier） 视听说（现代法语：法国欢迎您 第三课：巴黎夜晚）（教学视频）",
+   "ideology": "对比中法外语课堂，在肯定法国语言教学中广泛使用的交际法的有效功能的同时，让学生们思考重背诵、重语法、重练习的中国传统的外语学习方法的有效性，引导学生们辩证地看待和使用中外不同的语言学习方法，并为我所用。",
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 2,
+   "title": "第十六课：课文（Ne fais pas la grasse matinée!、Une journée bien remplie） 语法（代词式动词、以être作助动词的复合过去时△、副代词y★、介词de、加法的表达） 语言文化（法兰西习俗点滴） 阅读（La journée de Philippe） 视听说（现代法语：法国欢迎您 第三课：巴黎夜晚）（教学视频）",
+   "ideology": null,
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 3,
+   "title": "第十七课：课文（Une lettre de Paris、Une lettre de Beijing、Une lettre） 语法（代词式动词的复合过去时★、代词式动词的意义△、直接宾语人称代词△、中性代词 le△、减法的表达） 语言文化（和法国人交往应注意1） 阅读（Lettre pour l’anniversaire、Voeux du nouvel An、En remerciement d’un cadeau、Pour les succuès、Pour le Noel） 视听说（现代法语：法国欢迎您 第四课：去跳蚤市场）（教学视频）",
+   "ideology": "通过课文中的两封中法学生的通信，介绍中法建交以来的文化交流，培养学生的民族文化自信心和正确的文化交流观。",
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 4,
+   "title": "第十八课：课文（Amie de Jean、Le portrait de mes parents、Mon voisin Michel） 语法（qui, que, qu’est-ce qui疑问词的用法、钟点表示方法△、乘法的表达） 语言文化（和法国人交往应注意2） 阅读（Curriculum vitae、Une petite annonce） 视听说（现代法语：法国欢迎您 第四课：去跳蚤市场）（教学视频）",
+   "ideology": null,
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 5,
+   "title": "复习课：单词句型测验 第一册课本动词变位总结 第一册课本语法总结 列国图志——discovery 法国介绍（1）（教学视频）",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "第一课：课文（Demander son chemin、A tout à l’heure） 语法（感叹句的表达、宾语人称代词在句子中的位置★、序数词△、除法的表达） 语言文化（巴黎的地铁） 阅读（Chercher un appartement） 实用练习（用法语问路）△ 视听说（现代法语：法国欢迎您 第五课：开往里昂的高速火车）（教学视频）",
+   "ideology": null,
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 7,
+   "title": "第二课：课文（Projet de vacances、Une lettre） 语法（简单将来时△） 语言文化（法国的铁路） 阅读（Les grandes vacances） 补充文化（中法两国的节日） 视听说（现代法语：法国欢迎您 第五课：开往里昂的高速火车）（教学视频）",
+   "ideology": null,
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 8,
+   "title": "第三课：课文（Une Normande visite Paris、Un étranger en France） 语法（插入句中的主谓倒装、地点专有名词前使用à还是en△、形容词补语△、复合句（1）、分数的表达） 语言文化（怎样致握手礼） 阅读（Le Quartier Latin） 补充文化（法国旅游景点介绍） 教唱法语歌曲《香榭丽舍大街》 视听说（现代法语：法国欢迎您 第六课：喂！喂！）（教学视频）",
+   "ideology": "在补充文化板块，通过介绍法国的中国红色足迹，带领学生们了解和追思中共早期领导人在法国勤工俭学的奋斗历程。",
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 9,
+   "title": "第四课：课文（Une concierge parisienne、La concierge travailleuse） 语法（强调句的表达、直陈式未完成过去时△、百分比和小数点的表达） 语言文化（巴黎的“门房”） 阅读（Comme j’aime l’été） 补充文化（《刺猬的优雅》）（教学视频） 视听说（现代法语：法国欢迎您 第六课：喂！喂！）（教学视频）",
+   "ideology": null,
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 10,
+   "title": "复习课：单词句型测验 第二册（1—4课）课本动词变位总结 第二册（1—4课）课本语法总结 列国图志——discovery 法国介绍（2）（教学视频）",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "期末总复习：单词句型、动词变位测验 本学期时态用法总结 本学期语法总讲解",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 12,
+   "title": "考前答疑",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 1
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14225002",
+ "hasOriginal": true
+}

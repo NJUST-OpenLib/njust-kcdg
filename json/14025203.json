@@ -1,0 +1,157 @@
+{
+ "code": "14025203",
+ "slug": "14025203",
+ "name": "国际贸易实务与函电",
+ "nameEn": "International Trade Practice and Correspondence",
+ "credit": 3,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9735,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "蒲显伟",
+  "reviewer": "李娟",
+  "totalHours": 48,
+  "lectureHours": 48,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "考勤、表现:20%；平时作业:20%；开卷笔试:60%",
+  "goals": [
+   "了解和掌握国际贸易理论与政策方面的相关知识",
+   "熟悉国际商法、国际经济法、国际市场营销、国际金融、国际贸易地理、国际商务谈判等相关领域的知识",
+   "熟知我国政府一定时期的外交与外贸政策和我国有关的对外贸易法律、法规和习惯做法，以便将来能够在对外交往中灵活地运用各种政策、策略，技巧与手段",
+   "从事对外贸易的全套流程，包括合同前的准备工作、合同签订、合同履行以及索赔等相关技能与知识"
+  ],
+  "intro": "国际贸易实务是英语本科专业教学计划中一门要求理论性、实践性均较高的课程。它是培养新时代合格英语专业人才的一门必修课。它涉及国际贸易理论与政策、国际贸易法规与惯例、国际间商品交易程序、进出口合同的履行、交易洽商签订、合同中的品质、数量、包装、价格、国际货物运输、保险、支付以及商品的检验、索赔、仲裁、不可抗力等交易条件，是一门实际操作性很强的专业基础课。随着我国社会主义市场经济的完善与发展，我国的涉外经济与贸易活动更加活跃，只有掌握了国际贸易的实务知识，才能在进出口业务活动中，正确贯彻我国对外贸易的方针政策和经营意图，确保最佳经济效益，并且能按国际规范办事，使我们的基本做法能为国际社会普遍接受。\n主要教学内容有：国际贸易简介、贸易术语、出口价格、商品条款、货物运输、海运保险、国际支付、出口单证和索赔。",
+  "objectives": "学习该门课程的主要目的是了解国际间商品进出口贸易的基本理论、基本知识和基本技能，以及国际间进行商品贸易的习惯做法、贸易惯例和法律常识。它可以使我们培养的学生既具有较为扎实的理论基础又具有广博的专业基础知识和熟练的实际操作能力。\n学过学习本课程，学生应具备以下能力：\n(1) 了解和掌握国际贸易理论与政策方面的相关知识；\n(2) 熟悉国际商法、国际经济法、国际市场营销、国际金融、国际贸易地理、国际商务谈判等相关领域的知识；\n(3) 熟知我国政府一定时期的外交与外贸政策和我国有关的对外贸易法律、法规和习惯做法，以便将来能够在对外交往中灵活地运用各种政策、策略，技巧与手段。\n(4) 从事对外贸易的全套流程，包括合同前的准备工作、合同签订、合同履行以及索赔等相关技能与知识。",
+  "contents": "General Introduction\nInternational Trade Terms △★\nExport Price △\nTerms of Commodity\nCargo Transportation\nCargo Transportation Insurance △\nInternational Payment △★\nExport Documentation △\nClaim and Arbitration",
+  "ideology": "树立全球视野\n了解我国外贸环境，扩大国际视野\n汇率对我国外贸影响，增强风险意识\n熟悉我国海运保险条款，增强法律意识"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "General Introduction",
+   "ideology": "树立全球视野",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "International Trade Terms △★",
+   "ideology": "了解我国外贸环境，扩大国际视野",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 3,
+   "title": "Export Price △",
+   "ideology": "汇率对我国外贸影响，增强风险意识",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 4,
+   "title": "Terms of Commodity",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "Cargo Transportation",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 6,
+   "title": "Cargo Transportation Insurance △",
+   "ideology": "熟悉我国海运保险条款，增强法律意识",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 7,
+   "title": "International Payment △★",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 8,
+   "title": "Export Documentation △",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 9,
+   "title": "Claim and Arbitration",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14025203",
+ "hasOriginal": true
+}

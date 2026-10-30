@@ -1,0 +1,248 @@
+{
+ "code": "14221502",
+ "slug": "14221502",
+ "name": "英语国家概况（Ⅱ）",
+ "nameEn": "Introduction to English-Speaking Countries (II)",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 10035,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "蒲显伟",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "考勤、表现:20%；平时作业:20%；开卷笔试:60%",
+  "goals": [
+   "培养学生的文化意识和英语学习兴趣",
+   "了解和掌握美国、爱尔兰和加拿大等国家各方面的大致状况，形成良好的英语语言学习背景知识",
+   "扩大学生的英语词汇量，提高跨文化交际能力",
+   "掌握基本的收集、整理、分析资料的能力"
+  ],
+  "intro": "英语国家概况（II）课程是英语本科专业教学计划中的必修课程，理论性、实践性均较高。要求学生具有明确的学习目的与进取心，具备基本的英语听说读写能力，尤其是阅读和词汇能力。学生通过对该课程的学习，学生通过对该课程的学习，一方面可以更多了解美国、澳大利亚和新西兰等英语国家的历史发展、政治体制、社会文化、风土人情等知识，达到开阔视野的目的，另一方面也为学习其它课程乃至今后的工作打下坚实的文化背景基础。英语国家概况（I）以知识传授为主，包括美国概况、澳大利亚概况和新西兰概况。美国部分共十四章，分别介绍美国地形与自然资源，美国人口，发现美洲新大陆及殖民时期，美国独立战争，美国联邦制与宪法制订，美国的扩张及美国内战，美国战后重建及帝国主义，第一次世界大战和经济大萧条，美国在第二次世界大战前后，联邦制与国会，美国总统与法院，政党与选举，教育制度和美国宗教。第十五、十六章分别介绍澳大利亚和新西兰的地理、历史和政治制度。",
+  "objectives": "学生通过对该课程的学习，能够开阔视野，扩大知识面，弥补文化背景知识的不足，为大学阶段的外语学习和以后的英语教学工作打下良好的基础。在该课程教学过程中同时培养学生的文化意识和英语学习兴趣，进一步扩大学生的英语词汇量，提高跨文化交际能力。具体而言，通过该课程的学习，学生应学会有效的进行课前预习和课后复习；了解和掌握美国、澳大利亚和新西兰等国家各方面的大致状况，形成良好的英语语言学习背景知识；掌握基本的收集、整理、分析资料的能力和简单明了和清晰地汇报研究结果的能力；一定程度上锻炼和提高英语口笔语表达能力。",
+  "contents": "Location△; Geographical Divisions★; Climate; Natural Resources\nComposition; Distribution; Internal Migration; Immigration Acts△\nAmerican Indians; Great Discoveries△★; Colonization of the New World△; Structures of the 13 Colonies\nBritain’s Policy to American Colonies★; Resistance in colonies; The Outbreak of War; Declaration of Independence △\nArticles of Confederation△★; Constitutional Convention △; Ratification of the Constitution; The Louisiana Purchase\nMonroe Doctrine; Territorial Expansion△★; Economic Antagonism; The Way to Civil War△; American Civil War\nReconstruction in the South△★; Becoming a Great Industrial Power; Becoming an Imperial Power△\nWorld War I△; America’s Entrance into the War★; Peace Conference of 1919; Prosperity & the Great Depression; Franklin Roosevelt and His New Deal★\nFrom Isolation to Intervention△; Important Conferences during WWII; The Cold War★; Civil Rights Movement★;\nBasic Principles of U.S. Political System; Membership and Powers of Congress△; Leadership and Committees in Congress; How a Bill Becomes a Law★\nThe President and His Powers△; The Organization of Executive Branch; The Federal Court System★; The State Court System\nDevelopment of Political Parties★; Structure and Function of Political Parties; The Democrats & Republicans; Voting and Election△; Electing President\nElementary and Secondary Education; Higher Education△★\nChristianity; Christian Religion in America ★; Non-Christian Religions in America△\nGeography; History△; Politics (Australia)\nGeography; History△; Politics (New Zealand)",
+  "ideology": "熟悉我国行政区划 正确使用标准地图 我国国旗、国歌内涵\n了解早期华人移民历史 了解“时局图”\n了解五四运动缘由 了解美国打压华为\n黑人历史、新疆棉花"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Location△; Geographical Divisions★; Climate; Natural Resources",
+   "ideology": "熟悉我国行政区划 正确使用标准地图 我国国旗、国歌内涵",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Composition; Distribution; Internal Migration; Immigration Acts△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "American Indians; Great Discoveries△★; Colonization of the New World△; Structures of the 13 Colonies",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Britain’s Policy to American Colonies★; Resistance in colonies; The Outbreak of War; Declaration of Independence △",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Articles of Confederation△★; Constitutional Convention △; Ratification of the Constitution; The Louisiana Purchase",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Monroe Doctrine; Territorial Expansion△★; Economic Antagonism; The Way to Civil War△; American Civil War",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Reconstruction in the South△★; Becoming a Great Industrial Power; Becoming an Imperial Power△",
+   "ideology": "了解早期华人移民历史 了解“时局图”",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "World War I△; America’s Entrance into the War★; Peace Conference of 1919; Prosperity & the Great Depression; Franklin Roosevelt and His New Deal★",
+   "ideology": "了解五四运动缘由 了解美国打压华为",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "From Isolation to Intervention△; Important Conferences during WWII; The Cold War★; Civil Rights Movement★;",
+   "ideology": "黑人历史、新疆棉花",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Basic Principles of U.S. Political System; Membership and Powers of Congress△; Leadership and Committees in Congress; How a Bill Becomes a Law★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "The President and His Powers△; The Organization of Executive Branch; The Federal Court System★; The State Court System",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "Development of Political Parties★; Structure and Function of Political Parties; The Democrats & Republicans; Voting and Election△; Electing President",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 13,
+   "title": "Elementary and Secondary Education; Higher Education△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 14,
+   "title": "Christianity; Christian Religion in America ★; Non-Christian Religions in America△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 15,
+   "title": "Geography; History△; Politics (Australia)",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 16,
+   "title": "Geography; History△; Politics (New Zealand)",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14221502",
+ "hasOriginal": true
+}

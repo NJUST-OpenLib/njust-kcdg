@@ -1,0 +1,118 @@
+{
+ "code": "14023503",
+ "slug": "14023503",
+ "name": "心理语言学入门",
+ "nameEn": "Introductory Psycholinguistics",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9710,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "汤平",
+  "reviewer": "汤平",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:20%；平时作业:20%；PPT展示:30%；课程论文:30%",
+  "goals": [
+   "1. 了解心理语言学的不同理论模型",
+   "2. 启发学生独立思考和研究",
+   "3. 学生初步掌握心理语言学的研究方法，进行有一定独创性的科研的能力",
+   "4. 激发学生分析研究能力"
+  ],
+  "intro": "《心理语言学导论》是针对语言学专业高年级学生开设的一门课程，有助于学生了解心理语言学的基本观点、理论和研究方法。心理语言学是研究语言习得和产生的心理过程的学科。心理语言学研究人类如何使用和学习语言，并且如何通过语言来表达思想，进行思维。它的研究基础主要是来自心理学、认知科学、语言学的理论和研究方法。本课程要求学生通过本课程的学习能了解心理语言学的主要问题和基本思想；了解语言加工的脑机制；理解语言学习的关键期；从认知角度掌握语言理解、语言产生、语言获得和语言转换；理解语言、文化和认知；性格与语言学习等。\n教学内容包括：心理语言学介绍（第一章）、语言习得（第二章）、语言理解（第三、四、五章）、语言产出（第六、七章）、语言障碍（第八章）、语言与大脑（第九章）。",
+  "objectives": "该课程目的在于加强学生对心理语言学相关理论知识的了解，掌握心理语言学的经典理论模型，并初步掌握心理语言学的研究方法。在学完本课程之后，学生能够：1、了解心理语言学的主要问题和基本思想；了解语言加工的脑机制；心理语言学研究前沿；2、理解语言学习的关键期、语言学习的影响因素；3、掌握当前关于语言理解、语言产生、语言获得和语言转换的认知心理学观点。\n通过本课程提供的有关心理语言学的基础知识，让学生对心理语言学有一个较为完整的认识，启发学生独立思考和研究，为今后从事相关专业的研究打下扎实基础。同时使他们有机会接触当代现代心理语言学的新进展，站在新世纪的高度去学习和思考本领域的主要问题。\n在传授专业知识的同时，通过各个教学环节逐步培养学生良好的职业道德和工作作风，激发学生分析研究能力，尤其是要在具体实践中加强培养语言文化知识的积累和实际应用能力。",
+  "contents": "Introduction and Overview\nLanguage acquisition△★\nSpeech perception★; Visual word perception & recognition★; Language representation\nSpeech production★; Gesture; Writing\nLanguge disorder△\nLanguage and Brain★",
+  "ideology": "讲解语言学和心理学在国内的蓬勃发展，彰显国家科技实力的提升\n学习汉语的外国人越来越多，彰显国家经济文化实力的增强\n培养学生观察能力、组织能力和协调能力。\n国家对语言障碍越来越重视，彰显健康中国的理念"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction and Overview",
+   "ideology": "讲解语言学和心理学在国内的蓬勃发展，彰显国家科技实力的提升",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Language acquisition△★",
+   "ideology": "学习汉语的外国人越来越多，彰显国家经济文化实力的增强",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 3,
+   "title": "Speech perception★; Visual word perception & recognition★; Language representation",
+   "ideology": "培养学生观察能力、组织能力和协调能力。",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 4,
+   "title": "Speech production★; Gesture; Writing",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "Languge disorder△",
+   "ideology": "国家对语言障碍越来越重视，彰显健康中国的理念",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 6,
+   "title": "Language and Brain★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6CCF4802A66248F99BEF224C3E8C9F63",
+ "hasOriginal": true
+}

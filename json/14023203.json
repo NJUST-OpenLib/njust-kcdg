@@ -1,0 +1,161 @@
+{
+ "code": "14023203",
+ "slug": "14023203",
+ "name": "英语语言学导论",
+ "nameEn": "Introduction to English Linguistics",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9699,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "景晓平",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；平时作业:20%；PPT展示:10%；闭卷笔试:60%",
+  "goals": [
+   "1、比较不同语言学理论和流派的利弊得失",
+   "2、启发学生独立思考和研究",
+   "3、为今后从事相关专业的研究打下扎实基础",
+   "4、接触当代语言学及其应用学科的新进展",
+   "5、站在新世纪的高度去学习和思考本领域的主要问题",
+   "6、在语言学某一分支学科，进行有一定独创性的科研的能力",
+   "7、逐步培养学生良好的职业道德和工作作风",
+   "8、在具体实践中加强培养语言文化知识的积累和实际应用能力"
+  ],
+  "intro": "语言学导论主要探讨语言的起源和语言内部各层次的基本关系，以及语言与思维、文化、社会、语境、认知外部因素的关系。本课程在英语语言文学方向的本科生教育中起关键的作用，为学习其他语言学理论，或从事相关研究打下坚实的基础。\n教学内容包括：语音学和音系学、词法（形态学）、句法、语义学和语用学、文体学、社会语言学、应用语言学、语言学流派。\n主要先修课程：中国文化概论、英美文化概论、新闻阅读与写作等\n考核与成绩记载方式：闭卷考试60%；平时作业、课堂讨论占40%",
+  "objectives": "通过本课程提供的有关语言学各有关学科的基础知识，让学生比较不同语言学理论和流派的利弊得失，启发学生独立思考和研究，为今后从事相关专业的研究打下扎实基础。同时使他们有机会接触当代语言学及其应用学科的新进展，站在新世纪的高度去学习和思考本领域的主要问题。\n通过本课程的学习，要使学生获得：1.语言学基础知识；2.语言学研究方法基础知识；3.语言学各分支学科基础知识；4.语言学研究的现状及主要成果；5.在语言学某一分支学科，进行有一定独创性的科研的能力。\n在传授专业知识的同时，通过各个教学环节逐步培养学生良好的职业道德和工作作风，激发学生分析研究能力，尤其是要在具体实践中加强培养语言文化知识的积累和实际应用能力。",
+  "contents": "Chapter 1 Linguistics- A Pilot Science 1.1 Why study Linguistics? 1.2 What Is Language? - Defining the Object of Study 1.3 Origin of Language 1.4 Design Features of Language 1.4.1 Arbitrariness 1.4.2 Duality 1.4.3 Creativity 1.4.4 Displacement 1.5 Animal\nChapter 2 Phonetics & Phonology★ 2.1 The Study of Speech Sounds 2.1.1 Aspects of the Study of Speech Sounds 2.1.2 Speech Production and Perception 2.2 Speech Organs 2.3 Segments, Divergences, and Phonetic Transcription 2.3.1 Segments and Divergences 2.3.2\nChapter 3 Morphology & Lexicology 3.1 Introduction 3.2 Morphemes, Morphs and Allomorphs 3.3 Classifying Morphemes 3.3.1 Free versus Bound Morphemes 3.3.2 Derivational versus Inflectional Morphemes 3.3.3 Lexical versus Grammatical Morphemes 3.4 Identifying\nChapter 4 Syntax ★ 4.1 Generative Syntax 4.1.1 Generative Grammar：Some Basic Assumptions 4.1.1.1 Generative Grammar and Chomsky 4.1.1.2 E-1anwaage and I-1anguage 4.1.1.3 Criteria of Adequacy 4.1.1.4 The Development Of Generative Grammar：Three Theoretical\nChapter 5 Semantics △ 5.1 Introduction 5.2 Meanings of “Meaning” 5.3 The Referential Theory 5.4 Sense Relations 5.4.1 Synonymy 5.4.2 Antonymy 5.4.3 Hyponymy 5.5 Componential Analysis 5.6 Sentence Meaning 5.6.1 An Integrated Theory 5.6.2 Logical Sema\nChapter 6. Sociolinguistics 6.1 Introduction 6.2 Language and Culture 6.2.1 How Does Language Relate to Culture? 6.2.2 What More Should We Know about the Sapir-Whorf Hypothesis? 6.2.3 What Evidence Can We Give to Show the Close Relationship Between La\nChapter 7 △ Pragmatics 7.1 Introduction 7.2 Speech Act Theory 7.2.1 Performatives and Constatives 7.2.2 A theory of the Illocutionary Act 7.2.3 Classes of Illocutionary Acts 7.2.4 Searle’s Revisions 7.3 The Classical Theory of Implicature 7.3.1 The Cooper\nChapter 8 △ Second Language Acquisition and Second Language Teaching 8.1 Introduction 8.2 The Role of Internal Mechanisms 8.2.1 The UG Approach 8.2.2 UG and SLA 8.2.3 Connectionism and SLA 8.2.4 The Information Processing Approach to SLA 8.2.5 Ske\nChapter9★ Modern Theories and Schools of Linguistics 9.1 The Beginning of Modern Linguistics 9.1.1 Introduction 9.1.2 Sources of Saussure’s Ideas 9.1.3 Saussure’s Theorizing 9.1.4 Saussure’s Legacy 9.1.5 Conclusion 9.2 The Prague School and the Copenhagen",
+  "ideology": "通过深入学习讨论汉语句法的形态特征，提高学生国家意识和文化自主，坚定传播和弘扬中华优秀传统文化和社会主义先进文化的决心和信心。\n通过深入对比讨论英汉语句法特征，培养学生全球意识及开放心态，尊重世界多元文化的多样和差异性。\n0\n通过讨论汉语文化中社会变量的影响，培养学生求真精神，尊重事实和证据的实证意识和严谨的求知态度。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Chapter 1 Linguistics- A Pilot Science 1.1 Why study Linguistics? 1.2 What Is Language? - Defining the Object of Study 1.3 Origin of Language 1.4 Design Features of Language 1.4.1 Arbitrariness 1.4.2 Duality 1.4.3 Creativity 1.4.4 Displacement 1.5 Animal",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "Chapter 2 Phonetics & Phonology★ 2.1 The Study of Speech Sounds 2.1.1 Aspects of the Study of Speech Sounds 2.1.2 Speech Production and Perception 2.2 Speech Organs 2.3 Segments, Divergences, and Phonetic Transcription 2.3.1 Segments and Divergences 2.3.2",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "Chapter 3 Morphology & Lexicology 3.1 Introduction 3.2 Morphemes, Morphs and Allomorphs 3.3 Classifying Morphemes 3.3.1 Free versus Bound Morphemes 3.3.2 Derivational versus Inflectional Morphemes 3.3.3 Lexical versus Grammatical Morphemes 3.4 Identifying",
+   "ideology": "通过深入学习讨论汉语句法的形态特征，提高学生国家意识和文化自主，坚定传播和弘扬中华优秀传统文化和社会主义先进文化的决心和信心。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "Chapter 4 Syntax ★ 4.1 Generative Syntax 4.1.1 Generative Grammar：Some Basic Assumptions 4.1.1.1 Generative Grammar and Chomsky 4.1.1.2 E-1anwaage and I-1anguage 4.1.1.3 Criteria of Adequacy 4.1.1.4 The Development Of Generative Grammar：Three Theoretical",
+   "ideology": "通过深入对比讨论英汉语句法特征，培养学生全球意识及开放心态，尊重世界多元文化的多样和差异性。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "Chapter 5 Semantics △ 5.1 Introduction 5.2 Meanings of “Meaning” 5.3 The Referential Theory 5.4 Sense Relations 5.4.1 Synonymy 5.4.2 Antonymy 5.4.3 Hyponymy 5.5 Componential Analysis 5.6 Sentence Meaning 5.6.1 An Integrated Theory 5.6.2 Logical Sema",
+   "ideology": "0",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 6,
+   "title": "Chapter 6. Sociolinguistics 6.1 Introduction 6.2 Language and Culture 6.2.1 How Does Language Relate to Culture? 6.2.2 What More Should We Know about the Sapir-Whorf Hypothesis? 6.2.3 What Evidence Can We Give to Show the Close Relationship Between La",
+   "ideology": "通过讨论汉语文化中社会变量的影响，培养学生求真精神，尊重事实和证据的实证意识和严谨的求知态度。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 7,
+   "title": "Chapter 7 △ Pragmatics 7.1 Introduction 7.2 Speech Act Theory 7.2.1 Performatives and Constatives 7.2.2 A theory of the Illocutionary Act 7.2.3 Classes of Illocutionary Acts 7.2.4 Searle’s Revisions 7.3 The Classical Theory of Implicature 7.3.1 The Cooper",
+   "ideology": null,
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 8,
+   "title": "Chapter 8 △ Second Language Acquisition and Second Language Teaching 8.1 Introduction 8.2 The Role of Internal Mechanisms 8.2.1 The UG Approach 8.2.2 UG and SLA 8.2.3 Connectionism and SLA 8.2.4 The Information Processing Approach to SLA 8.2.5 Ske",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 9,
+   "title": "Chapter9★ Modern Theories and Schools of Linguistics 9.1 The Beginning of Modern Linguistics 9.1.1 Introduction 9.1.2 Sources of Saussure’s Ideas 9.1.3 Saussure’s Theorizing 9.1.4 Saussure’s Legacy 9.1.5 Conclusion 9.2 The Prague School and the Copenhagen",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14023203",
+ "hasOriginal": true
+}

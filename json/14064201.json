@@ -1,0 +1,108 @@
+{
+ "code": "14064201",
+ "slug": "14064201",
+ "name": "语法理论与流派",
+ "nameEn": "Schools and Theories of Syntax",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9892,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "王晨",
+  "reviewer": "汤平",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；期中测验:30%；闭卷考试:60%",
+  "goals": [
+   "原则参数理论：学生需要明确如何在维持结构精简的基础上赋予运算更强的灵活性，以增强理论的描写力。",
+   "同时需要掌握X-杠标理论、θ-理论、格理论等一系列独立的模块对运算的结果进行筛查，剔除不合法语句的基本流程，学会分析简单的语言现象。",
+   "分布式形态学：学生需要明确为何分布式形态学处理词根的方式可以看作是对Chomsky（1970）提出的分析的改造。",
+   "理解可以自由组合的定类语素起到简化词库的内容，也一定程度上解决了投射与加标的算法问题。迟后填音是句法-语音的接口算法，独立于句法模块之外。",
+   "以及分布式形态学可能存在的设计缺陷：一是定类语素的句法地位模糊，导致定类后词的句法地位同样模糊；二是无语音形式的定类语素的泛用也带来了算法效率降低的问题。",
+   "外框架理论：学生需要明确句法运算的主体应该是在普遍语法层面便已经被决定的“结构模板”，而非具体语言具体词项对应的词条。学会如何利用扩展投射与其核心短语之间的紧密关系完成词根的定类，以及在功能项不丰富的语言中这一算法可能面临的问题。",
+   "第一语段句法：学生需要掌握语义角度下事件结构的基本划分，以及如何将语义解构从而映射到句法结构上。"
+  ],
+  "intro": "本课程是语言学专业本科阶段句法领域的进阶课程。学生选修前应掌握现代生成语法的基本概念和研究范式，以更好地接受本课程讨论的不同流派句法学的关注点、出发点和主要论据。本课程内容包含四个大章节，分别为：原则参数理论、分布式形态学、外框架理论、第一语段句法。各个章节分配如下：\n原则参数理论：主讲80年代始的原则参数句法演算模型。内含X-杠标理论、θ-理论、格理论等内容。设计时长8学时。\n分布式形态学：主讲90年代初Halle & Marantz（1993）的分布式形态学模型及其后续发展。内含词根、定类语素、迟后填音等内容。设计时长8学时。\n外框架理论：主讲Borer（2005a，b，2013）系列专著奠定的外框架理论。包含空项赋值、DP结构假说、事件量化、词境定类等内容。设计时长8学时。\n第一语段句法：主讲Ramchand（2008，2018）提出的第一语段句法理论。包含事件类型、解构句法、语义映射等内容。设计时长6学时。",
+  "objectives": "学生通过修习本课程，应达到四点要求：1.熟悉各阶段、各流派生成语法的特点与假设；2.理解各流派产生的动因和形成假设的逻辑链；3.认识各流派对不同语言特点的兼容性；4.运用具体分析框架解决不同语言下的现象。学生通过学习本课程应该明确句法学的严谨性和理论开拓的曲折性。",
+  "contents": "Introduction\nPrinciples and Paramenters Theory ★\nDistributed Morphology\nExo-skeletal Framework △\nFirst Phase Syntax",
+  "ideology": "深刻认识主要矛盾的历史变化对应理论历史发展的驱动因素\n不忘初心、牢记使命和理论研究中回归出发点\n世界构建人类命运共同体和第一语段构建事件结构的普世性"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Principles and Paramenters Theory ★",
+   "ideology": "深刻认识主要矛盾的历史变化对应理论历史发展的驱动因素",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 3,
+   "title": "Distributed Morphology",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 4,
+   "title": "Exo-skeletal Framework △",
+   "ideology": "不忘初心、牢记使命和理论研究中回归出发点",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 5,
+   "title": "First Phase Syntax",
+   "ideology": "世界构建人类命运共同体和第一语段构建事件结构的普世性",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D088ECD9277447B19C6C34CDD400038A",
+ "hasOriginal": true
+}

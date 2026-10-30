@@ -1,0 +1,214 @@
+{
+ "code": "14064101",
+ "slug": "14064101",
+ "name": "语言研究统计方法",
+ "nameEn": "Statistics in Language Research",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9891,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "唐文婷",
+  "reviewer": "汤平",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "考勤与课堂表现:10%；平时作业:30%；期中测验:20%；PPT展示:10%；项目报告:30%",
+  "goals": [
+   "掌握实证研究设计的基本原则",
+   "统计软件实践入门 （SPSS，R）",
+   "均值，方差与正态分布",
+   "数据分布基本种类简介",
+   "t检验，F检验",
+   "离散分析原理与实践",
+   "数据分析实践：数据预处理方法",
+   "数据分析实践：选择检验方法",
+   "统计结果的解读"
+  ],
+  "intro": "本课程是面向外语专业与语言学专业本科生开设的统计学课程。本课程通过语言研究中的实践案例来说明统计学的基本思想。通过讲座、阅读和实践，学生将学习如何设计出科学可行的语言研究，如何收集语言研究中的数据，如何利用统计方法分析数据，如何科学地解读统计结果。由于本课程面向的是外语专业与语言学专业的本科生，课程将以实验语言学领域中的具体研究为案例，引导学生将统计学思想方法应用到语言研究的实践中。此外，本课程将安排学生进行实践，通过对统计软件（SPSS，R）的实际操作，积累数据统计与分析的实战经验，为以后参加科研训练、撰写毕业论文打下基础。",
+  "objectives": "本课程通过讲座、阅读和实践，引导学生学习如何设计出科学可行的语言研究，如何收集语言研究中的数据，如何利用统计方法分析数据，如何科学地解读统计结果，为以后参加科研训练、撰写毕业论文打下基础。。具体教学目标如下：\n1. 掌握实证研究设计的基本原则\n2. 统计软件实践入门 （SPSS，R）\n3. 均值，方差与正态分布\n4. 数据分布基本种类简介\n5. t检验，F检验\n6. 离散分析原理与实践\n7. 数据分析实践：数据预处理方法\n8. 数据分析实践：选择检验方法\n9. 统计结果解读实践",
+  "contents": "导论\n实证研究设计的基本原则 △\n统计软件入门:SPSS\n统计软件入门:R\n均值，方差与正态分布\n数据分布基本种类\nt检验，F检验\n离散分析\n数据分析：数据预处理\n数据分析：选择检验方法 ★\n统计结果解读\n统计软件作图\n项目汇报",
+  "ideology": "介绍国内外数据科学的发展\n介绍我国近现代科学家勇于探索的精神\n采用我国科技发展相关数据，分析探讨科技强国理念在中国是如何体现落实的\n采用我国科技发展相关数据，分析探讨科技强国理念在中国是如何体现落实的"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "导论",
+   "ideology": "介绍国内外数据科学的发展",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 2,
+   "title": "实证研究设计的基本原则 △",
+   "ideology": "介绍我国近现代科学家勇于探索的精神",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 3,
+   "title": "统计软件入门:SPSS",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 4,
+   "title": "统计软件入门:R",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "均值，方差与正态分布",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 6,
+   "title": "数据分布基本种类",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 7,
+   "title": "t检验，F检验",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "离散分析",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 9,
+   "title": "数据分析：数据预处理",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "数据分析：选择检验方法 ★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "统计结果解读",
+   "ideology": "采用我国科技发展相关数据，分析探讨科技强国理念在中国是如何体现落实的",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "统计软件作图",
+   "ideology": "采用我国科技发展相关数据，分析探讨科技强国理念在中国是如何体现落实的",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 13,
+   "title": "项目汇报",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=52B4021788A44365B7389696C7DA7600",
+ "hasOriginal": true
+}

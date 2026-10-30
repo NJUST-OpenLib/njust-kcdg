@@ -1,0 +1,144 @@
+{
+ "code": "14345901",
+ "slug": "14345901",
+ "name": "英语视听说（Ⅲ）",
+ "nameEn": "English Viewing, Listening and Speaking (III)",
+ "credit": 1,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 10142,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "杨蔚",
+  "reviewer": "李娟",
+  "totalHours": 16,
+  "lectureHours": 16,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):20%；(未填):40%；(未填):30%",
+  "goals": [
+   "能听懂英美人士的一般交谈和相当于中等难度的听力材料；",
+   "能清楚正确地表达自己思想，语言得体，符合一般交际原则；",
+   "初步听懂VOA和BBC等标准英语的新闻节目及其它主要内容；",
+   "能就所听的材料或熟悉的题材和所给话题进行对话或连贯发言。"
+  ],
+  "intro": "《英语视听说III》的教学任务是通过多样的形式，多方位地训练和培养英语专业学生的听英语和说英语的能力，促进他们的理解能力和快速反应能力。通过该课程的学习达到教学大纲所要求的听力理解水平。本阶段针对英语专业二年级学生。通过本课程的训练，学生应将书本词汇转变为口头实用词汇，减少口语错误，进一步完善语音语调，掌握并遵循一般的交际原则。在课程结束时，听力方面要求学生能听懂中等难度的听力材料（如VOA, BBC正常语速的新闻和其它节目），能够完成诸如填空、单选、判断、简答等问题任务，在英语专业四级考试中听力部分应达到70%以上的正确率。在口语方面，应该能够就所听内容或所给话题进行至少4分钟的对话和至少2分钟的个人连贯发言，包括讲述故事和发表评论，达到英语专业四级口语考试要求的达标程度。《英语视听说III》以《英语视听说教程》教材前六个单元为主，辅以VOA和BBC及专四听力材料，着重语言技能训练。技能提高需要持久锻炼才能见效，因此课堂内的练习之外必须辅有大量的课外练习，培养学生课后练习的习惯。课堂内主要进行方式方法的指导和水平测试，不断让学生了解所应达到的水平和实际已达到的水平，给与学生鼓励、支持、督促和考核。",
+  "objectives": "通过本课程的学习，学生在听力方面需要听懂英美人士的一般交谈和相当于中等难度的听力材料，包括独白、对话、小讲座等，能用英语简要地做笔记。在口语方面，要求准确掌握诸如询问、请求、建议、忠告等交际功能，能就日常生活中的一般情景进行恰当的交谈，就所听的材料或熟悉的题材进行对话或连贯发言，达到“正确表达思想，语音、语调基本正确，无重大语法错误，语言基本得体 ” 的要求。\n具体应做到以下几点：(1) 能听懂英美人士的一般交谈和相当于中等难度的听力材料；(2) 能清楚正确地表达自己思想，语言得体，符合一般交际原则；(3) 初步听懂VOA和BBC等标准英语的新闻节目及其它主要内容；(4) 能就所听的材料或熟悉的题材和所给话题进行对话或连贯发言。\n本课程旨在培养学生的沟通表达能力、听力思辨能力，能够就特定话题进行思辨性表达和讨论的能力，和有效跨文化沟通的能力，能够理性地审视中国文化与外国文化的优缺点，对不同意识形态保持清醒认识、坚持正确的立场，同时培养学生具备崇高理想、坚定文化自信，在对外交流中弘扬中国文化。",
+  "contents": "Unit One Arriving in the US: Meeting the Host family△ , First day on Campus, American Greetings★\nUnit Two Campus Life: Talking About Classes and Fields of Study★,student life,Types of Colleges and Universities in the US\nUnit Three Library/Bookstore: At a Library△, types of Libraries, The Changing Faces of Libraries★\nTest and Movie Time: Quiz△, A Movie Clip\nUnit Four Food: Talking about Foods★, Ways of Eating, American Food△\nUnit Five Shopping: At a Supermarket△, At Best-Buy, Shopping in the US★\nUnit Six Entertainment: Talking about Music, Talking about Movies△, Talking about TV Programs, Mass Media in the 20th Century★\nTest and Movie Time: Quiz△, A Movie Clip",
+  "ideology": "通过模拟美国家庭校园生活场景，培养学生跨文化沟通能力。\n通过对比中美饮食文化，培养学生理性地审视中国文化与外国文化的优缺点。\n通过谈论音乐、电影、电视节目、大众传媒等娱乐活动，培养学生的文化思辨能力，坚定文化自信。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Unit One Arriving in the US: Meeting the Host family△ , First day on Campus, American Greetings★",
+   "ideology": "通过模拟美国家庭校园生活场景，培养学生跨文化沟通能力。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Unit Two Campus Life: Talking About Classes and Fields of Study★,student life,Types of Colleges and Universities in the US",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Unit Three Library/Bookstore: At a Library△, types of Libraries, The Changing Faces of Libraries★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Test and Movie Time: Quiz△, A Movie Clip",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Unit Four Food: Talking about Foods★, Ways of Eating, American Food△",
+   "ideology": "通过对比中美饮食文化，培养学生理性地审视中国文化与外国文化的优缺点。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Unit Five Shopping: At a Supermarket△, At Best-Buy, Shopping in the US★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Unit Six Entertainment: Talking about Music, Talking about Movies△, Talking about TV Programs, Mass Media in the 20th Century★",
+   "ideology": "通过谈论音乐、电影、电视节目、大众传媒等娱乐活动，培养学生的文化思辨能力，坚定文化自信。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Test and Movie Time: Quiz△, A Movie Clip",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14345901",
+ "hasOriginal": true
+}

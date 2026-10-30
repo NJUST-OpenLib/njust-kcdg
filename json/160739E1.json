@@ -1,0 +1,145 @@
+{
+ "code": "160739E1",
+ "slug": "160739E1",
+ "name": "机械工程材料与制造方法基础【英】",
+ "nameEn": "Foundamental of  mechanical engineering materials and manufacturing method",
+ "credit": 2,
+ "dept": "材料科学与工程学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 11321,
+ "outline": {
+  "version": "2022",
+  "lang": "中英",
+  "category": "理论课(不含实践环节)",
+  "teacher": "黄俊",
+  "reviewer": "黄俊",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):20%；(未填):60%；(未填):10%",
+  "goals": [
+   "掌握工程材料结构、力学性能测试方法",
+   "掌握各类金属及其合金特点及应用基础知识、掌握铸锻焊各类制造方法工艺原理及应用",
+   "掌握制造过程工艺设计方法，能够分析实际工程问题",
+   "掌握英语工程专业词汇、数学物理化学中各种术语、公式等的表达法以及科技文体的行文习惯，引导学生对技术发展进行深度思考。",
+   "掌握金属材料及制造专业词汇，培养和训练英文听和写的技巧和能力，提高英文科技论文写作、口语能力"
+  ],
+  "intro": "《机械工程材料与制造方法基础【英】》是为材料成型及控制工程专业学生开设的专业基础课，以机械工程材料、材料加工成型技术为主要内容，采用全英文教学的方式，通过课堂讲授、讨论、翻译文献等教学手段，使学生对工程材料分类、工程材料应用、工程材料性能测试方法、各种制造方法有较全面的了解和认识，掌握工程材料特点、工程材料性能测试方法与典型应用、加工工艺、铸造、锻造、焊接各种制造方法的基本原理、设备、工艺与典型应用，具备从事材料成型及相关工作的基本能力。同时，使学生学到大量的英语工程专业词汇、数学物理化学中各种术语、公式等的表达法以及科技文体的行文习惯，为以后在工作中的应用或进一步的深造打下坚实的基础。对原版教材进行选编，在保证知识系统性的同时，吸收国外教材的优点，尤其是注意吸收其最新的教学内容。注重培养学生提出问题、分析问题、解决问题能力。\n本课程共分为八章教学内容：第一章为绪论，主要讲工程材料的种类、制造方法的概念、分类等；第二章讲材料的结构等基础知识；第三章讲材料的力学性能及测试方法；第四章讲金属材料特点及应用；第五章讲传统弧焊连接方法的工艺及应用；第六章讲电阻焊等连接方法工艺及应用；第七章讲激光焊、电子束焊等其它先进连接方法工艺及应用；第八章讲制造工艺设计规范等。\n修学该课程所需的预备知识：工程材料、金属学热处理、材料加工工程",
+  "objectives": "本课程通过课堂教学、小组任务、翻译文献、ppt汇报展示等教学手段，使学生掌握工程材料分类、工程材料应用、工程材料性能测试方法、各种制造方法等方面的知识，掌握大量的英语工程专业词汇、数学物理化学中各种术语、公式等的表达法以及科技文体的行文习惯；掌握金属材料及制造专业词汇，培养和训练英文听和写的技巧和能力，提高英文科技论文写作能力。课程在传授知识的同时，要通过各个教学环节逐步培养学生抽象思维能力、逻辑推理能力、探讨研究能力、自学能力和系统分析能力及其阅读英文专业文献的能力，培养他们初步具备运用数学、自然科学以及工程基础知识、课程涉及的知识及基本理论开展材料成型工艺、材料成型过程控制技术研究的综合能力。以中国优秀传统文化内涵为指导，了解传统制造方法与现代制造方法的特点，加强中国特色社会主义理论自信教育，发扬大国工匠精神。社会主义核心价值观体现，通过学习工程材料基础以及制造方法基础专业知识，为社会和为人民服务。",
+  "contents": "General Introduction : Manufacturing Processes； Classification；General considerations\nFundamentals of Materials :The Structure of Materials△；The Structure of the Atom；The Electronic Structure of the Atom★；Structure of Material△\nMechanical Properties and Behavior : Technological Significance；Terminology For Mechanical Properties；Engineering Properties and Their Measurements△\nCharacteristics of Metals: Specialty Steels；Cast Iron△ ；Aluminum Alloys；Magnesium and Beryllium Alloys；Copper Alloys；Nickel and Cobalt Alloys；Titanium alloys；The Shape-Memory Alloys [SMAs]★\nElectric Arc Welding : Principle of arc；Arc welding equipment；Manual metal arc welding；Inert gas shielded arc welding△ ；Tungsten inert Gas welding△ ；Gas metal arc welding\nResistance Welding : Resistance spot welding△；Resistance seem welding；Projection welding；Upset welding★；Flash welding；\nOther Welding Processes : Thermit welding；Electro slag welding；Electron beam welding；Forge welding；Friction welding；Diffusion welding；Explosion welding；Brazing, Braze Welding and Soldering\nWelding Design : Heat input△；Heat flow★；Distortions；Defects in welding",
+  "ideology": "介绍制造技术发展现状，引领学生认知、认同与践行“中国梦，制造强国梦。\n了解材料发展史及发展现状，加强中国特色社会主义理论自信教育。\n以中国优秀传统文化内涵为指导，了解传统制造方法与现代制造方法的特点，加强中国特色社会主义理论自信教育，发扬大国工匠精神。\n介绍新型制造方法与工艺，引导学生理解“大众创业、万众创新”内涵。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "General Introduction : Manufacturing Processes； Classification；General considerations",
+   "ideology": "介绍制造技术发展现状，引领学生认知、认同与践行“中国梦，制造强国梦。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Fundamentals of Materials :The Structure of Materials△；The Structure of the Atom；The Electronic Structure of the Atom★；Structure of Material△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "Mechanical Properties and Behavior : Technological Significance；Terminology For Mechanical Properties；Engineering Properties and Their Measurements△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Characteristics of Metals: Specialty Steels；Cast Iron△ ；Aluminum Alloys；Magnesium and Beryllium Alloys；Copper Alloys；Nickel and Cobalt Alloys；Titanium alloys；The Shape-Memory Alloys [SMAs]★",
+   "ideology": "了解材料发展史及发展现状，加强中国特色社会主义理论自信教育。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "Electric Arc Welding : Principle of arc；Arc welding equipment；Manual metal arc welding；Inert gas shielded arc welding△ ；Tungsten inert Gas welding△ ；Gas metal arc welding",
+   "ideology": "以中国优秀传统文化内涵为指导，了解传统制造方法与现代制造方法的特点，加强中国特色社会主义理论自信教育，发扬大国工匠精神。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 6,
+   "title": "Resistance Welding : Resistance spot welding△；Resistance seem welding；Projection welding；Upset welding★；Flash welding；",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "Other Welding Processes : Thermit welding；Electro slag welding；Electron beam welding；Forge welding；Friction welding；Diffusion welding；Explosion welding；Brazing, Braze Welding and Soldering",
+   "ideology": "介绍新型制造方法与工艺，引导学生理解“大众创业、万众创新”内涵。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 8,
+   "title": "Welding Design : Heat input△；Heat flow★；Distortions；Defects in welding",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=57042A10F6934C438E15F37C55E726FD",
+ "hasOriginal": true
+}

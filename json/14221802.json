@@ -1,0 +1,249 @@
+{
+ "code": "14221802",
+ "slug": "14221802",
+ "name": "笔译（Ⅱ）",
+ "nameEn": "Translation (Ⅱ)",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 10038,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "李淙南",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "(未填):30%；(未填):60%",
+  "goals": [
+   "专业知识：能够熟练掌握该课程所教授的基础知识。",
+   "问题分析：能够将所学到的基础知识用于问题分析，提升翻译能力。",
+   "使用现代工具：能够利用现代网络、翻译词典、翻译软件进行翻译辅助实践。",
+   "实践与社会：能够胜任与翻译有关的社会实践，如翻译大赛、与外事有关的志愿者服务等。",
+   "环境与可持续发展：建立自己的翻译生态，形成终身学习、终生可持续发展的态势。"
+  ],
+  "intro": "笔译（II）是英语专业本科教学中的专业基础课，在三年级下期开设。该课程旨在培养学生的汉英翻译技能，为将来的工作或进一步深造打下汉英翻译的基础。课程的特点是有一定的理论性，更强调实践性，要求学生具备较好的汉英双语转换能力，勤于学习，勤于实践，不断提高汉英翻译操作能力，为以后工作中解决类似问题做好准备。\n该课程以知识传授和师生互动为主，配备章节练习强化实践能力。教学内容分为16章。第1章翻译的创造性。第2章英汉结构差异。第3章句子重心。第4章无主句的翻译。第5章流水句的翻译（1）。第6章流水句的翻译（2）。第7章主谓结构与偏正结构。第8章定语的翻译（1）。第9章定语的翻译（2）。第10章并列谓语句的翻译。第11章重复与代词。第12章一词多义。第13章翻译陷阱。第14章选词。第15章翻译问题（1）。第16章翻译问题（2）。",
+  "objectives": "通过该课程的教学，使学生能够运用汉英翻译技巧，忠实、通顺地翻译中国报刊杂志上有关政治、经济、历史、文化等方面的论述文以及文学作品原著的节录，翻译速度达到每小时300-400词。要求学生在熟读所给教材及相关参考资料之外，还要在课外广泛地阅读汉英双语材料，认真做好所给的单元练习题，积极参加课外翻译实践，做到心灵手巧。",
+  "contents": "Translation is Recreation△\nClause Positions△\nTop Heavy vs. End Focus\nTranslation of Non-Subject Sentences\nTranslation of Run-on Sentences（1）△★\nTranslation of Run-on Sentences (2) △★\nNoun + Predicate vs. Adjective + Noun\nTranslation of the Attributive (1) △\nTranslation of the Attributive (2) △\nTranslation of Coordinated Predicates△★\nRepetition vs. Pronoun\nTranslation of Synonymy\nOvertly English but Covertly Chinese\nPits in Diction★\nTranslation Problem (1) △★\nTranslation Problem (2) △★",
+  "ideology": "(简述该教学中能将思想政治教育内容与专业知识技能教育内容有机融合的知识点。)\n介绍有关我国对外宣传的例子，说明学号汉译英的重要性。\n通过学习汉英翻译的基本知识，了解汉英笔译的各种技巧，培养精益求精的学习精神\n把学到的汉英翻译技巧应用到笔译实践，为以后进一步深造打下扎实的专业基础，培养敬业精神\n迎合国家文化建设需要，为强化中国语言的话语权提供外语方面的贡献。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Translation is Recreation△",
+   "ideology": "(简述该教学中能将思想政治教育内容与专业知识技能教育内容有机融合的知识点。)",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Clause Positions△",
+   "ideology": "介绍有关我国对外宣传的例子，说明学号汉译英的重要性。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Top Heavy vs. End Focus",
+   "ideology": "通过学习汉英翻译的基本知识，了解汉英笔译的各种技巧，培养精益求精的学习精神",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Translation of Non-Subject Sentences",
+   "ideology": "把学到的汉英翻译技巧应用到笔译实践，为以后进一步深造打下扎实的专业基础，培养敬业精神",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Translation of Run-on Sentences（1）△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Translation of Run-on Sentences (2) △★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Noun + Predicate vs. Adjective + Noun",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Translation of the Attributive (1) △",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Translation of the Attributive (2) △",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Translation of Coordinated Predicates△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "Repetition vs. Pronoun",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "Translation of Synonymy",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 13,
+   "title": "Overtly English but Covertly Chinese",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 14,
+   "title": "Pits in Diction★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 15,
+   "title": "Translation Problem (1) △★",
+   "ideology": "迎合国家文化建设需要，为强化中国语言的话语权提供外语方面的贡献。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 16,
+   "title": "Translation Problem (2) △★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14221802",
+ "hasOriginal": true
+}

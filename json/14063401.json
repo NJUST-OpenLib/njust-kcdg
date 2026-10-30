@@ -1,0 +1,211 @@
+{
+ "code": "14063401",
+ "slug": "14063401",
+ "name": "语言习得与发展",
+ "nameEn": null,
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9887,
+ "outline": {
+  "version": "2022",
+  "lang": null,
+  "category": "理论课（不含实践）",
+  "teacher": "李洪兰",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；平时作业:30%；期末测验:60%",
+  "goals": [
+   "掌握语言习得与发展相关的基本概念。",
+   "掌握儿童语言各个方面的发展进程。",
+   "熟悉关于儿童一语习得的理论。",
+   "了解影响语言习得与发展的社会及认知因素。",
+   "了解双语儿童的语言发展。",
+   "了解非典型发展儿童的语言习得与发展。"
+  ],
+  "intro": "《语言习得与发展》这门课旨在为没有语言习得背景的学生系统地介绍儿童一语习得与发展概况，探讨儿童语言习得机制，及其语音、词汇、句法、语义及语用等方面的发展进程，以及影响儿童语言习得与发展的因素等问题。该课程主要介绍正常发展儿童的一语习得语发展，也概括性地介绍正常发展儿童的双语习得以及非典型发展儿童的语言习得与发展。该课程具体的教学内容包括：(1) Course information and introduction to the study of language acquisition and development; (2) Biological bases of language development; (3) Foundations and functions of language development; (4)Phonological development; (5) Lexical development; (6) Morphological development; (7) Syntactic development; (8) Pragmatic and semantic development; (9) Measures of speech samples; (10) Language, culture and cognition in development; (11) Childhood bilingualism; (12) Language development in the school years; (13) Language development in special populations。 该课程要求学生预先学习《语言学导论》，《语音学导论》和《句法学导论》等课程，掌握语言学、语音学及句法学等相关概念。学生最后的成绩包括课堂参与，课堂和课后作业和期末考试，以百分计。",
+  "objectives": "该课程通过讲授儿童语言习得与发展的基本概念，相关理论和影响因素等，使学生能够对儿童一语习得与发展有系统的理解。同时，完成这门课，学生的自主学习能力，沟通能力以及团队合作意识都能得到提高。具体的教学目标包括：（1）掌握正常发展儿童语言习得与发展的相关基本概念，增加其在儿童语言习得与发展方面的专业知识；（2）理解熟悉儿童语言习得与发展的主要理论，能够运用这些理论对儿童的语言习得与发展进行解释，并且能够辩证地比较与评价这些理论，提升问题分析的能力以及训练批判性思维；（3）理解儿童语言习得与发展的认知、生物和社交基础；（4）理解儿童第一语言在语音，词汇，句法、语义和语用等方面的发展进程；（5）理解儿童语料收集常用的方法，并且运用语言测量工具分析儿童语料以及评估儿童语言发展的水平和阶段；（6）理解影响儿童语言习得与发展的社会和认知方面的因素；（7）理解双语儿童的语言发展特点，及其与单语儿童语言习得与发展的异同；（8）理解非典型发展儿童的语言习得与发展进程，及其语言特点；（9）通过小组合作讨论学习，提升沟通能力，团队集体意识；（10）在完成课前阅读及课堂作业的过程中，提升自主学习能力，巩固终身学习的意识。",
+  "contents": "Course information; Introduction to the study of language acquisition and development\nBiological bases of language development★\nFoundations and functions of language development△★\nPhonological development△\nLexical development△\nMorphological development△\nSyntactic development△\nPragmatic and semantic development★\nMeasures of speech samples\nLanguage, culture, and cognition in development\nChildhood bilingualism\nLanguage development in the school years\nLanguage development in special populations",
+  "ideology": "对儿童语言习得与发展不同理论的学习和讨论，提升学生的思辨能力。\n学习影响儿童语言发展的社会及认知因素能够让学生了解如何帮助儿童更好的发展，为国家可持续发展做贡献，提升社会责任感。\n对非典型发展儿童的语言发展的学习，激发学生对社会弱势群体的关注和关心。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Course information; Introduction to the study of language acquisition and development",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Biological bases of language development★",
+   "ideology": "对儿童语言习得与发展不同理论的学习和讨论，提升学生的思辨能力。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "Foundations and functions of language development△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Phonological development△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Lexical development△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Morphological development△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Syntactic development△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 8,
+   "title": "Pragmatic and semantic development★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Measures of speech samples",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Language, culture, and cognition in development",
+   "ideology": "学习影响儿童语言发展的社会及认知因素能够让学生了解如何帮助儿童更好的发展，为国家可持续发展做贡献，提升社会责任感。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "Childhood bilingualism",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "Language development in the school years",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 13,
+   "title": "Language development in special populations",
+   "ideology": "对非典型发展儿童的语言发展的学习，激发学生对社会弱势群体的关注和关心。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=DEF4CE4710BE49E68B00F947CC278791",
+ "hasOriginal": true
+}

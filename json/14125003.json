@@ -1,0 +1,197 @@
+{
+ "code": "14125003",
+ "slug": "14125003",
+ "name": "英语写作（Ⅰ）：词汇与句法",
+ "nameEn": "English writing(I): Vocabulary and Syntax",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9967,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "李洪兰",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；平时作业:30%；期末考试:60%",
+  "goals": [
+   "英语写作的基本规范。",
+   "英语写作中词汇的合理选择和有效使用。",
+   "英语写作中不同类别句子结构的有效使用。",
+   "英语写作中段落篇章的写作技巧和规则。",
+   "培养学生的逻辑思辨、信息整合能力。"
+  ],
+  "intro": "英语写作1：词汇与句法是英语专业一年级学生的一门基础课程，在内容上传授写作的基本词汇与句法知识，通过写作练习，培养学生的英语写作能力。\n\n本课程主要内容包括：1. An Introduction to Writing and Writing Process; 2. Manuscript form and Punctuation; 3. Types of Words; 4. Using Words Properly and Effectively; 5. Figures of Speech; 6. Sentence Basics; 7. Sentence Types; 8. Using Sentence Effectively; 9. Solving Common Sentence Problems; 10. Topic Sentence; 11. Patterns of Paragraph Development; 12. Paragraph Unit and Coherence。\n\n本课程以讲授和写作实践为主，要求学生阅读相关书籍，掌握写作的基本规则、词汇和句法知识。",
+  "objectives": "该课程主要介绍英语写作的基本知识，重点包括词汇与句法知识，旨在提高学生的英语写作技能，语言表达艺术和综合能力，逻辑思维能力，从而提高运用英语表达思想的自信心。通过本课程的学习，学生能够获得的知识包括：1.英语写作的基本规则，例如英语单词大小写字母的使用以及斜体的使用；2. 英语写作中常用的标点符号的正确使用，例如逗号、句号、分号和引号等；3. 英语词汇的类别，例如一般性的词汇、特殊性的词汇、抽象的词汇和具体的词汇等；4. 英语写作中合理和有效地使用词汇，例如根据写作目标，选择合适的词汇；5.英语写作中常用的修辞方法的使用，例如拟人、比喻、夸张和讽刺等。6. 英语句子的基本成分，例如主语、谓语、宾语和补足语等；7. 常用的英语句子结构，例如简单句、复杂句和复合句等；8. 英语写作中有效地使用句子，例如如何让句子前后逻辑合理、表达简洁清楚和结构多样化等；9. 识别英语句子中易犯的错误，例如修饰语错位、连写句和悬垂修饰语等；10. 段落主题句的写作技巧和规则；11. 段落的写作规则；12. 段落间的一致性和逻辑性。",
+  "contents": "An Introduction to Writing and Writing Process\nManuscript Form and Punctuation\nTypes of Words\nUsing Words Properly and Effectively△★\nFigures of Speech\nSentence Basics△\nSentence Types\nUsing Sentence Effectively△★\nSolving Common Sentence Problems\nTopic Sentence\nPatterns of Paragraph Development\nParagraph Unit and Coherence★",
+  "ideology": "培养学生有效的使用句子表达自己，提升自信心\n培养学生发现常见的句子问题的能力，提升思辨能力\n鼓励学生使用创新思维进行写作创作"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "An Introduction to Writing and Writing Process",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Manuscript Form and Punctuation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Types of Words",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Using Words Properly and Effectively△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "Figures of Speech",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Sentence Basics△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Sentence Types",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Using Sentence Effectively△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 9,
+   "title": "Solving Common Sentence Problems",
+   "ideology": "培养学生有效的使用句子表达自己，提升自信心",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Topic Sentence",
+   "ideology": "培养学生发现常见的句子问题的能力，提升思辨能力",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "Patterns of Paragraph Development",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 12,
+   "title": "Paragraph Unit and Coherence★",
+   "ideology": "鼓励学生使用创新思维进行写作创作",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=96A54461E61B4248B45D0A54ECE13C73",
+ "hasOriginal": true
+}

@@ -1,0 +1,249 @@
+{
+ "code": "14047601",
+ "slug": "14047601",
+ "name": "科技英语翻译",
+ "nameEn": "EST Translation",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9802,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "李淙南",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):30%；(未填):60%",
+  "goals": [
+   "专业知识：能够熟练掌握科技英语翻译方面的基础知识。",
+   "问题分析：能够将所学到的基础知识用于问题分析，提升翻译能力。",
+   "使用现代工具：能够利用现代网络、翻译词典、翻译软件进行翻译辅助实践。",
+   "实践与社会：能够胜任相关的科技翻译社会实践，如翻译比赛、与外事有关的志愿者服务等。",
+   "环境与可持续发展：建立自己的翻译生态，形成终身学习、终生可持续发展的态势。"
+  ],
+  "intro": "科技英语翻译（兵器方向）是英语专业本科教学中的专业选修课程，在三年级上期开设。该课程旨在培养学生的对于科技英语的翻译技能，对于兵器方向的英语翻译有所侧重，为将来涉及科技英语翻译（兵器方向）的工作或进一步深造打下英汉翻译的基础。课程的特点是有一定的理论性，更强调实践性，要求学生具备较好的英汉双语转换能力，勤于学习，勤于实践，不断提高英汉语翻译操作能力，为以后工作中解决类似问题做好准备。\n该课程以知识传授和师生互动为主，配备章节练习强化实践能力。教学内容分为16章。第1章概论。第2章科技文体与翻译。第3章科技术语翻译。第4章科技翻译的得体。第5章科技翻译的艺术性。第6章科技翻译中的美学取向。第7章逻辑分析与科技译文质量。第8章语法知识与科技翻译。第9章科技翻译译例赏识。第10章节译与编译。第11章改译与摘要。第12章综译。第13章军事科技与武器（一）。第14章军事科技与武器（二）。第15章军事科技与武器（三）。第16章科技英语的长句译法。",
+  "objectives": "通过该课程的教学，使学生能够运用科技英语翻译的技巧，忠实、通顺地翻译英语国家报刊杂志上的科技文章，为将来就业或深造打下科技英语翻译的基础。要求学生在熟读指定教材及相关参考资料之外，还要在课外有针对性地阅读英汉双语材料，仔细体会英汉翻译技巧的奥秘，认真做好所给的单元练习题，积极参加课外翻译实践，做到心灵手巧。",
+  "contents": "Introduction\nEST Features & Its Translation\nTranslation of Scientific Terms（1）\nTranslation of Scientific Terms（2）\nAppropriateness in EST Translation\nArtistic Features of EST Translation\nAesthetic Sense in EST Translation\nLogic Analysis in EST Translation\nGrammatical Analysis in EST Translation\nAbridged Translation & Editing Translation\nAdapting Translation & Abstract Translation\nComprehensive Translation△★\nMilitary Science & Weaponry Translation (1)△★\nMilitary Science & Weaponry Translation (2)△★\nMilitary Science & Weaponry Translation (3)△★\nMilitary Science & Weaponry Translation (3)△★",
+  "ideology": "(简述该教学中能将思想政治教育内容与专业知识技能教育内容有机融合的知识点。)\n通过介绍科技英语翻译的历史，说明科技英语翻译在我国现代化建设的作用。\n通过学习翻译的基本知识，了解科技英语翻译的基础知识，培养精益求精的学习精神\n迎合国家文化建设需要，为强化中国语言的话语权提供外语方面的贡献。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction",
+   "ideology": "(简述该教学中能将思想政治教育内容与专业知识技能教育内容有机融合的知识点。)",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "EST Features & Its Translation",
+   "ideology": "通过介绍科技英语翻译的历史，说明科技英语翻译在我国现代化建设的作用。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Translation of Scientific Terms（1）",
+   "ideology": "通过学习翻译的基本知识，了解科技英语翻译的基础知识，培养精益求精的学习精神",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Translation of Scientific Terms（2）",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Appropriateness in EST Translation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Artistic Features of EST Translation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Aesthetic Sense in EST Translation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Logic Analysis in EST Translation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Grammatical Analysis in EST Translation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Abridged Translation & Editing Translation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "Adapting Translation & Abstract Translation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "Comprehensive Translation△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 13,
+   "title": "Military Science & Weaponry Translation (1)△★",
+   "ideology": "迎合国家文化建设需要，为强化中国语言的话语权提供外语方面的贡献。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 14,
+   "title": "Military Science & Weaponry Translation (2)△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 15,
+   "title": "Military Science & Weaponry Translation (3)△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 16,
+   "title": "Military Science & Weaponry Translation (3)△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14047601",
+ "hasOriginal": true
+}

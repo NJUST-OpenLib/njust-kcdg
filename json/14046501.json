@@ -1,0 +1,156 @@
+{
+ "code": "14046501",
+ "slug": "14046501",
+ "name": "电子商务",
+ "nameEn": "E-Business",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9788,
+ "outline": {
+  "version": "2022",
+  "lang": "中英",
+  "category": "理论课(含实践环节)",
+  "teacher": "王蓉",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；ppt汇报:20%；期末小论文:20%；闭卷笔试:50%",
+  "goals": [
+   "了解电子商务的基本概念和主要模式",
+   "具备一定的电子商务操作能力",
+   "了解相关的网络、信息安全技术及法律知识"
+  ],
+  "intro": "本课程是一门理论性和实践性相结合的课程，采用多媒体教学。课堂授课与练习均使用英语，偶尔以中文辅助。课程以课堂讲授为主，向学生提供电子商务的背景知识，辅以案例讨论，采用讲练结合的方法，增加学生对该领域的理论认知，充分发挥学生动手搜集整理材料的能力及开拓性思维。本课程的目的在于使学生在掌握电子商务相关理论知识的基础上，懂得如何将所学原理用于分析和解决实际业务问题。课程要求学生根据所学理论知识，从商品规划、营销策略、到支付、物流即售后等设计、评价或改进某个具体电子商务行业应用的实例，结合电子商务实训系统全面考虑流程操作细节。因为电子商务具有跨学科性质，所以本课程在针对英语专业学生时，涉及到电子支付、网络及计算机安全等技术方面和相关法律时只做一般性了解，重点放在商业策略上。具体内容为：第一章电子商务发展概述，第二章电子商务的主要盈利模式，第三章网络营销（B2C），第四章公司对公司营销（B2B），第五章社交媒体与移动电子商务，第六章电子商务的外部环境，第七章电子商务安全，第八章电子商务的完善。本课程不仅帮助学生在今后从事电子商务相关工作时能尽快适应，还可提高学生的英语阅读、分析、表达能力，以及促进理论与实践的联系。",
+  "objectives": "本科程主要目的在于让学生了解电子商务的主要模式，熟悉电子商务的基本流程，对电子商务中有关电子信息、支付、安全、移动网络、法律等相关专业领域有大致了解，掌握从事电子商务活动的基本技能，培养既具有较为扎实的相关理论基础又具有较为熟练的实际操做能力的学生。\n课程思政目标：随着电子商务从美国诞生，到本世纪飞速发展，中国目前业已成为电子商务发展最为迅速规模最广的国家，与之相应的电子支付已经渗透进日常生活的方方面面。做为现代化进程的一个方面，我们为这一现状和良好的发展态势而骄傲。",
+  "contents": "The Second Wave of Global E-Business: Business Models, Revenue Models, and Business Processes△; Advantages and Disadvantages of Electronic Commerce★; Identifying Electronic Commerce Opportunities\nE-Business Revenue Models: Revenue Models△; Revenue Strategy Issues; Creating an Effective Web Presence; Connecting with Customers★\nSelling to Consumers Online: Web Marketing Strategies; Communicating with Different Market Segments★; Advertising on the Web△\nSelling to Businesses Online: Purchasing Activities△; Supply Chain Management Using Internet Technologies\nSocial networking and M-Commerce: virtual communities to social networking; business use of social networking△; mobile commerce△\nEnvironment of E-Commerce: legal environment△; ethical issuess★\nE-Commerce Security: Online security; Computer security and risk management△; Security measures★\nE-Commerce Implementations: Benefits and Costs△; funding start-ups\nRevision",
+  "ideology": "中国的电子商务发展迅速，已经成为世界最强之一。\n公益性质的电子商务形式体现了人文关怀，比如蚂蚁森林、为山区失学儿童捐赠、为重大疾病患者筹集资金等\n客户关系管理是商务领域的重要概念，电子商务时代可以更加精准地展现这种人文关怀。\n随着电子商务的发展，其相应的法律问题也越来越凸显。诚实、守信等核心价值观也需要有相应的法律来保护。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "The Second Wave of Global E-Business: Business Models, Revenue Models, and Business Processes△; Advantages and Disadvantages of Electronic Commerce★; Identifying Electronic Commerce Opportunities",
+   "ideology": "中国的电子商务发展迅速，已经成为世界最强之一。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "E-Business Revenue Models: Revenue Models△; Revenue Strategy Issues; Creating an Effective Web Presence; Connecting with Customers★",
+   "ideology": "公益性质的电子商务形式体现了人文关怀，比如蚂蚁森林、为山区失学儿童捐赠、为重大疾病患者筹集资金等",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "Selling to Consumers Online: Web Marketing Strategies; Communicating with Different Market Segments★; Advertising on the Web△",
+   "ideology": "客户关系管理是商务领域的重要概念，电子商务时代可以更加精准地展现这种人文关怀。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 4,
+   "title": "Selling to Businesses Online: Purchasing Activities△; Supply Chain Management Using Internet Technologies",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Social networking and M-Commerce: virtual communities to social networking; business use of social networking△; mobile commerce△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Environment of E-Commerce: legal environment△; ethical issuess★",
+   "ideology": "随着电子商务的发展，其相应的法律问题也越来越凸显。诚实、守信等核心价值观也需要有相应的法律来保护。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "E-Commerce Security: Online security; Computer security and risk management△; Security measures★",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 8,
+   "title": "E-Commerce Implementations: Benefits and Costs△; funding start-ups",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 9,
+   "title": "Revision",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14046501",
+ "hasOriginal": true
+}

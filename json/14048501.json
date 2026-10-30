@@ -1,0 +1,143 @@
+{
+ "code": "14048501",
+ "slug": "14048501",
+ "name": "正音与口语",
+ "nameEn": "Correct Pronunciation and Oral English",
+ "credit": 1,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9816,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(含实践环节)",
+  "teacher": "杨蔚",
+  "reviewer": "李娟",
+  "totalHours": 16,
+  "lectureHours": 8,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):20%；(未填):20%；(未填):50%",
+  "goals": [
+   "掌握音标，能正确读出单个音标及音标组合",
+   "语音语调良好，朗读有一定的节奏",
+   "使用英语顺利进行日常生活对话以及叙事和简单讨论"
+  ],
+  "intro": "正音与口语课程是英语专业和语言学专业学生的专业基础课。它通过学习音标、朗读句子、篇章等训练，帮助学生在原有基础上纠正不良发音，明白语音语调对英语专业和语言学专业学生的重要性，掌握基本的词重音、句重音、音变、节奏等内容和朗读技巧。在朗读过程中，做到发音正确，语调有起伏，节奏根据内容有快慢。在正音的基础上加强学生的口语交际能力，通过个人讲述，两人及多人对话、研讨的方式对事件进行较为详细和准确的描述，并发表观点，阐述意见。\n教学内容：\n第一章：English phonetics： vowels -1△★; Oral practice\n第二章：English phonetics： vowels -2△★;Oral practice\n第三章：English phonetics： vowels -3; Oral practice\n第四章：English phonetics：consonants -1△; Oral practice\n第五章：English phonetics：consonants -2; Oral practice\n第六章：Read sentences and paragraphs: Stress; Oral practice\n第七章：Read passages: rhythm△; Oral practice\n第八章：Combination of Reading and Talking\n预备知识：学生需要提前了解音标、发音规则。\n考核与成绩记录：口试",
+  "objectives": "该课程旨在通过纠正发音，帮助学生掌握正确的英语语音和语调，在听的基础上进行模仿训练以及大量的朗读训练，辅以一定的理论知道，最终达到较为良好的英语发音，在朗读和自主口语表达时所说的英语让人听得懂听得舒服。通过本课程学习，学生应掌握以下方法和能力:\n(1) 掌握音标，能正确读出单个音标及音标组合；\n(2) 语音语调良好，朗读有一定的节奏；\n(3) 使用英语顺利进行日常生活对话以及叙事和简单讨论。\n正音与口语教学课程内容灵活广泛，可以涉及政治、经济、历史、社会、文化等诸多方面，教师在纠正学生发音的同时，通过一定量的口语练习来达到拓展学生的国际视野，训练学生表达个人意见、情感、观点，锻炼学生的思辨能力、创新能力和团队合作能力的目标。同时，该课程也注重培养学生对文化差异的敏感性、宽容性以及处理文化差异的灵活性，加强其跨文化交际能力。",
+  "contents": "English phonetics： vowels -1△★; Oral practice\nEnglish phonetics： vowels -2△★;Oral practice\nEnglish phonetics： vowels -3; Oral practice\nEnglish phonetics：consonants -1△; Oral practice\nEnglish phonetics：consonants -1△; Oral practice\nRead sentences and paragraphs: Stress; Oral practice\nRead passages: rhythm△; Oral practice\nCombination of Reading and Talking",
+  "ideology": "在练习元音的时候，可以培养学生对文化差异的敏感性、宽容性以及处理文化差异的灵活性，加强其跨文化交际能力。\n在练习句子篇章阅读的时候，可以拓展学生的国际视野，培养学生的思辨能力。\n通过读讲结合，可以训练学生表达个人意见、情感、观点的能力，启发学生从中国传统文化中找寻演讲素材，增强文化自信。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "English phonetics： vowels -1△★; Oral practice",
+   "ideology": "在练习元音的时候，可以培养学生对文化差异的敏感性、宽容性以及处理文化差异的灵活性，加强其跨文化交际能力。",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "English phonetics： vowels -2△★;Oral practice",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "English phonetics： vowels -3; Oral practice",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "English phonetics：consonants -1△; Oral practice",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "English phonetics：consonants -1△; Oral practice",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Read sentences and paragraphs: Stress; Oral practice",
+   "ideology": "在练习句子篇章阅读的时候，可以拓展学生的国际视野，培养学生的思辨能力。",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Read passages: rhythm△; Oral practice",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Combination of Reading and Talking",
+   "ideology": "通过读讲结合，可以训练学生表达个人意见、情感、观点的能力，启发学生从中国传统文化中找寻演讲素材，增强文化自信。",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=33E196C7C9414C17B277196F268F0762",
+ "hasOriginal": true
+}

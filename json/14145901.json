@@ -1,0 +1,248 @@
+{
+ "code": "14145901",
+ "slug": "14145901",
+ "name": "英语视听说（Ⅰ）",
+ "nameEn": "English Viewing, Listening and Speaking (Ⅰ)",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9992,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "杨蔚",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):20%；(未填):10%；(未填):10%；(未填):30%；(未填):30%",
+  "goals": [
+   "提高学生的听力理解能力、口头表达交际能力和跨文化交际能力。",
+   "学生能基本听懂视听材料的内容并能做到复述和评价，能基本听懂VOA和BBC的各类特别英语节目。",
+   "了解和掌握英语国家的日常生活和常规节假日，用英语进行介绍，并介绍对应的中国文化要素。",
+   "提高听力理解能力和口头表达交际能力：对所听内容进行评价性阐述。"
+  ],
+  "intro": "《视听说I》是为英语专业和语言学专业一年级学生第一学期开设的一门必修课程。学生在学习此课程前已经较为系统地完成了高中阶段的英语语音学习和语法学习，具备基本词汇量，并具有一定的英语听说读写能力。\n本课程为学生提供大量真实的语言实际运用材料。通过对视听材料的学习和“视”、“听”、“说”三位一体的教学，让学生熟悉语言在真实情景中的运用，提高学生对语言真实度较高的各类视听材料的理解能力和口头表达能力；快速提高学生的听力理解能力和口头表达交际能力；增加对英语国家风土人情等各方面知识的了解，培养跨文化交际能力，为学习其它课程乃至今后的工作打下坚实的文化背景基础；及提高学生对英语学习的兴趣。\n本课程的教学视听材料主要由以下几部分构成：《听力教程1》，《走遍美国》， VOA和BBC各类英语节目，以及各类电影片段。《听力教程1》一书共分15单元每一个单元都有四个练习环节：Section One： Tactics for Listening; Section Two: Listening Comprehension; Section Three: Oral Work; Section Four: Supplementary Exercises 。通过对该视听材料的学习，学生可以掌握在各种英语情景中的习惯用语，提高听说能力。《走遍美国》一书共分26章，该书涉及Steward一家生活工作等各方面的情景，通过对该视听材料的学习，学生可以掌握在各种英语情景中的习惯用语，提高听说能力。对VOA和BBC各类英语节目和各类英语电影的学习不仅可以增加学生的词汇量，提高听说能力，同时还可以增加学生的文化背景知识，增强学生的学习兴趣。英语电影不仅培养学生的影视赏析能力，拓展英语国家文化背景知识，也为后续的语言文学学习打下基础。",
+  "objectives": "1.教学目标：提高学生的听力理解能力、口头表达交际能力和跨文化交际能力。具体而言，完成《视听说I》学习，学生能基本听懂视听材料的内容并能做到复述和评价，能基本听懂VOA和BBC的各类特别英语节目。\n2. 基本要求\n(1) 课后进行足量的视听练习：包括英语新闻，故事，测试类会话和短文；\n(2) 培养较强的自主学习能力：观看有文化影响力的影视作品，查阅背景知识，复述故事；\n(3) 提高听力理解能力和口头表达交际能力：对所听内容进行评价性阐述；\n(4) 了解和掌握英语国家的日常生活和常规节假日，用英语进行介绍，并介绍对应的中国文化要素。\n本课程旨在培养学生的影视赏析能力，增强跨文化的思辨能力，培养具有国际视野的英语人才，坚定学生的社会主义信念和中国情怀，树立文化自信，更好地实现英语专业和语言学专业新的人才培养目标。",
+  "contents": "UNIT 1：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 2：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 3：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 4：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 5：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 6：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 7：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 8：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 9：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 10：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 11：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 12：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 13：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 14：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nUNIT 15：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises\nReview",
+  "ideology": "播放与中国的发展与变迁有关的视频，引导学生将“中国情怀”融入视听学习，为实现中国民族的伟大复兴而学习。\n通过音频材料勾勒出一个缺乏抱负的世界，教师可以顺势抽问学生的理想或抱负，在课件显示音频中的几个句子，大致含义为我们无法选择的东西很多，例如父母，出生，生活环境，但是我们可以选择如何生活。借此引导学生树立正确的人生观，抱负是人生的放心，用于抱负才能助我们成功。\n借助视听材料，选取有关经济、生活、教育等方面的题材，培养学生的思辨能力。\n总结回顾全部课程，引导学生增强文化自信。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "UNIT 1：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": "播放与中国的发展与变迁有关的视频，引导学生将“中国情怀”融入视听学习，为实现中国民族的伟大复兴而学习。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "UNIT 2：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "UNIT 3：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "UNIT 4：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": "通过音频材料勾勒出一个缺乏抱负的世界，教师可以顺势抽问学生的理想或抱负，在课件显示音频中的几个句子，大致含义为我们无法选择的东西很多，例如父母，出生，生活环境，但是我们可以选择如何生活。借此引导学生树立正确的人生观，抱负是人生的放心，用于抱负才能助我们成功。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "UNIT 5：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "UNIT 6：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "UNIT 7：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "UNIT 8：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "UNIT 9：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "UNIT 10：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": "借助视听材料，选取有关经济、生活、教育等方面的题材，培养学生的思辨能力。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "UNIT 11：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "UNIT 12：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 13,
+   "title": "UNIT 13：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 14,
+   "title": "UNIT 14：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 15,
+   "title": "UNIT 15：△Section One Tactics for Listening；Section Two Listening Comprehension；★Section Three Oral Work；Section Four Supplementary Exercises",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 16,
+   "title": "Review",
+   "ideology": "总结回顾全部课程，引导学生增强文化自信。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14145901",
+ "hasOriginal": true
+}

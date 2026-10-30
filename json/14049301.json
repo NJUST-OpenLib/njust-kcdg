@@ -1,0 +1,79 @@
+{
+ "code": "14049301",
+ "slug": "14049301",
+ "name": "中国哲学典籍阅读",
+ "nameEn": "Readings in Traditional Chinese Philosophical Masterpieces",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9825,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "谭利思",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "平时作业:40%；到课率:5%；课堂表现:5%；学期论文:50%",
+  "goals": [
+   "深入了解本土思想发展简史",
+   "深入了解本民族主要的思想流派及代表人物",
+   "了解中国思想文化的独特性和不可替代性，从而培养民族自信",
+   "在学习古哲先贤的思想中，逐渐提高自身个体的品德修养，成为有正义感的新社会的人才"
+  ],
+  "intro": "本课程是外国语学院英语专业专业方向选修课程，旨在进一步拓展英语专业学生中国文化视野，培养英语专业学生的本土文化修养。中国传统文化，是古代先贤用自身的终身感悟沉积下来的精华。对人的生存和发展具有重要意义。作为社会上最具活力的大学生，尤其是英语专业的大学生既是文化的吸收着，也是中国文化的传播者以及未来的建设者。因此，大学生学习中国传统文化，意义重大。在这样的背景下，经典阅读不仅可以提高大学生的语言感知能力、写作能力，还可以提高大学生的文化认同感以及对外交往上能准确理解和传播本土的传统文化。本课程在中国传统经典阅读的基础上，依然儒家四书为主，适当选取道家、佛家的理论书籍做更深入的进阶精读。考核方式为期末闭卷形式，考核方式包括五个方面：（1）期末闭卷考试[50%]；（2）出勤[5%]；（3）课堂表现[10%]；（4）平时作业35%",
+  "objectives": "\" 通过本课程的学习，要使学生：1.进一步理解中国古代典籍的基本思想；2.为学生进一步深入阅读和钻研中国古代思想典籍打下基础；3.完善学生的知识体系，对东西文化的基本知识有基本了解；4. 当前中国哲学界的前沿课题的了解。在传授专业知识的同时，激发学生的学习兴趣，通过各个教学环节逐步培养学生思考问题、解决问题的理论分析能力。\n\n基本要求：\n\n(1) 了解和掌握古汉语的基本知识；\n\n(2) 掌握汉语典籍的几大基本思想脉络；\n\n(3) 阅读研究的相关文献。\"",
+  "contents": "A Brief Introducttion to Main Idea of Chinese Philosophy★;Main Idea of Confucianism, Daoism and Buddhism select Readings of Great Leaning(1)△ select Readings of Great Learning (2)△★; selecting Readings of Great Learning (3) select Readings The Doctrine Golden Mean(1)★; select\nReadings of The Doctrine GoldenMean(2 △ select Readings of Legalism△★; select Reasings of Mo Zi△; Compare with Confucianism select Readings of Wei Jin Metaphisics△★; select\nReadings of The Sixth Patriarch’sDharma Jewel Platform Sutra(1) △; select Readings of The Sixth Patriarch’sDharma Jewel Platform Sutra (2)△★; Compare with Confucianism△",
+  "ideology": "自身德性需要的重要性\n德性修养的路径\n德性修养的志向决定"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "A Brief Introducttion to Main Idea of Chinese Philosophy★;Main Idea of Confucianism, Daoism and Buddhism select Readings of Great Leaning(1)△ select Readings of Great Learning (2)△★; selecting Readings of Great Learning (3) select Readings The Doctrine Golden Mean(1)★; select",
+   "ideology": "自身德性需要的重要性",
+   "hours": {
+    "lecture": 32,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 32
+   }
+  },
+  {
+   "no": 2,
+   "title": "Readings of The Doctrine GoldenMean(2 △ select Readings of Legalism△★; select Reasings of Mo Zi△; Compare with Confucianism select Readings of Wei Jin Metaphisics△★; select",
+   "ideology": "德性修养的路径",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 0
+   }
+  },
+  {
+   "no": 3,
+   "title": "Readings of The Sixth Patriarch’sDharma Jewel Platform Sutra(1) △; select Readings of The Sixth Patriarch’sDharma Jewel Platform Sutra (2)△★; Compare with Confucianism△",
+   "ideology": "德性修养的志向决定",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 0
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=293871350BC1443184F07D4C56F7778E",
+ "hasOriginal": true
+}

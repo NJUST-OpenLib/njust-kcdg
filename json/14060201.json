@@ -1,0 +1,184 @@
+{
+ "code": "14060201",
+ "slug": "14060201",
+ "name": "译学导论",
+ "nameEn": "Introduction to Translation Studies",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9850,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "杨帆",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": null,
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "(未填):40%；(未填):60%",
+  "goals": [
+   "1.了解翻译相关的基本问题；",
+   "2. 对翻译理论和实践有一个总体的把握；",
+   "3. 树立正确的翻译观",
+   "4. 熟悉常见翻译策略",
+   "5. 提高各种翻译技能"
+  ],
+  "intro": "本课程为英语本科选修课程，旨在帮助学生了解翻译的基本问题，让学生对翻译的本质、翻译的过程、翻译的对象、翻译的主体、影响翻译的因素、翻译中的基本矛盾、翻译的功能、对翻译的评价以及多元文化语境下翻译的精神和使命有较为全面、系统和深刻的认识，树立正确的翻译观，熟悉常见翻译策略，提高各种翻译技能。",
+  "objectives": "通过本课程的学习，学生应该对翻译理论和实践有一个总体的把握，了解翻译相关的基本问题如翻译的本质、翻译的过程、翻译的对象、翻译的主体、影响翻译的因素、翻译中的基本矛盾、翻译的功能、对翻译的评价体系等等。本门课程制定了三项思政育人目标：一是培养学生具有坚定理想信念和爱国精神，了解国家在培养翻译人才和语言管理上的方针政策，成为能够担当传播中国文化的翻译工作者；二是提高学生对自身文化价值的了解与肯定，担当起文化自信的时代责任，鉴别并欣赏翻译再文化传播中的作用；三是增强学生的社会责任意识，成就不懈奋斗、追求卓越的翻译者。",
+  "contents": "I. 翻译概述\nII. 翻译是什么？△\nIII. 翻译是如何进行的？\nIV. 翻译什么？△★\nV. 谁在翻译？\nVI. 有什么因素影响翻译活动？★\nVII. 翻译活动会遇到什么矛盾？\nVIII. 翻译有什么作用？\nIX. 如何评价翻译？△★\nX. 译员需要遵守怎样的职业道德？△\nXI. 如何在多元文化语境下认识和研究翻译？△★",
+  "ideology": "(简述该教学中能将思想政治教育内容与专业知识技能教育内容有机融合的知识点。)\n了解国家在培养翻译人才和语言管理上的方针政策，成为能够担当传播中国文化的翻译工作者。\n提高学生对自身文化价值的了解与肯定，担当起文化自信的时代责任。\n增强学生的社会责任意识，成就不懈奋斗、追求卓越的翻译者。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "I. 翻译概述",
+   "ideology": "(简述该教学中能将思想政治教育内容与专业知识技能教育内容有机融合的知识点。)",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "II. 翻译是什么？△",
+   "ideology": "了解国家在培养翻译人才和语言管理上的方针政策，成为能够担当传播中国文化的翻译工作者。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "III. 翻译是如何进行的？",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "IV. 翻译什么？△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "V. 谁在翻译？",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 6,
+   "title": "VI. 有什么因素影响翻译活动？★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 7,
+   "title": "VII. 翻译活动会遇到什么矛盾？",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 8,
+   "title": "VIII. 翻译有什么作用？",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 9,
+   "title": "IX. 如何评价翻译？△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 10,
+   "title": "X. 译员需要遵守怎样的职业道德？△",
+   "ideology": "提高学生对自身文化价值的了解与肯定，担当起文化自信的时代责任。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 11,
+   "title": "XI. 如何在多元文化语境下认识和研究翻译？△★",
+   "ideology": "增强学生的社会责任意识，成就不懈奋斗、追求卓越的翻译者。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=88C966D1B669467CAC407F61874C9292",
+ "hasOriginal": true
+}

@@ -1,0 +1,104 @@
+{
+ "code": "14049201",
+ "slug": "14049201",
+ "name": "专业英语写作实践",
+ "nameEn": "Writing Practice For TEM",
+ "credit": 1,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9824,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(含实践环节)",
+  "teacher": "段国云",
+  "reviewer": "李娟",
+  "totalHours": 16,
+  "lectureHours": 16,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):40%；(未填):50%",
+  "goals": [
+   "了解专业四八级英语作文的特点",
+   "提高英语48级写作能力，取得专业48级作文类高分",
+   "顺利通过四八级考试"
+  ],
+  "intro": "第一部分“聚焦英语专业四级写作”，从英语专业教学大纲与考试大纲对写作部分的要求进行了剖析，以真题为例，详细了解的作文写作的评分标准和便条评分细则，总结了该部分考试的题型特点，以使考生对该项目的趋势及测试重点有个宏观上的了解；第二部分“解析英语专业四级写作”，分别从四级作文写作两个方面对写作过程进行了分析及讲解，以大量实例介绍了此类作文的写作方法，帮助考生掌握四级考试写作中的实用技巧，切实提高写作能力；第三部分“冲击英语专业四级写作”，以实战指导和演练为主，根据不同类型的写作目的，结合大量的写作模板和惯用表达供考生学习和模拟，以提高应试能力；第四部分“考生作文列举与历年考题范文”则提供了不同档次的学生作文，通过分析和点评，使考生了解作文的评分依据和写作要点。在基础阶段，英语写作应从句子到段落，再到篇章，帮助学生打下坚实的英文写作基础。",
+  "objectives": "严格按照《高校英语专业四级考试大纲》和《高等院校英语专业英语教学大纲》的要求，全面讲解了英语专业四级考试作文，在分析历年英语专业四级考试作文后，找出了考试题型的热点和难点，并提供了大量的模拟训练与解析，帮助学生融会贯通地掌握所学的英语知识，在考试中写出高分作文。通过提高写作能力，更好地服务于社会，做个对社会有贡献的人。",
+  "contents": "介绍英语4级考试写作题型：summary 加 comment；摸底作文练习\n写作（段落结构等介绍）： paragraph (topic sentence, supporting sentene, concluding sentence); analysis of some effective paragraphs; 作文写作练习\nSummary writing : definition; steps and procedures△★;skills in writing a summary; sample ananlysis;summary writing practice\ncomment writing: organization△ and ideas△; writing practice 3\n回顾总结所学内容;课堂测试（作为期末考试45min）",
+  "ideology": "1.了解专48级作文特点，迎接48级考试，做个有准备的人。2.提高思想意识，克服障碍，做个坚强的人。3.学习好知识，将来服务好社会。\n1.了解段落的特点，积极学习。2.从段落开始，一点一滴积累，做个踏踏实实的人。3.学习好知识，将来服务好社会。\n1.了解summary特点，开始涉及summary写作，学好总结，日常生活中事事做好总结，发现问题，及时解决。2.提高思想意识，克服障碍，做个坚强的人。3.学习好知识，将来服务好社会。\n1.了解comment特点，日常生活中注意好评判，做个能尊重他人的人。2.学习写好评论和作文，克服障碍，做个坚强的人。3.学习好知识，将来服务好社会。\n1.复习，迎接期末考试，做个有准备的人。2.提高思想意识，克服障碍，做个坚强的人。3.学习好知识，将来服务好社会。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "介绍英语4级考试写作题型：summary 加 comment；摸底作文练习",
+   "ideology": "1.了解专48级作文特点，迎接48级考试，做个有准备的人。2.提高思想意识，克服障碍，做个坚强的人。3.学习好知识，将来服务好社会。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "写作（段落结构等介绍）： paragraph (topic sentence, supporting sentene, concluding sentence); analysis of some effective paragraphs; 作文写作练习",
+   "ideology": "1.了解段落的特点，积极学习。2.从段落开始，一点一滴积累，做个踏踏实实的人。3.学习好知识，将来服务好社会。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "Summary writing : definition; steps and procedures△★;skills in writing a summary; sample ananlysis;summary writing practice",
+   "ideology": "1.了解summary特点，开始涉及summary写作，学好总结，日常生活中事事做好总结，发现问题，及时解决。2.提高思想意识，克服障碍，做个坚强的人。3.学习好知识，将来服务好社会。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "comment writing: organization△ and ideas△; writing practice 3",
+   "ideology": "1.了解comment特点，日常生活中注意好评判，做个能尊重他人的人。2.学习写好评论和作文，克服障碍，做个坚强的人。3.学习好知识，将来服务好社会。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "回顾总结所学内容;课堂测试（作为期末考试45min）",
+   "ideology": "1.复习，迎接期末考试，做个有准备的人。2.提高思想意识，克服障碍，做个坚强的人。3.学习好知识，将来服务好社会。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D3F710A48DE7412B9DCD36443F8385B2",
+ "hasOriginal": true
+}

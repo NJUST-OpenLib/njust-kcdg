@@ -1,0 +1,145 @@
+{
+ "code": "14405002",
+ "slug": "14405002",
+ "name": "综合英语（IV）",
+ "nameEn": "Comprehensive English (IV)",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 10144,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "邓景",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；平时作业:30%；闭卷笔试:60%",
+  "goals": [
+   "巩固和提高学生的英语语言技能",
+   "培养学生的语篇和文体意识",
+   "文学和文化素质的提高",
+   "提升思辨能力和独立思考的能力",
+   "跨文化交际能力"
+  ],
+  "intro": "《综合英语》4是语言学专业二年级学生的语言基础课程，该课程与大二的《综合英语》属于前后衔接的课程体系。本课程是基于语言学习规律，旨在提高语言知识和语用能力的一门综合性英语课程。课程主要培养学生英语语言知识和语言应用能力，提高英语的听、说、读、写四项基本能力，提高学生的实际语言应用能力，综合英语课程在教学中践行“学生本位”、“素质本位”的思想，坚持以学生为中心。一方面注重教学内容的多样性、系统性、科学性以及时代性和人文性，另一方面利用现代信息化教学手段，将启发式、讨论式、体验式、探究式、合作式等现代教学理念应用于教学实践中，把握好知识与技能、学习与创新、应用与能力之间的关系。综合英语课程在教学中注重学生语言技能的发展，突出语言的交际运用，合理调整学生知识结构，加大文化背景知识的介绍，处理专业业务素质教育和文化背景教育的关系。该课程在发展学生自主学习能力之外，还注重开发学生思维能力，激励学生大胆创新。本课程要求学生修完综合英语1、2和3三门基础课程、英语水平基本达到英语专业四级水平的基础上进行。",
+  "objectives": "本课程旨在通过英语语言基础知识的系统传授和全面、严格的基础技能训练，继续提高学生综合运用英语的能力，全方位提高语言学专业学生的专业核心素养。要求学生比较熟练掌握和正确运用英语语法和词汇，能够理解长句难句，掌握更多的英语国家的文化背景知识，具备较好的口头和笔头表达能力和交际技能，进一步提高听、说、读、写、译的能力，同时注重提升学生文化自信和跨文化交际能力，增强学生独立思考、发现与解决问题等自主学习能力和思辨能力。培养学生具有正确的世界观、人生观和价值观，良好的思想道德品质；具有家国情怀和国际视野，社会责任感，人文素养；具有研究能力、创新能力、信息技术应用能力、自主学习能力和实践能力的语言学专业高素质人才。在全面提高学生综合运用语言能力的同时，不断提高学生的思想品德修养。加强对中国文化的输入、输出以及大学生“文化自信”意识的培养。",
+  "contents": "Unit 1 Text A Thinking as a Hobby Text B The Pleasures of Learning\nUnit 2 Text A Spring Sowing Text B The Earth Poet\nUnit 3 Text A Groundless Beliefs Text B Corn-pone Opinions\nUnit 4 Text A Lions and Tigers and Bears Text B Two Cities\nUnit 5 Text A For Want of a Drink Text B Could You Live with Less?\nUnit 6 Text A The Telephone Text B The Hour of Letdown\nUnit 8 Text A Economic Growth Is a Path to Perdition, Not Prosperity Text B All This Progress Is Killing Us, Bite by Bite\nUnit 9 Text A The Damned Human Race Text B A String of Beads",
+  "ideology": "引导大学生建立正确的学习观，认识思辨能力的重要性，提高大学生批判性思维能力。\n学习社会主义价值观在大学生活中的重要性，坚定大学生社会主义核心价值观。\n分析人类社会发展中遇到的问题，拓宽大学生国际视野，探讨如何建立人类命运共同体。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Unit 1 Text A Thinking as a Hobby Text B The Pleasures of Learning",
+   "ideology": "引导大学生建立正确的学习观，认识思辨能力的重要性，提高大学生批判性思维能力。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "Unit 2 Text A Spring Sowing Text B The Earth Poet",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "Unit 3 Text A Groundless Beliefs Text B Corn-pone Opinions",
+   "ideology": "学习社会主义价值观在大学生活中的重要性，坚定大学生社会主义核心价值观。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Unit 4 Text A Lions and Tigers and Bears Text B Two Cities",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "Unit 5 Text A For Want of a Drink Text B Could You Live with Less?",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "Unit 6 Text A The Telephone Text B The Hour of Letdown",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "Unit 8 Text A Economic Growth Is a Path to Perdition, Not Prosperity Text B All This Progress Is Killing Us, Bite by Bite",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 8,
+   "title": "Unit 9 Text A The Damned Human Race Text B A String of Beads",
+   "ideology": "分析人类社会发展中遇到的问题，拓宽大学生国际视野，探讨如何建立人类命运共同体。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5809C11B4204449CB19CBF5C45DC113D",
+ "hasOriginal": true
+}

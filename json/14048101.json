@@ -1,0 +1,134 @@
+{
+ "code": "14048101",
+ "slug": "14048101",
+ "name": "西方文明史导读",
+ "nameEn": "A Brief History of Western Civilization: A Reading Guide",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9811,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(含实践环节)",
+  "teacher": "胡光",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂陈述:10%；单元作业:20%；项目小组汇报:10%；闭卷笔试:60%",
+  "goals": [
+   "远古时代世界文明发展介绍",
+   "两河流域的文明起源和民族文化传统， 开拓学生的文化视野",
+   "介绍古希腊文明历程，希腊的城邦文明和民主政体的孕育和发展。",
+   "了解律法和法制体系建立以及古罗马对西方的贡献",
+   "基督教，伊斯兰教的起源和发展，",
+   "讨论三大宗教对政治、文化等领域的影响。",
+   "讨论西方文明和东方文明的融合和相通"
+  ],
+  "intro": "《西方文明是导读》(英文)是面向英语专业低年级学生开设的一门文化素质教育课程，该课程通过中英双语教学模式，介绍了西方文明的起源、发展、演进、更新的历程。内容主要涵盖了两河流域古文明、古希腊、古罗马文明，基督教文明和近现代文明，涉及政治、经济和文化的各个层面，知识面宽，综合性和交叉性强，对丰富学生知识、提高学生的素质有着十分重要的作用。",
+  "objectives": "该课程旨在提高学生的文化理解能力、判断能力和整合能力，以此培养学习者对新接触的任何文化模式都具有理性的洞察力和感情的移情能力，同时能够有效地为跨文化沟通和交流提供普遍联系的思维方式和思辨能力。通过双语教学的模式，让学生掌握西方文明发展的过程、特征及文化遗产与贡献等，为《英语国家概况》、《中国文化概况》和《西方哲学经典选读》等课程提供多视角的文化反思与对比，同时为学生跨文化的交流建立并积累一定的知识储备。",
+  "contents": "unit1 Introduction to the Course 1.1 △★The Idea of Western civilization 1.2 Before civilization\nUnit 2 Ancient Civilizations in Middle East 2,1 △★ Mesopotamian civilization: between the Two rivers 2.2 △The Egyptian civilization 2.3 The New Babylonian Empire 2.4 student presentation\nunit 3 Archaic Greece+ classical Greece 3.1The Rise of Ancient Greece 3.2 the dark age △★ Athenian Democracy Classical Greek Culture The Delian League and the Peloponnesian War\nunit 4 The Hellenistic World ((323-30 BC) △The Empire of Alexander the Great ★Athenian Culture in the Hellenic Age The Fall of Ancient Greece\nunit 5 ancient Rome 5.1 Early Roman History 5.2 The Expansion Period 5.3△★ From Republic to Empire 5.4△The Last Days of the Empire 5.5 ★Christianity in RomeThe 5.6 Decline of Rome student presentations\nunit 7The Birth of Islam △★ Muslim Empires △ The Decline of Medieval Islam\n项目小组汇报",
+  "ideology": "使学生在吸取和表达西方文明的学习中，构建多维度文化理解能力、判断能力和整合能力。\n通过中西文明的对比，建构大学生的中国文化身份,培养学生具有人文社会素养、社会责任感.\n为学生跨文化的交流建立并积累一定的知识储备。 在国际跨文化交际中, 成为出色的文化解读者和传播者。\n了解世界主要宗教起源和思想，培养批判性思维和主动性思考能力。\n培养团队精神与合作精神"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "unit1 Introduction to the Course 1.1 △★The Idea of Western civilization 1.2 Before civilization",
+   "ideology": "使学生在吸取和表达西方文明的学习中，构建多维度文化理解能力、判断能力和整合能力。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Unit 2 Ancient Civilizations in Middle East 2,1 △★ Mesopotamian civilization: between the Two rivers 2.2 △The Egyptian civilization 2.3 The New Babylonian Empire 2.4 student presentation",
+   "ideology": "通过中西文明的对比，建构大学生的中国文化身份,培养学生具有人文社会素养、社会责任感.",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "unit 3 Archaic Greece+ classical Greece 3.1The Rise of Ancient Greece 3.2 the dark age △★ Athenian Democracy Classical Greek Culture The Delian League and the Peloponnesian War",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "unit 4 The Hellenistic World ((323-30 BC) △The Empire of Alexander the Great ★Athenian Culture in the Hellenic Age The Fall of Ancient Greece",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "unit 5 ancient Rome 5.1 Early Roman History 5.2 The Expansion Period 5.3△★ From Republic to Empire 5.4△The Last Days of the Empire 5.5 ★Christianity in RomeThe 5.6 Decline of Rome student presentations",
+   "ideology": "为学生跨文化的交流建立并积累一定的知识储备。 在国际跨文化交际中, 成为出色的文化解读者和传播者。",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 6,
+   "title": "unit 7The Birth of Islam △★ Muslim Empires △ The Decline of Medieval Islam",
+   "ideology": "了解世界主要宗教起源和思想，培养批判性思维和主动性思考能力。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "项目小组汇报",
+   "ideology": "培养团队精神与合作精神",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=9A20229E902B404087926BE6B9F8AAFE",
+ "hasOriginal": true
+}

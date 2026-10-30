@@ -1,0 +1,247 @@
+{
+ "code": "14148301",
+ "slug": "14148301",
+ "name": "英语名篇诵读实践（Ⅰ）",
+ "nameEn": "Guide Reading of American and English Famous Essays(I)",
+ "credit": 0.5,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9994,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "集中性实践环节",
+  "teacher": "杨蔚",
+  "reviewer": "李娟",
+  "totalHours": 20,
+  "lectureHours": 0,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):40%；(未填):20%；(未填):40%",
+  "goals": [
+   "在任课教师的指导下，学生可以诵读并背诵经典文章24-30篇（每篇约300词）。",
+   "做到内容完整、发音正确、吐词清晰、语调自然流畅。",
+   "在体会语言音韵之美的同时，接受人文哲理的熏陶。"
+  ],
+  "intro": "在学习英语的众多方法中，诵读是非常有效的一种。不仅对于初阶学习者，甚至对中高阶学者而言，都是一条领略与欣赏英语语言之美的捷径。本门课程开设在英语专业和语言学专业第一学期，要求学生在任课教师的指导下，诵读并背诵经典文章16-20篇（每篇约300词）。做到发音正确、吐词清晰、语调自然流畅。课程所选短文均为英美文学名篇中的精华，文风各异，语言地道规范，让学生在体会语言音韵之美的同时，接受人文哲理的熏陶。",
+  "objectives": "要求学生在任课教师的指导下，诵读并背诵经典文章20-24篇（每篇约300词）。做到内容完整、发音正确、吐词清晰、语调自然流畅。课程所选短文均为英美文学名篇中的精华，文风各异，语言地道规范，让学生在体会语言音韵之美的同时，接受人文哲理的熏陶。\n英语名篇诵读实践(I)课程旨在通过对优秀作品的学习和诵读，提高学生阅读能力、语言和文化审美能力，增强对文化的思辨能力，增强文化自信，使其能在人文哲理的熏陶中感受到中西文化的差异。",
+  "contents": "Best of Times\nHeart of a Stranger\nI Have As Much Soul As You\nThe Pleasant Family\nLife if a Chess-board\nEquality and Greatness\nThe Doer of Deeds\nAmerican Dream\nShakespear\nThoughts in a Graveyard\nFrankness\nLetter to a Young Friend\nGreat Expectation\nThe Meaning of Life\nLove Your Life\nBuild Me a Son",
+  "ideology": "通过诵读《Equality and Greatness》，培养学生具有人文社会科学素养、社会责任感，能够在实践中理解并遵守职业道德和规范。\n通过诵读《American Dream》，培养学生对中美价值观的思辨能力，在国际视野中把握中国文化价值观。\n通过诵读《Love Your Life》，培养学生对生活的热爱，对生命的敬畏，树立正确的人生观、价值观、世界观。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Best of Times",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 2,
+   "title": "Heart of a Stranger",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 3,
+   "title": "I Have As Much Soul As You",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 4,
+   "title": "The Pleasant Family",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 5,
+   "title": "Life if a Chess-board",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 6,
+   "title": "Equality and Greatness",
+   "ideology": "通过诵读《Equality and Greatness》，培养学生具有人文社会科学素养、社会责任感，能够在实践中理解并遵守职业道德和规范。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "The Doer of Deeds",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 8,
+   "title": "American Dream",
+   "ideology": "通过诵读《American Dream》，培养学生对中美价值观的思辨能力，在国际视野中把握中国文化价值观。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Shakespear",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 10,
+   "title": "Thoughts in a Graveyard",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 11,
+   "title": "Frankness",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 12,
+   "title": "Letter to a Young Friend",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 13,
+   "title": "Great Expectation",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 14,
+   "title": "The Meaning of Life",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 15,
+   "title": "Love Your Life",
+   "ideology": "通过诵读《Love Your Life》，培养学生对生活的热爱，对生命的敬畏，树立正确的人生观、价值观、世界观。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 16,
+   "title": "Build Me a Son",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B99A3BFEF7E243AE832CBAEE30E37CAD",
+ "hasOriginal": true
+}

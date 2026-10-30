@@ -1,0 +1,170 @@
+{
+ "code": "14048502",
+ "slug": "14048502",
+ "name": "音系学概论",
+ "nameEn": "Introduction to Phonology",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9817,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "陈莹",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "出勤及课堂表现:10%；平时作业:50%；期末笔试:40%",
+  "goals": [
+   "Feature pad",
+   "Praat doing OT",
+   "Rule analysis",
+   "Underlying represenations"
+  ],
+  "intro": "本课程为语言学学科基础课程，区别于先期课程“语音学概论”，讲授语音系统的基本理论和规律，介绍不同语系语言的语音特征。本课程从音系学概念入手，主要讲授以下十一章内容，分十六周完成：第一章 音系学简介、语音和音系界面、音系和形态界面；第二章 语音系统分类和国际音标标注；第三章 音位变体的关系；第四章 底层表征；第五章 形态音系分析；第六章 音系替换；第七章 特征理论；第八章 音系规则与分析；第九章 音系类型学与自然特性；第十章 抽象性与心理现实；第十一章 非线性表征、自主音段理论、优选论。除了上课讲授理论以外，本课程还将做课堂实践练习，并通过FeaturePad和Praat软件，输入音系数据和假定，生成音系规则与分析，为语言学高级阶段的课程打下坚实的理论基础。",
+  "objectives": "本课程的实验课有别于“语音学概论”的发音、声学和听觉基础知识介绍，主要教授学生了解并掌握世界语言的语音系统、语音分类、音类关系、音节构成规则、音系与构词的关系等基础知识，同时掌握特征理论、规则理论、自主音段理论、优选论等基本理论及其分析方法，主要通过手工推导，适当辅助软件操作，用以分析世界语言语音系统的结构和规则，通过对比其他国家语言的音系特征，体验汉民族共同语作为声调语言的优越性，以及少数民族语言的多样性，树立民族语言文化的自信心和自豪感。",
+  "contents": "△ Classification of speech sounds and IAP transcription\n△ Allophonic relations\n★ Underlying representations\n△★ Morphophonememic analysis\n△ Ponological alternation\n△★ Feature theory\n△★ Phonological rules and analysis\n△ Phonological typology and naturalness\n★ Abstracness and psychological reality\n△★ Nonlinear representations, authosegental theory，optimality theory",
+  "ideology": "介绍祖国优于其它国家的语言资源、方言优势和少数民族语言。\n汉语方言和少数民族语言的表层和底层音系构造，树立民族语言文化自信。\n汉语构词和音系的关系，尤其是汉语作为声调语言的表意作用，树立民族自豪感。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "△ Classification of speech sounds and IAP transcription",
+   "ideology": "介绍祖国优于其它国家的语言资源、方言优势和少数民族语言。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "△ Allophonic relations",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "★ Underlying representations",
+   "ideology": "汉语方言和少数民族语言的表层和底层音系构造，树立民族语言文化自信。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "△★ Morphophonememic analysis",
+   "ideology": null,
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 5,
+   "title": "△ Ponological alternation",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "△★ Feature theory",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "△★ Phonological rules and analysis",
+   "ideology": null,
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 8,
+   "title": "△ Phonological typology and naturalness",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "★ Abstracness and psychological reality",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "△★ Nonlinear representations, authosegental theory，optimality theory",
+   "ideology": "汉语构词和音系的关系，尤其是汉语作为声调语言的表意作用，树立民族自豪感。",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=699CB0F9F2924B67999D0F49C9D664DB",
+ "hasOriginal": true
+}

@@ -1,0 +1,247 @@
+{
+ "code": "14248301",
+ "slug": "14248301",
+ "name": "英语名篇诵读实践（Ⅱ）",
+ "nameEn": "Guide Reading of American and English Famous Essays(II)",
+ "credit": 0.5,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 10093,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "集中性实践环节",
+  "teacher": "杨蔚",
+  "reviewer": "李娟",
+  "totalHours": 20,
+  "lectureHours": 0,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):40%；(未填):20%；(未填):40%",
+  "goals": [
+   "在任课教师的指导下，诵读并背诵经典文章24-30篇（每篇约300词）。",
+   "做到内容完整、发音正确、吐词清晰、语调自然流畅。",
+   "在体会语言音韵之美的同时，接受人文哲理的熏陶。"
+  ],
+  "intro": "在学习英语的众多方法中，诵读是非常有效的一种。不仅对于初阶学习者，甚至对中高阶学者而言，都是一条领略与欣赏英语语言之美的捷径。本门课程开设在英语专业和语言学专业第二学期，要求学生在任课教师的指导下，诵读并背诵经典文章16-20篇（每篇约300词）。做到发音正确、吐词清晰、语调自然流畅。课程所选短文均为英美文学名篇中的精华，文风各异，语言地道规范，让学生在体会语言音韵之美的同时，接受人文哲理的熏陶。",
+  "objectives": "要求学生在任课教师的指导下，诵读并背诵经典文章24-30篇（每篇约300词）。做到内容完整、发音正确、吐词清晰、语调自然流畅。课程所选短文均为英美文学名篇中的精华，文风各异，语言地道规范，让学生在体会语言音韵之美的同时，接受人文哲理的熏陶。\n英语名篇诵读实践(II)课程旨在通过对优秀作品的学习和诵读，提高学生阅读能力、语言和文化审美能力，深化对文化的思辨能力，进一步增强文化自信，使其能在人文哲理的熏陶中进一步感受到中西文化的差异。",
+  "contents": "Two Views of Time\nYouth\nAdvice to a Younq Man\nWhat Is Immortal\nThe English Character\nThe Use of History\nThe Study of Words\nDid You Deal With Fortune Fairly？\nThe Lesson of a Tree\nThe Joys of Writing\nThree Passion\nThe American\nThe English and the American\nAdvice to Youth\nCompanionship of Books\nA Tribute to the Dog",
+  "ideology": "通过诵读《The English Character》，对比分析中英两国人民的性格特点，培养学生的思辨能力。\n通过诵读《The Joys of Writing》，提高学生的语言文字和文化审美能力，增强文化自信。\n通过诵读《The English and the American》，培养学生跨文化的思辨能力。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Two Views of Time",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 2,
+   "title": "Youth",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 3,
+   "title": "Advice to a Younq Man",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 4,
+   "title": "What Is Immortal",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 5,
+   "title": "The English Character",
+   "ideology": "通过诵读《The English Character》，对比分析中英两国人民的性格特点，培养学生的思辨能力。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "The Use of History",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 7,
+   "title": "The Study of Words",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 8,
+   "title": "Did You Deal With Fortune Fairly？",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 9,
+   "title": "The Lesson of a Tree",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 10,
+   "title": "The Joys of Writing",
+   "ideology": "通过诵读《The Joys of Writing》，提高学生的语言文字和文化审美能力，增强文化自信。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "Three Passion",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 12,
+   "title": "The American",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 13,
+   "title": "The English and the American",
+   "ideology": "通过诵读《The English and the American》，培养学生跨文化的思辨能力。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 14,
+   "title": "Advice to Youth",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 15,
+   "title": "Companionship of Books",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 16,
+   "title": "A Tribute to the Dog",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=89D499DECB594106BBB53342DE0CEBCD",
+ "hasOriginal": true
+}

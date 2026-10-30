@@ -1,0 +1,117 @@
+{
+ "code": "14448301",
+ "slug": "14448301",
+ "name": "英语名篇诵读实践（Ⅳ）",
+ "nameEn": "Guide Reading of American and English Famous Essays(IV)",
+ "credit": 0.5,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 10179,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "集中性实践环节",
+  "teacher": "李娟",
+  "reviewer": "李娟",
+  "totalHours": 20,
+  "lectureHours": 0,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):30%；(未填):30%；(未填):40%",
+  "goals": [
+   "学生在任课教师的指导下，诵读诗歌和经典语篇15篇",
+   "做到内容完整、发音正确、吐词清晰、语调自然流畅。",
+   "学生在体会语言音韵之美的同时，接受人文哲理的熏陶。"
+  ],
+  "intro": "《英语名篇诵读实践》是英语专业学生二年级的必修课程，0.5学分。该课程以“认识语言\"和“培养诵读”为主旨，选择了节奏韵律强、意象清新、意旨令人深思的诗歌和经典语篇，共计15篇。希望学生能通过诵读感受语言的节奏、意象，增强语感，养成阅读的习惯。此外, 本实践课布置3本英文原著的泛读作业，要求学生一个月左右读完一本英文原著，任课老师会定期检查学生的阅读情况。该实践课程总共十周，共计背诵15篇英文名篇经典。要求学生每日诵读，以“诵\"为主，兼顾理解。任课老师每两周抽背一次（3篇），共计五次，最后一次为期末考试。每次班级一半学生参加，每位学生每学期会被现场抽背两次。",
+  "objectives": "要求学生在任课教师的指导下，诵读诗歌和经典语篇15篇（每篇约300词）。做到内容完整、发音正确、吐词清晰、语调自然流畅。课程所选短文均为英美文学名篇中的精华，文风各异，语言地道规范，让学生在体会语言音韵之美的同时，接受人文哲理的熏陶。\n英语名篇诵读实践(IV)课程旨在通过对优秀作品的学习和诵读，提高学生阅读能力、语言和文化审美能力，深化对文化的思辨能力，使其能深刻感受到中西文化的差异，并引导学生对文学经典传递的价值和思想观念进行批判性思考, 在多文化的对比和借鉴中领悟和丰富中国文化，唤醒学生树立文化自信和向世界传播中国优秀文化的意识。",
+  "contents": "1. Let It Be Forgotten 2. The Goodness of Life\n3. Merry Christmas Review & Spot Check（抽背) The Big Wave阅读情况检查\n4. Self-Control 5. M-O-T-H-E-R 6. Problems Do End Review & Spot Check（抽背) The Big Wave阅读情况检查（另一半同学）\n7. Add Luster to Your Personality 8. Leisure 9. Beauty Is the Smile on the Earth’s Face Review & Spot Check（抽背) The Bridges of Madison County读书报告提交（第1批同学）\n10. April Showers Bring May Flowers 11. A Business Creed 12. Happy Birthday, Mom Review & Spot Check（抽背) The Bridges of Madison County读书报告提交\n13. Life Is What We Make It 14. Home 15. Inner Light Review & Final Examination（期末考试) The Chronicles of Narnia 阅读情况检查",
+  "ideology": "通过诵读Let It Be Forgotten和The Goodness of Life，提高学生阅读能力、语言文化鉴赏能力和审美能力。\n通过读书报告，引导学生对文学经典传递的价值和思想观念进行批判性思考。\n通过期末总结、测试，让学生在多文化的对比和借鉴中领悟和丰富中国文化，树立文化自信和向世界传播中国优秀文化的意识。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "1. Let It Be Forgotten 2. The Goodness of Life",
+   "ideology": "通过诵读Let It Be Forgotten和The Goodness of Life，提高学生阅读能力、语言文化鉴赏能力和审美能力。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 3,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "3. Merry Christmas Review & Spot Check（抽背) The Big Wave阅读情况检查",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 3,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "4. Self-Control 5. M-O-T-H-E-R 6. Problems Do End Review & Spot Check（抽背) The Big Wave阅读情况检查（另一半同学）",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 3,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "7. Add Luster to Your Personality 8. Leisure 9. Beauty Is the Smile on the Earth’s Face Review & Spot Check（抽背) The Bridges of Madison County读书报告提交（第1批同学）",
+   "ideology": "通过读书报告，引导学生对文学经典传递的价值和思想观念进行批判性思考。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 3,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "10. April Showers Bring May Flowers 11. A Business Creed 12. Happy Birthday, Mom Review & Spot Check（抽背) The Bridges of Madison County读书报告提交",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 3,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 6,
+   "title": "13. Life Is What We Make It 14. Home 15. Inner Light Review & Final Examination（期末考试) The Chronicles of Narnia 阅读情况检查",
+   "ideology": "通过期末总结、测试，让学生在多文化的对比和借鉴中领悟和丰富中国文化，树立文化自信和向世界传播中国优秀文化的意识。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 5,
+    "extra": 0,
+    "total": 5
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=DA31FE883C3448A69686971CC68914DC",
+ "hasOriginal": true
+}

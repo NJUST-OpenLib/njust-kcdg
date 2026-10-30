@@ -1,0 +1,156 @@
+{
+ "code": "14045801",
+ "slug": "14045801",
+ "name": "语言与逻辑",
+ "nameEn": "Language and Logic",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9779,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "严轶伦",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "平时作业、期中考试、出勤、课堂表现、章节测试等:50%；项目研究:20%；期末论文:30%",
+  "goals": [
+   "了解逻辑形式和符号。",
+   "能够进行简单的逻辑运算。",
+   "能运用命题逻辑和谓词逻辑对语言进行阐释。"
+  ],
+  "intro": "\" 语言逻辑是现代逻辑学和现代语言学交叉的产物，是现代逻辑学的重要部分。该课程为英语专业的专业必修课，立足自然语言中的逻辑推理方式和话语逻辑的生成模式，帮助学生掌握逻辑学的基本概念和推理路径，自然语言中的逻辑关系, 并且具备运用这些知识来对句子、对话和话语进行逻辑分析的能力。本课程主要分成三大部分：1逻辑学基本概念。它包含了逻辑的定义、内涵和性质（第一章）、简单逻辑推理和复合逻辑（第二章）、模态命题推理、归纳推理、三段论（第三章）；逻辑规则和论证（第四章）。2经典命题逻辑学。它包含了句子的逻辑和分析（第五章）；句子的命题逻辑（第六章）。3日常语言哲学与逻辑。它包含作为言语行为的指称（第七章）；预测（第八章）；逻辑与对话和话语逻辑（第九章）。\n\n学习该课程需要达到中等程度的英语水平，具有初步的逻辑思辨能力\"",
+  "objectives": "\" 概述)本课程在英语专业学习中起着非常重要的作用，有助于提高英语专业学生的逻辑思辨能力，对所学到的知识进行有效的梳理和思考。通过该课程的学习，学生了解逻辑学的基本概念和规律，掌握概念之间的关系、命题和语句的逻辑分析、日常会话中的逻辑等。\n\n要求：认真阅读有关文献，积极思考，认真完成作业; 能够举一反三，将所学概念运用到语言使用和分析过程中去; 不断形成和完善科研能力，从创新的视角来完成课程学习。帮助学生树立语言解析和形式化处理中的严谨的、科学的态度，培养语言专业学生非感性的对待语言的一面。同时，教导学生在大规模处理语言信息，以语言为对象进行的数据分析这样的前沿动态中需要大家不断努力，沉着自信。\"",
+  "contents": "Nature of logic; types of concepts; inter-concept relation; constraints on concepts and summarization of concepts△\nproposition and inference; nature proposition and direct inference; syllogism ★; relational proposition; association inference; disjunctive syllogism; hypothetical syllogism; negative proposition inference\ntruth modal proposition and inference; standard modal proposition and inference; Inductive inference★; Analogism and hypothesis\nIdentity; contradiction; excluded middle; sufficient reason; types and rules of argumentation ★\nInference; logical form; Sentence and proposition; Possible worlds and the truth-set of a proposition; Analytic and synthetic sentences; Simple and compound sentences△\nConnectives; propositional calculus; object language and metalanguage; Tautologies and contradictions; Entailment and presupposition△\npredicate logic;semantic valuation;Predicates and universals; Is predication a speech act△?\nlogical deduction★\nImplicature; Stress, Irony, Truth; Logic in literature★",
+  "ideology": "介绍该学科的前沿动态，让学生了解语言学科的边界，鼓励跨学科研究，树立科学严谨的治学态度。\n区分逻辑中的句法和语义差异，并能联系语言实际。帮助学生构建理论到实践再回到理论的路径。理论联系实际，不做空中楼阁，解决实际问题。\n句内和句间逻辑的区别，教会学生透过现象看本质的本领，把握重点问题，能够举一反三，活学活用，使得枯燥的学习生活立体化，意义化。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Nature of logic; types of concepts; inter-concept relation; constraints on concepts and summarization of concepts△",
+   "ideology": "介绍该学科的前沿动态，让学生了解语言学科的边界，鼓励跨学科研究，树立科学严谨的治学态度。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "proposition and inference; nature proposition and direct inference; syllogism ★; relational proposition; association inference; disjunctive syllogism; hypothetical syllogism; negative proposition inference",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "truth modal proposition and inference; standard modal proposition and inference; Inductive inference★; Analogism and hypothesis",
+   "ideology": "区分逻辑中的句法和语义差异，并能联系语言实际。帮助学生构建理论到实践再回到理论的路径。理论联系实际，不做空中楼阁，解决实际问题。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Identity; contradiction; excluded middle; sufficient reason; types and rules of argumentation ★",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "Inference; logical form; Sentence and proposition; Possible worlds and the truth-set of a proposition; Analytic and synthetic sentences; Simple and compound sentences△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "Connectives; propositional calculus; object language and metalanguage; Tautologies and contradictions; Entailment and presupposition△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "predicate logic;semantic valuation;Predicates and universals; Is predication a speech act△?",
+   "ideology": "句内和句间逻辑的区别，教会学生透过现象看本质的本领，把握重点问题，能够举一反三，活学活用，使得枯燥的学习生活立体化，意义化。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 8,
+   "title": "logical deduction★",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 9,
+   "title": "Implicature; Stress, Irony, Truth; Logic in literature★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14045801",
+ "hasOriginal": true
+}

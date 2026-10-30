@@ -1,0 +1,131 @@
+{
+ "code": "14047401",
+ "slug": "14047401",
+ "name": "英语朗读",
+ "nameEn": "English Reading",
+ "credit": 1,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9800,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(含实践环节)",
+  "teacher": "杨蔚",
+  "reviewer": "李娟",
+  "totalHours": 16,
+  "lectureHours": 8,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):20%；(未填):40%；(未填):40%",
+  "goals": [
+   "学生掌握诵读的要求与技巧",
+   "通过鼓励学生大声朗读，增加学生开口说英语的自信。",
+   "纠正学生的发音。",
+   "通过名家名篇诵读，培养学生良好的英语语感。"
+  ],
+  "intro": "本课程为必修课程，通过经典作品的诵读帮助学生纠正发音，增加语感，培养自信。鼓励学生出声朗读不仅可以增加学生读英语的自信，大声朗读文章更是加强记忆及语感形成的重要手段。通过诵读能够更加深刻地体会名篇佳作的音韵美、节奏美、气势美，是提高文字理解能力的有效方式。学生必须达到以下要求：\n1. 保证到课率。\n2. 根据课程要求，课前完成预习，课上积极参加朗诵训练。\n3. 对英语学习抱有热情。",
+  "objectives": "3",
+  "contents": "CILO 1 概述\n朗诵的概念△；朗诵的特点与好处△★；朗诵的用声与技巧△★；朗诵片段赏析；\nCILO 2 诗歌朗诵\n诗歌的音韵特点△★；嗓音的保护△★；诗歌朗诵练习\nCILO 3 散文朗诵\n散文的音韵特点△★；作品的把握△★；散文朗诵练习\nCILO 4 寓言朗诵",
+  "ideology": "通过讲解朗诵的用声与技巧和对朗诵片段的赏析，培养学生对朗读的热爱，增强艺术鉴赏能力。\n通过对诗歌的朗诵练习，培养学生的文化自信。\n通过介绍如何赏析作品和散文的朗诵练习，培养学生的思辨能力，深入理解中西文化差异。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "CILO 1 概述",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "朗诵的概念△；朗诵的特点与好处△★；朗诵的用声与技巧△★；朗诵片段赏析；",
+   "ideology": "通过讲解朗诵的用声与技巧和对朗诵片段的赏析，培养学生对朗读的热爱，增强艺术鉴赏能力。",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "CILO 2 诗歌朗诵",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "诗歌的音韵特点△★；嗓音的保护△★；诗歌朗诵练习",
+   "ideology": "通过对诗歌的朗诵练习，培养学生的文化自信。",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "CILO 3 散文朗诵",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "散文的音韵特点△★；作品的把握△★；散文朗诵练习",
+   "ideology": "通过介绍如何赏析作品和散文的朗诵练习，培养学生的思辨能力，深入理解中西文化差异。",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "CILO 4 寓言朗诵",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14047401",
+ "hasOriginal": true
+}

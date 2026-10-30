@@ -1,0 +1,106 @@
+{
+ "code": "14063901",
+ "slug": "14063901",
+ "name": "世界经典文化专题阅读",
+ "nameEn": "Readings in World Culture Classics",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9889,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "杨蔚",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):10%；(未填):20%；(未填):60%",
+  "goals": [
+   "童话、寓言和圣经的表达方式；",
+   "童话、寓言和圣经的文本体裁知识",
+   "字词句的习得和使用；",
+   "童话、寓言和圣经文本的批评性解读；",
+   "文本体裁的对比分析。"
+  ],
+  "intro": "世界经典文化专题阅读是英语专业和语言学专业本科生的一门专业必修课程，在英语专业课程体系中起到基础性作用。它主要是帮助学生学习生活化的语言表达，读透一些经典寓言、童话和圣经片段，同时习得反映西方世界朴素而真实的思想和思维方式的文本内涵，最终获得初始的西方哲学和思想的理解。本课程在内容上以语言习得为主，同时传授一些关于体裁文本的基本知识，初步帮助学生获得批评性阅读的能力和西方朴素思想和哲学基础。主要目的在于培养学生的阅读和写作的基本能力。本课程主要包括五章，主要由童话、寓言和圣经选读组成，其中穿插了对体裁认识，习作和批评性解读的内容。最后一章为学术性的提升，阅读相关学术文献进行思考和讨论。本课程以讲座和练习为主，要求学生阅读相关书籍，进行大量练习。",
+  "objectives": "通过本课程的学习，要使学生获得：1.童话、寓言和圣经的表达方式；2. 童话、寓言和圣经的文本体裁知识；3.字词句的习得和使用；4. 童话、寓言和圣经文本的批评性解读；5.文本体裁的对比分析。要求学生具体掌握以下内容：(1) 了解和掌握关于童话、寓言和圣经的文本特点；(2) 掌握阅读文本中涉及的语言表达；(3) 关注文本的意识形态； (4) 能够独立撰写类似的文本。\n世界经典文化专题阅读旨提高学生的英语阅读能力和文学赏析能力，引导学生对世界文学经典传递的价值和思想观念进行批判性思考,并辅以社会热点问题讨论,以培养学生的批判性思维,增强思辨能力和跨文化能力,使其能够在国际视野中深刻理解和思考我国主流价值观的思想内涵。",
+  "contents": "Introduction to western Culture 1.1 source of western culture△ 1.2 summary of western culture 1.3 western philosophy in fables, fairy tales and Bible★ 1.4 introduction to Aesop’s Fable, Green and Anderson fairy tales and Bible\nAesop’s Fable 2.1 ass series 2.2 boy series 2.3 cat series 2.4 cow series 2.5 dog series 2.6 fable writing△★\nFairy tales 3.1 Green fairy tales 3.1.1 The frog king 3.1.2 The seven ravens 3.1.3 Cat and Mouse in Partnership 3.1.4 Faithful John 3.1.5 The Wonderful Musician 3.2 Anderson fairy tales 3.2.1 The little mermaid 3.2 .2 Our aunt 3.2.3 Beauty of form and beauty of mind 3.3.4 The beetle who went on his travels 3.3.5 The bishop of his Gorglum and his warriors 3.3.6 The brave tin soldiers 3.3 the difference between fables and fairy tales△\nBible 4.1 introduction to Bible 4.2 religion, sacred writing, world view △ 4.3 Genesis 4.4 Psalms 4.5 Exodus 4.6 John 4.7 Revelation 4.8 power of Bible★\nRereading and rethinking of Western Culture △★ 5.1 reading academic paper on western culture and philosophy 5.2 discussion★",
+  "ideology": "通过概述西方文化，以及介绍寓言、童话和圣经中的西方哲学，引导学生对世界文学经典传递的价值和思想观念进行批判性思考。\n通过对于寓言与童话的区别，培养学生的批判性思维,增强思辨能力，提高文学赏析能力。\n通过阅读关于西方文化和哲学的学术论文，提高学生的英语阅读能力，引导学生对世界文学经典传递的价值和思想观念进行批判性思考，使其能够在国际视野中深刻理解和思考我国主流价值观的思想内涵。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction to western Culture 1.1 source of western culture△ 1.2 summary of western culture 1.3 western philosophy in fables, fairy tales and Bible★ 1.4 introduction to Aesop’s Fable, Green and Anderson fairy tales and Bible",
+   "ideology": "通过概述西方文化，以及介绍寓言、童话和圣经中的西方哲学，引导学生对世界文学经典传递的价值和思想观念进行批判性思考。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "Aesop’s Fable 2.1 ass series 2.2 boy series 2.3 cat series 2.4 cow series 2.5 dog series 2.6 fable writing△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 3,
+   "title": "Fairy tales 3.1 Green fairy tales 3.1.1 The frog king 3.1.2 The seven ravens 3.1.3 Cat and Mouse in Partnership 3.1.4 Faithful John 3.1.5 The Wonderful Musician 3.2 Anderson fairy tales 3.2.1 The little mermaid 3.2 .2 Our aunt 3.2.3 Beauty of form and beauty of mind 3.3.4 The beetle who went on his travels 3.3.5 The bishop of his Gorglum and his warriors 3.3.6 The brave tin soldiers 3.3 the difference between fables and fairy tales△",
+   "ideology": "通过对于寓言与童话的区别，培养学生的批判性思维,增强思辨能力，提高文学赏析能力。",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 4,
+   "title": "Bible 4.1 introduction to Bible 4.2 religion, sacred writing, world view △ 4.3 Genesis 4.4 Psalms 4.5 Exodus 4.6 John 4.7 Revelation 4.8 power of Bible★",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "Rereading and rethinking of Western Culture △★ 5.1 reading academic paper on western culture and philosophy 5.2 discussion★",
+   "ideology": "通过阅读关于西方文化和哲学的学术论文，提高学生的英语阅读能力，引导学生对世界文学经典传递的价值和思想观念进行批判性思考，使其能够在国际视野中深刻理解和思考我国主流价值观的思想内涵。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=792D4F8B041A44B2AEF439E434A19328",
+ "hasOriginal": true
+}

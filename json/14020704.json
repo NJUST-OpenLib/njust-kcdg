@@ -1,0 +1,146 @@
+{
+ "code": "14020704",
+ "slug": "14020704",
+ "name": "科技英语阅读",
+ "nameEn": "EST Reading",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9646,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "唐文婷",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "出勤与课堂表现:10%；平时作业:20%；PPT展示:10%；闭卷考试:60%",
+  "goals": [
+   "扩大学生阅读面，提升科技领域相关词汇量",
+   "分析科技英语的词汇与句法特点",
+   "学习科普文章与科技论文的写作规范",
+   "学生参与实践，自主搜集资料，介绍我国科技发展",
+   "扩大知识面，培养学生主动了解科技发展动态的习惯",
+   "培养学生对于理工类文献阅读的兴趣与习惯，为未来高年级的翻译课作准备"
+  ],
+  "intro": "英语专业教学除了传授语言基础知识与技能外，还应当使学生的语言知识转化成较强的专业应用能力，这就要求英语专业贯彻系统的基础语言技能和科技阅读、研究、写作技能相结合的培养模式。《科普阅读与写作》旨在提供一种通用性强、涵盖面广的科普阅读，以便学习者有较为广博的学科知识背景。在此基础上，开展学术写作的训练，使学生基本掌握科技论文写作的句法和篇章技巧。\n本课程教学内容围绕近、当代世界科技领域重要知识题材，使学生积累基本的学科词汇和行业知识。其授课对象为大学本科英语专业学生。",
+  "objectives": "本课程以科普文章阅读为主，为学习者提供丰富的通用与专业科技英语词汇，其内容覆盖了常用基础类科学知识，并紧扣当前科学与高新技术成果，展现未来科技发展趋势，同时还注意兼顾各学科的通用性。本课程以分析科技英语语言词汇和句法特点入手，注重科技英语的理解和词汇量的扩大。通过本课程的教学，使学习者初步掌握科技英语的写作特点，深入剖析科技英语的词法、句法特征，并归纳总结出常用句型及表达套语，为进一步从事本专业的领域的科研工作或撰写学术论文打下坚实的基础。本课程是以科学研究的自然过程为主线，通过科技文献阅读，分析探讨科技文献的一般句式建构和思维模式，使学习者了解相关环节的构成要素、写作特点，尤其是以国际通用的北美格式（MLA）为重点，论述各类科技论文的写作规范与方法，为高年级科技英语阅读与翻译课程奠定一个良好的基础。具体目标如下：\n1.扩大学生阅读面，提升科技领域相关词汇量 \n2.分析科技英语的词汇与句法特点 \n3.学习科普文章与科技论文的写作规范 \n4.学生参与实践，自主搜集资料，介绍我国科技发展 \n5.扩大知识面，培养学生主动了解科技发展动态的习惯 \n6.培养学生对于理工类文献阅读的兴趣与习惯，为未来高年级的翻译课作准备",
+  "contents": "Introduction\nSpace exploration ★\nEnvironmental protection; Lexical items in EST readings △\nLife science; Clauses in EST readings ★△\nGenetic engineering; Syntactic characteristics of EST writings ★△\nNanotechnology\nDigital technology; Numbers in EST writings △\nGroup Project Presentations",
+  "ideology": "介绍国内外数据科学的发展\n介绍我国近现代科学家勇于探索的精神\n采用我国科技发展相关数据，分析探讨科技强国理念在中国是如何体现落实的\n采用我国科技发展相关数据，分析探讨科技强国理念在中国是如何体现落实的"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction",
+   "ideology": "介绍国内外数据科学的发展",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Space exploration ★",
+   "ideology": "介绍我国近现代科学家勇于探索的精神",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "Environmental protection; Lexical items in EST readings △",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Life science; Clauses in EST readings ★△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "Genetic engineering; Syntactic characteristics of EST writings ★△",
+   "ideology": "采用我国科技发展相关数据，分析探讨科技强国理念在中国是如何体现落实的",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "Nanotechnology",
+   "ideology": "采用我国科技发展相关数据，分析探讨科技强国理念在中国是如何体现落实的",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "Digital technology; Numbers in EST writings △",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 8,
+   "title": "Group Project Presentations",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=890488DAF87D4629BE025252365E5B5D",
+ "hasOriginal": true
+}

@@ -1,0 +1,247 @@
+{
+ "code": "14046101",
+ "slug": "14046101",
+ "name": "西方经典散文阅读",
+ "nameEn": "Readings in Classic English Prose",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9784,
+ "outline": {
+  "version": "2022",
+  "lang": "英语",
+  "category": "理论课(不含实践环节)",
+  "teacher": "宋文",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):30%；(未填):60%",
+  "goals": [
+   "阅读西方17世纪到20世纪的散文名篇，通过书信，随笔，政论，传记，演说等不同形式，体会名家对社会，宗教，艺术，历史，文学和日常生活的精辟见解。",
+   "具备分析和欣赏散文的能力，欣赏名家妙笔，了解文体修辞，品味精湛语言，培养文学鉴赏能力。",
+   "一定程度上提高英语写作水平。"
+  ],
+  "intro": "西方经典散文阅读是英语专业三年级开设的英语方向主干课程，精选英美散文家完整的代表性作品，内容涉及教育、英美历史、西方社会问题、艺术欣赏和环保，形式多元，包括随笔、书信、小说、传记、讲演、宣言、科普，乃至书籍评点，文学理论批评，培养学生对文本的分析和感悟能力，在深层次上较为客观地了解西方文化。作为一门素质培养课，它能使学生的文学修养、审美意识、独立思考能力得以提高，同时加强学生整合思路能力的训练，为毕业论文写作打下坚实的基础。本课程主要内容为：（1）散文的介绍 （2）培根哲理散文（3）英国经典兰姆散文 （4）英国现代主义散文伍尔夫（5）美国超验主义散文梭罗 （6）美国个人散文罗帕特（7）美国黑人散文家鲍德温",
+  "objectives": "本课程的重点以学生为主体，通过阅读分析内容广泛，经典散文名家名篇，了解散文这种特殊文体及西方历史文化发展脉络。能够从深层次理解课文，扩大学生知识面，达到提高学生艺术审美、和综合表达能力的目标。要求学生课前查阅资料，准备作家以及其作品的介绍，教师引导课堂讨论，并组织观摩相关影视录像等。采取多种教学手段以激发学生的学习兴趣，使学生从多种渠道获得文学知识及全面客观地了解英美文化。本课程用跨文化比较的方式,看到东西方文化之间的相互影响,启发学生从中华传统和中国文化中寻找演讲灵感，增加文化自信;培养学生文学鉴赏能力,对真善美有较为直接的感受,注意引用规范，明白学术诚信，履行责任;通过同学改编戏剧,促进创新能力培养;培养学生具有人文社会科学素养、社会责任感.",
+  "contents": "Introduction to English Prose: Francis Bacon “of Studies”\nSamuel Johnson “Preface to Shakespeare”\nJoseph Addison and Richard Steel: The Spectator’s Account of Himself\nCharles Lamb Dream Children: A Reverie\nWilliam Hazlitt: On Going a Journey\nThomas De Quincey: On the Knocking at the Gate in Macbeth\nBertrand Russell “What Shall We Educate” △★\nVirginia Woolf : Street Hunting：A London Adventure\nWashington Irving :Westminster Abbey\nHenry David Thoreau : A Winter Walk\nJames Baldwin: A Fry in Buttermilk\nJoan Didion: On Going Home\nPhilip Lopate : Modern Friendship△★\nE.B. White: Once More to the Lake\nAlice Walker: In Search of Our Mothers Garden Discussion: the women’s tradition of African American literature\nSynthesis",
+  "ideology": "培养学生具有人文社会科学素养、社会责任感\n比较中西方教育不同，树立文化自信\n培养学生文学鉴赏能力,感悟真善美\n培养正确的性别平等观念"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction to English Prose: Francis Bacon “of Studies”",
+   "ideology": "培养学生具有人文社会科学素养、社会责任感",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Samuel Johnson “Preface to Shakespeare”",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Joseph Addison and Richard Steel: The Spectator’s Account of Himself",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Charles Lamb Dream Children: A Reverie",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "William Hazlitt: On Going a Journey",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Thomas De Quincey: On the Knocking at the Gate in Macbeth",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Bertrand Russell “What Shall We Educate” △★",
+   "ideology": "比较中西方教育不同，树立文化自信",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Virginia Woolf : Street Hunting：A London Adventure",
+   "ideology": "培养学生文学鉴赏能力,感悟真善美",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Washington Irving :Westminster Abbey",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Henry David Thoreau : A Winter Walk",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "James Baldwin: A Fry in Buttermilk",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "Joan Didion: On Going Home",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 13,
+   "title": "Philip Lopate : Modern Friendship△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 14,
+   "title": "E.B. White: Once More to the Lake",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 15,
+   "title": "Alice Walker: In Search of Our Mothers Garden Discussion: the women’s tradition of African American literature",
+   "ideology": "培养正确的性别平等观念",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 16,
+   "title": "Synthesis",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14046101",
+ "hasOriginal": true
+}

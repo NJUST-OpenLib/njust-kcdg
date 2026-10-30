@@ -1,0 +1,263 @@
+{
+ "code": "14125002",
+ "slug": "14125002",
+ "name": "大学法语（Ⅰ）",
+ "nameEn": "College French (Ⅰ)",
+ "credit": 4,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9966,
+ "outline": {
+  "version": "2022",
+  "lang": "中法",
+  "category": "理论课(不含实践环节)",
+  "teacher": "胡园园",
+  "reviewer": "李娟",
+  "totalHours": 64,
+  "lectureHours": 64,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "平时考勤、课堂表现、作业、测试等:30%；期末闭卷考试:70%",
+  "goals": [
+   "掌握法语的发音和基本语调，能流利地朗读法语",
+   "掌握300字左右的词汇量、基本单词和句型、初级的法语语法知识",
+   "能应用简单的句型进行日常对话",
+   "具有初级的听、说、读、写能力",
+   "扩大知识面和文化视野",
+   "增进对本民族语言、文化的认同感、亲切感和自豪感"
+  ],
+  "intro": "《大学法语Ⅰ》系《大学法语》和《高级法语》课程中的一门，是面向英语专业开设的第二外语必修课。此系列课程从入门阶段开始，为二、三、四年级的学生传授基本、实用的法语语言文化知识。该系列课程能增加学生的知识量、扩大学生的文化视野，使学生成为掌握两门语言的双语人才，有利于他们在未来的求学、就业过程中占据一定的竞争优势。《大学法语Ⅰ》的教学内容为《法语1》教材的第一课到第十四课内容，包括法语26个字母；法语语音语调规则；入门词汇（300字左右）；简单句法、语法（肯定句、否定句，疑问句，动词变位，直接宾语，间接宾语，最近将来时，最近过去时，命令式，句子主要成分等）；法国及法语国家相关介绍。《大学法语Ⅰ》是零起点课程，无需预备知识。",
+  "objectives": "《大学法语Ⅰ》是入门阶段的课程，教授学生法语语音知识和简单的法语单词、句型。使学生对法语有一个基础的认识，掌握法语的发音和基本语调，能流利地朗读法语；掌握300字左右的词汇量、基本单词和句型、初级的法语语法知识；能应用简单的句型进行日常对话；具有初级的听、说、读、写能力，为接下来的进一步学习打好坚实的基础。通过语言学习，本课程还将增进学生对法国和法兰西民族的了解，对本民族语言、文化的认同感、亲切感和自豪感，在积极正面的文化交流与碰撞中扩大学生的知识面和文化视野。本课程要以习近平新时代中国特色社会主义思想为指引，将知识传授与价值引导相结合，培养学生爱国主义精神和家国情怀，帮助学生建立文化自信以及树立与国家、民族同心、同向的理想信念。",
+  "contents": "引语+第一课：法国介绍；法语介绍；26个字母；音素[a][ε][i][f][k][l][n][p][t][s][w] △；音节；重音；主语人称代词；疑问形式；语音练习；课文（Dialogue 1、Dialogue 2）\n第二课：音素[？][y][m][∫][v][z] △；清浊辅音；长音；节奏组；联诵；语调(1)；冠词(1)；语言层次；语音练习；课文（Dialogue 1、Dialogue 2）\n第三课：音素[e][u][？][g][r] △；总结字母g的发音；连音；冠词(2)；特殊疑问句；语音练习；课文（Dialogue 1、Dialogue 2）\n第四课：音素[？] [？？] [b][d] △；总结字母x的读法、字母h、省音；语调(2)（教学视频《当你觉得自己变态了你就学会法语了》）；阴阳性；单复数；数词0——10；语音练习；课文（Dialogue 1、Dialogue 2）\n第五课：复习前四课语音；复习前四课句型；复习前四课语法；总结词末发音的辅音字母、字母c，g的读法★、字母e的读法★、辅音群；语音练习；课文（Structure 1、2、3、4）\n第六课：音素[？][？][j][ij] △；鼻化元音、音节的划分；普通名词和专有名词；il y a 句型；数词11——15；语音练习；课文（Dialogue 1、Dialogue 2）；语言文化——法国人的名字\n第七课：音素[？][o] △；字母y的读法、连词et的读法；指示形容词；冠词（小结）；数词16——20；语音练习；课文（Dialogue 1、Dialogue 2）\n第八课：音素[？？][？] △；-tion的读法、音的同化、[j]音小结；介词；主有形容词；第一组动词的动词变位△；数词21——30；语音练习；课文（Dialogue 1、Dialogue 2、A la maison）\n第九课：音素[？][？] △；长音小结、半元音小结、鼻化元音小结、联诵变音★；数字形容词和品质形容词；être变位△；名词和形容词的复数；数词31——60；语音练习；课文（Dialogue 1、Dialogue 2、La présentation）\n第十课：复习所有的语音；复习前八课句型；复习前八课语法；字母cc和sc的读法★、字母x的读法★、法语的基本语调；动词变位简介及avoir的变位；数词61——80；语音练习；课文（Dialogue 1、Dialogue 2、La famille de Didier）；语言文化——法语语言的规范化\n语音阶段总复习：语音练习 语音测验 教唱法语歌曲《Frère Jacques》\n第十一课：课文（Je pense un peu à ma famille、Une photo de famille、La famille de Sophie） 语法（动词变位、定冠词、不定冠词、缩合冠词（1）△、主有形容词△、最近将来时、及物动词与不及物动词、泛指人称代词、数词81——100） 语言文化（礼节） 阅读（Un congé de maladie、Les photos de Paul） 视听说（现代法语：法国欢迎您 第一课：巴黎你好！）（教学视频）\n第十二课：课文（La chambre 205、La chambre de Li Ming、Une lettre de Laurence） 语法（品质形容词、缩合冠词（2）△、de 用于否定句中★、直接宾语和间接宾语★、数词101——1000） 语言文化（法国大学生的住房） 阅读（Villa à louer、Une villa formidable!） 视听说（现代法语：法国欢迎您 第一课：巴黎你好！）（教学视频）\n第十三课：课文（Quel temps fait-il ?、Les quatre saisons en France、Quelle date sommes-nous?） 语法（法语第二组动词△、无人称动词△、最近过去时、句子的主要成分、疑问句、数词1001——100 000） 语言文化（用“你”还是“您”相称） 阅读（Les quatre saisons à Paris、Le jour de repos） 教唱法语歌曲《蓝色的爱》 视听说（现代法语：法国欢迎您 第二课：在协和饭店）（教学视频）\n第十四课：课文（A la cantine、Au restaurant、Le d？ner chez les REMY） 语法（部分冠词★、代词en★、重读人称代词、命令式△、数词200 000——100 000 000） 语言文化（法国人的一日三餐） 阅读（Dans un restaurant \"fast food\"、Les Fran？ais disposent habituellement la table ainsi） 视听说（现代法语：法国欢迎您 第二课：在协和饭店）（教学视频）\n期末总复习：单词句型测验 本学期动词变位总结 本学期语法总讲解\n考前答疑",
+  "ideology": "类比法语音素与汉语拼音，引出中国共产党在新中国成立前后为汉字注音所做的各项努力和工作，并指出汉语拼音对于中国社会的重要意义。\n在语音练习中加入法语中的汉语外来词，练习这些词的法语读音并介绍其法化的历史过程，感受中国文化对法语的影响。\n在语言文化板块介绍法国礼节的同时，引入与中国礼节文化的对比，探讨中法文化的异同，提升学生们的文化自信。\n通过法餐文化与中餐文化的对比，以及法国符号学家罗兰·巴特尔在《符号帝国》中对中国筷子所蕴含中庸之道的解读，增强学生对本国文化的进一步认识和文化自信，树立正确的文化观。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "引语+第一课：法国介绍；法语介绍；26个字母；音素[a][ε][i][f][k][l][n][p][t][s][w] △；音节；重音；主语人称代词；疑问形式；语音练习；课文（Dialogue 1、Dialogue 2）",
+   "ideology": "类比法语音素与汉语拼音，引出中国共产党在新中国成立前后为汉字注音所做的各项努力和工作，并指出汉语拼音对于中国社会的重要意义。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "第二课：音素[？][y][m][∫][v][z] △；清浊辅音；长音；节奏组；联诵；语调(1)；冠词(1)；语言层次；语音练习；课文（Dialogue 1、Dialogue 2）",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "第三课：音素[e][u][？][g][r] △；总结字母g的发音；连音；冠词(2)；特殊疑问句；语音练习；课文（Dialogue 1、Dialogue 2）",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "第四课：音素[？] [？？] [b][d] △；总结字母x的读法、字母h、省音；语调(2)（教学视频《当你觉得自己变态了你就学会法语了》）；阴阳性；单复数；数词0——10；语音练习；课文（Dialogue 1、Dialogue 2）",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "第五课：复习前四课语音；复习前四课句型；复习前四课语法；总结词末发音的辅音字母、字母c，g的读法★、字母e的读法★、辅音群；语音练习；课文（Structure 1、2、3、4）",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "第六课：音素[？][？][j][ij] △；鼻化元音、音节的划分；普通名词和专有名词；il y a 句型；数词11——15；语音练习；课文（Dialogue 1、Dialogue 2）；语言文化——法国人的名字",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 7,
+   "title": "第七课：音素[？][o] △；字母y的读法、连词et的读法；指示形容词；冠词（小结）；数词16——20；语音练习；课文（Dialogue 1、Dialogue 2）",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 8,
+   "title": "第八课：音素[？？][？] △；-tion的读法、音的同化、[j]音小结；介词；主有形容词；第一组动词的动词变位△；数词21——30；语音练习；课文（Dialogue 1、Dialogue 2、A la maison）",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 9,
+   "title": "第九课：音素[？][？] △；长音小结、半元音小结、鼻化元音小结、联诵变音★；数字形容词和品质形容词；être变位△；名词和形容词的复数；数词31——60；语音练习；课文（Dialogue 1、Dialogue 2、La présentation）",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 10,
+   "title": "第十课：复习所有的语音；复习前八课句型；复习前八课语法；字母cc和sc的读法★、字母x的读法★、法语的基本语调；动词变位简介及avoir的变位；数词61——80；语音练习；课文（Dialogue 1、Dialogue 2、La famille de Didier）；语言文化——法语语言的规范化",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 11,
+   "title": "语音阶段总复习：语音练习 语音测验 教唱法语歌曲《Frère Jacques》",
+   "ideology": "在语音练习中加入法语中的汉语外来词，练习这些词的法语读音并介绍其法化的历史过程，感受中国文化对法语的影响。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 12,
+   "title": "第十一课：课文（Je pense un peu à ma famille、Une photo de famille、La famille de Sophie） 语法（动词变位、定冠词、不定冠词、缩合冠词（1）△、主有形容词△、最近将来时、及物动词与不及物动词、泛指人称代词、数词81——100） 语言文化（礼节） 阅读（Un congé de maladie、Les photos de Paul） 视听说（现代法语：法国欢迎您 第一课：巴黎你好！）（教学视频）",
+   "ideology": "在语言文化板块介绍法国礼节的同时，引入与中国礼节文化的对比，探讨中法文化的异同，提升学生们的文化自信。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 13,
+   "title": "第十二课：课文（La chambre 205、La chambre de Li Ming、Une lettre de Laurence） 语法（品质形容词、缩合冠词（2）△、de 用于否定句中★、直接宾语和间接宾语★、数词101——1000） 语言文化（法国大学生的住房） 阅读（Villa à louer、Une villa formidable!） 视听说（现代法语：法国欢迎您 第一课：巴黎你好！）（教学视频）",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 14,
+   "title": "第十三课：课文（Quel temps fait-il ?、Les quatre saisons en France、Quelle date sommes-nous?） 语法（法语第二组动词△、无人称动词△、最近过去时、句子的主要成分、疑问句、数词1001——100 000） 语言文化（用“你”还是“您”相称） 阅读（Les quatre saisons à Paris、Le jour de repos） 教唱法语歌曲《蓝色的爱》 视听说（现代法语：法国欢迎您 第二课：在协和饭店）（教学视频）",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 15,
+   "title": "第十四课：课文（A la cantine、Au restaurant、Le d？ner chez les REMY） 语法（部分冠词★、代词en★、重读人称代词、命令式△、数词200 000——100 000 000） 语言文化（法国人的一日三餐） 阅读（Dans un restaurant \"fast food\"、Les Fran？ais disposent habituellement la table ainsi） 视听说（现代法语：法国欢迎您 第二课：在协和饭店）（教学视频）",
+   "ideology": "通过法餐文化与中餐文化的对比，以及法国符号学家罗兰·巴特尔在《符号帝国》中对中国筷子所蕴含中庸之道的解读，增强学生对本国文化的进一步认识和文化自信，树立正确的文化观。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 16,
+   "title": "期末总复习：单词句型测验 本学期动词变位总结 本学期语法总讲解",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 17,
+   "title": "考前答疑",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 1
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14125002",
+ "hasOriginal": true
+}

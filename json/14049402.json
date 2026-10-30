@@ -1,0 +1,144 @@
+{
+ "code": "14049402",
+ "slug": "14049402",
+ "name": "英语戏剧与表演",
+ "nameEn": "English Drama and Performance",
+ "credit": 1,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9827,
+ "outline": {
+  "version": "2022",
+  "lang": "英语",
+  "category": "理论课(含实践环节)",
+  "teacher": "宋文",
+  "reviewer": "李娟",
+  "totalHours": 16,
+  "lectureHours": 8,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):20%；(未填):40%；(未填):30%",
+  "goals": [
+   "通过该课程的学习，学生能够熟练掌握基本戏剧阅读能力、初步鉴赏能力（能够从以下角度欣赏英文戏剧：背景、人物、情节、主题、音乐、风格、象征、意象等）",
+   "书面表达能力得到提高（能就一般或专业性主题撰写简单戏剧评论，流利自如地表达个人观点，做到文章选题合理、结构清晰、内容丰富、逻辑性强）。",
+   "学生们能根据自己对作品的理解，在教的表演教学与指导下，改编、组织并演出所学戏剧，进而培养逻辑思辨能力,想象力和研究创新能力。",
+   "一定程度上提高英语写作水平。"
+  ],
+  "intro": "该课程是我校英语专业选修的主要课程，是研究英美经典戏剧的一门基础学科，对学生掌握专业知识和技能、形成综合专业能力和创新研究能力有重要作用。\n本课程为1学分课程，持续时间8周，前4周课程内容为戏剧选读，后4周课程内容为戏剧表演教学。\n选修该课的学生需要的预备知识有英美文学简史、英美社会与文化等。本课程主要内容包括（1）戏剧概要（2）经典剧本研读（3）舞台术语简介（4）学生剧本讲评（5）戏剧彩排",
+  "objectives": "通过该课程的学习，学生能够熟练掌握基本戏剧阅读能力、初步鉴赏能力（能够从以下角度欣赏英文戏剧：背景、人物、情节、主题、音乐、风格、象征、意象等）；书面表达能力得到提高（能就一般或专业性主题撰写简单戏剧评论，流利自如地表达个人观点，做到文章选题合理、结构清晰、内容丰富、逻辑性强）。同时，学生们能根据自己对作品的理解，在教的表演教学与指导下，改编、组织并演出所学戏剧，进而培养逻辑思辨能力,想象力和研究创新能力。本课程用跨文化比较的方式,看到东西方文化之间的相互影响,启发学生从中华传统和中国文化中寻找演讲灵感，增加文化自信;培养学生文学鉴赏能力,对真善美有较为直接的感受,注意引用规范，明白学术诚信，履行责任;通过同学改编戏剧,促进创新能力培养;培养学生具有人文社会科学素养、社会责任感.",
+  "contents": "Introduction to English Drama； William Shakespeare：Much Ado about Nothing△★\nCaryl Churchill：Top Girl\nEugene O’Neil： Long Day\"s Journey into Night△★\nArthur Miller：The Crucible\n舞台术语讲解,布景制作分配\n学生剧本改编评讲\n小组分角色合练\n带妆舞台彩排",
+  "ideology": "培养学生具有人文社会科学素养、社会责任感\n培养正确的性别平等观念，强调平等理念\n比较中西方家庭伦理\n从美国女巫案历史中吸取教训,对极权主义保持警惕\n通过沉浸式的舞台表演，培养学生文学鉴赏能力,感悟真善美"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction to English Drama； William Shakespeare：Much Ado about Nothing△★",
+   "ideology": "培养学生具有人文社会科学素养、社会责任感",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Caryl Churchill：Top Girl",
+   "ideology": "培养正确的性别平等观念，强调平等理念",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Eugene O’Neil： Long Day\"s Journey into Night△★",
+   "ideology": "比较中西方家庭伦理",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Arthur Miller：The Crucible",
+   "ideology": "从美国女巫案历史中吸取教训,对极权主义保持警惕",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "舞台术语讲解,布景制作分配",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "学生剧本改编评讲",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "小组分角色合练",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "带妆舞台彩排",
+   "ideology": "通过沉浸式的舞台表演，培养学生文学鉴赏能力,感悟真善美",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B9245CED533E48DB9364656295ED8E10",
+ "hasOriginal": true
+}

@@ -1,0 +1,197 @@
+{
+ "code": "14045901",
+ "slug": "14045901",
+ "name": "实用文写作",
+ "nameEn": "Practical Genre Writing",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9782,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "邓景",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现、出勤率:10%；平时作业）:30%；闭卷笔试:60%",
+  "goals": [
+   "掌握求职求学过程中所需各种英语文书写作的规范和特点；",
+   "了解英语主要实用文写作文体的基本知识和写作规范；",
+   "能够较为熟练地撰写日常生活中所需的各种主要英语实用文文体写作；",
+   "能够较为熟练地撰写工作语境中较为正式的实用文文体；",
+   "掌握实用文文体语言风格特点"
+  ],
+  "intro": "实用文写作是英语专业二年级学生的一门重要的必修课程，在内容上既传授基本知识，也反应该实用文写作领域的最新发展。通过传授英语各种实用文体写作的知识和写作练习，培养学生独立、快速、有效完成目标实用英语文本的能力。本课程主要内容为十六章，大致分成两大部分，即求职求学和日常常用实用文体写作。第一部分介绍与求学求职相关的写作，包括1-3章的写求学/职申请信、简历和推荐信。第二部分包括第二章邀请信、第三章感谢信、第四章慰问、第五章吊唁信、第六章投诉信、第七章道歉信、第八章任职信、第九章通知和第十章辞职信。\n本课程以讲授和写作实践为主，要求学生阅读相关书籍，熟记各类常用实用文写作文体的相关文本格式和写作要点。",
+  "objectives": "(概述)该课程主要介绍英语实用文体写作的基本知识、基本原理和操作框架，包括求职和留学应用文、简历、办公应用文、致谢与道歉等多个文体讲授单元，旨在提高学生对实用英语文体的认识和写作水平、懂得如何进行生活和工作中常用的英语应用文文体的撰写。通过本课程的学习，要使学生获得：1.实用英语实用文的基础知识，掌握实用文文体语言风格特点和惯用表达；2. 各种主要英语实用文的格式特点和语言特征，包括中国和英语国家信封书写的差异及英语信封的正确书写格式、英语信件的各组成部分及不同的信件格式、掌握各类英语实用文文体的正确格式和惯用表达；3. 实用文发展的新动向；4. 独立、快速、规范、有效地完成英语实用文写作的能力。5. 不同语境中英语实用文文体的风格和语言的异同，即正式商务语境和日常交际中实用文文体在语言风格上的差异。在传授专业知识中，要兼顾知识性、社会需求性和趣味性，使学生在理论和实践学习中加强对实用文写作的认识，培养学生实用文的写作能力，满足学生将来职业生涯和日常生活学习的需要。6.提高学生的信息能力，即积极主动地搜集信息和整理信息的能力，能够迅速准确地选择不同英语实用文文体格式。",
+  "contents": "Applying to College 1.1 Application Letter 1.2 Recommendation△★ 1.3 Certificate to Financial Source△\nSeeking Jobs 2.1 Applying for a Position 2.2 Recommendation△★ 2.3 Career Plan★\nResume△★ 15.1 Stylistic Guide 15.2 Structure Items 15.3 Tips △★ 15.4 Practical Specimen△\nInvitation Letters△ 4.1 Inviting to a Reception 4.2 Inviting to Make a Speech 4.3 Inviting to a Wedding Ceremony△ 4.4 Inviting to a Birthday Party\nLetters of Thanks 10.1 Thanks for Invitation 10.2 Thanks for Congratulations 10.3 Thanks for Cooperation 10.4 Thanks for a Proposition\nLetters of Condolence 6.1 Condolence to Illness 6.2 Condolence to an Accident 6.3 Condolence to the Client△\nObituary Notices 7.1 Obituary Notice to a Relative 7.2 Obituary Notice to a College 7.3 Obituary Notice to a Relative of a College\nLetters of Complaint 8.1Food Complaints 8.2 Airline Delay Complaints 8.3 Complaints about Service\nLetters of Apology △ 9.1 Apology to the Leader 9.2 Apology to the Client △★ 9.3 Apology for a Rude Behavior△\nLetters of Appointment 13.1 Appointment Letter △★ 13.2 Letters of Acceptance△ 13.3 Letters of Refusal\nNotices△ 11.1 Meeting Notice 11.2 Holiday Notice△ 11.3 Office Party Notice△ 11.4 Application for Private Affair Notice△★\nQuitting Jobs 3.1 Quitting Application 3.2 Dismissal △",
+  "ideology": "介绍求学求职文书的规范和要求，引导学生建立正确的人生观和社会主义价值观。\n介绍求职简历写作中英语专业学生的职业素养，引导学生建立正确的人生观和社会主义价值观。\n比较邀请函写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。\n比较感谢信写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Applying to College 1.1 Application Letter 1.2 Recommendation△★ 1.3 Certificate to Financial Source△",
+   "ideology": "介绍求学求职文书的规范和要求，引导学生建立正确的人生观和社会主义价值观。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "Seeking Jobs 2.1 Applying for a Position 2.2 Recommendation△★ 2.3 Career Plan★",
+   "ideology": "介绍求职简历写作中英语专业学生的职业素养，引导学生建立正确的人生观和社会主义价值观。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "Resume△★ 15.1 Stylistic Guide 15.2 Structure Items 15.3 Tips △★ 15.4 Practical Specimen△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Invitation Letters△ 4.1 Inviting to a Reception 4.2 Inviting to Make a Speech 4.3 Inviting to a Wedding Ceremony△ 4.4 Inviting to a Birthday Party",
+   "ideology": "比较邀请函写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Letters of Thanks 10.1 Thanks for Invitation 10.2 Thanks for Congratulations 10.3 Thanks for Cooperation 10.4 Thanks for a Proposition",
+   "ideology": "比较感谢信写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Letters of Condolence 6.1 Condolence to Illness 6.2 Condolence to an Accident 6.3 Condolence to the Client△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Obituary Notices 7.1 Obituary Notice to a Relative 7.2 Obituary Notice to a College 7.3 Obituary Notice to a Relative of a College",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Letters of Complaint 8.1Food Complaints 8.2 Airline Delay Complaints 8.3 Complaints about Service",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Letters of Apology △ 9.1 Apology to the Leader 9.2 Apology to the Client △★ 9.3 Apology for a Rude Behavior△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Letters of Appointment 13.1 Appointment Letter △★ 13.2 Letters of Acceptance△ 13.3 Letters of Refusal",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "Notices△ 11.1 Meeting Notice 11.2 Holiday Notice△ 11.3 Office Party Notice△ 11.4 Application for Private Affair Notice△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 12,
+   "title": "Quitting Jobs 3.1 Quitting Application 3.2 Dismissal △",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14045901",
+ "hasOriginal": true
+}

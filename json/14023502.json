@@ -1,0 +1,169 @@
+{
+ "code": "14023502",
+ "slug": "14023502",
+ "name": "社会语言学入门",
+ "nameEn": "Introductory Sociolinguistics",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9709,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "崔捷",
+  "reviewer": "汤平",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "平时作业、期中考试、出勤、课堂表现、章节测试等:60%；课程论文:40%",
+  "goals": [
+   "理解社会语言学研究对象、理论",
+   "了解熟悉社会语言学常用的研究范式以及分析方法，理解量性研究如何与质性研究结合。",
+   "挖掘身边的社会语言学研究问题，运用相关理论范式，设计原创研究。"
+  ],
+  "intro": "本课程是对社会语言学理论框架和研究分析方法的进行综合性介绍的语言学导论课程。课程将从社会语言学的核心分支语言变异出发，介绍自1960年代奠基以来该领域的经典著作以及当代重要研究，展示社会语言学是如何反映社会结构以及多元的社会认同，进而使我们加深对日常生活中的社会景观的认识。方法论层面，通过梳理该领域60年的发展脉络和重要学科研究范式转向，本课程将向学生展示社会语言学如何将定量研究方法与语言人类学、社会学的洞见结合起来探讨语言共时变异、历史演变、微观视角下的人际互动以及宏观视角下的语言演变的社会历史因素。本课程还将探讨语言态度是如何通过对语言赋予价值，影响大众对某种语言使用者的评价，进而讨论语言如何反映、重塑、加强以及反抗社会中的不平等问题。学生最后的成绩包括期末考核、课程项目或小论文与课堂参与，评分将以百分制计算。",
+  "objectives": "作为一门高年级课程，该课程将有效帮助对已拥有一定语言学知识储备以及较高的英语语言能力的高年级学生拓展跨学科研究视野。通过本课程学习，学生将了解社会语言学的重要理论以及基础经典研究，熟悉该领域常用的调查、研究、以及分析方法，并能够理解定量语言变异研究与社会结构、语言态度、以及权势差异之间的互动关系。",
+  "contents": "What do sociolinguists study△\nLanguage choice in multilingual communities (in China)△\nLanguage varieties and multilingual nations△\nNational languages and langauge planning\nGender and Language△\nLanguage variation and change△★\nStyle, context and register\nLanguage cognition and culture△★\nAnalyzing discourse\nAttitude and applications",
+  "ideology": "介绍中华民族多元一体格局的语言观，弘扬中国各民族优秀传统文化。\n介绍国家标准语的作用，结合时政探讨“推广普通话，也是一种扶贫”这一语言经济学观点。\n结合社会主义核心价值观讨论语言赋值与社会不平等的关系，反对(种族）文化中心主义。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "What do sociolinguists study△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "Language choice in multilingual communities (in China)△",
+   "ideology": "介绍中华民族多元一体格局的语言观，弘扬中国各民族优秀传统文化。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Language varieties and multilingual nations△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "National languages and langauge planning",
+   "ideology": "介绍国家标准语的作用，结合时政探讨“推广普通话，也是一种扶贫”这一语言经济学观点。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "Gender and Language△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "Language variation and change△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "Style, context and register",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 8,
+   "title": "Language cognition and culture△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Analyzing discourse",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 10,
+   "title": "Attitude and applications",
+   "ideology": "结合社会主义核心价值观讨论语言赋值与社会不平等的关系，反对(种族）文化中心主义。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=1804AEB6A47747F894D208B9445DC378",
+ "hasOriginal": true
+}

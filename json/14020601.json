@@ -1,0 +1,247 @@
+{
+ "code": "14020601",
+ "slug": "14020601",
+ "name": "经贸英语选读",
+ "nameEn": "Selected Readings from Business English",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9641,
+ "outline": {
+  "version": "2022",
+  "lang": "中英",
+  "category": "理论课(不含实践环节)",
+  "teacher": "王蓉",
+  "reviewer": "李娟",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；随堂小测验:10%；阅读评论:30%；闭卷笔试:50%",
+  "goals": [
+   "掌握经贸专业相关的词汇和术语表达",
+   "增强商贸类文章阅读能力，获取相关具体领域知识，如市场营销、人力资源、国际贸易等",
+   "为经贸交流提供一定的指导，具备一档的分析问题能力和批判能力"
+  ],
+  "intro": "本课程针对英语专业二三年级学生开设，主要训练学生阅读有关经济和贸易英文资料的基本功。通过本课程的学习，掌握经贸专业相关的英语词汇，熟悉专业英语资料的撰写风格，扩大专业词汇量、丰富专业知识，为进一步阅读各种英语经贸资刊打下基础。本课程所选教材为清华大学出版社出版的《商务英语阅读》，共6章(18课)，紧密围绕商贸业务环节和商务活动工作流程，按照商务问题阅读的特点，系统介绍了经济学（第一章），金融（第二章），市场营销（第三章），人力资源管理（第四章），国际贸易（第五章），经济全球化（第六章）等有关领域商务英语阅读的知识技能，并通过强化训练、提高应用能力以达到学以致用的目的。学生可以获取相关商贸专业的知识，更可以对报道和评述进行观点的分析和讨论、批判地去学习和认识，在语言训练的同时达到思维训练的效果。",
+  "objectives": "本课程旨在增加学生在经贸方面的英语阅读量量，在获取相关专业英语词汇、短语表达和基本知识的同时扩大视野，提高理解、分析和总结的能力。通过语言学习和知识学习，让学生逐步养成良好的获取信息和整理信息的习惯，提高对信息的加工能力以及口头和笔头的表达能力。具体表现为以下方法和能力：1. 掌握经贸专业相关的英语词汇、术语； 2. 熟悉多中浸膏资料文章的撰写风格，具有良好的理解力； 3.对经贸常见话题，如商业全球化、贸易壁垒、电子商务等具有一定的分析与评价能力。\n课程思政目标：经济全球化的发展趋势带来的是中国经济与世界的密不可分，跨国贸易在经济活动中的地位不言而喻。中国与世界上很多国家通过贸易互利互惠，达到双赢目的，而有些国家试图利用贸易摩擦和设置障碍以达到某种政治目的，中国政府对此给与坚决还击。",
+  "contents": "Fundamentals of Economics△； Five Foursquare Tactics to Attract customers; Eastman Kodak★\nSupply and Demand△； Making Supply Meet Demand in an Uncertain World★; Turning supply chain into a revenue chain\nConsumption and Investment--investments△: What is behind Consumer's Actions?; Luxury Consumption in China△\nFinancing; A bicycle shop struggles to get a loan; Importance of Stock Market★\nBanking; The international monetary fund△\nInflation: causes△; The Indian edonomy: dealing with inflation; The 2008-2009 financial crisis★\nMarketing Environment; Starting a business: the romance vs. the reality△; Can we overlook the importance of marketing?\nThe Four Ps of the Marketing Strategy△； How to succeed in reatailing by really trying★; Marketing strategy and plan\nRecruitment; Employee development△\nInternational Trade△; International trade in transport services; Benefits of trading globally★\nInternational Payment; Global Collect; Balance of Payments△\nTrade Barriers△; The impact of a trade remedy case in Korea; Non-tarrif Barriers to Trade★\nWhat is globalization△; Globalization: an emerging world culture; Anti-globalization★\nInternational Business Organizations: WTO△; Chemicals: OECD\nThe effects and trends of Glaobalization△; A GM' latest retooling the Chrysler merger; E-commerce Strategy△\nRevision",
+  "ideology": "柯达的失败源于对数码技术前景的判断失误。科技的进步趋势不可阻挡。由此可见，经济的振兴离不开科技力量的支持。\n股市是一个国家经济力量的风向标。但是股市的振兴绝不是靠在股市中投中某些股票，更重要的是发展实业，踏踏实实做好的产品和服务，而非使用金融杠杆获得利润。\n国际贸易是国家经济的重要组成部分，是经济全球化的必然结果。国际贸易并非零和关系，而是一种互惠互利的共赢关系。我国与世界上绝大部分国家保持着良好的对外贸易关系。\n贸易壁垒是主权国家为保护本国利益而设置的保护性措施。一些发达国家试图利用贸易壁垒达到政治目的，对第三世界国家进行压制，我们需要严肃j谨慎对待，必要时给与还击。\n在全球化发展的今天，国家如何保持和发扬自己独特的文化传统是每一个国家都需要思考的问题。中国文化源远流长，我们需坚信民族的才是世界的，做到文化自信，学习中国的优秀文化传承，才能在世界大舞台上保持文化魅力。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Fundamentals of Economics△； Five Foursquare Tactics to Attract customers; Eastman Kodak★",
+   "ideology": "柯达的失败源于对数码技术前景的判断失误。科技的进步趋势不可阻挡。由此可见，经济的振兴离不开科技力量的支持。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Supply and Demand△； Making Supply Meet Demand in an Uncertain World★; Turning supply chain into a revenue chain",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Consumption and Investment--investments△: What is behind Consumer's Actions?; Luxury Consumption in China△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 4,
+   "title": "Financing; A bicycle shop struggles to get a loan; Importance of Stock Market★",
+   "ideology": "股市是一个国家经济力量的风向标。但是股市的振兴绝不是靠在股市中投中某些股票，更重要的是发展实业，踏踏实实做好的产品和服务，而非使用金融杠杆获得利润。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "Banking; The international monetary fund△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Inflation: causes△; The Indian edonomy: dealing with inflation; The 2008-2009 financial crisis★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Marketing Environment; Starting a business: the romance vs. the reality△; Can we overlook the importance of marketing?",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "The Four Ps of the Marketing Strategy△； How to succeed in reatailing by really trying★; Marketing strategy and plan",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Recruitment; Employee development△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "International Trade△; International trade in transport services; Benefits of trading globally★",
+   "ideology": "国际贸易是国家经济的重要组成部分，是经济全球化的必然结果。国际贸易并非零和关系，而是一种互惠互利的共赢关系。我国与世界上绝大部分国家保持着良好的对外贸易关系。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "International Payment; Global Collect; Balance of Payments△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "Trade Barriers△; The impact of a trade remedy case in Korea; Non-tarrif Barriers to Trade★",
+   "ideology": "贸易壁垒是主权国家为保护本国利益而设置的保护性措施。一些发达国家试图利用贸易壁垒达到政治目的，对第三世界国家进行压制，我们需要严肃j谨慎对待，必要时给与还击。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 13,
+   "title": "What is globalization△; Globalization: an emerging world culture; Anti-globalization★",
+   "ideology": "在全球化发展的今天，国家如何保持和发扬自己独特的文化传统是每一个国家都需要思考的问题。中国文化源远流长，我们需坚信民族的才是世界的，做到文化自信，学习中国的优秀文化传承，才能在世界大舞台上保持文化魅力。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 14,
+   "title": "International Business Organizations: WTO△; Chemicals: OECD",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 15,
+   "title": "The effects and trends of Glaobalization△; A GM' latest retooling the Chrysler merger; E-commerce Strategy△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 16,
+   "title": "Revision",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14020601",
+ "hasOriginal": true
+}

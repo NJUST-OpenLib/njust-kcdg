@@ -1,0 +1,144 @@
+{
+ "code": "14062701",
+ "slug": "14062701",
+ "name": "数字人文计算方法",
+ "nameEn": "Quantitative Data Analysi",
+ "credit": 1,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9883,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "崔捷",
+  "reviewer": "汤平",
+  "totalHours": 16,
+  "lectureHours": 8,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "平时作业、期中考试、出勤、课堂表现、章节测试等:60%；课程设计:30%；作品展示:10%",
+  "goals": [
+   "了解数字人文这一新兴学科的源流以及学科发展前沿。",
+   "了解数字人文当下主要的数字工具和技术。",
+   "具备研读数字人文领域的最新研究的能力。",
+   "能够结合自身兴趣和专攻，设计一个数字人文研究课题。"
+  ],
+  "intro": "本课程致力于介绍在计算机科学与人文科学之间充当桥梁作用的新兴交叉领域—数字人文。整个课程设计将围绕当今社会重要议题（如计算思维、数字身份、文本数据、算法、网络、地点等）。我们鼓励学生在老师的引导下，在课程上批判性地讨论、探索日常生活中的实例并加以分析。如网页创建，文本分析，数据可视化、数字化策展、打造个性化推文过滤器、社交网络可视化以及基于GIS的借助地图可视化等等。该课程主要技术呈现将通过Python或R语言完成，但本课程不要求学生具有相关技术学习或应用经验，课程中学生将通过阅读前沿文献了解该交叉学科领域最新研究方向，并通过上机实操或教师演示，了解相关技术实现方式。学生最终成绩将包括期末考核、网页作品展示与课堂参与，评分将以百分制计算。",
+  "objectives": "《数字人文计算方法》是一套提出、重新定义和回答学术问题对新智能、跨学科的研究方法，主要用于回答已经存在对人文议题或者基于新技术，提出新的研究问题。作为语言学专业学生的高年级专业课，是我校语言学专业重点建设的特色课程之一。本课程面向语言学和外语语言文学相关专业的本科生开设，向具备一定人文学科基础的学生或者对相关学科有兴趣的其他学生介绍“数字人文”计算这一研究理念以及研究方法，促进文理结合、文工结合。在外国语言学院学生中树立从数据层面、跨学科协同的研究意识。",
+  "contents": "△Digital humanities overview: What is digital humanitties? Principles and scenarios for digital humanities\n△★Data modeling and use: making data; cleaning and using data\nDigitization: Digital documents: formats and protocols; Digitization and file formats\n★Metadata, markup, and data description: Metadata and classification; Markup: XML, TEI, KML, JSON, and other standards\nData design: Database basics; Database issues: legacy data, ethic, use\nInformation visualizaiton: Basic of visualization; Networks and complex systems\n△Data mining and analysis: Data mining and text analysis; Cultural analytics, multimodal communication, media and audio mining\n★Mapping and GIS; Critical issues in spatial humanities",
+  "ideology": "介绍1981年美国威斯康辛大学的讲师陈炳藻首次借助计算机从字词出现的频率进行统计处理，得出《红楼梦》的120回均属曹雪芹所作。将人文计算和我国耳熟能详的优秀文学作品结合，引入数字人文技术。鼓励语言学和英语专业的学生发散思维，从计算的角度思考人文问题。\n结合我们当前正在进行的“中国语言资源保护工程”(语保工程)谈语言、文化、艺术保存、典藏、策展的重要性和可行性。鼓励学生将本课程所学运用于相关领域中，有效服务于我国优秀文化遗产的典藏和传承。\n结合“《长安十二时辰》时空叙事的历史背景与当代视角——长安城空间的限制与流动”这一研究介绍GIS技术在文艺作品可视化以及空间分析中的应用。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "△Digital humanities overview: What is digital humanitties? Principles and scenarios for digital humanities",
+   "ideology": "介绍1981年美国威斯康辛大学的讲师陈炳藻首次借助计算机从字词出现的频率进行统计处理，得出《红楼梦》的120回均属曹雪芹所作。将人文计算和我国耳熟能详的优秀文学作品结合，引入数字人文技术。鼓励语言学和英语专业的学生发散思维，从计算的角度思考人文问题。",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 2,
+   "title": "△★Data modeling and use: making data; cleaning and using data",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "Digitization: Digital documents: formats and protocols; Digitization and file formats",
+   "ideology": "结合我们当前正在进行的“中国语言资源保护工程”(语保工程)谈语言、文化、艺术保存、典藏、策展的重要性和可行性。鼓励学生将本课程所学运用于相关领域中，有效服务于我国优秀文化遗产的典藏和传承。",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 4,
+   "title": "★Metadata, markup, and data description: Metadata and classification; Markup: XML, TEI, KML, JSON, and other standards",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "Data design: Database basics; Database issues: legacy data, ethic, use",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 1
+   }
+  },
+  {
+   "no": 6,
+   "title": "Information visualizaiton: Basic of visualization; Networks and complex systems",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 7,
+   "title": "△Data mining and analysis: Data mining and text analysis; Cultural analytics, multimodal communication, media and audio mining",
+   "ideology": null,
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "★Mapping and GIS; Critical issues in spatial humanities",
+   "ideology": "结合“《长安十二时辰》时空叙事的历史背景与当代视角——长安城空间的限制与流动”这一研究介绍GIS技术在文艺作品可视化以及空间分析中的应用。",
+   "hours": {
+    "lecture": 1,
+    "lab": 0,
+    "pc": 0,
+    "practice": 1,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D841C08EE4264BA480D2143700BAE7F0",
+ "hasOriginal": true
+}

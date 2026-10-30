@@ -1,0 +1,126 @@
+{
+ "code": "14060604",
+ "slug": "14060604",
+ "name": "专用英语-英美文化",
+ "nameEn": "British and American Culture",
+ "credit": 2,
+ "dept": "外国语学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 9857,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "许明",
+  "reviewer": "孙海燕",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "(未填):20%；(未填):10%；(未填):10%；(未填):60%",
+  "goals": [],
+  "intro": "《英美文化》是一门针对我校非英语专业本科一年级必修的通识教育必修课。本课程是一门实用性很强的文化知识课，教学目标将内容与语言作为双重教学目标，一方面让学生了解主要英语国家的地理、政治、种族、移民、教育、经济、家庭、休闲活动等方面的文化内容，另一方面通过英语阅读主要英语国家的材料和分析，掌握语言知识，提高在相关场景和话题交流中语言应用能力。课程将思政元素与英语教学相融合，发挥文化的感染力和渗透力，引导学生在对社会问题的思考和讨论中，澄清价值观念，建立文化自信。",
+  "objectives": "本课程的教授让学生对英美两国的文化全貌有初步的认识，使学生通过学习了解英美国家地理、历史、政治、经济、社会、文化和生活等方面知识，能够比较全面地了解英美国家的各种基本情况和制度，学会与之相关的英语语汇和表达方式。提高学生对社会与文化类英语读物的阅读能力，学会用英语进行相关的交谈、讨论，在进一步提高学生的英语水平的同时, 培养起学生对文化现象的兴趣，拓展知识面，提升艺术鉴赏力和逻辑思维能力，并培养学生正确分析认识有关英美国家问题的能力，并能以正确的眼光分析看待问题，并引导学生自主学习，养成寻找有效途径分析问题和解决问题的主观能动能力；同时初步增强学生跨文化交际意识，适应国际社会发展需要。",
+  "contents": "Part I: ① Introduction to the teaching plan for the term. ②Unit 1 The Land and the People 1 Name and its geographical features 2 familiarize oneself with some western key concepts(regionalism; American dream)△ 3 understand the consequences of immigration in America Part II: Check the exercises\nUnit 2 Politics 1 Political Systems△ Federalism, Consitutional Monarchy 2 Parliament & Congress ★ 3 Chinese and Western politics Contrasted△★\nUnit 3 Values and Assumptions 1 explanation of the difference in values from the perspective of languages△★ 2 Point making in British Character and American character\nUnit 4 Education 1 Educational principles△ 2 some typical schools in Britain (public schools)△ 3 private system in Britain△\nUnit 5 family 1 The trend of changing family(blended family, alternative family)△ 2 comparison between Chinese family and western family△\nUnit 6 Leisure Life 1 basic knowledge about different sports game in Britain and United States(cricket, horse racing, rugby, super bowl)△★ 2 introduction to some values conveyed in the leisure life\nUnit 8 social services 1 basic knowledge about welfare state(social security; Medical care; housing benefit)2 Chinese welfare system△★",
+  "ideology": "1探究美国移民历史发展脉络2.了解背后的政治、经济和种族问题3.提升辩证思维能力\n1通过中国与西方政治制度对比研究，2.阐述中国政治制度及其优越性，3.树立制度自信。\n1.通过东西方价值对比研究帮助学生树立培养学生独立思考能力和辩证思维能力；2.了解个人爱国、敬业、诚信、友善的背后意义;3.帮助学生树立文化自信。\n1通过东西方教育背景对比研究学习帮助学生增强文化自信、2.通过教育方法对比帮助学生建立道路自信；3.通过教育制度比较帮助学生建立制度自信\n1.通过东西方家庭对比研究学习探讨两种不同家庭观；2.帮助学生树立跨文化交际意识，3.了解并宣传中国的家庭观。\n培养学生用英语介绍中国的休闲活动，并阐述其传递的价值，传播中华优秀传统文化。\n1.客观比较中西社会保障制度，2.探讨保障制度改革宗旨和路径，3.体会国家“富强、民主、文明、和谐”和社会“自由、平等、公正、法治”的真实含义。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Part I: ① Introduction to the teaching plan for the term. ②Unit 1 The Land and the People 1 Name and its geographical features 2 familiarize oneself with some western key concepts(regionalism; American dream)△ 3 understand the consequences of immigration in America Part II: Check the exercises",
+   "ideology": "1探究美国移民历史发展脉络2.了解背后的政治、经济和种族问题3.提升辩证思维能力",
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 2,
+   "title": "Unit 2 Politics 1 Political Systems△ Federalism, Consitutional Monarchy 2 Parliament & Congress ★ 3 Chinese and Western politics Contrasted△★",
+   "ideology": "1通过中国与西方政治制度对比研究，2.阐述中国政治制度及其优越性，3.树立制度自信。",
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 3,
+   "title": "Unit 3 Values and Assumptions 1 explanation of the difference in values from the perspective of languages△★ 2 Point making in British Character and American character",
+   "ideology": "1.通过东西方价值对比研究帮助学生树立培养学生独立思考能力和辩证思维能力；2.了解个人爱国、敬业、诚信、友善的背后意义;3.帮助学生树立文化自信。",
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 4,
+   "title": "Unit 4 Education 1 Educational principles△ 2 some typical schools in Britain (public schools)△ 3 private system in Britain△",
+   "ideology": "1通过东西方教育背景对比研究学习帮助学生增强文化自信、2.通过教育方法对比帮助学生建立道路自信；3.通过教育制度比较帮助学生建立制度自信",
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 5,
+   "title": "Unit 5 family 1 The trend of changing family(blended family, alternative family)△ 2 comparison between Chinese family and western family△",
+   "ideology": "1.通过东西方家庭对比研究学习探讨两种不同家庭观；2.帮助学生树立跨文化交际意识，3.了解并宣传中国的家庭观。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "Unit 6 Leisure Life 1 basic knowledge about different sports game in Britain and United States(cricket, horse racing, rugby, super bowl)△★ 2 introduction to some values conveyed in the leisure life",
+   "ideology": "培养学生用英语介绍中国的休闲活动，并阐述其传递的价值，传播中华优秀传统文化。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "Unit 8 social services 1 basic knowledge about welfare state(social security; Medical care; housing benefit)2 Chinese welfare system△★",
+   "ideology": "1.客观比较中西社会保障制度，2.探讨保障制度改革宗旨和路径，3.体会国家“富强、民主、文明、和谐”和社会“自由、平等、公正、法治”的真实含义。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5A1FC66005D2432EAFF9E674E4F06B76",
+ "hasOriginal": true
+}
