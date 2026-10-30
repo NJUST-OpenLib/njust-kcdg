@@ -1,82 +1,73 @@
-﻿# 英美诗歌选读
-
-课程编号: 14063201
-英文名称: Selected Readings of British and American Poetry
-开课单位: 外国语学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 14063201
+- 课程名称(中): 英美诗歌选读
 - 授课语种: 英文
+- 课程名称(英): Selected Readings of British and American Poetry
+- 开课单位: 外国语学院
 - 课程类别: 理论课(不含实践环节)
-- 课程负责人: 刘孟妍
+- 课程负责人(执笔人): 刘孟妍
 - 审核人: 李娟
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考查
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: (未填):10%；(未填):20%；(未填):10%；(未填):60%
 
-## 课程目标
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
+
+诗歌是随着人类语言的产生而产生的，是人类起源最早的文学样式。诗歌所包含的语言特征、修辞手段和细腻的感情都是英语语言丰富表现力的集中体现。作为英美文学中的重要组成部分，诗歌也是强化英语语言能力的重要途径。本课程是一门英诗入门课程，意在培养学生从文学视角理解、鉴赏和评判英语诗作的能力。通过介绍诗歌的外部因素，如音律与韵式等，如常见的抑扬格（轻重式）、扬抑格（重轻式）、抑抑扬格（轻轻重式）和扬抑抑格（重轻轻式）等；诗歌的内部要素，如想像、意象、题材和主题等；诗歌的类别（genres），如抒情诗和叙事诗等，讲解诗歌基本知识，梳理英美诗歌的不同流派及其风格，使学生掌握相关诗歌韵律与鉴赏技巧，引导学生品味诗歌之美，挖掘诗歌内涵，感受诗人寄托在诗中的思想和情愫，进而能够独立进行诗歌阅读、欣赏甚至诗歌翻译及创作。 教学内容涵盖（第一章）：诗歌总论；（第二章）：莎士比亚与十四行诗；（第三章）：约翰·多恩与玄学诗；（第四章）：弥尔顿与失乐园；（第五章）：浪漫主义诗歌及其代表诗人（1）；（第六章）：浪漫主义诗歌及其代表诗人（2）；（第七章）埃德加· 艾伦·坡；（第八章）：艾米莉·狄金森；（第九章）： 托马斯·哈代；（第十章）： 爱尔兰诗人叶芝；（第十一章）：罗伯特·弗罗斯特。学习该课程需要学生了解英美文学的相关知识，具备扎实的英语阅读和写作功底，对理论和文学作品具有一定的思考与鉴赏能力。本课程的成绩考核由平时成绩和期末考试两个部分组成，其中平时成绩占40%（包括出勤、课堂讨论和展示），期末考试成绩占60%。
+
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
+
+本课程主要提供英美诗歌的相关基础知识，让学生学习和比较不同的诗歌理论和流派之间的差异。在传授知识的同时，通过各个教学环节激发学生分析和研究的能力，使学生在欣赏英语诗歌意境美、韵律美的同时，培养其运用所学知识从文学的、审美的视角理解、鉴赏英语诗作的能力，从而提高学生的文学和文化素养。对诗歌鉴赏能力的培养也体现了对语言教学的文学性、 文化性和人文性的要求。
+本课程的学习主要是为了强化和巩固学生以下知识和能力：1.掌握英国与美国诗歌创作理论的基础知识：通过课程学习，使学生掌握基本的诗歌创作原则和技巧，不同诗歌流派的创作理论与特色；2.了解诗歌的文字内容以及主题的社会意义：在读懂诗歌的基础上，从诗歌创作本身看诗歌创作的社会背景，由作品过渡到生活、社会，开拓诗的意境，深化诗歌的主题。3. 学习诗歌研究和鉴赏的方法；诗歌是语言的艺术，它具有音乐美、意境美、语言美和情感美，在具备一定赏析能力后，反复诵读、不断探究、仔细品味。4. 提升对诗歌或者其他文学体裁的理解和赏析能力；以诗歌为审美对象开展审美教育，以审美为主要手段来感受诗歌的语言内容，从而全面提高学生的语言能力和审美能力。
+
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
 1. 1、英国与美国诗歌创作理论的基础知识
 2. 2、诗歌的文字内容以及主题的社会意义
 3. 3、诗歌研究和鉴赏的方法
 4. 4、对于诗歌或者其他文学体裁的理解和赏析能力
 
-## 课程简介
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-诗歌是随着人类语言的产生而产生的，是人类起源最早的文学样式。诗歌所包含的语言特征、修辞手段和细腻的感情都是英语语言丰富表现力的集中体现。作为英美文学中的重要组成部分，诗歌也是强化英语语言能力的重要途径。本课程是一门英诗入门课程，意在培养学生从文学视角理解、鉴赏和评判英语诗作的能力。通过介绍诗歌的外部因素，如音律与韵式等，如常见的抑扬格（轻重式）、扬抑格（重轻式）、抑抑扬格（轻轻重式）和扬抑抑格（重轻轻式）等；诗歌的内部要素，如想像、意象、题材和主题等；诗歌的类别（genres），如抒情诗和叙事诗等，讲解诗歌基本知识，梳理英美诗歌的不同流派及其风格，使学生掌握相关诗歌韵律与鉴赏技巧，引导学生品味诗歌之美，挖掘诗歌内涵，感受诗人寄托在诗中的思想和情愫，进而能够独立进行诗歌阅读、欣赏甚至诗歌翻译及创作。 教学内容涵盖（第一章）：诗歌总论；（第二章）：莎士比亚与十四行诗；（第三章）：约翰·多恩与玄学诗；（第四章）：弥尔顿与失乐园；（第五章）：浪漫主义诗歌及其代表诗人（1）；（第六章）：浪漫主义诗歌及其代表诗人（2）；（第七章）埃德加· 艾伦·坡；（第八章）：艾米莉·狄金森；（第九章）： 托马斯·哈代；（第十章）： 爱尔兰诗人叶芝；（第十一章）：罗伯特·弗罗斯特。学习该课程需要学生了解英美文学的相关知识，具备扎实的英语阅读和写作功底，对理论和文学作品具有一定的思考与鉴赏能力。本课程的成绩考核由平时成绩和期末考试两个部分组成，其中平时成绩占40%（包括出勤、课堂讨论和展示），期末考试成绩占60%。
+| 考核方式 | 1 | 2 | 3 | 4 | 合计 |
+|---|---|---|---|---|---|
+| 名称 | (未填) | (未填) | (未填) | (未填) | |
+| 占比 | 10% | 20% | 10% | 60% | 100% |
 
-## 教学目的与要求
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-本课程主要提供英美诗歌的相关基础知识，让学生学习和比较不同的诗歌理论和流派之间的差异。在传授知识的同时，通过各个教学环节激发学生分析和研究的能力，使学生在欣赏英语诗歌意境美、韵律美的同时，培养其运用所学知识从文学的、审美的视角理解、鉴赏英语诗作的能力，从而提高学生的文学和文化素养。对诗歌鉴赏能力的培养也体现了对语言教学的文学性、 文化性和人文性的要求。
-本课程的学习主要是为了强化和巩固学生以下知识和能力：1.掌握英国与美国诗歌创作理论的基础知识：通过课程学习，使学生掌握基本的诗歌创作原则和技巧，不同诗歌流派的创作理论与特色；2.了解诗歌的文字内容以及主题的社会意义：在读懂诗歌的基础上，从诗歌创作本身看诗歌创作的社会背景，由作品过渡到生活、社会，开拓诗的意境，深化诗歌的主题。3. 学习诗歌研究和鉴赏的方法；诗歌是语言的艺术，它具有音乐美、意境美、语言美和情感美，在具备一定赏析能力后，反复诵读、不断探究、仔细品味。4. 提升对诗歌或者其他文学体裁的理解和赏析能力；以诗歌为审美对象开展审美教育，以审美为主要手段来感受诗歌的语言内容，从而全面提高学生的语言能力和审美能力。
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Introduction To Poetry： *What is poetry *General introduction to poetics, basic principles and styles | 2 | 2 |
+| 2 | William Shakespeare and His Sonnets：*Shakespeare's poetic style *The poetic features of sonnets *Close reading of Sonnet 18,Sonnet 94,Sonnet 106 | 4 | 4 |
+| 3 | John Donne and Metaphysical Poetry： *Introduction to metaphysical poetry *Donne's writing style and the characteristics of his poetry *Close reading of A Valediction Forbidding Mourning, The Flea, No man is an island,etc. | 4 | 4 |
+| 4 | John Milton and Paradise Lost： *Milton's language style,structure, diction and poetic characteristics *Close reading of Paradise Lost | 2 | 2 |
+| 5 | Romantic poetry and Its representative poets (1)： *The definition of Romanticism *Introduction to William Worddsworth, Samuel Taylor Coleridge and their poetic styles *Close reading of Tintern Abbey, I Wandered Lonely As a Cloud,Kubla Khan | 4 | 4 |
+| 6 | Romantic poetry and Its representative poets (2)： *Introduction to Shelley, Lord Byron,John Keats and their language styles *Close reading of She Walks In Beauty,When We Two Parted, When I Have Fears,etc. *Comparison between different Romantic poets | 4 | 4 |
+| 7 | Edgar Allan Poe： *The artistic style and aesthetic value of Poe's poetry *The relation between the life of Poe and his poetry *close reading of Alone,A Dream Within A Dream | 4 | 4 |
+| 8 | Emily Dickinson： *Dickinson's artistic style *A study of Dickinson's poetic theme *Interpretation of I never saw a moor, I'm Nobody! Who are you? Escape, The Battlefield,ect. | 2 | 2 |
+| 9 | Thomas Hardy： *Hardy's artistic features and his language style *Hardy's unique local complex *Close reading of Hap, I Look into My Glass, Neutral Tones | 2 | 2 |
+| 10 | The Irish Poet William Butler Yeats： *The poetic style, its characteristics and the language of Yeats's poetry *Close reading of When you are old, The Lake Isle of Innisfree, The Wild Swans at Coole,and The Scholars | 2 | 2 |
+| 11 | Robert Frost： *Frost's unique perspective and his simple poetic language *Interpretation of Mending Wall, The Road not taken, Stopping by woods on a snowing evening, Acquainted with the night | 2 | 2 |
+| 合计 |  | 32 | 32 |
 
-## 教学内容
+- 第2章 思政融入点：赏析文学作品，以具体的主题,引导学生培养良好的艺术鉴赏能力
+- 第5章 思政融入点：比较中英诗歌的艺术表现手法，情感传递途径等，更好地理解各自文化的特征
+- 第9章 思政融入点：分析作者创作的社会文化背景和表达意图，对西方诗歌传递的价值观念和思想观念进行批判性思考和评价。
 
-Introduction To Poetry： *What is poetry *General introduction to poetics, basic principles and styles
-William Shakespeare and His Sonnets：*Shakespeare's poetic style *The poetic features of sonnets *Close reading of Sonnet 18,Sonnet 94,Sonnet 106
-John Donne and Metaphysical Poetry： *Introduction to metaphysical poetry *Donne's writing style and the characteristics of his poetry *Close reading of A Valediction Forbidding Mourning, The Flea, No man is an island,etc.
-John Milton and Paradise Lost： *Milton's language style,structure, diction and poetic characteristics *Close reading of Paradise Lost
-Romantic poetry and Its representative poets (1)： *The definition of Romanticism *Introduction to William Worddsworth, Samuel Taylor Coleridge and their poetic styles *Close reading of Tintern Abbey, I Wandered Lonely As a Cloud,Kubla Khan
-Romantic poetry and Its representative poets (2)： *Introduction to Shelley, Lord Byron,John Keats and their language styles *Close reading of She Walks In Beauty,When We Two Parted, When I Have Fears,etc. *Comparison between different Romantic poets
-Edgar Allan Poe： *The artistic style and aesthetic value of Poe's poetry *The relation between the life of Poe and his poetry *close reading of Alone,A Dream Within A Dream
-Emily Dickinson： *Dickinson's artistic style *A study of Dickinson's poetic theme *Interpretation of I never saw a moor, I'm Nobody! Who are you? Escape, The Battlefield,ect.
-Thomas Hardy： *Hardy's artistic features and his language style *Hardy's unique local complex *Close reading of Hap, I Look into My Glass, Neutral Tones
-The Irish Poet William Butler Yeats： *The poetic style, its characteristics and the language of Yeats's poetry *Close reading of When you are old, The Lake Isle of Innisfree, The Wild Swans at Coole,and The Scholars
-Robert Frost： *Frost's unique perspective and his simple poetic language *Interpretation of Mending Wall, The Road not taken, Stopping by woods on a snowing evening, Acquainted with the night
+## 实验项目
 
-## 课程思政
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
 
-赏析文学作品，以具体的主题,引导学生培养良好的艺术鉴赏能力
-比较中英诗歌的艺术表现手法，情感传递途径等，更好地理解各自文化的特征
-分析作者创作的社会文化背景和表达意图，对西方诗歌传递的价值观念和思想观念进行批判性思考和评价。
+## 教材与参考书目
 
-## 章节安排
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| 《英美诗歌：作品与评论》 | 杨金才 于建华 | 9787544632775 | 上海外语教育出版社 | 2014 |
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Introduction To Poetry： *What is poetry *General introduction to poetics, basic principles and styles | 2 | 0 | 0 | 0 | 0 | 2 |
-| 2 | William Shakespeare and His Sonnets：*Shakespeare's poetic style *The poetic features of sonnets *Close reading of Sonnet 18,Sonnet 94,Sonnet 106 | 4 | 0 | 0 | 0 | 0 | 4 |
-| 3 | John Donne and Metaphysical Poetry： *Introduction to metaphysical poetry *Donne's writing style and the characteristics of his poetry *Close reading of A Valediction Forbidding Mourning, The Flea, No man is an island,etc. | 4 | 0 | 0 | 0 | 0 | 4 |
-| 4 | John Milton and Paradise Lost： *Milton's language style,structure, diction and poetic characteristics *Close reading of Paradise Lost | 2 | 0 | 0 | 0 | 0 | 2 |
-| 5 | Romantic poetry and Its representative poets (1)： *The definition of Romanticism *Introduction to William Worddsworth, Samuel Taylor Coleridge and their poetic styles *Close reading of Tintern Abbey, I Wandered Lonely As a Cloud,Kubla Khan | 4 | 0 | 0 | 0 | 0 | 4 |
-| 6 | Romantic poetry and Its representative poets (2)： *Introduction to Shelley, Lord Byron,John Keats and their language styles *Close reading of She Walks In Beauty,When We Two Parted, When I Have Fears,etc. *Comparison between different Romantic poets | 4 | 0 | 0 | 0 | 0 | 4 |
-| 7 | Edgar Allan Poe： *The artistic style and aesthetic value of Poe's poetry *The relation between the life of Poe and his poetry *close reading of Alone,A Dream Within A Dream | 4 | 0 | 0 | 0 | 0 | 4 |
-| 8 | Emily Dickinson： *Dickinson's artistic style *A study of Dickinson's poetic theme *Interpretation of I never saw a moor, I'm Nobody! Who are you? Escape, The Battlefield,ect. | 2 | 0 | 0 | 0 | 0 | 2 |
-| 9 | Thomas Hardy： *Hardy's artistic features and his language style *Hardy's unique local complex *Close reading of Hap, I Look into My Glass, Neutral Tones | 2 | 0 | 0 | 0 | 0 | 2 |
-| 10 | The Irish Poet William Butler Yeats： *The poetic style, its characteristics and the language of Yeats's poetry *Close reading of When you are old, The Lake Isle of Innisfree, The Wild Swans at Coole,and The Scholars | 2 | 0 | 0 | 0 | 0 | 2 |
-| 11 | Robert Frost： *Frost's unique perspective and his simple poetic language *Interpretation of Mending Wall, The Road not taken, Stopping by woods on a snowing evening, Acquainted with the night | 2 | 0 | 0 | 0 | 0 | 2 |
-
-- 第2章 思政融入: 赏析文学作品，以具体的主题,引导学生培养良好的艺术鉴赏能力
-- 第5章 思政融入: 比较中英诗歌的艺术表现手法，情感传递途径等，更好地理解各自文化的特征
-- 第9章 思政融入: 分析作者创作的社会文化背景和表达意图，对西方诗歌传递的价值观念和思想观念进行批判性思考和评价。
+注意：*字段为必填项
 
 ---
 

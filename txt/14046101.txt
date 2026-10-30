@@ -1,92 +1,79 @@
-﻿# 西方经典散文阅读
-
-课程编号: 14046101
-英文名称: Readings in Classic English Prose
-开课单位: 外国语学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 14046101
+- 课程名称(中): 西方经典散文阅读
 - 授课语种: 英语
+- 课程名称(英): Readings in Classic English Prose
+- 开课单位: 外国语学院
 - 课程类别: 理论课(不含实践环节)
-- 课程负责人: 宋文
+- 课程负责人(执笔人): 宋文
 - 审核人: 李娟
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考试
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: (未填):10%；(未填):30%；(未填):60%
 
-## 课程目标
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
+
+西方经典散文阅读是英语专业三年级开设的英语方向主干课程，精选英美散文家完整的代表性作品，内容涉及教育、英美历史、西方社会问题、艺术欣赏和环保，形式多元，包括随笔、书信、小说、传记、讲演、宣言、科普，乃至书籍评点，文学理论批评，培养学生对文本的分析和感悟能力，在深层次上较为客观地了解西方文化。作为一门素质培养课，它能使学生的文学修养、审美意识、独立思考能力得以提高，同时加强学生整合思路能力的训练，为毕业论文写作打下坚实的基础。本课程主要内容为：（1）散文的介绍 （2）培根哲理散文（3）英国经典兰姆散文 （4）英国现代主义散文伍尔夫（5）美国超验主义散文梭罗 （6）美国个人散文罗帕特（7）美国黑人散文家鲍德温
+
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
+
+本课程的重点以学生为主体，通过阅读分析内容广泛，经典散文名家名篇，了解散文这种特殊文体及西方历史文化发展脉络。能够从深层次理解课文，扩大学生知识面，达到提高学生艺术审美、和综合表达能力的目标。要求学生课前查阅资料，准备作家以及其作品的介绍，教师引导课堂讨论，并组织观摩相关影视录像等。采取多种教学手段以激发学生的学习兴趣，使学生从多种渠道获得文学知识及全面客观地了解英美文化。本课程用跨文化比较的方式,看到东西方文化之间的相互影响,启发学生从中华传统和中国文化中寻找演讲灵感，增加文化自信;培养学生文学鉴赏能力,对真善美有较为直接的感受,注意引用规范，明白学术诚信，履行责任;通过同学改编戏剧,促进创新能力培养;培养学生具有人文社会科学素养、社会责任感.
+
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
 1. 阅读西方17世纪到20世纪的散文名篇，通过书信，随笔，政论，传记，演说等不同形式，体会名家对社会，宗教，艺术，历史，文学和日常生活的精辟见解。
 2. 具备分析和欣赏散文的能力，欣赏名家妙笔，了解文体修辞，品味精湛语言，培养文学鉴赏能力。
 3. 一定程度上提高英语写作水平。
 
-## 课程简介
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-西方经典散文阅读是英语专业三年级开设的英语方向主干课程，精选英美散文家完整的代表性作品，内容涉及教育、英美历史、西方社会问题、艺术欣赏和环保，形式多元，包括随笔、书信、小说、传记、讲演、宣言、科普，乃至书籍评点，文学理论批评，培养学生对文本的分析和感悟能力，在深层次上较为客观地了解西方文化。作为一门素质培养课，它能使学生的文学修养、审美意识、独立思考能力得以提高，同时加强学生整合思路能力的训练，为毕业论文写作打下坚实的基础。本课程主要内容为：（1）散文的介绍 （2）培根哲理散文（3）英国经典兰姆散文 （4）英国现代主义散文伍尔夫（5）美国超验主义散文梭罗 （6）美国个人散文罗帕特（7）美国黑人散文家鲍德温
+| 考核方式 | 1 | 2 | 3 | 合计 |
+|---|---|---|---|---|
+| 名称 | (未填) | (未填) | (未填) | |
+| 占比 | 10% | 30% | 60% | 100% |
 
-## 教学目的与要求
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-本课程的重点以学生为主体，通过阅读分析内容广泛，经典散文名家名篇，了解散文这种特殊文体及西方历史文化发展脉络。能够从深层次理解课文，扩大学生知识面，达到提高学生艺术审美、和综合表达能力的目标。要求学生课前查阅资料，准备作家以及其作品的介绍，教师引导课堂讨论，并组织观摩相关影视录像等。采取多种教学手段以激发学生的学习兴趣，使学生从多种渠道获得文学知识及全面客观地了解英美文化。本课程用跨文化比较的方式,看到东西方文化之间的相互影响,启发学生从中华传统和中国文化中寻找演讲灵感，增加文化自信;培养学生文学鉴赏能力,对真善美有较为直接的感受,注意引用规范，明白学术诚信，履行责任;通过同学改编戏剧,促进创新能力培养;培养学生具有人文社会科学素养、社会责任感.
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Introduction to English Prose: Francis Bacon “of Studies” | 2 | 2 |
+| 2 | Samuel Johnson “Preface to Shakespeare” | 2 | 2 |
+| 3 | Joseph Addison and Richard Steel: The Spectator’s Account of Himself | 2 | 2 |
+| 4 | Charles Lamb Dream Children: A Reverie | 2 | 2 |
+| 5 | William Hazlitt: On Going a Journey | 2 | 2 |
+| 6 | Thomas De Quincey: On the Knocking at the Gate in Macbeth | 2 | 2 |
+| 7 | Bertrand Russell “What Shall We Educate” △★ | 2 | 2 |
+| 8 | Virginia Woolf : Street Hunting：A London Adventure | 2 | 2 |
+| 9 | Washington Irving :Westminster Abbey | 2 | 2 |
+| 10 | Henry David Thoreau : A Winter Walk | 2 | 2 |
+| 11 | James Baldwin: A Fry in Buttermilk | 2 | 2 |
+| 12 | Joan Didion: On Going Home | 2 | 2 |
+| 13 | Philip Lopate : Modern Friendship△★ | 2 | 2 |
+| 14 | E.B. White: Once More to the Lake | 2 | 2 |
+| 15 | Alice Walker: In Search of Our Mothers Garden Discussion: the women’s tradition of African American literature | 2 | 2 |
+| 16 | Synthesis | 2 | 2 |
+| 合计 |  | 32 | 32 |
 
-## 教学内容
+- 第1章 思政融入点：培养学生具有人文社会科学素养、社会责任感
+- 第7章 思政融入点：比较中西方教育不同，树立文化自信
+- 第8章 思政融入点：培养学生文学鉴赏能力,感悟真善美
+- 第15章 思政融入点：培养正确的性别平等观念
 
-Introduction to English Prose: Francis Bacon “of Studies”
-Samuel Johnson “Preface to Shakespeare”
-Joseph Addison and Richard Steel: The Spectator’s Account of Himself
-Charles Lamb Dream Children: A Reverie
-William Hazlitt: On Going a Journey
-Thomas De Quincey: On the Knocking at the Gate in Macbeth
-Bertrand Russell “What Shall We Educate” △★
-Virginia Woolf : Street Hunting：A London Adventure
-Washington Irving :Westminster Abbey
-Henry David Thoreau : A Winter Walk
-James Baldwin: A Fry in Buttermilk
-Joan Didion: On Going Home
-Philip Lopate : Modern Friendship△★
-E.B. White: Once More to the Lake
-Alice Walker: In Search of Our Mothers Garden Discussion: the women’s tradition of African American literature
-Synthesis
+## 实验项目
 
-## 课程思政
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
 
-培养学生具有人文社会科学素养、社会责任感
-比较中西方教育不同，树立文化自信
-培养学生文学鉴赏能力,感悟真善美
-培养正确的性别平等观念
+## 教材与参考书目
 
-## 章节安排
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| 英国散文名篇欣赏 | 杨自伍 | 978-7-5446-1593-8 | 上海外语教育出版社 | 2010 |
+| 世界经典英语散文 | 汪涟 | 978-7-300-18033-5 | 中国人民大学出版社 | 2013 |
+| 英语散文名家名篇赏析教程 | 吕晓志 | 978-7-302-46031-2 | 清华大学出版社 | 2017 |
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Introduction to English Prose: Francis Bacon “of Studies” | 2 | 0 | 0 | 0 | 0 | 2 |
-| 2 | Samuel Johnson “Preface to Shakespeare” | 2 | 0 | 0 | 0 | 0 | 2 |
-| 3 | Joseph Addison and Richard Steel: The Spectator’s Account of Himself | 2 | 0 | 0 | 0 | 0 | 2 |
-| 4 | Charles Lamb Dream Children: A Reverie | 2 | 0 | 0 | 0 | 0 | 2 |
-| 5 | William Hazlitt: On Going a Journey | 2 | 0 | 0 | 0 | 0 | 2 |
-| 6 | Thomas De Quincey: On the Knocking at the Gate in Macbeth | 2 | 0 | 0 | 0 | 0 | 2 |
-| 7 | Bertrand Russell “What Shall We Educate” △★ | 2 | 0 | 0 | 0 | 0 | 2 |
-| 8 | Virginia Woolf : Street Hunting：A London Adventure | 2 | 0 | 0 | 0 | 0 | 2 |
-| 9 | Washington Irving :Westminster Abbey | 2 | 0 | 0 | 0 | 0 | 2 |
-| 10 | Henry David Thoreau : A Winter Walk | 2 | 0 | 0 | 0 | 0 | 2 |
-| 11 | James Baldwin: A Fry in Buttermilk | 2 | 0 | 0 | 0 | 0 | 2 |
-| 12 | Joan Didion: On Going Home | 2 | 0 | 0 | 0 | 0 | 2 |
-| 13 | Philip Lopate : Modern Friendship△★ | 2 | 0 | 0 | 0 | 0 | 2 |
-| 14 | E.B. White: Once More to the Lake | 2 | 0 | 0 | 0 | 0 | 2 |
-| 15 | Alice Walker: In Search of Our Mothers Garden Discussion: the women’s tradition of African American literature | 2 | 0 | 0 | 0 | 0 | 2 |
-| 16 | Synthesis | 2 | 0 | 0 | 0 | 0 | 2 |
-
-- 第1章 思政融入: 培养学生具有人文社会科学素养、社会责任感
-- 第7章 思政融入: 比较中西方教育不同，树立文化自信
-- 第8章 思政融入: 培养学生文学鉴赏能力,感悟真善美
-- 第15章 思政融入: 培养正确的性别平等观念
+注意：*字段为必填项
 
 ---
 

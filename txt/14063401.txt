@@ -1,25 +1,26 @@
-﻿# 语言习得与发展
-
-课程编号: 14063401
-开课单位: 外国语学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 14063401
+- 课程名称(中): 语言习得与发展
+- 授课语种: 未标注
+- 课程名称(英): 未标注
+- 开课单位: 外国语学院
 - 课程类别: 理论课（不含实践）
-- 课程负责人: 李洪兰
+- 课程负责人(执笔人): 李洪兰
 - 审核人: 李娟
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考试
-- 是否术科课: 否
-- 成绩构成: 课堂表现:10%；平时作业:30%；期末测验:60%
+- 成绩记载: 未标注
 
-## 课程目标
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
+
+《语言习得与发展》这门课旨在为没有语言习得背景的学生系统地介绍儿童一语习得与发展概况，探讨儿童语言习得机制，及其语音、词汇、句法、语义及语用等方面的发展进程，以及影响儿童语言习得与发展的因素等问题。该课程主要介绍正常发展儿童的一语习得语发展，也概括性地介绍正常发展儿童的双语习得以及非典型发展儿童的语言习得与发展。该课程具体的教学内容包括：(1) Course information and introduction to the study of language acquisition and development; (2) Biological bases of language development; (3) Foundations and functions of language development; (4)Phonological development; (5) Lexical development; (6) Morphological development; (7) Syntactic development; (8) Pragmatic and semantic development; (9) Measures of speech samples; (10) Language, culture and cognition in development; (11) Childhood bilingualism; (12) Language development in the school years; (13) Language development in special populations。 该课程要求学生预先学习《语言学导论》，《语音学导论》和《句法学导论》等课程，掌握语言学、语音学及句法学等相关概念。学生最后的成绩包括课堂参与，课堂和课后作业和期末考试，以百分计。
+
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
+
+该课程通过讲授儿童语言习得与发展的基本概念，相关理论和影响因素等，使学生能够对儿童一语习得与发展有系统的理解。同时，完成这门课，学生的自主学习能力，沟通能力以及团队合作意识都能得到提高。具体的教学目标包括：（1）掌握正常发展儿童语言习得与发展的相关基本概念，增加其在儿童语言习得与发展方面的专业知识；（2）理解熟悉儿童语言习得与发展的主要理论，能够运用这些理论对儿童的语言习得与发展进行解释，并且能够辩证地比较与评价这些理论，提升问题分析的能力以及训练批判性思维；（3）理解儿童语言习得与发展的认知、生物和社交基础；（4）理解儿童第一语言在语音，词汇，句法、语义和语用等方面的发展进程；（5）理解儿童语料收集常用的方法，并且运用语言测量工具分析儿童语料以及评估儿童语言发展的水平和阶段；（6）理解影响儿童语言习得与发展的社会和认知方面的因素；（7）理解双语儿童的语言发展特点，及其与单语儿童语言习得与发展的异同；（8）理解非典型发展儿童的语言习得与发展进程，及其语言特点；（9）通过小组合作讨论学习，提升沟通能力，团队集体意识；（10）在完成课前阅读及课堂作业的过程中，提升自主学习能力，巩固终身学习的意识。
+
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
 1. 掌握语言习得与发展相关的基本概念。
 2. 掌握儿童语言各个方面的发展进程。
@@ -28,57 +29,49 @@
 5. 了解双语儿童的语言发展。
 6. 了解非典型发展儿童的语言习得与发展。
 
-## 课程简介
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-《语言习得与发展》这门课旨在为没有语言习得背景的学生系统地介绍儿童一语习得与发展概况，探讨儿童语言习得机制，及其语音、词汇、句法、语义及语用等方面的发展进程，以及影响儿童语言习得与发展的因素等问题。该课程主要介绍正常发展儿童的一语习得语发展，也概括性地介绍正常发展儿童的双语习得以及非典型发展儿童的语言习得与发展。该课程具体的教学内容包括：(1) Course information and introduction to the study of language acquisition and development; (2) Biological bases of language development; (3) Foundations and functions of language development; (4)Phonological development; (5) Lexical development; (6) Morphological development; (7) Syntactic development; (8) Pragmatic and semantic development; (9) Measures of speech samples; (10) Language, culture and cognition in development; (11) Childhood bilingualism; (12) Language development in the school years; (13) Language development in special populations。 该课程要求学生预先学习《语言学导论》，《语音学导论》和《句法学导论》等课程，掌握语言学、语音学及句法学等相关概念。学生最后的成绩包括课堂参与，课堂和课后作业和期末考试，以百分计。
+| 考核方式 | 1 | 2 | 3 | 合计 |
+|---|---|---|---|---|
+| 名称 | 课堂表现 | 平时作业 | 期末测验 | |
+| 占比 | 10% | 30% | 60% | 100% |
 
-## 教学目的与要求
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-该课程通过讲授儿童语言习得与发展的基本概念，相关理论和影响因素等，使学生能够对儿童一语习得与发展有系统的理解。同时，完成这门课，学生的自主学习能力，沟通能力以及团队合作意识都能得到提高。具体的教学目标包括：（1）掌握正常发展儿童语言习得与发展的相关基本概念，增加其在儿童语言习得与发展方面的专业知识；（2）理解熟悉儿童语言习得与发展的主要理论，能够运用这些理论对儿童的语言习得与发展进行解释，并且能够辩证地比较与评价这些理论，提升问题分析的能力以及训练批判性思维；（3）理解儿童语言习得与发展的认知、生物和社交基础；（4）理解儿童第一语言在语音，词汇，句法、语义和语用等方面的发展进程；（5）理解儿童语料收集常用的方法，并且运用语言测量工具分析儿童语料以及评估儿童语言发展的水平和阶段；（6）理解影响儿童语言习得与发展的社会和认知方面的因素；（7）理解双语儿童的语言发展特点，及其与单语儿童语言习得与发展的异同；（8）理解非典型发展儿童的语言习得与发展进程，及其语言特点；（9）通过小组合作讨论学习，提升沟通能力，团队集体意识；（10）在完成课前阅读及课堂作业的过程中，提升自主学习能力，巩固终身学习的意识。
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Course information; Introduction to the study of language acquisition and development | 2 | 2 |
+| 2 | Biological bases of language development★ | 4 | 4 |
+| 3 | Foundations and functions of language development△★ | 4 | 4 |
+| 4 | Phonological development△ | 2 | 2 |
+| 5 | Lexical development△ | 2 | 2 |
+| 6 | Morphological development△ | 2 | 2 |
+| 7 | Syntactic development△ | 4 | 4 |
+| 8 | Pragmatic and semantic development★ | 2 | 2 |
+| 9 | Measures of speech samples | 2 | 2 |
+| 10 | Language, culture, and cognition in development | 2 | 2 |
+| 11 | Childhood bilingualism | 2 | 2 |
+| 12 | Language development in the school years | 2 | 2 |
+| 13 | Language development in special populations | 2 | 2 |
+| 合计 |  | 32 | 32 |
 
-## 教学内容
+- 第2章 思政融入点：对儿童语言习得与发展不同理论的学习和讨论，提升学生的思辨能力。
+- 第10章 思政融入点：学习影响儿童语言发展的社会及认知因素能够让学生了解如何帮助儿童更好的发展，为国家可持续发展做贡献，提升社会责任感。
+- 第13章 思政融入点：对非典型发展儿童的语言发展的学习，激发学生对社会弱势群体的关注和关心。
 
-Course information; Introduction to the study of language acquisition and development
-Biological bases of language development★
-Foundations and functions of language development△★
-Phonological development△
-Lexical development△
-Morphological development△
-Syntactic development△
-Pragmatic and semantic development★
-Measures of speech samples
-Language, culture, and cognition in development
-Childhood bilingualism
-Language development in the school years
-Language development in special populations
+## 实验项目
 
-## 课程思政
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
 
-对儿童语言习得与发展不同理论的学习和讨论，提升学生的思辨能力。
-学习影响儿童语言发展的社会及认知因素能够让学生了解如何帮助儿童更好的发展，为国家可持续发展做贡献，提升社会责任感。
-对非典型发展儿童的语言发展的学习，激发学生对社会弱势群体的关注和关心。
+## 教材与参考书目
 
-## 章节安排
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| Language development (Fifth ed.) | Erika Hoff | - | Wadsworth, Cengage Learning | 2014 |
+| Language development : An introduction (Ninth ed.) | Robert E. Owens, Jr. | - | Pearson Education | 2016 |
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Course information; Introduction to the study of language acquisition and development | 2 | 0 | 0 | 0 | 0 | 2 |
-| 2 | Biological bases of language development★ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 3 | Foundations and functions of language development△★ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 4 | Phonological development△ | 2 | 0 | 0 | 0 | 0 | 2 |
-| 5 | Lexical development△ | 2 | 0 | 0 | 0 | 0 | 2 |
-| 6 | Morphological development△ | 2 | 0 | 0 | 0 | 0 | 2 |
-| 7 | Syntactic development△ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 8 | Pragmatic and semantic development★ | 2 | 0 | 0 | 0 | 0 | 2 |
-| 9 | Measures of speech samples | 2 | 0 | 0 | 0 | 0 | 2 |
-| 10 | Language, culture, and cognition in development | 2 | 0 | 0 | 0 | 0 | 2 |
-| 11 | Childhood bilingualism | 2 | 0 | 0 | 0 | 0 | 2 |
-| 12 | Language development in the school years | 2 | 0 | 0 | 0 | 0 | 2 |
-| 13 | Language development in special populations | 2 | 0 | 0 | 0 | 0 | 2 |
-
-- 第2章 思政融入: 对儿童语言习得与发展不同理论的学习和讨论，提升学生的思辨能力。
-- 第10章 思政融入: 学习影响儿童语言发展的社会及认知因素能够让学生了解如何帮助儿童更好的发展，为国家可持续发展做贡献，提升社会责任感。
-- 第13章 思政融入: 对非典型发展儿童的语言发展的学习，激发学生对社会弱势群体的关注和关心。
+注意：*字段为必填项
 
 ---
 

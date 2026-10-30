@@ -1,28 +1,27 @@
-﻿# 实用文写作
-
-课程编号: 14045901
-英文名称: Practical Genre Writing
-开课单位: 外国语学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 14045901
+- 课程名称(中): 实用文写作
 - 授课语种: 英文
+- 课程名称(英): Practical Genre Writing
+- 开课单位: 外国语学院
 - 课程类别: 理论课(不含实践环节)
-- 课程负责人: 邓景
+- 课程负责人(执笔人): 邓景
 - 审核人: 李娟
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考试
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: 课堂表现、出勤率:10%；平时作业）:30%；闭卷笔试:60%
 
-## 课程目标
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
+
+实用文写作是英语专业二年级学生的一门重要的必修课程，在内容上既传授基本知识，也反应该实用文写作领域的最新发展。通过传授英语各种实用文体写作的知识和写作练习，培养学生独立、快速、有效完成目标实用英语文本的能力。本课程主要内容为十六章，大致分成两大部分，即求职求学和日常常用实用文体写作。第一部分介绍与求学求职相关的写作，包括1-3章的写求学/职申请信、简历和推荐信。第二部分包括第二章邀请信、第三章感谢信、第四章慰问、第五章吊唁信、第六章投诉信、第七章道歉信、第八章任职信、第九章通知和第十章辞职信。
+本课程以讲授和写作实践为主，要求学生阅读相关书籍，熟记各类常用实用文写作文体的相关文本格式和写作要点。
+
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
+
+(概述)该课程主要介绍英语实用文体写作的基本知识、基本原理和操作框架，包括求职和留学应用文、简历、办公应用文、致谢与道歉等多个文体讲授单元，旨在提高学生对实用英语文体的认识和写作水平、懂得如何进行生活和工作中常用的英语应用文文体的撰写。通过本课程的学习，要使学生获得：1.实用英语实用文的基础知识，掌握实用文文体语言风格特点和惯用表达；2. 各种主要英语实用文的格式特点和语言特征，包括中国和英语国家信封书写的差异及英语信封的正确书写格式、英语信件的各组成部分及不同的信件格式、掌握各类英语实用文文体的正确格式和惯用表达；3. 实用文发展的新动向；4. 独立、快速、规范、有效地完成英语实用文写作的能力。5. 不同语境中英语实用文文体的风格和语言的异同，即正式商务语境和日常交际中实用文文体在语言风格上的差异。在传授专业知识中，要兼顾知识性、社会需求性和趣味性，使学生在理论和实践学习中加强对实用文写作的认识，培养学生实用文的写作能力，满足学生将来职业生涯和日常生活学习的需要。6.提高学生的信息能力，即积极主动地搜集信息和整理信息的能力，能够迅速准确地选择不同英语实用文文体格式。
+
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
 1. 掌握求职求学过程中所需各种英语文书写作的规范和特点；
 2. 了解英语主要实用文写作文体的基本知识和写作规范；
@@ -30,58 +29,48 @@
 4. 能够较为熟练地撰写工作语境中较为正式的实用文文体；
 5. 掌握实用文文体语言风格特点
 
-## 课程简介
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-实用文写作是英语专业二年级学生的一门重要的必修课程，在内容上既传授基本知识，也反应该实用文写作领域的最新发展。通过传授英语各种实用文体写作的知识和写作练习，培养学生独立、快速、有效完成目标实用英语文本的能力。本课程主要内容为十六章，大致分成两大部分，即求职求学和日常常用实用文体写作。第一部分介绍与求学求职相关的写作，包括1-3章的写求学/职申请信、简历和推荐信。第二部分包括第二章邀请信、第三章感谢信、第四章慰问、第五章吊唁信、第六章投诉信、第七章道歉信、第八章任职信、第九章通知和第十章辞职信。
-本课程以讲授和写作实践为主，要求学生阅读相关书籍，熟记各类常用实用文写作文体的相关文本格式和写作要点。
+| 考核方式 | 1 | 2 | 3 | 合计 |
+|---|---|---|---|---|
+| 名称 | 课堂表现、出勤率 | 平时作业） | 闭卷笔试 | |
+| 占比 | 10% | 30% | 60% | 100% |
 
-## 教学目的与要求
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-(概述)该课程主要介绍英语实用文体写作的基本知识、基本原理和操作框架，包括求职和留学应用文、简历、办公应用文、致谢与道歉等多个文体讲授单元，旨在提高学生对实用英语文体的认识和写作水平、懂得如何进行生活和工作中常用的英语应用文文体的撰写。通过本课程的学习，要使学生获得：1.实用英语实用文的基础知识，掌握实用文文体语言风格特点和惯用表达；2. 各种主要英语实用文的格式特点和语言特征，包括中国和英语国家信封书写的差异及英语信封的正确书写格式、英语信件的各组成部分及不同的信件格式、掌握各类英语实用文文体的正确格式和惯用表达；3. 实用文发展的新动向；4. 独立、快速、规范、有效地完成英语实用文写作的能力。5. 不同语境中英语实用文文体的风格和语言的异同，即正式商务语境和日常交际中实用文文体在语言风格上的差异。在传授专业知识中，要兼顾知识性、社会需求性和趣味性，使学生在理论和实践学习中加强对实用文写作的认识，培养学生实用文的写作能力，满足学生将来职业生涯和日常生活学习的需要。6.提高学生的信息能力，即积极主动地搜集信息和整理信息的能力，能够迅速准确地选择不同英语实用文文体格式。
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Applying to College 1.1 Application Letter 1.2 Recommendation△★ 1.3 Certificate to Financial Source△ | 4 | 4 |
+| 2 | Seeking Jobs 2.1 Applying for a Position 2.2 Recommendation△★ 2.3 Career Plan★ | 4 | 4 |
+| 3 | Resume△★ 15.1 Stylistic Guide 15.2 Structure Items 15.3 Tips △★ 15.4 Practical Specimen△ | 4 | 4 |
+| 4 | Invitation Letters△ 4.1 Inviting to a Reception 4.2 Inviting to Make a Speech 4.3 Inviting to a Wedding Ceremony△ 4.4 Inviting to a Birthday Party | 2 | 2 |
+| 5 | Letters of Thanks 10.1 Thanks for Invitation 10.2 Thanks for Congratulations 10.3 Thanks for Cooperation 10.4 Thanks for a Proposition | 2 | 2 |
+| 6 | Letters of Condolence 6.1 Condolence to Illness 6.2 Condolence to an Accident 6.3 Condolence to the Client△ | 2 | 2 |
+| 7 | Obituary Notices 7.1 Obituary Notice to a Relative 7.2 Obituary Notice to a College 7.3 Obituary Notice to a Relative of a College | 2 | 2 |
+| 8 | Letters of Complaint 8.1Food Complaints 8.2 Airline Delay Complaints 8.3 Complaints about Service | 2 | 2 |
+| 9 | Letters of Apology △ 9.1 Apology to the Leader 9.2 Apology to the Client △★ 9.3 Apology for a Rude Behavior△ | 2 | 2 |
+| 10 | Letters of Appointment 13.1 Appointment Letter △★ 13.2 Letters of Acceptance△ 13.3 Letters of Refusal | 2 | 2 |
+| 11 | Notices△ 11.1 Meeting Notice 11.2 Holiday Notice△ 11.3 Office Party Notice△ 11.4 Application for Private Affair Notice△★ | 4 | 4 |
+| 12 | Quitting Jobs 3.1 Quitting Application 3.2 Dismissal △ | 2 | 2 |
+| 合计 |  | 32 | 32 |
 
-## 教学内容
+- 第1章 思政融入点：介绍求学求职文书的规范和要求，引导学生建立正确的人生观和社会主义价值观。
+- 第2章 思政融入点：介绍求职简历写作中英语专业学生的职业素养，引导学生建立正确的人生观和社会主义价值观。
+- 第4章 思政融入点：比较邀请函写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。
+- 第5章 思政融入点：比较感谢信写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。
 
-Applying to College 1.1 Application Letter 1.2 Recommendation△★ 1.3 Certificate to Financial Source△
-Seeking Jobs 2.1 Applying for a Position 2.2 Recommendation△★ 2.3 Career Plan★
-Resume△★ 15.1 Stylistic Guide 15.2 Structure Items 15.3 Tips △★ 15.4 Practical Specimen△
-Invitation Letters△ 4.1 Inviting to a Reception 4.2 Inviting to Make a Speech 4.3 Inviting to a Wedding Ceremony△ 4.4 Inviting to a Birthday Party
-Letters of Thanks 10.1 Thanks for Invitation 10.2 Thanks for Congratulations 10.3 Thanks for Cooperation 10.4 Thanks for a Proposition
-Letters of Condolence 6.1 Condolence to Illness 6.2 Condolence to an Accident 6.3 Condolence to the Client△
-Obituary Notices 7.1 Obituary Notice to a Relative 7.2 Obituary Notice to a College 7.3 Obituary Notice to a Relative of a College
-Letters of Complaint 8.1Food Complaints 8.2 Airline Delay Complaints 8.3 Complaints about Service
-Letters of Apology △ 9.1 Apology to the Leader 9.2 Apology to the Client △★ 9.3 Apology for a Rude Behavior△
-Letters of Appointment 13.1 Appointment Letter △★ 13.2 Letters of Acceptance△ 13.3 Letters of Refusal
-Notices△ 11.1 Meeting Notice 11.2 Holiday Notice△ 11.3 Office Party Notice△ 11.4 Application for Private Affair Notice△★
-Quitting Jobs 3.1 Quitting Application 3.2 Dismissal △
+## 实验项目
 
-## 课程思政
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
 
-介绍求学求职文书的规范和要求，引导学生建立正确的人生观和社会主义价值观。
-介绍求职简历写作中英语专业学生的职业素养，引导学生建立正确的人生观和社会主义价值观。
-比较邀请函写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。
-比较感谢信写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。
+## 教材与参考书目
 
-## 章节安排
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| 英语交际实用写作 | 张世耘 | 9787544620772 | 上海外语教育出版社 | 2011 |
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Applying to College 1.1 Application Letter 1.2 Recommendation△★ 1.3 Certificate to Financial Source△ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 2 | Seeking Jobs 2.1 Applying for a Position 2.2 Recommendation△★ 2.3 Career Plan★ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 3 | Resume△★ 15.1 Stylistic Guide 15.2 Structure Items 15.3 Tips △★ 15.4 Practical Specimen△ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 4 | Invitation Letters△ 4.1 Inviting to a Reception 4.2 Inviting to Make a Speech 4.3 Inviting to a Wedding Ceremony△ 4.4 Inviting to a Birthday Party | 2 | 0 | 0 | 0 | 0 | 2 |
-| 5 | Letters of Thanks 10.1 Thanks for Invitation 10.2 Thanks for Congratulations 10.3 Thanks for Cooperation 10.4 Thanks for a Proposition | 2 | 0 | 0 | 0 | 0 | 2 |
-| 6 | Letters of Condolence 6.1 Condolence to Illness 6.2 Condolence to an Accident 6.3 Condolence to the Client△ | 2 | 0 | 0 | 0 | 0 | 2 |
-| 7 | Obituary Notices 7.1 Obituary Notice to a Relative 7.2 Obituary Notice to a College 7.3 Obituary Notice to a Relative of a College | 2 | 0 | 0 | 0 | 0 | 2 |
-| 8 | Letters of Complaint 8.1Food Complaints 8.2 Airline Delay Complaints 8.3 Complaints about Service | 2 | 0 | 0 | 0 | 0 | 2 |
-| 9 | Letters of Apology △ 9.1 Apology to the Leader 9.2 Apology to the Client △★ 9.3 Apology for a Rude Behavior△ | 2 | 0 | 0 | 0 | 0 | 2 |
-| 10 | Letters of Appointment 13.1 Appointment Letter △★ 13.2 Letters of Acceptance△ 13.3 Letters of Refusal | 2 | 0 | 0 | 0 | 0 | 2 |
-| 11 | Notices△ 11.1 Meeting Notice 11.2 Holiday Notice△ 11.3 Office Party Notice△ 11.4 Application for Private Affair Notice△★ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 12 | Quitting Jobs 3.1 Quitting Application 3.2 Dismissal △ | 2 | 0 | 0 | 0 | 0 | 2 |
-
-- 第1章 思政融入: 介绍求学求职文书的规范和要求，引导学生建立正确的人生观和社会主义价值观。
-- 第2章 思政融入: 介绍求职简历写作中英语专业学生的职业素养，引导学生建立正确的人生观和社会主义价值观。
-- 第4章 思政融入: 比较邀请函写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。
-- 第5章 思政融入: 比较感谢信写作中中外文化及礼貌习惯的异同，增强对中国文化的认知，建立文化自信。
+注意：*字段为必填项
 
 ---
 

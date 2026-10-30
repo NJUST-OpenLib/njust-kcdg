@@ -1,28 +1,27 @@
-﻿# 世界经典文化专题阅读
-
-课程编号: 14063901
-英文名称: Readings in World Culture Classics
-开课单位: 外国语学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 14063901
+- 课程名称(中): 世界经典文化专题阅读
 - 授课语种: 英文
+- 课程名称(英): Readings in World Culture Classics
+- 开课单位: 外国语学院
 - 课程类别: 理论课(不含实践环节)
-- 课程负责人: 杨蔚
+- 课程负责人(执笔人): 杨蔚
 - 审核人: 李娟
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考试
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: (未填):10%；(未填):10%；(未填):20%；(未填):60%
 
-## 课程目标
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
+
+世界经典文化专题阅读是英语专业和语言学专业本科生的一门专业必修课程，在英语专业课程体系中起到基础性作用。它主要是帮助学生学习生活化的语言表达，读透一些经典寓言、童话和圣经片段，同时习得反映西方世界朴素而真实的思想和思维方式的文本内涵，最终获得初始的西方哲学和思想的理解。本课程在内容上以语言习得为主，同时传授一些关于体裁文本的基本知识，初步帮助学生获得批评性阅读的能力和西方朴素思想和哲学基础。主要目的在于培养学生的阅读和写作的基本能力。本课程主要包括五章，主要由童话、寓言和圣经选读组成，其中穿插了对体裁认识，习作和批评性解读的内容。最后一章为学术性的提升，阅读相关学术文献进行思考和讨论。本课程以讲座和练习为主，要求学生阅读相关书籍，进行大量练习。
+
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
+
+通过本课程的学习，要使学生获得：1.童话、寓言和圣经的表达方式；2. 童话、寓言和圣经的文本体裁知识；3.字词句的习得和使用；4. 童话、寓言和圣经文本的批评性解读；5.文本体裁的对比分析。要求学生具体掌握以下内容：(1) 了解和掌握关于童话、寓言和圣经的文本特点；(2) 掌握阅读文本中涉及的语言表达；(3) 关注文本的意识形态； (4) 能够独立撰写类似的文本。
+世界经典文化专题阅读旨提高学生的英语阅读能力和文学赏析能力，引导学生对世界文学经典传递的价值和思想观念进行批判性思考,并辅以社会热点问题讨论,以培养学生的批判性思维,增强思辨能力和跨文化能力,使其能够在国际视野中深刻理解和思考我国主流价值观的思想内涵。
+
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
 1. 童话、寓言和圣经的表达方式；
 2. 童话、寓言和圣经的文本体裁知识
@@ -30,42 +29,39 @@
 4. 童话、寓言和圣经文本的批评性解读；
 5. 文本体裁的对比分析。
 
-## 课程简介
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-世界经典文化专题阅读是英语专业和语言学专业本科生的一门专业必修课程，在英语专业课程体系中起到基础性作用。它主要是帮助学生学习生活化的语言表达，读透一些经典寓言、童话和圣经片段，同时习得反映西方世界朴素而真实的思想和思维方式的文本内涵，最终获得初始的西方哲学和思想的理解。本课程在内容上以语言习得为主，同时传授一些关于体裁文本的基本知识，初步帮助学生获得批评性阅读的能力和西方朴素思想和哲学基础。主要目的在于培养学生的阅读和写作的基本能力。本课程主要包括五章，主要由童话、寓言和圣经选读组成，其中穿插了对体裁认识，习作和批评性解读的内容。最后一章为学术性的提升，阅读相关学术文献进行思考和讨论。本课程以讲座和练习为主，要求学生阅读相关书籍，进行大量练习。
+| 考核方式 | 1 | 2 | 3 | 4 | 合计 |
+|---|---|---|---|---|---|
+| 名称 | (未填) | (未填) | (未填) | (未填) | |
+| 占比 | 10% | 10% | 20% | 60% | 100% |
 
-## 教学目的与要求
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-通过本课程的学习，要使学生获得：1.童话、寓言和圣经的表达方式；2. 童话、寓言和圣经的文本体裁知识；3.字词句的习得和使用；4. 童话、寓言和圣经文本的批评性解读；5.文本体裁的对比分析。要求学生具体掌握以下内容：(1) 了解和掌握关于童话、寓言和圣经的文本特点；(2) 掌握阅读文本中涉及的语言表达；(3) 关注文本的意识形态； (4) 能够独立撰写类似的文本。
-世界经典文化专题阅读旨提高学生的英语阅读能力和文学赏析能力，引导学生对世界文学经典传递的价值和思想观念进行批判性思考,并辅以社会热点问题讨论,以培养学生的批判性思维,增强思辨能力和跨文化能力,使其能够在国际视野中深刻理解和思考我国主流价值观的思想内涵。
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Introduction to western Culture 1.1 source of western culture△ 1.2 summary of western culture 1.3 western philosophy in fables, fairy tales and Bible★ 1.4 introduction to Aesop’s Fable, Green and Anderson fairy tales and Bible | 4 | 4 |
+| 2 | Aesop’s Fable 2.1 ass series 2.2 boy series 2.3 cat series 2.4 cow series 2.5 dog series 2.6 fable writing△★ | 8 | 8 |
+| 3 | Fairy tales 3.1 Green fairy tales 3.1.1 The frog king 3.1.2 The seven ravens 3.1.3 Cat and Mouse in Partnership 3.1.4 Faithful John 3.1.5 The Wonderful Musician 3.2 Anderson fairy tales 3.2.1 The little mermaid 3.2 .2 Our aunt 3.2.3 Beauty of form and beauty of mind 3.3.4 The beetle who went on his travels 3.3.5 The bishop of his Gorglum and his warriors 3.3.6 The brave tin soldiers 3.3 the difference between fables and fairy tales△ | 8 | 8 |
+| 4 | Bible 4.1 introduction to Bible 4.2 religion, sacred writing, world view △ 4.3 Genesis 4.4 Psalms 4.5 Exodus 4.6 John 4.7 Revelation 4.8 power of Bible★ | 6 | 6 |
+| 5 | Rereading and rethinking of Western Culture △★ 5.1 reading academic paper on western culture and philosophy 5.2 discussion★ | 6 | 6 |
+| 合计 |  | 32 | 32 |
 
-## 教学内容
+- 第1章 思政融入点：通过概述西方文化，以及介绍寓言、童话和圣经中的西方哲学，引导学生对世界文学经典传递的价值和思想观念进行批判性思考。
+- 第3章 思政融入点：通过对于寓言与童话的区别，培养学生的批判性思维,增强思辨能力，提高文学赏析能力。
+- 第5章 思政融入点：通过阅读关于西方文化和哲学的学术论文，提高学生的英语阅读能力，引导学生对世界文学经典传递的价值和思想观念进行批判性思考，使其能够在国际视野中深刻理解和思考我国主流价值观的思想内涵。
 
-Introduction to western Culture 1.1 source of western culture△ 1.2 summary of western culture 1.3 western philosophy in fables, fairy tales and Bible★ 1.4 introduction to Aesop’s Fable, Green and Anderson fairy tales and Bible
-Aesop’s Fable 2.1 ass series 2.2 boy series 2.3 cat series 2.4 cow series 2.5 dog series 2.6 fable writing△★
-Fairy tales 3.1 Green fairy tales 3.1.1 The frog king 3.1.2 The seven ravens 3.1.3 Cat and Mouse in Partnership 3.1.4 Faithful John 3.1.5 The Wonderful Musician 3.2 Anderson fairy tales 3.2.1 The little mermaid 3.2 .2 Our aunt 3.2.3 Beauty of form and beauty of mind 3.3.4 The beetle who went on his travels 3.3.5 The bishop of his Gorglum and his warriors 3.3.6 The brave tin soldiers 3.3 the difference between fables and fairy tales△
-Bible 4.1 introduction to Bible 4.2 religion, sacred writing, world view △ 4.3 Genesis 4.4 Psalms 4.5 Exodus 4.6 John 4.7 Revelation 4.8 power of Bible★
-Rereading and rethinking of Western Culture △★ 5.1 reading academic paper on western culture and philosophy 5.2 discussion★
+## 实验项目
 
-## 课程思政
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
 
-通过概述西方文化，以及介绍寓言、童话和圣经中的西方哲学，引导学生对世界文学经典传递的价值和思想观念进行批判性思考。
-通过对于寓言与童话的区别，培养学生的批判性思维,增强思辨能力，提高文学赏析能力。
-通过阅读关于西方文化和哲学的学术论文，提高学生的英语阅读能力，引导学生对世界文学经典传递的价值和思想观念进行批判性思考，使其能够在国际视野中深刻理解和思考我国主流价值观的思想内涵。
+## 教材与参考书目
 
-## 章节安排
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Introduction to western Culture 1.1 source of western culture△ 1.2 summary of western culture 1.3 western philosophy in fables, fairy tales and Bible★ 1.4 introduction to Aesop’s Fable, Green and Anderson fairy tales and Bible | 4 | 0 | 0 | 0 | 0 | 4 |
-| 2 | Aesop’s Fable 2.1 ass series 2.2 boy series 2.3 cat series 2.4 cow series 2.5 dog series 2.6 fable writing△★ | 8 | 0 | 0 | 0 | 0 | 8 |
-| 3 | Fairy tales 3.1 Green fairy tales 3.1.1 The frog king 3.1.2 The seven ravens 3.1.3 Cat and Mouse in Partnership 3.1.4 Faithful John 3.1.5 The Wonderful Musician 3.2 Anderson fairy tales 3.2.1 The little mermaid 3.2 .2 Our aunt 3.2.3 Beauty of form and beauty of mind 3.3.4 The beetle who went on his travels 3.3.5 The bishop of his Gorglum and his warriors 3.3.6 The brave tin soldiers 3.3 the difference between fables and fairy tales△ | 8 | 0 | 0 | 0 | 0 | 8 |
-| 4 | Bible 4.1 introduction to Bible 4.2 religion, sacred writing, world view △ 4.3 Genesis 4.4 Psalms 4.5 Exodus 4.6 John 4.7 Revelation 4.8 power of Bible★ | 6 | 0 | 0 | 0 | 0 | 6 |
-| 5 | Rereading and rethinking of Western Culture △★ 5.1 reading academic paper on western culture and philosophy 5.2 discussion★ | 6 | 0 | 0 | 0 | 0 | 6 |
-
-- 第1章 思政融入: 通过概述西方文化，以及介绍寓言、童话和圣经中的西方哲学，引导学生对世界文学经典传递的价值和思想观念进行批判性思考。
-- 第3章 思政融入: 通过对于寓言与童话的区别，培养学生的批判性思维,增强思辨能力，提高文学赏析能力。
-- 第5章 思政融入: 通过阅读关于西方文化和哲学的学术论文，提高学生的英语阅读能力，引导学生对世界文学经典传递的价值和思想观念进行批判性思考，使其能够在国际视野中深刻理解和思考我国主流价值观的思想内涵。
+注意：*字段为必填项
 
 ---
 

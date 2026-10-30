@@ -1,37 +1,22 @@
-﻿# 学术英语写作
-
-课程编号: 14051102
-英文名称: Academic English Writing
-开课单位: 外国语学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 14051102
+- 课程名称(中): 学术英语写作
 - 授课语种: 英文
+- 课程名称(英): Academic English Writing
+- 开课单位: 外国语学院
 - 课程类别: 理论课(含实践环节)
-- 课程负责人: 李善鹏
+- 课程负责人(执笔人): 李善鹏
 - 审核人: 汤平
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考查
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: 课堂表现:20%；平时作业:20%；PPT展示:20%；课程论文:40%
 
-## 课程目标
-
-1. 1.理解论文整体的思路框架。
-2. 2. 掌握学术论文的行文规范。
-
-## 课程简介
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
 
 学术写作是获得学位的基本要求之一，也是获得学术进步的重要手段之一，英语专业学生需要会撰写规范的英语学术论文。该课程教学容科学性、知识性、趣味性为一体，包括科学研究的定义（第一章）、如何有效选题（第二章）、如何收集和整理资料、找寻相关的研究信息资料（第三章）、如何进行研究设计（第四章）、如何进行数据分析（第五章）、如何撰写初稿：摘要、引言、文献、研究设计、正文分析、研究意义和致谢等（第六章），如何合理引用文献和引用参考文献（第七章）等。该课程要求学生预先学习语言学、英美文学、跨文化交际等课程，具备基本的英语写作能力。学生最后的成绩包括期末考核、课程小论文与课堂参与和模拟答辩，以百分计。
 
-## 教学目的与要求
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
 
 学术论文写作的主要目的在于训练学生规范的学术写作能力与科研能力，使其写出合乎规范、质量较高的毕业论文，并为运用英语从事相关专业研究打下良好的基础。学生在学习过程中，逐步掌握如何查找资料，如何发现问题和解决问题的能力，运用科学的眼光审视语言学习和使用中的各种问题，将学习者提升为语言的研究者。通过该课程的学习，学习者掌握了学术写作的规范，为将来从事研究工作打下了坚实的基础。
 （1）理解论文整体的思路有据可循
@@ -43,39 +28,48 @@
 接下来就是论文最重要的部分，也就是Discussion。这个部分要求学生对得出的数据进行解读，任何一个单独的数据是没有太多意义的，只有在一定的情况下，一定的背景下才有价值。Discussion就是阐明数据与现实的关系，这一点很重要。
 最后，也就是文章结尾部分，需要把以上提到的每一个section的最重点的内容总结下。好的结尾或者说更客观的结尾，会提到文章的局限性或是这个课题之后的研究方向等等。
 
-## 教学内容
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
-Definition and classification of research; fundamental concepts★
-Identify a general topic; narrow down the topic; question formulation△
-Types of reference works; online Catalog; working bibliography; critical evaluation and Note Taking
-Qualitative and quantitative; survey★; experiment★; case△
-Research question★; data collection; data analysis△
-Abstract★; introduction; literature review; research design★; conclusion
-Citation; MLA; APA△
-Oral defense
+1. 1.理解论文整体的思路框架。
+2. 2. 掌握学术论文的行文规范。
 
-## 课程思政
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-培养学生践行爱岗敬业、团结友爱的社会主义核心价值观
-培养学生工匠精神，团结合作和吃苦耐劳的精神
-培养学生观察能力、组织能力和协调能力。
+| 考核方式 | 1 | 2 | 3 | 4 | 合计 |
+|---|---|---|---|---|---|
+| 名称 | 课堂表现 | 平时作业 | PPT展示 | 课程论文 | |
+| 占比 | 20% | 20% | 20% | 40% | 100% |
 
-## 章节安排
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Definition and classification of research; fundamental concepts★ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 2 | Identify a general topic; narrow down the topic; question formulation△ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 3 | Types of reference works; online Catalog; working bibliography; critical evaluation and Note Taking | 4 | 0 | 0 | 0 | 0 | 4 |
-| 4 | Qualitative and quantitative; survey★; experiment★; case△ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 5 | Research question★; data collection; data analysis△ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 6 | Abstract★; introduction; literature review; research design★; conclusion | 4 | 0 | 0 | 0 | 0 | 4 |
-| 7 | Citation; MLA; APA△ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 8 | Oral defense | 4 | 0 | 0 | 0 | 0 | 4 |
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Definition and classification of research; fundamental concepts★ | 4 | 4 |
+| 2 | Identify a general topic; narrow down the topic; question formulation△ | 4 | 4 |
+| 3 | Types of reference works; online Catalog; working bibliography; critical evaluation and Note Taking | 4 | 4 |
+| 4 | Qualitative and quantitative; survey★; experiment★; case△ | 4 | 4 |
+| 5 | Research question★; data collection; data analysis△ | 4 | 4 |
+| 6 | Abstract★; introduction; literature review; research design★; conclusion | 4 | 4 |
+| 7 | Citation; MLA; APA△ | 4 | 4 |
+| 8 | Oral defense | 4 | 4 |
+| 合计 |  | 32 | 32 |
 
-- 第1章 思政融入: 培养学生践行爱岗敬业、团结友爱的社会主义核心价值观
-- 第2章 思政融入: 培养学生工匠精神，团结合作和吃苦耐劳的精神
-- 第3章 思政融入: 培养学生观察能力、组织能力和协调能力。
+- 第1章 思政融入点：培养学生践行爱岗敬业、团结友爱的社会主义核心价值观
+- 第2章 思政融入点：培养学生工匠精神，团结合作和吃苦耐劳的精神
+- 第3章 思政融入点：培养学生观察能力、组织能力和协调能力。
+
+## 实验项目
+
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
+
+## 教材与参考书目
+
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| 英语学术论文写作实用教程 | 陈新仁 | 9787567202849 | 苏州大学出版社 | 2012 |
+
+注意：*字段为必填项
 
 ---
 

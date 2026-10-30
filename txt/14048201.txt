@@ -1,45 +1,22 @@
-﻿# 英语文学导论
-
-课程编号: 14048201
-英文名称: An Introduction to Literature
-开课单位: 外国语学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 14048201
+- 课程名称(中): 英语文学导论
 - 授课语种: 英文
+- 课程名称(英): An Introduction to Literature
+- 开课单位: 外国语学院
 - 课程类别: 理论课(不含实践环节)
-- 课程负责人: 汪文君
+- 课程负责人(执笔人): 汪文君
 - 审核人: 李娟
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考试
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: (未填):10%；(未填):20%；(未填):10%；(未填):40%；(未填):20%
 
-## 课程目标
-
-1. 1.将文本的研读、主题探究和思想总结与当下英美国家情况结合以来，将价值引领有机融入文学教学中。
-2. 2. 提高学生文学文本分析和作品批评能力的同时，培养社会责任感，提升人文情怀。
-3. 3.引导青年学生以批判的眼光学习英美文学，取其所长，避其所短。
-4. 4.培养学生对经典文学中的人文性和审美性的鉴赏，形成健康高尚的人格和健全的心性。
-5. 5.在研读作品的基础上提升语言能力，掌握重要的作家作品等文学常识。
-6. 6.能够运用一定的理论视角，对文学作品中反应出的社会文化问题进行反思和分析，形成自己的观点。
-7. 7.了解文学研究的一般路径，能够独立进行基础层面的文献收集、整理工作，能够独立进行研究框架的架构。
-8. 8.本课程作为语言基础课程，有语言习得与应用的功能。要求学生完成课程后能够就文学问题进行口头、笔头的沟通，能够撰写符合规范的读书报告和评论文章。
-9. 9.在本课程上习得的语言能力，能够应用于学生日后的学习过程中。
-10. 10.通过对学生的熏陶渐染，使学生具备人文主义精神和批评意识，扩宽学生的思维阈限，对于学生的全面发展和终身成就有重要意义。
-
-## 课程简介
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
 
 《英语文学导论》课程是英语专业本科学生的必修课程，是为培养和检验学生英美文学的基本理论知识和理解、鉴赏英美文学原著的能力而设置的一门专业理论课程。设置本课程旨在使学生对英美两国文学形成与发展的全貌有一个大概的了解；并通过阅读具有代表性的英美文学作品，理解作品的内容，学会分析作品的艺术特色并努力掌握正确评价文学作品的标准和方法。由于本课程以作家作品为重点，因此学生要仔细阅读原作。通过阅读，努力提高语言水平，增强对英美文学原著的理解，特别是对作品中表现的社会生活和人物感情的理解，提高他们阅读文学作品的能力和鉴赏水平。通过文学作品这一媒介，该课程能够向学生介绍英美文学和文化发展的历史，增强学生的人文素养，为高年级阶段的专业学习打下扎实的基础。
 
-## 教学目的与要求
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
 
 1、专业知识：
 在研读作品的基础上提升语言能力，掌握重要的作家作品等文学常识。 
@@ -52,37 +29,55 @@
 5.终身学习：
 在本课程上习得的语言能力，能够应用于学生日后的学习过程中；通过对学生的熏陶渐染，使学生具备人文主义精神和批评意识，扩宽学生的思维阈限，对于学生的全面发展和终身成就有重要意义。
 
-## 教学内容
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
-Understanding Fiction(I): plot and character△;David Herbert Lawrence and "Tickets, Please" ;Sherwood Anderson and "The Egg".
-Understanding Fiction(II): Point of View and Style★: Margaret Atwood and "Rape Fantasies"△
-Understanding Fiction(III): Themd; James Joyce "The Dead".
-Understanding Poetry(I): Voice--Speaker and Tone;Imagery ; △Robert Browning and "Soliloquy of the Spanish Cloister"★; William Blake and "London"; William Shakespeare and "Sonnet 130" △
-Understanding Poetry(II): Figures of Speech and Sound and Rhythm△; Emily Dickinson and "I like to see it lap the Miles";★ E.E.Cummings and "anyone lived in a pretty how town".
-Understanding Drama (I): The Feminist Theater; Susan Glaspell and "Trifles".
-Literary Citicism: Understanding Twentieth Century Literary Criticism ;Marxist Criticism;★ Raymond Williams and "Base and Superstructure in Marxist cultural Theory"; Feminist Criticism;★ Sandra M.Gilbert， Susan Gubar and "The Madwoman in the Attic： The Woman Writer and the Nineteenth Century Literary Imagination".
+1. 1.将文本的研读、主题探究和思想总结与当下英美国家情况结合以来，将价值引领有机融入文学教学中。
+2. 2. 提高学生文学文本分析和作品批评能力的同时，培养社会责任感，提升人文情怀。
+3. 3.引导青年学生以批判的眼光学习英美文学，取其所长，避其所短。
+4. 4.培养学生对经典文学中的人文性和审美性的鉴赏，形成健康高尚的人格和健全的心性。
+5. 5.在研读作品的基础上提升语言能力，掌握重要的作家作品等文学常识。
+6. 6.能够运用一定的理论视角，对文学作品中反应出的社会文化问题进行反思和分析，形成自己的观点。
+7. 7.了解文学研究的一般路径，能够独立进行基础层面的文献收集、整理工作，能够独立进行研究框架的架构。
+8. 8.本课程作为语言基础课程，有语言习得与应用的功能。要求学生完成课程后能够就文学问题进行口头、笔头的沟通，能够撰写符合规范的读书报告和评论文章。
+9. 9.在本课程上习得的语言能力，能够应用于学生日后的学习过程中。
+10. 10.通过对学生的熏陶渐染，使学生具备人文主义精神和批评意识，扩宽学生的思维阈限，对于学生的全面发展和终身成就有重要意义。
 
-## 课程思政
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-1. 我国与英美国家不同，走出了一条具有中国特色的社会主义道路。对英美文学作品中的历史背景、人物形象、文学思想等与我国文化相比较，帮助学生增强道路自信和文化自信。
-2.这本教材中文学形式多样，有小说、诗歌、戏剧和理论等，打破了文学和文化的审美单一性，培养学生审美共同体的魅力。
-3.这门课程是以英语为主要讲授语言，英美国家作家作品为主要内容的一门课。培养中国学生站在自己的立场上来看待世界文学和英语文学，应该兼有国际视野和中国情怀。
+| 考核方式 | 1 | 2 | 3 | 4 | 5 | 合计 |
+|---|---|---|---|---|---|---|
+| 名称 | (未填) | (未填) | (未填) | (未填) | (未填) | |
+| 占比 | 10% | 20% | 10% | 40% | 20% | 100% |
 
-## 章节安排
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Understanding Fiction(I): plot and character△;David Herbert Lawrence and "Tickets, Please" ;Sherwood Anderson and "The Egg". | 6 | 0 | 0 | 0 | 0 | 6 |
-| 2 | Understanding Fiction(II): Point of View and Style★: Margaret Atwood and "Rape Fantasies"△ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 3 | Understanding Fiction(III): Themd; James Joyce "The Dead". | 2 | 0 | 0 | 0 | 0 | 2 |
-| 4 | Understanding Poetry(I): Voice--Speaker and Tone;Imagery ; △Robert Browning and "Soliloquy of the Spanish Cloister"★; William Blake and "London"; William Shakespeare and "Sonnet 130" △ | 6 | 0 | 0 | 0 | 0 | 6 |
-| 5 | Understanding Poetry(II): Figures of Speech and Sound and Rhythm△; Emily Dickinson and "I like to see it lap the Miles";★ E.E.Cummings and "anyone lived in a pretty how town". | 6 | 0 | 0 | 0 | 0 | 6 |
-| 6 | Understanding Drama (I): The Feminist Theater; Susan Glaspell and "Trifles". | 4 | 0 | 0 | 0 | 0 | 4 |
-| 7 | Literary Citicism: Understanding Twentieth Century Literary Criticism ;Marxist Criticism;★ Raymond Williams and "Base and Superstructure in Marxist cultural Theory"; Feminist Criticism;★ Sandra M.Gilbert， Susan Gubar and "The Madwoman in the Attic： The Woman Writer and the Nineteenth Century Literary Imagination". | 4 | 0 | 0 | 0 | 0 | 4 |
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Understanding Fiction(I): plot and character△;David Herbert Lawrence and "Tickets, Please" ;Sherwood Anderson and "The Egg". | 6 | 6 |
+| 2 | Understanding Fiction(II): Point of View and Style★: Margaret Atwood and "Rape Fantasies"△ | 4 | 4 |
+| 3 | Understanding Fiction(III): Themd; James Joyce "The Dead". | 2 | 2 |
+| 4 | Understanding Poetry(I): Voice--Speaker and Tone;Imagery ; △Robert Browning and "Soliloquy of the Spanish Cloister"★; William Blake and "London"; William Shakespeare and "Sonnet 130" △ | 6 | 6 |
+| 5 | Understanding Poetry(II): Figures of Speech and Sound and Rhythm△; Emily Dickinson and "I like to see it lap the Miles";★ E.E.Cummings and "anyone lived in a pretty how town". | 6 | 6 |
+| 6 | Understanding Drama (I): The Feminist Theater; Susan Glaspell and "Trifles". | 4 | 4 |
+| 7 | Literary Citicism: Understanding Twentieth Century Literary Criticism ;Marxist Criticism;★ Raymond Williams and "Base and Superstructure in Marxist cultural Theory"; Feminist Criticism;★ Sandra M.Gilbert， Susan Gubar and "The Madwoman in the Attic： The Woman Writer and the Nineteenth Century Literary Imagination". | 4 | 4 |
+| 合计 |  | 32 | 32 |
 
-- 第1章 思政融入: 1. 我国与英美国家不同，走出了一条具有中国特色的社会主义道路。对英美文学作品中的历史背景、人物形象、文学思想等与我国文化相比较，帮助学生增强道路自信和文化自信。
-- 第2章 思政融入: 2.这本教材中文学形式多样，有小说、诗歌、戏剧和理论等，打破了文学和文化的审美单一性，培养学生审美共同体的魅力。
-- 第3章 思政融入: 3.这门课程是以英语为主要讲授语言，英美国家作家作品为主要内容的一门课。培养中国学生站在自己的立场上来看待世界文学和英语文学，应该兼有国际视野和中国情怀。
+- 第1章 思政融入点：1. 我国与英美国家不同，走出了一条具有中国特色的社会主义道路。对英美文学作品中的历史背景、人物形象、文学思想等与我国文化相比较，帮助学生增强道路自信和文化自信。
+- 第2章 思政融入点：2.这本教材中文学形式多样，有小说、诗歌、戏剧和理论等，打破了文学和文化的审美单一性，培养学生审美共同体的魅力。
+- 第3章 思政融入点：3.这门课程是以英语为主要讲授语言，英美国家作家作品为主要内容的一门课。培养中国学生站在自己的立场上来看待世界文学和英语文学，应该兼有国际视野和中国情怀。
+
+## 实验项目
+
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
+
+## 教材与参考书目
+
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| 文学导论 | 杨金才、王海萌 | 978544633086 | 上海外语教育出版社 | 2013 |
+
+注意：*字段为必填项
 
 ---
 

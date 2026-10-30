@@ -1,75 +1,69 @@
-﻿# 商务沟通
-
-课程编号: 14025101
-英文名称: Business Communication
-开课单位: 外国语学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 14025101
+- 课程名称(中): 商务沟通
 - 授课语种: 中英
+- 课程名称(英): Business Communication
+- 开课单位: 外国语学院
 - 课程类别: 理论课(不含实践环节)
-- 课程负责人: 王蓉
+- 课程负责人(执笔人): 王蓉
 - 审核人: 李娟
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考试
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: 课堂表现:10%；演讲:10%；随堂测验:10%；小组视频作业:20%；闭卷笔试:50%
 
-## 课程目标
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
+
+本课程主要介绍商务沟通的基础理论，是培养具有商务方向知识的英语专业本科人才的相关课程。在世界经济日益全球化的今天，商务沟通的重要性越来越受到人们的关注和认识。对企业内容而言，人们越来越强调建立学习型企业，团队合作精神，因此有效的交流沟通是成功的关键；对企业外部而言，人们需要掌握谈判与合作等沟通技巧；对个人而言，建立良好的商务沟通意识，逐渐养成在任何场合下有意识地运用商务沟通的理论和技巧进行有效沟通的习惯，达到事半功倍的效果，显然也是十分重要的。本课程顺应当今商业国际化趋势，从跨文化视角看待商务沟通中的常见问题，讲述沟通理论，介绍常用沟通技巧，对提高学生的英语语言能力、综合素质、增强交际能力具有促进作用。不仅帮助学生树立跨文化商务沟通的意识，掌握并灵活运用商务沟通的方法和技巧，还可以通过课内外的模拟活动锻炼学生的操作能力，为未来从事商务工作奠定基础。主要教学内容包括：第一章商务沟通的定义、作用、分类；第二章沟通模型和策略；第三章高低语境文化；第四章沟通中的性别差异；第五章说服沟通；第六章非言语交际沟通；第七章公共演说与辩论技巧；第八章书面沟通。
+
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
+
+本课程旨在引导学生建立沟通意识，培养学生掌握生活中和职业领域中常用的技巧。通过较为系统的理论学习和活动，了解商务沟通的基本理论，掌握掌握商务沟通策略和常用技巧，了解高低语境文化、文化维度等理论内容，对具体文化现象结合理论进行分析，对现实生活和商业活动中出现的沟通问题提出解决策略。大致了解世界上主要的文化类型，如六个主要宗教、欧美和亚洲一些国家的基本文化类型和它们的主要文化差异。具备一定的演说、辩论、谈判等基本商务沟通能力，能够在商务环境下进行有效的口头与书面沟通。
+课程思政目标：在了解商务沟通的基本特点、学习文化大类的基本差异的基础上，在跨文化交际时呈现出良好的素质品质，热爱传统的中国文化之精髓，做到文化自信。
+
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
 1. 了解沟通的基本环节和理论模型
 2. 掌握商务沟通的策略和常用技巧
 3. 具备一定的跨文化口头与笔头沟通能力
 
-## 课程简介
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-本课程主要介绍商务沟通的基础理论，是培养具有商务方向知识的英语专业本科人才的相关课程。在世界经济日益全球化的今天，商务沟通的重要性越来越受到人们的关注和认识。对企业内容而言，人们越来越强调建立学习型企业，团队合作精神，因此有效的交流沟通是成功的关键；对企业外部而言，人们需要掌握谈判与合作等沟通技巧；对个人而言，建立良好的商务沟通意识，逐渐养成在任何场合下有意识地运用商务沟通的理论和技巧进行有效沟通的习惯，达到事半功倍的效果，显然也是十分重要的。本课程顺应当今商业国际化趋势，从跨文化视角看待商务沟通中的常见问题，讲述沟通理论，介绍常用沟通技巧，对提高学生的英语语言能力、综合素质、增强交际能力具有促进作用。不仅帮助学生树立跨文化商务沟通的意识，掌握并灵活运用商务沟通的方法和技巧，还可以通过课内外的模拟活动锻炼学生的操作能力，为未来从事商务工作奠定基础。主要教学内容包括：第一章商务沟通的定义、作用、分类；第二章沟通模型和策略；第三章高低语境文化；第四章沟通中的性别差异；第五章说服沟通；第六章非言语交际沟通；第七章公共演说与辩论技巧；第八章书面沟通。
+| 考核方式 | 1 | 2 | 3 | 4 | 5 | 合计 |
+|---|---|---|---|---|---|---|
+| 名称 | 课堂表现 | 演讲 | 随堂测验 | 小组视频作业 | 闭卷笔试 | |
+| 占比 | 10% | 10% | 10% | 20% | 50% | 100% |
 
-## 教学目的与要求
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-本课程旨在引导学生建立沟通意识，培养学生掌握生活中和职业领域中常用的技巧。通过较为系统的理论学习和活动，了解商务沟通的基本理论，掌握掌握商务沟通策略和常用技巧，了解高低语境文化、文化维度等理论内容，对具体文化现象结合理论进行分析，对现实生活和商业活动中出现的沟通问题提出解决策略。大致了解世界上主要的文化类型，如六个主要宗教、欧美和亚洲一些国家的基本文化类型和它们的主要文化差异。具备一定的演说、辩论、谈判等基本商务沟通能力，能够在商务环境下进行有效的口头与书面沟通。
-课程思政目标：在了解商务沟通的基本特点、学习文化大类的基本差异的基础上，在跨文化交际时呈现出良好的素质品质，热爱传统的中国文化之精髓，做到文化自信。
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Definition of Business Communication； Function of Business Communication△； Categories of Business Communication△； Characteristics of Business Communication★ | 4 | 4 |
+| 2 | Communication Strategies: Linear model; interactive model★; Circular model★ | 4 | 4 |
+| 3 | Intercultural Bisiness Communication: High Contet and Low Context cultures△★; Developing Intercultural business communication skills; Business Anthropogeopgraphy | 4 | 4 |
+| 4 | Gender Difference in Communication:Gender difference; Educational difference; Men and women at work; Women in negotiation; How to sell to women★ | 4 | 4 |
+| 5 | Persuasive Skills: Persuading oneself before others; Setting personal objective； Developing the relationship; Understanding human motivation△; Choosing the right approach★ | 4 | 4 |
+| 6 | Non-verbal Skills;Significant role of non-verbal communication△; Non-verbal delivery skills★; Non-verbal listening skills | 4 | 4 |
+| 7 | Public Speaking Skills: Presentation skills△; Debating skills; Knowing how to say no | 4 | 4 |
+| 8 | Business Writing: Fundamentals--5 C principles△ Writing letters, memos, emails and reports★； | 4 | 4 |
+| 合计 |  | 32 | 32 |
 
-## 教学内容
+- 第3章 思政融入点：中国属于高语境文化，一些传统和礼仪都根植于其中，在学习西方文化尤其是低语境文化时，我们需要看到差异，以本国文化为荣，在对外交流中体现礼仪之邦的传统，做到文化自信。
+- 第4章 思政融入点：客观认识两性的差异，认识到我国在女性争取平等方面所取得的成绩，如教育、就业、政治权力等。
+- 第5章 思政融入点：成功的劝说需要了解人的需求，马斯洛的需求理论认为“自我实现”是人类最高等级的需求。人们在满足了基本物质需求后，更大的幸福感来源于自我价值实现，也就是对社会和对他人的有用性，即贡献。老一辈人讲求奉献精神，新一代人更多投入公益事业，这是人类的内在需求。
 
-Definition of Business Communication； Function of Business Communication△； Categories of Business Communication△； Characteristics of Business Communication★
-Communication Strategies: Linear model; interactive model★; Circular model★
-Intercultural Bisiness Communication: High Contet and Low Context cultures△★; Developing Intercultural business communication skills; Business Anthropogeopgraphy
-Gender Difference in Communication:Gender difference; Educational difference; Men and women at work; Women in negotiation; How to sell to women★
-Persuasive Skills: Persuading oneself before others; Setting personal objective； Developing the relationship; Understanding human motivation△; Choosing the right approach★
-Non-verbal Skills;Significant role of non-verbal communication△; Non-verbal delivery skills★; Non-verbal listening skills
-Public Speaking Skills: Presentation skills△; Debating skills; Knowing how to say no
-Business Writing: Fundamentals--5 C principles△ Writing letters, memos, emails and reports★；
+## 实验项目
 
-## 课程思政
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
 
-中国属于高语境文化，一些传统和礼仪都根植于其中，在学习西方文化尤其是低语境文化时，我们需要看到差异，以本国文化为荣，在对外交流中体现礼仪之邦的传统，做到文化自信。
-客观认识两性的差异，认识到我国在女性争取平等方面所取得的成绩，如教育、就业、政治权力等。
-成功的劝说需要了解人的需求，马斯洛的需求理论认为“自我实现”是人类最高等级的需求。人们在满足了基本物质需求后，更大的幸福感来源于自我价值实现，也就是对社会和对他人的有用性，即贡献。老一辈人讲求奉献精神，新一代人更多投入公益事业，这是人类的内在需求。
+## 教材与参考书目
 
-## 章节安排
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| 商务沟通基础（英文版） | 周仕宝 | 978-7-3011-8316-8 | 北京大学出版社 | 2011 |
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Definition of Business Communication； Function of Business Communication△； Categories of Business Communication△； Characteristics of Business Communication★ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 2 | Communication Strategies: Linear model; interactive model★; Circular model★ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 3 | Intercultural Bisiness Communication: High Contet and Low Context cultures△★; Developing Intercultural business communication skills; Business Anthropogeopgraphy | 4 | 0 | 0 | 0 | 0 | 4 |
-| 4 | Gender Difference in Communication:Gender difference; Educational difference; Men and women at work; Women in negotiation; How to sell to women★ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 5 | Persuasive Skills: Persuading oneself before others; Setting personal objective； Developing the relationship; Understanding human motivation△; Choosing the right approach★ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 6 | Non-verbal Skills;Significant role of non-verbal communication△; Non-verbal delivery skills★; Non-verbal listening skills | 4 | 0 | 0 | 0 | 0 | 4 |
-| 7 | Public Speaking Skills: Presentation skills△; Debating skills; Knowing how to say no | 4 | 0 | 0 | 0 | 0 | 4 |
-| 8 | Business Writing: Fundamentals--5 C principles△ Writing letters, memos, emails and reports★； | 4 | 0 | 0 | 0 | 0 | 4 |
-
-- 第3章 思政融入: 中国属于高语境文化，一些传统和礼仪都根植于其中，在学习西方文化尤其是低语境文化时，我们需要看到差异，以本国文化为荣，在对外交流中体现礼仪之邦的传统，做到文化自信。
-- 第4章 思政融入: 客观认识两性的差异，认识到我国在女性争取平等方面所取得的成绩，如教育、就业、政治权力等。
-- 第5章 思政融入: 成功的劝说需要了解人的需求，马斯洛的需求理论认为“自我实现”是人类最高等级的需求。人们在满足了基本物质需求后，更大的幸福感来源于自我价值实现，也就是对社会和对他人的有用性，即贡献。老一辈人讲求奉献精神，新一代人更多投入公益事业，这是人类的内在需求。
+注意：*字段为必填项
 
 ---
 

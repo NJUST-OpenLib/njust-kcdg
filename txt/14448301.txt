@@ -1,71 +1,67 @@
-﻿# 英语名篇诵读实践（Ⅳ）
-
-课程编号: 14448301
-英文名称: Guide Reading of American and English Famous Essays(IV)
-开课单位: 外国语学院
-学分: 0.5
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 14448301
+- 课程名称(中): 英语名篇诵读实践（Ⅳ）
 - 授课语种: 英文
+- 课程名称(英): Guide Reading of American and English Famous Essays(IV)
+- 开课单位: 外国语学院
 - 课程类别: 集中性实践环节
-- 课程负责人: 李娟
+- 课程负责人(执笔人): 李娟
 - 审核人: 李娟
-- 总学时: 20
-- 讲课学时: 0
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 0.5
+- 学时: 20
+- 是否为术科课: 否
 - 考核类型: 考试
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: (未填):30%；(未填):30%；(未填):40%
 
-## 课程目标
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
+
+《英语名篇诵读实践》是英语专业学生二年级的必修课程，0.5学分。该课程以“认识语言"和“培养诵读”为主旨，选择了节奏韵律强、意象清新、意旨令人深思的诗歌和经典语篇，共计15篇。希望学生能通过诵读感受语言的节奏、意象，增强语感，养成阅读的习惯。此外, 本实践课布置3本英文原著的泛读作业，要求学生一个月左右读完一本英文原著，任课老师会定期检查学生的阅读情况。该实践课程总共十周，共计背诵15篇英文名篇经典。要求学生每日诵读，以“诵"为主，兼顾理解。任课老师每两周抽背一次（3篇），共计五次，最后一次为期末考试。每次班级一半学生参加，每位学生每学期会被现场抽背两次。
+
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
+
+要求学生在任课教师的指导下，诵读诗歌和经典语篇15篇（每篇约300词）。做到内容完整、发音正确、吐词清晰、语调自然流畅。课程所选短文均为英美文学名篇中的精华，文风各异，语言地道规范，让学生在体会语言音韵之美的同时，接受人文哲理的熏陶。
+英语名篇诵读实践(IV)课程旨在通过对优秀作品的学习和诵读，提高学生阅读能力、语言和文化审美能力，深化对文化的思辨能力，使其能深刻感受到中西文化的差异，并引导学生对文学经典传递的价值和思想观念进行批判性思考, 在多文化的对比和借鉴中领悟和丰富中国文化，唤醒学生树立文化自信和向世界传播中国优秀文化的意识。
+
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
 1. 学生在任课教师的指导下，诵读诗歌和经典语篇15篇
 2. 做到内容完整、发音正确、吐词清晰、语调自然流畅。
 3. 学生在体会语言音韵之美的同时，接受人文哲理的熏陶。
 
-## 课程简介
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-《英语名篇诵读实践》是英语专业学生二年级的必修课程，0.5学分。该课程以“认识语言"和“培养诵读”为主旨，选择了节奏韵律强、意象清新、意旨令人深思的诗歌和经典语篇，共计15篇。希望学生能通过诵读感受语言的节奏、意象，增强语感，养成阅读的习惯。此外, 本实践课布置3本英文原著的泛读作业，要求学生一个月左右读完一本英文原著，任课老师会定期检查学生的阅读情况。该实践课程总共十周，共计背诵15篇英文名篇经典。要求学生每日诵读，以“诵"为主，兼顾理解。任课老师每两周抽背一次（3篇），共计五次，最后一次为期末考试。每次班级一半学生参加，每位学生每学期会被现场抽背两次。
+| 考核方式 | 1 | 2 | 3 | 合计 |
+|---|---|---|---|---|
+| 名称 | (未填) | (未填) | (未填) | |
+| 占比 | 30% | 30% | 40% | 100% |
 
-## 教学目的与要求
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-要求学生在任课教师的指导下，诵读诗歌和经典语篇15篇（每篇约300词）。做到内容完整、发音正确、吐词清晰、语调自然流畅。课程所选短文均为英美文学名篇中的精华，文风各异，语言地道规范，让学生在体会语言音韵之美的同时，接受人文哲理的熏陶。
-英语名篇诵读实践(IV)课程旨在通过对优秀作品的学习和诵读，提高学生阅读能力、语言和文化审美能力，深化对文化的思辨能力，使其能深刻感受到中西文化的差异，并引导学生对文学经典传递的价值和思想观念进行批判性思考, 在多文化的对比和借鉴中领悟和丰富中国文化，唤醒学生树立文化自信和向世界传播中国优秀文化的意识。
+| 章号 | 教学内容 | 实践 | 小计 |
+|---|---|---|---|
+| 1 | 1. Let It Be Forgotten 2. The Goodness of Life | 3 | 3 |
+| 2 | 3. Merry Christmas Review & Spot Check（抽背) The Big Wave阅读情况检查 | 3 | 3 |
+| 3 | 4. Self-Control 5. M-O-T-H-E-R 6. Problems Do End Review & Spot Check（抽背) The Big Wave阅读情况检查（另一半同学） | 3 | 3 |
+| 4 | 7. Add Luster to Your Personality 8. Leisure 9. Beauty Is the Smile on the Earth’s Face Review & Spot Check（抽背) The Bridges of Madison County读书报告提交（第1批同学） | 3 | 3 |
+| 5 | 10. April Showers Bring May Flowers 11. A Business Creed 12. Happy Birthday, Mom Review & Spot Check（抽背) The Bridges of Madison County读书报告提交 | 3 | 3 |
+| 6 | 13. Life Is What We Make It 14. Home 15. Inner Light Review & Final Examination（期末考试) The Chronicles of Narnia 阅读情况检查 | 5 | 5 |
+| 合计 |  | 20 | 20 |
 
-## 教学内容
+- 第1章 思政融入点：通过诵读Let It Be Forgotten和The Goodness of Life，提高学生阅读能力、语言文化鉴赏能力和审美能力。
+- 第4章 思政融入点：通过读书报告，引导学生对文学经典传递的价值和思想观念进行批判性思考。
+- 第6章 思政融入点：通过期末总结、测试，让学生在多文化的对比和借鉴中领悟和丰富中国文化，树立文化自信和向世界传播中国优秀文化的意识。
 
-1. Let It Be Forgotten 2. The Goodness of Life
-3. Merry Christmas Review & Spot Check（抽背) The Big Wave阅读情况检查
-4. Self-Control 5. M-O-T-H-E-R 6. Problems Do End Review & Spot Check（抽背) The Big Wave阅读情况检查（另一半同学）
-7. Add Luster to Your Personality 8. Leisure 9. Beauty Is the Smile on the Earth’s Face Review & Spot Check（抽背) The Bridges of Madison County读书报告提交（第1批同学）
-10. April Showers Bring May Flowers 11. A Business Creed 12. Happy Birthday, Mom Review & Spot Check（抽背) The Bridges of Madison County读书报告提交
-13. Life Is What We Make It 14. Home 15. Inner Light Review & Final Examination（期末考试) The Chronicles of Narnia 阅读情况检查
+## 实验项目
 
-## 课程思政
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
 
-通过诵读Let It Be Forgotten和The Goodness of Life，提高学生阅读能力、语言文化鉴赏能力和审美能力。
-通过读书报告，引导学生对文学经典传递的价值和思想观念进行批判性思考。
-通过期末总结、测试，让学生在多文化的对比和借鉴中领悟和丰富中国文化，树立文化自信和向世界传播中国优秀文化的意识。
+## 教材与参考书目
 
-## 章节安排
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| 晨读夜诵·英语名篇诵读精华大全集 | 徐广联, 张扬, 徐文哲 | 9787562841548 | 上海华东理工大学出版社 | 2015 |
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | 1. Let It Be Forgotten 2. The Goodness of Life | 0 | 0 | 0 | 3 | 0 | 3 |
-| 2 | 3. Merry Christmas Review & Spot Check（抽背) The Big Wave阅读情况检查 | 0 | 0 | 0 | 3 | 0 | 3 |
-| 3 | 4. Self-Control 5. M-O-T-H-E-R 6. Problems Do End Review & Spot Check（抽背) The Big Wave阅读情况检查（另一半同学） | 0 | 0 | 0 | 3 | 0 | 3 |
-| 4 | 7. Add Luster to Your Personality 8. Leisure 9. Beauty Is the Smile on the Earth’s Face Review & Spot Check（抽背) The Bridges of Madison County读书报告提交（第1批同学） | 0 | 0 | 0 | 3 | 0 | 3 |
-| 5 | 10. April Showers Bring May Flowers 11. A Business Creed 12. Happy Birthday, Mom Review & Spot Check（抽背) The Bridges of Madison County读书报告提交 | 0 | 0 | 0 | 3 | 0 | 3 |
-| 6 | 13. Life Is What We Make It 14. Home 15. Inner Light Review & Final Examination（期末考试) The Chronicles of Narnia 阅读情况检查 | 0 | 0 | 0 | 5 | 0 | 5 |
-
-- 第1章 思政融入: 通过诵读Let It Be Forgotten和The Goodness of Life，提高学生阅读能力、语言文化鉴赏能力和审美能力。
-- 第4章 思政融入: 通过读书报告，引导学生对文学经典传递的价值和思想观念进行批判性思考。
-- 第6章 思政融入: 通过期末总结、测试，让学生在多文化的对比和借鉴中领悟和丰富中国文化，树立文化自信和向世界传播中国优秀文化的意识。
+注意：*字段为必填项
 
 ---
 
