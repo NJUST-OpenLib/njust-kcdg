@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>密码学与编码理论 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>密码学与编码理论<span class="tag on">在用</span></h1><div class="sub">课程编号 13032201</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>13032201</td></tr><tr><th>英文名称</th><td>Cryptography and Coding Theory</td></tr><tr><th>开课单位</th><td>数学与统计学院</td></tr><tr><th>学分</th><td>3</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(含实践环节)</td></tr><tr><th>课程负责人</th><td>徐磊</td></tr><tr><th>审核人</th><td>许春根</td></tr><tr><th>总学时</th><td>48</td></tr><tr><th>讲课学时</th><td>40</td></tr><tr><th>实验学时</th><td>8</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>(未填):10%；(未填):10%；(未填):20%；(未填):60%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>使学生掌握数据加密、数字签名、线性码等密码学与编码理论的基本理论、概念和方法，学生掌握掌握这些理论和方法后对其以后学习相关数学应用课程（如：信息安全、通信和数学建模课程）做好理论和方法的准备。</li><li>培养学生综合运用所学数学知识、思想和方法用以发现问题、分析问题和解决问题的能力。</li><li>运用所学数据加密、数字签名和编码知识设计一些实用和兼容性好的加密及认证方案。</li><li>通过研讨和学习密码学和编码理论的一些新理论，提高学生具备在多学科背景下的团队中承担个体、团队成员以及负责人角色的能力，以及自我提高和学习的能力。</li></ul><h2>课程简介</h2><p class="body">本课程是信息与计算科学、数学与应用数学等专业的信息方向的主要专业课。在信息时代，信息安全是一个国家安全的一个重要方面，而密码学是信息安全的核心技术。另外，在信息时代，信息需要经过信道如电磁波进行传输，编码学就是研究信息在信道中传输的性质以及信息传输过程中对收到的信息进行检错与纠错的理论。密码学和编码学是建立在数学基础上并跨计算机、电子通信、物理等专业的学科。数学专业的学生通过密码学和编码理论的学习可以巩固所学数学知识并将所学数学知识应用于实际；对于计算机专业与电子通信专业的学生而言，必要的密码学和编码理论知识也是必不可少的。 
+ 本课程主要内容包括：（1）绪论（2）数学基础（3）分组密码体制（4）公钥密码体制（5）Hash函数（6）数字签名（7）安全协议（8）纠错码。
+ 本课程的预备知识：包括线性代数和高等数学。</p><h2>教学目的与要求</h2><p class="body">通过本课程的学习，使得学生对密码学与编码理论的基本理论、概念、方法能有全面的了解和掌握。理解和掌握分组加密、流加密、公钥加密、数字签名、哈希函数、密钥建立与管理、身份识别、认证理论与技术、PKI技术、线性码、纠错码等内容。可以巩固所学数学知识并将所学数学知识应用于构造线性码及循环码等实际工作，以及在实际中会使用密码学的相关技术对电子文档和电子通信进行加密和签名的能力，使学生适应社会信息化的要求，能利用密码和编码技术服务于社会。具体为：1、使学生掌握数据加密、数字签名、线性码等密码学与编码理论的基本理论、概念和方法，学生掌握掌握这些理论和方法后对其以后学习相关数学应用课程（如：信息安全、通信和数学建模课程）做好理论和方法的准备；2、培养学生综合运用所学数学知识、思想和方法用以发现问题、分析问题和解决问题的能力；3、运用所学数据加密、数字签名和编码知识设计一些实用和兼容性好的加密及认证方案；4、通过研讨和学习密码学和编码理论的一些新理论，提高学生具备在多学科背景下的团队中承担个体、团队成员以及负责人角色的能力，以及自我提高和学习的能力。通过课程思政，帮助学生形成正确人生观、价值观、世界观，树立远大理想，形成科学严谨的思维方式，增强中国特色社会主义的“四个自信”。</p><h2>教学内容</h2><p class="body">1 绪 论 1.1 密码学和编码学简介； 1.2 基本概念； 1.3 应用前景；
+2 数学基础 2.1 整数； 2.2 群、环、域介绍△； 2.3 快速幂乘△★； 2.4 中国剩余定理； 2.5 群元阶的计算； 2.6 有限域△★； 2.7 Zp的结构；
+3 分组密码体制 3.1 分组密码体制； 3.2 DES； 3.2.1 DES简史； 3.2.2 DES描述； 3.2.3 分组密码体制的使用方式△； 3.2.4 DES可实现的安全目标； 3.2.5 DES的安全性★；
+4 公钥密码体制 4.1 公钥密码学； 4.2 RSA； 4.2.1 RSA密码体制△； 4.2.2 素数的产生； 4.2.3 RSA的安全性△； 4.2.4 RSA的参数选择； 4.2.5 运用CRT提高RSA解密的效率； 4.2.6 实际使用的RSA★； 4.2.7 RSA可实现的安全目标； 4.2.8 整数分解简介； 4.3 ElGamal公钥密码体制；
+5 Hash函数 5.1 生日悖论★； 5.2 密码学Hash函数； 5.2.1 Hash函数和压缩函数； 5.2.2 密码学Hash函数； 5.2.3 密码学Hash函数的构造△★； 5.2.4 Hash函数的应用△；
+6 数字签名 6.1 数字签名的思想； 6.2 数字签名的安全性； 6.3 两类改进的RSA签名方案； 6.4 利用公钥密码体制构造数字签名的方法； 6.5 ElGamal数字签名； 6.6 DSA； 6.7 具有特殊功能的数字签名；
+7 PKI与PGP 7.1 公钥基础设施△； 7.1.1 PSE； 7.1.2 CA ； 7.1.3 证书链； 7.2 PGP；
+8 纠错码 8.1 纠错的数学模型； 8.2 纠错码的基本概念； 8.3 线性码△； 8.4 Hamming码； 8.5 循环码△； 8.6 BCH码★； 8.7 RS码★；</p><h2>课程思政</h2><p class="body">在引领学生入门时强调密码技术学习的重要性。目前密码技术与核技术、航天技术已被视作国家安全的三大支撑技术，在身份认证、安全隔离、信息加密等方面它有着独特的、不可替代的作用，采用密码技术对大数据进行安全保护大有用武之地。
+通过对王小云院士破解MDS等hash函数的光荣事迹，宣扬王院士兢兢业业的工作态度，严谨的治学之道，增强学生的民族自豪感，鼓励学生珍惜眼前时光，培养严肃的科学精神。
+了解我国密码事业特别是国密（商密）的发展史，通过对中外密码学发展的比较，了解我国目前密码事业的发展状态，以及未来的走势。</p><h2>章节安排（8 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1 绪 论 1.1 密码学和编码学简介； 1.2 基本概念； 1.3 应用前景；</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>2 数学基础 2.1 整数； 2.2 群、环、域介绍△； 2.3 快速幂乘△★； 2.4 中国剩余定理； 2.5 群元阶的计算； 2.6 有限域△★； 2.7 Zp的结构；</td><td class="n">8</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">10</td></tr><tr><td class="c">3</td><td>3 分组密码体制 3.1 分组密码体制； 3.2 DES； 3.2.1 DES简史； 3.2.2 DES描述； 3.2.3 分组密码体制的使用方式△； 3.2.4 DES可实现的安全目标； 3.2.5 DES的安全性★；</td><td class="n">4</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">4</td><td>4 公钥密码体制 4.1 公钥密码学； 4.2 RSA； 4.2.1 RSA密码体制△； 4.2.2 素数的产生； 4.2.3 RSA的安全性△； 4.2.4 RSA的参数选择； 4.2.5 运用CRT提高RSA解密的效率； 4.2.6 实际使用的RSA★； 4.2.7 RSA可实现的安全目标； 4.2.8 整数分解简介； 4.3 ElGamal公钥密码体制；</td><td class="n">8</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">10</td></tr><tr><td class="c">5</td><td>5 Hash函数 5.1 生日悖论★； 5.2 密码学Hash函数； 5.2.1 Hash函数和压缩函数； 5.2.2 密码学Hash函数； 5.2.3 密码学Hash函数的构造△★； 5.2.4 Hash函数的应用△；</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">6</td><td>6 数字签名 6.1 数字签名的思想； 6.2 数字签名的安全性； 6.3 两类改进的RSA签名方案； 6.4 利用公钥密码体制构造数字签名的方法； 6.5 ElGamal数字签名； 6.6 DSA； 6.7 具有特殊功能的数字签名；</td><td class="n">6</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">7</td><td>7 PKI与PGP 7.1 公钥基础设施△； 7.1.1 PSE； 7.1.2 CA ； 7.1.3 证书链； 7.2 PGP；</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">8</td><td>8 纠错码 8.1 纠错的数学模型； 8.2 纠错码的基本概念； 8.3 线性码△； 8.4 Hamming码； 8.5 循环码△； 8.6 BCH码★； 8.7 RS码★；</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><th></th><th>合计</th><th style="text-align:right">40</th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">48</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 在引领学生入门时强调密码技术学习的重要性。目前密码技术与核技术、航天技术已被视作国家安全的三大支撑技术，在身份认证、安全隔离、信息加密等方面它有着独特的、不可替代的作用，采用密码技术对大数据进行安全保护大有用武之地。</li><li><b>第5章</b> 通过对王小云院士破解MDS等hash函数的光荣事迹，宣扬王院士兢兢业业的工作态度，严谨的治学之道，增强学生的民族自豪感，鼓励学生珍惜眼前时光，培养严肃的科学精神。</li><li><b>第7章</b> 了解我国密码事业特别是国密（商密）的发展史，通过对中外密码学发展的比较，了解我国目前密码事业的发展状态，以及未来的走势。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/13032201.html">查看原始页面</a><a href="../json/13032201.json">下载 JSON</a><a href="../txt/13032201.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

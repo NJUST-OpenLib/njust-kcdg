@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>线性代数【英】 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>线性代数【英】<span class="tag on">在用</span></h1><div class="sub">课程编号 110312E3</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>110312E3</td></tr><tr><th>英文名称</th><td>Linear Algebra[E]</td></tr><tr><th>开课单位</th><td>数学与统计学院</td></tr><tr><th>学分</th><td>3</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>英文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>沈玉萍</td></tr><tr><th>审核人</th><td>许春根</td></tr><tr><th>总学时</th><td>48</td></tr><tr><th>讲课学时</th><td>48</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂表现:10%；平时作业:30%；闭卷笔试:60%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>To grasp concepts and properties of determinants, complete solution to linear equations, vector spaces Rn, Linear independence, eigenvalues and eigenvectors,and linear transformations.</li><li>To be experienced in these operations: calculating determinants, the inverse of a matrix, the rank of a matrix, and solving linear equations, eigenvalues and eigenvectors of a matrix, the standard form of a quadratic form and the matrix of a linear transformation.</li><li>To improve the capabilities of students in logical reasoning and solving problems.</li><li>To improve the capabilities of students in problem analyzing.</li></ul><h2>课程简介</h2><p class="body">Linear algebra is a basic course in colleges and universities. It mainly studies the linear theory of finite-dimensional spaces. With the universal applications of computer technology and the rapid development of high-tech, this theory increasingly penetrated into all fields of science. As a basis for research in various disciplines, linear algebra course needs to be more strengthened and improved. 
+
+This course consists of seven chapters: 
+
+Chapter 1 starts with vectors and matrices. Chapter 2 begins the algebra of matrices: using elimination to solve linear equations. Chapter 3 is linear algebra at the best level: subspaces. Chapter 4 introduces orthogonality and projections.
+
+Chapter 5 gives formulas of determinants. Chapter 6 tells us how to diagonalize a symmetric marix using its eigenvalues and eigenvectors. Chapter 7 explains the linear transformation approach. 
+
+Preliminary knowledge such as vector algebra and space analytic geometry is required before learning this course. Classroom lecturing with moderate practice courses is the main teaching method and written examinations are the primary means of assessment.</p><h2>教学目的与要求</h2><p class="body">Linear Algebra is a basic course for general education, of which the basic theory and arithmetic are widely applied to various fields of engineering technologies. Its contents are relatively more of abstraction and logicality in theoretical derivation. This course could lay an essential foundation for the subsequent courses, cultivate and promote its students in abstract thinking and logical reasoning.
+
+1. To grasp concepts and properties of determinants, complete solution to linear equations, vector spaces Rn, Linear independence, eigenvalues and eigenvectors,and linear transformations.
+
+2. To be experienced in these operations: calculating determinants, the inverse of a matrix, the rank of a matrix, and solving linear equations, eigenvalues and eigenvectors of a matrix, the standard form of a quadratic form and the matrix of a linear transformation.
+
+3. To Improve the capabilities of students in problem analyzing, logical reasoning and solving.</p><h2>教学内容</h2><p class="body">1 Introduction to Vectors 1.1 Vectors and Linear Combinations 1.2 Lengths and Dot Products 1.3 Matices★
+2 Solving Linear Equations 2.1 Vectors and Linear Equations 2.2 The Idea of Elimination△ 2.3 Elimination Using Matices★ 2.4 Rules for Matrix Operations 2.5 Inverse Matrices△★ 2.6 Elimination=Factorization: A=LU ★ 2.7 Transposes and Permutations
+3 Vector Spaces and Subspaces 3.1 Spaces of Vectors 3.2 The Nullspace of A: Solving Ax=0△ 3.3 The Rank and the Row Reduced Form△ 3.4 The Complete Solution to Ax=b △★ 3.5 Independence, Basis and Dimension★ 3.6 Dimensions of the Four Subspaces
+4 Orthogonality 4.1 Orthogonalith of the Four Subspaces 4.2 Projections△ 4.3 Least Squares Approximations★ 4.4 Orthogonal Bases and Gram-Schmidt△★
+5 Determinants 5.1 The Properties of Determinants△ 5.2 Permutations and Cofactors★ 5.3 Cramer's Rule, Inverses, and Volumes
+6 Eigenvalues and Eigenvectors 6.1 Introduction to Eigenvalues△★ 6.2 Diagonalizing a Matrix△★ 6.3 Symmetric Matices 6.4 Positive Definite Matrices△★ 6.5 Similar Matrices
+7 Linear Transromations 7.1 The Idea of a Linear Transformation 7.2 The matrix of a Linear Transformation△</p><h2>课程思政</h2><p class="body">To be experienced in these operations.
+To improve the capabilities of students in problem analyzing.
+To improve the capabilities of students in logical reasoning and solving problems.</p><h2>章节安排（7 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1 Introduction to Vectors 1.1 Vectors and Linear Combinations 1.2 Lengths and Dot Products 1.3 Matices★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">2</td><td>2 Solving Linear Equations 2.1 Vectors and Linear Equations 2.2 The Idea of Elimination△ 2.3 Elimination Using Matices★ 2.4 Rules for Matrix Operations 2.5 Inverse Matrices△★ 2.6 Elimination=Factorization: A=LU ★ 2.7 Transposes and Permutations</td><td class="n">9</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">9</td></tr><tr><td class="c">3</td><td>3 Vector Spaces and Subspaces 3.1 Spaces of Vectors 3.2 The Nullspace of A: Solving Ax=0△ 3.3 The Rank and the Row Reduced Form△ 3.4 The Complete Solution to Ax=b △★ 3.5 Independence, Basis and Dimension★ 3.6 Dimensions of the Four Subspaces</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">4</td><td>4 Orthogonality 4.1 Orthogonalith of the Four Subspaces 4.2 Projections△ 4.3 Least Squares Approximations★ 4.4 Orthogonal Bases and Gram-Schmidt△★</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">5</td><td>5 Determinants 5.1 The Properties of Determinants△ 5.2 Permutations and Cofactors★ 5.3 Cramer's Rule, Inverses, and Volumes</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">6</td><td>6 Eigenvalues and Eigenvectors 6.1 Introduction to Eigenvalues△★ 6.2 Diagonalizing a Matrix△★ 6.3 Symmetric Matices 6.4 Positive Definite Matrices△★ 6.5 Similar Matrices</td><td class="n">10</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">10</td></tr><tr><td class="c">7</td><td>7 Linear Transromations 7.1 The Idea of a Linear Transformation 7.2 The matrix of a Linear Transformation△</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><th></th><th>合计</th><th style="text-align:right">48</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">48</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第2章</b> To be experienced in these operations.</li><li><b>第3章</b> To improve the capabilities of students in problem analyzing.</li><li><b>第4章</b> To improve the capabilities of students in logical reasoning and solving problems.</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/110312E3.html">查看原始页面</a><a href="../json/110312E3.json">下载 JSON</a><a href="../txt/110312E3.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>计算语言学基础 · 课程大纲</title><style>
+:root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
+*{box-sizing:border-box}
+body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg)}
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:24px}
+.crumb a{color:var(--accent);text-decoration:none}
+.crumb a:hover{text-decoration:underline}
+h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
+table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.meta tr:last-child th,table.meta tr:last-child td{border-bottom:none}
+table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
+table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
+table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
+table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.ch tr:hover td{background:#fafbfc}
+.dim{color:var(--muted)}
+p.body{margin:0;white-space:pre-wrap}
+ul.goals{margin:0;padding-left:22px}
+ul.goals li{margin-bottom:6px}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn b{display:block;margin-bottom:6px}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
+.files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
+.files a:hover{border-color:var(--accent);background:#f5f9ff}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
+.tag.on{background:#e6f4ea;color:#1a7f37}
+.tag.off{background:#f1f2f4;color:#6b7280}
+.tag.no{background:#fff3e0;color:#a86300}
+@media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
+@media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>计算语言学基础<span class="tag on">在用</span></h1><div class="sub">课程编号 14061401</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>14061401</td></tr><tr><th>英文名称</th><td>Introduction to Computational Linguistics</td></tr><tr><th>开课单位</th><td>外国语学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>英文</td></tr><tr><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人</th><td>李善鹏</td></tr><tr><th>审核人</th><td>汤平</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂表现:20%；平时作业:20%；期末考核:60%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>1. 了解计算语言学的基本概念、研究内容、应用领域。</li><li>2. 掌握自然语言处理的流行方法、技术和应用，尤其是关键问题如歧义句的处理方法。</li><li>3. 掌握语料库构建方法、学会使用数据库管理技能处理语料。</li></ul><h2>课程简介</h2><p class="body">“计算语言学导论”是语言学专业本科生的一门专业选修课。学生通过本课程的学习，能初步掌握计算语言学的基本知识，具备从信息处理的角度思考问题和对语言知识进行简单形式化描述的能力，为进一步学习相关的研究打下基础。
+(1) 自动编排：这是计算机最擅长的工作，也是计算语言学中最成熟的部分。对各种语言素材进行统计、分类、排序，编辑各种词表、索引和词典，建立语料库、术语数据库等等，已经得到广泛运用。由于这些技术已经相当成熟，因而已有现成的软件包提供服务
+(2) 自动分析：这是一种较复杂的语言自动处理。这种自动分析系统是根据事先存入计算机内的特定语言信息进行工作，目的在于得到预先规定的结论，例如让计算机查词典或进行语法测试，均属此类。若结论有误，就证明词典或语法不够完备，需要对原先的数据或规则加以修订或补充。这类系统一般尚处于试验研究阶段
+(3) 自动研究：这是一种更复杂的语言自动处理。这种自动研究系统是根据计算机内存储的一般语言信息进行工作，借助统计、比较、类推等手段，得出自己推断的结论。人工智能研究中的某些自然语言理解系统正在朝这方面努力，但目前还没有比较成熟的研究成果
+(4) 在课内教学活动中，侧重培养学生理解计算语言学的基本概念，包括研究内容（如词法、句法和语义）和应用领域（如机器翻译、问答系统等，特别对自然语言处理中的关键问题有明确认识。
+(5) 通过阅读相关的专业论文和课程作业的实现，了解自然语言处理的流行方法、技术和应用领域，以及发展趋势等，为毕业设计从事这方面的研究打下良好的基础。</p><h2>教学目的与要求</h2><p class="body">“计算语言学导论”是语言学专业本科生的一门专业选修课。学生通过本课程的学习，能初步掌握计算语言学的基本知识，具备从信息处理的角度思考问题和对语言知识进行简单形式化描述的能力，为进一步学习相关的研究打下基础。
+(1) 自动编排：这是计算机最擅长的工作，也是计算语言学中最成熟的部分。对各种语言素材进行统计、分类、排序，编辑各种词表、索引和词典，建立语料库、术语数据库等等，已经得到广泛运用。由于这些技术已经相当成熟，因而已有现成的软件包提供服务
+(2) 自动分析：这是一种较复杂的语言自动处理。这种自动分析系统是根据事先存入计算机内的特定语言信息进行工作，目的在于得到预先规定的结论，例如让计算机查词典或进行语法测试，均属此类。若结论有误，就证明词典或语法不够完备，需要对原先的数据或规则加以修订或补充。这类系统一般尚处于试验研究阶段
+(3) 自动研究：这是一种更复杂的语言自动处理。这种自动研究系统是根据计算机内存储的一般语言信息进行工作，借助统计、比较、类推等手段，得出自己推断的结论。人工智能研究中的某些自然语言理解系统正在朝这方面努力，但目前还没有比较成熟的研究成果
+(4) 在课内教学活动中，侧重培养学生理解计算语言学的基本概念，包括研究内容（如词法、句法和语义）和应用领域（如机器翻译、问答系统等，特别对自然语言处理中的关键问题有明确认识。
+(5) 通过阅读相关的专业论文和课程作业的实现，了解自然语言处理的流行方法、技术和应用领域，以及发展趋势等，为毕业设计从事这方面的研究打下良好的基础。</p><h2>教学内容</h2><p class="body">第一章 绪论：什么是计算语言学 △计算语言学的研究对象； △计算语言学的研究方法； 计算语言学的实际应用；
+第二章 语言知识的形式化表达 语言与语言知识； 形式化表达手段； 语言知识的形式化表述理论体系；
+第三章 语料库 语料库的研究现状； ★语料的收集与加工； 语料库的应用；
+△第四章 中文信息处理 汉字信息处理； 语音信息处理； 词汇信息处理；
+第五章 词法分析 ★“词”的识别； ★词性标注； ★词义标注；
+第六章 句法分析 句法分析导引； ★句法分析算法；
+第七章 机器翻译 机器翻译的研究历程及现状； 机器翻译方法；
+★第八章 面向文本的智能信息处理 信息检索； 信息提取； 文本分类；</p><h2>课程思政</h2><p class="body">引导学生提高教学认知，对计算机的软件应用产生本国保护意识，养成良好的思政教育作用模式
+了解汉语和汉字的奥秘，建立文化自信。
+了解汉语中词的地位，注意区分汉语“词”和英语”词“，深刻理解文化自信，主动传承中国语言文化。</p><h2>章节安排（8 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>第一章 绪论：什么是计算语言学 △计算语言学的研究对象； △计算语言学的研究方法； 计算语言学的实际应用；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">2</td><td>第二章 语言知识的形式化表达 语言与语言知识； 形式化表达手段； 语言知识的形式化表述理论体系；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">3</td><td>第三章 语料库 语料库的研究现状； ★语料的收集与加工； 语料库的应用；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">4</td><td>△第四章 中文信息处理 汉字信息处理； 语音信息处理； 词汇信息处理；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">5</td><td>第五章 词法分析 ★“词”的识别； ★词性标注； ★词义标注；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">6</td><td>第六章 句法分析 句法分析导引； ★句法分析算法；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">7</td><td>第七章 机器翻译 机器翻译的研究历程及现状； 机器翻译方法；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">8</td><td>★第八章 面向文本的智能信息处理 信息检索； 信息提取； 文本分类；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 引导学生提高教学认知，对计算机的软件应用产生本国保护意识，养成良好的思政教育作用模式</li><li><b>第4章</b> 了解汉语和汉字的奥秘，建立文化自信。</li><li><b>第5章</b> 了解汉语中词的地位，注意区分汉语“词”和英语”词“，深刻理解文化自信，主动传承中国语言文化。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/14061401.html">查看原始页面</a><a href="../json/14061401.json">下载 JSON</a><a href="../txt/14061401.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
