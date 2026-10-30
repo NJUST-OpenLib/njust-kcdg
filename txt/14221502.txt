@@ -1,0 +1,94 @@
+﻿# 英语国家概况（Ⅱ）
+
+课程编号: 14221502
+英文名称: Introduction to English-Speaking Countries (II)
+开课单位: 外国语学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课(不含实践环节)
+- 课程负责人: 蒲显伟
+- 审核人: 李娟
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 考勤、表现:20%；平时作业:20%；开卷笔试:60%
+
+## 课程目标
+
+1. 培养学生的文化意识和英语学习兴趣
+2. 了解和掌握美国、爱尔兰和加拿大等国家各方面的大致状况，形成良好的英语语言学习背景知识
+3. 扩大学生的英语词汇量，提高跨文化交际能力
+4. 掌握基本的收集、整理、分析资料的能力
+
+## 课程简介
+
+英语国家概况（II）课程是英语本科专业教学计划中的必修课程，理论性、实践性均较高。要求学生具有明确的学习目的与进取心，具备基本的英语听说读写能力，尤其是阅读和词汇能力。学生通过对该课程的学习，学生通过对该课程的学习，一方面可以更多了解美国、澳大利亚和新西兰等英语国家的历史发展、政治体制、社会文化、风土人情等知识，达到开阔视野的目的，另一方面也为学习其它课程乃至今后的工作打下坚实的文化背景基础。英语国家概况（I）以知识传授为主，包括美国概况、澳大利亚概况和新西兰概况。美国部分共十四章，分别介绍美国地形与自然资源，美国人口，发现美洲新大陆及殖民时期，美国独立战争，美国联邦制与宪法制订，美国的扩张及美国内战，美国战后重建及帝国主义，第一次世界大战和经济大萧条，美国在第二次世界大战前后，联邦制与国会，美国总统与法院，政党与选举，教育制度和美国宗教。第十五、十六章分别介绍澳大利亚和新西兰的地理、历史和政治制度。
+
+## 教学目的与要求
+
+学生通过对该课程的学习，能够开阔视野，扩大知识面，弥补文化背景知识的不足，为大学阶段的外语学习和以后的英语教学工作打下良好的基础。在该课程教学过程中同时培养学生的文化意识和英语学习兴趣，进一步扩大学生的英语词汇量，提高跨文化交际能力。具体而言，通过该课程的学习，学生应学会有效的进行课前预习和课后复习；了解和掌握美国、澳大利亚和新西兰等国家各方面的大致状况，形成良好的英语语言学习背景知识；掌握基本的收集、整理、分析资料的能力和简单明了和清晰地汇报研究结果的能力；一定程度上锻炼和提高英语口笔语表达能力。
+
+## 教学内容
+
+Location△; Geographical Divisions★; Climate; Natural Resources
+Composition; Distribution; Internal Migration; Immigration Acts△
+American Indians; Great Discoveries△★; Colonization of the New World△; Structures of the 13 Colonies
+Britain’s Policy to American Colonies★; Resistance in colonies; The Outbreak of War; Declaration of Independence △
+Articles of Confederation△★; Constitutional Convention △; Ratification of the Constitution; The Louisiana Purchase
+Monroe Doctrine; Territorial Expansion△★; Economic Antagonism; The Way to Civil War△; American Civil War
+Reconstruction in the South△★; Becoming a Great Industrial Power; Becoming an Imperial Power△
+World War I△; America’s Entrance into the War★; Peace Conference of 1919; Prosperity & the Great Depression; Franklin Roosevelt and His New Deal★
+From Isolation to Intervention△; Important Conferences during WWII; The Cold War★; Civil Rights Movement★;
+Basic Principles of U.S. Political System; Membership and Powers of Congress△; Leadership and Committees in Congress; How a Bill Becomes a Law★
+The President and His Powers△; The Organization of Executive Branch; The Federal Court System★; The State Court System
+Development of Political Parties★; Structure and Function of Political Parties; The Democrats & Republicans; Voting and Election△; Electing President
+Elementary and Secondary Education; Higher Education△★
+Christianity; Christian Religion in America ★; Non-Christian Religions in America△
+Geography; History△; Politics (Australia)
+Geography; History△; Politics (New Zealand)
+
+## 课程思政
+
+熟悉我国行政区划 正确使用标准地图 我国国旗、国歌内涵
+了解早期华人移民历史 了解“时局图”
+了解五四运动缘由 了解美国打压华为
+黑人历史、新疆棉花
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Location△; Geographical Divisions★; Climate; Natural Resources | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | Composition; Distribution; Internal Migration; Immigration Acts△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 3 | American Indians; Great Discoveries△★; Colonization of the New World△; Structures of the 13 Colonies | 2 | 0 | 0 | 0 | 0 | 2 |
+| 4 | Britain’s Policy to American Colonies★; Resistance in colonies; The Outbreak of War; Declaration of Independence △ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 5 | Articles of Confederation△★; Constitutional Convention △; Ratification of the Constitution; The Louisiana Purchase | 2 | 0 | 0 | 0 | 0 | 2 |
+| 6 | Monroe Doctrine; Territorial Expansion△★; Economic Antagonism; The Way to Civil War△; American Civil War | 2 | 0 | 0 | 0 | 0 | 2 |
+| 7 | Reconstruction in the South△★; Becoming a Great Industrial Power; Becoming an Imperial Power△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 8 | World War I△; America’s Entrance into the War★; Peace Conference of 1919; Prosperity & the Great Depression; Franklin Roosevelt and His New Deal★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 9 | From Isolation to Intervention△; Important Conferences during WWII; The Cold War★; Civil Rights Movement★; | 2 | 0 | 0 | 0 | 0 | 2 |
+| 10 | Basic Principles of U.S. Political System; Membership and Powers of Congress△; Leadership and Committees in Congress; How a Bill Becomes a Law★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 11 | The President and His Powers△; The Organization of Executive Branch; The Federal Court System★; The State Court System | 2 | 0 | 0 | 0 | 0 | 2 |
+| 12 | Development of Political Parties★; Structure and Function of Political Parties; The Democrats & Republicans; Voting and Election△; Electing President | 2 | 0 | 0 | 0 | 0 | 2 |
+| 13 | Elementary and Secondary Education; Higher Education△★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 14 | Christianity; Christian Religion in America ★; Non-Christian Religions in America△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 15 | Geography; History△; Politics (Australia) | 2 | 0 | 0 | 0 | 0 | 2 |
+| 16 | Geography; History△; Politics (New Zealand) | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第1章 思政融入: 熟悉我国行政区划 正确使用标准地图 我国国旗、国歌内涵
+- 第7章 思政融入: 了解早期华人移民历史 了解“时局图”
+- 第8章 思政融入: 了解五四运动缘由 了解美国打压华为
+- 第9章 思政融入: 黑人历史、新疆棉花
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14221502

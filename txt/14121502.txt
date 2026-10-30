@@ -1,0 +1,94 @@
+﻿# 英语国家概况（Ⅰ）
+
+课程编号: 14121502
+英文名称: Introduction to English-Speaking Countries (I)
+开课单位: 外国语学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课(不含实践环节)
+- 课程负责人: 谭利思
+- 审核人: 李娟
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: (未填):10%；(未填):25%；(未填):5%；(未填):60%
+
+## 课程目标
+
+1. 1.了解英国、爱尔兰、加拿大等英语国家重要的历史事件
+2. 2.了解英国、爱尔兰、加拿大的地理概况、自然资源等知识以及其帝国主义扩张历史
+3. 3.了解英国、爱尔兰、加拿大等国的风土人情、文化特征
+4. 4.提高英语口语的表达能力，能用英语准确表述文化相关内容
+
+## 课程简介
+
+英语国家概况（I）课程是英语本科专业教学计划中的必修课程，理论性、实践性均较高。要求学生具有明确的学习目的与进取心，具备基本的英语听说读写能力，尤其是阅读和词汇能力。学生通过对该课程的学习，学生通过对该课程的学习，一方面可以更多了解英国、爱尔兰、加拿大等英语国家的历史发展、政治体制、社会文化、风土人情等知识，达到开阔视野的目的，另一方面也为学习其它课程乃至今后的工作打下坚实的文化背景基础
+英语国家概况（I）以知识传授为主，包括英国历史、文化、政治制度、以及爱尔兰等英语国家的概况。英国部分共十四章，分别介绍英国地形与自然资源，英国人口，英国的中世界历史、工业革命、资产阶级革命、英国在两次世界大战中扮演的角色，英国的两党制、英国议院、教育文化等，第十五、十六章分别介绍爱尔兰、加拿大等英语国家地理、历史和政治制度。
+本课程以百分制记载成绩，考核方式包括五个方面：（1）期末闭卷考试[60%]；（2）出勤[10%]；（3）课堂表现[10%]；（4）期中测验[10%]；（5）小组研究及课堂汇报[10%]。
+
+## 教学目的与要求
+
+学生通过对该课程的学习，能够开阔视野，扩大知识面，弥补文化背景知识的不足，为大学阶段的外语学习和以后的英语教学工作打下良好的基础。在该课程教学过程中同时培养学生的文化意识和英语学习兴趣，进一步扩大学生的英语词汇量，提高跨文化交际能力。具体而言，通过该课程的学习，学生应学会有效的进行课前预习和课后复习；了解和掌握英国、爱尔兰、加拿大等国家各方面的大致状况，形成良好的英语语言学习背景知识；掌握基本的收集、整理、分析资料的能力和简单明了和清晰地汇报研究结果的能力；一定程度上锻炼和提高英语口笔语表达能力。
+
+## 教学内容
+
+Location△; Geographical Divisions★; Climate; Natural Resources
+Composition; Distribution; Internal Migration; Immigration Acts△
+Britain People△★; Iberians and Celts△;
+Britain Under Roman's rule★; Anale-Saxon's invasion △
+Articles of Confederation△★; Constitutional Convention △; Ratification of the Constitution; The Louisiana Purchase; The War of 1812
+William's Conquer△★; Doomsday Book△;
+Magna Carter△★; House of Tudor,Elizabeth the First△
+World War I△; America’s Entrance into the War★; Peace Conference of 1919; Prosperity & the Great Depression; Franklin Roosevelt and His New Deal★
+Industry Revolution★;Bourgeois Revolution★;
+Britain in World War I and II★
+Britain's Parlement△; Britain's Parties★;
+Development of Political Parties★; Structure and Function of Political Parties;
+Britain's Elementary and Secondary Education; Higher Education△★
+Religion in Britain ★
+Geography; History△; Politics (Ireland)
+Geography; History△; Politics (Canada)
+
+## 课程思政
+
+对比我国的地理位置与资源，培养民族自信心
+讲述早期华人移民历史，培养民族自信心
+对比我国历史，培养文化自信
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Location△; Geographical Divisions★; Climate; Natural Resources | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | Composition; Distribution; Internal Migration; Immigration Acts△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 3 | Britain People△★; Iberians and Celts△; | 2 | 0 | 0 | 0 | 0 | 2 |
+| 4 | Britain Under Roman's rule★; Anale-Saxon's invasion △ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 5 | Articles of Confederation△★; Constitutional Convention △; Ratification of the Constitution; The Louisiana Purchase; The War of 1812 | 2 | 0 | 0 | 0 | 0 | 2 |
+| 6 | William's Conquer△★; Doomsday Book△; | 2 | 0 | 0 | 0 | 0 | 2 |
+| 7 | Magna Carter△★; House of Tudor,Elizabeth the First△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 8 | World War I△; America’s Entrance into the War★; Peace Conference of 1919; Prosperity & the Great Depression; Franklin Roosevelt and His New Deal★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 9 | Industry Revolution★;Bourgeois Revolution★; | 2 | 0 | 0 | 0 | 0 | 2 |
+| 10 | Britain in World War I and II★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 11 | Britain's Parlement△; Britain's Parties★; | 2 | 0 | 0 | 0 | 0 | 2 |
+| 12 | Development of Political Parties★; Structure and Function of Political Parties; | 2 | 0 | 0 | 0 | 0 | 2 |
+| 13 | Britain's Elementary and Secondary Education; Higher Education△★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 14 | Religion in Britain ★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 15 | Geography; History△; Politics (Ireland) | 2 | 0 | 0 | 0 | 0 | 2 |
+| 16 | Geography; History△; Politics (Canada) | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第1章 思政融入: 对比我国的地理位置与资源，培养民族自信心
+- 第2章 思政融入: 讲述早期华人移民历史，培养民族自信心
+- 第3章 思政融入: 对比我国历史，培养文化自信
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=14121502

@@ -1,0 +1,66 @@
+﻿# 语言发展研究综合实验
+
+课程编号: 14064801
+英文名称: Experiments in Language Development Research
+开课单位: 外国语学院
+学分: 0.5
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 中文
+- 课程类别: 实验课
+- 课程负责人: 李洪兰
+- 审核人: 李娟
+- 总学时: 20
+- 讲课学时: 0
+- 实验学时: 20
+- 上机学时: 0
+- 考核类型: 考查
+- 是否术科课: 否
+- 成绩构成: 课堂表现:10%；课堂实验操作及实验报告:40%；期末实验设计报告:50%
+
+## 课程目标
+
+1. 理解并掌握用于研究婴儿时期语言发展的非语言实验范式。
+2. 理解并掌握测量儿童语音、词汇、句法、语义以及语用的实验范式。
+3. 能够运用合适的结构化和半结构化实验方法搜集不同类型的儿童语料。
+4. 能够运用语言测量工具对语料进行分析和评估。
+5. 熟悉儿童语料库CHILDES，能够通过语料库获取目标语料。
+
+## 课程简介
+
+《语言发展研究综合实验》这门课旨在向学生介绍研究语言发展过程中所常用的实验范式并且让其进行相关实验操作。通过该课程的学习，学生能够理解语言发展研究中不同的实验范式，选择并运用合适的实验任务对不同年龄阶段的儿童的语言的不同方面进行研究。同时，学生也能够独立进行实验设计研究儿童的语言理解及语言产出，并且运用语言测量工具对儿童语料进行分析。此外，学生还能够对不同的实验设计进行比较和评价。该课程具体的教学内容包括：(1) Studying infants and others using nonverbal methods;(2)Assessing language knowledge and processes in children who talk;(3)Capturing children’s language experience and language production。该课程要求学生预先学习《语言学导论》，《语音学导论》和《句法学导论》等课程，掌握语言学、语音学及句法学等的相关概念。学生最后的成绩包括课堂参与和实验报告，以百分计。
+
+## 教学目的与要求
+
+《语言发展研究综合实验》通过向学生介绍语言发展过程中所常用的实验范式，指导学生进行实验操作和设计实验，以达到增加学生对语言发展实验范式的专业知识的理解，提升学生分析问题、解决问题的能力和进行实验操作的动手能力，以及训练学生的批判性思维。完成这门课，学生的自主学习能力，沟通能力以及团队合作意识都能得到增强和提高。《语言发展研究综合实验》这门课的具体的教学目标包括：（1）理解并掌握用于研究婴儿时期语言发展的非语言实验任务，例如 Habituation procedures, Intermodal preferential look和The looking-while-listening procedure；（2）理解并掌握测量儿童语音、词汇、句法、语义以及语用的实验任务，例如 Nonword repetition tasks, Grammaticality judgment task, Truth value judgment tasks 和 Priming procedures；（3）能够运用合适的结构化和半结构化实验方法搜集不同类型的儿童语料；（4）能够运用语言测量工具对语料进行分析和评估；（5）熟悉儿童语料库CHILDES，能够通过语料库获取目标语料；（6）通过小组合作进行实验设计，对实验设计进行评价，提升沟通能力，增强团队集体意识；（7）在完成课前阅读及进行实验操作的过程中，提升自主学习能力和动手能力，巩固终身学习的意识。
+
+## 教学内容
+
+Studying Infants and Others Using Nonverbal Methods△
+Assessing Language Knowledge and Processes in Children Who Talk△★
+Capturing Children's Language Experience and Language Production△★
+
+## 课程思政
+
+学习不同的实验范式，并且对其进行比较评价，提升学生的思辨能力。
+进行实验操作，提升动手能力。
+小组合作进行实验设计，增强集体合作意识。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Studying Infants and Others Using Nonverbal Methods△ | 0 | 4 | 0 | 0 | 0 | 4 |
+| 2 | Assessing Language Knowledge and Processes in Children Who Talk△★ | 0 | 8 | 0 | 0 | 0 | 8 |
+| 3 | Capturing Children's Language Experience and Language Production△★ | 0 | 8 | 0 | 0 | 0 | 8 |
+
+- 第1章 思政融入: 学习不同的实验范式，并且对其进行比较评价，提升学生的思辨能力。
+- 第2章 思政融入: 进行实验操作，提升动手能力。
+- 第3章 思政融入: 小组合作进行实验设计，增强集体合作意识。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=90D3FE809CD14E53810FBD1A198F9051

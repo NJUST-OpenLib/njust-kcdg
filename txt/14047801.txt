@@ -1,0 +1,92 @@
+﻿# 语用与生活
+
+课程编号: 14047801
+英文名称: Pragmatics and Life
+开课单位: 外国语学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课(不含实践环节)
+- 课程负责人: 景晓平
+- 审核人: 李娟
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: (未填):10%；(未填):20%；(未填):60%；(未填):10%
+
+## 课程目标
+
+1. 使学生对现代语义学、语用学有一个较全面的认识
+2. 使学生掌握语用学研究的基本概念和理论工具
+3. 对英汉语中的语用现象能作出较为合理的分析与解释
+4. 启发学生在实际交流过程中恰当运用语言学理论
+5. 使学生有机会接触当代学科的新进展，站在新世纪的高度去学习和思考本领域的主要问题
+6. 使学生懂得语境对于语言的正确理解和使用的重要性
+7. 深刻理解跨文化交流中影响交际的语用现象，从而提高学生语用意识和跨文化交际能力
+8. 在语用学某一领域，学生能进行有一定独创性的科研的能力。
+
+## 课程简介
+
+《语用与生活》是针对本科高年级学生开设的选修课，以日常会话为语料，引领学生了解语用学理论与应用，有助于学习者深入思考语言的意义及其使用的规律。
+语用学是语义研究的发展和延伸的结果，研究语言在一定的语境中使用时体现出来的具体意义，注重分析交际参与者在特定语境下所表达的意义。
+教学内容包括：1. 语义学简介；2. 词汇，句子意义；3.指示语；4. 语用预设；5. 会话含义；6. 言语行为；7. 关联理论；8. 顺应论；9. 实际运用。
+主要先修课程：普通语言学
+考核与成绩记载方式：测验与小论文60%；平时作业与讨论40%
+
+## 教学目的与要求
+
+使学生对现代语用学有一个较全面的认识，使学生掌握语用学研究的基本概念和理论工具, 并对英汉语中的语用现象能作出较为合理的分析与解释。启发学生独立思考和研究，为今后从事相关专业的研究打下扎实基础。同时使他们有机会接触当代学科的新进展，站在新世纪的高度去学习和思考本领域的主要问题。
+使学生懂得语境对于语言的正确理解和使用的重要性，深刻理解跨文化交流中影响交际的语用现象，从而提高学生语用意识和跨文化交际能力。掌握有关语用学各方面的基本理论与研究的有效知识结构，了解目前国内外语用学研究的现状，并能运用语用学的理论对语言形式进行语用分析研究。在语言学某一分支学科，学生能进行有一定独创性的科研的能力。
+在传授专业知识的同时，通过各个教学环节逐步培养学生良好的职业道德和工作作风，激发学生分析研究能力，尤其是要在具体实践中加强培养语言文化知识的积累和实际应用能力。
+
+## 教学内容
+
+Chapter one Linguistic meaning 1.1 introduction 1.2 semantics and semiotics 1.3 reference and sense 1.4 utterance, sentence and proposition 1.5 semantics and pragmatics
+Chapter two meaning, thought and reality △ 2.1 reference 2.2 mental representation 2.3 words, concepts and thinking 2.4 summary
+Chapter three word meaning 3.1 words meaning 3.2 lexical relations
+Chapter four sentence meaning 4.1 logic and truth 4.2 entailment, presupposition△
+Chapter seven Deixis△ 7.1 types and properties 7.2 person, place, social deixis
+Chapter eight pragmatic presupposition 8.1 pragmatic presupposition 8.2 presupposition triggers 8.3 projection problems
+Chapter nine conversational implicature★ 9.1 CP: the principle 9.2 implicature 9.3 properties of implicature
+Chapter ten Speech act theory 10.1 words and deeds 10.2 locution, illocution and perlocution 10.3 classification of speech acts
+Chapter eleven Relevance theory ★ 11.1 the code model and inferential model 11.2 context in RT: a cognitive construct 11.3 relevance: cognitive effects and efforts
+Chapter twelve adaptation theory ★ 12.1 adaptability, variability and negotiability 12.2 language use as a choice making 12.3 language use as a dynamic process
+Chapter thirteen applications 13.1 pragmatics and translation 13.2 pragmatics and SLA 13.3 pragmatics and literature
+
+## 课程思政
+
+探讨汉语指示语特征及其背后的文化内涵，提升文化自信。
+探讨汉语会话中的丰富含义，引导学生关注英汉语语用差别，提升多元文化素养
+探讨汉语各类言语行为的特征及其适宜条件，引导学生关注汉语特殊类型的言语行为，彰显文化特色。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Chapter one Linguistic meaning 1.1 introduction 1.2 semantics and semiotics 1.3 reference and sense 1.4 utterance, sentence and proposition 1.5 semantics and pragmatics | 3 | 0 | 0 | 0 | 0 | 3 |
+| 2 | Chapter two meaning, thought and reality △ 2.1 reference 2.2 mental representation 2.3 words, concepts and thinking 2.4 summary | 3 | 0 | 0 | 0 | 0 | 3 |
+| 3 | Chapter three word meaning 3.1 words meaning 3.2 lexical relations | 3 | 0 | 0 | 0 | 0 | 3 |
+| 4 | Chapter four sentence meaning 4.1 logic and truth 4.2 entailment, presupposition△ | 3 | 0 | 0 | 0 | 0 | 3 |
+| 5 | Chapter seven Deixis△ 7.1 types and properties 7.2 person, place, social deixis | 3 | 0 | 0 | 0 | 0 | 3 |
+| 6 | Chapter eight pragmatic presupposition 8.1 pragmatic presupposition 8.2 presupposition triggers 8.3 projection problems | 3 | 0 | 0 | 0 | 0 | 3 |
+| 7 | Chapter nine conversational implicature★ 9.1 CP: the principle 9.2 implicature 9.3 properties of implicature | 3 | 0 | 0 | 0 | 0 | 3 |
+| 8 | Chapter ten Speech act theory 10.1 words and deeds 10.2 locution, illocution and perlocution 10.3 classification of speech acts | 3 | 0 | 0 | 0 | 0 | 3 |
+| 9 | Chapter eleven Relevance theory ★ 11.1 the code model and inferential model 11.2 context in RT: a cognitive construct 11.3 relevance: cognitive effects and efforts | 3 | 0 | 0 | 0 | 0 | 3 |
+| 10 | Chapter twelve adaptation theory ★ 12.1 adaptability, variability and negotiability 12.2 language use as a choice making 12.3 language use as a dynamic process | 3 | 0 | 0 | 0 | 0 | 3 |
+| 11 | Chapter thirteen applications 13.1 pragmatics and translation 13.2 pragmatics and SLA 13.3 pragmatics and literature | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第5章 思政融入: 探讨汉语指示语特征及其背后的文化内涵，提升文化自信。
+- 第7章 思政融入: 探讨汉语会话中的丰富含义，引导学生关注英汉语语用差别，提升多元文化素养
+- 第8章 思政融入: 探讨汉语各类言语行为的特征及其适宜条件，引导学生关注汉语特殊类型的言语行为，彰显文化特色。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3EB547C544D6406DB19FE36762EADB71

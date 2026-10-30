@@ -1,0 +1,87 @@
+﻿# 科技英语视听说
+
+课程编号: 14061601
+英文名称: English for Science and Technology through Watching, Listening and Speaking
+开课单位: 外国语学院
+学分: 1
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课(不含实践环节)
+- 课程负责人: 李娟
+- 审核人: 李娟
+- 总学时: 16
+- 讲课学时: 16
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: (未填):20%；(未填):10%；(未填):20%；(未填):50%
+
+## 课程目标
+
+1. 掌握科技英语方面的专业词汇等知识，能够掌握和应用科技领域的英语词汇、表达。
+2. 提高问题分析能力，通过检索资料用英语学习科技类知识，形成问题意识，提高自己的科学素养。通过实践了解社会，学生通过广泛阅读和听说来进行思辨科技的发展以及相应的问题，理解并承担社会责任。
+3. 培养职业规范，培养学生具有人文社会科学素养、社会责任感，能够在实践中理解并遵守职业道德和规范，明白学术诚信，履行责任。
+4. 培养团队合作精神，通过小组活动和小组课堂陈述，使学生了解在团队中承担个体、团队成员以及负责人的角色。
+5. 培养沟通能力，通过口语操练、小组活动和小组课堂陈述，使学生能够与同学进行有效沟通和交流，包括撰写发言稿、陈述发言、清晰表达或回应指令。并具备一定的国际视野，能够在跨文化背景下进行沟通和交流。
+6. 培养终身学习的能力，通过课程学习，让学生意识到科技英语的重要性，树立其自主学习和终身学习的意识，有不断学习和适应发展的能力。
+
+## 课程简介
+
+《科技英语视听说》课程是英语专业学生的专业基础核心课程之一, 其教学任务是通过多样的形式，多方位地训练和培养学生的听英语和说英语的能力，促进他们的理解能力和快速反应能力。
+通过该课程的学习达到教学大纲所要求的听力理解水平。本阶段针对英语专业二年级学生，通过本课程的训练，学生应将书本词汇转变为口头实用词汇，减少口语错误，进一步完善语音语调，掌握并遵循一般的交际原则。在课程结束时，听力方面要求学生能听懂中等难度的听力材料（如VOA, BBC正常语速的新闻和科技类讲座和纪录片等），能够完成诸如填空、单选、判断、简答等问题任务，在英语专业四级考试中听力部分应达到70%以上的正确率。在口语方面，应该能够就所听内容或所给话题进行至少4分钟的对话和至少2分钟的个人连贯发言，包括讲述故事和发表评论，达到英语专业四级口语考试要求的达标程度。
+Unit 1 Computer and Internet
+Unit 2 Artificial Intelligence
+Unit 3 Biomedical Science and Engineering
+Unit 4 Neuroscience and Psychology
+Unit 5 Food Engineering
+Unit 6 Aerospace Science
+Unit 7 Environmental Engineering
+Unit 8 Energy Engineering
+
+## 教学目的与要求
+
+通过本课程的学习，学生在听力方面需要听懂英美人士的一般交谈，科技类新闻、报告和相当于中等难度的听力材料，包括独白、对话、小讲座等，能用英语简要地做笔记。在口语方面，要求准确掌握诸如询问、请求、建议、忠告等交际功能，能就日常生活中的一般情景进行恰当的交谈，就所听的材料或熟悉的题材进行对话或连贯发言，达到“正确表达思想，语音、语调基本正确，无重大语法错误，语言基本得体”的要求。课程中科技话题与创新强国相联系。在课程导入和讨论等各个环节，均融入中国科技发展，科技工作者的求是献身精神等要素，帮助学生深入思考，辨证或批判性地看待西方科技发展，取其精华，去其糟粕，增强文化自信，并引导学生继承、传播和弘扬中国科学家、科技工作者的吃苦奉献精神、集体主义精神和社会主义核心价值观。
+
+## 教学内容
+
+Unit 1 Computer and Internet Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up
+Unit 2 Artificial Intelligence Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up
+Unit 3 Biomedical Science and Engineering Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up
+Unit 4 Neuroscience and Psychology Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up
+Unit 5 Food Engineering Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up
+Unit 6 Aerospace Science Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up
+Unit 7 Environmental Engineering Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up
+Unit 8 Energy Engineering Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up
+
+## 课程思政
+
+介绍和讨论计算机领域的语言表达和相关知识，引导学生们关注中国是如何突破技术瓶颈和技术封锁，铸造国之重器。让学生们树立“请党放心，强国有我”的坚定信念。
+介绍和讨论人工智能及其给人类带来的变化。让同学们认识到人类可以创造发明科技，但得有伦理品德底线。
+学习航空科学方面的语言和知识，让同学们了解我国近年来的航空成就，鼓励同学们为实现“两个一百年”奋斗目标和中华民族伟大复兴的中国梦作出新的更大贡献。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Unit 1 Computer and Internet Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | Unit 2 Artificial Intelligence Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up | 2 | 0 | 0 | 0 | 0 | 2 |
+| 3 | Unit 3 Biomedical Science and Engineering Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up | 2 | 0 | 0 | 0 | 0 | 2 |
+| 4 | Unit 4 Neuroscience and Psychology Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up | 2 | 0 | 0 | 0 | 0 | 2 |
+| 5 | Unit 5 Food Engineering Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up | 2 | 0 | 0 | 0 | 0 | 2 |
+| 6 | Unit 6 Aerospace Science Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up | 2 | 0 | 0 | 0 | 0 | 2 |
+| 7 | Unit 7 Environmental Engineering Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up | 2 | 0 | 0 | 0 | 0 | 2 |
+| 8 | Unit 8 Energy Engineering Brief Introduction Warm-up Lead-in Academic Listening△ Academic Presentation△ Critical Thinking★ Follow-up | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第1章 思政融入: 介绍和讨论计算机领域的语言表达和相关知识，引导学生们关注中国是如何突破技术瓶颈和技术封锁，铸造国之重器。让学生们树立“请党放心，强国有我”的坚定信念。
+- 第2章 思政融入: 介绍和讨论人工智能及其给人类带来的变化。让同学们认识到人类可以创造发明科技，但得有伦理品德底线。
+- 第6章 思政融入: 学习航空科学方面的语言和知识，让同学们了解我国近年来的航空成就，鼓励同学们为实现“两个一百年”奋斗目标和中华民族伟大复兴的中国梦作出新的更大贡献。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5C837E628631458289F0DAE347FB95D1

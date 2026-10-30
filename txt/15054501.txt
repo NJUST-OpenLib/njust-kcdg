@@ -1,0 +1,86 @@
+﻿# 法律英语
+
+课程编号: 15054501
+英文名称: English for Law
+开课单位: 知识产权学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 中文、英文
+- 课程类别: 理论课(含实践环节)
+- 课程负责人: 赵鑫鑫
+- 审核人: 郑伦幸
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 考勤及课堂表现:10%；平时作业:10%；实验操作:15%；实验实习报告:15%；课程论文:50%
+
+## 课程目标
+
+1. 通过阅读精选的法律类英语文章，使学生掌握法学基本概念、基本理论以及专业术语。
+2. 使学生掌握法律翻译、案例分析与法律文书写作的方法。
+3. 培养学生运用法律知识处理涉外案件的能力。
+4. 锻炼学生陈述、辩论法律观点的方法和口语能力。
+5. 使学生掌握英文法律资料的检索与分析方法。
+6. 培养学生批判的吸收和借鉴人类历史上的优秀法制文明成果，能够根据当下中国的法治现状进行相应的比较法学研究。
+
+## 课程简介
+
+法律英语课程是法律科学与英语语言学的交叉学科。在全球化背景下，法学专业本科学生应具备从事涉外法律业务和国际法律事务的能力。作为法学本科专业方向课之一，法律英语课程在兼顾语言学角度下法律科学与实践中英语语言特点的同时，侧重为法律研究与实务实践需要提供学生复合能力的培养。法律英语课程是针对具有一定国际法及英语基础的高年级（三年级全学期和四年级秋学期）本科生开设。
+
+ 本课程主要内容安排为：Introduction to English for Law（第1章）；Legal Translation（第2章）；Contract Law（第3章）；Tort Law（第4章）；Criminal Law（第5章）；Civil Procedure Law（第6章）；Criminal Procedure Law（第7章）；Cases Analysis Skills and Legal Writing（第8章）。
+
+ 修学本课程所需的预备知识主要有大学英语、各部门法律、英美法概论等。
+
+## 教学目的与要求
+
+通过本课程的学习，学生能够熟悉和掌握相关领域的法律制度和语言表达方式，了解英美法系的法律文化传统、司法体系及部门法知识，具备一定法律职业中所必须掌握的语言技能，可以撰写案例摘要并进行案例检索和法律推理。
+
+ 通过本课程的学习，拓展学生的国际视野，增加学生的实习与就业机会，培养具有国际竞争力的法律人才和英语人才。
+
+## 教学内容
+
+△common law legal system; ★court systems;the legal community.
+introduction to legal translation; △translating legal materials.
+introduction to contract law;△★contract formation; △★classification of contract;validity of contract; △remidies for breach of contract.
+introduction to tort law;△★types of torts; △★relief avaible in tort cases.
+introduction to criminal law; △types of crimes; △★elements of a crime; △constitutional protections for criminal defendants; objectives of criminal law.
+civil procedure law-basic knowledge;△★civil procedure law-trial stages.
+△★constitutional criminal procedure; statutory criminal procedure.
+△Cases Analysis Skills; △introduction to legal writing in English; ★structure and wording.
+12学时实验课程：法律英语技能训练（见下）
+
+## 课程思政
+
+法律职业作业一个特殊行业涉及国家法律的实施，为社会活动提供最普遍也是最主要的保障，法律职业从业人员的职业行为是否遵守和体现了法律职业道德的基本要求，关涉到国家法律尊严的维护、社会矛盾与纠纷的公正解决、社会正义的弘扬。全面依法治国，建设一支德才兼备的高素质法治工作队伍至关重要。坚持建设德才兼备的高素质法治工作队伍也是习近平法治思想的重要组成部分。
+引导学生理解有约必守、诚实守信的契约精神。法律和道德，是人类社会的两种基本规范，也是社会秩序的两根支柱。法律是成文的道德，道德是内心的法律。习近平法治思想深刻阐释了法律和道德的关系，丰富和发展了中国特色社会主义法治理论。
+让学生了解美国刑事诉讼程序中的程序正义保障及现实意义，同时引导学生反思这种制度的弊端，即过于追求程序正义必然损害实质正义，使罪犯无法得到应有的惩罚。培养学生树立与探索有中国特色社会主义法治之路的责任感和使命感。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | △common law legal system; ★court systems;the legal community. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 2 | introduction to legal translation; △translating legal materials. | 2 | 0 | 0 | 0 | 0 | 2 |
+| 3 | introduction to contract law;△★contract formation; △★classification of contract;validity of contract; △remidies for breach of contract. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 4 | introduction to tort law;△★types of torts; △★relief avaible in tort cases. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 5 | introduction to criminal law; △types of crimes; △★elements of a crime; △constitutional protections for criminal defendants; objectives of criminal law. | 2 | 0 | 0 | 0 | 0 | 2 |
+| 6 | civil procedure law-basic knowledge;△★civil procedure law-trial stages. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 7 | △★constitutional criminal procedure; statutory criminal procedure. | 2 | 0 | 0 | 0 | 0 | 2 |
+| 8 | △Cases Analysis Skills; △introduction to legal writing in English; ★structure and wording. | 2 | 0 | 0 | 0 | 0 | 2 |
+| 9 | 12学时实验课程：法律英语技能训练（见下） | 12 | 0 | 0 | 0 | 0 | 12 |
+
+- 第1章 思政融入: 法律职业作业一个特殊行业涉及国家法律的实施，为社会活动提供最普遍也是最主要的保障，法律职业从业人员的职业行为是否遵守和体现了法律职业道德的基本要求，关涉到国家法律尊严的维护、社会矛盾与纠纷的公正解决、社会正义的弘扬。全面依法治国，建设一支德才兼备的高素质法治工作队伍至关重要。坚持建设德才兼备的高素质法治工作队伍也是习近平法治思想的重要组成部分。
+- 第3章 思政融入: 引导学生理解有约必守、诚实守信的契约精神。法律和道德，是人类社会的两种基本规范，也是社会秩序的两根支柱。法律是成文的道德，道德是内心的法律。习近平法治思想深刻阐释了法律和道德的关系，丰富和发展了中国特色社会主义法治理论。
+- 第7章 思政融入: 让学生了解美国刑事诉讼程序中的程序正义保障及现实意义，同时引导学生反思这种制度的弊端，即过于追求程序正义必然损害实质正义，使罪犯无法得到应有的惩罚。培养学生树立与探索有中国特色社会主义法治之路的责任感和使命感。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=15054501

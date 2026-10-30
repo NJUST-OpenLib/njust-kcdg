@@ -1,0 +1,82 @@
+﻿# 学术英语写作
+
+课程编号: 14051101
+英文名称: Academic English Writing
+开课单位: 外国语学院
+学分: 1
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课(含实践环节)
+- 课程负责人: 李善鹏
+- 审核人: 李娟
+- 总学时: 16
+- 讲课学时: 16
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 课堂表现:20%；平时作业:20%；PPT展示:20%；课程论文:40%
+
+## 课程目标
+
+1. 1.理解论文整体的思路框架。
+2. 2. 掌握学术论文的行文规范。
+
+## 课程简介
+
+学术写作是获得学位的基本要求之一，也是获得学术进步的重要手段之一，英语专业学生需要会撰写规范的英语学术论文。该课程教学容科学性、知识性、趣味性为一体，包括科学研究的定义（第一章）、如何有效选题（第二章）、如何收集和整理资料、找寻相关的研究信息资料（第三章）、如何进行研究设计（第四章）、如何进行数据分析（第五章）、如何撰写初稿：摘要、引言、文献、研究设计、正文分析、研究意义和致谢等（第六章），如何合理引用文献和引用参考文献（第七章）等。该课程要求学生预先学习语言学、英美文学、跨文化交际等课程，具备基本的英语写作能力。学生最后的成绩包括期末考核、课程小论文与课堂参与和模拟答辩，以百分计。
+
+## 教学目的与要求
+
+学术论文写作的主要目的在于训练学生规范的学术写作能力与科研能力，使其写出合乎规范、质量较高的毕业论文，并为运用英语从事相关专业研究打下良好的基础。学生在学习过程中，逐步掌握如何查找资料，如何发现问题和解决问题的能力，运用科学的眼光审视语言学习和使用中的各种问题，将学习者提升为语言的研究者。通过该课程的学习，学习者掌握了学术写作的规范，为将来从事研究工作打下了坚实的基础。
+（1）理解论文整体的思路有据可循
+绝大多数的学术论文是根据“提出问题——拿出理论——提出假设——摆出数据——说明方法——验证假设”这个思路写出来的。这里面包含了几个要素：问题、理论支撑、作者的假设、证明作者的假设、用了何种方法证明。所以，学术论文的整体思路背后隐藏的是以上这几个关键要素。任何论文都是需要理论基础引导，客观数据支撑，还有主观数据解读。
+（2）掌握学术论文的行文规范
+在开篇 introduction部分，简单告诉读者这篇论文的研究对象是什么？研究目的是什么？研究方法是什么？有的论文会有Literature Review部分，这一部分主要是概述以前论文都在这个领域研究过什么。
+通过引用别人的文章，不但能阐述出你研究领域的相关重点概念，更能通过和其他论文的比较，体现出自己这篇论文的价值所在，也就是所谓the significance of the paper。
+文献回顾之后，就需要阐述研究方法。研究方法的阐述，主要是为了证明研究是可行的，方法是科学的，得出的数据是可信的。由于在不同学科、不同研究领域中研究方法不同，在此就不细说了。
+接下来就是论文最重要的部分，也就是Discussion。这个部分要求学生对得出的数据进行解读，任何一个单独的数据是没有太多意义的，只有在一定的情况下，一定的背景下才有价值。Discussion就是阐明数据与现实的关系，这一点很重要。
+最后，也就是文章结尾部分，需要把以上提到的每一个section的最重点的内容总结下。好的结尾或者说更客观的结尾，会提到文章的局限性或是这个课题之后的研究方向等等。
+
+## 教学内容
+
+Definition and classification of research; fundamental concepts★
+Identify a general topic; narrow down the topic; question formulation△
+Types of reference works; online Catalog; working bibliography; critical evaluation and Note Taking
+Qualitative and quantitative; survey★; experiment★; case△
+Research question★; data collection; data analysis△
+Abstract★; introduction; literature review; research design★; conclusion
+Citation; MLA; APA△
+Oral defense
+
+## 课程思政
+
+培养学生践行爱岗敬业、团结友爱的社会主义核心价值观
+培养学生工匠精神，团结合作和吃苦耐劳的精神
+培养学生观察能力、组织能力和协调能力。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Definition and classification of research; fundamental concepts★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | Identify a general topic; narrow down the topic; question formulation△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 3 | Types of reference works; online Catalog; working bibliography; critical evaluation and Note Taking | 2 | 0 | 0 | 0 | 0 | 2 |
+| 4 | Qualitative and quantitative; survey★; experiment★; case△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 5 | Research question★; data collection; data analysis△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 6 | Abstract★; introduction; literature review; research design★; conclusion | 2 | 0 | 0 | 0 | 0 | 2 |
+| 7 | Citation; MLA; APA△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 8 | Oral defense | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第1章 思政融入: 培养学生践行爱岗敬业、团结友爱的社会主义核心价值观
+- 第2章 思政融入: 培养学生工匠精神，团结合作和吃苦耐劳的精神
+- 第3章 思政融入: 培养学生观察能力、组织能力和协调能力。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6F7E1B7A582941849EB3CBECB7DDE714

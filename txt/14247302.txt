@@ -1,0 +1,77 @@
+﻿# 英语写作（Ⅱ）：文体与修辞
+
+课程编号: 14247302
+英文名称: English Rhetorical Writing
+开课单位: 外国语学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课(不含实践环节)
+- 课程负责人: 段国云
+- 审核人: 李娟
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: (未填):10%；(未填):20%；(未填):60%；(未填):10%
+
+## 课程目标
+
+1. 遣词造句练习和段落或短文写作为主
+2. 掌握英语语言运用的普遍原则和特殊的表达技巧
+3. 运用文体和修辞学理论来分析语言现象及文学作品的能力
+
+## 课程简介
+
+本课程是英语专业本科的一门专业基础课,供英语专业一年级学生使用。该课程分别讨论篇章修辞写作、句法修辞写作和词法修辞写作。以谋篇组段、句词操练为主，包括各种体式或体裁，即描写、叙事、说明、论辩等的操作，但也兼顾功能文体（如应用文体、新闻文体、文学文体等）的写作，范文、例证等都涉及了这些文体。这种对于功能文体的兼顾或涉及可以基本上满足初级写作对于功能文体训练的要求，不仅能够培养学生较高的使用语言和写作多种文体（尤其是应用文体)的能力，还能够为毕业论文的写作切实打下良好的基础，并直接为之提供有效的指导。
+
+## 教学目的与要求
+
+以遣词造句练习和段落或短文写作为主，可以基本上满足初级写作对于功能文体训练的要求，为后期培养学生较高的使用语言和写作多种文体的能力及毕业论文的写作切实打下良好的基础，并直接为之提供有效的指导。同时，通过学习，学生可以掌握英语语言运用的普遍原则和特殊的表达技巧，也应具备一定的运用文体和修辞学理论来分析语言现象及文学作品的能力。掌握良好的英语写作能力及分析语言现象和文学作品的能力，通过判断是非曲直，更好地服务于社会。
+
+## 教学内容
+
+I. Correct and Effective Use of Words：Grammatical Use of Words Correct in Grammar 1.Agreement in number. ★2.collocation of adjectives with their modifiers. 3. △a. general(abstract) & specific(concrete); △b. commendatory & derogatory; △c. euphemism; d. appropriateness in ideology II.Semantic Use of Words:Correct and Accurate in Meaning 1. stylistic use of pronouns,articles, adjectives and adverbs 2.different words with different stylistic effects 3.freshness in style III.Stylistic Choice of Words: 1. Correct in Grammar, Appropriate in Style 2.Proper in Meaning,Appropriate in Style 3.Figurative Use of Words:Deviated from Norm ★4.Figures of speech: simile, metaphor, synecdoche, metonymy, antonomasia, analogy, personification, euphemism, hyperbole, irony, transferred epithet, pun, oxymoron, analogy, personification
+I. Correct and Effective Construction of Sentences：Correct Use of Sentences in Grammar，Avoiding Syntactical Faults★ 1.sentence fragment ★2.comma splice, run-on sentence, fused sentence ★3.dangling modifier, squinting modifier, misplaced modifier ★4.split infinitive 5.right-branching, left-branching, center-embedding II.Grammatical Structure with Rhetorical Effect: A Rhetorical Process of Sentence Construction, Rhetorical Use of Sentences in Grammatical Patterns, Rhetorical Division of Sentences △1.simple sentence, compound sentence, complex sentence 2.rhetorical effect of the subjunctive sentence △3.the active voice and the passive voice ★4.loose sentence and periodic sentence 5.parenthetical sentence and balanced sentence ★III.Figurative Use of Sentences:Deviated from Norm,Appropriate in Style,Schemes and Related Syntactical Devices 1.trope & scheme 2.inversion, rhyme, alliteration
+I. Coherent organization of Discourse: △The Structure of Discourse,The Paragraph, the Discourse and the One-paragraph, The Multi-paragraph Discourse. 1. the △paragraph: the topic sentence, the development of topic sentence, the concluding sentence △2.the discourse: the beginning: the ways to open a discourse the body and the ending II.The Qualities of Discourse:★Unity,★Coherence:transitions and other devices for coherence, Clarity and Brevity,★Substantiality, Emphasis, Balance, Variation and Appropriateness in style III. Composing a Discourse:★ Outlining: topic outline and sentence outline and Drafting.
+Modes of Discourse: Descriptive and Narrative I. Descriptive: △1. The Functions of Description ★2.Types of Description: Factual and Impressionistic 3.The Organization of Description:(1) The Focus of Description △(2)The Selection of Details (3)Point of View (4)Line of Development ★4. Analysis of some samples II. Narrative: 1.Narrative Source 2.Narrative Flow 3.Narrative Outcome △4.Combinative Use of Narration with Description 5.Analysis of some samples
+Modes of Discourse: Expository （1）Definition a.Formal Definition b.informal definition c. analysis of some samples (2)Classification and Exemplification: a.Formal Classification b.informal classification c.analysis of some samples ★(3)Exemplification:a. Examples to Be Well Chosen and Effective b.The Number of Examples Needed c.The Arrangement of Examples d.analysis of some samples (4)Comparison/Contrast a.Block-by-block Comparison b.Point-by-point Comparison c.analysis of some samples (5) Cause-Effect analysis a.The Arrangement of Cause and Effect ★b.The Complexity of Cause and Effect:lmmediate, Proximate, Remote and Ultimate Causes ★The False Cause and the True Cause c.analysis of some samples
+Modes of Discourse: Argumentative △（1）Structural organization of Argumentative writing a.Introduction ★b.Argumentation:Positive Argument and negative argument c.Conclusion ★(2)development:a. Factual Reasoning b.emotional appeal (3) analysis of some samples
+
+## 课程思政
+
+1.学习词的选择规则，树立正确的人生观。2.学习贬义词和褒义词，懂得在生活中恰当地使用字词，得体与人交流。3.委婉语的了解让学生懂得尊重他人。
+1.学习句子结构，懂得正确合理科学地规划人生。2.学习各种句法错误，懂得在生活中避免各种可能的错误，找到正确的方法对待错误。3.学习各种句式，明白人生多种选择的重要性。
+1.学习段落及文章结构，懂得局部和整体之间的关系，更好地处理个人和集体的利益。2.学习判断文章好坏的标准，懂得生活中对事物的判断应该确立标准，科学判断。3.学习好文章，更好地服务社会。
+1.学习描写类文章，懂得如何懂得人们及物体的表面及内心，从而区分现象与本质。2.学习记叙类文章，懂得生活中记录人及内心，从而学会能站在对方的角度考虑问题，使社会更加和谐。3.学习写好文章，更好地服务社会。
+1.学习说明类文章，学会各种说明手段，有益于工作，提高效率。2.学习说明文中的各种组织手段，学会有逻辑地科学地安排事情，使社会更加和谐。3.学习写好文章，更好地服务社会。
+1.学习辩论类文章，学会以理服人，以数据说话，做个明辨事理的好公民。2.学习议论文中的编排方法，学会有逻辑地科学地安排事情，使社会更加和谐。3.学习写好文章，更好地服务社会。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | I. Correct and Effective Use of Words：Grammatical Use of Words Correct in Grammar 1.Agreement in number. ★2.collocation of adjectives with their modifiers. 3. △a. general(abstract) & specific(concrete); △b. commendatory & derogatory; △c. euphemism; d. appropriateness in ideology II.Semantic Use of Words:Correct and Accurate in Meaning 1. stylistic use of pronouns,articles, adjectives and adverbs 2.different words with different stylistic effects 3.freshness in style III.Stylistic Choice of Words: 1. Correct in Grammar, Appropriate in Style 2.Proper in Meaning,Appropriate in Style 3.Figurative Use of Words:Deviated from Norm ★4.Figures of speech: simile, metaphor, synecdoche, metonymy, antonomasia, analogy, personification, euphemism, hyperbole, irony, transferred epithet, pun, oxymoron, analogy, personification | 6 | 0 | 0 | 0 | 0 | 6 |
+| 2 | I. Correct and Effective Construction of Sentences：Correct Use of Sentences in Grammar，Avoiding Syntactical Faults★ 1.sentence fragment ★2.comma splice, run-on sentence, fused sentence ★3.dangling modifier, squinting modifier, misplaced modifier ★4.split infinitive 5.right-branching, left-branching, center-embedding II.Grammatical Structure with Rhetorical Effect: A Rhetorical Process of Sentence Construction, Rhetorical Use of Sentences in Grammatical Patterns, Rhetorical Division of Sentences △1.simple sentence, compound sentence, complex sentence 2.rhetorical effect of the subjunctive sentence △3.the active voice and the passive voice ★4.loose sentence and periodic sentence 5.parenthetical sentence and balanced sentence ★III.Figurative Use of Sentences:Deviated from Norm,Appropriate in Style,Schemes and Related Syntactical Devices 1.trope & scheme 2.inversion, rhyme, alliteration | 6 | 0 | 0 | 0 | 0 | 6 |
+| 3 | I. Coherent organization of Discourse: △The Structure of Discourse,The Paragraph, the Discourse and the One-paragraph, The Multi-paragraph Discourse. 1. the △paragraph: the topic sentence, the development of topic sentence, the concluding sentence △2.the discourse: the beginning: the ways to open a discourse the body and the ending II.The Qualities of Discourse:★Unity,★Coherence:transitions and other devices for coherence, Clarity and Brevity,★Substantiality, Emphasis, Balance, Variation and Appropriateness in style III. Composing a Discourse:★ Outlining: topic outline and sentence outline and Drafting. | 6 | 0 | 0 | 0 | 0 | 6 |
+| 4 | Modes of Discourse: Descriptive and Narrative I. Descriptive: △1. The Functions of Description ★2.Types of Description: Factual and Impressionistic 3.The Organization of Description:(1) The Focus of Description △(2)The Selection of Details (3)Point of View (4)Line of Development ★4. Analysis of some samples II. Narrative: 1.Narrative Source 2.Narrative Flow 3.Narrative Outcome △4.Combinative Use of Narration with Description 5.Analysis of some samples | 4 | 0 | 0 | 0 | 0 | 4 |
+| 5 | Modes of Discourse: Expository （1）Definition a.Formal Definition b.informal definition c. analysis of some samples (2)Classification and Exemplification: a.Formal Classification b.informal classification c.analysis of some samples ★(3)Exemplification:a. Examples to Be Well Chosen and Effective b.The Number of Examples Needed c.The Arrangement of Examples d.analysis of some samples (4)Comparison/Contrast a.Block-by-block Comparison b.Point-by-point Comparison c.analysis of some samples (5) Cause-Effect analysis a.The Arrangement of Cause and Effect ★b.The Complexity of Cause and Effect:lmmediate, Proximate, Remote and Ultimate Causes ★The False Cause and the True Cause c.analysis of some samples | 6 | 0 | 0 | 0 | 0 | 6 |
+| 6 | Modes of Discourse: Argumentative △（1）Structural organization of Argumentative writing a.Introduction ★b.Argumentation:Positive Argument and negative argument c.Conclusion ★(2)development:a. Factual Reasoning b.emotional appeal (3) analysis of some samples | 4 | 0 | 0 | 0 | 0 | 4 |
+
+- 第1章 思政融入: 1.学习词的选择规则，树立正确的人生观。2.学习贬义词和褒义词，懂得在生活中恰当地使用字词，得体与人交流。3.委婉语的了解让学生懂得尊重他人。
+- 第2章 思政融入: 1.学习句子结构，懂得正确合理科学地规划人生。2.学习各种句法错误，懂得在生活中避免各种可能的错误，找到正确的方法对待错误。3.学习各种句式，明白人生多种选择的重要性。
+- 第3章 思政融入: 1.学习段落及文章结构，懂得局部和整体之间的关系，更好地处理个人和集体的利益。2.学习判断文章好坏的标准，懂得生活中对事物的判断应该确立标准，科学判断。3.学习好文章，更好地服务社会。
+- 第4章 思政融入: 1.学习描写类文章，懂得如何懂得人们及物体的表面及内心，从而区分现象与本质。2.学习记叙类文章，懂得生活中记录人及内心，从而学会能站在对方的角度考虑问题，使社会更加和谐。3.学习写好文章，更好地服务社会。
+- 第5章 思政融入: 1.学习说明类文章，学会各种说明手段，有益于工作，提高效率。2.学习说明文中的各种组织手段，学会有逻辑地科学地安排事情，使社会更加和谐。3.学习写好文章，更好地服务社会。
+- 第6章 思政融入: 1.学习辩论类文章，学会以理服人，以数据说话，做个明辨事理的好公民。2.学习议论文中的编排方法，学会有逻辑地科学地安排事情，使社会更加和谐。3.学习写好文章，更好地服务社会。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D6748124C2614D6885D995A4E206C2FC

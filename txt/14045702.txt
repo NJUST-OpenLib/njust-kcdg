@@ -1,0 +1,96 @@
+﻿# 新闻英语阅读
+
+课程编号: 14045702
+英文名称: News English Reading Course
+开课单位: 外国语学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 中英
+- 课程类别: 理论课(不含实践环节)
+- 课程负责人: 王蓉
+- 审核人: 李娟
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 课堂表现:10%；平时作业:20%；新闻播报:10%；随堂测验:10%；闭卷笔试:50%
+
+## 课程目标
+
+1. 通过各类新闻材料阅读和练习提升英语词汇，夯实英语语法
+2. 培养良好的阅读习惯，关心国内国际时事
+3. 了解基本的新闻常识，掌握新闻英语的语篇特点，具有良好的新闻素养
+
+## 课程简介
+
+本课程是英语专业一年级第一学期专业基础核心课程。了解新闻的基本知识，包括新闻的产生、新闻报道的分类、英语新闻的问题特征、新闻媒介素养等。通过多种类型英语新闻报道的阅读，帮助学生进一步扩大词汇量，掌握多种构词法，巩固语法知识，在阅读过程中逐步加快阅读速度，利用课本中主观题与客观题的交叉练习，锻炼学生的综合阅读理解能力。本课程指定教材《实用新闻英语阅读》中的第一部分“了解新闻”可针对非新闻专业学生了解新闻相关的基础专业知识，第二部分“阅读新闻”则提供了八种不同问题和题材的新闻素材，适合英语专业学生的阅读练习。教学内容按照教材顺序，依次包括：第一章，灾难新闻报道；第二章，财经新闻报道；第三章，国际新闻报道；第四章，新闻特写；第五章，娱乐新闻报道；第六章，生活方式报道；第七章，文化新闻报道；第八章，科技新闻报道。每一章包括2-3篇范文评析和两篇阅读练习，进行相关词汇、短语、语法、翻译类型的练习和对新闻报道的信息理解练习，做到讲练结合。
+
+## 教学目的与要求
+
+本课程的教学目标是学生通过阅读大量生动的英语新闻，在适当的词句分析和语篇讲解的帮助下，消化并提升词汇和语法知识，发挥英语作为交际工具的价值，在英语阅读能力方面更上一层楼，且具备一定的新闻辨别力。在信息社会中，能够较为熟练地阅读理解各类新闻材料，善于发现身边的新闻事件，做到有条理、较全面地对新闻进行合理的评论，具有良好的新闻素养。学生应掌握基本的新闻原则和规则，区分三大类新闻的特征，具备较好的英语新闻阅读理解力。
+课程思政目标：在了解英语新闻的基本原则基础上，学习用英语讲述中国故事，弘扬中国文化，向西方社会介绍真实的发展中的中国新面貌，做到制度自信，文化自信。
+
+## 教学内容
+
+新闻的产生； 新闻报道的分类； 新闻英语的文体特征△； 灾难新闻报道——范文评析
+灾难新闻报道——Text A Mandalay Bay attack★; Text B Death toll from camp fire★
+新闻阅读的重要性△； 财经新闻——范文评析
+财经新闻报道——Text A Stocks fall sharply★; Text B US farmers fear lucrative Japanese exports will wither★
+媒介素养，新闻判断与新闻理解★； 国际新闻报道——范文评析
+国际新闻报道——Text A U.S. exit seen as a betrayal; Text B A second Brexit Referendum was once a pipe dream★
+新闻消息概述：要素，结构，来源△； 消息的范文评析与阅读练习
+新闻特写——范文评析△； Text A Kim Wall was born to tell stories★; Text B Technology is changing the way you see a doctor★
+娱乐新闻报道概述△； 范文评析
+娱乐新闻报道——Text A Oscar, were you always so plitical?★; Text B I'm in "spotlight★"
+生活方式报道——范文评析
+生活方式报道——Text A Yoga v Pilates★; Text B Netizens over airbnb's great wall promotion★
+文化新闻报道——范文评析△
+文化新闻报道——Text A Marvel fans in China share their feelings about the death of a real superhero★; Text B India's forgotten chld brides★
+科技新闻报道——范文评析△
+科技新闻报道——Text A Shared charger startup pulls plug★; Text B A robot that once said it would ddestroy humans★
+
+## 课程思政
+
+学习并掌握英语新闻的意义，即讲好中国故事，用英语新闻普遍接受的方式宣传中国文化，展示中国的发展和现状，弘扬爱国情操。
+关注新闻用词的感情色彩和新闻视角所包含的立场，客观分析新闻报道尤其是新闻评论的观点。西方媒体所宣扬的公正客观并以为着媒体的报道都是客观的，要看到其背后的政治力量和利益集团的作用。
+新闻特写具有强大的感染力，选取具有积极性和鼓舞性的人和事进行宣传是媒体的责任，也是社会正能量传播的主要途径。
+积极健康的娱乐新闻可以引导大众的价值和审美，发挥娱乐新闻的正面作用，提高大众的娱乐情趣
+针对英雄模范展开讨论，在平凡岗位上做出杰出贡献的劳动者，什么是当代青年应该追求的“星”，弘扬爱岗敬业和奉献精神
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | 新闻的产生； 新闻报道的分类； 新闻英语的文体特征△； 灾难新闻报道——范文评析 | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | 灾难新闻报道——Text A Mandalay Bay attack★; Text B Death toll from camp fire★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 3 | 新闻阅读的重要性△； 财经新闻——范文评析 | 2 | 0 | 0 | 0 | 0 | 2 |
+| 4 | 财经新闻报道——Text A Stocks fall sharply★; Text B US farmers fear lucrative Japanese exports will wither★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 5 | 媒介素养，新闻判断与新闻理解★； 国际新闻报道——范文评析 | 2 | 0 | 0 | 0 | 0 | 2 |
+| 6 | 国际新闻报道——Text A U.S. exit seen as a betrayal; Text B A second Brexit Referendum was once a pipe dream★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 7 | 新闻消息概述：要素，结构，来源△； 消息的范文评析与阅读练习 | 2 | 0 | 0 | 0 | 0 | 2 |
+| 8 | 新闻特写——范文评析△； Text A Kim Wall was born to tell stories★; Text B Technology is changing the way you see a doctor★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 9 | 娱乐新闻报道概述△； 范文评析 | 2 | 0 | 0 | 0 | 0 | 2 |
+| 10 | 娱乐新闻报道——Text A Oscar, were you always so plitical?★; Text B I'm in "spotlight★" | 2 | 0 | 0 | 0 | 0 | 2 |
+| 11 | 生活方式报道——范文评析 | 2 | 0 | 0 | 0 | 0 | 2 |
+| 12 | 生活方式报道——Text A Yoga v Pilates★; Text B Netizens over airbnb's great wall promotion★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 13 | 文化新闻报道——范文评析△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 14 | 文化新闻报道——Text A Marvel fans in China share their feelings about the death of a real superhero★; Text B India's forgotten chld brides★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 15 | 科技新闻报道——范文评析△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 16 | 科技新闻报道——Text A Shared charger startup pulls plug★; Text B A robot that once said it would ddestroy humans★ | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第1章 思政融入: 学习并掌握英语新闻的意义，即讲好中国故事，用英语新闻普遍接受的方式宣传中国文化，展示中国的发展和现状，弘扬爱国情操。
+- 第5章 思政融入: 关注新闻用词的感情色彩和新闻视角所包含的立场，客观分析新闻报道尤其是新闻评论的观点。西方媒体所宣扬的公正客观并以为着媒体的报道都是客观的，要看到其背后的政治力量和利益集团的作用。
+- 第8章 思政融入: 新闻特写具有强大的感染力，选取具有积极性和鼓舞性的人和事进行宣传是媒体的责任，也是社会正能量传播的主要途径。
+- 第9章 思政融入: 积极健康的娱乐新闻可以引导大众的价值和审美，发挥娱乐新闻的正面作用，提高大众的娱乐情趣
+- 第14章 思政融入: 针对英雄模范展开讨论，在平凡岗位上做出杰出贡献的劳动者，什么是当代青年应该追求的“星”，弘扬爱岗敬业和奉献精神
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=02BCF32CA2594A7FB704B5839BE003E5
