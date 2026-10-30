@@ -1,0 +1,85 @@
+﻿# 控制工程基础【英】
+
+课程编号: 10025402
+英文名称: Control Engineering Fundamentals
+开课单位: 自动化学院
+学分: 3
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 中英
+- 课程类别: 理论课(含实践环节)
+- 课程负责人: 戚国庆
+- 审核人: 樊卫华
+- 总学时: 48
+- 讲课学时: 48
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: (未填):20%；(未填):20%；(未填):60%
+
+## 课程目标
+
+1. 针对线性定常系统，能够根据系统运行机理，采用合适的工具建立常用数学模型（包括微分方程模型、传递函数模型、频率特性模型等）；能够根据系统结构，采用图模型（方框图、信号流图、根轨迹图、频率特性图、对数频率特性图等）描述并分析控制系统；能够利用控制理论专业基础知识解决复杂控制系统的工程问题；
+2. 能够分析一般控制系统的组成，分析各环节在系统中的作用，分析控制系统的主要特征并判断其控制方式；
+3. 具有运用外语对与自动化专业相关的知识和问题进行跨文化背景下的读、写、听、说等方面的交流、沟通能力， 进而具备一定的国际视野。
+
+## 课程简介
+
+随着科学技术的飞速发展，自动控制技术越来越广泛地应用于工业、农业、交通、国防、宇航、国民生活等各个领域。作为电气信息类专业的学生，学习并掌握自动控制的基本理论和方法，对正确运用控制论这一科学方法论分析和解决问题，具有重要的理论意义和现实意义。本课程是自动化学科的专业基础课，主要介绍：反馈控制的基本理论，包括自动控制的基本概念，自动控制系统的组成；控制系统的数学模型及建模方法；时域分析法，包括时域性能指标的定义，劳斯稳定判据、稳态误差分析、动态性能分析及时域校正方法；根轨迹分析法，包括闭环根轨迹图的绘制及基于根轨迹图的系统性能的定性分析；频域分析法，包括频率特性的概念、频率特性的绘制，Nyquist稳定性判据，频域性能指标的定义，以及频率响应法定量分析控制系统动态性能的方法；控制系统的综合校正方法，重点介绍串联校正、反馈校正和复合控制校正的原理及方法。
+
+ 预备知识：高等数学、工程数学、电路等。
+
+ 课程考核方式：闭卷笔试，最终成绩将根据期末考试成绩、平时作业和课堂表现（考勤）综合评定。
+
+## 教学目的与要求
+
+通过本课程的学习，了解自动控制技术在国民经济各个领域中的地位与作用，掌握控制系统的基本组成、工作原理、控制系统的数学建模方法、以及控制系统分析与设计方法。通过控制系统的数学模型的建立、特性分析和模型变换与简化，培养学生掌握利用数学知识进行控制系统建模与特性分析的能力；要求学生掌握利用根轨迹方法进行控制系统分析与设计方法；掌握线性系统的频率响应分析方法、运用频率响应方法进行系统稳定的判定、频域性能指标的计算方法；掌握控制系统的校正方法，培养学生能从系统的观点解决实际工程问题的能力和理论联系实际的作风。
+
+## 教学内容
+
+1 Introduction to Control Systems 1.1 △Introduction; 1.2 Brief History of Automatic Control; 1.3 Examples of Control Systems; 1.4 Engineering Design; 1.5 Control System Design; 1.6 The Future Evolution of Control Systems.
+2 Mathematical Models of Systems 2.1 Introduction; 2.2 △Differential Equations of Physical Systems; 2.3 Linear Approximations of Physical Systems; 2.4 The Laplace Transform; 2.5 △The Transfer Function of Linear Systems; 2.6 △Block Diagram Models; 2.7 △Signal-Flow Graph Models.
+3 Feedback Control System Characteristics 3.1 Introduction; 3.2 △Error Signal Analysis; 3.3 Sensitivity of Control Systems to Parameter Variations; 3.4 Disturbance Signals in a Feedback Control System; 3.5 Control of the Transient Response; 3.6 Steady-State Error; 3.7 The Cost of Feedback.
+4 The Performance of Feedback Control Systems 4.1 Introduction; 4.2 Test Input Signals; 4.3 Performance of First-order Systems; 4.4 △Performance of Second-order Systems; 4.5 ★Effects of a Third Pole and a Zero on the Second-order System Response; 4.6 The s-plane Root Location and the Transient Response; 4.7 △The Steady-State Error of Feedback Control Systems; 4.8 Performance Indices; 4.9 The Simplification of Linear Systems.
+5 The Stability of Linear Feedback Systems 5.1 △The Concept of Stability; 5.2 △The Routh-Hurwitz Stability Criterion; 5.3 The Relative Stability of Feedback Control Systems.
+6 The Root Locus Method 6.1 Introduction; 6.2 The Root Locus Concept; 6.3 △The Root Locus Procedure; 6.4 ★Parameter Design by the Root Locus Method; 6.5 Three-Term (PID) Controllers.
+7 Frequency Response Methods 7.1 Introduction; 7.2 △Frequency Response Plots; 7.3 Frequency Response Measurements; 7.4 Performance Specifications in the Frequency Domain; 7.5 Log Magnitude and Phase Diagrams.
+8 Stability in the Frequency Domain 8.1 Introduction; 8.2 ★Mapping Contours in the s-plane; 8.3 △★The Nyquist Criterion; 8.4 △Relative Stability and the Nyquist Criterion; 8.5 ★Time-Domain Performance Criteria in the Frequency Domain; 8.6 System Bandwidth.
+9 The Design of Feedback Control Systems 9.1 Introduction; 9.2 Approaches to System Design; 9.3 Cascade Compensation Networks; 9.4 △Phase-Lead Design Using the Bode Diagram; 9.5 △Phase-Lag Design Using the Bode Diagram; 9.6 Combined Compensation.
+
+## 课程思政
+
+自动控制理论发展史上，一批中外科学家敢于挑战自我，突破认知禁区，取得巨大成就，通过学习这些技术的发明过程和控制理论的建立过程，激发学生的科学精神。
+理解反馈概念和反馈技术在控制理论中的意义，学会采用反馈的原理指导个人行为和思想，达成科学目标。
+理解稳定性在控制系统性能指标要求中的重要性，理解稳定性在经济社会中的作用和意义，并能够理解导致系统不稳定因素的原因和机理，指导个人在行为和思想上消除不稳定因素方法。
+理解系统对不同噪声的滤波作用，通过频域分析法的学习掌握工业控制系统的一般性分析方法，为经济社会发展储备专业知识基础。
+理解系统对不同噪声的滤波作用，通过二阶系统的谐振特性，理解经济社会中关于共振问题的危害，和科学的应对方法，在未来生活和工作中学会抑制危害性共振的技术方法，利用专业知识保护国家财产安全，并培养科学的创新精神。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | 1 Introduction to Control Systems 1.1 △Introduction; 1.2 Brief History of Automatic Control; 1.3 Examples of Control Systems; 1.4 Engineering Design; 1.5 Control System Design; 1.6 The Future Evolution of Control Systems. | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | 2 Mathematical Models of Systems 2.1 Introduction; 2.2 △Differential Equations of Physical Systems; 2.3 Linear Approximations of Physical Systems; 2.4 The Laplace Transform; 2.5 △The Transfer Function of Linear Systems; 2.6 △Block Diagram Models; 2.7 △Signal-Flow Graph Models. | 10 | 0 | 0 | 0 | 0 | 10 |
+| 3 | 3 Feedback Control System Characteristics 3.1 Introduction; 3.2 △Error Signal Analysis; 3.3 Sensitivity of Control Systems to Parameter Variations; 3.4 Disturbance Signals in a Feedback Control System; 3.5 Control of the Transient Response; 3.6 Steady-State Error; 3.7 The Cost of Feedback. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 4 | 4 The Performance of Feedback Control Systems 4.1 Introduction; 4.2 Test Input Signals; 4.3 Performance of First-order Systems; 4.4 △Performance of Second-order Systems; 4.5 ★Effects of a Third Pole and a Zero on the Second-order System Response; 4.6 The s-plane Root Location and the Transient Response; 4.7 △The Steady-State Error of Feedback Control Systems; 4.8 Performance Indices; 4.9 The Simplification of Linear Systems. | 8 | 0 | 0 | 0 | 0 | 8 |
+| 5 | 5 The Stability of Linear Feedback Systems 5.1 △The Concept of Stability; 5.2 △The Routh-Hurwitz Stability Criterion; 5.3 The Relative Stability of Feedback Control Systems. | 4 | 0 | 0 | 0 | 0 | 4 |
+| 6 | 6 The Root Locus Method 6.1 Introduction; 6.2 The Root Locus Concept; 6.3 △The Root Locus Procedure; 6.4 ★Parameter Design by the Root Locus Method; 6.5 Three-Term (PID) Controllers. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 7 | 7 Frequency Response Methods 7.1 Introduction; 7.2 △Frequency Response Plots; 7.3 Frequency Response Measurements; 7.4 Performance Specifications in the Frequency Domain; 7.5 Log Magnitude and Phase Diagrams. | 6 | 0 | 0 | 0 | 0 | 6 |
+| 8 | 8 Stability in the Frequency Domain 8.1 Introduction; 8.2 ★Mapping Contours in the s-plane; 8.3 △★The Nyquist Criterion; 8.4 △Relative Stability and the Nyquist Criterion; 8.5 ★Time-Domain Performance Criteria in the Frequency Domain; 8.6 System Bandwidth. | 6 | 0 | 0 | 0 | 0 | 6 |
+| 9 | 9 The Design of Feedback Control Systems 9.1 Introduction; 9.2 Approaches to System Design; 9.3 Cascade Compensation Networks; 9.4 △Phase-Lead Design Using the Bode Diagram; 9.5 △Phase-Lag Design Using the Bode Diagram; 9.6 Combined Compensation. | 6 | 0 | 0 | 0 | 0 | 6 |
+
+- 第1章 思政融入: 自动控制理论发展史上，一批中外科学家敢于挑战自我，突破认知禁区，取得巨大成就，通过学习这些技术的发明过程和控制理论的建立过程，激发学生的科学精神。
+- 第3章 思政融入: 理解反馈概念和反馈技术在控制理论中的意义，学会采用反馈的原理指导个人行为和思想，达成科学目标。
+- 第5章 思政融入: 理解稳定性在控制系统性能指标要求中的重要性，理解稳定性在经济社会中的作用和意义，并能够理解导致系统不稳定因素的原因和机理，指导个人在行为和思想上消除不稳定因素方法。
+- 第8章 思政融入: 理解系统对不同噪声的滤波作用，通过频域分析法的学习掌握工业控制系统的一般性分析方法，为经济社会发展储备专业知识基础。
+- 第9章 思政融入: 理解系统对不同噪声的滤波作用，通过二阶系统的谐振特性，理解经济社会中关于共振问题的危害，和科学的应对方法，在未来生活和工作中学会抑制危害性共振的技术方法，利用专业知识保护国家财产安全，并培养科学的创新精神。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=10025402

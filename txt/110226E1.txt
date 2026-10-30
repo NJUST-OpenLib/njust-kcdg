@@ -1,0 +1,79 @@
+﻿# 概率与统计【英】
+
+课程编号: 110226E1
+英文名称: OProbability and Statistics[E]
+开课单位: 数学与统计学院
+学分: 3
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课(不含实践环节)
+- 课程负责人: 吕艳
+- 审核人: 许春根
+- 总学时: 48
+- 讲课学时: 48
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: Homework, Attendance, Classroom Performance, etc:20%；Online Learning:10%；Final Exam:70%
+
+## 课程目标
+
+1. Enable students to systematically acquire the basic concepts, theories and calculation methods of probability theory and mathematical statistics.
+2. Cultivate students' ability to use random thinking and statistical thinking to think about practical problems in their majors, possess a theoretical foundation in analyzing and processing data with randomness, and be able to use statistical methods and software to analyze and process data.
+3. Cultivate students' abstract and rigorous logical thinking and reasoning abilities, cultivate their exploratory spirit, scientific research literacy, and the ability to learn independently.
+
+## 课程简介
+
+“Probability and statistics”is a course that study and reveal statistical laws in random phenomena. Probability and statistics are closely related to reality, and they are widely used in natural sciences, technological sciences, social sciences, military, and industrial and agricultural production. They cover almost all scientific and technological fields and are the basic methods and tools for analyzing and solving problems with random characteristics in various disciplines. Probability and Statistics, as a compulsory public basic course for undergraduate students majoring in science and engineering at our university, focuses on introducing commonly used and basic concepts and methods of probability statistics in engineering technology. 
+
+The course content includes: basic concepts of probability theory, random variables and their distribution, multi-dimensional random variable and its distribution, numerical characteristics of random variables, laws of large numbers and the central limit theorem, sampling and sampling distributions, parameter estimation, hypothesis testing of the basic parameters ideas and methods. 
+
+The preparatory knowledge for this course is advanced mathematics and linear algebra.
+
+## 教学目的与要求
+
+This course is intended to serve the concept and method of probability theory and mathematical statistics. We provide the basic definitions, theorems and methods of probability theory, present the most frequently used distributions, provide several statistical methods and their applications. We are hopeful that this course will become a useful course for students who might not have a high level of mathematical maturity, and who expect to use the theory and methods in the studies in their own fields.
+
+## 教学内容
+
+1. Introduction to Probability 1.1 Experiments and Events △ 1.2 Set Theory 1.3 The Definition of Probability△ 1.4 Sample spaces; 1.5 Counting Methods 1.6 Combinatorial Methods 1.7 Multinomial Coefficients 1.8 The Probability of a Union of Events
+2. Conditional probability 2.1 The Definition of Conditional probability△ 2.2 Independent Events△ 2.3 Bayes’Theorem△★
+3. Random variables and Distribution 3.1 Random variables and Discrete Distributions 3.2 Continuous Distributions△★ 3.3 The Cumulative Distribution Function 3.4 Marginal Distribution△ 3.5 Functions of a Random Variable△ 3.6 Functions of Two or More Random Variables△
+4. Expectation 4.1 The Expectation of a Random Variable△ 4.2 Properties of Expectations△ 4.3 Variance△ 4.4 Moments★ 4.5 Covariance and Correlation△
+5. Special Distributions 5.1 Introduction 5.2 The Bernoulli and Binomial Distributions △ 5.3 The Poisson Distributions△ 5.4 The Normal Distributions△ 5.5 The Multinormal Distributions★
+6. Large Random Samples 6.1 The Law of Large Numbers△★ 6.2 The Central Limit Theorem△★
+7. Estimation 7.1 Moment Estimation Method △ 7. 2 Maximum Likelihood Estimation Method△★
+8 Testing Hypotheses 8.1 The t Test△★ 8.2 The F Distributions△★ 8.3 Problems of Testing Hypotheses△★
+
+## 课程思政
+
+Strengthen the core values of socialism and combine Chinese excellent traditional culture education with probability and statistics
+By explaining the basic theory and examples of probability theory, we can strengthen the education of "four self-confidence" of socialism with Chinese characteristics
+The concept of sample and population implies a dialectical relationship from part to whole and from finite to infinite
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | 1. Introduction to Probability 1.1 Experiments and Events △ 1.2 Set Theory 1.3 The Definition of Probability△ 1.4 Sample spaces; 1.5 Counting Methods 1.6 Combinatorial Methods 1.7 Multinomial Coefficients 1.8 The Probability of a Union of Events | 4 | 0 | 0 | 0 | 0 | 4 |
+| 2 | 2. Conditional probability 2.1 The Definition of Conditional probability△ 2.2 Independent Events△ 2.3 Bayes’Theorem△★ | 4 | 0 | 0 | 0 | 0 | 4 |
+| 3 | 3. Random variables and Distribution 3.1 Random variables and Discrete Distributions 3.2 Continuous Distributions△★ 3.3 The Cumulative Distribution Function 3.4 Marginal Distribution△ 3.5 Functions of a Random Variable△ 3.6 Functions of Two or More Random Variables△ | 12 | 0 | 0 | 0 | 0 | 12 |
+| 4 | 4. Expectation 4.1 The Expectation of a Random Variable△ 4.2 Properties of Expectations△ 4.3 Variance△ 4.4 Moments★ 4.5 Covariance and Correlation△ | 8 | 0 | 0 | 0 | 0 | 8 |
+| 5 | 5. Special Distributions 5.1 Introduction 5.2 The Bernoulli and Binomial Distributions △ 5.3 The Poisson Distributions△ 5.4 The Normal Distributions△ 5.5 The Multinormal Distributions★ | 4 | 0 | 0 | 0 | 0 | 4 |
+| 6 | 6. Large Random Samples 6.1 The Law of Large Numbers△★ 6.2 The Central Limit Theorem△★ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 7 | 7. Estimation 7.1 Moment Estimation Method △ 7. 2 Maximum Likelihood Estimation Method△★ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 8 | 8 Testing Hypotheses 8.1 The t Test△★ 8.2 The F Distributions△★ 8.3 Problems of Testing Hypotheses△★ | 4 | 0 | 0 | 0 | 0 | 4 |
+
+- 第1章 思政融入: Strengthen the core values of socialism and combine Chinese excellent traditional culture education with probability and statistics
+- 第2章 思政融入: By explaining the basic theory and examples of probability theory, we can strengthen the education of "four self-confidence" of socialism with Chinese characteristics
+- 第7章 思政融入: The concept of sample and population implies a dialectical relationship from part to whole and from finite to infinite
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=110226E1
