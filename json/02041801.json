@@ -1,0 +1,197 @@
+{
+ "code": "02041801",
+ "slug": "02041801",
+ "name": "电化学资源化技术与原理",
+ "nameEn": "Electrochemical Resource Recovery Technology and Principle",
+ "credit": 2,
+ "dept": "环境与生物工程学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 2870,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "魏卡佳",
+  "reviewer": "张强",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课程论文:60%；平时作业:40%",
+  "goals": [
+   "学习并了解国家提出碳达峰、碳中和“双碳”战略，了解循环经济与资源化目标",
+   "掌握电化学资源化技术基本原理",
+   "了解并掌握不同电化学资源化技术所需材料、作用机制与应用领域差异，形成知识网络",
+   "具备初步的量子化学工具使用能力",
+   "具备电化学、能源材料、计算化学、微生物等学科知识的交叉融合与综合运用能力"
+  ],
+  "intro": "资源回收与再生是实现“双碳”目标的重要战略手段。通过课程学习，学生将获得电化学资源化技术基础知识，为从事相关领域研究实践夯实基础。\n\n课程内容分为11章，分别为双碳战略与循环经济、电化学资源化技术分类及原理、电化学水资源回用技术、电化学盐回收技术、电化学无机合成技术、电化学有机合成技术、电化学能源回收技术、电化学能源储存技术、其他电化学资源化技术、计算化学辅助资源化过程应用与电化学资源化技术应用实例。\n\n学习本课程前，需要掌握大学物理或化学的基础知识。",
+  "objectives": "通过本课程的学习，学生将获得电化学资源化技术基础知识，为从事相关领域研究实践夯实基础。同时树立绿色发展与低碳生活观念，更好服务社会发展。\n\n通过本课程学习后，学生应掌握以下能力：\n\n（1）学习并了解国家提出碳达峰、碳中和“双碳”战略，了解循环经济与资源化目标；\n\n（2）掌握电化学资源化技术基本原理；\n\n（3）了解并掌握不同电化学资源化技术所需材料、作用机制与应用领域差异，形成知识网络；\n\n（4）具备初步的量子化学工具使用能力；\n\n（5）具备电化学、能源材料、计算化学、微生物等学科知识的交叉融合与综合运用能力。",
+  "contents": "双碳战略与循环经济\n电化学资源化技术分类及原理△★\n电化学水资源回用技术△\n电化学盐回收技术△\n电化学无机合成技术\n电化学有机合成技术★\n电化学能源回收技术（生物电化学）△\n电化学能源储存技术\n其他电化学资源化技术\n计算化学辅助资源化过程应用△★\n电化学资源化技术应用实例1\n电化学资源化技术应用实例2",
+  "ideology": "低碳生活，服务社会\n生态文明建设，绿色发展，美丽中国\n理论联系实际\n理论联系实际"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "双碳战略与循环经济",
+   "ideology": "低碳生活，服务社会",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "电化学资源化技术分类及原理△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "电化学水资源回用技术△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "电化学盐回收技术△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "电化学无机合成技术",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 6,
+   "title": "电化学有机合成技术★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 7,
+   "title": "电化学能源回收技术（生物电化学）△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 8,
+   "title": "电化学能源储存技术",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 9,
+   "title": "其他电化学资源化技术",
+   "ideology": "生态文明建设，绿色发展，美丽中国",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "计算化学辅助资源化过程应用△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 11,
+   "title": "电化学资源化技术应用实例1",
+   "ideology": "理论联系实际",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "电化学资源化技术应用实例2",
+   "ideology": "理论联系实际",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B3662503B2AF442A82A9C692BECCD21D",
+ "hasOriginal": true
+}

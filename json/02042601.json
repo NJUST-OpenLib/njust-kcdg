@@ -1,0 +1,183 @@
+{
+ "code": "02042601",
+ "slug": "02042601",
+ "name": "辐射生物安全",
+ "nameEn": "Radiation biosafety",
+ "credit": 2,
+ "dept": "环境与生物工程学院",
+ "active": false,
+ "hasOutline": true,
+ "seq": 2878,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "邵大冬",
+  "reviewer": "刘颖",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:50%；PPT展示:50%",
+  "goals": [
+   "掌握辐射生物安全基本知识",
+   "掌握辐射防护基本知识",
+   "了解核应用基础知识",
+   "了解核应用前沿动态"
+  ],
+  "intro": "辐射生物学是辐射防护与核安全专业的一门专业选修课，本课程主要讲授辐射生物学的基本概念，射线与生物材料作用的基本规律，肿瘤治疗中的放射生物学问题等。通过本课程的学生，可使学生掌握辐射生物学领域的专用单位、术语，理解辐射的生物学作用发生的过程及其在细胞和分子水平上的机理，能在实验室条件下准确应用放射性同位素，妥善评估和处理放射性同位素的安全问题。\n\n本课程所需的预备知识：放射化学和辐射防护的基本知识。",
+  "objectives": "通过课堂讲授、答疑、学生自学等教学手段，使学生了解各种射线的基本特性，射线与生物材料作用的原初过程以及生物材料在细胞及分子水平上发生的变化。在内容上注重结合我国辐射防护及核安全研究的现状，力求反映当前国内外的发展趋势，为从事辐射生物学基础研究和辐射防护及核安全工作打下理论基础。",
+  "contents": "辐射生物学基础知识\n辐射效应影响因素\n辐射诱导的细胞死亡及其存活曲线基础知识\n靶学说基础知识\n辐射对DNA分子损伤基础知识\n细胞对辐射损伤的DNA修复作用基础知识\n辐射对细胞膜的影响基础知识\n医学中放射生物学问题\n实验室标记化合物\n实验室放射卫生防护\n辐射生物学最新进展",
+  "ideology": "了解辐射基础知识，科学认识辐射\n了解国家在核燃料管理方面的法律法规与成功经验\n了解我国在核医学方面的成就\n了解我国在公共辐射安全的巨大成就"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "辐射生物学基础知识",
+   "ideology": "了解辐射基础知识，科学认识辐射",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "辐射效应影响因素",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "辐射诱导的细胞死亡及其存活曲线基础知识",
+   "ideology": "了解国家在核燃料管理方面的法律法规与成功经验",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "靶学说基础知识",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "辐射对DNA分子损伤基础知识",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "细胞对辐射损伤的DNA修复作用基础知识",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "辐射对细胞膜的影响基础知识",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "医学中放射生物学问题",
+   "ideology": "了解我国在核医学方面的成就",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 9,
+   "title": "实验室标记化合物",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "实验室放射卫生防护",
+   "ideology": "了解我国在公共辐射安全的巨大成就",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 11,
+   "title": "辐射生物学最新进展",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A2FE02EC995A42B4842595C8A5DA5F9B",
+ "hasOriginal": true
+}
