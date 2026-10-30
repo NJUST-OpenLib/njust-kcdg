@@ -1,28 +1,26 @@
-﻿# 新能源发电技术
-
-课程编号: 10040902
-英文名称: New Energy Generation Technology
-开课单位: 自动化学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 10040902
+- 课程名称(中): 新能源发电技术
 - 授课语种: 中文
+- 课程名称(英): New Energy Generation Technology
+- 开课单位: 自动化学院
 - 课程类别: 理论课（不含实践）
-- 课程负责人: 戚志东
+- 课程负责人(执笔人): 戚志东
 - 审核人: 杨飞
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考试
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: 课题表现:20%；作品展示:40%；课程论文:40%
 
-## 课程目标
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
+
+本课程是自动化、电子信息工程、电气工程及其自动化专业的重要专业选修课之一，是专业培养过程中的一个重要环节。通过讲解可使学生能够了解中国的能源现状和中国新能源的发展现状，掌握太阳能光伏发电、太阳能热发电、风力发电技术、地热能、海洋能、可燃冰、氢能的基本原理，熟悉了解各种新能源技术发展的历史、利用现状和发展前景。此课程是电气工程及自动化学科学生扩充知识面，培养专业素养，了解学科发展最新动向及趋势的重要途径，通过学习使学生了解新能源开发利用的重要性和必要性，为有志于从事新能源开发的同学打下坚实的基础。修学该课程必须具有的预备知识包括模拟电子、数字电子、电力电子技术、控制工程与基础等基础课程的理论和专业内容。
+
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
+
+本课程是主要讲授新能源技术及其应用的相关理论知识和工程设计应用实践，是一门融新知识、新理论和新技术于一体的综合课程。随着世界范围新能源的开发力度加大，中国也把新能源的发展作为后续能源给予了充分的肯定，新能源也开始逐步应用到生产生活的多个方面。通过讲解可使学生掌握新能源与可再生能源的现状及发展前景，拓宽学生的知识面，对各种新型发电技术的原理和应用现状进行分析，培养学生树立环境友好发电、分布式发电的良好意识。主要教学目标有：(1) 通过本课程的学习，使学生能够了解我国新能源与可再生能源的现状，帮助学生学习和掌握能源利用技术的前沿动态，培养学生树立环境友好发电的良好意识。(2) 通过除火力发电以外的能源利用形式及其相关技术的学习，拓宽学生的知识面。掌握太阳能，风能，生物质，地热和潮汐能及燃料电池发电的基本原理及系统的构成。(3) 通过学习基本概念和关键技术，特别是风能和太阳能供电系统设计及燃料电池发电技术，为有志于从事新能源与可再生能源的开发利用者打下一定的技术基础。（4)具备基本的各种新能源发电方案的设计和分析能力，能够具体掌握一到两种新能源发电技术的核心理论和实现技术。通过本课程的学习，培养学生勤奋刻苦的求学精神和追求真理的科学精神，以及社会责任感和使命意识。
+
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
 1. 了解新能源现状，掌握技术动态，培养环保发电意识
 2. 掌握各项新能源发电技术，学会解决发电技术问题
@@ -30,57 +28,49 @@
 4. 小组协作完成某种新能源技术的学习和汇报
 5. 跟踪技术前沿，立足于学习和研究最新的新能源发电技术
 
-## 课程简介
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-本课程是自动化、电子信息工程、电气工程及其自动化专业的重要专业选修课之一，是专业培养过程中的一个重要环节。通过讲解可使学生能够了解中国的能源现状和中国新能源的发展现状，掌握太阳能光伏发电、太阳能热发电、风力发电技术、地热能、海洋能、可燃冰、氢能的基本原理，熟悉了解各种新能源技术发展的历史、利用现状和发展前景。此课程是电气工程及自动化学科学生扩充知识面，培养专业素养，了解学科发展最新动向及趋势的重要途径，通过学习使学生了解新能源开发利用的重要性和必要性，为有志于从事新能源开发的同学打下坚实的基础。修学该课程必须具有的预备知识包括模拟电子、数字电子、电力电子技术、控制工程与基础等基础课程的理论和专业内容。
+| 考核方式 | 1 | 2 | 3 | 合计 |
+|---|---|---|---|---|
+| 名称 | 课题表现 | 作品展示 | 课程论文 | |
+| 占比 | 20% | 40% | 40% | 100% |
 
-## 教学目的与要求
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-本课程是主要讲授新能源技术及其应用的相关理论知识和工程设计应用实践，是一门融新知识、新理论和新技术于一体的综合课程。随着世界范围新能源的开发力度加大，中国也把新能源的发展作为后续能源给予了充分的肯定，新能源也开始逐步应用到生产生活的多个方面。通过讲解可使学生掌握新能源与可再生能源的现状及发展前景，拓宽学生的知识面，对各种新型发电技术的原理和应用现状进行分析，培养学生树立环境友好发电、分布式发电的良好意识。主要教学目标有：(1) 通过本课程的学习，使学生能够了解我国新能源与可再生能源的现状，帮助学生学习和掌握能源利用技术的前沿动态，培养学生树立环境友好发电的良好意识。(2) 通过除火力发电以外的能源利用形式及其相关技术的学习，拓宽学生的知识面。掌握太阳能，风能，生物质，地热和潮汐能及燃料电池发电的基本原理及系统的构成。(3) 通过学习基本概念和关键技术，特别是风能和太阳能供电系统设计及燃料电池发电技术，为有志于从事新能源与可再生能源的开发利用者打下一定的技术基础。（4)具备基本的各种新能源发电方案的设计和分析能力，能够具体掌握一到两种新能源发电技术的核心理论和实现技术。通过本课程的学习，培养学生勤奋刻苦的求学精神和追求真理的科学精神，以及社会责任感和使命意识。
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | 引言 Introduction：能源的含义、分类及历史演变Meaning, Classification and Historical Evolution of Energy； 中国能源现状、问题与对策China 's Energy Status, Problems and Countermeasures； 新能源技术的分类和简介 New Energy Technology Classification and Introduction | 3 | 3 |
+| 2 | 太阳能光伏发电技术Solar Photovoltaic Technology：太阳能发电简介Solar Photovoltaic Introduction；★太阳能光伏发电原理Solar Photovoltaic Fundamental；★太阳能发电系统Solar Photovoltaic Generation System | 3 | 3 |
+| 3 | 太阳能热发电技术 Solar Energy Heat Exchange Technology：△太阳能热发电技术Solar Energy Heat Exchange Technology; 太阳能供暖技术Solar Energy Heating Technology；★太阳能制冷技术Solar Energy Refrigeration Technology；太阳能热水系统Solar hot water system | 2 | 2 |
+| 4 | 太阳能光伏并网系统Solar Energy Photovoltaic Grid-Connected Power System：太阳能光伏并网系统Solar Energy Photovoltaic Grid-Connected Power System；太阳能光伏独立系统Solar Energy Photovoltaic Independent System | 3 | 3 |
+| 5 | 海洋能Ocean Energy：海洋能五种主要发电方式 Ocean Energy Production；海洋能利用展望Ocean Energy Prospects | 3 | 3 |
+| 6 | 风力发电技术Wind Energy：★风与风力发电现状 Wind Power Capacity and Production；★风力发电原理及运行方式Wind Energy Fundamental；风力发电现状与展望Wind Energy Current Situation and Prospects | 3 | 3 |
+| 7 | 地热发电技术Geothermal Energy：地热基本知识 Geothermal Basic Knowledge；△地热发电原理与技术 Geothermal Power Generation Principle and Technology；地热资源 Geothermal Resources | 2 | 2 |
+| 8 | 核能Nuclear Energy：△★核能发电技术Nuclear Power Generation Technology；△核能供热Nuclear Heating；核安全及核废料处理Nuclear Safety and Nuclear Waste Treatment | 3 | 3 |
+| 9 | 生物质能发电技术Biomass Energy： △生物质能转换和发电技术Biomass Conversion and Power Generation Technologies； 生物质能利用现状Biomass Utilization； 生物质能发电前景预测 Biomass Power Generation Prospects | 2 | 2 |
+| 10 | 可燃冰Flammable Ice：△可燃冰的成因Flammable Ice Structure and Composition;可燃冰的分布情况The Distribution of Flammable Ice;可燃冰的勘测与开采 Investigation and Exploitation of Flammable Ice | 2 | 2 |
+| 11 | 氢能Hydrogen Energy：★氢能的制备Hydrogen Production；氢能的存储和运输Hydrogen Energy Storage and Transportation；★氢能的利用Hydrogen Utilization | 3 | 3 |
+| 12 | 燃料电池技术Fuel Cell Technology： ★燃料电池的基本原理 Fuel Cell Technology Fundamental；磷酸型燃料电池 Phosphoric Acid Fuel Cell；熔融碳酸盐燃料电池 Molten Carbonate Fuel Cell；固体电解质型燃料电池 Solid Electrolyte Fuel Cell；△质子交换膜燃料电池 Proton Exchange Membrane Fuel Cell | 3 | 3 |
+| 合计 |  | 32 | 32 |
 
-## 教学内容
+- 第2章 思政融入点：1.太阳能光伏发电技术包含发电原理、最新技术与发展现状，通过中国光伏发电的发展现状树立学生的技术自信和民族自豪感；2.理论联系实际，培养学生解决复杂综合问题的能力。
+- 第8章 思政融入点：1.阐述核能的原理、组成及最新技术，通过我国核能的探索和成功经验增强学生的民族自信。2.通过核能仍然存在的技术难题和安全问题激发学生探索未知和解决复杂综合问题的能力。
+- 第11章 思政融入点：1.氢能是21世纪最有希望的能源，高效环保，培养学生创新、协调、绿色、开发和共享的五大发展理念。3.通过氢能的开发和使用技术培养学生的创新意识，帮助学生树立追求整理、献身科学的精神。
+- 第12章 思政融入点：1.燃料电池技术是氢能技术的主要应用技术之一，激发学生了解、开发和使用新技术的渴望。2.理论联系实际，培养学生解决复杂综合问题的能力。3.坚定社会主义发展道路的信念。
 
-引言 Introduction：能源的含义、分类及历史演变Meaning, Classification and Historical Evolution of Energy； 中国能源现状、问题与对策China 's Energy Status, Problems and Countermeasures； 新能源技术的分类和简介 New Energy Technology Classification and Introduction
-太阳能光伏发电技术Solar Photovoltaic Technology：太阳能发电简介Solar Photovoltaic Introduction；★太阳能光伏发电原理Solar Photovoltaic Fundamental；★太阳能发电系统Solar Photovoltaic Generation System
-太阳能热发电技术 Solar Energy Heat Exchange Technology：△太阳能热发电技术Solar Energy Heat Exchange Technology; 太阳能供暖技术Solar Energy Heating Technology；★太阳能制冷技术Solar Energy Refrigeration Technology；太阳能热水系统Solar hot water system
-太阳能光伏并网系统Solar Energy Photovoltaic Grid-Connected Power System：太阳能光伏并网系统Solar Energy Photovoltaic Grid-Connected Power System；太阳能光伏独立系统Solar Energy Photovoltaic Independent System
-海洋能Ocean Energy：海洋能五种主要发电方式 Ocean Energy Production；海洋能利用展望Ocean Energy Prospects
-风力发电技术Wind Energy：★风与风力发电现状 Wind Power Capacity and Production；★风力发电原理及运行方式Wind Energy Fundamental；风力发电现状与展望Wind Energy Current Situation and Prospects
-地热发电技术Geothermal Energy：地热基本知识 Geothermal Basic Knowledge；△地热发电原理与技术 Geothermal Power Generation Principle and Technology；地热资源 Geothermal Resources
-核能Nuclear Energy：△★核能发电技术Nuclear Power Generation Technology；△核能供热Nuclear Heating；核安全及核废料处理Nuclear Safety and Nuclear Waste Treatment
-生物质能发电技术Biomass Energy： △生物质能转换和发电技术Biomass Conversion and Power Generation Technologies； 生物质能利用现状Biomass Utilization； 生物质能发电前景预测 Biomass Power Generation Prospects
-可燃冰Flammable Ice：△可燃冰的成因Flammable Ice Structure and Composition;可燃冰的分布情况The Distribution of Flammable Ice;可燃冰的勘测与开采 Investigation and Exploitation of Flammable Ice
-氢能Hydrogen Energy：★氢能的制备Hydrogen Production；氢能的存储和运输Hydrogen Energy Storage and Transportation；★氢能的利用Hydrogen Utilization
-燃料电池技术Fuel Cell Technology： ★燃料电池的基本原理 Fuel Cell Technology Fundamental；磷酸型燃料电池 Phosphoric Acid Fuel Cell；熔融碳酸盐燃料电池 Molten Carbonate Fuel Cell；固体电解质型燃料电池 Solid Electrolyte Fuel Cell；△质子交换膜燃料电池 Proton Exchange Membrane Fuel Cell
+## 实验项目
 
-## 课程思政
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
 
-1.太阳能光伏发电技术包含发电原理、最新技术与发展现状，通过中国光伏发电的发展现状树立学生的技术自信和民族自豪感；2.理论联系实际，培养学生解决复杂综合问题的能力。
-1.阐述核能的原理、组成及最新技术，通过我国核能的探索和成功经验增强学生的民族自信。2.通过核能仍然存在的技术难题和安全问题激发学生探索未知和解决复杂综合问题的能力。
-1.氢能是21世纪最有希望的能源，高效环保，培养学生创新、协调、绿色、开发和共享的五大发展理念。3.通过氢能的开发和使用技术培养学生的创新意识，帮助学生树立追求整理、献身科学的精神。
-1.燃料电池技术是氢能技术的主要应用技术之一，激发学生了解、开发和使用新技术的渴望。2.理论联系实际，培养学生解决复杂综合问题的能力。3.坚定社会主义发展道路的信念。
+## 教材与参考书目
 
-## 章节安排
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| 《新能源技术》第三版 | 翟秀静，刘奎仁，韩庆 | 9787122287861 | 化学工业出版社 | 2017 |
+| Renewable and efficient electric power systems | Gilbert M. Masters | - | IEEE press | 2013 |
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | 引言 Introduction：能源的含义、分类及历史演变Meaning, Classification and Historical Evolution of Energy； 中国能源现状、问题与对策China 's Energy Status, Problems and Countermeasures； 新能源技术的分类和简介 New Energy Technology Classification and Introduction | 3 | 0 | 0 | 0 | 0 | 3 |
-| 2 | 太阳能光伏发电技术Solar Photovoltaic Technology：太阳能发电简介Solar Photovoltaic Introduction；★太阳能光伏发电原理Solar Photovoltaic Fundamental；★太阳能发电系统Solar Photovoltaic Generation System | 3 | 0 | 0 | 0 | 0 | 3 |
-| 3 | 太阳能热发电技术 Solar Energy Heat Exchange Technology：△太阳能热发电技术Solar Energy Heat Exchange Technology; 太阳能供暖技术Solar Energy Heating Technology；★太阳能制冷技术Solar Energy Refrigeration Technology；太阳能热水系统Solar hot water system | 2 | 0 | 0 | 0 | 0 | 2 |
-| 4 | 太阳能光伏并网系统Solar Energy Photovoltaic Grid-Connected Power System：太阳能光伏并网系统Solar Energy Photovoltaic Grid-Connected Power System；太阳能光伏独立系统Solar Energy Photovoltaic Independent System | 3 | 0 | 0 | 0 | 0 | 3 |
-| 5 | 海洋能Ocean Energy：海洋能五种主要发电方式 Ocean Energy Production；海洋能利用展望Ocean Energy Prospects | 3 | 0 | 0 | 0 | 0 | 3 |
-| 6 | 风力发电技术Wind Energy：★风与风力发电现状 Wind Power Capacity and Production；★风力发电原理及运行方式Wind Energy Fundamental；风力发电现状与展望Wind Energy Current Situation and Prospects | 3 | 0 | 0 | 0 | 0 | 3 |
-| 7 | 地热发电技术Geothermal Energy：地热基本知识 Geothermal Basic Knowledge；△地热发电原理与技术 Geothermal Power Generation Principle and Technology；地热资源 Geothermal Resources | 2 | 0 | 0 | 0 | 0 | 2 |
-| 8 | 核能Nuclear Energy：△★核能发电技术Nuclear Power Generation Technology；△核能供热Nuclear Heating；核安全及核废料处理Nuclear Safety and Nuclear Waste Treatment | 3 | 0 | 0 | 0 | 0 | 3 |
-| 9 | 生物质能发电技术Biomass Energy： △生物质能转换和发电技术Biomass Conversion and Power Generation Technologies； 生物质能利用现状Biomass Utilization； 生物质能发电前景预测 Biomass Power Generation Prospects | 2 | 0 | 0 | 0 | 0 | 2 |
-| 10 | 可燃冰Flammable Ice：△可燃冰的成因Flammable Ice Structure and Composition;可燃冰的分布情况The Distribution of Flammable Ice;可燃冰的勘测与开采 Investigation and Exploitation of Flammable Ice | 2 | 0 | 0 | 0 | 0 | 2 |
-| 11 | 氢能Hydrogen Energy：★氢能的制备Hydrogen Production；氢能的存储和运输Hydrogen Energy Storage and Transportation；★氢能的利用Hydrogen Utilization | 3 | 0 | 0 | 0 | 0 | 3 |
-| 12 | 燃料电池技术Fuel Cell Technology： ★燃料电池的基本原理 Fuel Cell Technology Fundamental；磷酸型燃料电池 Phosphoric Acid Fuel Cell；熔融碳酸盐燃料电池 Molten Carbonate Fuel Cell；固体电解质型燃料电池 Solid Electrolyte Fuel Cell；△质子交换膜燃料电池 Proton Exchange Membrane Fuel Cell | 3 | 0 | 0 | 0 | 0 | 3 |
-
-- 第2章 思政融入: 1.太阳能光伏发电技术包含发电原理、最新技术与发展现状，通过中国光伏发电的发展现状树立学生的技术自信和民族自豪感；2.理论联系实际，培养学生解决复杂综合问题的能力。
-- 第8章 思政融入: 1.阐述核能的原理、组成及最新技术，通过我国核能的探索和成功经验增强学生的民族自信。2.通过核能仍然存在的技术难题和安全问题激发学生探索未知和解决复杂综合问题的能力。
-- 第11章 思政融入: 1.氢能是21世纪最有希望的能源，高效环保，培养学生创新、协调、绿色、开发和共享的五大发展理念。3.通过氢能的开发和使用技术培养学生的创新意识，帮助学生树立追求整理、献身科学的精神。
-- 第12章 思政融入: 1.燃料电池技术是氢能技术的主要应用技术之一，激发学生了解、开发和使用新技术的渴望。2.理论联系实际，培养学生解决复杂综合问题的能力。3.坚定社会主义发展道路的信念。
+注意：*字段为必填项
 
 ---
 
