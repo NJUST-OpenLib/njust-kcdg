@@ -1,6 +1,7 @@
 <!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>南京理工大学 · 课程大纲索引</title>
+<title>南京理工大学课程大纲镜像</title>
+<meta name="description" content="南京理工大学教务系统课程总库离线镜像，收录 12991 门课程基础信息与 1181 份课程教学大纲，提供 HTML / JSON / TXT 多种格式。">
 <style>
 :root{--fg:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--bg:#fff;--soft:#f8f9fb;--accent:#1a5fb4;--warn:#8a5a00;--warnbg:#fff8e6}
 *{box-sizing:border-box}
@@ -70,122 +71,149 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
 
 body{background:#fff}
-.wrap{max-width:1080px}
-.bar{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);padding:18px 0 14px;border-bottom:1px solid var(--line);z-index:10;margin-bottom:8px}
-.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-input[type=search],select{font:inherit;font-size:14px;padding:9px 13px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--fg);outline:none}
-input[type=search]{flex:1;min-width:200px}
-input[type=search]:focus,select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(26,95,180,.09)}
-.stat{font-size:13px;color:var(--muted);margin-top:10px}
-.stat b{color:var(--fg);font-weight:600}
-table{width:100%;border-collapse:collapse;font-size:14px}
-thead th{position:sticky;top:74px;background:#fff;text-align:left;font-size:12.5px;color:var(--muted);font-weight:600;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap;z-index:5}
-tbody td{padding:10px 12px;border-bottom:1px solid #f1f2f4;vertical-align:top}
-tbody tr:hover{background:#fafbfc}
-td.code{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px;white-space:nowrap;width:96px}
-td.name a{color:var(--fg);text-decoration:none;font-weight:500}
-td.name a:hover{color:var(--accent)}
-td.credit{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;width:56px}
-td.dept{color:#4b5563;font-size:13px;width:210px}
-td.st{width:74px}
-.tag{display:inline-block;padding:1px 7px;border-radius:9px;font-size:11.5px;white-space:nowrap}
-.tag.on{background:#e6f4ea;color:#1a7f37}
-.tag.off{background:#f1f2f4;color:#6b7280}
-.tag.no{background:#fff3e0;color:#a86300}
-.tag.yes{background:#e8f1fb;color:#1a5fb4}
-.empty{text-align:center;color:var(--muted);padding:60px 0;font-size:14px}
-.more{text-align:center;padding:22px 0 60px}
-.more button{font:inherit;font-size:14px;padding:9px 26px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--accent);cursor:pointer}
-.more button:hover{border-color:var(--accent);background:#f5f9ff}
+.wrap{max-width:880px;padding-top:52px;padding-bottom:64px}
+.hero{padding:8px 0 0}
+.eyebrow{display:inline-block;font-size:11.5px;letter-spacing:.14em;color:var(--muted);
+  border:1px solid var(--line);border-radius:20px;padding:4px 13px;margin-bottom:22px}
+h1{font-size:40px;line-height:1.18;letter-spacing:-.025em;margin:0 0 18px;font-weight:700}
+.lede{font-size:16.5px;line-height:1.8;color:#3f4653;margin:0 0 30px;max-width:660px}
+.lede b{font-weight:600;color:var(--fg);font-variant-numeric:tabular-nums}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 22px;border-radius:8px;font-size:14.5px;text-decoration:none;
+  border:1px solid var(--line);color:var(--fg);background:#fff;transition:.15s}
+.btn:hover{border-color:#c2c8d0}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:500}
+.btn.primary:hover{background:#164e93;border-color:#164e93}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:46px 0 0}
+.stats div{background:#fff;padding:18px 14px;text-align:center}
+.stats b{display:block;font-size:25px;font-weight:650;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums;line-height:1.25}
+.stats span{font-size:12px;color:var(--muted)}
+h2{font-size:20px;font-weight:650;margin:56px 0 16px;letter-spacing:-.01em}
+.sec-note{font-size:14px;color:var(--muted);line-height:1.8;margin:-6px 0 18px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{border:1px solid var(--line);border-radius:10px;padding:20px 18px;background:#fff;transition:.18s}
+.card:hover{border-color:#d3d8df;box-shadow:0 2px 14px rgba(16,24,40,.055)}
+.card .n{font-size:11.5px;color:#9aa1ab;font-variant-numeric:tabular-nums;letter-spacing:.1em;margin-bottom:10px}
+.card h3{font-size:15.5px;margin:0 0 8px;font-weight:600}
+.card p{font-size:13.5px;line-height:1.8;color:#4b5563;margin:0}
+.card a{display:inline-block;margin-top:10px;font-size:13px;color:var(--accent);text-decoration:none}
+.card a:hover{text-decoration:underline}
+table.api{width:100%;border-collapse:collapse;font-size:13.5px}
+table.api th{background:var(--soft);text-align:left;font-size:12.5px;color:var(--muted);
+  font-weight:600;padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+table.api td{padding:10px 12px;border-bottom:1px solid #f1f2f4;vertical-align:top;line-height:1.75}
+table.api td:first-child{white-space:nowrap;font-weight:500;width:96px}
+table.api td:nth-child(2){white-space:nowrap;width:190px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;
+  background:#f2f4f7;border-radius:4px;padding:1.5px 6px;color:#24292f}
+pre{background:#f6f8fa;border:1px solid var(--line);border-radius:8px;padding:14px 16px;
+  overflow:auto;margin:12px 0}
+pre code{background:none;padding:0;font-size:12.5px;line-height:1.75}
+ul.limits{margin:14px 0 0;padding-left:20px;font-size:13.5px;line-height:1.85;color:#4b5563}
+ul.limits li{margin-bottom:6px}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+details.ft{border-top:1px solid var(--line)}
+summary{cursor:pointer;font-size:14.5px;font-weight:500;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";color:var(--muted);margin-right:10px;font-weight:400}
+details[open] summary::before{content:"\2212"}
+details p{margin:10px 0 2px 22px;font-size:13.5px;line-height:1.8;color:#4b5563}
+footer{margin-top:64px}
+@media(max-width:720px){
+  h1{font-size:30px}.stats{grid-template-columns:repeat(2,1fr)}
+  .cards{grid-template-columns:1fr}table.api td:nth-child(2){white-space:normal;width:auto}
+}
 </style></head><body><div class="wrap">
-<h1>课程大纲索引</h1>
-<div class="sub">南京理工大学课程总库离线快照 · 共 <b>12,991</b> 门课程，其中 <b>1,181</b> 门附课程大纲</div>
 
-<div class="bar">
-<div class="row">
-<input type="search" id="q" placeholder="搜索课程名称或课程编号…" autocomplete="off">
-<select id="dept"><option value="">全部开课单位</option></select>
-<select id="ol"><option value="">全部课程</option><option value="1">仅看有纲课程</option><option value="0">仅看无纲课程</option></select>
-<select id="st"><option value="">全部状态</option><option value="1">在用</option><option value="0">停用</option></select>
-</div>
-<div class="stat" id="stat"></div>
-</div>
-
-<table><thead><tr><th>编号</th><th>课程名称</th><th style="text-align:right">学分</th><th>开课单位</th><th>状态</th><th>大纲</th></tr></thead>
-<tbody id="tb"></tbody></table>
-<div class="empty" id="empty" style="display:none">没有匹配的课程</div>
-<div class="more" id="more" style="display:none"><button id="btnMore">加载更多</button></div>
-
-<footer>数据来源：南京理工大学教务系统课程总库（bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz）。<br>
-实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp　校外使用Webvpn：webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp）
-<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer>
+<div class="hero">
+  <div class="eyebrow">非官方 · 离线镜像</div>
+  <h1>南京理工大学课程大纲镜像</h1>
+  <p class="lede">收录南京理工大学教务系统「课程总库」全部 <b>12,991</b> 门课程的基础信息，
+     其中 <b>1,181</b> 门附有完整的课程教学大纲。整站为纯静态文件，
+     可直接浏览，也可按固定路径取用 JSON / TXT 数据。数据采集于 2026-10-29。</p>
+  <div class="cta">
+    <a class="btn primary" href="courses.html">浏览课程库 →</a>
+    <a class="btn" href="#api">接口说明</a>
+  </div>
 </div>
 
-<script>
-const PAGE = 200;
-let ALL = [], VIEW = [], shown = 0, timer = null;
-const $ = id => document.getElementById(id);
+<div class="stats">
+  <div><b>12,991</b><span>课程总数</span></div>
+  <div><b>1,181</b><span>附课程大纲</span></div>
+  <div><b>46</b><span>开课单位</span></div>
+  <div><b>11,530</b><span>在用课程</span></div>
+</div>
 
-function tag(c){
-  const s = c.active ? '<span class="tag on">在用</span>' : '<span class="tag off">停用</span>';
-  return s;
-}
-function ol(c){
-  return c.hasOutline ? '<span class="tag yes">有</span>' : '<span class="tag no">无</span>';
-}
+<h2>怎么用</h2>
+<div class="cards">
+  <div class="card">
+    <div class="n">01</div>
+    <h3>查一门课</h3>
+    <p>进课程库，按课程名称或编号搜索，可按开课单位、有无大纲、在用状态筛选。</p>
+    <a href="courses.html">进入课程库 →</a>
+  </div>
+  <div class="card">
+    <div class="n">02</div>
+    <h3>存一份</h3>
+    <p>每门课程页面<b>上方</b>有四个入口：排版好的 HTML、结构化 JSON、纯文本 TXT，以及源系统原始页面。</p>
+  </div>
+  <div class="card">
+    <div class="n">03</div>
+    <h3>批量调用</h3>
+    <p>本站是静态站点，没有查询接口。按下面的路径规则直接取文件即可，无需鉴权。</p>
+    <a href="#api">看接口说明 →</a>
+  </div>
+</div>
 
-function render(reset){
-  if (reset){ $('tb').innerHTML = ''; shown = 0; }
-  const frag = document.createDocumentFragment();
-  const end = Math.min(shown + PAGE, VIEW.length);
-  for (let i = shown; i < end; i++){
-    const c = VIEW[i];
-    const tr = document.createElement('tr');
-    tr.innerHTML = '<td class="code">' + (c.code || '—') + '</td>'
-      + '<td class="name"><a href="html/' + c.slug + '.html">' + esc(c.name) + '</a></td>'
-      + '<td class="credit">' + (c.credit === null ? '—' : c.credit) + '</td>'
-      + '<td class="dept">' + esc(c.dept || '—') + '</td>'
-      + '<td class="st">' + tag(c) + '</td>'
-      + '<td class="st">' + ol(c) + '</td>';
-    frag.appendChild(tr);
-  }
-  $('tb').appendChild(frag);
-  shown = end;
-  $('more').style.display = shown < VIEW.length ? 'block' : 'none';
-  $('empty').style.display = VIEW.length ? 'none' : 'block';
-  $('stat').innerHTML = '匹配 <b>' + VIEW.length.toLocaleString() + '</b> 门，当前显示 ' + shown.toLocaleString() + ' 门';
-}
-function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+<h2 id="api">接口说明</h2>
+<p class="sec-note">按课程编号取数据，路径固定。已开启跨域（<code>Access-Control-Allow-Origin: *</code>），浏览器里可直接 fetch，无需代理。</p>
+<table class="api">
+  <thead><tr><th>用途</th><th>路径</th><th>说明</th></tr></thead>
+  <tbody>
+    <tr><td>全量清单</td><td><code>/index.json</code></td>
+        <td>全部课程条目，约 2 MB（gzip 后约 330 KB）。字段：<code>code</code> <code>slug</code> <code>name</code> <code>nameEn</code> <code>credit</code> <code>dept</code> <code>active</code> <code>hasOutline</code></td></tr>
+    <tr><td>单课数据</td><td><code>/json/{code}.json</code></td>
+        <td>基本信息 + 课程介绍 + 课程目标 + 章节内容与学时 + 教材 + 实验项目</td></tr>
+    <tr><td>纯文本</td><td><code>/txt/{code}.txt</code></td>
+        <td>UTF-8 带 BOM，记事本可直接打开</td></tr>
+    <tr><td>排版页面</td><td><code>/html/{code}.html</code></td>
+        <td>渲染好的课程页面，含原始字段与全部大纲内容</td></tr>
+    <tr><td>原件镜像</td><td><code>/original/{code}.html</code></td>
+        <td>源系统原始页面，仅 1,181 门有</td></tr>
+  </tbody>
+</table>
+<pre><code># 取全量清单
+curl https://kcdg.njust.store/index.json
 
-function apply(){
-  const q = $('q').value.trim().toLowerCase();
-  const d = $('dept').value, o = $('ol').value, s = $('st').value;
-  VIEW = ALL.filter(c => {
-    if (d && c.dept !== d) return false;
-    if (o && String(c.hasOutline ? 1 : 0) !== o) return false;
-    if (s && String(c.active ? 1 : 0) !== s) return false;
-    if (q){
-      const hit = (c.name || '').toLowerCase().includes(q)
-               || (c.code || '').toLowerCase().includes(q)
-               || (c.nameEn || '').toLowerCase().includes(q);
-      if (!hit) return false;
-    }
-    return true;
-  });
-  render(true);
-}
+# 取单门课程（以 10063001 数据结构 为例）
+curl https://kcdg.njust.store/json/10063001.json</code></pre>
+<pre><code>const list = await (await fetch('https://kcdg.njust.store/index.json')).json();
+const hit  = list.filter(c =&gt; c.name.includes('数据结构'));
+const data = await (await fetch(`https://kcdg.njust.store/json/${hit[0].code}.json`)).json();</code></pre>
+<ul class="limits">
+  <li>只能按课程编号精确取，<b>没有搜索、筛选、分页接口</b>；要搜索请拉 <code>index.json</code> 在本地过滤。</li>
+  <li>12,991 门课程中仅 1,181 门有完整大纲，其余只有基本信息。</li>
+  <li>有 1 门课程缺编号，它的路径是 <code>/json/seq1.json</code>。</li>
+  <li>无鉴权、无限流、无可用性承诺；数据为快照，随时可能重新生成。请自行缓存，避免频繁拉取全量清单。</li>
+</ul>
 
-fetch('index.json').then(r => r.json()).then(data => {
-  ALL = data;
-  const ds = [...new Set(ALL.map(c => c.dept).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'zh'));
-  const sel = $('dept');
-  ds.forEach(d => { const op = document.createElement('option'); op.value = d; op.textContent = d; sel.appendChild(op); });
-  apply();
-}).catch(e => {
-  $('stat').textContent = '索引加载失败：' + e.message;
-});
+<h2>数据说明</h2>
+<p class="sec-note">数据抓取自南京理工大学教务系统「课程总库」，为 2026-10-29 的离线快照，可能与教务系统实时数据存在差异，请以教务系统为准。
+本站由个人搭建与维护，与学校官方无关，仅供学习与查阅使用。如原始内容有出入，请以学校教务系统显示的版本为准。</p>
 
-$('q').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(apply, 120); });
-['dept','ol','st'].forEach(id => $(id).addEventListener('change', apply));
-$('btnMore').addEventListener('click', () => render(false));
-</script></body></html>
+<h2>常见问题</h2>
+<details class="ft"><summary>为什么有些课程没有教学大纲？</summary>
+  <p>源系统里这 12,991 门课程中只有 1,181 门录入了大纲，其余课程本身就没有上传，不是抓取遗漏。课程库里可以用「仅看有纲课程」筛选。</p></details>
+<details><summary>数据多久更新一次？</summary>
+  <p>手工触发重新抓取，没有固定周期。当前快照日期为 2026-10-29，页脚会标注实际采集日期。</p></details>
+<details><summary>可以批量下载吗？</summary>
+  <p>可以，但不提供打包文件。先取 <code>/index.json</code> 拿到全部课程编号，再按 <code>/json/{code}.json</code> 逐个请求即可，建议控制并发、做好本地缓存。</p></details>
+<details><summary>发现内容有误或想提建议？</summary>
+  <p>请发邮件到 <a href="mailto:lingyu_04@outlook.com">lingyu_04@outlook.com</a>，附上课程编号和具体问题。原始内容的错误需要回到教务系统更正，镜像只能跟着源数据走。</p></details>
+
+<footer>
+  <div class="colophon">采集日期 2026-10-29　·　有问题请联系 <a href="mailto:lingyu_04@outlook.com">lingyu_04@outlook.com</a>　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div>
+</footer>
+</div></body></html>
