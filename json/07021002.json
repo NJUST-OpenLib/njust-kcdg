@@ -113,6 +113,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "产业经济学教程（第5版）",
+   "editor": "龚仰军",
+   "isbn": "9787564233822",
+   "press": "上海财经大学出版社",
+   "year": "2020.7"
+  },
+  {
+   "title": "西方规制经济学的变迁",
+   "editor": "张红凤",
+   "isbn": "9787505851979",
+   "press": "经济科学出版社",
+   "year": "2005"
+  },
+  {
+   "title": "管制与市场",
+   "editor": "丹尼尔·F.史普博著，余晖 等译",
+   "isbn": "9787543214736",
+   "press": "格致出版社，上海三联书店，上海人民出版社",
+   "year": "2008.7"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07021002",
  "hasOriginal": true
 }

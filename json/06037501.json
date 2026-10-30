@@ -190,6 +190,41 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《现代密码学及其应用》",
+   "editor": "Richard E.Blahut著",
+   "isbn": "978-7-111-59463-5",
+   "press": "机械工业出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [
+  {
+   "name": "数字签名标准DSS",
+   "content": "DSS签名算法的实现",
+   "hours": "4",
+   "type": "演示性实验"
+  },
+  {
+   "name": "ECC相关签名算法的实现",
+   "content": "熟悉基于ECC的数字签名，进一步练习动手能力",
+   "hours": "4",
+   "type": "演示性实验"
+  },
+  {
+   "name": "密钥协商Diffie-Hellman",
+   "content": "熟悉Diffie-Hellman的实现",
+   "hours": "4",
+   "type": "演示性实验"
+  },
+  {
+   "name": "ElGamal算法实现",
+   "content": "熟悉 ElGamal",
+   "hours": "4",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6D072723E1BB49AC9AAF35FCE7A39CAB",
  "hasOriginal": true
 }

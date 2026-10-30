@@ -73,6 +73,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "学术英语写作",
+   "editor": "朱效惠  常俊跃  林璐",
+   "isbn": "9787303219926",
+   "press": "北京师范大学出版社",
+   "year": "2017"
+  },
+  {
+   "title": "A Manual for Writers of Research Papers, Theses, and Dissertations, Ninth Edition: Chicago Style for Students and Researchers (9th Edition)",
+   "editor": "Kate L. Turabian",
+   "isbn": "9780226430577",
+   "press": "University of Chicago Press",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070800E1",
  "hasOriginal": true
 }

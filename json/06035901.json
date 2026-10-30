@@ -169,6 +169,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "软件工程与计算.卷二.软件开发的技术基础",
+   "editor": "骆斌",
+   "isbn": "978-7-111-40750-8",
+   "press": "机械工业出版社",
+   "year": "2012"
+  },
+  {
+   "title": "软件工程(第3版)",
+   "editor": "钱乐秋等",
+   "isbn": "978-7-302-44608-8",
+   "press": "清华大学出版社",
+   "year": "2016"
+  },
+  {
+   "title": "软件工程:实践者的研究方法（本科教学版）",
+   "editor": "Roger S. Pressman",
+   "isbn": "978-7-111-55501-8",
+   "press": "机械工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E79AA74CA80E4DDABB9BE584969A26C0",
  "hasOriginal": true
 }

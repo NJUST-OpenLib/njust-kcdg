@@ -191,6 +191,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "服务运营管理",
+   "editor": "赵海峰",
+   "isbn": "",
+   "press": "冶金工业出版社",
+   "year": "2013"
+  },
+  {
+   "title": "服务管理：运作、战略与信息技术（影印版）",
+   "editor": "詹姆斯等",
+   "isbn": "",
+   "press": "机械工业出版社",
+   "year": "2013"
+  },
+  {
+   "title": "服务运作管理:整合的视角（影印版）",
+   "editor": "巴特等",
+   "isbn": "",
+   "press": "中国财政经济出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07059101",
  "hasOriginal": true
 }

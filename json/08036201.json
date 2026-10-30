@@ -163,6 +163,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "建筑给水排水工程",
+   "editor": "刘占孟,王敏",
+   "isbn": "9787512398726",
+   "press": "中国电力出版社",
+   "year": "2016"
+  },
+  {
+   "title": "建筑给水排水工程（第七版）",
+   "editor": "王增长",
+   "isbn": "9787112199068",
+   "press": "中国建筑工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=08036201",
  "hasOriginal": true
 }

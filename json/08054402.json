@@ -182,6 +182,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "建筑设备安装工程经济与管理（第三版）",
+   "editor": "王智伟",
+   "isbn": "9787112244157",
+   "press": "中国建筑工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=169B16CB51154B2A863396BA90CE7C37",
  "hasOriginal": true
 }

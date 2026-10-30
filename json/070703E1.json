@@ -191,6 +191,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Warsaw-Oxford Rules,INCOTERMS2010, ICC, Hague Rules, Hamburg Rules, URC522 (ICC522), UCP600 (ICC600), etc.",
+   "editor": "无",
+   "isbn": "无",
+   "press": "无",
+   "year": "无"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070703E1",
  "hasOriginal": true
 }

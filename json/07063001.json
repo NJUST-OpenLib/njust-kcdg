@@ -101,6 +101,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "用户体验度量——量化用户体验的统计学方法",
+   "editor": "Jeff Sauro等",
+   "isbn": "",
+   "press": "机械工业出版社",
+   "year": "2015"
+  },
+  {
+   "title": "用户界面设计——有效的人机交互策略（第5版）",
+   "editor": "Ben Shneiderman等",
+   "isbn": "",
+   "press": "电子工业出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=69D80C6B1891427BAB8752D58EFEC1E2",
  "hasOriginal": true
 }

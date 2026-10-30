@@ -179,6 +179,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "能源金融(第2版)",
+   "editor": "林伯强 黄光晓 著",
+   "isbn": "9787302345640",
+   "press": "清华大学出版社",
+   "year": "2014"
+  },
+  {
+   "title": "能源经济学（第三版）",
+   "editor": "魏一鸣 廖华 等",
+   "isbn": "9787300278148",
+   "press": "中国人民大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=856DF4BC0A5F4E0E8F21A052DDF53F42",
  "hasOriginal": true
 }

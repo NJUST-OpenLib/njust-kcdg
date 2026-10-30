@@ -138,6 +138,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "金融伦理学",
+   "editor": "王曙光",
+   "isbn": "9787300254241",
+   "press": "北京大学出版社",
+   "year": "2011年"
+  },
+  {
+   "title": "金融伦理学",
+   "editor": "(美)约翰·R.博特赖特(John R. Boatright)",
+   "isbn": "9787301297216",
+   "press": "北京大学出版社",
+   "year": "2018年"
+  },
+  {
+   "title": "金融伦理与职业道德",
+   "editor": "褚红素",
+   "isbn": "9787300285764",
+   "press": "立信会计出版社",
+   "year": "2019年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=FC0724944EB44AF88B5D2988BE61006C",
  "hasOriginal": true
 }

@@ -101,6 +101,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "可靠性数学引论",
+   "editor": "曹晋华，程侃",
+   "isbn": "",
+   "press": "高等教育出版社",
+   "year": "2012"
+  },
+  {
+   "title": "应用随机过程",
+   "editor": "张波，张景肖",
+   "isbn": "",
+   "press": "清华大学出版社",
+   "year": "2004"
+  },
+  {
+   "title": "蒙特卡罗方法在系统可靠性中的应用",
+   "editor": "金星，洪延姬",
+   "isbn": "",
+   "press": "国防工业出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07026102",
  "hasOriginal": true
 }

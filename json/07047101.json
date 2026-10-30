@@ -158,6 +158,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "供应链管理（第5版）",
+   "editor": "马士华等",
+   "isbn": "9787111553014",
+   "press": "机械工业出版社",
+   "year": "2019"
+  },
+  {
+   "title": "供应链物流管理",
+   "editor": "唐纳德·鲍尔索克斯等著",
+   "isbn": "9787111288954",
+   "press": "机械工业出版社",
+   "year": "2014"
+  },
+  {
+   "title": "供应链设计与管理",
+   "editor": "大卫·辛奇-利维著",
+   "isbn": "9787300116143",
+   "press": "中国财政经济出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07047101",
  "hasOriginal": true
 }

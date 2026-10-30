@@ -113,6 +113,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Principles of Microeconomics,8e,Micro Part",
+   "editor": "N. GREGORY MANKIW",
+   "isbn": "",
+   "press": "Cengage Learning",
+   "year": "2018"
+  },
+  {
+   "title": "Microeconomics",
+   "editor": "McConnell, Campbell R., Brue, St.",
+   "isbn": "",
+   "press": "McGraw Hill Higher Education",
+   "year": "2011"
+  }
+ ],
+ "labs": [
+  {
+   "name": "Economic game modeling and analysis",
+   "content": "Mathematical modeling and equilibrium solution of realistic economic game cases using game theory and methods",
+   "hours": "0",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3DA61F9DEC96497FB8C04948437275B9",
  "hasOriginal": true
 }

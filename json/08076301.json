@@ -153,6 +153,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Thermal Analysis of Power Electronic Devices Used in Renewable Energy Systems",
+   "editor": "Alhussein Albarbar\nCanras Batunlu",
+   "isbn": "/",
+   "press": "Springer International Publishing",
+   "year": "2018"
+  },
+  {
+   "title": "电子设备冷却技术",
+   "editor": "[美] 戴夫·S.斯坦伯格",
+   "isbn": "9787516500392",
+   "press": "中航出版传媒有限责任公司",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=18C9C55E2439462AB98B1997E3AD9055",
  "hasOriginal": true
 }

@@ -139,6 +139,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "教材：金融工程学",
+   "editor": "吴冲峰等",
+   "isbn": "9787040310306",
+   "press": "高等教育出版社",
+   "year": "2010"
+  },
+  {
+   "title": "参考书籍1： 期权、期货和其他衍生品",
+   "editor": "John Hull著，王勇译",
+   "isbn": "9787111602767",
+   "press": "机械工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07040901",
  "hasOriginal": true
 }

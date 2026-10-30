@@ -166,6 +166,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "基础会计习题与案例（ 第6版)",
+   "editor": "陈文铭，陈艳",
+   "isbn": "978-7-5654-3180-6",
+   "press": "东北财经大学出版社",
+   "year": "2018"
+  },
+  {
+   "title": "基础会计（ 第6版)",
+   "editor": "陈国辉，迟旭升",
+   "isbn": "978-7-5654-3189-0",
+   "press": "东北财经大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [
+  {
+   "name": "会计模拟实验室",
+   "content": "会计凭证与会计账簿的填制",
+   "hours": "2",
+   "type": "验证性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=28C952F8F2AC4B67BD25362CA6EC5447",
  "hasOriginal": true
 }

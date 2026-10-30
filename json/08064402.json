@@ -114,6 +114,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "COMSOL Multiphysics有限元法多物理建模与分析",
+   "editor": "中仿科技公司",
+   "isbn": "9787114068577",
+   "press": "人民交通出版社",
+   "year": "2007"
+  },
+  {
+   "title": "COMSOL多物理场仿真入门指南",
+   "editor": "黄奕勇，李星辰，田野，张翔",
+   "isbn": "9787111671084",
+   "press": "机械工业出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=730E5D98F1924816B3868C44DD2C3E41",
  "hasOriginal": true
 }

@@ -125,6 +125,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "外弹道气象学",
+   "editor": "汤晓云，韩子鹏等",
+   "isbn": "7-80038-187-0/TJ25",
+   "press": "兵器工业出版社",
+   "year": "1990"
+  },
+  {
+   "title": "炮兵防空兵射击气象理论与应用",
+   "editor": "刘玉文，李俊等",
+   "isbn": "978-7-5181-0462-8",
+   "press": "兵器工业出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=FE3B0E1315B84BFE9ADBEFB2C5D6D080",
  "hasOriginal": true
 }

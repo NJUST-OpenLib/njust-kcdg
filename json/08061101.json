@@ -126,6 +126,49 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Heat Exchanger Design Handbook (Second Edition)",
+   "editor": "Kuppan Thulukkanam",
+   "isbn": "978-1-4398-4213-3",
+   "press": "CRC Press",
+   "year": "2013"
+  },
+  {
+   "title": "管翅式换热设备高效强化传热的理论与实验研究",
+   "editor": "王煜",
+   "isbn": "9787560655857",
+   "press": "西安电子科技大学出版社",
+   "year": "2020"
+  },
+  {
+   "title": "热交换器原理与设计（第5版）",
+   "editor": "史美中、王中铮",
+   "isbn": "9787564148003",
+   "press": "东南大学出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [
+  {
+   "name": "热管热交换器传热性能测试及热平衡误差分析",
+   "content": "1.掌握实验台换热器换热量和传热系数的测试和计算方法；2. 熟悉热管换热器的工作原理和实验台的使用方法。3.分析热平衡误差产生的原因",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "板翅式热交换器优化设和性能评价",
+   "content": "1.了解和掌握板翅式热交换器的优化设计方法；2.将优化设计结果制成三维工程图",
+   "hours": "7",
+   "type": "设计性实验"
+  },
+  {
+   "name": "管壳式热交换器优化设和性能评价",
+   "content": "1.了解和掌握管壳式热交换器的优化设计方法；2.将优化设计结果制成三维工程图",
+   "hours": "5",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=08061101",
  "hasOriginal": true
 }

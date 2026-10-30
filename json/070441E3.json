@@ -142,6 +142,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "培训与开发（第5版）",
+   "editor": "石金涛等",
+   "isbn": "9787300270340",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "雇员培训与开发（英文版·第6版）",
+   "editor": "雷蒙德？诺伊",
+   "isbn": "9787300204833",
+   "press": "中国人民大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070441E3",
  "hasOriginal": true
 }

@@ -151,6 +151,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际营销学",
+   "editor": "朱明侠",
+   "isbn": "9787566308368",
+   "press": "对外经济贸易大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07041401",
  "hasOriginal": true
 }

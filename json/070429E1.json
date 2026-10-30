@@ -138,6 +138,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际贸易实务模拟操作教程(第4版)",
+   "editor": "夏合群",
+   "isbn": "978-7-566-32151-0",
+   "press": "对外经贸大学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [
+  {
+   "name": "Bujingyun integrated foreign trade operation software",
+   "content": "Import and export documents, process operation",
+   "hours": "80",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070429E1",
  "hasOriginal": true
 }

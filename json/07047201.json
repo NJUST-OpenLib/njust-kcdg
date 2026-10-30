@@ -142,6 +142,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "绩效管理：技术与应用（第3版）",
+   "editor": "林新奇",
+   "isbn": "9787300290805",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "绩效管理（第4版）",
+   "editor": "赫尔曼？阿吉斯",
+   "isbn": "9787300285719",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07047201",
  "hasOriginal": true
 }

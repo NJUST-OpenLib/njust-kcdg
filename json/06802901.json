@@ -115,6 +115,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "风力发电机组故障诊断技术",
+   "editor": "杨锡运，郭鹏，岳俊红",
+   "isbn": "9787517035886 ?/?",
+   "press": "水利水电出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BF02FE7E05E94F0D97601C51952D6068",
  "hasOriginal": true
 }

@@ -152,6 +152,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "项目管理知识体系指南（PMBOK指南）（第七版）",
+   "editor": "Project Management Institute",
+   "isbn": "9781628256642",
+   "press": "电子工业出版社",
+   "year": "2022"
+  },
+  {
+   "title": "项目管理（第2版）",
+   "editor": "任淮秀",
+   "isbn": "9787300182421",
+   "press": "中国人民大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07030201",
  "hasOriginal": true
 }

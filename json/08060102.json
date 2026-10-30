@@ -164,6 +164,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《可燃元器件与装药技术》",
+   "editor": "赵振宇，余永刚，等",
+   "isbn": "",
+   "press": "自编",
+   "year": ""
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=0F494BDD7394454EA73CB1DA4BE532F2",
  "hasOriginal": true
 }

@@ -166,6 +166,53 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "云计算与大数据",
+   "editor": "陶皖",
+   "isbn": "978-7-5606-4377-9/TP",
+   "press": "西安电子科技大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [
+  {
+   "name": "Vmware虚拟机安装与配置",
+   "content": "熟悉虚拟机安装",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "CentOS环境下Hadoop的安装与配置",
+   "content": "Hadoop平台的安装，熟悉相应的配置和命令",
+   "hours": "2",
+   "type": "演示性实验"
+  },
+  {
+   "name": "基于Mahout的聚类实验和Hive数据统计",
+   "content": "熟悉Mahout和Hive数据库语言，能熟练对数据进行操作",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "HDFS文件的操作命令及API编程",
+   "content": "熟悉HDFS文件的基本命令和简单的API编程指令，进一步练习动手能力",
+   "hours": "2",
+   "type": "演示性实验"
+  },
+  {
+   "name": "Eclipse下的MapReduce编程",
+   "content": "熟悉MapReduce编程的命令行",
+   "hours": "2",
+   "type": "演示性实验"
+  },
+  {
+   "name": "Spark的安装和配置",
+   "content": "Spark平台的安装，熟悉相应的配置和命令",
+   "hours": "2",
+   "type": "演示性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=F8EE7A469FD0441FB4FCC1A99B9D524D",
  "hasOriginal": true
 }

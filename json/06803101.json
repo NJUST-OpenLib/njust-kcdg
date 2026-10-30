@@ -139,6 +139,29 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "新能源技术（第三版）",
+   "editor": "翟秀静",
+   "isbn": "978-7-122-07567-3",
+   "press": "化学工业出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [
+  {
+   "name": "燃料电池-电解池实验联合系统",
+   "content": "利用燃料电池和电解池构成微能源系统，实现化学能的电能的相互转换，即储能与发电",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "即时产氢-燃料电池发电",
+   "content": "制氢耦合燃料电池，形成系统",
+   "hours": "2",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4D71185D6F7B46E6A57242FD257A0B3F",
  "hasOriginal": true
 }

@@ -165,6 +165,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Journal of Financial Economics等著名期刊",
+   "editor": "论文作者",
+   "isbn": "",
+   "press": "期刊杂志社",
+   "year": "最近几年"
+  },
+  {
+   "title": "货币银行学",
+   "editor": "Frederic Mishkin",
+   "isbn": "9787111606581",
+   "press": "机械工业出版社",
+   "year": "2018"
+  },
+  {
+   "title": "风险管理与金融机构",
+   "editor": "John Hull",
+   "isbn": "9787111358633",
+   "press": "机械工业出版社",
+   "year": "2012"
+  },
+  {
+   "title": "期权、期货和其他衍生品",
+   "editor": "John Hull",
+   "isbn": "9787302461661",
+   "press": "清华大学出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=F1EE99A4046F47D9AE74878B26547DFB",
  "hasOriginal": true
 }

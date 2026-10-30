@@ -164,6 +164,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际人力资源管理（第三版）",
+   "editor": "林新奇",
+   "isbn": "9787309128635",
+   "press": "复旦大学出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=925F7E45E8D744AF8FA0D5238CBF4A51",
  "hasOriginal": true
 }

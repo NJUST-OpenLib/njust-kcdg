@@ -178,6 +178,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "信息化人力资源管理",
+   "editor": "朱勇国",
+   "isbn": "7504550701",
+   "press": "中国劳动社会保障出版社",
+   "year": "2006"
+  },
+  {
+   "title": "Human Resource Information Systems: Basics, Applications, and Future Directions(2nd)",
+   "editor": "Michael J. Kavanagh, Mohan Thite, Richard D. Johnson",
+   "isbn": "9781506351452",
+   "press": "SAGE Publications Inc",
+   "year": "2011"
+  },
+  {
+   "title": "人力资源信息化管理",
+   "editor": "洪玫",
+   "isbn": "7800879623",
+   "press": "中国发展出版社",
+   "year": "2006"
+  },
+  {
+   "title": "人力资源管理信息化",
+   "editor": "邬锦雯",
+   "isbn": "7-81082-697-2",
+   "press": "北京交通大学出版社",
+   "year": "2006"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07060301",
  "hasOriginal": true
 }

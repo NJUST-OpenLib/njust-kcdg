@@ -203,6 +203,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "管理预测与决策方法（第三版）",
+   "editor": "刘思峰,菅利荣,米传民",
+   "isbn": "9787030518064",
+   "press": "科学出版社",
+   "year": "2017"
+  },
+  {
+   "title": "统计预测和决策（第五版）",
+   "editor": "徐国祥",
+   "isbn": "9787564223243",
+   "press": "上海财经大学出版社",
+   "year": "2016"
+  },
+  {
+   "title": "预测与决策教程（第二版）",
+   "editor": "李华，胡奇英",
+   "isbn": "9787111619161",
+   "press": "机械工业出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07033901",
  "hasOriginal": true
 }

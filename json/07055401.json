@@ -113,6 +113,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "风险管理（第二版）",
+   "editor": "王周伟",
+   "isbn": "9787111557692",
+   "press": "机械工业出版社",
+   "year": "2017"
+  },
+  {
+   "title": "金融风险管理师考试手册（第六版）",
+   "editor": "乔瑞著，王博等译",
+   "isbn": "9787300148373",
+   "press": "中国人民大学出版社",
+   "year": "2012"
+  },
+  {
+   "title": "风险管理学习指导及习题解析",
+   "editor": "王周伟",
+   "isbn": "9787111556312",
+   "press": "机械工业出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07055401",
  "hasOriginal": true
 }

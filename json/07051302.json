@@ -165,6 +165,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "高级财务会计",
+   "editor": "刘永泽",
+   "isbn": "978-7-5654-4301-5",
+   "press": "东北财经大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "企业会计准则：原文、应用指南案例详解",
+   "editor": "企业会计准则编审委员会",
+   "isbn": "978-7-115-55958-6",
+   "press": "人民邮电出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07051302",
  "hasOriginal": true
 }

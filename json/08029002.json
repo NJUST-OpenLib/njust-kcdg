@@ -112,6 +112,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "发射药燃烧学",
+   "editor": "余永刚",
+   "isbn": "",
+   "press": "北京航空航天大学出版社",
+   "year": "2016"
+  },
+  {
+   "title": "火药燃烧理论",
+   "editor": "王伯曦、冯增国、杨荣杰",
+   "isbn": "",
+   "press": "北京理工大学出版社",
+   "year": "1994"
+  },
+  {
+   "title": "含能材料燃烧理论",
+   "editor": "余永刚",
+   "isbn": "",
+   "press": "南京理工大学校内教材",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=08029002",
  "hasOriginal": true
 }

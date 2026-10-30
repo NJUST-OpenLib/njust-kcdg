@@ -114,6 +114,47 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Programmable Logic controllers（Fourth Edition）",
+   "editor": "W.Bolton",
+   "isbn": "",
+   "press": "Elsevier Newnes.",
+   "year": "2006"
+  }
+ ],
+ "labs": [
+  {
+   "name": "Bit logic instruction application",
+   "content": "熟悉PLC设备、软件及基本的操作指令",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "Automatic round-trip car control program",
+   "content": "要求编写梯形图程序实现运动小车的自动往返运动",
+   "hours": "2",
+   "type": "设计性实验"
+  },
+  {
+   "name": "Lamp control with Timer and counter",
+   "content": "要求学会使用定时器和计数器一起实现灯的长延时程序",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Counter instruciton application",
+   "content": "要求掌握并编写计数器指令的实例程序并完成调试",
+   "hours": "4",
+   "type": "设计性实验"
+  },
+  {
+   "name": "Application of timer instruction",
+   "content": "要求掌握定时器指令的编程方法和操作过程",
+   "hours": "4",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=100201E3",
  "hasOriginal": true
 }

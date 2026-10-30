@@ -102,6 +102,54 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "六西格玛管理统计指南",
+   "editor": "马逢时，周暐，刘传冰",
+   "isbn": "978-7-300-08634-7",
+   "press": "中国人民出版社",
+   "year": "2007"
+  },
+  {
+   "title": "质量管理学（第二版）",
+   "editor": "马义中     汪建均",
+   "isbn": "978-7-111-62947-4",
+   "press": "中国机械出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [
+  {
+   "name": "常规计量控制图",
+   "content": "介绍MINITAB软件的基本操作；熟悉运用MINITAB软件进行常规计量控制图技术",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "常规计数控制图技术",
+   "content": "熟悉运用MINITAB软件进行常规计数控制图（计件与计点）技术",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "过程能力分析技术",
+   "content": "过程能力指数分析",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "小波动控制图技术",
+   "content": "熟悉运用MINITAB软件进行累积和控制图以及EWMA控制图",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "小批量控制图技术",
+   "content": "熟悉运用MINITAB软件进行目标控制图、比例控制图以及小批量标准变换控制图",
+   "hours": "2",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07048701",
  "hasOriginal": true
 }

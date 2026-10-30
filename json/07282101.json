@@ -60,6 +60,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "金融学术论文写作指导",
+   "editor": "王雨磊",
+   "isbn": "9787302494799",
+   "press": "清华大学出版社",
+   "year": "2018"
+  },
+  {
+   "title": "期刊：经济研究",
+   "editor": "《经济研究》编辑部",
+   "isbn": "0577-9154",
+   "press": "",
+   "year": "近三年"
+  },
+  {
+   "title": "期刊：金融研究",
+   "editor": "《金融研究》编辑部",
+   "isbn": "1002-7246",
+   "press": "",
+   "year": "近三年"
+  },
+  {
+   "title": "实证论文写作八讲",
+   "editor": "刘西川",
+   "isbn": "9787301317723",
+   "press": "北京大学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=05D89B29A3AB445D98BF84C45B57B4EC",
  "hasOriginal": true
 }

@@ -112,6 +112,35 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "统计自然语言处理(第2版)",
+   "editor": "宗成庆",
+   "isbn": "ISBN 978-7-302-31911-5",
+   "press": "清华大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [
+  {
+   "name": "分词与词性标注",
+   "content": "① 掌握常见的中英文语料分词和词性标注工具;②熟悉不同编码方式的中英文分词和词性标注体系.",
+   "hours": "2",
+   "type": "验证性实验"
+  },
+  {
+   "name": "自学",
+   "content": "选学",
+   "hours": "0",
+   "type": "验证性实验"
+  },
+  {
+   "name": "命名实体识别",
+   "content": "① 熟悉及掌握人名、地名以其他典型类型实体名称的自动识别方法，并了解对应实体关系的抽取和关联方法",
+   "hours": "2",
+   "type": "验证性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=22A5E7D298C84CE8B7697453CE46F3BF",
  "hasOriginal": true
 }

@@ -155,6 +155,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "管理会计：基于Excel的决策建模",
+   "editor": "温素彬",
+   "isbn": "9787121275449",
+   "press": "电子工业出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07022203",
  "hasOriginal": true
 }

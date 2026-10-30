@@ -138,6 +138,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "光伏发电并网逆变技术",
+   "editor": "李练兵",
+   "isbn": "978-7-122-26090-1",
+   "press": "化学工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6C46252E2BDA422F8A3D8BC954D27F07",
  "hasOriginal": true
 }

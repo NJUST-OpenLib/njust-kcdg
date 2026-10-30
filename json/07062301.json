@@ -178,6 +178,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "人力资源战略与规划（第五版）",
+   "editor": "赵曙明",
+   "isbn": "9787300296005",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "战略性人力资源管理（第三版）",
+   "editor": "方振邦，杜义国",
+   "isbn": "9787300284057",
+   "press": "中国人民大学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4AEBFD9553044278815941FF848A1B2E",
  "hasOriginal": true
 }

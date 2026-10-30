@@ -138,6 +138,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际贸易实务模拟操作教程(第4版)",
+   "editor": "夏合群",
+   "isbn": "978-7-566-32151-0",
+   "press": "对外经贸大学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [
+  {
+   "name": "步惊云一体化外贸操作软件",
+   "content": "进出口单证、流程操作",
+   "hours": "80",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07042901",
  "hasOriginal": true
 }

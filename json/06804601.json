@@ -126,6 +126,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "风力机原理与应用",
+   "editor": "赵振宙",
+   "isbn": "9787508483658",
+   "press": "中国水利水电出版社",
+   "year": "2011"
+  },
+  {
+   "title": "风力机空气动力学",
+   "editor": "Martin Hansen著(肖劲松译)",
+   "isbn": "9787508385723",
+   "press": "中国电力出版社",
+   "year": "2009"
+  },
+  {
+   "title": "风能技术",
+   "editor": "Tony Burton等著(武鑫等译)",
+   "isbn": "9787030378958",
+   "press": "科学出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=F8738F530B1A480EA90E1B94EE1E86D5",
  "hasOriginal": true
 }

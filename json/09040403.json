@@ -142,6 +142,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "数字艺术 数字技术与艺术观念的探索",
+   "editor": "[美]克里斯蒂安妮·保罗（Christiane？Paul）著，李镇？译",
+   "isbn": "9787111682639",
+   "press": "机械工业出版社",
+   "year": "2021"
+  },
+  {
+   "title": "数字媒体艺术设计概论",
+   "editor": "陈永东 等",
+   "isbn": "9787515351087",
+   "press": "中国青年出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6014F2B2E573420BA21EF222F6CBFF1D",
  "hasOriginal": true
 }

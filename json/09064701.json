@@ -114,6 +114,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "产品设计入门",
+   "editor": "姜霖",
+   "isbn": "9787121363214",
+   "press": "电子工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=9E6C3A5D57474DE9A6B0135E1C4CF326",
  "hasOriginal": true
 }

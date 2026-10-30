@@ -204,6 +204,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "管理技能开发(第8版)",
+   "editor": "惠顿，卡梅伦",
+   "isbn": "'9787302256076",
+   "press": "清华大学出版社",
+   "year": "2011年"
+  },
+  {
+   "title": "领导学: 原理与实践",
+   "editor": "达夫特",
+   "isbn": "'9787121060687",
+   "press": "机械工业出版社 人民邮电出版社",
+   "year": "2005年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07060201",
  "hasOriginal": true
 }

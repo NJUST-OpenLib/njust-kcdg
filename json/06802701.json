@@ -138,6 +138,29 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "光伏发电并网逆变技术",
+   "editor": "李练兵",
+   "isbn": "978-7-122-26090-1",
+   "press": "化学工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [
+  {
+   "name": "光伏逆变器MPPT算法设计实验",
+   "content": "① 掌握光伏逆变器的MPPT基本原理; ②掌握光伏逆变器MPPT算法设计方法. ③掌握光伏系统MPPT控制方法.",
+   "hours": "3",
+   "type": "设计性实验"
+  },
+  {
+   "name": "光伏逆变器控制系统实验",
+   "content": "① 掌握光伏逆变器的基本设计; ②掌握光伏逆变器性能测量方法. ③掌握光伏系统关键控制技术设计方法.",
+   "hours": "3",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=7880049DA0474C089EEAAD07703582C7",
  "hasOriginal": true
 }

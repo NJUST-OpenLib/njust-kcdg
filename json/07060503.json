@@ -73,6 +73,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "经管研究方法--为学生量身定制（第5版）",
+   "editor": "马克·桑德斯等",
+   "isbn": "9787565403248",
+   "press": "东北财经大学出版社",
+   "year": "2011年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5A2BB631F46E4EF2A1C554E08DDE1E0D",
  "hasOriginal": true
 }

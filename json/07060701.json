@@ -113,6 +113,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "金融数据分析技术-基于excel和matlab",
+   "editor": "元如林、李广明、关莉莉、罗远",
+   "isbn": "9787302435259",
+   "press": "清华大学出版社",
+   "year": "2016"
+  },
+  {
+   "title": "基于eviews的金融计量学",
+   "editor": "汪昌云、戴稳胜、张成思",
+   "isbn": "9787300129426",
+   "press": "中国人民大学出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=FD61CA4C54DF450AACD3720518CD0840",
  "hasOriginal": true
 }

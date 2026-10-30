@@ -125,6 +125,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "热交换热器原理与设计",
+   "editor": "史美中、王中铮",
+   "isbn": "9787564148003",
+   "press": "东南大学出版社",
+   "year": "2017"
+  },
+  {
+   "title": "热系统分析与优化的热量流法",
+   "editor": "陈群  郝俊红",
+   "isbn": "9787030639189",
+   "press": "科学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D976AC1A419B4BA6BB3EBE692FDD23D0",
  "hasOriginal": true
 }

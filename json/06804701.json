@@ -154,6 +154,36 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Solar Engineering of Thermal Processes (4th Edition)",
+   "editor": "John A. Duffie, William A. Beckman",
+   "isbn": "",
+   "press": "Wiley",
+   "year": "2013"
+  },
+  {
+   "title": "《太阳能利用原理·技术·工程》",
+   "editor": "刘鉴民",
+   "isbn": "9787121109027",
+   "press": "电子工业出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [
+  {
+   "name": "太阳能光热二氧化碳转化系统的构建及性能测试",
+   "content": "测试太阳能光热二氧化碳转换性能，掌握太阳能光热二氧化碳转换原理",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "太阳能真空管热水系统",
+   "content": "利用太阳真空集热管加热水，测量热水温度随太阳辐照强度的变化关系；通过实验室学生进一步掌握太阳能辐照计的使用方法、真空集热管的结构，并掌握太阳热水系统原理。",
+   "hours": "2",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=27ABBF8E73F646478B0E032D72899CC8",
  "hasOriginal": true
 }

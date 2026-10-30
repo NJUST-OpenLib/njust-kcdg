@@ -106,6 +106,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际经济合作（第二版）",
+   "editor": "赵慧娥，李锋",
+   "isbn": "",
+   "press": "中国人民大学出版社",
+   "year": "2022"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=7358A95B5D524D2681353A7D053A0161",
  "hasOriginal": true
 }

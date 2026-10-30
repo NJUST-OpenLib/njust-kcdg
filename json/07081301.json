@@ -139,6 +139,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "农业经济学（第二版）",
+   "editor": "孔祥智 等",
+   "isbn": "9787300270258",
+   "press": "中国人民大学出版社",
+   "year": "2019年"
+  },
+  {
+   "title": "农村金融学（第二版）",
+   "editor": "董晓林 张龙耀",
+   "isbn": "9787030528858",
+   "press": "科学出版社",
+   "year": "2021年"
+  },
+  {
+   "title": "农村金融学（第二版）",
+   "editor": "王曙光",
+   "isbn": "9787301262801",
+   "press": "北京大学出版社",
+   "year": "2015年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B6F9B5BDB77C417D8D0AA39558D38EE5",
  "hasOriginal": true
 }

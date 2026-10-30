@@ -125,6 +125,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "物理化学（第11版）",
+   "editor": "Peter Atkins等著，侯文华等译",
+   "isbn": "9787040546071",
+   "press": "高等教育出版社",
+   "year": "2021年"
+  },
+  {
+   "title": "电化学测试技术",
+   "editor": "张鉴清等编著",
+   "isbn": "9787122076052",
+   "press": "化学工业出版社",
+   "year": "2010年"
+  },
+  {
+   "title": "电化学原理（第3版）",
+   "editor": "李荻主编",
+   "isbn": "9787811244168",
+   "press": "北京航空航天大学出版社",
+   "year": "2008年"
+  },
+  {
+   "title": "电化学方法-原理和应用（第2版）",
+   "editor": "阿伦.J.巴德等著，邵元华等译",
+   "isbn": "9787502567040",
+   "press": "化学工业出版社",
+   "year": "2005年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3AEA843D34364842B56B9E7A7008B409",
  "hasOriginal": true
 }

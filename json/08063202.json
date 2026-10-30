@@ -99,6 +99,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "室内环境控制原理与技术",
+   "editor": "刘京，陈志强",
+   "isbn": "9787560324463",
+   "press": "哈尔滨工业大学出版社",
+   "year": "2007"
+  },
+  {
+   "title": "人工环境构建原理与技术",
+   "editor": "丁研等",
+   "isbn": "9787561868324",
+   "press": "天津大学出版社",
+   "year": "2020"
+  },
+  {
+   "title": "人工环境学（第二版）",
+   "editor": "李先庭，石文星",
+   "isbn": "9787112204335",
+   "press": "中国建筑工业出版社",
+   "year": "2017"
+  },
+  {
+   "title": "建筑环境学（第三版）",
+   "editor": "朱颖心",
+   "isbn": "9787112123339",
+   "press": "中国建筑工业出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=9F38884577CD446C9B238F6F37521E0F",
  "hasOriginal": true
 }

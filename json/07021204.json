@@ -153,6 +153,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "财务成本管理",
+   "editor": "中国注册会计师协会",
+   "isbn": "978-7-5223-1124-1",
+   "press": "中国财政经济出版社",
+   "year": "2022"
+  },
+  {
+   "title": "成本会计（第三版）",
+   "editor": "唐婉虹",
+   "isbn": "978-7-5121-3725-7",
+   "press": "北京交通大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=AA5D40644CE54EA48595168E98C6A6E4",
  "hasOriginal": true
 }

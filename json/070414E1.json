@@ -151,6 +151,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "International marketing",
+   "editor": "Philip Cateora",
+   "isbn": "978-7-300-17582-9",
+   "press": "China Renmin UP",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070414E1",
  "hasOriginal": true
 }

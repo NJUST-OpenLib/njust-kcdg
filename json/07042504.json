@@ -138,6 +138,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "中华人民共和国劳动合同法注解与配套（第五版）",
+   "editor": "中国法制出版社",
+   "isbn": "9787521613698",
+   "press": "中国法制出版社",
+   "year": "2020"
+  },
+  {
+   "title": "中华人民共和国劳动法（含新司法解释）注解与配套（第五版）",
+   "editor": "中国法制出版社",
+   "isbn": "9787521613681",
+   "press": "中国法制出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=0F1D1A11E03141CEB954838814359674",
  "hasOriginal": true
 }

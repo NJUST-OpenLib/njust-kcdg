@@ -192,6 +192,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "生产与运作管理(第六版)",
+   "editor": "陈荣秋",
+   "isbn": "978-7-111-70357-0",
+   "press": "机械工业出版社",
+   "year": "2022"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E6F9EDC791CA49DE91F3CA269391E6E2",
  "hasOriginal": true
 }

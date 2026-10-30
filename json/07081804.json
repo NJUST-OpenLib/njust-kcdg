@@ -126,6 +126,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "怎样写好文献文献综述——案例及评述",
+   "editor": "张黎",
+   "isbn": "9787030208231",
+   "press": "科学出版社",
+   "year": "2015"
+  },
+  {
+   "title": "怎样做文献文献综述——六步走向成功",
+   "editor": "马奇, 麦克伊沃 著, 陈静, 肖思汉译.",
+   "isbn": "9787544430371",
+   "press": "上海教育出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=624A1EB211174B5CA4D9B65A19CFB0A9",
  "hasOriginal": true
 }

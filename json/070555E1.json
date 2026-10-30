@@ -210,6 +210,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "International Logistics: The Management of International Trade Operations",
+   "editor": "Pierre A. David",
+   "isbn": "‘9780989490603",
+   "press": "Atomic Dog",
+   "year": "2013"
+  },
+  {
+   "title": "International Logistics: Global Supply Chain Management",
+   "editor": "Douglas Long",
+   "isbn": "‘9781402074530",
+   "press": "Kluwer Academic Publishers",
+   "year": "2003"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070555E1",
  "hasOriginal": true
 }

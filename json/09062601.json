@@ -116,6 +116,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "人工智能+机器人入门与实战 用树莓派+Python+OpenCV制作计算机视觉机器人",
+   "editor": "陈宇航，侯俊萍，叶昶",
+   "isbn": "9787115530486",
+   "press": "人民邮电出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4C6058B649964783B1D7BDF163684D9A",
  "hasOriginal": true
 }

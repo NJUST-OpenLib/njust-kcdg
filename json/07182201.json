@@ -101,6 +101,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "管理学研究方法与论文写作",
+   "editor": "杨学儒 董保宝 叶文平",
+   "isbn": "9787111634348",
+   "press": "机械工业出版社",
+   "year": "2019"
+  },
+  {
+   "title": "科学思维的艺术",
+   "editor": "张大松",
+   "isbn": "9787030205230",
+   "press": "科学出版社",
+   "year": "2008"
+  },
+  {
+   "title": "怎样写作",
+   "editor": "叶圣陶",
+   "isbn": "9787505747586",
+   "press": "中华书局",
+   "year": "2018"
+  },
+  {
+   "title": "大学生本科毕业论文创作指导",
+   "editor": "张艳国",
+   "isbn": "9787562278436",
+   "press": "上海:华东师范大学出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=ED84380D88DC451F850F38CF95F50409",
  "hasOriginal": true
 }

@@ -126,6 +126,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "教材：中国红色金融史",
+   "editor": "中国金融思想政治工作研究会",
+   "isbn": "9787522305486",
+   "press": "中国财政经济出版社",
+   "year": "2021"
+  },
+  {
+   "title": "参考书籍2： 军事经济学：力量与金钱的相互作用",
+   "editor": "[英]罗恩·史密斯",
+   "isbn": "9787501193554",
+   "press": "新华出版社",
+   "year": "2010"
+  },
+  {
+   "title": "参考书籍1： 红色金融",
+   "editor": "张红力，徐焰",
+   "isbn": "9787508546797",
+   "press": "五洲传播出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BD5376BBC9E5434D8C07B83A59B9C36F",
  "hasOriginal": true
 }

@@ -151,6 +151,21 @@
    }
   }
  ],
+ "books": [],
+ "labs": [
+  {
+   "name": "永磁同步风力发电系统实验",
+   "content": "① 熟悉及掌握永磁同步风力发电机的系统结构，熟悉模拟实验平台的原理;②熟悉及掌握系统的运行特性.",
+   "hours": "3",
+   "type": "综合性实验"
+  },
+  {
+   "name": "双馈异步风力发电系统实验",
+   "content": "① 熟悉及掌握双馈异步风力发电机的系统结构，熟悉模拟实验平台的原理;②熟悉及测量系统的运行特性.",
+   "hours": "3",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=290A9490CB0D4C8A99EC7C06ACDBF381",
  "hasOriginal": true
 }

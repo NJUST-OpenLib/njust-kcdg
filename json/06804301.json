@@ -143,6 +143,43 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "风力机原理与应用",
+   "editor": "赵振宙",
+   "isbn": "978-7-5084-8365-8",
+   "press": "中国水利水电出版社",
+   "year": "2011"
+  },
+  {
+   "title": "风力机空气动力学",
+   "editor": "Martin Hansen著(肖劲松译)",
+   "isbn": "978-7-5083-8572-3",
+   "press": "中国电力出版社",
+   "year": "2009"
+  },
+  {
+   "title": "风能技术",
+   "editor": "Tony Burton等著(武鑫等译)",
+   "isbn": "7-03-019709-7",
+   "press": "科学出版社",
+   "year": "2007"
+  }
+ ],
+ "labs": [
+  {
+   "name": "风电机组多体动力学仿真实验",
+   "content": "掌握风电场多台机组整机动力学仿真方法和动态性能分析",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "风力机气动性能测量及风力发电实验",
+   "content": "了解低速风洞实验测量风力机气动性能的原理和过程，熟悉大气环境下风力发电的过程",
+   "hours": "2",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=09CA6E09666B44BD80AC15047FE955F3",
  "hasOriginal": true
 }

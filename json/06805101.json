@@ -88,6 +88,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "风电场流场计算的理论与方法",
+   "editor": "张晓东",
+   "isbn": "9787512396807",
+   "press": "中国电力出版社",
+   "year": "2016"
+  },
+  {
+   "title": "计算流体动力学分析：CFD软件原理与应用",
+   "editor": "王福军",
+   "isbn": "9787302095033",
+   "press": "清华大学出版社",
+   "year": "2004"
+  },
+  {
+   "title": "风力机空气动力性能计算方法",
+   "editor": "王同光",
+   "isbn": "9787030628756",
+   "press": "科学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A3F3FE89345F49568B0627A25900ABA5",
  "hasOriginal": true
 }

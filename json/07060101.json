@@ -217,6 +217,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Psychology & Life",
+   "editor": "Richard J. Gerrig",
+   "isbn": "'9780205859139",
+   "press": "Pearson ESL",
+   "year": "2009年"
+  },
+  {
+   "title": "现代心理学（第4版）",
+   "editor": "张春兴",
+   "isbn": "'9787208167759",
+   "press": "上海人民出版社",
+   "year": "2016年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07060101",
  "hasOriginal": true
 }

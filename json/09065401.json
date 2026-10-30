@@ -115,6 +115,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "工业机器人设计与实例详解",
+   "editor": "曹胜男，朱冬，祖国建",
+   "isbn": "9787122334503",
+   "press": "化学工业出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C0F52D768D4641B6A2572D7E880B5633",
  "hasOriginal": true
 }

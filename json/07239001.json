@@ -89,6 +89,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Economist, China Daily, Guardians等英文报刊网站",
+   "editor": "无",
+   "isbn": "",
+   "press": "无",
+   "year": "无"
+  },
+  {
+   "title": "世贸组织/联合国贸发会/世界银行等网站",
+   "editor": "",
+   "isbn": "",
+   "press": "",
+   "year": ""
+  },
+  {
+   "title": "CNN, CNBC, CGTN等网站视频",
+   "editor": "",
+   "isbn": "",
+   "press": "",
+   "year": ""
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=37746C0013C545DBBEED8FF366606EEF",
  "hasOriginal": true
 }

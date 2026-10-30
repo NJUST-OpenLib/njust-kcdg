@@ -126,6 +126,56 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "模式识别",
+   "editor": "S.Theodoridis著，李晶皎、王爱侠等译",
+   "isbn": "9787121301100",
+   "press": "电子工业出版社",
+   "year": "2016年"
+  },
+  {
+   "title": "大数据分析原理与实践",
+   "editor": "王宏志",
+   "isbn": "9787111569435",
+   "press": "机械工业出版社",
+   "year": "2017年"
+  },
+  {
+   "title": "模式识别与机器学习",
+   "editor": "张学工，汪小我",
+   "isbn": "9787302587750",
+   "press": "清华大学出版社",
+   "year": "2021年"
+  },
+  {
+   "title": "模式识别",
+   "editor": "张学工",
+   "isbn": "9787302225003",
+   "press": "清华大学出版社",
+   "year": "2010年"
+  }
+ ],
+ "labs": [
+  {
+   "name": "K均值聚类算法实践",
+   "content": "熟悉Matlab或OpenCV或python，能够实现简单的K均值聚类算法。",
+   "hours": "2",
+   "type": "验证性实验"
+  },
+  {
+   "name": "人脸识别方法实践",
+   "content": "根据课程学习内容，实现基于主成分分析或线性判别分析的人脸识别方法，包括数据的读取、图像特征提取和分类三部分。",
+   "hours": "3",
+   "type": "验证性实验"
+  },
+  {
+   "name": "神经网络分类算法实践",
+   "content": "熟悉Matlab或OpenCV或python，能够实现简单的非线性分类算法。",
+   "hours": "3",
+   "type": "验证性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D5A8FCA6104E435A8B4E655BE69D6B1E",
  "hasOriginal": true
 }

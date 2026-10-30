@@ -181,6 +181,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际商务谈判",
+   "editor": "黄卫平 董丽丽",
+   "isbn": "978-7-111-53979-7",
+   "press": "机械工业出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [
+  {
+   "name": "分组拟定谈判方案进行演练",
+   "content": "融会贯通所学谈判各阶段策略、技巧，拟定合适的谈判目标，合成整体谈判方案，并根据搜集对方的信息，选定演练方案，进行谈判演练",
+   "hours": "8",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07048301",
  "hasOriginal": true
 }

@@ -126,6 +126,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "教材：期权、期货和其他衍生品",
+   "editor": "John Hull著，王勇译",
+   "isbn": "9787111602767",
+   "press": "机械工业出版社",
+   "year": "2020"
+  },
+  {
+   "title": "参考书籍2：R语言数据分析与数据挖掘实战",
+   "editor": "张良均等",
+   "isbn": "9787111516040",
+   "press": "机械工业出版社",
+   "year": "2017"
+  },
+  {
+   "title": "参考书籍1： 金融数量分析——基于MATLAB编程（第3版）",
+   "editor": "郑志勇",
+   "isbn": "9787512414280",
+   "press": "北京航空航天大学出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07058001",
  "hasOriginal": true
 }

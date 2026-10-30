@@ -139,6 +139,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "投资银行学（第四版）",
+   "editor": "马晓军",
+   "isbn": "978-7-111-66146-7",
+   "press": "机械工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07041201",
  "hasOriginal": true
 }

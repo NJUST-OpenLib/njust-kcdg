@@ -167,6 +167,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际贸易实务",
+   "editor": "黎孝先、王健",
+   "isbn": "978-7-5663-2176-3",
+   "press": "对外经济贸易大学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [
+  {
+   "name": "国际贸易单一窗口虚拟仿真实验",
+   "content": "设定科教用品交易三个案例，要求学生根据不同角色、不同贸易术语、不同支付方式，进行全流程、各环节的单证操作",
+   "hours": "10",
+   "type": "研究创新性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07023601",
  "hasOriginal": true
 }

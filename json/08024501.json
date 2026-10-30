@@ -164,6 +164,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "工程热力学",
+   "editor": "沈维道、蒋智敏、童钧耕",
+   "isbn": "7-04-009314-6",
+   "press": "高等教育出版社（第5版）",
+   "year": "2016"
+  }
+ ],
+ "labs": [
+  {
+   "name": "空气定压比热的测定",
+   "content": "利用热工设备，学生设计方案测量空气的定压比热",
+   "hours": "2",
+   "type": "演示性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=08024501",
  "hasOriginal": true
 }

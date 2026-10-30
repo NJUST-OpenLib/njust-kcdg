@@ -153,6 +153,55 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "实验设计与分析（第六版）",
+   "editor": "（美）蒙哥马利（Montgomery,D.C）著；傅钰生　等译",
+   "isbn": "9-787-1151-9234-9",
+   "press": "人民邮电出版社",
+   "year": "2009"
+  },
+  {
+   "title": "实验设计与分析及参数优化",
+   "editor": "（WuJeff, C. F.）、张润楚等译",
+   "isbn": "7-5037-4023-X/O.45",
+   "press": "中国统计出版社",
+   "year": "2003"
+  },
+  {
+   "title": "六西格玛管理统计指南 —MINTAB使用指导",
+   "editor": "马逢时，周暐，刘传冰",
+   "isbn": "9-787-3000-8634-7",
+   "press": "中国人民出版社",
+   "year": "2007"
+  }
+ ],
+ "labs": [
+  {
+   "name": "部分因子试验设计",
+   "content": "熟悉运用MINITAB软件进行部分因子试验设计的计划安排；掌握运用MINITAB软件对部分因子试验设计进行数据建模与分析。",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "稳健参数设计",
+   "content": "掌握运用MINITAB软件或R软件对静态稳健参数设计进行数据建模与分析",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "多响应曲面设计与建模",
+   "content": "运用MINITAB软件开展多响应曲面设计，并结合R软件开展建模与数据分析工作。",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "响应曲面设计",
+   "content": "熟悉运用MINITAB软件进行响应曲面设计的计划安排；掌握运用MINITAB软件或R软件对响应曲面设计进行数据建模与分析。",
+   "hours": "2",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=886557DB76D24B73BCF14D8856122833",
  "hasOriginal": true
 }

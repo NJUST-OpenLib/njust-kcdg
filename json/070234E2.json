@@ -164,6 +164,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "International Trade 15th edition",
+   "editor": "Robert J. Carbaugh",
+   "isbn": "978-7-300-24177-7",
+   "press": "China Renin UP",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070234E2",
  "hasOriginal": true
 }

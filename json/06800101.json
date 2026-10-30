@@ -139,6 +139,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "现代材料化学",
+   "editor": "刘光华",
+   "isbn": "9787532353002",
+   "press": "上海科学技术出版社",
+   "year": "2000"
+  },
+  {
+   "title": "材料化学 第2版",
+   "editor": "宿辉",
+   "isbn": "9787301311769",
+   "press": "北京大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "材料化学 第二版",
+   "editor": "曾兆华",
+   "isbn": "9787122169570",
+   "press": "化学工业出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=011869A6B0D94DADBDECC6E433616E2D",
  "hasOriginal": true
 }

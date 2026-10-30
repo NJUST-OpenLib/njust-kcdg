@@ -140,6 +140,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "视觉传达设计实践",
+   "editor": "靳埭强",
+   "isbn": "ISBN：9787301251201",
+   "press": "北京大学出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=7FA2E266CE974E01B7D5045752C29376",
  "hasOriginal": true
 }

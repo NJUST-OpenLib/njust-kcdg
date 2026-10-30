@@ -153,6 +153,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "建筑设备与系统调适",
+   "editor": "逢秀锋 等",
+   "isbn": "",
+   "press": "中国建筑工业出版社",
+   "year": ""
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=40FB9104F8354DBAA513F9D3870EB98E",
  "hasOriginal": true
 }

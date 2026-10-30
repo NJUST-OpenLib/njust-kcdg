@@ -178,6 +178,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际商务谈判 Internaitonal Business Negotiation(第6版）",
+   "editor": "罗伊 J. 列维奇等",
+   "isbn": "978-7-300-18174-5",
+   "press": "中国人民大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "跨文化商务沟通 Intercultural Business Communication（第6版中国版）",
+   "editor": "莉莲·钱尼等",
+   "isbn": "978-7-300-29554-1",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=65891217BDB940A180D70FD7E04D8D39",
  "hasOriginal": true
 }

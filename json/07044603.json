@@ -140,6 +140,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "薪酬管理（第6版）",
+   "editor": "刘昕",
+   "isbn": "9787300286419",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "薪酬管理（第11版）",
+   "editor": "米尔科维奇",
+   "isbn": "9787300200484",
+   "press": "中国人民大学出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07044603",
  "hasOriginal": true
 }

@@ -164,6 +164,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《中国经济：适应与增长》",
+   "editor": "巴里·诺顿",
+   "isbn": "978-7-208-15940-2/F？2593",
+   "press": "上海人民出版社",
+   "year": ""
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=DA3309ACC57F42ACAD8802D5F5636E2C",
  "hasOriginal": true
 }

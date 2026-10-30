@@ -139,6 +139,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "管理统计",
+   "editor": "程龙生",
+   "isbn": "9787030377739",
+   "press": "科学出版社",
+   "year": "2013/7/1"
+  },
+  {
+   "title": "商务统计学（英文版 第7版）",
+   "editor": "戴维.莱文等",
+   "isbn": "9787300276632",
+   "press": "中国人民大学出版社",
+   "year": "2020/1/1"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070223E1",
  "hasOriginal": true
 }

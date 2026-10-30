@@ -178,6 +178,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "组织行为学（18版）·工商管理经典译丛",
+   "editor": "斯蒂芬·罗宾斯，蒂莫西·贾奇",
+   "isbn": "9787300286549",
+   "press": "中国人民大学出版社",
+   "year": "2020"
+  },
+  {
+   "title": "组织行为学（马工程教材）",
+   "editor": "《组织行为学》编写组",
+   "isbn": "9787040522068",
+   "press": "高等教育出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07033202",
  "hasOriginal": true
 }

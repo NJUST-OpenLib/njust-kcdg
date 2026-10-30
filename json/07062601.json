@@ -157,6 +157,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "组织与管理研究的实证方法（第3版）",
+   "editor": "陈晓萍等",
+   "isbn": "978-7-301-29643-1",
+   "press": "北京大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "管理研究量表手册",
+   "editor": "李超平等",
+   "isbn": "978-7-300-23164-8",
+   "press": "中国人民大学出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6A78E15F90264D4B8A5B25AEC7D657B4",
  "hasOriginal": true
 }

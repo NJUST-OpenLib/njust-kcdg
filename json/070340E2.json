@@ -99,6 +99,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际经济学：理论与政策（第十一版）",
+   "editor": "保罗·R·克鲁格曼， 茅瑞斯·奥伯斯法尔德,马克·J·梅里兹",
+   "isbn": "",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=0F5BF889F29147DD96FBF029EA2820EB",
  "hasOriginal": true
 }

@@ -74,6 +74,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "国际商务函电",
+   "editor": "孙芳  温珺",
+   "isbn": "‘9787115446978",
+   "press": "人民邮电出版社",
+   "year": "2017"
+  },
+  {
+   "title": "国际贸易实务",
+   "editor": "尤宏兵",
+   "isbn": "’9787115420237",
+   "press": "人民邮电出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07038506",
  "hasOriginal": true
 }

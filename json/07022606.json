@@ -184,6 +184,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "教材：管理学（马工程教材：马克思主义理论研究和建设工程重点教材）",
+   "editor": "《管理学》编写组",
+   "isbn": "978-7-04-045832--9",
+   "press": "高等教育出版社",
+   "year": "2019"
+  },
+  {
+   "title": "在线视频：现代管理学MOOC（学堂在线）",
+   "editor": "宋华明，杨慧，刘明，杨丹琴，许前",
+   "isbn": "",
+   "press": "南京理工大学",
+   "year": "2016"
+  },
+  {
+   "title": "参考书：管理学（第13版）",
+   "editor": "斯蒂芬·罗宾斯，玛丽·库尔特",
+   "isbn": "978-7-300-23460-1",
+   "press": "中国人民大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=96C6112274B8444CA38EFAFF1AA0B803",
  "hasOriginal": true
 }

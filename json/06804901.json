@@ -124,6 +124,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "生物质发电产业化技术",
+   "editor": "孙立",
+   "isbn": "9787122105080",
+   "press": "化学工业出版社",
+   "year": "2011"
+  },
+  {
+   "title": "生物质燃烧发电技术",
+   "editor": "宋景慧",
+   "isbn": "9787512341159",
+   "press": "中国电力出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=9FC053C145894C7997C904179BE05BA6",
  "hasOriginal": true
 }

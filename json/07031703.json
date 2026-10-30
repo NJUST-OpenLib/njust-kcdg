@@ -150,6 +150,42 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "应用多元统计分析",
+   "editor": "何晓群",
+   "isbn": "9787503774492",
+   "press": "中国统计出版社",
+   "year": "2010"
+  },
+  {
+   "title": "应用多元统计分析（第四版）",
+   "editor": "朱建平",
+   "isbn": "9787030673206",
+   "press": "科学出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [
+  {
+   "name": "方差分析法建模与分析",
+   "content": "熟悉Minitab方法模块，掌握基于Minitab的单、双方差分析法建模与分析",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "判别分析、主成分分析及因子分析法建模与分析",
+   "content": "熟悉判别分析、主成分分析法的原理，掌握基于Minitab的判别分析法建模与分析，掌握基于Minitab的主成分分析法建模与分析，掌握基于Minitab的因子分析法建模与分析",
+   "hours": "3",
+   "type": "综合性实验"
+  },
+  {
+   "name": "多元回归分析及聚类分析法建模与分析",
+   "content": "熟悉多元回归分析及聚类分析法的原理，掌握基于Minitab的多元回归分析法建模与分析，掌握基于Minitab的聚类分析法建模与分析",
+   "hours": "3",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07031703",
  "hasOriginal": true
 }

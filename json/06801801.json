@@ -126,6 +126,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "如何撰写和发表SCI期刊论文",
+   "editor": "金坤林",
+   "isbn": "9787030215741",
+   "press": "科学出版社",
+   "year": "2008年"
+  },
+  {
+   "title": "学术交流英语课程（第2版）",
+   "editor": "从丛，王文宇编著",
+   "isbn": "9787305122538",
+   "press": "南京大学出版社",
+   "year": "2013年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4A0B758BDFD940199F33B35EBEFEC5D9",
  "hasOriginal": true
 }

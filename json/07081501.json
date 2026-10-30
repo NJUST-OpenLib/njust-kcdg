@@ -138,6 +138,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "HR的分析力",
+   "editor": "Nigel Guenole，Jonathan Ferrar 著 王军宏 译",
+   "isbn": "'978-7115518279",
+   "press": "中国工信出版集团 人民邮电出版社",
+   "year": "2019年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BEC1099D30754547BE1490D8884CABCF",
  "hasOriginal": true
 }

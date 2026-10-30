@@ -139,6 +139,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "运筹学",
+   "editor": "徐玖平",
+   "isbn": "9787030583970",
+   "press": "科学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "运筹学",
+   "editor": "周晶",
+   "isbn": "9787111541585",
+   "press": "机械工业出版社",
+   "year": "2020"
+  },
+  {
+   "title": "运筹学",
+   "editor": "胡运权",
+   "isbn": "9787302481256",
+   "press": "清华大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07032201",
  "hasOriginal": true
 }

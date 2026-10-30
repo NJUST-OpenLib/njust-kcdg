@@ -100,6 +100,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《中国对外贸易概论》（英文版）",
+   "editor": "邓敏",
+   "isbn": "9787302517245",
+   "press": "清华大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "中国对外贸易概论",
+   "editor": "阎志军",
+   "isbn": "9787516422656",
+   "press": "企业管理出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=054AAF8EB64B45C1932F61E02522CAEE",
  "hasOriginal": true
 }

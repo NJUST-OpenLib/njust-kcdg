@@ -77,6 +77,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "大学生毕业论文写作：从快速入门到融会贯通（21世纪经济管理新形态教材·公共基础课系列）",
+   "editor": "丁斌",
+   "isbn": "9787302624950",
+   "press": "清华大学出版社",
+   "year": "2023年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=29B1F8203DDE4FFFBD35B5D44C80F83D",
  "hasOriginal": true
 }

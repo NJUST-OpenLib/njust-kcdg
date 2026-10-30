@@ -191,6 +191,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "永磁同步全功率风力发电变流器及其控制",
+   "editor": "张兴",
+   "isbn": "9787121301087",
+   "press": "电子工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B160084A83C4403F8143C16DB7121764",
  "hasOriginal": true
 }

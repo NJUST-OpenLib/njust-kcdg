@@ -101,6 +101,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "毕业设计与毕业论文写作",
+   "editor": "陈平",
+   "isbn": "9787301254486",
+   "press": "北京大学出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6FD60FE794F94ADF89C27F6585C9C5AE",
  "hasOriginal": true
 }

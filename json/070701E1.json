@@ -184,6 +184,48 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Studyguide for the Politics of International Economic Relations by Spero",
+   "editor": "Keizer Kempen",
+   "isbn": "‘9781467232722",
+   "press": "Cram101",
+   "year": "2013"
+  },
+  {
+   "title": "International Economic Relations",
+   "editor": "Joan E. Spero & Jeffrey A. Hart",
+   "isbn": "’9787300106359",
+   "press": "China Renmin University",
+   "year": "2009"
+  }
+ ],
+ "labs": [
+  {
+   "name": "现实冲突案例数学建模",
+   "content": "构建决策者、策略、可行状态、偏好等数学集合",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "现实冲突案例调研设计",
+   "content": "调研现实冲突案例，进行GMCR设计",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "现实冲突案例稳定后分析",
+   "content": "进行决策路径、敏感性、联盟等稳定后分析",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "现实冲突案例稳定性分析",
+   "content": "运用Nash、GMR、SMR、SEQ概念进行稳定性分析",
+   "hours": "2",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070701E1",
  "hasOriginal": true
 }

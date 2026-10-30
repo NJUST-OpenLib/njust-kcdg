@@ -127,6 +127,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电力系统自动化（第三版）",
+   "editor": "王葵、孙莹",
+   "isbn": "978-7-5123-2796-2",
+   "press": "北京：中国电力出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=08034904",
  "hasOriginal": true
 }

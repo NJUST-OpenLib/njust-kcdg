@@ -112,6 +112,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《大学生实习与就业中的权益维护》",
+   "editor": "王雨静,郭雷",
+   "isbn": "9787562084211",
+   "press": "中国政法大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07038503",
  "hasOriginal": true
 }

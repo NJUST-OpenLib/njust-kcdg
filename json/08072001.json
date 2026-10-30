@@ -196,6 +196,36 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "能源材料-原理与应用",
+   "editor": "上官文峰",
+   "isbn": "9787313172518",
+   "press": "上海交通大学出版社",
+   "year": "2017"
+  },
+  {
+   "title": "能源化学",
+   "editor": "陈军",
+   "isbn": "7502552502",
+   "press": "化学工业出版社",
+   "year": "2004"
+  }
+ ],
+ "labs": [
+  {
+   "name": "燃料电池组装与测试",
+   "content": "了解燃料电池中化学能与电能转换原理、方法与潜在应用",
+   "hours": "4",
+   "type": "演示性实验"
+  },
+  {
+   "name": "光伏电池驱动电解池制氢与二氧化碳转化",
+   "content": "熟悉光伏电池，其与电解池组装联用的组装方法与原理",
+   "hours": "4",
+   "type": "演示性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B26CA196FCCD446086C9CEC48A384359",
  "hasOriginal": true
 }

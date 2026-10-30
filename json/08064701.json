@@ -112,6 +112,44 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "武器装备的多维透视",
+   "editor": "赵超阳",
+   "isbn": "",
+   "press": "国防工业出版社",
+   "year": "2014"
+  },
+  {
+   "title": "武器装备跨越式发展",
+   "editor": "薛勇、陈文涛",
+   "isbn": "",
+   "press": "国防工业出版社",
+   "year": "2012"
+  },
+  {
+   "title": "弹箭外弹道学",
+   "editor": "韩子鹏",
+   "isbn": "",
+   "press": "北京理工大学出版社",
+   "year": "2015"
+  },
+  {
+   "title": "导弹与航天技术概论",
+   "editor": "金永德",
+   "isbn": "",
+   "press": "哈尔滨工业大学出版社",
+   "year": "2002"
+  },
+  {
+   "title": "武器的历史",
+   "editor": "吴浩（译）",
+   "isbn": "",
+   "press": "黑龙江科学技术出版社",
+   "year": "2007"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3CE03AD46ABB4955AC2047EF971FC9F0",
  "hasOriginal": true
 }

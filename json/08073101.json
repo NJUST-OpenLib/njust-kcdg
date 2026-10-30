@@ -100,6 +100,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "嵌入式系统的软件热管理",
+   "editor": "马克等",
+   "isbn": "9787111633839",
+   "press": "机械工业出版社",
+   "year": "2019"
+  },
+  {
+   "title": "电子设备热设计",
+   "editor": "赵惇殳",
+   "isbn": "9787121081033",
+   "press": "电子工业出版社",
+   "year": "2009"
+  },
+  {
+   "title": "电力电子装置热管理技术",
+   "editor": "吴文伟等",
+   "isbn": "9787111546030",
+   "press": "机械工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=76160181F0804AB2AF98E30FDF102D75",
  "hasOriginal": true
 }

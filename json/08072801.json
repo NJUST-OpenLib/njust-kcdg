@@ -139,6 +139,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "红外辐射特性与传输的数值计算：计算热辐射学",
+   "editor": "谈和平",
+   "isbn": "9787560323640",
+   "press": "哈尔滨工业大学出版社",
+   "year": "2006"
+  },
+  {
+   "title": "辐射传输逆问题的智能优化理论与应用",
+   "editor": "齐宏，阮立明，谈和平",
+   "isbn": "9787560355078",
+   "press": "哈尔滨工业大学出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=40FBBE3159864584B0533B127A5CF8BA",
  "hasOriginal": true
 }

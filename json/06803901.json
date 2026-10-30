@@ -179,6 +179,29 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "燃烧过程与设备",
+   "editor": "廖传华等",
+   "isbn": "978-7-80229-571-1",
+   "press": "中国石化出版社",
+   "year": "2008"
+  }
+ ],
+ "labs": [
+  {
+   "name": "煤燃烧过程中产生烟气成分分析",
+   "content": "①熟悉及掌握奥氏分析仪的工作原理;②熟悉及掌握烟气成分的测试方法",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "煤的工业分析成分测定",
+   "content": "① 熟悉及掌握水分、灰分、挥发份的测定方法;",
+   "hours": "2",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BDB6767311E4464596932189650BE433",
  "hasOriginal": true
 }

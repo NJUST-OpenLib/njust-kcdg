@@ -127,6 +127,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "无师自通：分布式光伏发电系统设计、安装与维护",
+   "editor": "刘继茂",
+   "isbn": "9787519829803",
+   "press": "中国电力出版社",
+   "year": "2019"
+  },
+  {
+   "title": "太阳能光伏发电系统设计施工与应用（第2版）",
+   "editor": "李钟实",
+   "isbn": "9787115507082",
+   "press": "人民邮电出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8ABE150567BB45759BF3DE737F56901D",
  "hasOriginal": true
 }

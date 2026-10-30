@@ -126,6 +126,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "博弈论与信息经济学",
+   "editor": "张维迎",
+   "isbn": "9787543220751",
+   "press": "格致出版社",
+   "year": "2019"
+  },
+  {
+   "title": "博弈与信息(博弈论概论第4版)/经济科学译丛",
+   "editor": "Eric Rasmusen",
+   "isbn": "9787300109268",
+   "press": "中国人民大学出版社",
+   "year": "2009"
+  },
+  {
+   "title": "A course in game theory",
+   "editor": "马丁·J.奥斯本,阿里尔·鲁宾斯坦",
+   "isbn": "9787519264598",
+   "press": "世界图书出版公司",
+   "year": "2019"
+  },
+  {
+   "title": "A PRIMER IN GAME THEORY",
+   "editor": "罗伯特·吉本斯",
+   "isbn": "9787500424543",
+   "press": "中国社会科学出版社",
+   "year": "2022"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070394E2",
  "hasOriginal": true
 }

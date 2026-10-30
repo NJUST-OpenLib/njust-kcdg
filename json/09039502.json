@@ -143,6 +143,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "高等学校毕业设计(论文)指导教程——艺术设计类专业",
+   "editor": "王树彬、薛春艳",
+   "isbn": "ISBN：9787517031130",
+   "press": "水利水电出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=69C31995737A449D86ED0CDF5154C091",
  "hasOriginal": true
 }

@@ -130,6 +130,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "质量管理体系审核员2015版标准转换培训教材",
+   "editor": "中国认证认可协会",
+   "isbn": "978-7-5066-8044-8",
+   "press": "中国标准出版社",
+   "year": "01/09/2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07032801",
  "hasOriginal": true
 }

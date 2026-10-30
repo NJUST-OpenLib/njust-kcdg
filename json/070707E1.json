@@ -113,6 +113,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "跨文化商务沟通（第6版）",
+   "editor": "Lillian H.Chaney, Jeanette S.Martin",
+   "isbn": "978-7-300-19139-3",
+   "press": "中国人民大学出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070707E1",
  "hasOriginal": true
 }

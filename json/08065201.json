@@ -177,6 +177,43 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "多旋翼无人飞行器嵌入式飞控开发指南",
+   "editor": "林庆峰，谌利，奚海蛟",
+   "isbn": "9787302472568",
+   "press": "清华大学出版社",
+   "year": "2017"
+  },
+  {
+   "title": "STM32库开发实战指南",
+   "editor": "刘火良，杨森",
+   "isbn": "9787111426370",
+   "press": "机械工业出版社",
+   "year": "2014"
+  },
+  {
+   "title": "Small Unmanned Aircraft: Theory and Practice",
+   "editor": "Randal W. Beard, Timothy W. McLain",
+   "isbn": "9780691149219",
+   "press": "Princeton University Press",
+   "year": "2012"
+  }
+ ],
+ "labs": [
+  {
+   "name": "姿态实时解算实验",
+   "content": "①了解陀螺及加速度计的特性；②采集陀螺和加速度计数据，进行姿态角解算，并通过串口输出。",
+   "hours": "2",
+   "type": "设计性实验"
+  },
+  {
+   "name": "串口通信实验",
+   "content": "①熟悉及掌握串口通信的实现方法；②根据给定的数据帧协议，能够将特定数据通过串口输出。",
+   "hours": "1",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=EA0DB10E57AC4411B81764687081CF78",
  "hasOriginal": true
 }

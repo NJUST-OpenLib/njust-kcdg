@@ -190,6 +190,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Autodesk Ecotect Analysis应用教程",
+   "editor": "柏慕进业",
+   "isbn": "9787121213205",
+   "press": "电子工业出版社",
+   "year": "2014"
+  },
+  {
+   "title": "2016 Autodesk Revit 中文版实操实练",
+   "editor": "肖春红，朱明",
+   "isbn": "9787121286315",
+   "press": "电子工业出版社",
+   "year": "2016"
+  },
+  {
+   "title": "BIM 建模技术基础与工程实列",
+   "editor": "罗占夫等",
+   "isbn": "9787302580324",
+   "press": "清华大学出版社",
+   "year": "2022"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BFA064AFCC2B41B2AA5A11A4C677599C",
  "hasOriginal": true
 }

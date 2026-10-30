@@ -125,6 +125,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "新概念武器发射原理（第2版）",
+   "editor": "陆欣",
+   "isbn": "978-7-5124-3275-8",
+   "press": "北京航空航天大学出版社",
+   "year": "2020"
+  },
+  {
+   "title": "气体炮原理及技术",
+   "editor": "王金贵",
+   "isbn": "978-7-118-02360-4",
+   "press": "国防工业出版社",
+   "year": "2001"
+  },
+  {
+   "title": "高速推进内弹道学",
+   "editor": "金志明",
+   "isbn": "978-7-118-02545-3",
+   "press": "国防工业出版社",
+   "year": "2001"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=08037401",
  "hasOriginal": true
 }
