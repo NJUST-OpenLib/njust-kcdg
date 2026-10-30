@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,47 +22,57 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>形式基础<span class="tag on">在用</span></h1><div class="sub">课程编号 09039102</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>09039102</td></tr><tr><th>英文名称</th><td>Fundamentals of Form</td></tr><tr><th>开课单位</th><td>设计科学与艺术学院</td></tr><tr><th>学分</th><td>4</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人</th><td>刘雁</td></tr><tr><th>审核人</th><td>王展</td></tr><tr><th>总学时</th><td>64</td></tr><tr><th>讲课学时</th><td>23</td></tr><tr><th>实验学时</th><td>5</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂表现:10%；平时作业:30%；实验操作:10%；课程大作业作品展示:50%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>掌握设计形式表达的原理知识、规律、构成及组织方法。</li><li>提升从普通视像中发现形式要素、形式抽象的能力。</li><li>形成视觉思维的方法与习惯，熟悉视觉语言交流与表现的基本策略。</li><li>对形式语言敏锐的感受性，把握多元的形式语法，并转换为自觉的表现态度。</li><li>具备自主进行媒介综合实践的能力和多元设计方式的探索能力。</li><li>具备动手绘制及模型制作的设计实践能力。</li><li>对中国传统文化、造物思想和设计方法进行深入了解与思考，培养学生创新意识、国家意识、文化自信和工匠精神。</li></ul><h2>课程简介</h2><p class="body">《形式基础》课程是设计学科各专业方向的必修专业基础课程之一，是走向专业设计的根基、先导和纽带，是建立设计学科学生形式语言抽象与表达、构建设计秩序感和设计基本技能与方法基础阶段的课程，是设计形式表达的丰富性和研究分析能力培养阶段，以及形式美感、形式观念、设计视野塑造和提升阶段的专业课程。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>形式基础<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>09039102</b></span><span><em>学分</em><b>4</b></span><span><em>学时</em><b>64</b></span><span><em>考核类型</em><b>考查</b></span></div><div class="files top"><a href="../original/09039102.html">查看原始页面</a><a href="../json/09039102.json">下载 JSON</a><a href="../txt/09039102.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>09039102</td><th>课程名称(中)</th><td>形式基础</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Fundamentals of Form</td></tr><tr><th>开课单位</th><td>设计科学与艺术学院</td><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>刘雁</td><th>审核人</th><td>王展</td></tr><tr><th>学分</th><td>4</td><th>学时</th><td>64</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">《形式基础》课程是设计学科各专业方向的必修专业基础课程之一，是走向专业设计的根基、先导和纽带，是建立设计学科学生形式语言抽象与表达、构建设计秩序感和设计基本技能与方法基础阶段的课程，是设计形式表达的丰富性和研究分析能力培养阶段，以及形式美感、形式观念、设计视野塑造和提升阶段的专业课程。
 
  课程紧紧围绕设计的“形式”展开，教学内容分为10个章节，包括形式的综述、形式基本要素及视觉特征、形式与秩序、形式与色彩、形式与媒介、形式与时空、形式与结构、形式与功能、形式与行为、形式与科技等。强调对设计语言的解读与分析、变体、演化、创新的方法，使学生在保持敏锐的个人感受的状态下，学习和研究形态、色彩、材质、空间、功能结构、行为体验等形式语言，在训练表达能力和动手实践能力的同时，理解其内在的设计规律与形式法则。
 
- 修学该课程所需的预备知识：《设计语言与表达（Ⅰ）》《现代模型加工技术》《设计概论》。</p><h2>教学目的与要求</h2><p class="body">1、掌握设计形式表达的原理知识、规律、构成及组织方法等，提升从普通视像中发现形式要素及抽象的能力；
+ 修学该课程所需的预备知识：《设计语言与表达（Ⅰ）》《现代模型加工技术》《设计概论》。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">1、掌握设计形式表达的原理知识、规律、构成及组织方法等，提升从普通视像中发现形式要素及抽象的能力；
 
  2、培养学生形成视觉思维的方法与习惯，熟悉视觉语言交流与表现的基本策略；
 
  3、训练学生对形式语言敏锐的感受性，把握多元的形式语法，并转换为自觉的表现态度，具备自主进行媒介综合实践的能力和多元设计方式的探索能力。
 
- 课程思政目标：课程是学生的设计语言、设计习惯、设计理念、设计思维、设计方法、制作能力的建构过程，从丰富的国内外优秀设计案例和课题练习当中，对中国传统文化、造物思想和设计方法进行深入了解与思考，培养学生创新意识、国家意识、文化自信和工匠精神。</p><h2>教学内容</h2><p class="body">&quot;形式概述 1.1 形式概念；1.2 形式来源；1.3 形式语言△；1.4 形式分析△；1.5 形式美感★&quot;
-形式与基本要素△ 2.1 点；2.2 线；2.3 面；2.4 体
-形式与秩序△★ 3.1秩序法则概述；3.2分割与重构；3.3 尺度与比例；3.4重复与近似；3.5对称与均衡；3.6发射与聚集；3.7渐变与特异；3.8 变化与统一；3.9节奏与韵律
-形式与色彩 4.1认识色彩；4.2 色彩的混合△；4.3色彩的对比△；4.4色彩的调和△；4.5 色彩的搭配△；4.6色彩感知与体验★；4.7色彩心理与情感★；4.8色彩象征与文化★；4.9 色彩流行与时尚★
-形式与媒介 5.1 材料特性认知与表现△；5.2 肌理与质感△；5.3 新材料与新媒介★；5.4混搭与跨界★
-形式与时空 6.1时间的游戏△★；6.2时空的运动△★；6.3空间的实与虚△；6.4 空间的内与外△；6.5 平面与纵深△；6.6空间维度转换△★；6.7色彩与时空★；6.8 物理空间与心理空间★
-形式与结构 7.1图案与布局△；7.2连接与支承△；7.3 部分与整体★
-形式与功能★ 8.1 形式与功能的平衡；8.2 多功能设计形式
-形式与行为 9.1 行为与用户；9.2体验与互动△★
-形式与科技★ 10.1 传统技艺与造物形式；10.2 现代科技与设计形式</p><h2>课程思政</h2><p class="body">通过对古今中外优秀案例的设计形式的分析与学习，增强学生对形式美感的认知，提升审美能力和民族情怀。
-了解中国传统图案纹饰中的营造法式，更好地学习中国传统设计思维与方法，传承与发扬中国优秀传统艺术精神与文化。
-通过科技发展与设计形式变化关系的介绍，不仅了解中国古今优秀设计中蕴含的智慧和工匠精神，增强文化自信，同时，拓展国际事业，提升创新能力。</p><h2>章节安排（10 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>&quot;形式概述 1.1 形式概念；1.2 形式来源；1.3 形式语言△；1.4 形式分析△；1.5 形式美感★&quot;</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>形式与基本要素△ 2.1 点；2.2 线；2.3 面；2.4 体</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">3</td><td>形式与秩序△★ 3.1秩序法则概述；3.2分割与重构；3.3 尺度与比例；3.4重复与近似；3.5对称与均衡；3.6发射与聚集；3.7渐变与特异；3.8 变化与统一；3.9节奏与韵律</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">8</td><td class="n">0</td><td class="n">12</td></tr><tr><td class="c">4</td><td>形式与色彩 4.1认识色彩；4.2 色彩的混合△；4.3色彩的对比△；4.4色彩的调和△；4.5 色彩的搭配△；4.6色彩感知与体验★；4.7色彩心理与情感★；4.8色彩象征与文化★；4.9 色彩流行与时尚★</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">7</td><td class="n">0</td><td class="n">10</td></tr><tr><td class="c">5</td><td>形式与媒介 5.1 材料特性认知与表现△；5.2 肌理与质感△；5.3 新材料与新媒介★；5.4混搭与跨界★</td><td class="n">3</td><td class="n">3</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td class="n">12</td></tr><tr><td class="c">6</td><td>形式与时空 6.1时间的游戏△★；6.2时空的运动△★；6.3空间的实与虚△；6.4 空间的内与外△；6.5 平面与纵深△；6.6空间维度转换△★；6.7色彩与时空★；6.8 物理空间与心理空间★</td><td class="n">3</td><td class="n">2</td><td class="n">0</td><td class="n">5</td><td class="n">0</td><td class="n">10</td></tr><tr><td class="c">7</td><td>形式与结构 7.1图案与布局△；7.2连接与支承△；7.3 部分与整体★</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">8</td><td>形式与功能★ 8.1 形式与功能的平衡；8.2 多功能设计形式</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td></tr><tr><td class="c">9</td><td>形式与行为 9.1 行为与用户；9.2体验与互动△★</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td></tr><tr><td class="c">10</td><td>形式与科技★ 10.1 传统技艺与造物形式；10.2 现代科技与设计形式</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><th></th><th>合计</th><th style="text-align:right">23</th><th style="text-align:right">5</th><th style="text-align:right"></th><th style="text-align:right">36</th><th style="text-align:right"></th><th style="text-align:right">64</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 通过对古今中外优秀案例的设计形式的分析与学习，增强学生对形式美感的认知，提升审美能力和民族情怀。</li><li><b>第7章</b> 了解中国传统图案纹饰中的营造法式，更好地学习中国传统设计思维与方法，传承与发扬中国优秀传统艺术精神与文化。</li><li><b>第10章</b> 通过科技发展与设计形式变化关系的介绍，不仅了解中国古今优秀设计中蕴含的智慧和工匠精神，增强文化自信，同时，拓展国际事业，提升创新能力。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/09039102.html">查看原始页面</a><a href="../json/09039102.json">下载 JSON</a><a href="../txt/09039102.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+ 课程思政目标：课程是学生的设计语言、设计习惯、设计理念、设计思维、设计方法、制作能力的建构过程，从丰富的国内外优秀设计案例和课题练习当中，对中国传统文化、造物思想和设计方法进行深入了解与思考，培养学生创新意识、国家意识、文化自信和工匠精神。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>掌握设计形式表达的原理知识、规律、构成及组织方法。</li><li>提升从普通视像中发现形式要素、形式抽象的能力。</li><li>形成视觉思维的方法与习惯，熟悉视觉语言交流与表现的基本策略。</li><li>对形式语言敏锐的感受性，把握多元的形式语法，并转换为自觉的表现态度。</li><li>具备自主进行媒介综合实践的能力和多元设计方式的探索能力。</li><li>具备动手绘制及模型制作的设计实践能力。</li><li>对中国传统文化、造物思想和设计方法进行深入了解与思考，培养学生创新意识、国家意识、文化自信和工匠精神。</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>4</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>课堂表现</td><td>平时作业</td><td>实验操作</td><td>课程大作业作品展示</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">10%</td><td class="n">30%</td><td class="n">10%</td><td class="n">50%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="4">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">实验</th><th class="sub">实践</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">&quot;形式概述 1.1 形式概念；1.2 形式来源；1.3 形式语言△；1.4 形式分析△；1.5 形式美感★&quot;</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>通过对古今中外优秀案例的设计形式的分析与学习，增强学生对形式美感的认知，提升审美能力和民族情怀。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">形式与基本要素△ 2.1 点；2.2 线；2.3 面；2.4 体</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">6</td><td class="n cb">8</td></tr><tr><td class="c cb">3</td><td class="cb">形式与秩序△★ 3.1秩序法则概述；3.2分割与重构；3.3 尺度与比例；3.4重复与近似；3.5对称与均衡；3.6发射与聚集；3.7渐变与特异；3.8 变化与统一；3.9节奏与韵律</td><td class="n cb">4</td><td class="n cb">0</td><td class="n cb">8</td><td class="n cb">12</td></tr><tr><td class="c cb">4</td><td class="cb">形式与色彩 4.1认识色彩；4.2 色彩的混合△；4.3色彩的对比△；4.4色彩的调和△；4.5 色彩的搭配△；4.6色彩感知与体验★；4.7色彩心理与情感★；4.8色彩象征与文化★；4.9 色彩流行与时尚★</td><td class="n cb">3</td><td class="n cb">0</td><td class="n cb">7</td><td class="n cb">10</td></tr><tr><td class="c cb">5</td><td class="cb">形式与媒介 5.1 材料特性认知与表现△；5.2 肌理与质感△；5.3 新材料与新媒介★；5.4混搭与跨界★</td><td class="n cb">3</td><td class="n cb">3</td><td class="n cb">6</td><td class="n cb">12</td></tr><tr><td class="c cb">6</td><td class="cb">形式与时空 6.1时间的游戏△★；6.2时空的运动△★；6.3空间的实与虚△；6.4 空间的内与外△；6.5 平面与纵深△；6.6空间维度转换△★；6.7色彩与时空★；6.8 物理空间与心理空间★</td><td class="n cb">3</td><td class="n cb">2</td><td class="n cb">5</td><td class="n cb">10</td></tr><tr><td class="c cb">7</td><td class="cb">形式与结构 7.1图案与布局△；7.2连接与支承△；7.3 部分与整体★</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">4</td><td class="n cb">6</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>了解中国传统图案纹饰中的营造法式，更好地学习中国传统设计思维与方法，传承与发扬中国优秀传统艺术精神与文化。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">8</td><td class="cb">形式与功能★ 8.1 形式与功能的平衡；8.2 多功能设计形式</td><td class="n cb">1</td><td class="n cb">0</td><td class="n cb">0</td><td class="n cb">1</td></tr><tr><td class="c cb">9</td><td class="cb">形式与行为 9.1 行为与用户；9.2体验与互动△★</td><td class="n cb">1</td><td class="n cb">0</td><td class="n cb">0</td><td class="n cb">1</td></tr><tr><td class="c cb">10</td><td class="cb">形式与科技★ 10.1 传统技艺与造物形式；10.2 现代科技与设计形式</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>通过科技发展与设计形式变化关系的介绍，不仅了解中国古今优秀设计中蕴含的智慧和工匠精神，增强文化自信，同时，拓展国际事业，提升创新能力。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">23</td><td class="n">5</td><td class="n">36</td><td class="n">64</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr><tr><td class="c">1</td><td>光与时空——镜影像设计</td><td>将对物体、世界、哲理等方面的认知融入作品，使人们从视知觉体验世界的真实感与虚幻感，发挥创意思维；再加入移动的光源以及摄影的延时拍摄技巧，将会形成更为复杂的图像，形成更为趣味性、实验性、科学性的艺术设计作品。</td><td class="n">2</td><td>综合性实验</td></tr><tr><td class="c">2</td><td>光与镜面材料的探索</td><td>以镜面、光源等材料媒介为主，利用镜子的显形与延展、反光和透光等特性，将物理学、艺术学等学科知识点进行交叉融合探索，记录实验过程，将结构、角度等数据进行记录，绘制操作流程图。</td><td class="n">3</td><td>综合性实验</td></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>形式基础（第二版）</td><td>周至禹</td><td>ISBN：9787040502817</td><td>高等教育出版社</td><td class="n">2018</td></tr><tr><td>综合设计造型基础</td><td>柳冠中</td><td>ISBN：9787040264593</td><td>高等教育出版社</td><td class="n">2009</td></tr><tr><td>艺术·设计的光迹构成（修订版）</td><td>(日)朝仓直巳 著;白文花 译</td><td>ISBN：9787553789996</td><td>江苏凤凰科学技术出版社</td><td class="n">2018</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

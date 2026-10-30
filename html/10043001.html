@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,34 +22,51 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>系统可靠性与安全性<span class="tag on">在用</span></h1><div class="sub">课程编号 10043001</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10043001</td></tr><tr><th>英文名称</th><td>System Reliability and Safety</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>胡启洲</td></tr><tr><th>审核人</th><td>陈新</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>是否术科课</th><td>否</td></tr></table><h2>课程目标</h2><ul class="goals"><li>掌握系统的基础知识，可靠性与安全性的基本理念，能够开展信号系统可靠性与安全性分析，并能提出改进或改善方法和措施；</li><li>掌握系统可靠性知识，依据系统工程的要求，基于“人-机-环境”理论分析系统中的可靠性等复杂工程问题，并能提出改进或改善方法和措施。</li><li>掌握“系统到单元、单元到系统”的逻辑推理方法。针对具体问题，能够从单元推理到整体，也可以从整体反推到单元，提出相应方法及措施。</li><li>掌握系统安全性知识，提出解决交通系统安全性问题的相关方案。特别针对交通事故，利用系统安全性方法进行分析研究，提出解决方案。</li><li>掌握系统工程分析方法，通过系统分析的思想方法、形成理性思维，进而培养学生的创新精神和创新能力，养成终身学习习惯。</li></ul><h2>课程简介</h2><p class="body">本课程是“轨道交通信号与控制”专业的必修专业基础课，是学习其他专业方向课程的基础。现代交通的发展，离不开科学技术的进步，尤其是系统科学的集成技术。所以，解析系统可靠性与安全性已经成为轨道交通与信号控制专业的学生及从业工作者所必须具备的基础知识。本课程的主要内容是系统地介绍系统可靠性和安全性的相关理念和计算方法。主要内容有：系统、系统工程、系统可靠性、系统安全性等内容；在系统可靠性方面，主要讲述工程中可靠性问题的表述方法及可靠度、失效率、平均寿命等度量指标，特别是可靠性的计算方法，如串联、并联、混联、旁联等；在系统安全性方面，在介绍系统安全性相关术语及分析方法基础上，确定系统安全性的定量计算方法，主要是图表分析法、事故树分析法、事件树分析法、故障模式识别法等。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>系统可靠性与安全性<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>10043001</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/10043001.html">查看原始页面</a><a href="../json/10043001.json">下载 JSON</a><a href="../txt/10043001.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>10043001</td><th>课程名称(中)</th><td>系统可靠性与安全性</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>System Reliability and Safety</td></tr><tr><th>开课单位</th><td>自动化学院</td><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>胡启洲</td><th>审核人</th><td>陈新</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td><span class="dim">未标注</span></td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">本课程是“轨道交通信号与控制”专业的必修专业基础课，是学习其他专业方向课程的基础。现代交通的发展，离不开科学技术的进步，尤其是系统科学的集成技术。所以，解析系统可靠性与安全性已经成为轨道交通与信号控制专业的学生及从业工作者所必须具备的基础知识。本课程的主要内容是系统地介绍系统可靠性和安全性的相关理念和计算方法。主要内容有：系统、系统工程、系统可靠性、系统安全性等内容；在系统可靠性方面，主要讲述工程中可靠性问题的表述方法及可靠度、失效率、平均寿命等度量指标，特别是可靠性的计算方法，如串联、并联、混联、旁联等；在系统安全性方面，在介绍系统安全性相关术语及分析方法基础上，确定系统安全性的定量计算方法，主要是图表分析法、事故树分析法、事件树分析法、故障模式识别法等。
 
- 修学该课程所需的预备知识包括高等数学、线性代数、概率论、物理学等。</p><h2>教学目的与要求</h2><p class="body">课程从两个方面解读系统可靠性与安全性：一方面，“知其然，知其所以然”：在界定可靠性基础上，从系统角度研究可靠性的特征参数和计算方法；另一方面，“理念创新，方法应用”：在界定安全性基础上，从系统层面研究交通安全性的性能特征和量化方法，并结合交通学科特点来研究不同交通方式的系统安全性。最后，达到“从实践中来，到实践中去”的目的。课程以系统可靠性与安全性为研究对象，通过课堂讲授、视频演示、辅导答疑等教学手段，使学生深入了解系统可靠性与安全性的基本原理与应用。学生经过该课程的学习，应熟悉系统中可靠性与安全性的主要内容；掌握可靠性与安全性在系统中的作用，为分析轨道交通系统打下坚实的基础；掌握系统可靠性的设计方法；掌握系统安全性的基本原理；了解现代轨道交通信号发展中的可靠性与安全性。
+ 修学该课程所需的预备知识包括高等数学、线性代数、概率论、物理学等。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">课程从两个方面解读系统可靠性与安全性：一方面，“知其然，知其所以然”：在界定可靠性基础上，从系统角度研究可靠性的特征参数和计算方法；另一方面，“理念创新，方法应用”：在界定安全性基础上，从系统层面研究交通安全性的性能特征和量化方法，并结合交通学科特点来研究不同交通方式的系统安全性。最后，达到“从实践中来，到实践中去”的目的。课程以系统可靠性与安全性为研究对象，通过课堂讲授、视频演示、辅导答疑等教学手段，使学生深入了解系统可靠性与安全性的基本原理与应用。学生经过该课程的学习，应熟悉系统中可靠性与安全性的主要内容；掌握可靠性与安全性在系统中的作用，为分析轨道交通系统打下坚实的基础；掌握系统可靠性的设计方法；掌握系统安全性的基本原理；了解现代轨道交通信号发展中的可靠性与安全性。
 
- 通过该课程的学习，学生应树立系统安全性理念和系统可靠性设计理念，具备初步的职业素养，具有辩证分析问题的能力，具有为轨道交通行业做贡献的使命感与责任感。</p><h2>教学内容</h2><p class="body">绪论 1.1系统可靠性综述，说明可靠性技术需求、发展和趋势； 1.2系统安全性综述，说明安全性技术需求、发展和趋势△ 2系统 2.1系统； 2.2系统工程； 2.3系统工程学。
-3可靠性 3.1可靠性的基本参数； 3.2可靠度； 3.3系统中的可靠度计算； （课外阅读行业标准《铁路技术管理规程》，提交一篇阅读报告） 4系统可靠性计算方法 4.1可靠性中常见的概率分布； 4.2可靠性的计算及应用。
-5安全性 5.1安全性的基本概念及参数； 5.2安全性的计算方法方法； 6系统安全性计算方法 6.1系统安全性的评估方法； 6.2不同交通方式中的安全性分析； 6.3系统安全性的应用研究。</p><h2>课程思政</h2><p class="body">1、中国高铁-系统工程 高铁能够成为中国名片（文化自信），主要集系统工程理念，通过引进、消化、吸收、创新形成中国大国重器。
-2、行业规范与职业素养 通过阅读我国轨道交通行业标准《有轨电车交通运营管理规范》和《铁路技术管理规程》，学习行业规范与标准，领会职业要求，养成职业素养。
-3、高速铁路安全理念 从高速铁路运行速度的发展，看效率和安全的矛盾，从安全事故，体验高速铁路中的安全理念和安全文化。</p><h2>章节安排（3 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>绪论 1.1系统可靠性综述，说明可靠性技术需求、发展和趋势； 1.2系统安全性综述，说明安全性技术需求、发展和趋势△ 2系统 2.1系统； 2.2系统工程； 2.3系统工程学。</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">2</td><td>3可靠性 3.1可靠性的基本参数； 3.2可靠度； 3.3系统中的可靠度计算； （课外阅读行业标准《铁路技术管理规程》，提交一篇阅读报告） 4系统可靠性计算方法 4.1可靠性中常见的概率分布； 4.2可靠性的计算及应用。</td><td class="n">13</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">13</td></tr><tr><td class="c">3</td><td>5安全性 5.1安全性的基本概念及参数； 5.2安全性的计算方法方法； 6系统安全性计算方法 6.1系统安全性的评估方法； 6.2不同交通方式中的安全性分析； 6.3系统安全性的应用研究。</td><td class="n">14</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">14</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 1、中国高铁-系统工程 高铁能够成为中国名片（文化自信），主要集系统工程理念，通过引进、消化、吸收、创新形成中国大国重器。</li><li><b>第2章</b> 2、行业规范与职业素养 通过阅读我国轨道交通行业标准《有轨电车交通运营管理规范》和《铁路技术管理规程》，学习行业规范与标准，领会职业要求，养成职业素养。</li><li><b>第3章</b> 3、高速铁路安全理念 从高速铁路运行速度的发展，看效率和安全的矛盾，从安全事故，体验高速铁路中的安全理念和安全文化。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10043001.html">查看原始页面</a><a href="../json/10043001.json">下载 JSON</a><a href="../txt/10043001.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+ 通过该课程的学习，学生应树立系统安全性理念和系统可靠性设计理念，具备初步的职业素养，具有辩证分析问题的能力，具有为轨道交通行业做贡献的使命感与责任感。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>掌握系统的基础知识，可靠性与安全性的基本理念，能够开展信号系统可靠性与安全性分析，并能提出改进或改善方法和措施；</li><li>掌握系统可靠性知识，依据系统工程的要求，基于“人-机-环境”理论分析系统中的可靠性等复杂工程问题，并能提出改进或改善方法和措施。</li><li>掌握“系统到单元、单元到系统”的逻辑推理方法。针对具体问题，能够从单元推理到整体，也可以从整体反推到单元，提出相应方法及措施。</li><li>掌握系统安全性知识，提出解决交通系统安全性问题的相关方案。特别针对交通事故，利用系统安全性方法进行分析研究，提出解决方案。</li><li>掌握系统工程分析方法，通过系统分析的思想方法、形成理性思维，进而培养学生的创新精神和创新能力，养成终身学习习惯。</li></ul><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">绪论 1.1系统可靠性综述，说明可靠性技术需求、发展和趋势； 1.2系统安全性综述，说明安全性技术需求、发展和趋势△ 2系统 2.1系统； 2.2系统工程； 2.3系统工程学。</td><td class="n cb">5</td><td class="n cb">5</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1、中国高铁-系统工程 高铁能够成为中国名片（文化自信），主要集系统工程理念，通过引进、消化、吸收、创新形成中国大国重器。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">3可靠性 3.1可靠性的基本参数； 3.2可靠度； 3.3系统中的可靠度计算； （课外阅读行业标准《铁路技术管理规程》，提交一篇阅读报告） 4系统可靠性计算方法 4.1可靠性中常见的概率分布； 4.2可靠性的计算及应用。</td><td class="n cb">13</td><td class="n cb">13</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>2、行业规范与职业素养 通过阅读我国轨道交通行业标准《有轨电车交通运营管理规范》和《铁路技术管理规程》，学习行业规范与标准，领会职业要求，养成职业素养。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">5安全性 5.1安全性的基本概念及参数； 5.2安全性的计算方法方法； 6系统安全性计算方法 6.1系统安全性的评估方法； 6.2不同交通方式中的安全性分析； 6.3系统安全性的应用研究。</td><td class="n cb">14</td><td class="n cb">14</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>3、高速铁路安全理念 从高速铁路运行速度的发展，看效率和安全的矛盾，从安全事故，体验高速铁路中的安全理念和安全文化。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">32</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>系统可靠性与安全性</td><td>胡启洲</td><td>9787564371852</td><td>西南交通大学出版社</td><td class="n">2022</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

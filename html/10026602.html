@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,35 +22,56 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>数字图像处理<span class="tag on">在用</span></h1><div class="sub">课程编号 10026602</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10026602</td></tr><tr><th>英文名称</th><td>Digital Image Processing</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>茅耀斌</td></tr><tr><th>审核人</th><td>樊卫华</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr></table><h2>课程目标</h2><ul class="goals"><li>能够阐述图像数字化方法、人眼视觉特性、基本图像变换、图像空域和频域滤波、图像几何变换、二值图像分析、图像分割等数字图像处理的基本概念与基本原理；毕业要求1.4</li><li>能够理解和阐述各种基本图像处理算法的工作原理，算法流程；毕业要求1.4</li><li>能够理解并采用C语言编写常用图像处理算法程序，如直方图均衡化、图像平滑、图像锐化、图像特征提取、二值图像处理等经典算法，并能对各算法的适用场合有较正确的认识；毕业要求1.4</li><li>根据给定的图像处理要求，完成图像处理方案制定，数学模型建立和算法选择，参数寻优，程序编写等相关任务；毕业要求2.2</li><li>能够对自动化、电气工程等领域的工程问题进行分析，提取工程设计要求，选取基本的图像处理算法，评估可选用图像处理平台，进而给出较完整图像处理工程实现方案；毕业要求3.1</li><li>能够根据自动化、电气工程等领域应用产生的新问题、新需求，完成图像处理相关工作的调研，新算法的设计，算法软件编制和调试，获得相关测试图像数据进行实验，评估实验结果；毕业要求4.2</li></ul><h2>课程简介</h2><p class="body">“数字图像处理”是自动化、电气工程等相关专业的专业选修课。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>数字图像处理<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>10026602</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/10026602.html">查看原始页面</a><a href="../json/10026602.json">下载 JSON</a><a href="../txt/10026602.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>10026602</td><th>课程名称(中)</th><td>数字图像处理</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Digital Image Processing</td></tr><tr><th>开课单位</th><td>自动化学院</td><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>茅耀斌</td><th>审核人</th><td>樊卫华</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">“数字图像处理”是自动化、电气工程等相关专业的专业选修课。
 
 随着计算机和数字信号处理技术的飞速发展，图像信息的存储、传输和处理都得以数字化，自动化、机器人应用中图像处理与分析的应用也层出不穷，在这种形势下，自动化、电气工程及其相关专业的学生了解和掌握基本的数字图像处理知识是十分必要的。本课程主要讲授数字图像处理的基本概念、基本理论、常用算法和系统组成以及图像处理技术在自动化中的应用，培养学生的工程实践能力以及工程师的使命和责任，为自动化、电气工程等相关专业的学生进一步学习后续课程打下基础。
 
 教学内容：（一）图像处理基础知识，包括：图像数字化方法与数字图像处理基础、人眼视觉系统特性、图像变换及图像的压缩编码；（二）图像处理的基本算法，包括：图像增强、图像分割、二值图像处理与几何特性分析、图像识别；（三）图像处理技术在自动化、机器视觉中的应用，如低照度图像增强、仪表自动读数、图像识别在巡检机器人中的应用等。
 
-先修课程：高等数学、线性代数、C程序设计语言、软件计算基础等课程。</p><h2>教学目的与要求</h2><p class="body">通过本课程的学习，学生能够熟悉图像处理的基本概念、基本原理与思维方法；能够掌握基本的图像处理算法，能够利用C/C++或者Python等高级编程语言编写基本的图像处理算法程序，并能够应用所学的知识解决一些实际的图像处理与图像分析问题，为将来从事工程技术工作和科学研究工作奠定基础；初步了解国内外在这一领域的主要研究机构、主要会议、期刊以及发展动向。
+先修课程：高等数学、线性代数、C程序设计语言、软件计算基础等课程。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">通过本课程的学习，学生能够熟悉图像处理的基本概念、基本原理与思维方法；能够掌握基本的图像处理算法，能够利用C/C++或者Python等高级编程语言编写基本的图像处理算法程序，并能够应用所学的知识解决一些实际的图像处理与图像分析问题，为将来从事工程技术工作和科学研究工作奠定基础；初步了解国内外在这一领域的主要研究机构、主要会议、期刊以及发展动向。
 
 通过本课程的学习，培养学生勤奋刻苦的求学精神和追求真理的科学精神，以及社会责任感和使命意识。
 
@@ -56,18 +83,4 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 3.1 能够根据需求，描述自动化应用所碰到的图像处理算法设计任务，确定针对自动化、电气工程等专业领域复杂工程问题的设计目标和方案。
 
-4.2 能够根据实验方案，基于科学原理并采用科学方法对算法进行设计、分析与解释。</p><h2>教学内容</h2><p class="body">绪论：图像处理的基本概念△；数字图像处理设备和系统；数字图像处理的历史、应用和发展；图像处理开发工具简介
-数字图像处理基础：人眼视觉原理与视觉模型★；光度学和色度学基础△；连续图像描述；图像数字化★△；图像文件格式；图像灰度直方图；图像的噪声与图像质量评价△
-图像变换与图像压缩：傅立叶变换△；可分离图像变换△★；图像压缩概述；熵编码方法△★；预测编码★；正交变换编码△★
-图像增强：灰度修正△★；图像平滑△；图像锐化△；其他非线性增强方法；图像的伪彩色增强；Retinex图像增强★
-图像分割：图像灰度分割△；边缘检测★△；点特征与角点检测△；分水岭算法★；彩色图像分割★；线条检测△★；图像分割中运动信息的利用
-二值图像处理与图像几何特征分析：二值形态学基本运算△；二值图像的连接性和距离△；形状特征提取与描述★
-图像识别：模式与模式分类；模板匹配△；统计模式识别方法★△
-图像处理在自动化、电气工程中的应用：低照度图像增强；自动仪表识读；图像识别在巡检机器人中的应用。</p><h2>课程思政</h2><p class="body">思政融入：人工智能国家战略；日积月累，积沙成塔，提高自己专业知识；脚踏实地。
-独立思考能力；善于应用工具，借助工具的力量；自学能力培养
-独立思考能力；善于应用工具，借助工具的力量；自学能力培养
-细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求
-细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求
-细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求
-细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求
-团队协作能力，互相帮助；细致思考，努力进取，大胆探索；技术创新</p><h2>章节安排（8 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>绪论：图像处理的基本概念△；数字图像处理设备和系统；数字图像处理的历史、应用和发展；图像处理开发工具简介</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">2</td><td>数字图像处理基础：人眼视觉原理与视觉模型★；光度学和色度学基础△；连续图像描述；图像数字化★△；图像文件格式；图像灰度直方图；图像的噪声与图像质量评价△</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">3</td><td>图像变换与图像压缩：傅立叶变换△；可分离图像变换△★；图像压缩概述；熵编码方法△★；预测编码★；正交变换编码△★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">4</td><td>图像增强：灰度修正△★；图像平滑△；图像锐化△；其他非线性增强方法；图像的伪彩色增强；Retinex图像增强★</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">5</td><td>图像分割：图像灰度分割△；边缘检测★△；点特征与角点检测△；分水岭算法★；彩色图像分割★；线条检测△★；图像分割中运动信息的利用</td><td class="n">9</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">9</td></tr><tr><td class="c">6</td><td>二值图像处理与图像几何特征分析：二值形态学基本运算△；二值图像的连接性和距离△；形状特征提取与描述★</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">7</td><td>图像识别：模式与模式分类；模板匹配△；统计模式识别方法★△</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">8</td><td>图像处理在自动化、电气工程中的应用：低照度图像增强；自动仪表识读；图像识别在巡检机器人中的应用。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 思政融入：人工智能国家战略；日积月累，积沙成塔，提高自己专业知识；脚踏实地。</li><li><b>第2章</b> 独立思考能力；善于应用工具，借助工具的力量；自学能力培养</li><li><b>第3章</b> 独立思考能力；善于应用工具，借助工具的力量；自学能力培养</li><li><b>第4章</b> 细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求</li><li><b>第5章</b> 细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求</li><li><b>第6章</b> 细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求</li><li><b>第7章</b> 细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求</li><li><b>第8章</b> 团队协作能力，互相帮助；细致思考，努力进取，大胆探索；技术创新</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10026602.html">查看原始页面</a><a href="../json/10026602.json">下载 JSON</a><a href="../txt/10026602.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+4.2 能够根据实验方案，基于科学原理并采用科学方法对算法进行设计、分析与解释。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>能够阐述图像数字化方法、人眼视觉特性、基本图像变换、图像空域和频域滤波、图像几何变换、二值图像分析、图像分割等数字图像处理的基本概念与基本原理；毕业要求1.4</li><li>能够理解和阐述各种基本图像处理算法的工作原理，算法流程；毕业要求1.4</li><li>能够理解并采用C语言编写常用图像处理算法程序，如直方图均衡化、图像平滑、图像锐化、图像特征提取、二值图像处理等经典算法，并能对各算法的适用场合有较正确的认识；毕业要求1.4</li><li>根据给定的图像处理要求，完成图像处理方案制定，数学模型建立和算法选择，参数寻优，程序编写等相关任务；毕业要求2.2</li><li>能够对自动化、电气工程等领域的工程问题进行分析，提取工程设计要求，选取基本的图像处理算法，评估可选用图像处理平台，进而给出较完整图像处理工程实现方案；毕业要求3.1</li><li>能够根据自动化、电气工程等领域应用产生的新问题、新需求，完成图像处理相关工作的调研，新算法的设计，算法软件编制和调试，获得相关测试图像数据进行实验，评估实验结果；毕业要求4.2</li></ul><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">绪论：图像处理的基本概念△；数字图像处理设备和系统；数字图像处理的历史、应用和发展；图像处理开发工具简介</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>思政融入：人工智能国家战略；日积月累，积沙成塔，提高自己专业知识；脚踏实地。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">数字图像处理基础：人眼视觉原理与视觉模型★；光度学和色度学基础△；连续图像描述；图像数字化★△；图像文件格式；图像灰度直方图；图像的噪声与图像质量评价△</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>独立思考能力；善于应用工具，借助工具的力量；自学能力培养</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">图像变换与图像压缩：傅立叶变换△；可分离图像变换△★；图像压缩概述；熵编码方法△★；预测编码★；正交变换编码△★</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>独立思考能力；善于应用工具，借助工具的力量；自学能力培养</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">4</td><td class="cb">图像增强：灰度修正△★；图像平滑△；图像锐化△；其他非线性增强方法；图像的伪彩色增强；Retinex图像增强★</td><td class="n cb">6</td><td class="n cb">6</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">5</td><td class="cb">图像分割：图像灰度分割△；边缘检测★△；点特征与角点检测△；分水岭算法★；彩色图像分割★；线条检测△★；图像分割中运动信息的利用</td><td class="n cb">9</td><td class="n cb">9</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">6</td><td class="cb">二值图像处理与图像几何特征分析：二值形态学基本运算△；二值图像的连接性和距离△；形状特征提取与描述★</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">7</td><td class="cb">图像识别：模式与模式分类；模板匹配△；统计模式识别方法★△</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>细致思考，努力进取，大胆探索；创新能力培养；培养良好素质和基本技能；培养适应能力、符合社会发展需求</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">8</td><td class="cb">图像处理在自动化、电气工程中的应用：低照度图像增强；自动仪表识读；图像识别在巡检机器人中的应用。</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>团队协作能力，互相帮助；细致思考，努力进取，大胆探索；技术创新</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">32</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>数字图像处理(第四版)</td><td>冈萨雷斯</td><td>978-7-121-37747-1</td><td>电子工业出版社</td><td class="n">2020</td></tr><tr><td>数字图像处理(第三版)</td><td>贾永红</td><td>978-7-307-16374-4</td><td>武汉大学出版社</td><td class="n">2016</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

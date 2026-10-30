@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,35 +22,48 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>金融风险管理<span class="tag on">在用</span></h1><div class="sub">课程编号 07055401</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>07055401</td></tr><tr><th>英文名称</th><td>Financial Risk Management</td></tr><tr><th>开课单位</th><td>经济管理学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人</th><td>朱正萱</td></tr><tr><th>审核人</th><td>周彩霞</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>(未填):10%；(未填):20%；(未填):70%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>风险管理的基本概念、基础理论，金融风险管理的基本原理，信用风险、市场风险、流动性风险等的识别、度量；</li><li>完善金融从业人员的职业素养，树立防范意识；</li><li>为进一步科学地度量风险以及控制风险奠定基础；</li><li>能较为全面地分析当代经济运行中的金融风险的特征、种类与形成机理，和提出控制措施。</li></ul><h2>课程简介</h2><p class="body">本课程是金融学专业的专业必修课程，是一门专业基础理论与实务并重的课程，以阐述金融风险管理的基本理论与基本技能为主要内容，是一门应用性很强的学科。课程教学内容包括：风险管理一般技术，金融风险特征与种类；金融风险的识别，市场、信用、流动性风险的测量与监控；金融风险管理策略等。
-本课程所需的预修课程有：微观经济学、宏观经济学、金融学、投资学、概率论与数理统计。</p><h2>教学目的与要求</h2><p class="body">通过本课程的教学，使学生对风险管理的基本概念、基础理论，金融风险管理的基本原理等基础知识有较全面的认识和理解；掌握观察和分析金融风险的正确方法，初步掌握一般的金融风险管理技术，培养解决金融风险实际问题的能力；树立正确的金融风险防范意识和全面的金融风险管理理念，提高金融科学的知识素养。通过本课程的学习，学生具备运用金融风险管理技术进行金融风险辨识和度量，为金融机构制定风险管理方案、防范化解风险的能力。近年来，金融风险已成为经济社会重点关注的领域之一，历任国家领导人均高度重视金融问题。“金融活，经济活；金融稳，经济稳。”。习近平总书记在多个重大场合重申金融服务实体经济的天职和宗旨，要求要紧紧围绕服务实体经济、防控金融风险、深化金融改革三项任务，守住不发生系统性金融风险的底线。十九大报告也明确指出“健全金融监管体系，守住不发生系统性金融风险的底线。” 。通过本课程的学习，将使学生能全局性地了解金融风险的本质和运行规律，既对中国经济运行中面临的金融风险有清醒的认识，又对党和政府能有效应对风险、避免危机发生有坚定信心，强化“四个自信”，树立远大奋斗目标。</p><h2>教学内容</h2><p class="body">风险与风险管理概述：风险的含义、分类；风险管理概述；金融风险管理体系
-风险识别与评估△：概述；流程；方法；历史波动率计算；损失发布的检验与模拟；损失评估；损失描述
-风险管理措施与决策△：概述；控制型风险管理措施；融资型风险管理措施；期望决策准则；风险调整净现值决策准则；决策树分析；风险态度★
-信用风险管理△：概述；识别；度量指标；信用评级体系；组合信用风险度量★；信用风险管理
-市场风险管理：概述；识别；利率度量利率△★；监测与控制
-流动性风险管理：概述；识别；度量★；监测与控制</p><h2>课程思政</h2><p class="body">强化“风险、收益并存”“金融服务实体经济的宗旨，同时要防控金融风险”；指导学生树立辩证唯物主义的世界观和科学的方法论
-“没有风险就没有金融活动”，结合我国当前实际，树立科学的发展观
-结合习近平总书记“关于确保不发生系统性金融风险”的重要思想，探讨标本兼治，有效消除风险隐患的方法，确保全社会经济秩序的稳定。
-市场风险是一柄双刃剑，利率风险是在利率市场化过程中同一问题的两面；辩证唯物主义世界观的确立，坚定社会主义市场经济道路不动摇。</p><h2>章节安排（6 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>风险与风险管理概述：风险的含义、分类；风险管理概述；金融风险管理体系</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">2</td><td>风险识别与评估△：概述；流程；方法；历史波动率计算；损失发布的检验与模拟；损失评估；损失描述</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">3</td><td>风险管理措施与决策△：概述；控制型风险管理措施；融资型风险管理措施；期望决策准则；风险调整净现值决策准则；决策树分析；风险态度★</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">4</td><td>信用风险管理△：概述；识别；度量指标；信用评级体系；组合信用风险度量★；信用风险管理</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">5</td><td>市场风险管理：概述；识别；利率度量利率△★；监测与控制</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">6</td><td>流动性风险管理：概述；识别；度量★；监测与控制</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 强化“风险、收益并存”“金融服务实体经济的宗旨，同时要防控金融风险”；指导学生树立辩证唯物主义的世界观和科学的方法论</li><li><b>第2章</b> “没有风险就没有金融活动”，结合我国当前实际，树立科学的发展观</li><li><b>第3章</b> 结合习近平总书记“关于确保不发生系统性金融风险”的重要思想，探讨标本兼治，有效消除风险隐患的方法，确保全社会经济秩序的稳定。</li><li><b>第5章</b> 市场风险是一柄双刃剑，利率风险是在利率市场化过程中同一问题的两面；辩证唯物主义世界观的确立，坚定社会主义市场经济道路不动摇。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/07055401.html">查看原始页面</a><a href="../json/07055401.json">下载 JSON</a><a href="../txt/07055401.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>金融风险管理<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>07055401</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/07055401.html">查看原始页面</a><a href="../json/07055401.json">下载 JSON</a><a href="../txt/07055401.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>07055401</td><th>课程名称(中)</th><td>金融风险管理</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Financial Risk Management</td></tr><tr><th>开课单位</th><td>经济管理学院</td><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人(执笔人)</th><td>朱正萱</td><th>审核人</th><td>周彩霞</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">本课程是金融学专业的专业必修课程，是一门专业基础理论与实务并重的课程，以阐述金融风险管理的基本理论与基本技能为主要内容，是一门应用性很强的学科。课程教学内容包括：风险管理一般技术，金融风险特征与种类；金融风险的识别，市场、信用、流动性风险的测量与监控；金融风险管理策略等。
+本课程所需的预修课程有：微观经济学、宏观经济学、金融学、投资学、概率论与数理统计。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">通过本课程的教学，使学生对风险管理的基本概念、基础理论，金融风险管理的基本原理等基础知识有较全面的认识和理解；掌握观察和分析金融风险的正确方法，初步掌握一般的金融风险管理技术，培养解决金融风险实际问题的能力；树立正确的金融风险防范意识和全面的金融风险管理理念，提高金融科学的知识素养。通过本课程的学习，学生具备运用金融风险管理技术进行金融风险辨识和度量，为金融机构制定风险管理方案、防范化解风险的能力。近年来，金融风险已成为经济社会重点关注的领域之一，历任国家领导人均高度重视金融问题。“金融活，经济活；金融稳，经济稳。”。习近平总书记在多个重大场合重申金融服务实体经济的天职和宗旨，要求要紧紧围绕服务实体经济、防控金融风险、深化金融改革三项任务，守住不发生系统性金融风险的底线。十九大报告也明确指出“健全金融监管体系，守住不发生系统性金融风险的底线。” 。通过本课程的学习，将使学生能全局性地了解金融风险的本质和运行规律，既对中国经济运行中面临的金融风险有清醒的认识，又对党和政府能有效应对风险、避免危机发生有坚定信心，强化“四个自信”，树立远大奋斗目标。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>风险管理的基本概念、基础理论，金融风险管理的基本原理，信用风险、市场风险、流动性风险等的识别、度量；</li><li>完善金融从业人员的职业素养，树立防范意识；</li><li>为进一步科学地度量风险以及控制风险奠定基础；</li><li>能较为全面地分析当代经济运行中的金融风险的特征、种类与形成机理，和提出控制措施。</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>(未填)</td><td>(未填)</td><td>(未填)</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">10%</td><td class="n">20%</td><td class="n">70%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">风险与风险管理概述：风险的含义、分类；风险管理概述；金融风险管理体系</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>强化“风险、收益并存”“金融服务实体经济的宗旨，同时要防控金融风险”；指导学生树立辩证唯物主义的世界观和科学的方法论</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">风险识别与评估△：概述；流程；方法；历史波动率计算；损失发布的检验与模拟；损失评估；损失描述</td><td class="n cb">5</td><td class="n cb">5</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>“没有风险就没有金融活动”，结合我国当前实际，树立科学的发展观</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">风险管理措施与决策△：概述；控制型风险管理措施；融资型风险管理措施；期望决策准则；风险调整净现值决策准则；决策树分析；风险态度★</td><td class="n cb">5</td><td class="n cb">5</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>结合习近平总书记“关于确保不发生系统性金融风险”的重要思想，探讨标本兼治，有效消除风险隐患的方法，确保全社会经济秩序的稳定。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">4</td><td class="cb">信用风险管理△：概述；识别；度量指标；信用评级体系；组合信用风险度量★；信用风险管理</td><td class="n cb">8</td><td class="n cb">8</td></tr><tr><td class="c cb">5</td><td class="cb">市场风险管理：概述；识别；利率度量利率△★；监测与控制</td><td class="n cb">8</td><td class="n cb">8</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>市场风险是一柄双刃剑，利率风险是在利率市场化过程中同一问题的两面；辩证唯物主义世界观的确立，坚定社会主义市场经济道路不动摇。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">6</td><td class="cb">流动性风险管理：概述；识别；度量★；监测与控制</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">32</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>风险管理（第二版）</td><td>王周伟</td><td>9787111557692</td><td>机械工业出版社</td><td class="n">2017</td></tr><tr><td>金融风险管理师考试手册（第六版）</td><td>乔瑞著，王博等译</td><td>9787300148373</td><td>中国人民大学出版社</td><td class="n">2012</td></tr><tr><td>风险管理学习指导及习题解析</td><td>王周伟</td><td>9787111556312</td><td>机械工业出版社</td><td class="n">2017</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

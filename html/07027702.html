@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,38 +22,49 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>商业银行业务与管理<span class="tag on">在用</span></h1><div class="sub">课程编号 07027702</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>07027702</td></tr><tr><th>英文名称</th><td>Commercial Banking Business and Management</td></tr><tr><th>开课单位</th><td>经济管理学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人</th><td>周彩霞</td></tr><tr><th>审核人</th><td>周彩霞</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>(未填):5%；(未填):25%；(未填):70%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>1. 深入理解商业银行管理的原则和方法。以资本充足率、持续期平衡为代表的银行风险控制理论，是学生首先要需掌握的方法；学生需对经管环境变动及银行经营管理不断发展的现实性、迫切性有充分的认识。</li><li>2. 掌握商业银行业务与管理理论的框架。学生应能熟练表达对各类主要银行业务的概念、内容，对主要业务之间的关联、与银行经营成果之间的关系理解透彻，对于利率跨期的交易特征和价格形成规律有充分的认识。</li><li>3.广泛了解当前银行与金融活动的最新态势。金融行业的特征是发展快、经营环境敏感多变，同时也与宏观政策互为对应，牵一发而动全身；学生应在研究专题报告的基础上培养观察和分析金融活动趋势的能力。</li><li>4. 全局性地了解金融的本质和运行规律，强化“四个自信”，立足专业，树立远大奋斗目标。</li></ul><h2>课程简介</h2><p class="body">商业银行业务与管理是金融学本科专业教学的重要课程，它需在学生完成高数等大学教育相关基础课程、以及金融市场学、中央银行学等专业课程的条件下进行，目的在于建立本专业学生对于商业银行类型金融机构业务和管理知识的架构，为进一步与其他金融学理论知识相融合创造条件。教学内容包括:导论、商业银行资本、负债业务、现金资产业务、贷款业务、银行投资业务、表外业务、结算与代理业务、国际业务、资产与负债管理策略、银行经营风险与内部控制、银行经营发展趋势等内容。
-本课程所需的预修课程有：微观经济学、宏观经济学、金融学、金融市场学等。</p><h2>教学目的与要求</h2><p class="body">通过商业银行业务与管理课程的学习，学生应能掌握商业银行的理论框架，熟悉主要业务的基本内容，了解其管理方法的主要思路，奠定未来从事相关工作的知识背景。在教学过程中，将结合课程内容组织与银行业务相关的金融研究专题报告，加快学生对当前金融活动现实情况的接触和了解，提高学习兴趣和主动性，深化学习效果。
-商业银行是金融行业的基本从业机构，人数多、业务复杂、风险集中。同时，商业银行的发展壮大也成为我国经济实力和金融实力的载体，是建设社会主义强国的基石之一。因此，课程要求学生在课程学习过程中，拓展国家发展水平的知识面，建立将来服务于国家金融事业的信心和自豪感。</p><h2>教学内容</h2><p class="body">1 导论 1.1 商业银行的起源与发展 1.2 商业银行的功能及其地位△ 1.3 商业银行的组织结构△ 1.4 商业银行制度△
-2 商业银行的资本与负债 2.1 银行资本金的构成 2.2 银行资本充足性及其测定△★ 2.3 银行的资本管理△ 2.4 银行负债的构成△ 2.5 商业银行负债业务管理
-3 商业银行贷款业务管理 3.1 贷款种类和政策 3.2 贷款定价△★ 3.3 贷款风险管理
-4 商业银行证券投资业务 4.1 银行证券投资的风险和收益 4.2 商业银行证券投资业务种类 4.3 商业银行证券投资策略及风险管理★
-5 银行表外业务的发展 5.1 银行表外业务的发展概况 5.2 传统表外业务△ 5.3 新兴表外业务△ 5.4 表外业务管理
-6 其他业务 6.1 结算业务 6.2 代理业务 6.3信息咨询业务 6.4 国际业务
-7 商业银行经营风险与内部控制 7.1商业银行经营风险△ 7.2 商业银行经营风险预测△★ 7.3 内部控制
-8 商业银行经营发展趋势 8.1确立新的经营观念和经营策略 8.2商业银行经营电子化 8.3 银行再造与集约化经营</p><h2>课程思政</h2><p class="body">让学生了解我国银行业发展成果，在国际银行界的经营排位概况和业务特色；银行在我国金融业中的基础性功能与重要地位；
-重视银行与金融活动在国际经贸交往中的作用；强调金融业对国家发展和国家地位的支撑
-银行业在经济和金融风险控制中所发挥的作用
-让学生了解经济转型时期，科技革命驱动的银行业变革，树立立足专业，为国家经济建设做出贡献的理想</p><h2>章节安排（8 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1 导论 1.1 商业银行的起源与发展 1.2 商业银行的功能及其地位△ 1.3 商业银行的组织结构△ 1.4 商业银行制度△</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">2</td><td>2 商业银行的资本与负债 2.1 银行资本金的构成 2.2 银行资本充足性及其测定△★ 2.3 银行的资本管理△ 2.4 银行负债的构成△ 2.5 商业银行负债业务管理</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">3</td><td>3 商业银行贷款业务管理 3.1 贷款种类和政策 3.2 贷款定价△★ 3.3 贷款风险管理</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">4</td><td>4 商业银行证券投资业务 4.1 银行证券投资的风险和收益 4.2 商业银行证券投资业务种类 4.3 商业银行证券投资策略及风险管理★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">5</td><td>5 银行表外业务的发展 5.1 银行表外业务的发展概况 5.2 传统表外业务△ 5.3 新兴表外业务△ 5.4 表外业务管理</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">6</td><td>6 其他业务 6.1 结算业务 6.2 代理业务 6.3信息咨询业务 6.4 国际业务</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">7</td><td>7 商业银行经营风险与内部控制 7.1商业银行经营风险△ 7.2 商业银行经营风险预测△★ 7.3 内部控制</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">8</td><td>8 商业银行经营发展趋势 8.1确立新的经营观念和经营策略 8.2商业银行经营电子化 8.3 银行再造与集约化经营</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 让学生了解我国银行业发展成果，在国际银行界的经营排位概况和业务特色；银行在我国金融业中的基础性功能与重要地位；</li><li><b>第6章</b> 重视银行与金融活动在国际经贸交往中的作用；强调金融业对国家发展和国家地位的支撑</li><li><b>第7章</b> 银行业在经济和金融风险控制中所发挥的作用</li><li><b>第8章</b> 让学生了解经济转型时期，科技革命驱动的银行业变革，树立立足专业，为国家经济建设做出贡献的理想</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/07027702.html">查看原始页面</a><a href="../json/07027702.json">下载 JSON</a><a href="../txt/07027702.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>商业银行业务与管理<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>07027702</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/07027702.html">查看原始页面</a><a href="../json/07027702.json">下载 JSON</a><a href="../txt/07027702.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>07027702</td><th>课程名称(中)</th><td>商业银行业务与管理</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Commercial Banking Business and Management</td></tr><tr><th>开课单位</th><td>经济管理学院</td><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人(执笔人)</th><td>周彩霞</td><th>审核人</th><td>周彩霞</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">商业银行业务与管理是金融学本科专业教学的重要课程，它需在学生完成高数等大学教育相关基础课程、以及金融市场学、中央银行学等专业课程的条件下进行，目的在于建立本专业学生对于商业银行类型金融机构业务和管理知识的架构，为进一步与其他金融学理论知识相融合创造条件。教学内容包括:导论、商业银行资本、负债业务、现金资产业务、贷款业务、银行投资业务、表外业务、结算与代理业务、国际业务、资产与负债管理策略、银行经营风险与内部控制、银行经营发展趋势等内容。
+本课程所需的预修课程有：微观经济学、宏观经济学、金融学、金融市场学等。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">通过商业银行业务与管理课程的学习，学生应能掌握商业银行的理论框架，熟悉主要业务的基本内容，了解其管理方法的主要思路，奠定未来从事相关工作的知识背景。在教学过程中，将结合课程内容组织与银行业务相关的金融研究专题报告，加快学生对当前金融活动现实情况的接触和了解，提高学习兴趣和主动性，深化学习效果。
+商业银行是金融行业的基本从业机构，人数多、业务复杂、风险集中。同时，商业银行的发展壮大也成为我国经济实力和金融实力的载体，是建设社会主义强国的基石之一。因此，课程要求学生在课程学习过程中，拓展国家发展水平的知识面，建立将来服务于国家金融事业的信心和自豪感。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>1. 深入理解商业银行管理的原则和方法。以资本充足率、持续期平衡为代表的银行风险控制理论，是学生首先要需掌握的方法；学生需对经管环境变动及银行经营管理不断发展的现实性、迫切性有充分的认识。</li><li>2. 掌握商业银行业务与管理理论的框架。学生应能熟练表达对各类主要银行业务的概念、内容，对主要业务之间的关联、与银行经营成果之间的关系理解透彻，对于利率跨期的交易特征和价格形成规律有充分的认识。</li><li>3.广泛了解当前银行与金融活动的最新态势。金融行业的特征是发展快、经营环境敏感多变，同时也与宏观政策互为对应，牵一发而动全身；学生应在研究专题报告的基础上培养观察和分析金融活动趋势的能力。</li><li>4. 全局性地了解金融的本质和运行规律，强化“四个自信”，立足专业，树立远大奋斗目标。</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>(未填)</td><td>(未填)</td><td>(未填)</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">5%</td><td class="n">25%</td><td class="n">70%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">1 导论 1.1 商业银行的起源与发展 1.2 商业银行的功能及其地位△ 1.3 商业银行的组织结构△ 1.4 商业银行制度△</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>让学生了解我国银行业发展成果，在国际银行界的经营排位概况和业务特色；银行在我国金融业中的基础性功能与重要地位；</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">2 商业银行的资本与负债 2.1 银行资本金的构成 2.2 银行资本充足性及其测定△★ 2.3 银行的资本管理△ 2.4 银行负债的构成△ 2.5 商业银行负债业务管理</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr><td class="c cb">3</td><td class="cb">3 商业银行贷款业务管理 3.1 贷款种类和政策 3.2 贷款定价△★ 3.3 贷款风险管理</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr><td class="c cb">4</td><td class="cb">4 商业银行证券投资业务 4.1 银行证券投资的风险和收益 4.2 商业银行证券投资业务种类 4.3 商业银行证券投资策略及风险管理★</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr><td class="c cb">5</td><td class="cb">5 银行表外业务的发展 5.1 银行表外业务的发展概况 5.2 传统表外业务△ 5.3 新兴表外业务△ 5.4 表外业务管理</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr><td class="c cb">6</td><td class="cb">6 其他业务 6.1 结算业务 6.2 代理业务 6.3信息咨询业务 6.4 国际业务</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>重视银行与金融活动在国际经贸交往中的作用；强调金融业对国家发展和国家地位的支撑</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">7</td><td class="cb">7 商业银行经营风险与内部控制 7.1商业银行经营风险△ 7.2 商业银行经营风险预测△★ 7.3 内部控制</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>银行业在经济和金融风险控制中所发挥的作用</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">8</td><td class="cb">8 商业银行经营发展趋势 8.1确立新的经营观念和经营策略 8.2商业银行经营电子化 8.3 银行再造与集约化经营</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>让学生了解经济转型时期，科技革命驱动的银行业变革，树立立足专业，为国家经济建设做出贡献的理想</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">32</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>商业银行经营学（第六版）</td><td>戴国强</td><td>9787040569711</td><td>高等教育出版社</td><td class="n">2022</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

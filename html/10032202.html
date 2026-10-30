@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,33 +22,63 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>微控制器应用及系统设计<span class="tag on">在用</span></h1><div class="sub">课程编号 10032202</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10032202</td></tr><tr><th>英文名称</th><td>Application and Design of MCU System</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(含实践环节)</td></tr><tr><th>课程负责人</th><td>吴益飞</td></tr><tr><th>审核人</th><td>樊卫华</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>24</td></tr><tr><th>实验学时</th><td>8</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>平时成绩 （出勤、课堂表现等）:10%；实验成绩:40%；课程报告:50%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>能够依据系统设计要求和技术实现的影响因素，给出基于微控制器的控制系统设计、开发和实施的总体解决方案</li><li>能够选择和使用恰当的仪器设备、软硬件开发工具以及各类信息资源，对自动化领域的复杂工程问题进行分析和设计</li><li>能够在工程实践中理解并遵守工程职业道德和规范</li><li>能够在团队中承担成员或负责人的角色</li><li>能够就复杂工程问题与业界同行进行有效沟通和交流</li><li>能够独立地阅读教材、参考书及有关文献资料，形成自主学习和终身学习的意识</li></ul><h2>课程简介</h2><p class="body">微控制器应用及系统设计是为自动化、轨道交通信号与控制、电气工程及其自动化等专业学生开设的一门专业选修课。课程以MSP430系列微控制器为范例学习微控制器的具体应用及系统设计方法，是一门面向应用并具有很强实践性与综合性的课程。通过本课程的教学，学生将深入了解微控制器的基本组成结构及各功能模块的工作原理，熟练掌握基于微控制器进行应用系统开发的基本流程以及相应的软硬件设计方法。激发学生的创造性思维，提高学生实践能力以及工程师的使命责任感，为学生今后进入自动化及电子类相关行业工作奠定良好的基础。课程主要学习内容：微控制器概述、MSP430微控制器硬件结构、MSP430指令系统与程序设计、MSP430微控制器片内外围模块、MSP430微控制器常用接口设计、微控制器应用系统设计等。修学该课程所需的预备知识：模拟电子线路，数字逻辑电路，微机原理与接口技术，C语言程序设计等。</p><h2>教学目的与要求</h2><p class="body">通过本课程的教学，学生将深入了解微控制器的基本组成结构及各功能模块的工作原理，熟练掌握基于微控制器进行应用系统开发的基本流程以及相应的软硬件设计方法；能够依据系统设计要求和技术实现的影响因素，给出基于微控制器的系统设计、开发和实施的总体解决方案；能够合理选择和使用相关仪器设备、开发工具以及各类信息资源，对自动化领域的复杂工程问题进行分析和设计；能够基于工程相关背景知识进行合理分析、评价专业工程实践对社会、健康、安全、法律以及文化的影响，并理解应承担的责任；具有人文社会科学素养、社会责任感，能够在工程实践中理解并遵守工程职业道德和规范；形成自主学习和终身学习的意识，具备不断学习和适应发展的能力；能够就复杂工程问题与业界同行进行有效沟通和交流。本课程将增强学生勇于探索的创新精神，提高学生善于解决问题的实践能力，培养学生精益求精的大国工匠精神，激发学生科技报国的家国情怀和使命担当。</p><h2>教学内容</h2><p class="body">1 微控制器概述 1.1 △微控制器的基本概念； 1.2 微控制器的发展概况； 1.3 微控制器的特点及应用领域； 1.4 常用微控制器系列介绍； 1.5 MSP430系列微控制器特点及应用选型
-2 MSP430微控制器硬件结构 2.1 MSP430结构概述； 2.2 MSP430系列产品； 2.3 △MSP430CPU结构和特点； 2.4 △MSP430存储器结构和地址空间。
-3 MSP430指令系统与程序设计 3.1 指令系统概述； 3.2 △寻址方式； 3.3 指令系统介绍； 3.4 △程序设计。
-4 MSP430微控制器片内外围模块 4.1 △时钟模块； 4.2 △MSP430各种端口； 4.3 △★定时器； 4.4 比较器A； 4.5 △★MSP430系列通用串行通信模块的异步模式； 4.6 △★MSP430系列通用串行通信模块的同步模式； 4.7 △★MSP430模数转换模块。
-5 MSP430微控制器常用接口设计 5.1 键盘接口； 5.2 LED显示接口。
-6 微控制器应用系统设计与开发 6.1 △微控制器应用系统组成结构及设计内容； 6.2 微控制器应用系统开发过程； 6.3 △微控制器应用系统设计的基本原则与方法； 6.4 微控制器应用系统调试； 6.5 MSP430系列微控制器应用系统设计举例。</p><h2>课程思政</h2><p class="body">了解我国微控制器技术的发展历史，增强学生的民族自豪感和科技报国的使命感。
-熟练掌握各功能模块使用方法，培养学生精益求精的大国工匠精神。
-鼓励学生理论联系实际大胆创新，培养学生勇于探索的创新精神，激发学生科技报国的家国情怀和使命担当。</p><h2>章节安排（6 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1 微控制器概述 1.1 △微控制器的基本概念； 1.2 微控制器的发展概况； 1.3 微控制器的特点及应用领域； 1.4 常用微控制器系列介绍； 1.5 MSP430系列微控制器特点及应用选型</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>2 MSP430微控制器硬件结构 2.1 MSP430结构概述； 2.2 MSP430系列产品； 2.3 △MSP430CPU结构和特点； 2.4 △MSP430存储器结构和地址空间。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">3</td><td>3 MSP430指令系统与程序设计 3.1 指令系统概述； 3.2 △寻址方式； 3.3 指令系统介绍； 3.4 △程序设计。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">4</td><td>4 MSP430微控制器片内外围模块 4.1 △时钟模块； 4.2 △MSP430各种端口； 4.3 △★定时器； 4.4 比较器A； 4.5 △★MSP430系列通用串行通信模块的异步模式； 4.6 △★MSP430系列通用串行通信模块的同步模式； 4.7 △★MSP430模数转换模块。</td><td class="n">10</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">14</td></tr><tr><td class="c">5</td><td>5 MSP430微控制器常用接口设计 5.1 键盘接口； 5.2 LED显示接口。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">6</td><td>6 微控制器应用系统设计与开发 6.1 △微控制器应用系统组成结构及设计内容； 6.2 微控制器应用系统开发过程； 6.3 △微控制器应用系统设计的基本原则与方法； 6.4 微控制器应用系统调试； 6.5 MSP430系列微控制器应用系统设计举例。</td><td class="n">6</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">10</td></tr><tr><th></th><th>合计</th><th style="text-align:right">24</th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 了解我国微控制器技术的发展历史，增强学生的民族自豪感和科技报国的使命感。</li><li><b>第4章</b> 熟练掌握各功能模块使用方法，培养学生精益求精的大国工匠精神。</li><li><b>第6章</b> 鼓励学生理论联系实际大胆创新，培养学生勇于探索的创新精神，激发学生科技报国的家国情怀和使命担当。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10032202.html">查看原始页面</a><a href="../json/10032202.json">下载 JSON</a><a href="../txt/10032202.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>微控制器应用及系统设计<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>10032202</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考查</b></span></div><div class="files top"><a href="../original/10032202.html">查看原始页面</a><a href="../json/10032202.json">下载 JSON</a><a href="../txt/10032202.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>10032202</td><th>课程名称(中)</th><td>微控制器应用及系统设计</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Application and Design of MCU System</td></tr><tr><th>开课单位</th><td>自动化学院</td><th>课程类别</th><td>理论课(含实践环节)</td></tr><tr><th>课程负责人(执笔人)</th><td>吴益飞</td><th>审核人</th><td>樊卫华</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">微控制器应用及系统设计是为自动化、轨道交通信号与控制、电气工程及其自动化等专业学生开设的一门专业选修课。课程以MSP430系列微控制器为范例学习微控制器的具体应用及系统设计方法，是一门面向应用并具有很强实践性与综合性的课程。通过本课程的教学，学生将深入了解微控制器的基本组成结构及各功能模块的工作原理，熟练掌握基于微控制器进行应用系统开发的基本流程以及相应的软硬件设计方法。激发学生的创造性思维，提高学生实践能力以及工程师的使命责任感，为学生今后进入自动化及电子类相关行业工作奠定良好的基础。课程主要学习内容：微控制器概述、MSP430微控制器硬件结构、MSP430指令系统与程序设计、MSP430微控制器片内外围模块、MSP430微控制器常用接口设计、微控制器应用系统设计等。修学该课程所需的预备知识：模拟电子线路，数字逻辑电路，微机原理与接口技术，C语言程序设计等。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">通过本课程的教学，学生将深入了解微控制器的基本组成结构及各功能模块的工作原理，熟练掌握基于微控制器进行应用系统开发的基本流程以及相应的软硬件设计方法；能够依据系统设计要求和技术实现的影响因素，给出基于微控制器的系统设计、开发和实施的总体解决方案；能够合理选择和使用相关仪器设备、开发工具以及各类信息资源，对自动化领域的复杂工程问题进行分析和设计；能够基于工程相关背景知识进行合理分析、评价专业工程实践对社会、健康、安全、法律以及文化的影响，并理解应承担的责任；具有人文社会科学素养、社会责任感，能够在工程实践中理解并遵守工程职业道德和规范；形成自主学习和终身学习的意识，具备不断学习和适应发展的能力；能够就复杂工程问题与业界同行进行有效沟通和交流。本课程将增强学生勇于探索的创新精神，提高学生善于解决问题的实践能力，培养学生精益求精的大国工匠精神，激发学生科技报国的家国情怀和使命担当。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>能够依据系统设计要求和技术实现的影响因素，给出基于微控制器的控制系统设计、开发和实施的总体解决方案</li><li>能够选择和使用恰当的仪器设备、软硬件开发工具以及各类信息资源，对自动化领域的复杂工程问题进行分析和设计</li><li>能够在工程实践中理解并遵守工程职业道德和规范</li><li>能够在团队中承担成员或负责人的角色</li><li>能够就复杂工程问题与业界同行进行有效沟通和交流</li><li>能够独立地阅读教材、参考书及有关文献资料，形成自主学习和终身学习的意识</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>平时成绩 （出勤、课堂表现等）</td><td>实验成绩</td><td>课程报告</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">10%</td><td class="n">40%</td><td class="n">50%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="3">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">实验</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">1 微控制器概述 1.1 △微控制器的基本概念； 1.2 微控制器的发展概况； 1.3 微控制器的特点及应用领域； 1.4 常用微控制器系列介绍； 1.5 MSP430系列微控制器特点及应用选型</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>了解我国微控制器技术的发展历史，增强学生的民族自豪感和科技报国的使命感。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">2 MSP430微控制器硬件结构 2.1 MSP430结构概述； 2.2 MSP430系列产品； 2.3 △MSP430CPU结构和特点； 2.4 △MSP430存储器结构和地址空间。</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr><td class="c cb">3</td><td class="cb">3 MSP430指令系统与程序设计 3.1 指令系统概述； 3.2 △寻址方式； 3.3 指令系统介绍； 3.4 △程序设计。</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr><td class="c cb">4</td><td class="cb">4 MSP430微控制器片内外围模块 4.1 △时钟模块； 4.2 △MSP430各种端口； 4.3 △★定时器； 4.4 比较器A； 4.5 △★MSP430系列通用串行通信模块的异步模式； 4.6 △★MSP430系列通用串行通信模块的同步模式； 4.7 △★MSP430模数转换模块。</td><td class="n cb">10</td><td class="n cb">4</td><td class="n cb">14</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>熟练掌握各功能模块使用方法，培养学生精益求精的大国工匠精神。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">5</td><td class="cb">5 MSP430微控制器常用接口设计 5.1 键盘接口； 5.2 LED显示接口。</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr><td class="c cb">6</td><td class="cb">6 微控制器应用系统设计与开发 6.1 △微控制器应用系统组成结构及设计内容； 6.2 微控制器应用系统开发过程； 6.3 △微控制器应用系统设计的基本原则与方法； 6.4 微控制器应用系统调试； 6.5 MSP430系列微控制器应用系统设计举例。</td><td class="n cb">6</td><td class="n cb">4</td><td class="n cb">10</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>鼓励学生理论联系实际大胆创新，培养学生勇于探索的创新精神，激发学生科技报国的家国情怀和使命担当。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">24</td><td class="n">8</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr><tr><td class="c">1</td><td>I/O与时钟实验</td><td>(1)熟悉微控制器实验系统软硬件开发环境；
+
+(2)掌握MSP430I/O端口使用方法；
+
+(3)掌握MSP430时钟模块使用方法。</td><td class="n">2</td><td>综合性实验</td></tr><tr><td class="c">2</td><td>综合设计实验</td><td>(1)查阅相关资料，拟定技术路线；
+
+(2)完成系统总体方案设计；
+
+(3)完成系统硬件平台搭建；
+
+(4)完成系统软件总体设计；
+
+(5)完成系统软件详细设计；
+
+(6)完成系统调试。</td><td class="n">4</td><td>研究创新性实验</td></tr><tr><td class="c">3</td><td>键盘与LED显示实验</td><td>(1)掌握键盘工作原理及其软硬件设计方法；
+
+(2)掌握LED静态显示和动态扫描显示原理及其软硬件设计方法。</td><td class="n">2</td><td>设计性实验</td></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>MSP430超低功耗单片机原理与应用（第3版）</td><td>沈建华，杨艳琴，王慈</td><td>978-7-302-46026-8</td><td>清华大学出版社</td><td class="n">2017</td></tr><tr><td>MSP430单片机原理与应用</td><td>任保宏</td><td>978-7-121-34498-5</td><td>电子工业出版社</td><td class="n">2018</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

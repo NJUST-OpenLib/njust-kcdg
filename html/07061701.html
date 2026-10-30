@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,29 +22,50 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>大数据分析<span class="tag on">在用</span></h1><div class="sub">课程编号 07061701</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>07061701</td></tr><tr><th>英文名称</th><td>Big Data Analysis</td></tr><tr><th>开课单位</th><td>经济管理学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人</th><td>戴建华</td></tr><tr><th>审核人</th><td>杨慧</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>24</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>考勤:10%；实验作业:30%；闭卷笔试:60%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>掌握大数据分析与挖掘的算法原理，能正确选择和使用恰当的分析模型，进行大数据分析和结果展示。</li><li>分小组进行案例分析，每小组成员承担一定的任务工作量，培养团队合作能力。</li><li>能够就复杂项目问题与小组成员及班级同学进行有效沟通和交流，包括撰写报告、设计PPT文稿及汇报项目成果。</li></ul><h2>课程简介</h2><p class="body">随着计算机技术和互联网的持续发展，大数据的概念应运而生，具有大数据思维是经济管理类专业学生的必备素质。本课程拟让学生清晰认识到大数据的价值，以及现有企业对大数据的处理技术和处理方式，培养学生的互联网思维，让学生对互联网大数据时代对传统行业的冲击和影响有清醒认识，并通过理论结合案例实验的教学方式，让学生具有将数据进行智能转换的实际操作和结果分析能力。教学内容主要包括：大数据的概念和特点、大数据采集、数据预处理、大数据存储、大数据计算平台、基于Python的大数据分析与挖掘算法、基于Python的大数据可视化等。本课程所需的预修课程有：《管理学》、《管理统计》、《Python程序设计》、《数据库》和《计算机网络基础》等。</p><h2>教学目的与要求</h2><p class="body">通过本课程的学习，让学生接触并了解大数据分析的工作原理和使用方法，使学生具有Python大数据分析、设计和可视化开发的能力，同时通过学生的自主查询、实践和小组团队的合作讨论，激发学生的学习积极性和主动性，让学生更加深入理解所学内容，在“大数据实验实训平台”等实验工具的基础上，充分感受大数据在营销、客户管理、健康咨询等各领域的应用，为将来从事大数据相关领域的工作打下坚实的基础。具体来说有以下几点：
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>大数据分析<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>07061701</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/07061701.html">查看原始页面</a><a href="../json/07061701.json">下载 JSON</a><a href="../txt/07061701.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>07061701</td><th>课程名称(中)</th><td>大数据分析</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Big Data Analysis</td></tr><tr><th>开课单位</th><td>经济管理学院</td><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>戴建华</td><th>审核人</th><td>杨慧</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td><span class="dim">未标注</span></td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">随着计算机技术和互联网的持续发展，大数据的概念应运而生，具有大数据思维是经济管理类专业学生的必备素质。本课程拟让学生清晰认识到大数据的价值，以及现有企业对大数据的处理技术和处理方式，培养学生的互联网思维，让学生对互联网大数据时代对传统行业的冲击和影响有清醒认识，并通过理论结合案例实验的教学方式，让学生具有将数据进行智能转换的实际操作和结果分析能力。教学内容主要包括：大数据的概念和特点、大数据采集、数据预处理、大数据存储、大数据计算平台、基于Python的大数据分析与挖掘算法、基于Python的大数据可视化等。本课程所需的预修课程有：《管理学》、《管理统计》、《Python程序设计》、《数据库》和《计算机网络基础》等。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">通过本课程的学习，让学生接触并了解大数据分析的工作原理和使用方法，使学生具有Python大数据分析、设计和可视化开发的能力，同时通过学生的自主查询、实践和小组团队的合作讨论，激发学生的学习积极性和主动性，让学生更加深入理解所学内容，在“大数据实验实训平台”等实验工具的基础上，充分感受大数据在营销、客户管理、健康咨询等各领域的应用，为将来从事大数据相关领域的工作打下坚实的基础。具体来说有以下几点：
 
 1.？引发学生对数据科学的兴趣，明确数据的重要性；
 
@@ -50,14 +77,16 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 5.？熟悉大数据在不同领域的应用，探寻大数据在本专业领域的应用；
 
-6.？激发学生的科研、创业的热情。</p><h2>教学内容</h2><p class="body">大数据概述 1.1 大数据定义△ 1.2 大数据的结构特征 1.3 大数据带来的思维变革△ 1.4 大数据分析的意义 1.5 大数据的应用举例
-大数据采集 2.1 大数据来源 2.2 大数据采集设备 2.3 大数据采集方法 2.4 大数据预处理技术△
-大数据存储 3.1 传统存储 3.2 云存储△★ 3.3 数据中心 3.4 数据仓库
-大数据计算平台 4.1 云计算 4.2 云计算平台 4.3 MapReduce平台△★ 4.4 Hadoop平台△★ 4.5 Spark平台
-大数据分析与挖掘算法 5.1 传统的统计分析方法△ 5.2 分类算法△★ 5.3 聚类算法△★ 5.4 关联规则挖掘算法△★
-大数据可视化 6.1 介绍数据可视化的概念与工具 6.2 matplotlib绘制图形的方法△ 6.3 大数据可视化案例</p><h2>课程思政</h2><p class="body">1.中国特色社会主义四个自信 2.建立“技术强国”思想，激发学生爱国主义热情 3.弘扬优秀传统文化、大国工匠精神
-1.诚实守信、法律观念 2.遵纪守法、提升道德素养、强化社会责任 3.倡导科学态度、科学方法与科学精神
-1.职业道德素养、道德法律知识、爱国主义思想教育 2.网络数据安全不仅关乎自身的安全，更关乎国家的安全，在面对诱惑时，要秉承着国家利益高于一切的政治觉悟 3.增强数据保密意识，使个人隐私和国家机密不被泄露
-1.社会主义核心价值观 2.四个自信 3.中国梦，强国梦
-1.理念创新、方法创新 2.勇挑重担、甘于奉献 3.团结、包容，互助、合作
-1.大国工匠精神 2.以研讨、讨论、基于问题的学习等形式，理论联系实际，解决实践前的疑惑 3. 崇尚科学、勇于创新</p><h2>章节安排（6 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>大数据概述 1.1 大数据定义△ 1.2 大数据的结构特征 1.3 大数据带来的思维变革△ 1.4 大数据分析的意义 1.5 大数据的应用举例</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>大数据采集 2.1 大数据来源 2.2 大数据采集设备 2.3 大数据采集方法 2.4 大数据预处理技术△</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">3</td><td>大数据存储 3.1 传统存储 3.2 云存储△★ 3.3 数据中心 3.4 数据仓库</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">4</td><td>大数据计算平台 4.1 云计算 4.2 云计算平台 4.3 MapReduce平台△★ 4.4 Hadoop平台△★ 4.5 Spark平台</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">5</td><td>大数据分析与挖掘算法 5.1 传统的统计分析方法△ 5.2 分类算法△★ 5.3 聚类算法△★ 5.4 关联规则挖掘算法△★</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">11</td></tr><tr><td class="c">6</td><td>大数据可视化 6.1 介绍数据可视化的概念与工具 6.2 matplotlib绘制图形的方法△ 6.3 大数据可视化案例</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">7</td></tr><tr><th></th><th>合计</th><th style="text-align:right">24</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 1.中国特色社会主义四个自信 2.建立“技术强国”思想，激发学生爱国主义热情 3.弘扬优秀传统文化、大国工匠精神</li><li><b>第2章</b> 1.诚实守信、法律观念 2.遵纪守法、提升道德素养、强化社会责任 3.倡导科学态度、科学方法与科学精神</li><li><b>第3章</b> 1.职业道德素养、道德法律知识、爱国主义思想教育 2.网络数据安全不仅关乎自身的安全，更关乎国家的安全，在面对诱惑时，要秉承着国家利益高于一切的政治觉悟 3.增强数据保密意识，使个人隐私和国家机密不被泄露</li><li><b>第4章</b> 1.社会主义核心价值观 2.四个自信 3.中国梦，强国梦</li><li><b>第5章</b> 1.理念创新、方法创新 2.勇挑重担、甘于奉献 3.团结、包容，互助、合作</li><li><b>第6章</b> 1.大国工匠精神 2.以研讨、讨论、基于问题的学习等形式，理论联系实际，解决实践前的疑惑 3. 崇尚科学、勇于创新</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/07061701.html">查看原始页面</a><a href="../json/07061701.json">下载 JSON</a><a href="../txt/07061701.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+6.？激发学生的科研、创业的热情。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>掌握大数据分析与挖掘的算法原理，能正确选择和使用恰当的分析模型，进行大数据分析和结果展示。</li><li>分小组进行案例分析，每小组成员承担一定的任务工作量，培养团队合作能力。</li><li>能够就复杂项目问题与小组成员及班级同学进行有效沟通和交流，包括撰写报告、设计PPT文稿及汇报项目成果。</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>考勤</td><td>实验作业</td><td>闭卷笔试</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">10%</td><td class="n">30%</td><td class="n">60%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="3">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">实践</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">大数据概述 1.1 大数据定义△ 1.2 大数据的结构特征 1.3 大数据带来的思维变革△ 1.4 大数据分析的意义 1.5 大数据的应用举例</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.中国特色社会主义四个自信 2.建立“技术强国”思想，激发学生爱国主义热情 3.弘扬优秀传统文化、大国工匠精神</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">大数据采集 2.1 大数据来源 2.2 大数据采集设备 2.3 大数据采集方法 2.4 大数据预处理技术△</td><td class="n cb">4</td><td class="n cb">2</td><td class="n cb">6</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.诚实守信、法律观念 2.遵纪守法、提升道德素养、强化社会责任 3.倡导科学态度、科学方法与科学精神</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">大数据存储 3.1 传统存储 3.2 云存储△★ 3.3 数据中心 3.4 数据仓库</td><td class="n cb">3</td><td class="n cb">0</td><td class="n cb">3</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.职业道德素养、道德法律知识、爱国主义思想教育 2.网络数据安全不仅关乎自身的安全，更关乎国家的安全，在面对诱惑时，要秉承着国家利益高于一切的政治觉悟 3.增强数据保密意识，使个人隐私和国家机密不被泄露</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">4</td><td class="cb">大数据计算平台 4.1 云计算 4.2 云计算平台 4.3 MapReduce平台△★ 4.4 Hadoop平台△★ 4.5 Spark平台</td><td class="n cb">3</td><td class="n cb">0</td><td class="n cb">3</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.社会主义核心价值观 2.四个自信 3.中国梦，强国梦</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">5</td><td class="cb">大数据分析与挖掘算法 5.1 传统的统计分析方法△ 5.2 分类算法△★ 5.3 聚类算法△★ 5.4 关联规则挖掘算法△★</td><td class="n cb">8</td><td class="n cb">3</td><td class="n cb">11</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.理念创新、方法创新 2.勇挑重担、甘于奉献 3.团结、包容，互助、合作</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">6</td><td class="cb">大数据可视化 6.1 介绍数据可视化的概念与工具 6.2 matplotlib绘制图形的方法△ 6.3 大数据可视化案例</td><td class="n cb">4</td><td class="n cb">3</td><td class="n cb">7</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.大国工匠精神 2.以研讨、讨论、基于问题的学习等形式，理论联系实际，解决实践前的疑惑 3. 崇尚科学、勇于创新</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">24</td><td class="n">8</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr><tr><td class="c">1</td><td>数据爬取</td><td>基本要求：完成实训平台上“百度新闻大数据新闻的爬取”或者“新浪微博大数据微博的爬取” 的全部内容；
+
+高级要求1：根据提供的代码，进行修改，爬取淘宝或京东上某一件商品的在线评论或者豆瓣上关于某部电影/书的评论，或者微博上某个热门话题的所有评论信息，保存到本地某个EXCEL文件中。
+
+高级要求2：提供GOOSEEKER、火车头、八爪鱼等软件，爬取数据，整理成EXCEL文件</td><td class="n">2</td><td>操作性实验</td></tr><tr><td class="c">2</td><td>链家房屋价格分析预测</td><td>基本要求：完成实训平台上“链家房屋价格分析预测”的实验三、实验五和实验六；
+
+中级要求：完成实训平台上“数据预处理（Python）”，第3章 Python文本挖掘、第4章 Python数据预处理；
+
+高级要求：利用实验一“爬取”的中文评论数据，写一段代码，完成数据分析（例如主题分类等）。</td><td class="n">3</td><td>综合性实验</td></tr><tr><td class="c">3</td><td>数据可视化</td><td>基本要求：完成实训平台上“数据可视化（Python）”下面的“Python静态数据可视化” 的全部内容，学习使用Python中最主流的第三方程序包matplotlib、seaborn做静态数据可视化分析；
+
+中级要求：完成实训平台上“数据可视化（Python）”下面的“Python动态数据可视化” 的全部内容，使用Python语言中的程序包pyecharts做动态数据可视化分析；
+
+高级要求：根据实验一的Excel表数据，用Python完成可视化工作。</td><td class="n">3</td><td>验证性实验</td></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>大数据导论</td><td>宁兆龙</td><td>9787030526625</td><td>科学出版社</td><td class="n">2017</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

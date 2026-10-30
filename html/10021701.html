@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,35 +22,56 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>电力电子技术<span class="tag on">在用</span></h1><div class="sub">课程编号 10021701</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10021701</td></tr><tr><th>英文名称</th><td>Power Electronics Technology</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>3</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人</th><td>姚凯</td></tr><tr><th>审核人</th><td>杨飞</td></tr><tr><th>总学时</th><td>48</td></tr><tr><th>讲课学时</th><td>40</td></tr><tr><th>实验学时</th><td>8</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr></table><h2>课程目标</h2><ul class="goals"><li>能够阐述晶闸管、电力MOSFET、IGBT等电力电子器件的结构、工作原理和特性，并能将其应用于对电力电子变换电路的表述；毕业要求1.4</li><li>能够理解和阐述各种基本的整流电路、直流斩波电路、交流—交流电力变换电路和逆变电路的结构和工作原理；毕业要求1.4</li><li>能够理解和阐述PWM技术的工作原理，了解软开关技术的基本原理。并能对比主功率电路在不同控制技术下的控制特性；毕业要求1.4</li><li>基于给定的控制策略和初始工作状态，能对基本的整流电路、直流斩波电路、交流—交流电力变换电路和逆变电路进行工作波形分析，继而建立关键参数定量关系表达式，完成参数计算求解、器件选型等电路设计相关任务；毕业要求2.2</li><li>能够对电力电子变换领域的工程问题进行分析和识别，提取工程设计要求，选取基本的电力电子变换电路拓扑，评估控制方法及调制方式，进而给出较完整的变换电路设计方案；毕业要求3.1</li><li>能够根据设计方案，完成电路的参数设计，并搭建仿真电路，进行仿真调试，获得可靠数据，评估仿真结果；毕业要求4.2</li></ul><h2>课程简介</h2><p class="body">电力电子技术是一门新兴技术，它是由电力学、电子学和控制理论三个学科交叉而成的，已成为现代电气工程与自动化专业不可缺少的一门专业基础课，在本专业人才培养中占有重要地位。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>电力电子技术<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>10021701</b></span><span><em>学分</em><b>3</b></span><span><em>学时</em><b>48</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/10021701.html">查看原始页面</a><a href="../json/10021701.json">下载 JSON</a><a href="../txt/10021701.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>10021701</td><th>课程名称(中)</th><td>电力电子技术</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Power Electronics Technology</td></tr><tr><th>开课单位</th><td>自动化学院</td><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>姚凯</td><th>审核人</th><td>杨飞</td></tr><tr><th>学分</th><td>3</td><th>学时</th><td>48</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">电力电子技术是一门新兴技术，它是由电力学、电子学和控制理论三个学科交叉而成的，已成为现代电气工程与自动化专业不可缺少的一门专业基础课，在本专业人才培养中占有重要地位。
 
 本课程主要讲授利用电力半导体器件进行电能变换和控制的技术。介绍各种基本功率半导体器件、用于各种变换方式的电力电子电路拓扑、工作原理和控制方法，电力电子技术的应领域和发展动向。培养学生的工程实践能力以及工程师的使命和责任，为后续专业课程的学习以及解决电气工程领域复杂工程问题奠定坚实的基础。
 
 教学内容：（一）电力电子历史和器件，包括电力电子技术的发展史、电力电子技术的应用、广泛使用的不控型、半控型和全控型功率半导体器件；（二）变流电路，包括整流电路，如单相可控整流电路、三相可控整流电路、整流电路的有源逆变工作状态等。逆变电路，如电压型逆变电路、电流型逆变电路等。直流-直流变流电路，如基本斩波电路和带隔离的直流-直流变流电路等；交流-交流变流电路，包括交流调压电路、交流电力控制电路、交-交变频电路等；（三）电路控制方法，如PWM控制技术、PWM逆变控制方法、PWM跟踪控制技术等，软开关技术的基本概念、软开关电路的分类、典型的软开关电路等。
 
-先修课程：高等数学、大学物理、电路、模拟电子技术等课程。</p><h2>教学目的与要求</h2><p class="body">通过本门课程的学习，使学生熟悉各种电力电子器件的特性和使用方法；掌握各种基本电力电子电路的拓扑结构、工作原理和控制方法，具备变换器参数设计、仿真分析及实验调试的能力；熟悉电力电子技术的应用领域和发展动向。
+先修课程：高等数学、大学物理、电路、模拟电子技术等课程。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">通过本门课程的学习，使学生熟悉各种电力电子器件的特性和使用方法；掌握各种基本电力电子电路的拓扑结构、工作原理和控制方法，具备变换器参数设计、仿真分析及实验调试的能力；熟悉电力电子技术的应用领域和发展动向。
 
 通过本课程的学习，培养学生勤奋刻苦的求学精神和追求真理的科学精神，以及社会责任感和使命意识。
 
@@ -56,24 +83,4 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 3.1 能够根据需求，描述电气工程中单元和系统的设计任务，确定针对电气工程及其自动化专业领域复杂工程问题的设计目标和方案。
 
-4.2 能够根据实验方案，基于科学原理并采用科学方法对实验数据进行采集、分析与解释。</p><h2>教学内容</h2><p class="body">1.1电力电子技术的定义； 1.2电力电子技术的发展历史； 1.3电力电子技术的应用。
-2.1晶闸管； 2.2△单相桥式相控整流电路； 2.3△三相半波相控整流电路； 2.4△★三相桥式相控整流电路； 2.5带平衡电抗器双反星形相控整流电路； 2.6△★变压器漏抗对相控整流电路影响； 2.7△★整流电路的有源逆变工作状态。
-3.1功率半导体器件分类； 3.2△功率二极管； 3.3双极型功率晶体管； 3.4△功率场效应晶体管； 3.5绝缘栅双极型晶体管；
-4.1△Buck变换器； 4.2△Boost变换器； 4.3Buck-Boost变换器；
-5.1△★正激变换器； 5.2△★反激变换器； 5.3推挽变换器； 5.4半桥变换器； 5.5全桥变换器； 5.6Buck类变换器的输出整流电路。
-6.1△★电压型逆变器工作原理； 6.2△★电压型逆变器的脉宽调制技术； 6.3△★电流型逆变器。
-7.1交流调压电路(△单相交流调压电路)； 7.2其他交流电力控制电路； 7.3交-交变频电路(△★单相交-交变频电路)。
-8.1开关管的开通和关断特性； 8.2基本缓冲电路； 8.3无损缓冲电路。
-9.1软开关变换器的分类； 9.2准谐振变换器。
-10.1电力电子变换器系统构成； 10.2集成PWM控制器基本组成与工作原理； 10.3电力电子变换器的控制方法。
-11.1△★MOSFET驱动电路的要求； 11.2共地驱动电路； 11.3浮地驱动电路； 11.4隔离型驱动电路； 11.5IGBT驱动电路。</p><h2>课程思政</h2><p class="body">电力电子技术的发展日新月异，让学生认识到创新型国家战略的重要性。
-辩证法看问题
-半导体产业和中国芯，要掌握核心技术，不能被卡脖子。督促学生要珍惜时间，认真学习，报效祖国。
-工匠精神、敬业、精益、专注。
-科研品质、细心、执着、坚持。
-介绍变流技术的重大应用，如高铁等，增强学生民族自豪感。
-介绍变流技术的重大应用.
-协同配合、集体主义。
-介绍双碳政策和全球及中国每年电能消耗量。
-介绍谐波污染的标准规定和典型案例，引入“工程师良知”话题，提升学生社会责任感。
-弱电驱动强电，小人物有大力量，不懈奋斗，持续努力。</p><h2>章节安排（11 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1.1电力电子技术的定义； 1.2电力电子技术的发展历史； 1.3电力电子技术的应用。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>2.1晶闸管； 2.2△单相桥式相控整流电路； 2.3△三相半波相控整流电路； 2.4△★三相桥式相控整流电路； 2.5带平衡电抗器双反星形相控整流电路； 2.6△★变压器漏抗对相控整流电路影响； 2.7△★整流电路的有源逆变工作状态。</td><td class="n">10</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">14</td></tr><tr><td class="c">3</td><td>3.1功率半导体器件分类； 3.2△功率二极管； 3.3双极型功率晶体管； 3.4△功率场效应晶体管； 3.5绝缘栅双极型晶体管；</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">4</td><td>4.1△Buck变换器； 4.2△Boost变换器； 4.3Buck-Boost变换器；</td><td class="n">4</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">5</td><td>5.1△★正激变换器； 5.2△★反激变换器； 5.3推挽变换器； 5.4半桥变换器； 5.5全桥变换器； 5.6Buck类变换器的输出整流电路。</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">6</td><td>6.1△★电压型逆变器工作原理； 6.2△★电压型逆变器的脉宽调制技术； 6.3△★电流型逆变器。</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">7</td><td>7.1交流调压电路(△单相交流调压电路)； 7.2其他交流电力控制电路； 7.3交-交变频电路(△★单相交-交变频电路)。</td><td class="n">2</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">8</td><td>8.1开关管的开通和关断特性； 8.2基本缓冲电路； 8.3无损缓冲电路。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">9</td><td>9.1软开关变换器的分类； 9.2准谐振变换器。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">10</td><td>10.1电力电子变换器系统构成； 10.2集成PWM控制器基本组成与工作原理； 10.3电力电子变换器的控制方法。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">11</td><td>11.1△★MOSFET驱动电路的要求； 11.2共地驱动电路； 11.3浮地驱动电路； 11.4隔离型驱动电路； 11.5IGBT驱动电路。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><th></th><th>合计</th><th style="text-align:right">40</th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">48</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 电力电子技术的发展日新月异，让学生认识到创新型国家战略的重要性。</li><li><b>第2章</b> 辩证法看问题</li><li><b>第3章</b> 半导体产业和中国芯，要掌握核心技术，不能被卡脖子。督促学生要珍惜时间，认真学习，报效祖国。</li><li><b>第4章</b> 工匠精神、敬业、精益、专注。</li><li><b>第5章</b> 科研品质、细心、执着、坚持。</li><li><b>第6章</b> 介绍变流技术的重大应用，如高铁等，增强学生民族自豪感。</li><li><b>第7章</b> 介绍变流技术的重大应用.</li><li><b>第8章</b> 协同配合、集体主义。</li><li><b>第9章</b> 介绍双碳政策和全球及中国每年电能消耗量。</li><li><b>第10章</b> 介绍谐波污染的标准规定和典型案例，引入“工程师良知”话题，提升学生社会责任感。</li><li><b>第11章</b> 弱电驱动强电，小人物有大力量，不懈奋斗，持续努力。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10021701.html">查看原始页面</a><a href="../json/10021701.json">下载 JSON</a><a href="../txt/10021701.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+4.2 能够根据实验方案，基于科学原理并采用科学方法对实验数据进行采集、分析与解释。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>能够阐述晶闸管、电力MOSFET、IGBT等电力电子器件的结构、工作原理和特性，并能将其应用于对电力电子变换电路的表述；毕业要求1.4</li><li>能够理解和阐述各种基本的整流电路、直流斩波电路、交流—交流电力变换电路和逆变电路的结构和工作原理；毕业要求1.4</li><li>能够理解和阐述PWM技术的工作原理，了解软开关技术的基本原理。并能对比主功率电路在不同控制技术下的控制特性；毕业要求1.4</li><li>基于给定的控制策略和初始工作状态，能对基本的整流电路、直流斩波电路、交流—交流电力变换电路和逆变电路进行工作波形分析，继而建立关键参数定量关系表达式，完成参数计算求解、器件选型等电路设计相关任务；毕业要求2.2</li><li>能够对电力电子变换领域的工程问题进行分析和识别，提取工程设计要求，选取基本的电力电子变换电路拓扑，评估控制方法及调制方式，进而给出较完整的变换电路设计方案；毕业要求3.1</li><li>能够根据设计方案，完成电路的参数设计，并搭建仿真电路，进行仿真调试，获得可靠数据，评估仿真结果；毕业要求4.2</li></ul><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="3">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">实验</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">1.1电力电子技术的定义； 1.2电力电子技术的发展历史； 1.3电力电子技术的应用。</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>电力电子技术的发展日新月异，让学生认识到创新型国家战略的重要性。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">2.1晶闸管； 2.2△单相桥式相控整流电路； 2.3△三相半波相控整流电路； 2.4△★三相桥式相控整流电路； 2.5带平衡电抗器双反星形相控整流电路； 2.6△★变压器漏抗对相控整流电路影响； 2.7△★整流电路的有源逆变工作状态。</td><td class="n cb">10</td><td class="n cb">4</td><td class="n cb">14</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>辩证法看问题</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">3.1功率半导体器件分类； 3.2△功率二极管； 3.3双极型功率晶体管； 3.4△功率场效应晶体管； 3.5绝缘栅双极型晶体管；</td><td class="n cb">4</td><td class="n cb">0</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>半导体产业和中国芯，要掌握核心技术，不能被卡脖子。督促学生要珍惜时间，认真学习，报效祖国。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">4</td><td class="cb">4.1△Buck变换器； 4.2△Boost变换器； 4.3Buck-Boost变换器；</td><td class="n cb">4</td><td class="n cb">2</td><td class="n cb">6</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>工匠精神、敬业、精益、专注。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">5</td><td class="cb">5.1△★正激变换器； 5.2△★反激变换器； 5.3推挽变换器； 5.4半桥变换器； 5.5全桥变换器； 5.6Buck类变换器的输出整流电路。</td><td class="n cb">6</td><td class="n cb">0</td><td class="n cb">6</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>科研品质、细心、执着、坚持。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">6</td><td class="cb">6.1△★电压型逆变器工作原理； 6.2△★电压型逆变器的脉宽调制技术； 6.3△★电流型逆变器。</td><td class="n cb">4</td><td class="n cb">0</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>介绍变流技术的重大应用，如高铁等，增强学生民族自豪感。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">7</td><td class="cb">7.1交流调压电路(△单相交流调压电路)； 7.2其他交流电力控制电路； 7.3交-交变频电路(△★单相交-交变频电路)。</td><td class="n cb">2</td><td class="n cb">2</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>介绍变流技术的重大应用.</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">8</td><td class="cb">8.1开关管的开通和关断特性； 8.2基本缓冲电路； 8.3无损缓冲电路。</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>协同配合、集体主义。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">9</td><td class="cb">9.1软开关变换器的分类； 9.2准谐振变换器。</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>介绍双碳政策和全球及中国每年电能消耗量。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">10</td><td class="cb">10.1电力电子变换器系统构成； 10.2集成PWM控制器基本组成与工作原理； 10.3电力电子变换器的控制方法。</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>介绍谐波污染的标准规定和典型案例，引入“工程师良知”话题，提升学生社会责任感。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">11</td><td class="cb">11.1△★MOSFET驱动电路的要求； 11.2共地驱动电路； 11.3浮地驱动电路； 11.4隔离型驱动电路； 11.5IGBT驱动电路。</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>弱电驱动强电，小人物有大力量，不懈奋斗，持续努力。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">40</td><td class="n">8</td><td class="n">48</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr><tr><td class="c">1</td><td>单相整流电路</td><td>单相整流电路运行和性能分析</td><td class="n">2</td><td>验证性实验</td></tr><tr><td class="c">2</td><td>单相交流调压电路</td><td>单相交流调压电路运行和性能分析</td><td class="n">2</td><td>验证性实验</td></tr><tr><td class="c">3</td><td>直流斩波电路</td><td>直流斩波电路运行和性能分析</td><td class="n">2</td><td>验证性实验</td></tr><tr><td class="c">4</td><td>三相整流电路</td><td>三相整流电路运行和性能分析</td><td class="n">2</td><td>验证性实验</td></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>电力电子技术</td><td>阮新波</td><td>978-7-111-68411-4</td><td>机械工业出版社</td><td class="n">2021</td></tr><tr><td>Power Electronics</td><td>Daniel W. Hart</td><td>—</td><td>McGraw-Hrll</td><td class="n">2011</td></tr><tr><td>电力电子技术（第6版）</td><td>刘进军、王兆安</td><td>978-7-111-70337-2</td><td>机械工业出版社</td><td class="n">2022</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,35 +22,56 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>智能微电网控制技术<span class="tag on">在用</span></h1><div class="sub">课程编号 10064501</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10064501</td></tr><tr><th>英文名称</th><td>Intelligent Microgrid Control Technology</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>卜京</td></tr><tr><th>审核人</th><td>谢云云</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂表现:20%；单元作业:20%；课程报告:60%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>理解智能微电网对于新能源、智能电网发展的重要意义，了解智能微电网的主要构成及涉及的关键技术，毕业要求1.1</li><li>掌握风光储等微电网电源、微电网电能变换装置及微电网负荷的运行原理及模型构建方法，毕业要求1.4</li><li>掌握智能微电网的功率平衡、电能质量优化、经济运行控制方法，以及智能微电网与主网协调运行控制方法，能够基于模型进行智能电网运行性能的仿真分析，毕业要求1.4</li><li>理解智能微电网的保护技术，掌握短路故障分析及其保护配置与整定方法，能够基于模型进行保护仿真分析，毕业要求3.2</li></ul><h2>课程简介</h2><p class="body">“智能微电网控制技术”是电气工程、智能电网信息工程等电气类专业的重要选修课之一。传统的能源供给方式已经不能支撑我国经济的高速发展，建设智能电网成为保障国家能源安全、经济社会全面、协调、可持续发展的必然要求。微电网是一种新型网络结构，其所采用的技术、所面对的问题、所需掌握的技能与传统电网有很大的不同。智能微电网的发展有利于扩大分布式电源与可再生能源的接入，为负荷地区提供可靠的供给，实现有效的主动式配电网方式，促进智能电网变革。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>智能微电网控制技术<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>10064501</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/10064501.html">查看原始页面</a><a href="../json/10064501.json">下载 JSON</a><a href="../txt/10064501.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>10064501</td><th>课程名称(中)</th><td>智能微电网控制技术</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Intelligent Microgrid Control Technology</td></tr><tr><th>开课单位</th><td>自动化学院</td><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>卜京</td><th>审核人</th><td>谢云云</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td><span class="dim">未标注</span></td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">“智能微电网控制技术”是电气工程、智能电网信息工程等电气类专业的重要选修课之一。传统的能源供给方式已经不能支撑我国经济的高速发展，建设智能电网成为保障国家能源安全、经济社会全面、协调、可持续发展的必然要求。微电网是一种新型网络结构，其所采用的技术、所面对的问题、所需掌握的技能与传统电网有很大的不同。智能微电网的发展有利于扩大分布式电源与可再生能源的接入，为负荷地区提供可靠的供给，实现有效的主动式配电网方式，促进智能电网变革。
 
  本课程主要讲授微电网的主要构成、各组成部分的原理及模型、智能微电网运行控制方法及保护技术。通过课程学习，理解新能源对环境、社会可持续发展的影响，培养学生从事新能源领域工作的兴趣，形成处理微电网工程实际问题的能力，为今后应对智能电网领域复杂工程问题打下坚实的基础。
 
  本课程的教学内容主要包括：第一章，引言；第二章，微电网的元件和结构；第三章，微电网模型与建模；第四章，微电网运行方式和控制方法；第五章，多Agent技术及其在微电网控制中的应用；第六章，微电网保护技术；第七章，微电网仿真实例分析。
 
- 本课程的先修课程为：电气工程基础、电路原理、电力电子技术、继电保护原理。</p><h2>教学目的与要求</h2><p class="body">通过该课程学习，使智能电网与控制专业的学生能够了解微电网的元件与结构，了解微电网与传统电网的差异，熟悉微电网模型与关键技术，如多Agent技术等；掌握微电网的运行方式和控制方法；掌握微电网的仿真分析方法。通过本课程的学习，学生能够对微电网集成与控制有全面的了解，具备在实际工作中对微电网运行与控制进行深入学习和研究的能力。
+ 本课程的先修课程为：电气工程基础、电路原理、电力电子技术、继电保护原理。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">通过该课程学习，使智能电网与控制专业的学生能够了解微电网的元件与结构，了解微电网与传统电网的差异，熟悉微电网模型与关键技术，如多Agent技术等；掌握微电网的运行方式和控制方法；掌握微电网的仿真分析方法。通过本课程的学习，学生能够对微电网集成与控制有全面的了解，具备在实际工作中对微电网运行与控制进行深入学习和研究的能力。
 
  通过本课程的学习，强化学生对国家双碳战略、新型电力系统的认知度，深刻认识人与自然、人与社会和谐相处的重要意义。认知国家改革与发展需以稳定为前提，培养学生维护社会和谐稳定的主人公意识。
 
@@ -54,12 +81,4 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 1.4 能够综合利用工程基础、专业知识和数学模型方法对智能电网信息工程专业领域复杂工程问题的解决方案进行比较与综合。
 
-3.2 能够运用智能电网信息工程专业知识，设计满足特定需求的系统、单元（部件）或工艺流程，并能够在设计环节中体现创新意识。</p><h2>教学内容</h2><p class="body">引言。包括：微电网的定义、意义，发展现状及关键技术概述。
-微电网的元件和结构△。包括：微电网的总体结构、元件、微型电源及其特性、接线形式、负荷及通信技术等。
-微电网模型与建模。包括：微型电源的原理与建模、并网技术、变换器特性、负荷模型等。
-微电网运行方式和控制方式△★。包括：微电网的运行方式、控制方法、微型电源及储能的控制方法、稳定控制、电能质量优化控制、经济运行优化控制等。
-多Agent技术及其在微电网控制中的应用。包括：Agent和MAS的基本知识、多Agent系统在微电网中的应用等。
-微电网保护技术。包括：微电网保护概述、微电网短路故障分析、保护配置与整定等。
-微电网仿真实例分析△★。包括：微电网建模及仿真、经济运行优化、运行控制、多代理技术及微网保护仿真与分析等。</p><h2>课程思政</h2><p class="body">微电网能够通过区域自治，使得可再生能源更友好的接入电网，扩大可再生能源接入规模。同时提高供电的安全性和可靠性、减少电网的电能损耗。通过对此的理解，建立人与环境、人与社会和谐共生理念。
-稳定性是微电网运行的基本要求。通过微电网的功率平衡与稳定控制，类比国家政治、经济、社会发展的和谐稳定。国家的改革发展必须以稳定为前提，作为当代大学生，要从自身做起，时刻维护社会和谐稳定，民族团结，以国家利益为重。
-微电网的保护配置与参数设置要综合考虑可靠性、灵敏性、选择性等，这些性能紧密联系，目标一致但又相互制约，需要认识事物的多面性，学会理论联系实际，权衡利弊得失，用马克思主义哲学的辩证思维考虑问题</p><h2>章节安排（7 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>引言。包括：微电网的定义、意义，发展现状及关键技术概述。</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>微电网的元件和结构△。包括：微电网的总体结构、元件、微型电源及其特性、接线形式、负荷及通信技术等。</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">3</td><td>微电网模型与建模。包括：微型电源的原理与建模、并网技术、变换器特性、负荷模型等。</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">4</td><td>微电网运行方式和控制方式△★。包括：微电网的运行方式、控制方法、微型电源及储能的控制方法、稳定控制、电能质量优化控制、经济运行优化控制等。</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">5</td><td>多Agent技术及其在微电网控制中的应用。包括：Agent和MAS的基本知识、多Agent系统在微电网中的应用等。</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">6</td><td>微电网保护技术。包括：微电网保护概述、微电网短路故障分析、保护配置与整定等。</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">7</td><td>微电网仿真实例分析△★。包括：微电网建模及仿真、经济运行优化、运行控制、多代理技术及微网保护仿真与分析等。</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 微电网能够通过区域自治，使得可再生能源更友好的接入电网，扩大可再生能源接入规模。同时提高供电的安全性和可靠性、减少电网的电能损耗。通过对此的理解，建立人与环境、人与社会和谐共生理念。</li><li><b>第4章</b> 稳定性是微电网运行的基本要求。通过微电网的功率平衡与稳定控制，类比国家政治、经济、社会发展的和谐稳定。国家的改革发展必须以稳定为前提，作为当代大学生，要从自身做起，时刻维护社会和谐稳定，民族团结，以国家利益为重。</li><li><b>第6章</b> 微电网的保护配置与参数设置要综合考虑可靠性、灵敏性、选择性等，这些性能紧密联系，目标一致但又相互制约，需要认识事物的多面性，学会理论联系实际，权衡利弊得失，用马克思主义哲学的辩证思维考虑问题</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10064501.html">查看原始页面</a><a href="../json/10064501.json">下载 JSON</a><a href="../txt/10064501.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+3.2 能够运用智能电网信息工程专业知识，设计满足特定需求的系统、单元（部件）或工艺流程，并能够在设计环节中体现创新意识。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>理解智能微电网对于新能源、智能电网发展的重要意义，了解智能微电网的主要构成及涉及的关键技术，毕业要求1.1</li><li>掌握风光储等微电网电源、微电网电能变换装置及微电网负荷的运行原理及模型构建方法，毕业要求1.4</li><li>掌握智能微电网的功率平衡、电能质量优化、经济运行控制方法，以及智能微电网与主网协调运行控制方法，能够基于模型进行智能电网运行性能的仿真分析，毕业要求1.4</li><li>理解智能微电网的保护技术，掌握短路故障分析及其保护配置与整定方法，能够基于模型进行保护仿真分析，毕业要求3.2</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>课堂表现</td><td>单元作业</td><td>课程报告</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">20%</td><td class="n">20%</td><td class="n">60%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">引言。包括：微电网的定义、意义，发展现状及关键技术概述。</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>微电网能够通过区域自治，使得可再生能源更友好的接入电网，扩大可再生能源接入规模。同时提高供电的安全性和可靠性、减少电网的电能损耗。通过对此的理解，建立人与环境、人与社会和谐共生理念。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">微电网的元件和结构△。包括：微电网的总体结构、元件、微型电源及其特性、接线形式、负荷及通信技术等。</td><td class="n cb">6</td><td class="n cb">6</td></tr><tr><td class="c cb">3</td><td class="cb">微电网模型与建模。包括：微型电源的原理与建模、并网技术、变换器特性、负荷模型等。</td><td class="n cb">6</td><td class="n cb">6</td></tr><tr><td class="c cb">4</td><td class="cb">微电网运行方式和控制方式△★。包括：微电网的运行方式、控制方法、微型电源及储能的控制方法、稳定控制、电能质量优化控制、经济运行优化控制等。</td><td class="n cb">6</td><td class="n cb">6</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>稳定性是微电网运行的基本要求。通过微电网的功率平衡与稳定控制，类比国家政治、经济、社会发展的和谐稳定。国家的改革发展必须以稳定为前提，作为当代大学生，要从自身做起，时刻维护社会和谐稳定，民族团结，以国家利益为重。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">5</td><td class="cb">多Agent技术及其在微电网控制中的应用。包括：Agent和MAS的基本知识、多Agent系统在微电网中的应用等。</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr><td class="c cb">6</td><td class="cb">微电网保护技术。包括：微电网保护概述、微电网短路故障分析、保护配置与整定等。</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>微电网的保护配置与参数设置要综合考虑可靠性、灵敏性、选择性等，这些性能紧密联系，目标一致但又相互制约，需要认识事物的多面性，学会理论联系实际，权衡利弊得失，用马克思主义哲学的辩证思维考虑问题</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">7</td><td class="cb">微电网仿真实例分析△★。包括：微电网建模及仿真、经济运行优化、运行控制、多代理技术及微网保护仿真与分析等。</td><td class="n cb">6</td><td class="n cb">6</td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">32</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>微电网运行控制与保护技术</td><td>张建华</td><td>9787508399775</td><td>中国电力出版社</td><td class="n">2010年</td></tr><tr><td>分布式发电与微电网技术</td><td>徐青山</td><td>9787115264220</td><td>中国邮电出版社</td><td class="n">2011年</td></tr><tr><td>微电网技术及工程应用</td><td>李富生</td><td>9787512333581</td><td>中国电力出版社</td><td class="n">2013年</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

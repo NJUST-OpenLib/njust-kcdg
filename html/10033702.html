@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,33 +22,54 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>智能仪器与自动测试技术<span class="tag on">在用</span></h1><div class="sub">课程编号 10033702</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10033702</td></tr><tr><th>英文名称</th><td>Intelligent instruments and Automatic testing technology</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(含实践环节)</td></tr><tr><th>课程负责人</th><td>张永</td></tr><tr><th>审核人</th><td>杨飞</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>24</td></tr><tr><th>实验学时</th><td>8</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂讨论（PPT讲解）:30%；平时作业:20%；实验报告:40%；课堂表现:10%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>掌握虚拟仪器系统的基本构成及基本设计思想,图形语言有关知识；毕业要求1.4</li><li>掌握虚拟仪器系统软件的设计方法，提高计算机技术综合应用的能力；毕业要求4.2</li><li>掌握虚拟仪器在测量仪器、过程控制、信号分析等应用技能。毕业要求1.4</li><li>分组研讨材料，培养人际交往能力和团队协作意识；毕业要求9.1</li></ul><h2>课程简介</h2><p class="body">本课程的目的主要是让学生在学习期间掌握虚拟仪器技术的组件的性能、属性、创建虚拟仪器的方法理论基础和虚拟仪器的图形编程方法,掌握虚拟仪器系统软件开发工具，以及掌握虚拟仪器在测量仪器、过程控制、信号分析等应用技能。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>智能仪器与自动测试技术<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>10033702</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考查</b></span></div><div class="files top"><a href="../original/10033702.html">查看原始页面</a><a href="../json/10033702.json">下载 JSON</a><a href="../txt/10033702.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>10033702</td><th>课程名称(中)</th><td>智能仪器与自动测试技术</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Intelligent instruments and Automatic testing technology</td></tr><tr><th>开课单位</th><td>自动化学院</td><th>课程类别</th><td>理论课(含实践环节)</td></tr><tr><th>课程负责人(执笔人)</th><td>张永</td><th>审核人</th><td>杨飞</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">本课程的目的主要是让学生在学习期间掌握虚拟仪器技术的组件的性能、属性、创建虚拟仪器的方法理论基础和虚拟仪器的图形编程方法,掌握虚拟仪器系统软件开发工具，以及掌握虚拟仪器在测量仪器、过程控制、信号分析等应用技能。
 
 教学内容：（一）智能仪器技术概述；（二）LabVIEW的开发环境；（三）LabVIEW开发入门；（四）数据对象与操作；（五）结构控制；（六）字符串、数组、簇和矩阵；（七）图形化显示数据——图表和图形与Express VI——快速搭建专业测试系统。（八）文件I/O与子VI。（九）属性节点和方法节点。（十）人机界面交互设计。
 
-先修课程：电路、电力电子技术、控制工程，检测技术等课程。</p><h2>教学目的与要求</h2><p class="body">通过本课程的学习，使学生掌握虚拟仪器技术的组件的性能、属性、创建虚拟仪器的方法理论基础和虚拟仪器的图形编程方法,掌握虚拟仪器系统软件开发工具，以及掌握虚拟仪器在测量仪器、过程控制、信号分析等应用技能
+先修课程：电路、电力电子技术、控制工程，检测技术等课程。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">通过本课程的学习，使学生掌握虚拟仪器技术的组件的性能、属性、创建虚拟仪器的方法理论基础和虚拟仪器的图形编程方法,掌握虚拟仪器系统软件开发工具，以及掌握虚拟仪器在测量仪器、过程控制、信号分析等应用技能
 
 (1) 掌握虚拟仪器系统的基本构成及基本设计思想,图形语言有关知识；（支撑毕业要求1.4）
 
@@ -50,17 +77,4 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 (3) 掌握虚拟仪器在测量仪器、过程控制、信号分析等应用技能。（支撑毕业要求1.4）
 
-(4) 分组研讨材料，培养人际交往能力和团队协作意识；（支撑毕业要求9.1）</p><h2>教学内容</h2><p class="body">1 绪论 （1.1 智能仪器技术概述 1.2 LabVIEW概述 1.3 虚拟仪器的开发平台△）
-2 LabVIEW的开发环境 （2.1 LabVIEW文件系统函数和系统工具 2.2 LabVIEW的三个模板△）
-3 LabVIEW开发入门 （3.1创建一个VI 3.2 VI编辑技术△ 3.3 VI调试技术★）
-4 数据对象与操作 (4.1数值型对象 4.2布尔型对象及其操作 4.3字符串对象 4.4其它数据类型 4.5变量操作△)
-5 结构控制 △ (5.1 顺序结构 5.2 Case结构 5.3 循环结构 5.4 事件结构★)
-6字符串、数组、簇和矩阵 (6.1 字符串（String） 6.2 数组（Array） 6.3 簇（Cluster）——LabVIEW中的结构体变量★ 6.4 矩阵（Matrix）)
-7 图形化显示数据——图表和图形 (7.1 波形数据(Waveform) 7.2 Chart趋势图△ 7.3 Graph图表△ 7.4 三维图形（3D Graph） 7.5 Picture图形控件)
-8 Express VI——快速搭建专业测试系统 (8.1 初识Express技术 8.2 动态数据类型 8.3 Express VIs简介 8.4 跟着实例学——基于Express VI的声音信号采集系统)
-9 文件I/O (9.1 选择合适的文件类型 9.2 文件的基本操作 9.3 文本文件和表单文件△ 9.4 二进制文件（Binary Files） 9.9 基于文本的测量文件（.lvm文件） 9.11 高速数据流文件（.tdms文件）)
-10 子VI (10.1 创建子VI△ 10.2 查看VI层次结构（VI Hierarchy） 10.3 定义子VI属性△ 10.4 多态（Polymorphic）VI)
-11 属性节点和方法节点 (11.1 属性节点（Property Node） 11.2 方法节点（Invoke Node） 11.3 通过子VI调用控件的属性和方法 11.4 几种常用控件的编程举例)
-12 人机界面交互设计 (12.1 VI属性设置 12.2 对话框 12.4 菜单△★ 12.9 设计形象生动的用户界面)</p><h2>课程思政</h2><p class="body">介绍我国智能仪器检测技术飞速发展的情况，为中华民族伟大复兴而奋斗。
-以不同结构控制下程序指令规定为切入点引出“不以规矩，不成方圆”。讲述严谨、守规的重要性，培养学生务真求实，守法守规的学习态度与学习作风
-通过多种交互设计法的对比分析，教育学生遇事不气馁，不怕挫折，勇于尝试，敢于实验，坚持不懈的革命精神，提高职业素养和精神境界</p><h2>章节安排（12 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>1 绪论 （1.1 智能仪器技术概述 1.2 LabVIEW概述 1.3 虚拟仪器的开发平台△）</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">2</td><td>2 LabVIEW的开发环境 （2.1 LabVIEW文件系统函数和系统工具 2.2 LabVIEW的三个模板△）</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">3</td><td>3 LabVIEW开发入门 （3.1创建一个VI 3.2 VI编辑技术△ 3.3 VI调试技术★）</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">4</td><td>4 数据对象与操作 (4.1数值型对象 4.2布尔型对象及其操作 4.3字符串对象 4.4其它数据类型 4.5变量操作△)</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">5</td><td>5 结构控制 △ (5.1 顺序结构 5.2 Case结构 5.3 循环结构 5.4 事件结构★)</td><td class="n">3</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">7</td></tr><tr><td class="c">6</td><td>6字符串、数组、簇和矩阵 (6.1 字符串（String） 6.2 数组（Array） 6.3 簇（Cluster）——LabVIEW中的结构体变量★ 6.4 矩阵（Matrix）)</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">7</td><td>7 图形化显示数据——图表和图形 (7.1 波形数据(Waveform) 7.2 Chart趋势图△ 7.3 Graph图表△ 7.4 三维图形（3D Graph） 7.5 Picture图形控件)</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">8</td><td>8 Express VI——快速搭建专业测试系统 (8.1 初识Express技术 8.2 动态数据类型 8.3 Express VIs简介 8.4 跟着实例学——基于Express VI的声音信号采集系统)</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td></tr><tr><td class="c">9</td><td>9 文件I/O (9.1 选择合适的文件类型 9.2 文件的基本操作 9.3 文本文件和表单文件△ 9.4 二进制文件（Binary Files） 9.9 基于文本的测量文件（.lvm文件） 9.11 高速数据流文件（.tdms文件）)</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td></tr><tr><td class="c">10</td><td>10 子VI (10.1 创建子VI△ 10.2 查看VI层次结构（VI Hierarchy） 10.3 定义子VI属性△ 10.4 多态（Polymorphic）VI)</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td></tr><tr><td class="c">11</td><td>11 属性节点和方法节点 (11.1 属性节点（Property Node） 11.2 方法节点（Invoke Node） 11.3 通过子VI调用控件的属性和方法 11.4 几种常用控件的编程举例)</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td></tr><tr><td class="c">12</td><td>12 人机界面交互设计 (12.1 VI属性设置 12.2 对话框 12.4 菜单△★ 12.9 设计形象生动的用户界面)</td><td class="n">1</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><th></th><th>合计</th><th style="text-align:right">24</th><th style="text-align:right">8</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 介绍我国智能仪器检测技术飞速发展的情况，为中华民族伟大复兴而奋斗。</li><li><b>第5章</b> 以不同结构控制下程序指令规定为切入点引出“不以规矩，不成方圆”。讲述严谨、守规的重要性，培养学生务真求实，守法守规的学习态度与学习作风</li><li><b>第12章</b> 通过多种交互设计法的对比分析，教育学生遇事不气馁，不怕挫折，勇于尝试，敢于实验，坚持不懈的革命精神，提高职业素养和精神境界</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10033702.html">查看原始页面</a><a href="../json/10033702.json">下载 JSON</a><a href="../txt/10033702.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+(4) 分组研讨材料，培养人际交往能力和团队协作意识；（支撑毕业要求9.1）</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>掌握虚拟仪器系统的基本构成及基本设计思想,图形语言有关知识；毕业要求1.4</li><li>掌握虚拟仪器系统软件的设计方法，提高计算机技术综合应用的能力；毕业要求4.2</li><li>掌握虚拟仪器在测量仪器、过程控制、信号分析等应用技能。毕业要求1.4</li><li>分组研讨材料，培养人际交往能力和团队协作意识；毕业要求9.1</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>4</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>课堂讨论（PPT讲解）</td><td>平时作业</td><td>实验报告</td><td>课堂表现</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">30%</td><td class="n">20%</td><td class="n">40%</td><td class="n">10%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="3">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">实验</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">1 绪论 （1.1 智能仪器技术概述 1.2 LabVIEW概述 1.3 虚拟仪器的开发平台△）</td><td class="n cb">3</td><td class="n cb">0</td><td class="n cb">3</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>介绍我国智能仪器检测技术飞速发展的情况，为中华民族伟大复兴而奋斗。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">2 LabVIEW的开发环境 （2.1 LabVIEW文件系统函数和系统工具 2.2 LabVIEW的三个模板△）</td><td class="n cb">3</td><td class="n cb">0</td><td class="n cb">3</td></tr><tr><td class="c cb">3</td><td class="cb">3 LabVIEW开发入门 （3.1创建一个VI 3.2 VI编辑技术△ 3.3 VI调试技术★）</td><td class="n cb">3</td><td class="n cb">0</td><td class="n cb">3</td></tr><tr><td class="c cb">4</td><td class="cb">4 数据对象与操作 (4.1数值型对象 4.2布尔型对象及其操作 4.3字符串对象 4.4其它数据类型 4.5变量操作△)</td><td class="n cb">3</td><td class="n cb">0</td><td class="n cb">3</td></tr><tr><td class="c cb">5</td><td class="cb">5 结构控制 △ (5.1 顺序结构 5.2 Case结构 5.3 循环结构 5.4 事件结构★)</td><td class="n cb">3</td><td class="n cb">4</td><td class="n cb">7</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>以不同结构控制下程序指令规定为切入点引出“不以规矩，不成方圆”。讲述严谨、守规的重要性，培养学生务真求实，守法守规的学习态度与学习作风</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">6</td><td class="cb">6字符串、数组、簇和矩阵 (6.1 字符串（String） 6.2 数组（Array） 6.3 簇（Cluster）——LabVIEW中的结构体变量★ 6.4 矩阵（Matrix）)</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr><td class="c cb">7</td><td class="cb">7 图形化显示数据——图表和图形 (7.1 波形数据(Waveform) 7.2 Chart趋势图△ 7.3 Graph图表△ 7.4 三维图形（3D Graph） 7.5 Picture图形控件)</td><td class="n cb">2</td><td class="n cb">0</td><td class="n cb">2</td></tr><tr><td class="c cb">8</td><td class="cb">8 Express VI——快速搭建专业测试系统 (8.1 初识Express技术 8.2 动态数据类型 8.3 Express VIs简介 8.4 跟着实例学——基于Express VI的声音信号采集系统)</td><td class="n cb">1</td><td class="n cb">0</td><td class="n cb">1</td></tr><tr><td class="c cb">9</td><td class="cb">9 文件I/O (9.1 选择合适的文件类型 9.2 文件的基本操作 9.3 文本文件和表单文件△ 9.4 二进制文件（Binary Files） 9.9 基于文本的测量文件（.lvm文件） 9.11 高速数据流文件（.tdms文件）)</td><td class="n cb">1</td><td class="n cb">0</td><td class="n cb">1</td></tr><tr><td class="c cb">10</td><td class="cb">10 子VI (10.1 创建子VI△ 10.2 查看VI层次结构（VI Hierarchy） 10.3 定义子VI属性△ 10.4 多态（Polymorphic）VI)</td><td class="n cb">1</td><td class="n cb">0</td><td class="n cb">1</td></tr><tr><td class="c cb">11</td><td class="cb">11 属性节点和方法节点 (11.1 属性节点（Property Node） 11.2 方法节点（Invoke Node） 11.3 通过子VI调用控件的属性和方法 11.4 几种常用控件的编程举例)</td><td class="n cb">1</td><td class="n cb">0</td><td class="n cb">1</td></tr><tr><td class="c cb">12</td><td class="cb">12 人机界面交互设计 (12.1 VI属性设置 12.2 对话框 12.4 菜单△★ 12.9 设计形象生动的用户界面)</td><td class="n cb">1</td><td class="n cb">4</td><td class="n cb">5</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>通过多种交互设计法的对比分析，教育学生遇事不气馁，不怕挫折，勇于尝试，敢于实验，坚持不懈的革命精神，提高职业素养和精神境界</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">24</td><td class="n">8</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr><tr><td class="c">1</td><td>虚拟仪器软件开发平台LabVIEW的基本的编程方法及调试技术（二）</td><td>掌握LabVIEW中图形化显示数据的方法；掌握LabVIEW中 Express VI技术；文件I/O技术与子VI的编程；掌握LabVIEW中属性节点和方法节点的使用；掌握LabVIEW的人机界面交互设计</td><td class="n">4</td><td>综合性实验</td></tr><tr><td class="c">2</td><td>虚拟仪器软件开发平台LabVIEW的基本的编程方法及调试技术（一）</td><td>熟悉LabVIEW的工作环境。掌握VI程序的创建、编辑技术及调试VI程序的技术。掌握LabVIEW的数值型、布尔型、字符串，变量等对象与操作，掌握LabVIEW中常用的结构控制形式；并编程举例</td><td class="n">4</td><td>操作性实验</td></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>Labview2018虚拟仪器从入门到精通</td><td>胡仁喜，闫聪聪</td><td>9787111615675</td><td>机械工业出版社</td><td class="n">2019</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,35 +22,56 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>交直流调速系统<span class="tag on">在用</span></h1><div class="sub">课程编号 10041503</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>10041503</td></tr><tr><th>英文名称</th><td>AC and DC Motor Speed Control System</td></tr><tr><th>开课单位</th><td>自动化学院</td></tr><tr><th>学分</th><td>2.5</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人</th><td>蒋雪峰</td></tr><tr><th>审核人</th><td>杨飞</td></tr><tr><th>总学时</th><td>40</td></tr><tr><th>讲课学时</th><td>36</td></tr><tr><th>实验学时</th><td>4</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂讨论:10%；单元作业:10%；单元测验:10%；实践仿真报告:15%；闭卷笔试:55%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>能够对异步电动机恒功率和恒转矩调速方式进行比较与综合，能够掌握直流调速系统与交流调速系统的基本组成、工作原理、动静态性能分析及两者的异同，能够理解和阐述常用的交流PWM三种控制方式的基本特征及各自的优缺点；毕业要求1.4</li><li>能够认识转子磁链计算电流模型和电压模型各自的优缺点以及有效选择方法，能够认识3/2变换和旋转变换的原理，能够对异步电动机矢量控制系统和直接转矩控制系统在控制方法、系统性能方面进行对比分析与有效选择，能够对调速系统起动过程及其特点进行综合分析；毕业要求2.3</li><li>能够运用电气工程及其自动化专业知识，设计异步电动机矢量控制策略和直接转矩控制策略；能够设计异步电动机矢量控制系统和直接转矩控制系统的仿真参数和仿真模型，并通过实践仿真分析得到调速性能较优的结果；对毕业要求3.2</li></ul><h2>课程简介</h2><p class="body">交直流调速系统是电气工程及其自动化专业一门重要的专业基础课，在本专业人才培养中占有重要地位。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>交直流调速系统<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>10041503</b></span><span><em>学分</em><b>2.5</b></span><span><em>学时</em><b>40</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/10041503.html">查看原始页面</a><a href="../json/10041503.json">下载 JSON</a><a href="../txt/10041503.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>10041503</td><th>课程名称(中)</th><td>交直流调速系统</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>AC and DC Motor Speed Control System</td></tr><tr><th>开课单位</th><td>自动化学院</td><th>课程类别</th><td>理论课（含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>蒋雪峰</td><th>审核人</th><td>杨飞</td></tr><tr><th>学分</th><td>2.5</td><th>学时</th><td>40</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">交直流调速系统是电气工程及其自动化专业一门重要的专业基础课，在本专业人才培养中占有重要地位。
 
  本课程主要讲授交直流调速系统的基本理论和应用。课程以转速、转矩和磁链控制规律为主线，从开环到闭环、从直流到交流论述电机调速系统的静、动态性能和调速控制方法。将理论与实际相结合，培养学生的工程实践能力以及工程师的使命和责任，为后续专业课程的学习以及解决电气工程领域复杂工程问题奠定坚实的基础。
 
  教学内容包括：转速开环控制的直流调速系统、转速闭环控制的直流调速系统、转速电流双闭环控制的直流调速系统、基于稳态模型的异步电动机调速系统、基于动态模型的异步电动机调速系统、同步电动机变压变频调速系统。 
 
- 本课程先修课程为：电机学、工程电磁场、电力电子技术等课程。</p><h2>教学目的与要求</h2><p class="body">通过本课程的学习，学生能够了解交直流调速系统的基本运行原理与控制方法，掌握直流调速系统、交流调速系统的基本组成、工作原理以及系统的静动态性能，能够对异步电动机矢量控制系统和直接转矩控制系统在控制方法、系统性能方面进行对比分析，能够设计异步电动机矢量控制系统和直接转矩控制系统的仿真参数和仿真模型，并通过仿真得到调速性能较优的结果，具备交直流调速系统参数设计、调试与仿真分析的能力。
+ 本课程先修课程为：电机学、工程电磁场、电力电子技术等课程。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">通过本课程的学习，学生能够了解交直流调速系统的基本运行原理与控制方法，掌握直流调速系统、交流调速系统的基本组成、工作原理以及系统的静动态性能，能够对异步电动机矢量控制系统和直接转矩控制系统在控制方法、系统性能方面进行对比分析，能够设计异步电动机矢量控制系统和直接转矩控制系统的仿真参数和仿真模型，并通过仿真得到调速性能较优的结果，具备交直流调速系统参数设计、调试与仿真分析的能力。
 
  通过本课程的学习，培养学生勤奋刻苦的求学精神和追求真理的科学精神，以及社会责任感和使命意识。
 
@@ -54,12 +81,4 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
  2.3 能够认识到电气工程及其自动化领域复杂工程问题有多种方案可选择，会通过文献资料研究，寻求可替代解决方案，并分析设计过程中的影响因素，获得有效结论。
 
- 3.2 能够运用电气工程及其自动化专业知识，设计满足特定需求的系统、单元（部件）或工艺流程，并能够在设计环节中体现创新意识。</p><h2>教学内容</h2><p class="body">运动控制系统及其组成；△运动控制系统的转矩控制规律；△生产机械的负载转矩特性晶闸管整流器-直流电动机系统的工作原理及调速特性；△PWM变换器-电动机系统的工作原理及调速特性；△稳态调速性能指标和开环系统存在的问题
-有静差的转速闭环直流调速系统；★无静差的转速闭环直流调速系统；△转速闭环直流调速系统的限流保护
-△转速、电流双闭环控制直流调速系统的组成及其静特性；★转速、电流双闭环控制直流调速系统的数学模型与动态过程分析；★转速、电流双闭环控制直流调速系统的设计；△双闭环直流调速系统的弱磁控制；△转速、电流双闭环控制直流调速系统的仿真
-异步电动机的稳态数学模型和调速方法；△异步电动机的调压调速；△异步电动机的变压变频调速；★电力电子变压变频器；转速开环变压变频调速系统；★转速闭环转差频率控制的变压变频调速系统
-异步电动机动态数学模型的性质；△异步电动机的三相数学模型；△★坐标变换；异步电动机在正交坐标系上的动态数学模型；异步电动机在正交坐标系上的状态方程；△★异步电动机按转子磁链定向的矢量控制系统；△★异步电动机按定子磁链控制的直接转矩控制系统；△直接转矩控制系统与矢量控制系统的比较；△★异步电动机和交流调速系统仿真
-同步电动机的稳态模型与调速方法；他控变频同步电动机调速系统；自控变频同步电动机调速系统；△同步电动机矢量控制系统；★同步电动机直接转矩控制系统</p><h2>课程思政</h2><p class="body">交直流调速技术发展史上，一批中外科学家敢于挑战自我，突破认知禁区，取得巨大成就，通过学习这些技术的发明过程，激发学生的科学精神。
-结合交直流调速系统的应用需求和实际应用，有机融入社会主义核心价值观和大国重器。
-领会异步电动机调速控制方法会存在多种方案，学会对不同方案进行对比分析及评价，发展学生的高阶思维，培养学生学无止境、追求真理的科学精神。
-结合同步电动机变压变频调速系统的介绍，融入中国特色社会主义的“四个自信”，充分体现我国在稀土永磁方面的国际领先地位。</p><h2>章节安排（6 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>运动控制系统及其组成；△运动控制系统的转矩控制规律；△生产机械的负载转矩特性晶闸管整流器-直流电动机系统的工作原理及调速特性；△PWM变换器-电动机系统的工作原理及调速特性；△稳态调速性能指标和开环系统存在的问题</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">2</td><td>有静差的转速闭环直流调速系统；★无静差的转速闭环直流调速系统；△转速闭环直流调速系统的限流保护</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">3</td><td>△转速、电流双闭环控制直流调速系统的组成及其静特性；★转速、电流双闭环控制直流调速系统的数学模型与动态过程分析；★转速、电流双闭环控制直流调速系统的设计；△双闭环直流调速系统的弱磁控制；△转速、电流双闭环控制直流调速系统的仿真</td><td class="n">4</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">4</td><td>异步电动机的稳态数学模型和调速方法；△异步电动机的调压调速；△异步电动机的变压变频调速；★电力电子变压变频器；转速开环变压变频调速系统；★转速闭环转差频率控制的变压变频调速系统</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">6</td></tr><tr><td class="c">5</td><td>异步电动机动态数学模型的性质；△异步电动机的三相数学模型；△★坐标变换；异步电动机在正交坐标系上的动态数学模型；异步电动机在正交坐标系上的状态方程；△★异步电动机按转子磁链定向的矢量控制系统；△★异步电动机按定子磁链控制的直接转矩控制系统；△直接转矩控制系统与矢量控制系统的比较；△★异步电动机和交流调速系统仿真</td><td class="n">12</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">14</td></tr><tr><td class="c">6</td><td>同步电动机的稳态模型与调速方法；他控变频同步电动机调速系统；自控变频同步电动机调速系统；△同步电动机矢量控制系统；★同步电动机直接转矩控制系统</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><th></th><th>合计</th><th style="text-align:right">36</th><th style="text-align:right">4</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">40</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 交直流调速技术发展史上，一批中外科学家敢于挑战自我，突破认知禁区，取得巨大成就，通过学习这些技术的发明过程，激发学生的科学精神。</li><li><b>第4章</b> 结合交直流调速系统的应用需求和实际应用，有机融入社会主义核心价值观和大国重器。</li><li><b>第5章</b> 领会异步电动机调速控制方法会存在多种方案，学会对不同方案进行对比分析及评价，发展学生的高阶思维，培养学生学无止境、追求真理的科学精神。</li><li><b>第6章</b> 结合同步电动机变压变频调速系统的介绍，融入中国特色社会主义的“四个自信”，充分体现我国在稀土永磁方面的国际领先地位。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/10041503.html">查看原始页面</a><a href="../json/10041503.json">下载 JSON</a><a href="../txt/10041503.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+ 3.2 能够运用电气工程及其自动化专业知识，设计满足特定需求的系统、单元（部件）或工艺流程，并能够在设计环节中体现创新意识。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>能够对异步电动机恒功率和恒转矩调速方式进行比较与综合，能够掌握直流调速系统与交流调速系统的基本组成、工作原理、动静态性能分析及两者的异同，能够理解和阐述常用的交流PWM三种控制方式的基本特征及各自的优缺点；毕业要求1.4</li><li>能够认识转子磁链计算电流模型和电压模型各自的优缺点以及有效选择方法，能够认识3/2变换和旋转变换的原理，能够对异步电动机矢量控制系统和直接转矩控制系统在控制方法、系统性能方面进行对比分析与有效选择，能够对调速系统起动过程及其特点进行综合分析；毕业要求2.3</li><li>能够运用电气工程及其自动化专业知识，设计异步电动机矢量控制策略和直接转矩控制策略；能够设计异步电动机矢量控制系统和直接转矩控制系统的仿真参数和仿真模型，并通过实践仿真分析得到调速性能较优的结果；对毕业要求3.2</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>课堂讨论</td><td>单元作业</td><td>单元测验</td><td>实践仿真报告</td><td>闭卷笔试</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">10%</td><td class="n">10%</td><td class="n">10%</td><td class="n">15%</td><td class="n">55%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="3">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">实验</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">运动控制系统及其组成；△运动控制系统的转矩控制规律；△生产机械的负载转矩特性晶闸管整流器-直流电动机系统的工作原理及调速特性；△PWM变换器-电动机系统的工作原理及调速特性；△稳态调速性能指标和开环系统存在的问题</td><td class="n cb">6</td><td class="n cb">0</td><td class="n cb">6</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>交直流调速技术发展史上，一批中外科学家敢于挑战自我，突破认知禁区，取得巨大成就，通过学习这些技术的发明过程，激发学生的科学精神。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">有静差的转速闭环直流调速系统；★无静差的转速闭环直流调速系统；△转速闭环直流调速系统的限流保护</td><td class="n cb">4</td><td class="n cb">0</td><td class="n cb">4</td></tr><tr><td class="c cb">3</td><td class="cb">△转速、电流双闭环控制直流调速系统的组成及其静特性；★转速、电流双闭环控制直流调速系统的数学模型与动态过程分析；★转速、电流双闭环控制直流调速系统的设计；△双闭环直流调速系统的弱磁控制；△转速、电流双闭环控制直流调速系统的仿真</td><td class="n cb">4</td><td class="n cb">2</td><td class="n cb">6</td></tr><tr><td class="c cb">4</td><td class="cb">异步电动机的稳态数学模型和调速方法；△异步电动机的调压调速；△异步电动机的变压变频调速；★电力电子变压变频器；转速开环变压变频调速系统；★转速闭环转差频率控制的变压变频调速系统</td><td class="n cb">6</td><td class="n cb">0</td><td class="n cb">6</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>结合交直流调速系统的应用需求和实际应用，有机融入社会主义核心价值观和大国重器。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">5</td><td class="cb">异步电动机动态数学模型的性质；△异步电动机的三相数学模型；△★坐标变换；异步电动机在正交坐标系上的动态数学模型；异步电动机在正交坐标系上的状态方程；△★异步电动机按转子磁链定向的矢量控制系统；△★异步电动机按定子磁链控制的直接转矩控制系统；△直接转矩控制系统与矢量控制系统的比较；△★异步电动机和交流调速系统仿真</td><td class="n cb">12</td><td class="n cb">2</td><td class="n cb">14</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>领会异步电动机调速控制方法会存在多种方案，学会对不同方案进行对比分析及评价，发展学生的高阶思维，培养学生学无止境、追求真理的科学精神。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">6</td><td class="cb">同步电动机的稳态模型与调速方法；他控变频同步电动机调速系统；自控变频同步电动机调速系统；△同步电动机矢量控制系统；★同步电动机直接转矩控制系统</td><td class="n cb">4</td><td class="n cb">0</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>结合同步电动机变压变频调速系统的介绍，融入中国特色社会主义的“四个自信”，充分体现我国在稀土永磁方面的国际领先地位。</td><td class="ideoblank"></td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">36</td><td class="n">4</td><td class="n">40</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>电力拖动自动控制系统：运动控制系统（第5版）</td><td>阮毅、杨影、陈伯时</td><td>978-7-111-54419-7</td><td>机械工业出版社</td><td class="n">2016</td></tr><tr><td>电机与运动控制系统(第2版）</td><td>杨耕 罗应立</td><td>9787302344773</td><td>清华大学出版社</td><td class="n">2014</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>
