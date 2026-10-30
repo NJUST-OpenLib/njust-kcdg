@@ -1,0 +1,119 @@
+{
+ "code": "100201E3",
+ "slug": "100201E3",
+ "name": "PLC原理及应用【英】",
+ "nameEn": "PLC: Principles and Applications[E]",
+ "credit": 3,
+ "dept": "自动化学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 7001,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（含实践）",
+  "teacher": "戚志东",
+  "reviewer": "樊卫华",
+  "totalHours": 48,
+  "lectureHours": 32,
+  "labHours": 16,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课题表现:30%；闭卷考试:50%；实验操作:20%",
+  "goals": [
+   "了解PLC研究现状，掌握技术动态",
+   "学习设备组成，了解PLC架构和工作原理",
+   "学会梯形图编程方法，包括数据处理，编程语言及调试方法",
+   "基于具体实例学会使用PLC解决实际问题，编制解决方案",
+   "跟踪技术前沿，立足于学习和研究最新的PLC技术"
+  ],
+  "intro": "This course mainly introduces programmable logic controllers and focuses on the teaching of some common technologies in PLC. The main contents of this course includes the basic concepts of programmable logic controllers. It introduces some definitions and the state-of-art of programmable logic controllers. The principles of programmable logic controller are presented and discussed in detail. and number system and codes in PLC are explained. Some concepts of input and output devices will be introduced in detail. How data will be processed in PLC and what function will be used to realize math and logical operation are explained. Some methods of programming in PLC are shown in detail, such as Ladder diagrams, instruction lists, sequential function charts, etc. Some techniques are also given, for example, how to use timers, counters, etc. and how to realize some special program structure will be introduced, such as jump structure and subroutines program. Finally, some examples of PLC applications are shown and discussed sufficiently and some methods of solving trouble problems are given. This course is mostly based on the lectures, combined with multimedia PPTs and student’s class discussions and exercises. The assessment of this course is adopted on a paper about special topics, and the students final notes are calculated on the basis of the score of a paper and the usual results.",
+  "objectives": "Course Objectives:\n\nTo make students understand the origin of programmable logic controllers, how programmable logic controllers work, how to install and setup a PLC, how to program, what PLC programming languages include and what ladder program is, how to use timers and counters etc.\n\nGeneral Requirements:\n\nAfter finishing this course, students should be able:\n\n1.Understand the historical evolution of PLC, and their importance to our industrial process.\n\n2.Understand the fundamental principles of programmable logic controller, such as its components, the difference between PLCs and computers etc.\n\n3.Understand how PLC works, and what its number system and codes.\n\n4.Understand how programming in PLC and what PLC programming languages include.\n\n5.Understand how to use timers, counters and some math instruction.\n\n6.Understand how to design and realize an application using PLC.",
+  "contents": "Overview of Programmable logic controllers\nInput/Output Devices and Processing\nData Handling\nProgramming Methods\nProgramming Techniques\nPrograms and Examples of Applications",
+  "ideology": "1.了解PLC技术的分类和现状，培养逻辑控制和自动控制的良好意识；2.了解技术前沿，培养创新意识。\n1.学习PLC基本的输入输出指令和工作原理，培养认识问题和分析问题的能力；2.理论联系实际，培养学生解决复杂综合问题的能力。\n1.学习数据的处理方法及输入输出指令，了解PLC技术的根本和核心技术，激发学术学习的兴趣；2.联系实际，培养学生思考和分析问题的能力。\n1.学习和掌握编程的基本方法，打好根基，培养踏实学习技术的态度；2.通过技术实现人生价值。\n1.学习深入的编程技术，通过阐述高层次的科技技术激发学生追求真理、献身科学的精神。2.理论联系实际，培养学生发现和解决问题的能力。\n1.联系实际案例，培养学术解决实际问题的能力，增强学生的自信心。2.通过实际操作和调试，培养学生解决复杂综合问题的能力。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Overview of Programmable logic controllers",
+   "ideology": "1.了解PLC技术的分类和现状，培养逻辑控制和自动控制的良好意识；2.了解技术前沿，培养创新意识。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Input/Output Devices and Processing",
+   "ideology": "1.学习PLC基本的输入输出指令和工作原理，培养认识问题和分析问题的能力；2.理论联系实际，培养学生解决复杂综合问题的能力。",
+   "hours": {
+    "lecture": 4,
+    "lab": 2,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 3,
+   "title": "Data Handling",
+   "ideology": "1.学习数据的处理方法及输入输出指令，了解PLC技术的根本和核心技术，激发学术学习的兴趣；2.联系实际，培养学生思考和分析问题的能力。",
+   "hours": {
+    "lecture": 6,
+    "lab": 2,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 4,
+   "title": "Programming Methods",
+   "ideology": "1.学习和掌握编程的基本方法，打好根基，培养踏实学习技术的态度；2.通过技术实现人生价值。",
+   "hours": {
+    "lecture": 8,
+    "lab": 4,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 12
+   }
+  },
+  {
+   "no": 5,
+   "title": "Programming Techniques",
+   "ideology": "1.学习深入的编程技术，通过阐述高层次的科技技术激发学生追求真理、献身科学的精神。2.理论联系实际，培养学生发现和解决问题的能力。",
+   "hours": {
+    "lecture": 8,
+    "lab": 4,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 12
+   }
+  },
+  {
+   "no": 6,
+   "title": "Programs and Examples of Applications",
+   "ideology": "1.联系实际案例，培养学术解决实际问题的能力，增强学生的自信心。2.通过实际操作和调试，培养学生解决复杂综合问题的能力。",
+   "hours": {
+    "lecture": 4,
+    "lab": 4,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=100201E3",
+ "hasOriginal": true
+}

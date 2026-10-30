@@ -1,0 +1,91 @@
+{
+ "code": "070710E1",
+ "slug": "070710E1",
+ "name": "学术论文写作【英】",
+ "nameEn": "Academic Paper Writing[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5916,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "巩雪",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；平时作业:10%；PPT展示:20%；课程论文:60%",
+  "goals": [
+   "Have a good ability to write academic prose in English",
+   "Have a good familiarity with the formalities of academic writing",
+   "Be able to present their research findings in a clear and structured manner"
+  ],
+  "intro": "The Academic Writing class is an intensive analysis of the principles of excellent academic writing for Scientists preparing a range of texts including research papers, conference proposals, conference posters, book chapters, technical reports, dissertations.\n\nClass discussion focuses on the central role of rhetorical positioning in the development of a clear, interesting, and rigorous science research paper. We talk about the significance of narrowing the problem space, the construction of logical arguments, the reporting and interpretation of data, as well as other important concepts including reader-oriented writing, genre, precision, tone, and strategies useful for redrafting and editing. Some of the sub-genres we analyze and practice include introductions, data commentaries, results/discussion, conclusions, and abstracts. \n\nPrerequisite(s): English \"",
+  "objectives": "Our global is cultivating selected print and digital literacies necessary for successful written communication in academic, professional, and workplace settings where you may interact with fellow experts in business and related disciplines. Although the primary aim of this course involves helping you build your proficiency and confidence as a writer of English, we will also devote time and effort to improving your reading, critical reasoning, and research skills. A guiding principle of language and literacy development is that all skill areas are interdependent and that people become good writers not only by learning to write. \"",
+  "contents": "The Writing Process\nElements of Writing\nAccuracy in Writing\nWriting Models",
+  "ideology": "Use relative writing materials to let international students understand China and love Chinese language.\nUse relative writing materials to let international students understand China and love Chinese language.\nUse relative writing materials to let international students understand China and love Chinese language."
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "The Writing Process",
+   "ideology": "Use relative writing materials to let international students understand China and love Chinese language.",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 2,
+   "title": "Elements of Writing",
+   "ideology": "Use relative writing materials to let international students understand China and love Chinese language.",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 3,
+   "title": "Accuracy in Writing",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 4,
+   "title": "Writing Models",
+   "ideology": "Use relative writing materials to let international students understand China and love Chinese language.",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070710E1",
+ "hasOriginal": true
+}

@@ -1,0 +1,215 @@
+{
+ "code": "070555E1",
+ "slug": "070555E1",
+ "name": "国际物流【英】",
+ "nameEn": "International Logistics[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5801,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "于晶",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "期末考试:60%；平时考核:40%",
+  "goals": [
+   "了解国际物流及供应链管理新格局的中国视野 人文经管类1.思想品德 具有坚定正确的政治方向，拥护中国共产党的领导，坚持四项基本原则，具有良好的思想品质、道德修养和坚定的理想信念；热爱祖国，具有强烈的社会责任感和社会公益意识，能够主动参与社会实践，具有担当精神，自觉践行社会主义核心价值观。 人文经管类1.思想品德 具有坚定正确的政治方向，拥护中国共产党的领导，坚持四项基本原则，具有良好的思想品质、道德修养和坚定的理想信念；热爱祖国，具有强烈的社会责任感和社会公益意识，能够主动参与社会实践，具有担当精神，自觉践行社会主义核心价值观。 人文经管类1.思想品德 具有坚定正确的政治方向，拥护中国共产党的领导，坚持四项基本原则，具有良好的思想品质、道德修养和坚定的理想信念；热爱祖国，具有强烈的社会责任感和社会公益意识，能够主动参与社会实践，具有担当精神，自觉践行社会主义核心价值观。",
+   "了解国际物流相关政策法规和惯例 人文经管类2.科学素养 具备中国历史知识尤其是中国特色社会主义改革、开放、发展、建设史的知识；具有科学素养、人文底蕴、文化品位和进取精神；具有家国情怀，能够传承创新和发扬中华优秀传统文化；了解国内外相关政策法规和惯例，具备职业伦理、职业认同和良好的职业素养。 人文经管类2.科学素养 具备中国历史知识尤其是中国特色社会主义改革、开放、发展、建设史的知识；具有科学素养、人文底蕴、文化品位和进取精神；具有家国情怀，能够传承创新和发扬中华优秀传统文化；了解国内外相关政策法规和惯例，具备职业伦理、职业认同和良好的职业素养。 人文经管类2.科学素养 具备中国历史知识尤其是中国特色社会主义改革、开放、发展、建设史的知识；具有科学素养、人文底蕴、文化品位和进取精神；具有家国情怀，能够传承创新和发扬中华优秀传统文化；了解国内外相关政策法规和惯例，具备职业伦理、职业认同和良好的职业素养。",
+   "掌握国际物流运营管理和全球供应链管理的基本理论、方法和技能 人文经管类3.学科知识 具备系统扎实的基础知识、专业知识和专业技能；掌握本专业的研究思路和研究方法，了解本专业相关学科的历史、现状和前沿动态；掌握较丰富的跨专业知识，并具有在不同领域融通应用和实践的技能。 人文经管类3.学科知识 具备系统扎实的基础知识、专业知识和专业技能；掌握本专业的研究思路和研究方法，了解本专业相关学科的历史、现状和前沿动态；掌握较丰富的跨专业知识，并具有在不同领域融通应用和实践的技能。 人文经管类3.学科知识 具备系统扎实的基础知识、专业知识和专业技能；掌握本专业的研究思路和研究方法，了解本专业相关学科的历史、现状和前沿动态；掌握较丰富的跨专业知识，并具有在不同领域融通应用和实践的技能。",
+   "运用科学研究方法分析现实物流及供应链相关问题 人文经管类4.应用能力 具有综合运用相关知识、技能分析和解决本专业或相关领域复杂问题的能力，能够提出相应对策或方案，并对对策和方案的政策依据、社会环境、可持续发展和可能的社会影响进行分析。 人文经管类4.应用能力 具有综合运用相关知识、技能分析和解决本专业或相关领域复杂问题的能力，能够提出相应对策或方案，并对对策和方案的政策依据、社会环境、可持续发展和可能的社会影响进行分析。 人文经管类4.应用能力 具有综合运用相关知识、技能分析和解决本专业或相关领域复杂问题的能力，能够提出相应对策或方案，并对对策和方案的政策依据、社会环境、可持续发展和可能的社会影响进行分析。",
+   "对国际物流及供应链管理形成个人判断和见解 人文经管类5.创新能力 能运用本专业的研究思路和方法组织并开展调查研究，具有逻辑思维能力、反思意识和批判精神，能发现、辨析、总结、评价本专业及相关领域的现象和问题，形成个人判断、见解或对策，具有较强的实践能力和创新创业能力。 人文经管类5.创新能力 能运用本专业的研究思路和方法组织并开展调查研究，具有逻辑思维能力、反思意识和批判精神，能发现、辨析、总结、评价本专业及相关领域的现象和问题，形成个人判断、见解或对策，具有较强的实践能力和创新创业能力。 人文经管类5.创新能力 能运用本专业的研究思路和方法组织并开展调查研究，具有逻辑思维能力、反思意识和批判精神，能发现、辨析、总结、评价本专业及相关领域的现象和问题，形成个人判断、见解或对策，具有较强的实践能力和创新创业能力。",
+   "熟练使用互联网信息技术及工具开展相关研究 人文经管类6.信息能力 具有信息素养和信息技术应用能力，能够恰当应用现代信息技术手段和工具解决实际问题。 人文经管类6.信息能力 具有信息素养和信息技术应用能力，能够恰当应用现代信息技术手段和工具解决实际问题。 人文经管类6.信息能力 具有信息素养和信息技术应用能力，能够恰当应用现代信息技术手段和工具解决实际问题。",
+   "具有较强的英文沟通表达能力 人文经管类7.沟通表达 具有较强的沟通表达能力，能够通过口头和书面表达方式与同行、社会公众进行有效沟通，具有一定的宣传和推广能力。 人文经管类7.沟通表达 具有较强的沟通表达能力，能够通过口头和书面表达方式与同行、社会公众进行有效沟通，具有一定的宣传和推广能力。 人文经管类7.沟通表达 具有较强的沟通表达能力，能够通过口头和书面表达方式与同行、社会公众进行有效沟通，具有一定的宣传和推广能力。",
+   "锻炼良好的团队协作能力 人文经管类8.团队合作 注重团队协作，具有较强的组织、协调和管理能力，在团队工作中发挥积极作用，协作完成复杂性任务。 人文经管类8.团队合作 注重团队协作，具有较强的组织、协调和管理能力，在团队工作中发挥积极作用，协作完成复杂性任务。 人文经管类8.团队合作 注重团队协作，具有较强的组织、协调和管理能力，在团队工作中发挥积极作用，协作完成复杂性任务。",
+   "养成关注国内外时事热点动态的习惯和认知敏锐度 人文经管类9.国际视野 了解本专业国际动态，关注本专业领域的全球重大问题；具有文化自信，能尊重和理解世界不同文化的差异性和多样性；具有开展国际交流与合作的能力，能传播中华优秀传统文化和中国智慧。 人文经管类9.国际视野 了解本专业国际动态，关注本专业领域的全球重大问题；具有文化自信，能尊重和理解世界不同文化的差异性和多样性；具有开展国际交流与合作的能力，能传播中华优秀传统文化和中国智慧。 人文经管类9.国际视野 了解本专业国际动态，关注本专业领域的全球重大问题；具有文化自信，能尊重和理解世界不同文化的差异性和多样性；具有开展国际交流与合作的能力，能传播中华优秀传统文化和中国智慧。",
+   "培养自主学习能力和终身学习意识 人文经管类10.学习发展 具有终身学习意识和自我规划、自我管理、自主学习能力，能够通过不断学习，适应社会和个人可持续发展。 人文经管类10.学习发展 具有终身学习意识和自我规划、自我管理、自主学习能力，能够通过不断学习，适应社会和个人可持续发展。 人文经管类10.学习发展 具有终身学习意识和自我规划、自我管理、自主学习能力，能够通过不断学习，适应社会和个人可持续发展。"
+  ],
+  "intro": "\"本课程主要从全球供应链管理的角度介绍国际物流的基本知识、方法、特点和规则。包括国际物流、国际运输、国际物流空间格局、国际贸易、国际物流网络系统、国际物流信息系统、物流决策、采购、营销、库存、仓储和包装的介绍和运作、物流/供应链管理以及供应链解决方案。通过本课程的学习，学生应了解国际物流的基本知识，培养其操作能力，以及全球供应链管理的基本知识。本课程将加强学生对国际物流的理解，提高他们的实践能力。\n\n先修课程：国际贸易惯例；国际贸易等。\n\n考试：课堂评估和期末笔试。\n\n分数将通过班级评估（40%）和期末笔试（60%）计算。\n\nThis course introduces the basic knowledge, methods, characteristics and rules of international logistics, maily from the perspective of global supply chain management. It Includes the introduction and operation of international logistics, international transportation, the spatial patterns of international logistics, international trade, international logistics network system, international logistics information system, logistic decision-making, procurement, marketing, warehouse management, storage and packaging, logistics/supply-chain management, as well as supply-chain solutions. Through the studying of this course, students should know the basic knowledge of international logistics and develop their operation abilities, as well as the basic knowledge of global supply chain management. This course will strengthen the students\" understanding of international logistics and improve their practical abilities.\n\nPrerequisite courses: International Trade Practices; International Trade etc..\n\nExam: Class-based assessment and final written examination.\n\nThe score will be calculated by Class-based assessment (40%) and final written examination (60%).\"",
+  "objectives": "\"《国际物流与供应链管理》（英）是国际经济与贸易专业的一门专业课程。通过学习，使学生掌握国际物流运营管理和全球供应链管理的基本理论、方法和技能。它不仅使学生在国际物流运作中具有重要的职业能力，而且有助于培养学生在物流职业中的扎实的核心能力和核心能力，为今后在国际物流和对外贸易中的经营、管理和相关工作奠定基础。\n\n具体而言，学生在学习本课程后应主要具备以下能力：\n\n1.掌握国际物流运营管理和全球供应链管理的基本理论、方法和技能；\n\n2.运用所学知识分析一些实际问题；\n\n3.运用知识制定解决方案；\n\n4.在相关工作中具有专业性。\n\nInternational logistics and Supply Chain Management is a professional course for international economy and trade major. Through study, students can master the basic theories, methods and skills of international logistics operation and management as well as the global supply chain management. It not only enables students to have key occupation abilities in international logistics operation, but also helps students develop the solid general and core abilities in logistics occupations so as to lay a foundation for future operation, management and related work in international logistics and foreign trade.\n\nSpecifically, the students are expected to mainly have the following abilities after learning this course:\n\n1. Master the basic theories, methods and skills of international logistics operation and management as well as the global supply chain management;\n\n2. Use the knowledge to analyze some practical problems;\n\n3. Employ the knowledge to make some solutions;\n\n4. Be professional in related jobs.\n\n《国际物流与供应链管理》（英）课程是国际经济与贸易专业针对中国本科生及来华修读学士学位的外国留学生开设的一门全英文必修专业课程。本课程的授课对象主要包括中国学生以及我国“一带一路”倡议所涉及的国家和地区的来华留学生。本课程的课程思政建设方向和目标主要是将课程思政教育与本课程教学内容深度有机融合，使中国学生和来华留学生了解国际物流新格局。在该门课程的教学内容中，任课教师有机融入了习近平总书记重要讲话、党的十九大精神、社会主义核心价值观、中国优秀传统文化以及中国特色社会主义的“四个自信”等内容，让学生了解中国友好、包容的文化、外交政策和对外经济政策，一方面让中国学生加深对祖国的热爱，进一步有效培养社会主义的优秀建设者和接班人，另一方面让外国留学生加深对中国的友情，进一步有效培养亲华、友华的国际留学生，有助于其将来成为中国企业的贸易伙伴，有利于国家“一带一路”建设的实施。\"",
+  "contents": "\"物流简介；物流与国际物流的基本概念△; 物流工作的方法★ The Introduction of Logistics; Basic concpets of logistics and international logistics△; The ways of logistics work★\"\n\"采购；影响总购置成本的各种因素△; 采购系统的应用★ Procurement; Various factors affecting the total acquisition cost△; Application of procurement systems★\"\n\"市场营销；物流营销△; PEST分析方法、营销技术★ Marketing; Logistics marketing△; PEST, Marketing techniques★\"\n\"物流信息管理；物流信息管理的相关概念△; 信息管理在物流业中的应用及EDI在供应链管理中的应用★ Logistics Information Management; Concepts related to logistics infromation management△; The application of the infromation management in the logistics industry and the application of EDI in the supply chain management★\"\n\"运输管理；交通类型和运输特征△; 物流中的运输规划与管理★ Transportation Management; Types of traffic and transportation characteristics△; The transportation planning and management in logistics★\"\n\"仓库管理；仓库用途、仓库成本、仓库和仓库流程△; 仓库成本控制或降低★ Warehouse Management; Purpose of warehouse, warehouse costs, warehouses and stores processes△; Warehouse Costs control or reduction★\"\n\"库存控制；库存分类与库存识别△; 库存控制与库存预测★ Stock Control; Stock classification and stock identification△; Stock control and stock forcast★\"\n\"物流决策；物流决策组织结构与管理方式△; 战略方向、任务分析和物流驱动★ Logistic Decision-Making; Logistic decision organization structure and management style△; Strategic direction, mission analysis, and logistic drive★\"\n\"物流/供应链管理；扩展企业的演变和特点，供应链管理的未来趋势△; 第三方物流供应商★ Logistics/Supply-Chain Management; Evolution and characteristics of extended enterprise, future trends in supply chain management△; Third-party logistics providers★\"\n\"选择供应链解决方案；市场经济解决方案与网络经济解决方案；推式模型与拉式模型△; 如何选择合适的供应渠道解决方案★ selecting Supply Chain Solution; Market economy solutions vs network economy solutions; the Push Model vs the Pull Model△; How to select appropriate supply chani solution★\"\n\"国际贸易；控制货车移动，有效载荷△; 进出口过程和控制★ International Trade; Control of goods vehicle movements, the payload△; Import/export process and control★\"\n\"保险 Insurance\"\n\"最佳物流方案；将物流活动整合到一个部门并协调整个供应链的物流活动△; 企业级供应链电子化★ Logistics Best Practices; Integrating logistics activities into one department and coordinating logistics activities across the supply chain△; Electronizing SCM at the corporate level★\"",
+  "ideology": "通过介绍我国物流行业发展历史数据及其在国际中的地位变化，增强学生的民族自信心和自豪感、政治认同感和时代紧迫感，激发青年学生的爱国热情，培养立志献身祖国的远大理想，坚定“四个自信”、牢树“四个意识”，自信自立。\n坚持系统观点\n坚持系统观点\n在论述物流信息以及物流信息管理的作用及意义，以军工产品为例，强化学生对信息的辩证认识能力以及国防保密意识。培养学生辩证认识问题的能力以及国防保密意识，贯彻总体国家安全观。\n分析不同物流运输方式对环境的污染，提倡绿色物流和创新物流，节能环保。通过绿色物流和创新物流，提升环境保护意识和形成节能意识，培养学生的环保、健康和安全意识，树立地球是我们人类共同的家园的观念，破坏环境就是犯法，培养保护环境的法律意识。\n通过讲述仓储安全管理的重要性，培养学生的安全防范意识、责任意识和职业素养。引导学生养成认真负责的工作态度，增强学生的责任担当，有安全防范意识、大局意识和核心意识。培养学生遵守职业道德和职业规范，遵纪守法。\n通过讲述库存安全管理的重要性，培养学生的安全防范意识、责任意识和职业素养。引导学生养成认真负责的工作态度，增强学生的责任担当，有安全防范意识、大局意识和核心意识。培养学生遵守职业道德和职业规范，遵纪守法。\n风险与利益共存意识\n坚定不移贯彻新发展理念\n讲授我国优秀物流企业案例。通过学生之间分组协作，完成对我国优秀物流企业的分析和研究，并准备PPT在课堂上进行汇报。 引导学生养成认真负责的工作态度，增强学生的责任担当，培养学生团结协作精神，互利共赢，以及诚实守信的科学态度。\n坚持对外开放基本国策，坚持经济全球化正确方向\n风险与利益共存意识\n坚持系统观点"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "\"物流简介；物流与国际物流的基本概念△; 物流工作的方法★ The Introduction of Logistics; Basic concpets of logistics and international logistics△; The ways of logistics work★\"",
+   "ideology": "通过介绍我国物流行业发展历史数据及其在国际中的地位变化，增强学生的民族自信心和自豪感、政治认同感和时代紧迫感，激发青年学生的爱国热情，培养立志献身祖国的远大理想，坚定“四个自信”、牢树“四个意识”，自信自立。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "\"采购；影响总购置成本的各种因素△; 采购系统的应用★ Procurement; Various factors affecting the total acquisition cost△; Application of procurement systems★\"",
+   "ideology": "坚持系统观点",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "\"市场营销；物流营销△; PEST分析方法、营销技术★ Marketing; Logistics marketing△; PEST, Marketing techniques★\"",
+   "ideology": "坚持系统观点",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "\"物流信息管理；物流信息管理的相关概念△; 信息管理在物流业中的应用及EDI在供应链管理中的应用★ Logistics Information Management; Concepts related to logistics infromation management△; The application of the infromation management in the logistics industry and the application of EDI in the supply chain management★\"",
+   "ideology": "在论述物流信息以及物流信息管理的作用及意义，以军工产品为例，强化学生对信息的辩证认识能力以及国防保密意识。培养学生辩证认识问题的能力以及国防保密意识，贯彻总体国家安全观。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "\"运输管理；交通类型和运输特征△; 物流中的运输规划与管理★ Transportation Management; Types of traffic and transportation characteristics△; The transportation planning and management in logistics★\"",
+   "ideology": "分析不同物流运输方式对环境的污染，提倡绿色物流和创新物流，节能环保。通过绿色物流和创新物流，提升环境保护意识和形成节能意识，培养学生的环保、健康和安全意识，树立地球是我们人类共同的家园的观念，破坏环境就是犯法，培养保护环境的法律意识。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 6,
+   "title": "\"仓库管理；仓库用途、仓库成本、仓库和仓库流程△; 仓库成本控制或降低★ Warehouse Management; Purpose of warehouse, warehouse costs, warehouses and stores processes△; Warehouse Costs control or reduction★\"",
+   "ideology": "通过讲述仓储安全管理的重要性，培养学生的安全防范意识、责任意识和职业素养。引导学生养成认真负责的工作态度，增强学生的责任担当，有安全防范意识、大局意识和核心意识。培养学生遵守职业道德和职业规范，遵纪守法。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "\"库存控制；库存分类与库存识别△; 库存控制与库存预测★ Stock Control; Stock classification and stock identification△; Stock control and stock forcast★\"",
+   "ideology": "通过讲述库存安全管理的重要性，培养学生的安全防范意识、责任意识和职业素养。引导学生养成认真负责的工作态度，增强学生的责任担当，有安全防范意识、大局意识和核心意识。培养学生遵守职业道德和职业规范，遵纪守法。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 8,
+   "title": "\"物流决策；物流决策组织结构与管理方式△; 战略方向、任务分析和物流驱动★ Logistic Decision-Making; Logistic decision organization structure and management style△; Strategic direction, mission analysis, and logistic drive★\"",
+   "ideology": "风险与利益共存意识",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "\"物流/供应链管理；扩展企业的演变和特点，供应链管理的未来趋势△; 第三方物流供应商★ Logistics/Supply-Chain Management; Evolution and characteristics of extended enterprise, future trends in supply chain management△; Third-party logistics providers★\"",
+   "ideology": "坚定不移贯彻新发展理念",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "\"选择供应链解决方案；市场经济解决方案与网络经济解决方案；推式模型与拉式模型△; 如何选择合适的供应渠道解决方案★ selecting Supply Chain Solution; Market economy solutions vs network economy solutions; the Push Model vs the Pull Model△; How to select appropriate supply chani solution★\"",
+   "ideology": "讲授我国优秀物流企业案例。通过学生之间分组协作，完成对我国优秀物流企业的分析和研究，并准备PPT在课堂上进行汇报。 引导学生养成认真负责的工作态度，增强学生的责任担当，培养学生团结协作精神，互利共赢，以及诚实守信的科学态度。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "\"国际贸易；控制货车移动，有效载荷△; 进出口过程和控制★ International Trade; Control of goods vehicle movements, the payload△; Import/export process and control★\"",
+   "ideology": "坚持对外开放基本国策，坚持经济全球化正确方向",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "\"保险 Insurance\"",
+   "ideology": "风险与利益共存意识",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 13,
+   "title": "\"最佳物流方案；将物流活动整合到一个部门并协调整个供应链的物流活动△; 企业级供应链电子化★ Logistics Best Practices; Integrating logistics activities into one department and coordinating logistics activities across the supply chain△; Electronizing SCM at the corporate level★\"",
+   "ideology": "坚持系统观点",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070555E1",
+ "hasOriginal": true
+}

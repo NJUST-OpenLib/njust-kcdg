@@ -1,0 +1,131 @@
+{
+ "code": "07081804",
+ "slug": "07081804",
+ "name": "学术阅读与文献综述",
+ "nameEn": "Academic Reading and Literature Review",
+ "credit": 1,
+ "dept": "经济管理学院",
+ "active": false,
+ "hasOutline": true,
+ "seq": 5955,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（含实践）",
+  "teacher": "石绣天",
+  "reviewer": "石绣天",
+  "totalHours": 40,
+  "lectureHours": 0,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "平时作业:20%；开卷笔试:50%；PPT展示:30%",
+  "goals": [
+   "掌握文献检索、资料查询及运用现代信息技术获取信息的基本方法",
+   "具有查阅标准、规范及技术资料的能力",
+   "能够通过阅读、整理、分析和提炼，总结出所研究课题的发展现状、关键问题，为进一步确定课题研究的内容、创新点和技术路线，提供基础",
+   "通过文献调研、信息检索，综合运用所学专业知识，具有独立分析复杂工程问题的能力，并应用于毕业论文中。"
+  ],
+  "intro": "学术阅读与文献综述是研究的基础性工作，也是论文写作的核心环节。《学术阅读与文献综述》是在介绍会计学和财务学文献的分类和基本的查阅文献方法的基础上,讲授如何针对某一课题，如公司治理、审计等，收集相关资料，通过阅读、整理、分析与提炼，作出综合性介绍或阐述的一般方法。本课程还介绍了科技论文写作的规范，并配合《毕业论文（设计）》开展教学。",
+  "objectives": "(1)掌握文献检索、资料查询及运用现代信息技术获取信息的基本方法；\n\n(2)具有查阅标准、规范及技术资料的能力；\n\n(3)能够通过阅读、整理、分析和提炼，总结出所研究课题的发展现状、关键问题，为进一步确定课题研究的内容、创新点和技术路线，提供基础； \n\n(4)通过文献调研、信息检索，综合运用所学专业知识，具有独立分析复杂工程问题的能力，并应用于毕业论文中。",
+  "contents": "文献介绍\n会计理论研究\n财务理论研究\n文献资料来源\n文献资料分类\n学术阅读和文献综述的基本方法\n毕业论文写作规范",
+  "ideology": "以我国会计学文献发展的历史，结合“四个自信”内容进行思政教育。\n以我国财务学的概念、愿景和发展战略，结合“四个自信”内容进行思政教育。\n以我国会计和财务的先进案例，结合“四个自信”内容进行思政教育。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "文献介绍",
+   "ideology": "以我国会计学文献发展的历史，结合“四个自信”内容进行思政教育。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 3,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "会计理论研究",
+   "ideology": "以我国财务学的概念、愿景和发展战略，结合“四个自信”内容进行思政教育。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 5,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 3,
+   "title": "财务理论研究",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 6,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 4,
+   "title": "文献资料来源",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 8,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 5,
+   "title": "文献资料分类",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 6,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 6,
+   "title": "学术阅读和文献综述的基本方法",
+   "ideology": "以我国会计和财务的先进案例，结合“四个自信”内容进行思政教育。",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 4,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "毕业论文写作规范",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 8,
+    "extra": 0,
+    "total": 8
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=624A1EB211174B5CA4D9B65A19CFB0A9",
+ "hasOriginal": true
+}

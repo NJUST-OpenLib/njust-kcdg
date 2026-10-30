@@ -1,0 +1,78 @@
+{
+ "code": "070800E1",
+ "slug": "070800E1",
+ "name": "毕业论文【英】",
+ "nameEn": "Graduation Thesis[E]",
+ "credit": 14,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5936,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "毕业设计（论文）",
+  "teacher": "尤宏兵",
+  "reviewer": "杨慧",
+  "totalHours": 560,
+  "lectureHours": 0,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "毕业论文:100%",
+  "goals": [
+   "To be able to know how to write a literature review",
+   "To be able to write an academic theisis",
+   "To be able to analyze with at least one scientific research method"
+  ],
+  "intro": "Graduation Thesis is an important teaching and practical procedure. It is a kind of comprehensive test of solving both practical and management problems independently in international trade by utilizing the professional knowledge that the students have learned. Graduation Thesis includes the following tasks: (1)Pre-work： Tt contains Graduation Thesis Topic selection; Graduation Thesis Proposal and literature review; （2）Graduation Thesis which includes topic, abstract, keywords, body, references, and tables and or figures related to the thesis；（3）Thesis Defense. The Preparatory knowledge for the Graduation Thesis includes (1) Theoretical knowledge of international trade; (2) Econometric analysis methods; (3) Perfect English, especially for those students whose native language is not English.",
+  "objectives": "The purpose of the graduation thesis for those undergraduates major in International Economics and Trade: (1) To cultivate the students\" preliminary ability to carry out scientific research under the guidance of the tutor; (2) To make students understand the reality of international economy and trade and increase the perceptual knowledge of international economic activities through certain social practice; (3) To write the thesis through the collection of relevant literature and master the research trends in the field; (4) To cultivate the students\" comprehensive analysis ability and writing ability through the writing of graduation thesis; (5) To cultivate the student\"s ability to express their expression and answer questions through the defense.",
+  "contents": "Graduation Thesis Topic selection\nLiterature Review\nGraduate theisis",
+  "ideology": "Understand the principle of Mutual benefit and free trade policy\nMutual Benefit\npeaceful coexistence"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Graduation Thesis Topic selection",
+   "ideology": "Understand the principle of Mutual benefit and free trade policy",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 50,
+    "extra": 0,
+    "total": 50
+   }
+  },
+  {
+   "no": 2,
+   "title": "Literature Review",
+   "ideology": "Mutual Benefit",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 100,
+    "extra": 0,
+    "total": 100
+   }
+  },
+  {
+   "no": 3,
+   "title": "Graduate theisis",
+   "ideology": "peaceful coexistence",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 410,
+    "extra": 0,
+    "total": 410
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070800E1",
+ "hasOriginal": true
+}

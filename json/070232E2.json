@@ -1,0 +1,117 @@
+{
+ "code": "070232E2",
+ "slug": "070232E2",
+ "name": "国际金融【英】",
+ "nameEn": "International Finance[E]",
+ "credit": 3,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5276,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "巩雪",
+  "reviewer": "于晶",
+  "totalHours": 48,
+  "lectureHours": 48,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；平时作业:10%；PPT展示:20%；课程论文:60%",
+  "goals": [
+   "Master the basic principles",
+   "Understand the basic operating mechanism of international finance",
+   "Analyze international financial trends"
+  ],
+  "intro": "International Finance is one of the core courses of the major \"International Economics and Trade\". With the development of international flow of commodities, capital, labor and other factors, the interdependence of a country\"s economy and the world economy has increased, and international finance introduces the goal of internal and external equilibrium under the open economy from the perspective of money and finance. Besides, this course plays an important role in cultivating talents with extensive knowledge and high quality to meet the requirements of nowadays society. The main content of this course includes the following chapters: International Monetary System, Balance of Payments, Exchange Rate, International Financial Market, International Financial Regulation.\n\nThe prerequisite courses for this course are: Microeconomics, Macroeconomics, and Finance.",
+  "objectives": "Through the implementation of each teaching unit of this course, students can master the basic knowledge, basic theories and basic practices of international finance, and have complete knowledge of engaging in foreign economic and trade and financial activities. Students are required to integrate theory with practice, be able to understand and explain the main practical issues in international finance, grasp the development trend of international finance, and cultivate the ability to independently analyze and solve international monetary and financial problems.\n\nBasic requirements: (1) Master the principle; (2) Understand the operating mechanism; (3) Analyze international financial trends. \"",
+  "contents": "International Monetary System: evolution of the International Monetary System△★; Current exchange rate system arrangements△\nBalance of Payments: the concept of Balance of Payments and the type of account△; Analysis of the causes of imbalances in the balance of payments account and methods of adjustment△ ★\nExchange Rate: the concept of Foreign Exchange and Exchange Rate △; Characteristics and functions of the Foreign Exchange Market△; Determination of Exchange Rate△ ★\nInternational Financial Market: the development history of International Financial Market△; Classification and characteristics of International Financial Markets△\nFinancial Derivatives: the concept of Financial Derivatives△; Types and characteristics of Financial Derivatives ★\nInternational Financial Regulations: types of International Financial Risks△★; Basic principles of International Financial Regulation△",
+  "ideology": "\"By explaining the new changes in the composition of SDR and the development of RMB internationalization, let international students understand the important role played by China in the international monetary system in recent years. Let international students understand China, respect China and be willing to cooperate with China when they go back home and get employed in relative positions. \"\nThrough the explanation of various influencing factors of exchange rates, students will deeply understand the close relationship between international finance and international political economy. In the current extremely complex international environment, students are taught to look at and analyze problems with comprehensive and critical thinking. Let international students understand the effort China made for financial stability in our area.\nThrough the analysis of the characteristics and roles of the international financial market, students can understand the important position of the international financial market in the process of international economic globalization and integrated development, cultivate students' ability to innovate and practice."
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "International Monetary System: evolution of the International Monetary System△★; Current exchange rate system arrangements△",
+   "ideology": "\"By explaining the new changes in the composition of SDR and the development of RMB internationalization, let international students understand the important role played by China in the international monetary system in recent years. Let international students understand China, respect China and be willing to cooperate with China when they go back home and get employed in relative positions. \"",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 2,
+   "title": "Balance of Payments: the concept of Balance of Payments and the type of account△; Analysis of the causes of imbalances in the balance of payments account and methods of adjustment△ ★",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 3,
+   "title": "Exchange Rate: the concept of Foreign Exchange and Exchange Rate △; Characteristics and functions of the Foreign Exchange Market△; Determination of Exchange Rate△ ★",
+   "ideology": "Through the explanation of various influencing factors of exchange rates, students will deeply understand the close relationship between international finance and international political economy. In the current extremely complex international environment, students are taught to look at and analyze problems with comprehensive and critical thinking. Let international students understand the effort China made for financial stability in our area.",
+   "hours": {
+    "lecture": 16,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 16
+   }
+  },
+  {
+   "no": 4,
+   "title": "International Financial Market: the development history of International Financial Market△; Classification and characteristics of International Financial Markets△",
+   "ideology": "Through the analysis of the characteristics and roles of the international financial market, students can understand the important position of the international financial market in the process of international economic globalization and integrated development, cultivate students' ability to innovate and practice.",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "Financial Derivatives: the concept of Financial Derivatives△; Types and characteristics of Financial Derivatives ★",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 6,
+   "title": "International Financial Regulations: types of International Financial Risks△★; Basic principles of International Financial Regulation△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070232E2",
+ "hasOriginal": true
+}

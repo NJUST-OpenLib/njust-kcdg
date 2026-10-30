@@ -1,0 +1,118 @@
+{
+ "code": "070329E1",
+ "slug": "070329E1",
+ "name": "中国对外贸易概论【英】",
+ "nameEn": "Introduction to Chinese Foreign Trade[E]",
+ "credit": 3,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5472,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "温珺",
+  "reviewer": "于晶",
+  "totalHours": 48,
+  "lectureHours": 48,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:15%；平时作业:20%；考勤:5%；小论文:60%",
+  "goals": [
+   "Understand the basic concepts of international trade, foreign trade, in terms of therories and policies",
+   "Understand the various business methods of China's foreign trade",
+   "Get to know and analyze China's achievements,challenges, and principles regarding its foreign trade",
+   "Memorize the related specialized English vocabulary in this course, and learn to express ideas and thoughts in academic written English"
+  ],
+  "intro": "This course is one of the main courses of the international economics and trade major. It is a course studying the relavant theoretical and pratical issues in China\"s foreign trade. This course focuses on cultivating students\" ability to use the",
+  "objectives": "The main role of this course is to enable students to fully grasp the history, current situation, reform and development strategy, management regime, principles and policies of China\"s foreign trade, as well as to understand the economic and",
+  "contents": "An overview of the development of China's foreign trade: the history of China's foreign trade; China's foreign trade(1949-1978); China's foreign trade after the reform and opening up△; China's leap from a big trading nation to a trading\nThe position of foreign trade in economic development and the theoretical basis for developing foreign trade: the position of foreign trade in economic development△; the strategic role of foreign trade in the development of China's\nChina's foreign trade regime reform: China's foreign trade regime before the reform and opening up; the reform process of China's foreign trade regime; China's accession to the WTO and China's foreign trade regime reform△\nThe development strategies of China's foreign trade: The strategy of putting quality first△; The strategy of market diversification△\nThe development of China's cross-border e-commerce: evolution of cross-border e-commerce; policy on China's cross-border e-commerce△\nChina's bilateral and mulilateral trade relations: an overview of the nation's development in expansion of its trade relations both bilaterally and multilaterally in the recent years△",
+  "ideology": null
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "An overview of the development of China's foreign trade: the history of China's foreign trade; China's foreign trade(1949-1978); China's foreign trade after the reform and opening up△; China's leap from a big trading nation to a trading",
+   "ideology": null,
+   "hours": {
+    "lecture": 10,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 2,
+   "title": "The position of foreign trade in economic development and the theoretical basis for developing foreign trade: the position of foreign trade in economic development△; the strategic role of foreign trade in the development of China's",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 3,
+   "title": "China's foreign trade regime reform: China's foreign trade regime before the reform and opening up; the reform process of China's foreign trade regime; China's accession to the WTO and China's foreign trade regime reform△",
+   "ideology": null,
+   "hours": {
+    "lecture": 10,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 4,
+   "title": "The development strategies of China's foreign trade: The strategy of putting quality first△; The strategy of market diversification△",
+   "ideology": null,
+   "hours": {
+    "lecture": 10,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 5,
+   "title": "The development of China's cross-border e-commerce: evolution of cross-border e-commerce; policy on China's cross-border e-commerce△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "China's bilateral and mulilateral trade relations: an overview of the nation's development in expansion of its trade relations both bilaterally and multilaterally in the recent years△",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070329E1",
+ "hasOriginal": true
+}

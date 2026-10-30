@@ -1,0 +1,131 @@
+{
+ "code": "070242E3",
+ "slug": "070242E3",
+ "name": "宏观经济学【英】",
+ "nameEn": "Macroeconomics[E]",
+ "credit": 3.5,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5306,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "温珺",
+  "reviewer": "于晶",
+  "totalHours": 56,
+  "lectureHours": 56,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:15%；平时作业:20%；出勤:5%；闭卷考试:60%",
+  "goals": [
+   "Understand what economics as a discipline deals with; what the main economic principles are.",
+   "Apply economic models to analyze a situation in terms of economics.",
+   "Interpret charts, graphs, and tables and use the information to make informed judgments.",
+   "Communicate their ideas and understanding of economic issues using written, verbal and visual expression."
+  ],
+  "intro": "This is one of two introductory courses in economics. This course studies the economy as a whole. It explains how economic events affect many households, firms, and markets simultaneously. It provides students with the opportunity to develop and refine their critical thinking/problem solving skills from a social science perspective.Students are required to learn microeconomics before taking the course.",
+  "objectives": "This course specifically seeks to develop students’ critical thinking and problem-solving skills, especially as these apply to the analysis of macroeconomic theory and policy. It aims to develop students’ abilities to construct and sustain an argument using the phrases and concepts that economists use in their deliberations. A theoretical framework is developed in which students acquire an understanding of how economic agents interact and by doing so develop the literacy and verbal communication skills necessary for presenting arguments of an economic nature.",
+  "contents": "Introduction to Macroeconomics\nBasic concepts of macroeconomics\nshort-run: goods market\nfinancial markets:supply side\nIS-LM model\nmedium run: AS-AD model\nlong run: economic growth",
+  "ideology": null
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction to Macroeconomics",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Basic concepts of macroeconomics",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 3,
+   "title": "short-run: goods market",
+   "ideology": null,
+   "hours": {
+    "lecture": 10,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 4,
+   "title": "financial markets:supply side",
+   "ideology": null,
+   "hours": {
+    "lecture": 10,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 5,
+   "title": "IS-LM model",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 6,
+   "title": "medium run: AS-AD model",
+   "ideology": null,
+   "hours": {
+    "lecture": 10,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 7,
+   "title": "long run: economic growth",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8A4306A7661E4525A0570576971B71FD",
+ "hasOriginal": true
+}

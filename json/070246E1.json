@@ -1,0 +1,156 @@
+{
+ "code": "070246E1",
+ "slug": "070246E1",
+ "name": "货币银行学【英】",
+ "nameEn": "Economics of Money and Banking[E]",
+ "credit": 3,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5320,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "叶立新",
+  "reviewer": "于晶",
+  "totalHours": 48,
+  "lectureHours": 48,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": null,
+  "goals": [
+   "Through introducing currency, credit, interest, financial markets, commercial banks and Central Bank, helping students understand principles, the mechanism and the latest developments of financial markets.",
+   "Through the introduction of monetary demand, monetary supply, inflation and monetary policy, helping students understand the interrelationship between currency, credit and economy",
+   "Through the introduction of general knowledge and principles of international finance, helping students know the methods to analyze financial problems in the open economy model"
+  ],
+  "intro": "This course is a basic theoretical course for economics major. The course focuses on cultivating students\" ability to understand financial phenomenon in reality and improving their ability to analyze and solve practical problems. The curriculum includes the followings: currency and monetary system; credit; interest and interest rates; financial markets; financial institutions; commercial banks; the Central Bank. The prerequisites for this course are: Microeconomics, Macroeconomics.",
+  "objectives": "The main purpose of this course is to help students understand the basic theory and basic knowledge of Money and Banking, cultivate students\" dialectical materialistic world view and realistic attitude for science study, obtain self-learning ability and independent scientific research ability, realize the methods of analyzing and solving monetary and financial problems. Through the study of this course, students should have the ability to understand the financial phenomenon in reality and to write related academic papers.",
+  "contents": "Introduction: Research Object and Research Content Of Monetary and Banking; Learning Objectives and Significance\nCurrency and Monetary System: The Origin Of Currency; The Function Of Currency; The Definition Of Currency; The Monetary System.\nCredit: Credit and Its Relationship With Currency; Credit Form; Credit Tools;\nInterest and interest rates: interest; interest rate; interest rate decision ; the role of interest rates\nFinancial Markets: Overview Of Financial Markets; Financial Instruments; Monetary Market; The Composition Of Capital Market\nFinancial Institutions: Overview Of Financial Institutions; The Composition Of Financial Institutions; The Mode Of Financial Institutions\nCommercial Banks: Generation and Development of Commercial Banks; Business of Commercial Banks; Commercial Banks Management; Deposits and Monetary Management; Financial Innovation\nCentral Bank: Emergence and Types Of Central Bank; Functions Of Central Bank; The Main Business Of Central Bank;\nMonetary Policy: Objectives of Monetary Policy; Tools of Monetary Policy; Transmission Mechanism of Monetary Policy",
+  "ideology": null
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction: Research Object and Research Content Of Monetary and Banking; Learning Objectives and Significance",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Currency and Monetary System: The Origin Of Currency; The Function Of Currency; The Definition Of Currency; The Monetary System.",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 3,
+   "title": "Credit: Credit and Its Relationship With Currency; Credit Form; Credit Tools;",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 4,
+   "title": "Interest and interest rates: interest; interest rate; interest rate decision ; the role of interest rates",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "Financial Markets: Overview Of Financial Markets; Financial Instruments; Monetary Market; The Composition Of Capital Market",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 6,
+   "title": "Financial Institutions: Overview Of Financial Institutions; The Composition Of Financial Institutions; The Mode Of Financial Institutions",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 7,
+   "title": "Commercial Banks: Generation and Development of Commercial Banks; Business of Commercial Banks; Commercial Banks Management; Deposits and Monetary Management; Financial Innovation",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 8,
+   "title": "Central Bank: Emergence and Types Of Central Bank; Functions Of Central Bank; The Main Business Of Central Bank;",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 9,
+   "title": "Monetary Policy: Objectives of Monetary Policy; Tools of Monetary Policy; Transmission Mechanism of Monetary Policy",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070246E1",
+ "hasOriginal": true
+}

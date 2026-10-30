@@ -1,0 +1,105 @@
+{
+ "code": "070704E1",
+ "slug": "070704E1",
+ "name": "国际商务环境【英】",
+ "nameEn": "International Business Environment[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5903,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "巩雪",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；平时作业:10%；PPT展示:20%；课程论文:60%",
+  "goals": [
+   "Explain how and why the world's countries differ.",
+   "Present a thorough review of the economics and politics of international trade and investment.",
+   "Examine the strategies and structures of international businesses.",
+   "Assess the special roles of an international business's various functions."
+  ],
+  "intro": "The course moves beyond the broad environment to the specific organizational context, examining how multinational enterprises organize and compete in the international arena. The course deals with structure and management of multinational corporations and the management of functional activities on an international basis. Further more, from a strategic perspective, the course addresses the competitive challenges of doing business in differing geographic environments. The course builds on “International Business Environment” by examining how multinational firms respond to the international environment of business. Prerequisite(s): International Trade, International Finance.",
+  "objectives": "\"The primary goal of this course is to provide the student with an overview of the basic elements of global business environment. The course covers the actions directly involved in global strategy, the global marketing mix and managing the global marketing effort. Managers engaged in international business must understand the economic, political and social environments of business and learn to manage in risky and often uncertain conditions. In addition, they must work with employees, suppliers and partners from around the world who often have widely different expectations and capabilities. Simultaneously they must innovate, learn and outpace competitors if they are to survive in a global marketplace. Clearly, understanding all of the macro and micro factors involved in international business is no small task. The purpose of this course is to introduce students all of these factors and to help you develop an understanding of the fundamentals of international business. A major objective of this course is to develop an understanding of the international environment in which firms operate and how this environment impacts on firms’ decisions. This course will cover topics such as the nature and scope of international trade and investment, the role of international institutions, the international monetary system and exchange markets function, and some of the major issues involved in the functional aspects of international business. \"",
+  "contents": "Globalization\nNational Differences in Political Economy\nGlobal Trade Environment\nGlobal Investment Environment\nStrategy and Structure of International Business",
+  "ideology": "Let international students see China's role on the world stage, enhance their understandings of China.\nUsing case study method to let international student think critically when reading foreign news.\nLet international students understand trade frictions China faces, let them cooperate with China if they work in relative positions in the future."
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Globalization",
+   "ideology": "Let international students see China's role on the world stage, enhance their understandings of China.",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "National Differences in Political Economy",
+   "ideology": "Using case study method to let international student think critically when reading foreign news.",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 3,
+   "title": "Global Trade Environment",
+   "ideology": "Let international students understand trade frictions China faces, let them cooperate with China if they work in relative positions in the future.",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 4,
+   "title": "Global Investment Environment",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 5,
+   "title": "Strategy and Structure of International Business",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070704E1",
+ "hasOriginal": true
+}

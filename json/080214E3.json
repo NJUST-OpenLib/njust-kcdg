@@ -1,0 +1,225 @@
+{
+ "code": "080214E3",
+ "slug": "080214E3",
+ "name": "传热传质学【英】",
+ "nameEn": "Heat and Mass Transfer[E]",
+ "credit": 4,
+ "dept": "能源与动力工程学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 6074,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（含实践）",
+  "teacher": "韩玉阁",
+  "reviewer": "王国平",
+  "totalHours": 64,
+  "lectureHours": 56,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": null,
+  "goals": [
+   "1、 使学生熟悉传热传质学的基本概念，原理和运算方法，奠定能源与动力工程专业学习的基础，了解能源与动力工程专业的的内涵",
+   "2、掌握稳态热传导、非稳态热传导问题的理论分析方法以及数值解法；",
+   "3、 掌握对流传热的基本理论，掌握单相对流传热、相变对流传热的实验研究和工程计算方法；",
+   "4、 掌握热辐射基本定律和辐射特性以及辐射传热的计算方法；",
+   "5、能独立地应用基本理论，解决传热过程分析等有关问题；",
+   "6、了解换热器的热计算方法；",
+   "7、 了解传质学的基本知识。"
+  ],
+  "intro": "《传热传质学》是一门能源与动力工程专业、新能源科学与工程的专业基础课，也是必修课。\n\n《传热传质学》主要针对能源与动力工程专业学生，系统地介绍传热传质学的基本概念，原理和运算方法等，主要包括稳态热传导、非稳态热传导、热传导问题的数值解法、对流传热的理论基础、单相对流传热的实验关联式、相变对流传热、热辐射基本定律和辐射特性、辐射传热的计算、传热过程分析与换热器的热计算、传质学简介等。\n\n主要先修课程：大学物理、高等数学、工程数学、流体力学、工程热力学\n\n考核与成绩记载方式：平时考勤、平时作业、实验及期末考试成绩。",
+  "objectives": "通过本课程的学习，达到以下要求：\n\n(1) 使学生熟悉传热传质学的基本概念，原理和运算方法，奠定能源与动力工程专业学习的基础，了解能源与动力工程专业的的内涵；\n\n(2) 掌握稳态热传导、非稳态热传导问题的理论分析方法以及数值解法；\n\n(3) 掌握对流传热的基本理论，掌握单相对流传热、相变对流传热的实验研究和工程计算方法；\n\n(4) 掌握热辐射基本定律和辐射特性以及辐射传热的计算方法；\n\n(5) 能独立地应用基本理论，解决传热过程分析等有关问题； \n\n(6) 了解换热器的热计算方法；\n\n(7) 了解传质学的基本知识。",
+  "contents": "\"CHAPTER 1 Introduction 1.1 What and How? 1.2 △Physical Origins and Rate Equations 1.3 △The Conservation of Energy Requirement 1.4 Analysis of Heat Transfer Problems：Methodology \"\nCHAPTER 2 Introduction to Conduction 2.1 △★The Conduction Rate Equation 2.2 △The Thermal Properties of Matter 2.3 △★ The Heat Diffusion Equation 2.4 △ Boundary and Initial Conditions\nCHAPTER 3 One-Dimensional, Steady-state Conduction 3.1 △The P1ane Wall 3.2 △ An alternative Conduction Analysis 3.3 △ Radial SyStems 3.4 Summary of One-Dimensional Conduction Results 3.5 △★ Conduction with Thermal Energy Generation 3.6 △★ Heat Transfer from Extended Surfaces\nCHAPTER 4 Two-Dimensional, Steady-State Conduction 4.1 alternative Approaches 4.2 ★ The Method of Separation of Variables 4.3 The Graphical Method 4.4 △Finite-Difference Equations\nCHAPTER 5 Transient Conduction 5.1 △ The Lumped Capacitance Method 5.2 △ Validity of the Lumped Capacitance Method 5.3 △★ General Lumped Capacitance Analysis 5.4 △★ Spatial Effects 5.5 △★ The P1ane Wall with Convection 5.6 △★ Radial Systems With Convection 5.7 The Semi-Infinite Solid 5.8 △★ Multidimensional Effects 5.9 △ Finite-Difference Methods\nCHAPTER 6 Introduction to Convection 6.1 The Convection Transfer Problem 6.2 The Convection Boundary Layers 6.3 Laminar and Turbulent Flow 6.4 △ Boundary Layer Equations 6.5 △★ Boundary Layer Similarity：The Normalized Boundary Layer Equations 6.6 △ Physical Significance of the Dimensionless Parameters 6.7 △★ Boundary Layer Analogies 6.8 △ The Effects of Turbulence 6.9 △★ The Convection Coefficients\nCHAPTER 7 External Flow 7.1 △ The Empirical Method 7.2 △★ The F1at P1ate in Parallel Flow 7.3 △★ Methodology for a Convection Calculation 7.4 △ The Cylinder in Cross Flow 7.5 The Sphere 7.6 △ Flow Across Banks of Tubes\nCHAPTER 8 Internal Flow 8.1 ★ Hydrodynamic Considerations 8.2 ★ Thermal Considerations 8.3 △ The Energy Balance 8.4 △★ Laminar Flow in Circular Tubes：Thermal Analysis and Convection Correlations 8.5 △ Convection Correlations：Turbulent Flow in Circular Tubes 8.6 △Convection Correlations：Noncircular Tubes 8.7 △ Heat Transfer Enhancement\nCHAPTER 9 Free Convection 9.1 ★ Physical Considerations 9.2 The Governing Equations 9.3 ★ Similarity Considerations 9.4 △★ Laminar Free Convection on a Vertical Surface 9.5 △ The Effects of Turbulence 9.6 △ Empirical Correlations：External Free Convection Flows 9.7 △ Free Convection within Parallel Plate Channels 9.8 △ Empirical Correlations：Enclosures 9.9 △ Combined Free and Forced Convection 9.10 Convection Mass Transfer\nCHAPTER 10 Boiling and Condensation 10.1 △ Dimensionless Parameters in Boiling and Condensation 10.2 △ Boiling Modes 10.3 △ Poo1 Boiling 10.4 △ Poo1 Boiling Correlations 10.5 Forced-Convection Boiling 10.6 △ Condensation：Physical Mechanisms 10.7 △★ Laminar Film Condensation on a Vertical Plate 10.8 △ Turbu1ent Film Condensation 10.9 △ Film Condensation on Radial Systems 10.10 △ Film Condensation in Horizontal Tubes 10.11 △ drop wise Condensation\nCHAPTER 11 Heat Exchanger 11.1 Heat Exchanger Types 11.2 △ The Overall Heat Transfer Coefficient 11.3 △ Heat Exchanger Analysis：Use of the Log Mean Temperature Difference 11.4 △ Heat Exchanger Analysis：The Effectiveness-NTU Method 11.5 Methodology of a Heat Exchanger Calculation 11.6 Compact Heat Exchangers\nCHAPTER 12 Radiation: Processes and Properties 12.1 △ Fundamental Concepts 12.2 △ Radiation Intensity 12.3 △ Blackbody Radiation 12.4 △★Surface Emission 12.5 △★ Surface Absorption, Reflection, and Transmission 12.6 △★ Kirchhoff’s Law 12.7 △ The Gray Surface 12.8 Environmental Radiation\nCHAPTER 13 Radiation Exchange Between Surface 13.1 △ The View Factor 13.2 △ B1ack Body Radiation Exchange 13.3 △★ Radiation Exchange Between Diffuse, Gray Surfaces in an Enclosure 13.4 Multimode Heat Transfer 13.5 Additional Effects\nCHAPTER 14 Diffusion Mass Transfer 14.1 Physical Origins and Rate Equations 14.2 Conservation of Species 14.3 Boundary and Initial Conditions 14.4 Mass Diffusion Without Homogeneous Chemical Reactions",
+  "ideology": "从传热传质学发展历程中中国人的贡献，来鼓励学生要具有科技兴国、科技强国的理念，同时倡导学生具有革新创新的精神。\n从傅里叶导热公式发展历程出发，引导学生思考唯物主义观，以及实践是检验真理的唯一标准的优越性。\n通过集中参数法的学习，引入到具体问题具体分析的马克思主义的辩证方法论，进而让学生了解中国特色社会主义所蕴含的卓越思想。\n从对流传热的边界层理论，引导学生思考主要矛盾和次要矛盾的辩证关系，让学生能领会到马克思主义的辩证原理在工程科学里的用处。\n从强制对流的传热效果出发，以及通过对流动引导作用可以强化传热的观点出发，引出当前我国在共产党的领导下，才能实现全体利益的最大化；\n通过自然对流的内在驱动力，说明人心所向的强大力量。\n从热管的发明发现过程，引导学生去思考发明创新的重要性，进而体会当前我国大力提倡科技是第一生产力的切实意义。\n从换热器的设计成本、质量等目标来积极引导学生在未来的工作中要具备非常积极的职业道德，不能一味降低成本而不顾产品质量。\n从气体辐射的温室效应出发，让学生讨论当前环境问题的影响，思考我国当前大力提倡节能减排的社会意义和对世界的贡献。\n从辐射传热的基本原理出发，引出当前社会每个人都可以将自己的正能量辐射出去，从而建立一个充满正能量的社会。\n从物质的扩散输运过程，探讨污染物扩散排放问题，进而让学生体会“绿水青山就是金山银山”这句话的重要意义"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "\"CHAPTER 1 Introduction 1.1 What and How? 1.2 △Physical Origins and Rate Equations 1.3 △The Conservation of Energy Requirement 1.4 Analysis of Heat Transfer Problems：Methodology \"",
+   "ideology": "从传热传质学发展历程中中国人的贡献，来鼓励学生要具有科技兴国、科技强国的理念，同时倡导学生具有革新创新的精神。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "CHAPTER 2 Introduction to Conduction 2.1 △★The Conduction Rate Equation 2.2 △The Thermal Properties of Matter 2.3 △★ The Heat Diffusion Equation 2.4 △ Boundary and Initial Conditions",
+   "ideology": "从傅里叶导热公式发展历程出发，引导学生思考唯物主义观，以及实践是检验真理的唯一标准的优越性。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "CHAPTER 3 One-Dimensional, Steady-state Conduction 3.1 △The P1ane Wall 3.2 △ An alternative Conduction Analysis 3.3 △ Radial SyStems 3.4 Summary of One-Dimensional Conduction Results 3.5 △★ Conduction with Thermal Energy Generation 3.6 △★ Heat Transfer from Extended Surfaces",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 4,
+   "title": "CHAPTER 4 Two-Dimensional, Steady-State Conduction 4.1 alternative Approaches 4.2 ★ The Method of Separation of Variables 4.3 The Graphical Method 4.4 △Finite-Difference Equations",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 5,
+   "title": "CHAPTER 5 Transient Conduction 5.1 △ The Lumped Capacitance Method 5.2 △ Validity of the Lumped Capacitance Method 5.3 △★ General Lumped Capacitance Analysis 5.4 △★ Spatial Effects 5.5 △★ The P1ane Wall with Convection 5.6 △★ Radial Systems With Convection 5.7 The Semi-Infinite Solid 5.8 △★ Multidimensional Effects 5.9 △ Finite-Difference Methods",
+   "ideology": "通过集中参数法的学习，引入到具体问题具体分析的马克思主义的辩证方法论，进而让学生了解中国特色社会主义所蕴含的卓越思想。",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 6,
+   "title": "CHAPTER 6 Introduction to Convection 6.1 The Convection Transfer Problem 6.2 The Convection Boundary Layers 6.3 Laminar and Turbulent Flow 6.4 △ Boundary Layer Equations 6.5 △★ Boundary Layer Similarity：The Normalized Boundary Layer Equations 6.6 △ Physical Significance of the Dimensionless Parameters 6.7 △★ Boundary Layer Analogies 6.8 △ The Effects of Turbulence 6.9 △★ The Convection Coefficients",
+   "ideology": "从对流传热的边界层理论，引导学生思考主要矛盾和次要矛盾的辩证关系，让学生能领会到马克思主义的辩证原理在工程科学里的用处。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 7,
+   "title": "CHAPTER 7 External Flow 7.1 △ The Empirical Method 7.2 △★ The F1at P1ate in Parallel Flow 7.3 △★ Methodology for a Convection Calculation 7.4 △ The Cylinder in Cross Flow 7.5 The Sphere 7.6 △ Flow Across Banks of Tubes",
+   "ideology": "从强制对流的传热效果出发，以及通过对流动引导作用可以强化传热的观点出发，引出当前我国在共产党的领导下，才能实现全体利益的最大化；",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 8,
+   "title": "CHAPTER 8 Internal Flow 8.1 ★ Hydrodynamic Considerations 8.2 ★ Thermal Considerations 8.3 △ The Energy Balance 8.4 △★ Laminar Flow in Circular Tubes：Thermal Analysis and Convection Correlations 8.5 △ Convection Correlations：Turbulent Flow in Circular Tubes 8.6 △Convection Correlations：Noncircular Tubes 8.7 △ Heat Transfer Enhancement",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 9,
+   "title": "CHAPTER 9 Free Convection 9.1 ★ Physical Considerations 9.2 The Governing Equations 9.3 ★ Similarity Considerations 9.4 △★ Laminar Free Convection on a Vertical Surface 9.5 △ The Effects of Turbulence 9.6 △ Empirical Correlations：External Free Convection Flows 9.7 △ Free Convection within Parallel Plate Channels 9.8 △ Empirical Correlations：Enclosures 9.9 △ Combined Free and Forced Convection 9.10 Convection Mass Transfer",
+   "ideology": "通过自然对流的内在驱动力，说明人心所向的强大力量。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 10,
+   "title": "CHAPTER 10 Boiling and Condensation 10.1 △ Dimensionless Parameters in Boiling and Condensation 10.2 △ Boiling Modes 10.3 △ Poo1 Boiling 10.4 △ Poo1 Boiling Correlations 10.5 Forced-Convection Boiling 10.6 △ Condensation：Physical Mechanisms 10.7 △★ Laminar Film Condensation on a Vertical Plate 10.8 △ Turbu1ent Film Condensation 10.9 △ Film Condensation on Radial Systems 10.10 △ Film Condensation in Horizontal Tubes 10.11 △ drop wise Condensation",
+   "ideology": "从热管的发明发现过程，引导学生去思考发明创新的重要性，进而体会当前我国大力提倡科技是第一生产力的切实意义。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 11,
+   "title": "CHAPTER 11 Heat Exchanger 11.1 Heat Exchanger Types 11.2 △ The Overall Heat Transfer Coefficient 11.3 △ Heat Exchanger Analysis：Use of the Log Mean Temperature Difference 11.4 △ Heat Exchanger Analysis：The Effectiveness-NTU Method 11.5 Methodology of a Heat Exchanger Calculation 11.6 Compact Heat Exchangers",
+   "ideology": "从换热器的设计成本、质量等目标来积极引导学生在未来的工作中要具备非常积极的职业道德，不能一味降低成本而不顾产品质量。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "CHAPTER 12 Radiation: Processes and Properties 12.1 △ Fundamental Concepts 12.2 △ Radiation Intensity 12.3 △ Blackbody Radiation 12.4 △★Surface Emission 12.5 △★ Surface Absorption, Reflection, and Transmission 12.6 △★ Kirchhoff’s Law 12.7 △ The Gray Surface 12.8 Environmental Radiation",
+   "ideology": "从气体辐射的温室效应出发，让学生讨论当前环境问题的影响，思考我国当前大力提倡节能减排的社会意义和对世界的贡献。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 2,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 13,
+   "title": "CHAPTER 13 Radiation Exchange Between Surface 13.1 △ The View Factor 13.2 △ B1ack Body Radiation Exchange 13.3 △★ Radiation Exchange Between Diffuse, Gray Surfaces in an Enclosure 13.4 Multimode Heat Transfer 13.5 Additional Effects",
+   "ideology": "从辐射传热的基本原理出发，引出当前社会每个人都可以将自己的正能量辐射出去，从而建立一个充满正能量的社会。",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 14,
+   "title": "CHAPTER 14 Diffusion Mass Transfer 14.1 Physical Origins and Rate Equations 14.2 Conservation of Species 14.3 Boundary and Initial Conditions 14.4 Mass Diffusion Without Homogeneous Chemical Reactions",
+   "ideology": "从物质的扩散输运过程，探讨污染物扩散排放问题，进而让学生体会“绿水青山就是金山银山”这句话的重要意义",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=080214E3",
+ "hasOriginal": true
+}

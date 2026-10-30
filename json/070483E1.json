@@ -1,0 +1,158 @@
+{
+ "code": "070483E1",
+ "slug": "070483E1",
+ "name": "国际商务谈判【英】",
+ "nameEn": "International Business Negotiation[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5711,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "孙芳",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "Evaluation 1（Class participation）:20%；Evaluation2（assignments and presentations）:20%；Evaluation3（Course Report/ Exam）:60%",
+  "goals": [
+   "Be acquainted with two core approaches to negotiation.",
+   "Understand the characteristics and utilities of international business negotiation.",
+   "Learn how to observe and adapt to communication for business people from different cultures.",
+   "Increase awareness of the negotiation process in general including the psychological sub-process.",
+   "Understand the impact of culture on international business negotiation"
+  ],
+  "intro": "International Business Negotiation is designed for students (international students in particular)majored in International Economics and Trade. The purpose of this course is to help students to understand the theory and process of international business negotiation and to provide students with opportunities to develop individual negotiation skills for commercial transactions across countries. The course is designed to be relevant to negotiation situations, in the field of international business in particular.",
+  "objectives": "International Business Negotiation presents negotiation theories and communication negotiation, individual differences and cultural implications on international business negotiation. In addition to the theory and exercises presented in class, students practice negotiating with role-playing simulations.\n\nUpon completion of this course, students will\n\n1. Understand the characteristics and utilities of international business negotiation;\n\n2. Be acquainted with two core approaches to negotiation: the basic dynamics of competitive bargaining and the basic dynamics of integrative negotiation; learn a variety of strategies employed by negotiators in the international business arena;\n\n3. Increase awareness of the negotiation process in general including the psychological sub-process;\n\n4. Understand the impact of culture on international business negotiations;\n\n5. Learn how to observe and adapt to communication for business people from different cultures.",
+  "contents": "Introduction: nature, characteristics, process of international business negotiation\nDistributive bargaining strategies and tactics: concepts△, Fundamental strategies and tactical tasks, hardball tactics★\nIntegrative bargaining strategies and tactics:Key steps in the integrative negotiation process△ , Factors that facilitate successful integrative negotiation\nCommunication in international business negotiation: Distortions in negotiation, How to improve communication★?\nPerception, cognition and emotion\nPower and Influence— Sources of power, Routes to influence△\nInternational and Cross-Cultural Negotiation:Conceptualizing culture and negotiation,The influence of culture on negotiation: managerial and research perspectives△; Culturally responsive negotiation strategies★\nManaging difficult negotiations:The nature of difficult-to-resolve negotiations; How to resolve impasses★\nBest practices in international business negotiation: Analysis and case studies",
+  "ideology": "Introduction of some core Chinese cultural values\nExplanation of some of Chinese approaches in business negotiations\nCore Chinese values and their implications in business negotiation"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction: nature, characteristics, process of international business negotiation",
+   "ideology": "Introduction of some core Chinese cultural values",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "Distributive bargaining strategies and tactics: concepts△, Fundamental strategies and tactical tasks, hardball tactics★",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 3,
+   "title": "Integrative bargaining strategies and tactics:Key steps in the integrative negotiation process△ , Factors that facilitate successful integrative negotiation",
+   "ideology": "Explanation of some of Chinese approaches in business negotiations",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Communication in international business negotiation: Distortions in negotiation, How to improve communication★?",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "Perception, cognition and emotion",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Power and Influence— Sources of power, Routes to influence△",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "International and Cross-Cultural Negotiation:Conceptualizing culture and negotiation,The influence of culture on negotiation: managerial and research perspectives△; Culturally responsive negotiation strategies★",
+   "ideology": "Core Chinese values and their implications in business negotiation",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 8,
+   "title": "Managing difficult negotiations:The nature of difficult-to-resolve negotiations; How to resolve impasses★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Best practices in international business negotiation: Analysis and case studies",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070483E1",
+ "hasOriginal": true
+}

@@ -1,0 +1,156 @@
+{
+ "code": "070414E1",
+ "slug": "070414E1",
+ "name": "国际营销学【英】",
+ "nameEn": "International Marketing[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5599,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "宗永建",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "平时作业:40%；课程论文:60%",
+  "goals": [
+   "Discuss basic concepts, conceptual frameworks, and some broader contexts of international marketing;",
+   "Analyze and discuss examples of international marketing;",
+   "Develop an understanding of international marketing mix."
+  ],
+  "intro": "International marketing means an enterprise’s cross-border market business activities. This course can be divided into 2 parts: one is the knowledge about preparations for marketing, which includes international marketing overview, international marketing environment analysis, international marketing information management, purchasing behavior analysis, international market segmentation, target marketing and market positioning; the other is international marketing mix, which includes 4 sectors: international product decisions, international distribution channel decisions, international pricing decisions and international sales promotion decisions.",
+  "objectives": "International marketing is one compulsory course for the undergraduate major of international economy and trade. The task of the course is to combine international marketing theory with international marketing practice. The course introduces the basic knowledge and skills of international marketing, cultivates and improves the students\" ability to solve problems of international marketing activities, so that after graduation they can better adapt to the international marketing practice and management. After completion of the course, students should learn how to write clearly and concisely, learn effectively, think critically and creatively, and work productively.",
+  "contents": "international marketing overview: 1. marketing principle and international marketing △ 2. international marketing degree in which companies are involved\ninternational marketing environment analysis: 1. social cultural environment of international marketing, △ 2. economic environment of international marketing 3. political & legal environment of international marketing△\ninternational marketing information management: 1. marketing information system 2. international marketing research steps and functions 3. international marketing information collection methods△\npurchasing behavior analysis: 1. concept and classification of market 2. consumers’ purchasing behavior△ 3. group purchasing behavior\ninternational market segmentation, target marketing and market positioning: 1. international market segmentation 2. target marketing 3. market positioning△\ninternational product decisions: 1. total product concept 2. international product design strategies 3. international product’s other major decisions 4. international new product design and development 5. product life cycle△\ninternational distribution channel decisions: 1. channel choices of an enterprise entering international market 2. export distribution channel△ 3. market competition\ninternational pricing decisions: 1. main factors influencing international pricing 2. pricing methods 3. international enterprises' pricing strategy△\ninternational sales promotion decisions: 1. advertisement△ 2. sales promotion 3. personnel selling 4. public relations△",
+  "ideology": "take Haier investment in some developing countries as example to show the concept of community of mankind\ntake China political environment as example to show the priority of our society system\ntake some advertisements as example to show the importance of honest"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "international marketing overview: 1. marketing principle and international marketing △ 2. international marketing degree in which companies are involved",
+   "ideology": "take Haier investment in some developing countries as example to show the concept of community of mankind",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "international marketing environment analysis: 1. social cultural environment of international marketing, △ 2. economic environment of international marketing 3. political & legal environment of international marketing△",
+   "ideology": "take China political environment as example to show the priority of our society system",
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 3,
+   "title": "international marketing information management: 1. marketing information system 2. international marketing research steps and functions 3. international marketing information collection methods△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "purchasing behavior analysis: 1. concept and classification of market 2. consumers’ purchasing behavior△ 3. group purchasing behavior",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "international market segmentation, target marketing and market positioning: 1. international market segmentation 2. target marketing 3. market positioning△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 6,
+   "title": "international product decisions: 1. total product concept 2. international product design strategies 3. international product’s other major decisions 4. international new product design and development 5. product life cycle△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "international distribution channel decisions: 1. channel choices of an enterprise entering international market 2. export distribution channel△ 3. market competition",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 8,
+   "title": "international pricing decisions: 1. main factors influencing international pricing 2. pricing methods 3. international enterprises' pricing strategy△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 9,
+   "title": "international sales promotion decisions: 1. advertisement△ 2. sales promotion 3. personnel selling 4. public relations△",
+   "ideology": "take some advertisements as example to show the importance of honest",
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070414E1",
+ "hasOriginal": true
+}

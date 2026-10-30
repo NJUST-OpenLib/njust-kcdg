@@ -1,0 +1,77 @@
+{
+ "code": "08074401",
+ "slug": "08074401",
+ "name": "智能耦合发电",
+ "nameEn": "Intelligent Coupled Power Generation Technology",
+ "credit": 1,
+ "dept": "能源与动力工程学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 6569,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课(含实践环节)",
+  "teacher": "张睿",
+  "reviewer": "韩玉阁",
+  "totalHours": 16,
+  "lectureHours": 8,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "十级制",
+  "isSkill": "否",
+  "examWeight": "(未填):50%；(未填):50%",
+  "goals": [
+   "了解耦合发电的原理及主流工艺",
+   "掌握耦合发电关键设备的操作"
+  ],
+  "intro": "针对燃煤机组碳排放高和多源有机固废焚烧发电厂投资高且经济性差的问题，开发燃煤耦合多源有机固废发电技术，减少燃煤电厂碳排放、降低多源有机固废处理成本、提高多源有机固废发电热效率。",
+  "objectives": "了解燃煤机组的原理，了解耦合发电技术产生的背景及主流工艺，掌握耦合发电关键设备结构及原理，参与耦合发电中试实验操作。本课程要以习近平新时代中国特色社会主义思想为指引，将知识传授与价值引导相结合，培养严谨求实、理论联系实际的创新精神和能力，树立科学世界观和方法论，提升理性思维品质，培养爱国主义精神和家国情怀，建立与国家和民族同心同向的理想信念。",
+  "contents": "耦合发电背景及原理\n耦合发电技术分类\n耦合发电中试实验",
+  "ideology": "（1）介绍中国在耦合发电领域的学术贡献，增强学生的民族自豪感、自信心。 （2）介绍顶尖科学家的生平事迹，培养学生的正确三观。 （3）介绍我国碳中和碳达峰的政策，培养学生的大国责任感。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "耦合发电背景及原理",
+   "ideology": "（1）介绍中国在耦合发电领域的学术贡献，增强学生的民族自豪感、自信心。 （2）介绍顶尖科学家的生平事迹，培养学生的正确三观。 （3）介绍我国碳中和碳达峰的政策，培养学生的大国责任感。",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "耦合发电技术分类",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "耦合发电中试实验",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 8,
+    "extra": 0,
+    "total": 8
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E89A7FC7846B4043BCE3375CE55B3E1C",
+ "hasOriginal": true
+}

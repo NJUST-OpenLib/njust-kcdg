@@ -1,0 +1,117 @@
+{
+ "code": "070711E1",
+ "slug": "070711E1",
+ "name": "中级国际经贸：理论与实证【英】",
+ "nameEn": "Intermediate International Economics and Trade: Theory and Evidence[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5918,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "温珺",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:15%；平时作业:20%；出勤:5%；开卷考试:60%",
+  "goals": [
+   "To know the key facts relating to international trade and international macroeconomics.",
+   "To employ models to analyze the phenomena in international economics and trade.",
+   "To read academic papers"
+  ],
+  "intro": "This course builds on the course Introductory International Economics and trade. It provides deeper understanding of the determinants and effects of international trade and Foreign Direct Investment and of exchange rate determination. In addition, it elaborates on the desirability of international trade policy and of macroeconomic policy in an open economy. This will be accomplished by taking a closer and a more formal look at the main models. The course also extends the theoretical and empirical framework by focusing on topics such as preferential trade arrangements, the desirability of different trade policies and exchange rate systems in view of a country\"s stage of development.Students are required to learn Macroeconomics, Microeconomics, International Trade, International Finance and International Economics before taking this course. In addition, the basic knowledge in Calculus is also a prerequisite.",
+  "objectives": "This course emphasizes both mathematical models and empirical studies of how well those models fit actual data. Upon successful completion of this course, the students will be able to work on understanding the economic logic (intuition)",
+  "contents": "Introduction：world trade\nThe Ricardian Model\nThe Heckscher-Ohlin Model\nThe Krugman Model\nThe Melitz Model\nGravity Model",
+  "ideology": null
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction：world trade",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "The Ricardian Model",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "The Heckscher-Ohlin Model",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "The Krugman Model",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 5,
+   "title": "The Melitz Model",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 6,
+   "title": "Gravity Model",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070711E1",
+ "hasOriginal": true
+}

@@ -1,0 +1,118 @@
+{
+ "code": "070707E1",
+ "slug": "070707E1",
+ "name": "跨文化交流【英】",
+ "nameEn": "Cross-cultural Communication[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5909,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "巩雪",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:20%；PPT展示:20%；课程论文:60%",
+  "goals": [
+   "To understand the natures of cross-cultural communication.",
+   "To be aware of the relativity of culture, and the diversity of the ways of living.",
+   "To be familiar with the specific cultural differences in communicative behavior including verbal and nonverbal communication, value orientations, interpersonal relationships, and business communication.",
+   "To enhance cross-cultural adaptability. \""
+  ],
+  "intro": "Cross-cultural (or intercultural) understanding and sensitivity have become a very important need for us in today’s globalized world. Effective intercultural communication skills are important in a multicultural society, particularly for those individuals who would be in positions that require effective management of cultural conflicts. The unique features of multicultural education and society provide very good opportunities for students to develop an appreciation for cultural differences and effective intercultural communication skills. It is hoped that this will help students understand their own communication problems so that they will be in a better position to find solutions to these problems. Prerequisite(s): English, Management. \"",
+  "objectives": "This course focuses on fundamental conceptual and practical dimensions of intercultural communication in everyday life in social interactions in multicultural environments. It aims at developing an individual’s intellectual appreciation for cultural differences and sensitivity regarding intercultural interactions.",
+  "contents": "Cultural shock\nUniversal Systems and Cultural Values\nLanguage and Oral Communication\nNonverbal Communication\nGlobal Etiquette\nBusiness and Social Customs",
+  "ideology": "Let international students learn Chinese Culture, enhance their understanding and fondness of chinese Culture.\nPrepare international students with knowledge of Chinese nonverbal communication methods for future cooperation with Chinese corporations.\nEquip international students with Chinese business etiquettes for better doing business with Chinese corporations in the future."
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Cultural shock",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 2,
+   "title": "Universal Systems and Cultural Values",
+   "ideology": "Let international students learn Chinese Culture, enhance their understanding and fondness of chinese Culture.",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 3,
+   "title": "Language and Oral Communication",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Nonverbal Communication",
+   "ideology": "Prepare international students with knowledge of Chinese nonverbal communication methods for future cooperation with Chinese corporations.",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "Global Etiquette",
+   "ideology": "Equip international students with Chinese business etiquettes for better doing business with Chinese corporations in the future.",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 6,
+   "title": "Business and Social Customs",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070707E1",
+ "hasOriginal": true
+}

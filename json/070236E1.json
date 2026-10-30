@@ -1,0 +1,172 @@
+{
+ "code": "070236E1",
+ "slug": "070236E1",
+ "name": "国际贸易实务【英】",
+ "nameEn": "International Trade Practice[E]",
+ "credit": 3,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5292,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "尤宏兵",
+  "reviewer": "于晶",
+  "totalHours": 48,
+  "lectureHours": 48,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):10%；(未填):30%；(未填):60%",
+  "goals": [
+   "Be able to express all trade terms of international goods contracts proficiently in English",
+   "Be able to do international business negotiation",
+   "Be able to correctly draft the international contracts for the sales of goods",
+   "Be able to correctly and normatively calculate the export or import price",
+   "Be able to formulate various clauses in international sales contracts in English",
+   "Be able to correctly handle claims for international goods"
+  ],
+  "intro": "This course is a professional course for those students majored in International Economics and Trade. It is a practice-oriented curriculum. The course focuses on the discussion of the international sales of goods from the following four steps: preparation for international trade; international business negotiation; conclusion of the written contract and its contents; performance or execution of the international contract for the sales of goods.\nThe contents are as follows: (1) Introduction; (2) Preparation for international trade; (3) International business negotiation and the structure and contents of the written contract; (4) Subject of the contract; (5) Price; (6) Transportation; (7) Insurance; (8) Payment;(9) General Terms in the S/C; (10) Performance of the contract.\nPreliminary course: International Trade; International Finance",
+  "objectives": "It aims to provide the students with a fundamental understanding of the procedure of the import and the export. By studying this course, students will be acquainted with every segment of import and export activities. Students will be able to conduct negotiations independently in international business transactions, to take precautions against breach of contracts and to settle the claims according to relevant laws/acts and international customs and practices. \nUpon successful completion of this course, students will be able to:\n(1) Have a general understanding on the procedure of import and export;\n(2) Be able to conclude a contract for the international sales of goods;\n(3) Understand the latest international customs and practices, conventions and relevant laws of international business;\n(4) Be able to draft and know how to check the documents needed in importation and exportation.\n(5) Be able to execute the contract for the international sales of goods.",
+  "contents": "Concept of International Trade Practice△; Characteristics of International Trade△★; General Procedure for International Trade△; Teaching Materials\nPreparation For International Transaction; Market Research△; Preparing the Goods△; Setting Up Export Operation Plan; Establishing the Negotiation Team★; Understanding Key Trade Terms in the Contract; Promoting and Advertising the Goods in the Importing Countries; Establishing Business Relationship\nBusiness Negotiation Procedure; Enquiry; Offer△★;Counter-offer; Accept△★; Written Contract\nName of Commodity△; Quality△★; Quantity△★; Packing and Marking\nIntroduction to Price Terms△; Three Widely Used Price Terms Used for Any Transport Modes△★; Three Popular Price Terms Used for Sea and Inland Waterway Transport Only△★; Pricing Composition and Pricing Methods△★; Price Clause△\nOcean Transportation△; Other Modes of Transportation; Ocean Bill of Lading△★; Other Shipping Documents; Shipment Clause in the S/C△\nConcept and Principles of Cargo Transportation Insurance△; Marine Risks and Losses△★; Coverage of Marine Cargo Insurance of CIC△★; Coverage of Marine Cargo Insurance of ICC△; Insurances for Cargoes Transported Except for Ocean Transportation; Procedures of Cargo Insurance△; Insurance Clause in the Sales Contract△\nNegotiable Instruments△★; Payment Method-Remittance△; Payment Method-Collection△; Payment Method-Letter of Credit△★; Payment Clause By L/C under Sales Contract△\nCommodity Inspection△;Disputes & Claims△;Arbitration△;Force Majeure△★\nIntroduction to Performance of Contract△; The Performance of Export Contract△★; The Performance of Import Contract",
+  "ideology": "We should grasp the trend of economic globalization, support countries around the world to expand their opening up, oppose unilateralism and protectionism, and promote a better future for mankind\nMutual Benefit\nTreat each other equally in international economic exchanges"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Concept of International Trade Practice△; Characteristics of International Trade△★; General Procedure for International Trade△; Teaching Materials",
+   "ideology": "We should grasp the trend of economic globalization, support countries around the world to expand their opening up, oppose unilateralism and protectionism, and promote a better future for mankind",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "Preparation For International Transaction; Market Research△; Preparing the Goods△; Setting Up Export Operation Plan; Establishing the Negotiation Team★; Understanding Key Trade Terms in the Contract; Promoting and Advertising the Goods in the Importing Countries; Establishing Business Relationship",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 3,
+   "title": "Business Negotiation Procedure; Enquiry; Offer△★;Counter-offer; Accept△★; Written Contract",
+   "ideology": "Mutual Benefit",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 4,
+   "title": "Name of Commodity△; Quality△★; Quantity△★; Packing and Marking",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "Introduction to Price Terms△; Three Widely Used Price Terms Used for Any Transport Modes△★; Three Popular Price Terms Used for Sea and Inland Waterway Transport Only△★; Pricing Composition and Pricing Methods△★; Price Clause△",
+   "ideology": "Treat each other equally in international economic exchanges",
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 6,
+   "title": "Ocean Transportation△; Other Modes of Transportation; Ocean Bill of Lading△★; Other Shipping Documents; Shipment Clause in the S/C△",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 7,
+   "title": "Concept and Principles of Cargo Transportation Insurance△; Marine Risks and Losses△★; Coverage of Marine Cargo Insurance of CIC△★; Coverage of Marine Cargo Insurance of ICC△; Insurances for Cargoes Transported Except for Ocean Transportation; Procedures of Cargo Insurance△; Insurance Clause in the Sales Contract△",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 8,
+   "title": "Negotiable Instruments△★; Payment Method-Remittance△; Payment Method-Collection△; Payment Method-Letter of Credit△★; Payment Clause By L/C under Sales Contract△",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 9,
+   "title": "Commodity Inspection△;Disputes & Claims△;Arbitration△;Force Majeure△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Introduction to Performance of Contract△; The Performance of Export Contract△★; The Performance of Import Contract",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070236E1",
+ "hasOriginal": true
+}

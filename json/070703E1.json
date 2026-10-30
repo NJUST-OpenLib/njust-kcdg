@@ -1,0 +1,196 @@
+{
+ "code": "070703E1",
+ "slug": "070703E1",
+ "name": "国际商务惯例【英】",
+ "nameEn": "International Business Customs  Practices[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5901,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "于晶",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "课程论文:60%；平时成绩:40%",
+  "goals": [
+   "1、Master the basic customes and rules related to international trade and business",
+   "2、Use the knowledge to analyze some practical problems",
+   "3、Employ the knowledge to make some solutions",
+   "4、Be professional in related jobs"
+  ],
+  "intro": "\"This course fully reflects the relevant international business customs and rules, such as trade terms, international transport, international transport insurance, international settlement and arbitrations etc. This course provides students with a broad understanding of international business customs & practices. Students will develop the analytical skills needed to understand and maneuver business in an American and International setting.\n\nPrerequisite courses: International Trade, International Trade Practice, International Finance etc..\n\nExam: Class-based assessment and final written examanition.\n\nThe score will be calculated by Class-based assessment (40%) and final written examanition (60%).\"",
+  "objectives": "\"This course attempts to introduce a series of international customs and rules for international economic activities. The course aims to provide the students with a fundamental understanding of the international economic customs and rules. By studying this course, the student will be acquainted with every segment of customs and practices for import and export and be able to develop their abilities to settle the international business disputes independently.\n\nSpecifically, the students are expected to have the following abilities after learning this course:\n\n1. Master the basic customes and rules related to international trade and business;\n\n2. Use the knowledge to analyze some practical problems;\n\n3. Employ the knowledge to make some solutions;\n\n4. Be professional in related jobs.\n\n\"",
+  "contents": "Introduction; The concept of international business customs &; rules, The evolvement of international business customs &; rules△; The contents and the research method of international business customs &; rules★\nInternational Customs &; Rules for Trade Terms; Warsaw-Oxford Rules, American Definition, INCOTERMS2010△★\n\"Int’l treaties related to sale of goods; Convention on Uniform Law for the Int’l Sales of Goods, United Nations Convention on the Limitation Period in the International Sale of Goods, United Nations Convention on Contracts for the Int’l Sale of Goods △★\"\nInt’l treaties related to transportation; Convention Concerning Int’l Carriage of Goods by Rail (COTIF), The Agreement on Int’l organisation for Int’l Carriage by Rail (OTIF)△★\nInt’l treaties related to documents; Uniform Rules for a Combined Transportation Document, UNCTAD/ICC Rules for Multimodal Transport Documents△★\nInt’l treaties related to payment; Convention on the Unification of the Law Relating to Bills of Ex-change and Promissory Notes, Convention on the settlement of Certain Conflicts of Laws in Connection with Bills of Exchange and Promissory Notes, Convention Providing a Uniform Law of Cheques△★\nInt’l treaties related to payment; Convention on the settlement of Certain Conflicts of Laws in Connection with Check, Convention on International Bill of Exchange and International Promissory Note of the United Nation△★\nInt’l treaties related to settlement; Uniform Rules for Collection, Uniform Customs &; Rules for Documentary Credits, Uniform Rules for Demand Guarantees△★\nInt’l treaties related to foreign trade management; WTO△★\nInt’l treaties related to dispute settlement; the New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards, Understanding on Rules and Procedures Governing the Settlement of Disputes (DSU)△★\nInt’l treaties related to int’l investment; Convention on the Settlement of Investment Disputes Between States and Nationals of Other States, Convention Establishing the Multilateral Investment Guarantee Agency△★\nInt’l treaties related to intellectual property rights; Paris Convention for the Protection of Industrial Property, Madrid Agreement Concerning the International Registration of Marks, Berne Convention for the Protection of Literary and Artistic Works, Universal Copyright Convention△★",
+  "ideology": "介绍中国坚持积极参与全球安全规则制定\n介绍中国在经济全球化进程中的崛起及所做的贡献，中国坚持经济全球化正确方向，坚定不移贯彻新发展理念\n介绍由中国发起和建立的亚投行与世界银行和亚洲发展银行的区别，留学生中很大一部分来自亚洲或一带一路沿线国家，亚投行的成立促进了亚洲区域的建设互联互通化和经济一体化的进程，并且加强中国及其他亚洲国家和地区的合作，重点介绍中国坚持共建共享和坚持交流互鉴的政策方针"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Introduction; The concept of international business customs &; rules, The evolvement of international business customs &; rules△; The contents and the research method of international business customs &; rules★",
+   "ideology": "介绍中国坚持积极参与全球安全规则制定",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "International Customs &; Rules for Trade Terms; Warsaw-Oxford Rules, American Definition, INCOTERMS2010△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "\"Int’l treaties related to sale of goods; Convention on Uniform Law for the Int’l Sales of Goods, United Nations Convention on the Limitation Period in the International Sale of Goods, United Nations Convention on Contracts for the Int’l Sale of Goods △★\"",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "Int’l treaties related to transportation; Convention Concerning Int’l Carriage of Goods by Rail (COTIF), The Agreement on Int’l organisation for Int’l Carriage by Rail (OTIF)△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "Int’l treaties related to documents; Uniform Rules for a Combined Transportation Document, UNCTAD/ICC Rules for Multimodal Transport Documents△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 6,
+   "title": "Int’l treaties related to payment; Convention on the Unification of the Law Relating to Bills of Ex-change and Promissory Notes, Convention on the settlement of Certain Conflicts of Laws in Connection with Bills of Exchange and Promissory Notes, Convention Providing a Uniform Law of Cheques△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 7,
+   "title": "Int’l treaties related to payment; Convention on the settlement of Certain Conflicts of Laws in Connection with Check, Convention on International Bill of Exchange and International Promissory Note of the United Nation△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 8,
+   "title": "Int’l treaties related to settlement; Uniform Rules for Collection, Uniform Customs &; Rules for Documentary Credits, Uniform Rules for Demand Guarantees△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 9,
+   "title": "Int’l treaties related to foreign trade management; WTO△★",
+   "ideology": "介绍中国在经济全球化进程中的崛起及所做的贡献，中国坚持经济全球化正确方向，坚定不移贯彻新发展理念",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 10,
+   "title": "Int’l treaties related to dispute settlement; the New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards, Understanding on Rules and Procedures Governing the Settlement of Disputes (DSU)△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 11,
+   "title": "Int’l treaties related to int’l investment; Convention on the Settlement of Investment Disputes Between States and Nationals of Other States, Convention Establishing the Multilateral Investment Guarantee Agency△★",
+   "ideology": "介绍由中国发起和建立的亚投行与世界银行和亚洲发展银行的区别，留学生中很大一部分来自亚洲或一带一路沿线国家，亚投行的成立促进了亚洲区域的建设互联互通化和经济一体化的进程，并且加强中国及其他亚洲国家和地区的合作，重点介绍中国坚持共建共享和坚持交流互鉴的政策方针",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "Int’l treaties related to intellectual property rights; Paris Convention for the Protection of Industrial Property, Madrid Agreement Concerning the International Registration of Marks, Berne Convention for the Protection of Literary and Artistic Works, Universal Copyright Convention△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070703E1",
+ "hasOriginal": true
+}

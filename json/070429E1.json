@@ -1,0 +1,143 @@
+{
+ "code": "070429E1",
+ "slug": "070429E1",
+ "name": "国际商务模拟实习【英】",
+ "nameEn": "Simulation Practice on International Business[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5623,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "校内实习",
+  "teacher": "李灵稚",
+  "reviewer": "于晶",
+  "totalHours": 80,
+  "lectureHours": 0,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "系统自动测评:100%",
+  "goals": [
+   "Master the key points of import and export practice of both sides",
+   "Master the business operation links of banking, customs, commodity inspection, verification and other departments",
+   "Make a comprehensive analysis of the complications that may arise in the process of international trade"
+  ],
+  "intro": "\"International Business Simulation Practice\" is a required course for the major of international Economics and trade in the discipline of applied economics. It is a practical course that combines the theory of international trade practice with practical operation, and belongs to an important part of the teaching plan of international economics and trade major. Based on the explanation of each link of international trade practice operation, this course guides students to operate on computer and complete each link of international trade practice in the practical operation software system, which can help students to effectively consolidate and strengthen their mastery of relevant knowledge. At the same time, this course focuses on the cultivation of students\" strain ability, independent judgment and ability to skillfully use theoretical knowledge to solve practical problems. The teaching contents include: system introduction and system login, \"L/C+CIF\" business process, \"L/C+CFR\" business process, \"D/P+FOB\" business process, \"T/T+CIF\" business process, \"T/T+CFR\" business process, \"D/A+FOB\" business process, document making and risk management.",
+  "objectives": "The main function of this course is to enable students to verify and consolidate the theoretical knowledge of offering and contract signing on the basis of mastering the basic knowledge of international trade practice, and deepen the understanding and application of the operation process of import and export trade. Through the teaching of this course, students should have the ability to solve and cope with practical problems related to import and export trade.\n\nInternational business simulation practice curriculum not only pay attention to training students\" practice of international trade related professional knowledge and skills, and in the simulated operation each link of teaching, strengthen the cultivation of students\" socialist core values, achieve the whole education and comprehensive education, education of students not only to improve their professional level, but must work hard in the moral cultivation and to become a socialist builder and successor with all-round development of morality, intelligence, body and beauty.",
+  "contents": "System introduction and system login: import and export trade operation software introduction △; Exporters, importers, suppliers understand and master the accounting △; Learn the establishment and use of mail system △.\n\"L/C+CIF\" business process: the business process of importers and exporters related links △★; An exporter's contract with a factory. Letter of credit preparation rules △\n\"L/C+CFR\" business process: the business process between importers and exporters and factories △; Rules of Application of trade terms △\n\"D/P+FOB\" business process: budget table production △; D/P operation process △★; Freight insurance purchase options △\n\"T/T+CIF\" business process: the use of telegraphic transfer △; Insurance and freight calculation method △★\nT/T+CFR business process: T/T+CFR business process △★; Bank loan matters △\n\"D/A+FOB\" business process: D/A+FOB business process △★; Settlement of exchange, write-off, tax refund matters △\nDocument making and risk management: Claim and settlement; The use of risk control methods △★",
+  "ideology": "(1) through the interpretation of the international trade practice process each link, combined with relevant national economic and trade policy and foreign trade industry professional standard requirement, let the students to the international economic and trade activities have a more profound understanding, (2) to enhance students' professional quality and team cooperation consciousness, (3)to guide the student to firmly establish the socialist core values, Cultivate students down-to-earth and positive spirit.\n(1) By explaining the basic rules of L/C, let students have an in-depth understanding of the important role of payment methods in international trade; (2) combine the achievements of China's foreign trade industry, cultivate students' sense of integrity and responsibility; (3) enhance students' confidence in the road and system.\n(1) based on all kinds of risk management in the process of international trade practice, guide students to strengthen the understanding of international economic and trade environment complexity and uncertainty, (2) although the risk is everywhere, we can use a variety of ways to manage risk, (3) to strengthen the students' theoretical confidence and culture confidence and firmly establish the socialist core values."
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "System introduction and system login: import and export trade operation software introduction △; Exporters, importers, suppliers understand and master the accounting △; Learn the establishment and use of mail system △.",
+   "ideology": "(1) through the interpretation of the international trade practice process each link, combined with relevant national economic and trade policy and foreign trade industry professional standard requirement, let the students to the international economic and trade activities have a more profound understanding, (2) to enhance students' professional quality and team cooperation consciousness, (3)to guide the student to firmly establish the socialist core values, Cultivate students down-to-earth and positive spirit.",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 8,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 2,
+   "title": "\"L/C+CIF\" business process: the business process of importers and exporters related links △★; An exporter's contract with a factory. Letter of credit preparation rules △",
+   "ideology": "(1) By explaining the basic rules of L/C, let students have an in-depth understanding of the important role of payment methods in international trade; (2) combine the achievements of China's foreign trade industry, cultivate students' sense of integrity and responsibility; (3) enhance students' confidence in the road and system.",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 16,
+    "extra": 0,
+    "total": 16
+   }
+  },
+  {
+   "no": 3,
+   "title": "\"L/C+CFR\" business process: the business process between importers and exporters and factories △; Rules of Application of trade terms △",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 10,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 4,
+   "title": "\"D/P+FOB\" business process: budget table production △; D/P operation process △★; Freight insurance purchase options △",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 10,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 5,
+   "title": "\"T/T+CIF\" business process: the use of telegraphic transfer △; Insurance and freight calculation method △★",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 8,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 6,
+   "title": "T/T+CFR business process: T/T+CFR business process △★; Bank loan matters △",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 8,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 7,
+   "title": "\"D/A+FOB\" business process: D/A+FOB business process △★; Settlement of exchange, write-off, tax refund matters △",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 8,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 8,
+   "title": "Document making and risk management: Claim and settlement; The use of risk control methods △★",
+   "ideology": "(1) based on all kinds of risk management in the process of international trade practice, guide students to strengthen the understanding of international economic and trade environment complexity and uncertainty, (2) although the risk is everywhere, we can use a variety of ways to manage risk, (3) to strengthen the students' theoretical confidence and culture confidence and firmly establish the socialist core values.",
+   "hours": {
+    "lecture": 0,
+    "lab": 0,
+    "pc": 0,
+    "practice": 12,
+    "extra": 0,
+    "total": 12
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070429E1",
+ "hasOriginal": true
+}

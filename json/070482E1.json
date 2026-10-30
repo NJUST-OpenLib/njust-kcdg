@@ -1,0 +1,143 @@
+{
+ "code": "070482E1",
+ "slug": "070482E1",
+ "name": "国际投资与跨国公司【英】",
+ "nameEn": "International Investment and Multinational Corporations[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5709,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "宗永建",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "平时作业:30%；课程论文:70%",
+  "goals": [
+   "Discuss basic concepts, conceptual frameworks, and some broader contexts of international investment & transnational corporations",
+   "Analyze and discuss examples of international investment & transnational corporations",
+   "Develop an understanding of the strategies of international investment & transnational corporations."
+  ],
+  "intro": "International investment is a kind of economic behavior that investors transform their own money capital and industrial capital into physical assets, intangible assets or financial assets by transnational flow, and achieve added value through transnational business. The main body of international investment is transnational corporation. This course can be divided into 3 parts: the first is the knowledge of international investment and transnational corporation theory, the second part is the knowledge of transnational corporations management, the third part is international investment management.",
+  "objectives": "International Investment & Transnational Corporations is one compulsory course for the undergraduate major of international economy and trade. The task of the course is to combine international investment & transnational corporation theory with international investment & transnational corporations practice. The course introduces the basic knowledge and skills of international investment & transnational corporation, cultivates and improves the students\" ability to solve problems of international investment & transnational corporation activities, so that after graduation they can better adapt to the international investment & transnational corporation practice and management. After completion of the course students should learn how to write clearly and concisely, learn effectively, think critically and creatively, and work productively.",
+  "contents": "outlines of international investment and transnational corporations: 1. international investment 2. main body of international investment -- transnational corporations△\ninternational investment and transnational corporation theories: 1. monopoly advantage theory△ 2. internalization theory 3. product life cycle theory 4. marginal industry expansion theory 5. international production eclectic theory△\ninternational investment and transnational corporations operating environment: 1. basic theory of international investment and transnational corporation operating environment 2. basic factors of international investment and transnational corporation operating environment△\nOrganization and Human Resource Management of Transnational Corporation: 1. evolution of transnational corporations’ organizational structure 2. basic forms and choice of organizational structure of transnational corporations 3. management personnel’s quality and ability △ 4. management personnel training\noperation management of transnational corporation: 1. transnational corporation production management 2. transnational corporation quality management△\nPolicy，Laws and Regulations Management of International Investment 1. foreign direct investment policy management of host country 2. foreign direct investment policy measures of all countries 3. laws and regulations management of international direct investment 4. relevant regulations of settling international investment disputes △\ncompany mergers and acquisitions in international investment: 1. principle of transnational corporations’ M&A△ 2. planning and operation of transnational corporations’ M&Acompany mergers and acquisitions in international investment:\nFeasibility Study of International Investment Project 1. overview of international investment project feasibility study 2. content of international investment project feasibility study",
+  "ideology": "take the number of Chinese corporations in the 500 largest corporations in the world as example to show our confidence in socialism system\ntake China's political environment stability to attract more foreign investment as example to show the prority of our socialism system\ntake the Japanese corporations' scandals in falsification as bad examples to the importance of honest"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "outlines of international investment and transnational corporations: 1. international investment 2. main body of international investment -- transnational corporations△",
+   "ideology": "take the number of Chinese corporations in the 500 largest corporations in the world as example to show our confidence in socialism system",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "international investment and transnational corporation theories: 1. monopoly advantage theory△ 2. internalization theory 3. product life cycle theory 4. marginal industry expansion theory 5. international production eclectic theory△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "international investment and transnational corporations operating environment: 1. basic theory of international investment and transnational corporation operating environment 2. basic factors of international investment and transnational corporation operating environment△",
+   "ideology": "take China's political environment stability to attract more foreign investment as example to show the prority of our socialism system",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Organization and Human Resource Management of Transnational Corporation: 1. evolution of transnational corporations’ organizational structure 2. basic forms and choice of organizational structure of transnational corporations 3. management personnel’s quality and ability △ 4. management personnel training",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "operation management of transnational corporation: 1. transnational corporation production management 2. transnational corporation quality management△",
+   "ideology": "take the Japanese corporations' scandals in falsification as bad examples to the importance of honest",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "Policy，Laws and Regulations Management of International Investment 1. foreign direct investment policy management of host country 2. foreign direct investment policy measures of all countries 3. laws and regulations management of international direct investment 4. relevant regulations of settling international investment disputes △",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 7,
+   "title": "company mergers and acquisitions in international investment: 1. principle of transnational corporations’ M&A△ 2. planning and operation of transnational corporations’ M&Acompany mergers and acquisitions in international investment:",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 8,
+   "title": "Feasibility Study of International Investment Project 1. overview of international investment project feasibility study 2. content of international investment project feasibility study",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070482E1",
+ "hasOriginal": true
+}

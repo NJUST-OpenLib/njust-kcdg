@@ -1,0 +1,169 @@
+{
+ "code": "070234E2",
+ "slug": "070234E2",
+ "name": "国际贸易【英】",
+ "nameEn": "International  Trade[E]",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5286,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "宗永建",
+  "reviewer": "于晶",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "(未填):40%；(未填):60%",
+  "goals": [
+   "Understand certain concepts, theories of international trade",
+   "Grasp policies, measurements, treaties and agreements, main organizations of international trade and know their influences on it",
+   "Get skills of case analyzing, learn to think all-around, carefully and objectively from the point of international trade regulations, laws, terms and policies."
+  ],
+  "intro": "International trade is focused on fundamental knowledge like theories, policies, etc. on international trade. This course will provide an overall understanding of international trade development and functions, international market formation, international trade process, factors influencing international trade, international trade organizations, and so on. The course will provide a unified framework to address these issues and to study effects of trade policies, measures and organizations on international trade. These theories and analytic tools will be used to understand the trade conditions and conflicts between China and other countries.",
+  "objectives": "This is one of the core courses for international economic and trade major. This course provides students with a broad understanding of international trade concepts, theories, policies, measures, regulations, organizations, etc. It will give students an overall understanding of international trade and develop the analytical skills of international trade cases according to certain trade treaties and policies. Meanwhile, by learning the students will grasp usage of different trade terms, trade rules and measures as well as strengthen English listening, speaking and communication skills.This course is a propaedeutic introduction of international trade concepts, theories, policies, measures, treaties and agreements, organizations and so on. It aims to help students who intend to work in fields relevant to international trade or business to get an overview of international trade and get well prepared for further study in the major.",
+  "contents": "Get skills of case analyzing, learn to think all-around, carefully and objectively from the point of international trade regulations, laws, terms and policies.\nKnow the development of international trade. ？ Understand functions of international trade on country economy and sustainable development.\nGrasp definitions, types and developing proceeds of international division of labor. ？ Understand factors influencing international division of labor.△\nUnderstand definition, formation, characteristics development and elements of international market. ？ Know modes of corporations’ entering into international market and influencing factors. ？ Grasp definitions of international value and international market price and role of the law of value in international trade.\nIdentify international free trade theories and protective theories. ？ Understand connotations and differences between different theories.\nBe aware of international trade policies. ？ Be able to grasp the connotation, targets and effects of the trade policies.\nLearn different types of international trade measures including tariff and non-tariff measures. ？ Grasp the connotations of different types of tariffs.△？★？ Know aims of different tariffs.\nGrasp definitions, classifications, legal principles of trade treaty and agreement. ？ Learn about GATT.\nGet aware of foundation background, aims, objectives, functions, organizational framework, basic principles, some main agreements, etc OF WTO. ？ Learn WTO’s main rules in detail△\nUnderstand definitions and origins of regional economic integration△ ？ Know relative theories and current practices.",
+  "ideology": "from the Canton fair to illustrate the concept of a community with a shared future of mankind\nshare the concept of a community of life for man and nature\nshare the initiative of belt and road"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Get skills of case analyzing, learn to think all-around, carefully and objectively from the point of international trade regulations, laws, terms and policies.",
+   "ideology": "from the Canton fair to illustrate the concept of a community with a shared future of mankind",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "Know the development of international trade. ？ Understand functions of international trade on country economy and sustainable development.",
+   "ideology": "share the concept of a community of life for man and nature",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "Grasp definitions, types and developing proceeds of international division of labor. ？ Understand factors influencing international division of labor.△",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "Understand definition, formation, characteristics development and elements of international market. ？ Know modes of corporations’ entering into international market and influencing factors. ？ Grasp definitions of international value and international market price and role of the law of value in international trade.",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 5,
+   "title": "Identify international free trade theories and protective theories. ？ Understand connotations and differences between different theories.",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "Be aware of international trade policies. ？ Be able to grasp the connotation, targets and effects of the trade policies.",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 7,
+   "title": "Learn different types of international trade measures including tariff and non-tariff measures. ？ Grasp the connotations of different types of tariffs.△？★？ Know aims of different tariffs.",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 8,
+   "title": "Grasp definitions, classifications, legal principles of trade treaty and agreement. ？ Learn about GATT.",
+   "ideology": null,
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 9,
+   "title": "Get aware of foundation background, aims, objectives, functions, organizational framework, basic principles, some main agreements, etc OF WTO. ？ Learn WTO’s main rules in detail△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 10,
+   "title": "Understand definitions and origins of regional economic integration△ ？ Know relative theories and current practices.",
+   "ideology": "share the initiative of belt and road",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070234E2",
+ "hasOriginal": true
+}

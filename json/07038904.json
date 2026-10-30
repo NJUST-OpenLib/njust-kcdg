@@ -1,0 +1,130 @@
+{
+ "code": "07038904",
+ "slug": "07038904",
+ "name": "管理综合评价",
+ "nameEn": "Comprehensive Management Evaluation",
+ "credit": 2,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5557,
+ "outline": {
+  "version": "2022",
+  "lang": "中文",
+  "category": "理论课（不含实践）",
+  "teacher": "江文奇",
+  "reviewer": "沈静远",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": null,
+  "goals": [
+   "1、掌握管理综合评价各个过程的主要方法和技术",
+   "2、选取有效的评价方法，从而具备初步的用定量的手段解决复杂决策问题的能力",
+   "3、系统地掌握该领域的英语专业词汇以及科技论文的写作格式"
+  ],
+  "intro": "管理综合评价是管理科学与工程专业的一门核心课程，也是评价与决策研究方向的必修课程。通过管理综合评价指标的选择、指标值的规范化处理、指标权重的设计、相关管理综合评价方法的介绍，让学生了解相关问题的综合评价的具体思路和内容，为学生阅读该领域英语文献打下良好基础，为学生学年论文及毕业论文的研究工作提供了一类实用分析技术，提高学生的创新研究能力。\n\n本课程所需的预修课程有：概率论与数理统计，运筹学",
+  "objectives": "通过本课程的学习，使学生掌握管理综合评价各个过程的主要方法和技术，了解如何选取有效的评价方法，从而具备初步的用定量的手段解决复杂决策问题的能力，具备一定的创新研究能力。本课程还培养学生系统地掌握该领域的英语专业词汇以及科技论文的写作格式，这将为学生阅读该领域英语文献及为英文写作打下坚实基础。",
+  "contents": "\"1 Introduction：The action of evaluation；The meaning of evaluation；the criteria evaluated selection \" \"1 Introduction：The action of evaluation；The meaning of evaluation；the criteria evaluated selection \"\n\"2 The important method qualitative evaluation； technological economic evaluation；multi-attribute evaluation；Data envelopment analysis；statistic evaluation；system engineering；fuzzy evaluation \" \"2 The important method qualitative evaluation； technological economic evaluation；multi-attribute evaluation；Data envelopment analysis；statistic evaluation；system engineering；fuzzy evaluation \"\n\"3 Qualitative evaluation methods：Scored method；Delphi method；brainstorm method \" \"3 Qualitative evaluation methods：Scored method；Delphi method；brainstorm method \"\n\"4 Normalization method：the normalization of crisp numbers； the normalization of fuzzy numbers \" \"4 Normalization method：the normalization of crisp numbers； the normalization of fuzzy numbers \"\n\"5 Weighting methods：subjective weighting；objective weighting ；the optimal weighting \" \"5 Weighting methods：subjective weighting；objective weighting ；the optimal weighting \"\n\"6 the comprehensive method：Topsis method；Vikor method；DEA method；Comprehensive index method； Effenciency evaluation method；fuzzy evaluation method \" \"6 the comprehensive method：Topsis method；Vikor method；DEA method；Comprehensive index method； Effenciency evaluation method；fuzzy evaluation method \"\n\"7 Application：the background；the analytic process \" \"7 Application：the background；the analytic process \"",
+  "ideology": "介绍我国重大工程项目的评估案例，体现我国的强大自信，道路自信，分享我国经济建设的重大成就，介绍我国重大工程项目的评估案例，体现我国的强大自信，道路自信，分享我国经济建设的重大成就\n介绍我国关于评估过程中的学习机制，重点学习政治局常委会带头认真学习各类知识的鲜活案例 介绍我国关于评估过程中的学习机制，重点学习政治局常委会带头认真学习各类知识的鲜活案例\n重点介绍我国的民主集中制，领导人在决策过程中，充分发挥民主意识，提高评价的科学性 重点介绍我国的民主集中制，领导人在决策过程中，充分发挥民主意识，提高评价的科学性"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "\"1 Introduction：The action of evaluation；The meaning of evaluation；the criteria evaluated selection \" \"1 Introduction：The action of evaluation；The meaning of evaluation；the criteria evaluated selection \"",
+   "ideology": "介绍我国重大工程项目的评估案例，体现我国的强大自信，道路自信，分享我国经济建设的重大成就，介绍我国重大工程项目的评估案例，体现我国的强大自信，道路自信，分享我国经济建设的重大成就",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "\"2 The important method qualitative evaluation； technological economic evaluation；multi-attribute evaluation；Data envelopment analysis；statistic evaluation；system engineering；fuzzy evaluation \" \"2 The important method qualitative evaluation； technological economic evaluation；multi-attribute evaluation；Data envelopment analysis；statistic evaluation；system engineering；fuzzy evaluation \"",
+   "ideology": "介绍我国关于评估过程中的学习机制，重点学习政治局常委会带头认真学习各类知识的鲜活案例 介绍我国关于评估过程中的学习机制，重点学习政治局常委会带头认真学习各类知识的鲜活案例",
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 3,
+   "title": "\"3 Qualitative evaluation methods：Scored method；Delphi method；brainstorm method \" \"3 Qualitative evaluation methods：Scored method；Delphi method；brainstorm method \"",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 4,
+   "title": "\"4 Normalization method：the normalization of crisp numbers； the normalization of fuzzy numbers \" \"4 Normalization method：the normalization of crisp numbers； the normalization of fuzzy numbers \"",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "\"5 Weighting methods：subjective weighting；objective weighting ；the optimal weighting \" \"5 Weighting methods：subjective weighting；objective weighting ；the optimal weighting \"",
+   "ideology": null,
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 6,
+   "title": "\"6 the comprehensive method：Topsis method；Vikor method；DEA method；Comprehensive index method； Effenciency evaluation method；fuzzy evaluation method \" \"6 the comprehensive method：Topsis method；Vikor method；DEA method；Comprehensive index method； Effenciency evaluation method；fuzzy evaluation method \"",
+   "ideology": null,
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  },
+  {
+   "no": 7,
+   "title": "\"7 Application：the background；the analytic process \" \"7 Application：the background；the analytic process \"",
+   "ideology": "重点介绍我国的民主集中制，领导人在决策过程中，充分发挥民主意识，提高评价的科学性 重点介绍我国的民主集中制，领导人在决策过程中，充分发挥民主意识，提高评价的科学性",
+   "hours": {
+    "lecture": 5,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 5
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07038904",
+ "hasOriginal": true
+}

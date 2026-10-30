@@ -1,0 +1,118 @@
+{
+ "code": "070298E4",
+ "slug": "070298E4",
+ "name": "微观经济学【英】",
+ "nameEn": "Microeconomics[E]",
+ "credit": 4,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 5412,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（含实践）",
+  "teacher": "吴小康",
+  "reviewer": "于晶",
+  "totalHours": 64,
+  "lectureHours": 48,
+  "labHours": 16,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "课堂表现:20%；PPT展示:20%；平时作业:60%",
+  "goals": [
+   "1、 Understand the principles of microeconomics and methods. Understand the demand and consumption theory, elesiticity , utility and marginal theories",
+   "2、 Understand the assumptions and arguments in microeconomics.",
+   "3、Understand the market structures.the firms decision making theories etc.",
+   "4、Use the tools and theories to analyze economic decision-making and the real world. Help students to develop their capacity of insights in economic phenomena understanding and expert in various economic issues’ explaining."
+  ],
+  "intro": "Microeconomics is a branch of economics that studies the behavior of individual households and firms in making decisions on the allocation of limited resources. Typically, it applies to markets where goods or services are bought and sold. Microeconomics examines how these decisions and behaviors affect the supply and demand for goods and services, which determines prices, and how prices, in turn, determine the quantity supplied and quantity demanded of goods and services. Microeconomics is in contrast to macroeconomics, which involves the “sum total of economic activity, dealing with the issues of growth, inflation, and unemployment.” Microeconomics also deals with the effects of national economic policies on the aforementioned aspects of the economy. Particularly in the wake of the Lucas critique, much of modern macroeconomic theory has been built upon ‘microfoundations’- i.e. based upon basic assumptions about micro-level behavior. One of the goals of microeconomics is to analyze market mechanisms that establish relative prices amongst goods and services and allocation of limited resources amongst many alternative uses. Microeconomics analyzes market failure, where markets fail to produce efficient results, and describes the theoretical conditions needed for perfect competition. Significant fields of study in microeconomics include general equilibrium, markets under asymmetric information, choice under uncertainty and economic applications of game theory. Also considered is the elasticity of products within the market system.",
+  "objectives": "This course aims at building on first year undergraduate courses in economics and management so as to develop students\" knowledge and skill in microeconomics. This course will cover a mix of old and new ideas in microeconomics theory as well as selected economics issues.",
+  "contents": "Preliminaries: Supply, demand , market equilibrium and General Equilibrium : the economics of the consumer△; the behavior of firms△; the application of equilibrium theory△★ ,the theory of consumer choice under uncertainty and supply and demand△★. the economics of general equilibrium theory , welfare economics in theory and application ,the economics of imperfect information★.\nMarket structure and Imperfect competition theory: the models of perfect competition, monopoly , oligopoly△★;game theory and choice under uncertainty △★\nProduction and cost theories :the theory of labor supply△ ; the effects of taxes and benefits , savings behavior and auctions△\nMarket failures and Nash Bargaining: the models of general equilibrium in an exchange economy and in a two-sector economy△; externalities and public goods and asymmetric information (such as signaling models)△★.Externalities;Public Goods; Small Number of Agents, Nash Bargaining\nGame Theory and Nash equilibrium: the Game theory △ and its applications to such problems as gambling and insurance,pollution and other environmental issues ,education and work choices under imperfect information .★\nEconomic game modeling and analysis:Mathematical modeling and equilibrium solution of realistic economic game cases using game theory and methods",
+  "ideology": null
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Preliminaries: Supply, demand , market equilibrium and General Equilibrium : the economics of the consumer△; the behavior of firms△; the application of equilibrium theory△★ ,the theory of consumer choice under uncertainty and supply and demand△★. the economics of general equilibrium theory , welfare economics in theory and application ,the economics of imperfect information★.",
+   "ideology": null,
+   "hours": {
+    "lecture": 12,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 12
+   }
+  },
+  {
+   "no": 2,
+   "title": "Market structure and Imperfect competition theory: the models of perfect competition, monopoly , oligopoly△★;game theory and choice under uncertainty △★",
+   "ideology": null,
+   "hours": {
+    "lecture": 10,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 3,
+   "title": "Production and cost theories :the theory of labor supply△ ; the effects of taxes and benefits , savings behavior and auctions△",
+   "ideology": null,
+   "hours": {
+    "lecture": 10,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 10
+   }
+  },
+  {
+   "no": 4,
+   "title": "Market failures and Nash Bargaining: the models of general equilibrium in an exchange economy and in a two-sector economy△; externalities and public goods and asymmetric information (such as signaling models)△★.Externalities;Public Goods; Small Number of Agents, Nash Bargaining",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 5,
+   "title": "Game Theory and Nash equilibrium: the Game theory △ and its applications to such problems as gambling and insurance,pollution and other environmental issues ,education and work choices under imperfect information .★",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 6,
+   "title": "Economic game modeling and analysis:Mathematical modeling and equilibrium solution of realistic economic game cases using game theory and methods",
+   "ideology": null,
+   "hours": {
+    "lecture": 0,
+    "lab": 16,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 16
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3DA61F9DEC96497FB8C04948437275B9",
+ "hasOriginal": true
+}
