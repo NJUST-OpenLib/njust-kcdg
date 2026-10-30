@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,40 +22,53 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>数学分析（Ⅲ）<span class="tag on">在用</span></h1><div class="sub">课程编号 11329201</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>11329201</td></tr><tr><th>英文名称</th><td>Mathematical Analysis III</td></tr><tr><th>开课单位</th><td>数学与统计学院</td></tr><tr><th>学分</th><td>6</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人</th><td>姚洪亮</td></tr><tr><th>审核人</th><td>朱元国</td></tr><tr><th>总学时</th><td>96</td></tr><tr><th>讲课学时</th><td>96</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂表现:10%；平时作业:20%；闭卷笔试:70%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>熟练掌握级数理论，并利用幂级数以及Fourier级数作为工具来分析问题的方法，掌握参变量积分的基本理论和方法，了解实数完备性等实数理论，熟练掌握微积分学的基本运算方法和运算技巧，掌握数学分析的思想方法，获得本课程所要求的分析、论证、计算等方面的能力。</li><li>通过课程的学习，培养利用级数理论和方法，参变量积分等方法分析一些物理、几何等领域中的实际应用问题的能力。</li><li>培养学生具有严密的数学逻辑推理思维能力，以及从数学角度分析问题的良好数学素养。</li></ul><h2>课程简介</h2><p class="body">以经典微积分为主要内容的数学分析，是数学学科的一门核心基础课， 是从初等数学到高等数学过渡的桥梁，也为后续课程如实变函数、复变函数、泛函分析，微分方程等课程及有关的选修课等提供必要的基础知识和分析手段。数学分析研究的对象与方法是用无穷小分析的方法研究实函数，运用数学工具分析问题、转化问题、解决问题。本课程的特点是：内容多，跨度大，概念抽象，系统性与逻辑性强，思想方法重要，应用广泛。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>数学分析（Ⅲ）<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>11329201</b></span><span><em>学分</em><b>6</b></span><span><em>学时</em><b>96</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/11329201.html">查看原始页面</a><a href="../json/11329201.json">下载 JSON</a><a href="../txt/11329201.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>11329201</td><th>课程名称(中)</th><td>数学分析（Ⅲ）</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Mathematical Analysis III</td></tr><tr><th>开课单位</th><td>数学与统计学院</td><th>课程类别</th><td>理论课(不含实践环节)</td></tr><tr><th>课程负责人(执笔人)</th><td>姚洪亮</td><th>审核人</th><td>朱元国</td></tr><tr><th>学分</th><td>6</td><th>学时</th><td>96</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">以经典微积分为主要内容的数学分析，是数学学科的一门核心基础课， 是从初等数学到高等数学过渡的桥梁，也为后续课程如实变函数、复变函数、泛函分析，微分方程等课程及有关的选修课等提供必要的基础知识和分析手段。数学分析研究的对象与方法是用无穷小分析的方法研究实函数，运用数学工具分析问题、转化问题、解决问题。本课程的特点是：内容多，跨度大，概念抽象，系统性与逻辑性强，思想方法重要，应用广泛。
 数学分析III的教学内容：数项级数、函数列与函数项级数、幂级数、傅里叶级数、含参变量积分、实数理论。
-预备知识： 初等函数、解析几何、数学分析I、数学分析II。</p><h2>教学目的与要求</h2><p class="body">本学期的数学分析将进入数学分析的基础、抽象阶段，把前两学期的较艰深、较难学的内容都放到了这一学期，这学期的内容也是整个微积分理论和方法的提升，有利于培养数学专业学生的理论分析能力。本学期的教学目标：
+预备知识： 初等函数、解析几何、数学分析I、数学分析II。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">本学期的数学分析将进入数学分析的基础、抽象阶段，把前两学期的较艰深、较难学的内容都放到了这一学期，这学期的内容也是整个微积分理论和方法的提升，有利于培养数学专业学生的理论分析能力。本学期的教学目标：
  1、掌握参变量积分的方法，了解和体验含参数积分的中遇到的困难，特殊函数及非初等函数的表达形式，应用多元微积分等方面的系统知识和基本原理以及它们之间的内在联系熟练掌握级数理论及其应用，特别是幂级数以及Fourier级数，是函数分析的重要手段之一。
  2、掌握数学分析的思想方法，获得本课程所要求的分析、论证、计算等方面的能力。
  3、能够运用本课程提供的数学方法解决一些物理、几何等领域中的实际应用问题。学习某些理论性较强，更难理解的理论。通过三个学期的数学分析学习，学生们已经进入到一个新的阶段。数学分析的思想及基本训练使得大多数学生掌握了现代数学的基本概念及基本技能，并能解决许多其它领域的问题。。
- 课程思政目标：在数学分析中加强哲学思想的渗透，增强学生辩证思维。结合中国历史文化传统，提高学习效率和教学效果的同时，增强学生的文化自信。培养学生热爱科学，反对封建迷信和陈规陋习，抵制和克服利己主义腐朽人生观的腐蚀与影响。培养学生以全心全意为人民服务为人生目标，培养独立思考、实事求是和勇于创新的精神。</p><h2>教学内容</h2><p class="body">23 实数的完备性 23.1 关于实数完备性的基本定理； 23.1.1 △★区间套定理； 23.1.3 聚点定理与有限覆盖定理；
-18 数项级数 18.1 级数的收敛性； 18.2 正项级数； 18.2.1 △★正项级数收敛性的一般判别原则； 18.2.2 比式判别法和根式判别法； 18.2.3 积分判别法； 18.3 一般项级数； 18.3.1 交错级数； 18.3.2 △★绝对收敛级数及其性质； 18.3.3 阿贝尔判别法和狄利克雷判别法
-11 反常积分 11.1 反常积分的概念； 11.1.1 问题提出； 11.1.2 △两类反常积分的定义； 11.2 无穷积分的性质与收敛判别； 11.2.1 无穷积分的性质； 11.2.2 非负函数无穷积分的收敛判别法△★； 11.2.3 一般无穷积分的收敛判别法★； 11.3 暇积分的性质与收敛判别△★
-19 函数列与函数项级数 19.1一致收敛性； 19.1.1 △★函数列及其一致收敛性； 19.1.2 函数项级数及其一致收敛性； 19.1.3 △★函数项级数的一致收敛性判别法； 19.2 △一致收敛函数列与函数项级数的性质
-20 幂级数 20.1 幂级数； 20.1.1 幂级数的收敛区间； 20.1.2 幂级数的性质； 20.1.3 幂级数的运算； 20.2 函数的幂级数展开； 20.2.1 泰勒级数； 20.2.1 初等函数的幂级数展开式
-21 傅里叶级数 21.1 傅里叶级数； 21.1.1 三角级数、正交函数系； 21.1.2 △ 以 为周期的函数的傅里叶级数； 21.1.3 收敛定理； 21.2 以2L为周期的函数的傅里叶级数； 21.2.1 △以2L为周期的函数的傅里叶级数； 21.2.2 偶函数与奇函数的傅里叶级数；
-22 参变量积分 22.1 含参变量正常积分； 22.2 含参变量反常积分； 22.2.1 △★一致收敛性及其判别法； 22.2.2 含参变量反常积分的性质； 22.3 欧拉积分； 22.3.1 函数； 22.3.2 B 函数； 22.3.3 函数与B函数的关系</p><h2>课程思政</h2><p class="body">实数的概念与辩证法
-级数与辩证法
-积分与辩证法</p><h2>章节安排（7 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>23 实数的完备性 23.1 关于实数完备性的基本定理； 23.1.1 △★区间套定理； 23.1.3 聚点定理与有限覆盖定理；</td><td class="n">12</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">12</td></tr><tr><td class="c">2</td><td>18 数项级数 18.1 级数的收敛性； 18.2 正项级数； 18.2.1 △★正项级数收敛性的一般判别原则； 18.2.2 比式判别法和根式判别法； 18.2.3 积分判别法； 18.3 一般项级数； 18.3.1 交错级数； 18.3.2 △★绝对收敛级数及其性质； 18.3.3 阿贝尔判别法和狄利克雷判别法</td><td class="n">16</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">16</td></tr><tr><td class="c">3</td><td>11 反常积分 11.1 反常积分的概念； 11.1.1 问题提出； 11.1.2 △两类反常积分的定义； 11.2 无穷积分的性质与收敛判别； 11.2.1 无穷积分的性质； 11.2.2 非负函数无穷积分的收敛判别法△★； 11.2.3 一般无穷积分的收敛判别法★； 11.3 暇积分的性质与收敛判别△★</td><td class="n">14</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">14</td></tr><tr><td class="c">4</td><td>19 函数列与函数项级数 19.1一致收敛性； 19.1.1 △★函数列及其一致收敛性； 19.1.2 函数项级数及其一致收敛性； 19.1.3 △★函数项级数的一致收敛性判别法； 19.2 △一致收敛函数列与函数项级数的性质</td><td class="n">14</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">14</td></tr><tr><td class="c">5</td><td>20 幂级数 20.1 幂级数； 20.1.1 幂级数的收敛区间； 20.1.2 幂级数的性质； 20.1.3 幂级数的运算； 20.2 函数的幂级数展开； 20.2.1 泰勒级数； 20.2.1 初等函数的幂级数展开式</td><td class="n">14</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">14</td></tr><tr><td class="c">6</td><td>21 傅里叶级数 21.1 傅里叶级数； 21.1.1 三角级数、正交函数系； 21.1.2 △ 以 为周期的函数的傅里叶级数； 21.1.3 收敛定理； 21.2 以2L为周期的函数的傅里叶级数； 21.2.1 △以2L为周期的函数的傅里叶级数； 21.2.2 偶函数与奇函数的傅里叶级数；</td><td class="n">14</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">14</td></tr><tr><td class="c">7</td><td>22 参变量积分 22.1 含参变量正常积分； 22.2 含参变量反常积分； 22.2.1 △★一致收敛性及其判别法； 22.2.2 含参变量反常积分的性质； 22.3 欧拉积分； 22.3.1 函数； 22.3.2 B 函数； 22.3.3 函数与B函数的关系</td><td class="n">12</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">12</td></tr><tr><th></th><th>合计</th><th style="text-align:right">96</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">96</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 实数的概念与辩证法</li><li><b>第2章</b> 级数与辩证法</li><li><b>第3章</b> 积分与辩证法</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/11329201.html">查看原始页面</a><a href="../json/11329201.json">下载 JSON</a><a href="../txt/11329201.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+ 课程思政目标：在数学分析中加强哲学思想的渗透，增强学生辩证思维。结合中国历史文化传统，提高学习效率和教学效果的同时，增强学生的文化自信。培养学生热爱科学，反对封建迷信和陈规陋习，抵制和克服利己主义腐朽人生观的腐蚀与影响。培养学生以全心全意为人民服务为人生目标，培养独立思考、实事求是和勇于创新的精神。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>熟练掌握级数理论，并利用幂级数以及Fourier级数作为工具来分析问题的方法，掌握参变量积分的基本理论和方法，了解实数完备性等实数理论，熟练掌握微积分学的基本运算方法和运算技巧，掌握数学分析的思想方法，获得本课程所要求的分析、论证、计算等方面的能力。</li><li>通过课程的学习，培养利用级数理论和方法，参变量积分等方法分析一些物理、几何等领域中的实际应用问题的能力。</li><li>培养学生具有严密的数学逻辑推理思维能力，以及从数学角度分析问题的良好数学素养。</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>课堂表现</td><td>平时作业</td><td>闭卷笔试</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">10%</td><td class="n">20%</td><td class="n">70%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">23 实数的完备性 23.1 关于实数完备性的基本定理； 23.1.1 △★区间套定理； 23.1.3 聚点定理与有限覆盖定理；</td><td class="n cb">12</td><td class="n cb">12</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>实数的概念与辩证法</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">18 数项级数 18.1 级数的收敛性； 18.2 正项级数； 18.2.1 △★正项级数收敛性的一般判别原则； 18.2.2 比式判别法和根式判别法； 18.2.3 积分判别法； 18.3 一般项级数； 18.3.1 交错级数； 18.3.2 △★绝对收敛级数及其性质； 18.3.3 阿贝尔判别法和狄利克雷判别法</td><td class="n cb">16</td><td class="n cb">16</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>级数与辩证法</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">11 反常积分 11.1 反常积分的概念； 11.1.1 问题提出； 11.1.2 △两类反常积分的定义； 11.2 无穷积分的性质与收敛判别； 11.2.1 无穷积分的性质； 11.2.2 非负函数无穷积分的收敛判别法△★； 11.2.3 一般无穷积分的收敛判别法★； 11.3 暇积分的性质与收敛判别△★</td><td class="n cb">14</td><td class="n cb">14</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>积分与辩证法</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">4</td><td class="cb">19 函数列与函数项级数 19.1一致收敛性； 19.1.1 △★函数列及其一致收敛性； 19.1.2 函数项级数及其一致收敛性； 19.1.3 △★函数项级数的一致收敛性判别法； 19.2 △一致收敛函数列与函数项级数的性质</td><td class="n cb">14</td><td class="n cb">14</td></tr><tr><td class="c cb">5</td><td class="cb">20 幂级数 20.1 幂级数； 20.1.1 幂级数的收敛区间； 20.1.2 幂级数的性质； 20.1.3 幂级数的运算； 20.2 函数的幂级数展开； 20.2.1 泰勒级数； 20.2.1 初等函数的幂级数展开式</td><td class="n cb">14</td><td class="n cb">14</td></tr><tr><td class="c cb">6</td><td class="cb">21 傅里叶级数 21.1 傅里叶级数； 21.1.1 三角级数、正交函数系； 21.1.2 △ 以 为周期的函数的傅里叶级数； 21.1.3 收敛定理； 21.2 以2L为周期的函数的傅里叶级数； 21.2.1 △以2L为周期的函数的傅里叶级数； 21.2.2 偶函数与奇函数的傅里叶级数；</td><td class="n cb">14</td><td class="n cb">14</td></tr><tr><td class="c cb">7</td><td class="cb">22 参变量积分 22.1 含参变量正常积分； 22.2 含参变量反常积分； 22.2.1 △★一致收敛性及其判别法； 22.2.2 含参变量反常积分的性质； 22.3 欧拉积分； 22.3.1 函数； 22.3.2 B 函数； 22.3.3 函数与B函数的关系</td><td class="n cb">12</td><td class="n cb">12</td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">96</td><td class="n">96</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>数学分析（第二版）(下册) (参考书)</td><td>复旦大学数学系</td><td>978-704-015-5495</td><td>高等教育出版社</td><td class="n">2004</td></tr><tr><td>数学分析（第五版）(下册)（教材）</td><td>华东师范大学数学系</td><td>978-704-051-3233</td><td>高等教育出版社</td><td class="n">2019</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

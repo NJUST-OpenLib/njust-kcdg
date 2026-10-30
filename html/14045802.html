@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,39 +22,50 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>英语高级测试<span class="tag on">在用</span></h1><div class="sub">课程编号 14045802</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>14045802</td></tr><tr><th>英文名称</th><td>English Test for TEM 8</td></tr><tr><th>开课单位</th><td>外国语学院</td></tr><tr><th>学分</th><td>1</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>段国云</td></tr><tr><th>审核人</th><td>李娟</td></tr><tr><th>总学时</th><td>16</td></tr><tr><th>讲课学时</th><td>16</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>(未填):10%；(未填):30%；(未填):60%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>通过本课程，认识英语专业8级测试试卷的特点。</li><li>了解各个板块的组成，为后期准备奠定基础。</li><li>能够举一反三，将所学运用到下一次测试中。</li><li>不断完善所学，从错误及失误中提高自己的能力水平。</li></ul><h2>课程简介</h2><p class="body">高级测试的目的是检查英语专业八级大纲执行的情况，特别是大纲所规定的八级水平所要达到的综合语言技能和交际能力，促进大纲的进一步贯彻，提高教学质量。测试的范围包括大纲所规定的听、读、写、译四个方面的技能。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>英语高级测试<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>14045802</b></span><span><em>学分</em><b>1</b></span><span><em>学时</em><b>16</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/14045802.html">查看原始页面</a><a href="../json/14045802.json">下载 JSON</a><a href="../txt/14045802.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>14045802</td><th>课程名称(中)</th><td>英语高级测试</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>English Test for TEM 8</td></tr><tr><th>开课单位</th><td>外国语学院</td><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>段国云</td><th>审核人</th><td>李娟</td></tr><tr><th>学分</th><td>1</td><th>学时</th><td>16</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td><span class="dim">未标注</span></td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">高级测试的目的是检查英语专业八级大纲执行的情况，特别是大纲所规定的八级水平所要达到的综合语言技能和交际能力，促进大纲的进一步贯彻，提高教学质量。测试的范围包括大纲所规定的听、读、写、译四个方面的技能。
 本课程主要包括八章，可以分成讲解和测试两大部分。一至六章重点讲解测试各环节需要注意的要点，七至八章进行实际测试训练。具体来说，第一章介绍听力理解， 讲解考试第一部分所要注意的问题和具体的应对方法。第二章介绍阅读理解， 讲解考试第二部分所要注意的问题和具体的应对方法。第三章介绍英语语言与文学方面的常识测试方法。第四章介绍校对和改错，讲解考试第四部分所要注意的问题和具体的应对方法。第五章介绍笔译，分为汉译英和英译汉，讲解考试第五部分所要注意的问题和具体的应对方法。第六章介绍写作， 讲解考试第六部分所要注意的问题和具体的应对方法。第七章和第八章模拟测试，用近两年的专八真题对学生进行考试训练。
 本课程以讲座和测试为主，要求学生多做题，多总结测试经验。
-该课程的成绩考核由平时成绩和期末考试两个部分组成，其中平时成绩占40%（包括出勤、课题表现和课后作业），期末考试卷面成绩占60%。</p><h2>教学目的与要求</h2><p class="body">本课程是英语语言文学方向本科生通过四年学习后英语语言能力的集中展示，是英语专业高年级的必修课程。以全国高校英语专业八级考试（TEM-8，Test for English Majors-Band 8）为蓝本，全面考察英语专业本科生的英语水平。高级测试训练题型包括听力、阅读、改错、翻译、写作和人文常识。课程拟为学生搭建一个平台，把学过的英语语言文学方面的知识来一次大的综合训练，让学生在实际考试中发挥正常。通过本课程的学习，要使学生在以下一些重要方面得到训练：1.语言学基础知识；2.文学基础知识；3. 英语听力知识；4. 英语阅读知识；5. 英语语法知识；6. 英语人文常识； 7. 英语笔译知识；8. 英语高级写作知识。在传授专业知识的同时，要注意激发学生的学习兴趣，特别注重学生听说写译四个方面综合能力的开发，全面提升学生的英语语言水平。同时，通过在测试训练中，找到自己的不足，克服各种障碍，培养学生的毅力，坚定自己的意志，遇难不放弃，为将来走向工作岗位奠定坚实的基础，为社会服务做好准备。</p><h2>教学内容</h2><p class="body">引言：专8考试的意义;专8试卷构成及特点;专8试卷批阅方式★;专8考试技巧△
-测试1：2009年专8真题
-写作测试和讲解测试1：听力部分；改错和阅读和翻译部分★；写作部分△
-测试2：2010年专8真题
-写作测试和讲解测试1：听力部分；改错和阅读和翻译部分★；写作部分△
-测试3：2011年专8真题
-写作测试和讲解测试1：听力部分；改错和阅读和翻译部分★；写作部分△
-回顾总结：听力部分；改错部分；阅读理解部分；翻译部分；作文部分</p><h2>课程思政</h2><p class="body">1.分析专8测试意义，培养为祖国强大而努力学习的决心。2.建立成就感。3.为社会做贡献的使命感。
-1.通过考试，树立好理念，做遵纪守法的好公民。2.培养毅力，遇难不放弃。3.仔细分析，认真对待的好态度。
-1.积极对待错误，及时改正，定时检查。2.培养持之以恒的决心。 3.认真学习，为社会做贡献的使命感。
-1.培养自信心。2.建立成就感。3.为社会做贡献的使命感。</p><h2>章节安排（8 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>引言：专8考试的意义;专8试卷构成及特点;专8试卷批阅方式★;专8考试技巧△</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>测试1：2009年专8真题</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">3</td><td>写作测试和讲解测试1：听力部分；改错和阅读和翻译部分★；写作部分△</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">4</td><td>测试2：2010年专8真题</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">5</td><td>写作测试和讲解测试1：听力部分；改错和阅读和翻译部分★；写作部分△</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">6</td><td>测试3：2011年专8真题</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">7</td><td>写作测试和讲解测试1：听力部分；改错和阅读和翻译部分★；写作部分△</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">8</td><td>回顾总结：听力部分；改错部分；阅读理解部分；翻译部分；作文部分</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><th></th><th>合计</th><th style="text-align:right">16</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">16</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 1.分析专8测试意义，培养为祖国强大而努力学习的决心。2.建立成就感。3.为社会做贡献的使命感。</li><li><b>第2章</b> 1.通过考试，树立好理念，做遵纪守法的好公民。2.培养毅力，遇难不放弃。3.仔细分析，认真对待的好态度。</li><li><b>第3章</b> 1.积极对待错误，及时改正，定时检查。2.培养持之以恒的决心。 3.认真学习，为社会做贡献的使命感。</li><li><b>第8章</b> 1.培养自信心。2.建立成就感。3.为社会做贡献的使命感。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/14045802.html">查看原始页面</a><a href="../json/14045802.json">下载 JSON</a><a href="../txt/14045802.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+该课程的成绩考核由平时成绩和期末考试两个部分组成，其中平时成绩占40%（包括出勤、课题表现和课后作业），期末考试卷面成绩占60%。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">本课程是英语语言文学方向本科生通过四年学习后英语语言能力的集中展示，是英语专业高年级的必修课程。以全国高校英语专业八级考试（TEM-8，Test for English Majors-Band 8）为蓝本，全面考察英语专业本科生的英语水平。高级测试训练题型包括听力、阅读、改错、翻译、写作和人文常识。课程拟为学生搭建一个平台，把学过的英语语言文学方面的知识来一次大的综合训练，让学生在实际考试中发挥正常。通过本课程的学习，要使学生在以下一些重要方面得到训练：1.语言学基础知识；2.文学基础知识；3. 英语听力知识；4. 英语阅读知识；5. 英语语法知识；6. 英语人文常识； 7. 英语笔译知识；8. 英语高级写作知识。在传授专业知识的同时，要注意激发学生的学习兴趣，特别注重学生听说写译四个方面综合能力的开发，全面提升学生的英语语言水平。同时，通过在测试训练中，找到自己的不足，克服各种障碍，培养学生的毅力，坚定自己的意志，遇难不放弃，为将来走向工作岗位奠定坚实的基础，为社会服务做好准备。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>通过本课程，认识英语专业8级测试试卷的特点。</li><li>了解各个板块的组成，为后期准备奠定基础。</li><li>能够举一反三，将所学运用到下一次测试中。</li><li>不断完善所学，从错误及失误中提高自己的能力水平。</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>(未填)</td><td>(未填)</td><td>(未填)</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">10%</td><td class="n">30%</td><td class="n">60%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">引言：专8考试的意义;专8试卷构成及特点;专8试卷批阅方式★;专8考试技巧△</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.分析专8测试意义，培养为祖国强大而努力学习的决心。2.建立成就感。3.为社会做贡献的使命感。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">测试1：2009年专8真题</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.通过考试，树立好理念，做遵纪守法的好公民。2.培养毅力，遇难不放弃。3.仔细分析，认真对待的好态度。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">写作测试和讲解测试1：听力部分；改错和阅读和翻译部分★；写作部分△</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.积极对待错误，及时改正，定时检查。2.培养持之以恒的决心。 3.认真学习，为社会做贡献的使命感。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">4</td><td class="cb">测试2：2010年专8真题</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr><td class="c cb">5</td><td class="cb">写作测试和讲解测试1：听力部分；改错和阅读和翻译部分★；写作部分△</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr><td class="c cb">6</td><td class="cb">测试3：2011年专8真题</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr><td class="c cb">7</td><td class="cb">写作测试和讲解测试1：听力部分；改错和阅读和翻译部分★；写作部分△</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr><td class="c cb">8</td><td class="cb">回顾总结：听力部分；改错部分；阅读理解部分；翻译部分；作文部分</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.培养自信心。2.建立成就感。3.为社会做贡献的使命感。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">16</td><td class="n">16</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>英语专业八级考试模拟试题集</td><td>李战子</td><td>9787544641739</td><td>上海外语教育出版社</td><td class="n">2016</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>

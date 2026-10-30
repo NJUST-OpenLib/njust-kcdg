@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,46 +22,57 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>跨文化交流<span class="tag on">在用</span></h1><div class="sub">课程编号 14020801</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>14020801</td></tr><tr><th>英文名称</th><td>Cross-cultural Communication</td></tr><tr><th>开课单位</th><td>外国语学院</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>严轶伦</td></tr><tr><th>审核人</th><td>李娟</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>平时作业、出勤、课堂表现、跨文化身份日志等:30%；跨文化冲突案例剧本及表演:20%；期末考试:50%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>对英语国家概况和英美社会与文化有基本的了解，对中国文化与西方文化的差异有敏锐的感知力。</li><li>掌握文化的定义和特征，交际的定义和特征，影响跨文化交际活动的各种因素、跨文化交际的途径以及跨文化交际学的研究方法等。</li><li>通过中西文化的异同比较，提高跨文化交际的能力。由于这是一门新学科，它所包含的实际内容仍在不断丰富，牵涉到的理论问题人们也仍在探讨，需要在实践中不断加以丰富和完善。</li></ul><h2>课程简介</h2><p class="body">&quot; 跨文化交流学是传播学的一门分支课程，其研究对象是具有不同文化背景人们之间交流的若干特点和一般规律。主要讲授文化和交流传播的基本概念，跨文化交流和世界观、人生观和价值观，跨文化交流中的定型观念和归因，跨文化交流中的信息、渠道和反馈，跨文化交流中的语言符号系统，跨文化交流者之间的关系，跨文化交流的各个层次等等。随着世界经济的一体化，目前世界上各种文化之间的矛盾往往导致激烈的冲突，跨文化交流问题越来越成为传播学家所特别注重的对象。本课程不仅可以使学生从宏观上了解跨文化交流的一般理论和实践，而且也可以增强学生自身涉外交流的能力。学习该课程的学生需要对不同文化有些感性认识，对文化差异和交际学有些相应阅读。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>跨文化交流<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>14020801</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/14020801.html">查看原始页面</a><a href="../json/14020801.json">下载 JSON</a><a href="../txt/14020801.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>14020801</td><th>课程名称(中)</th><td>跨文化交流</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Cross-cultural Communication</td></tr><tr><th>开课单位</th><td>外国语学院</td><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>严轶伦</td><th>审核人</th><td>李娟</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td><span class="dim">未标注</span></td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">&quot; 跨文化交流学是传播学的一门分支课程，其研究对象是具有不同文化背景人们之间交流的若干特点和一般规律。主要讲授文化和交流传播的基本概念，跨文化交流和世界观、人生观和价值观，跨文化交流中的定型观念和归因，跨文化交流中的信息、渠道和反馈，跨文化交流中的语言符号系统，跨文化交流者之间的关系，跨文化交流的各个层次等等。随着世界经济的一体化，目前世界上各种文化之间的矛盾往往导致激烈的冲突，跨文化交流问题越来越成为传播学家所特别注重的对象。本课程不仅可以使学生从宏观上了解跨文化交流的一般理论和实践，而且也可以增强学生自身涉外交流的能力。学习该课程的学生需要对不同文化有些感性认识，对文化差异和交际学有些相应阅读。
 
 本课程具体包含1.课程概况，课程现状2.基本概念 3.信念和价值观4. 作为世界观的宗教 5 语言与人6非言语交际7 文化与身份 8跨文化交际能力培养
 
 本课程以讲座和练习为主，要求学生阅读相关书籍。
 
-&quot;</p><h2>教学目的与要求</h2><p class="body">(概述)(1) 对英语国家概况和英美社会与文化有基本的了解，对中国文化与西方文化的差异有敏锐的感知力。逐步培养文化自信，独立思考和评判性思维能力。
+&quot;</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">(概述)(1) 对英语国家概况和英美社会与文化有基本的了解，对中国文化与西方文化的差异有敏锐的感知力。逐步培养文化自信，独立思考和评判性思维能力。
 
 (2) 掌握文化的定义和特征，交际的定义和特征，影响跨文化交际活动的各种因素、跨文化交际的途径以及跨文化交际学的研究方法等。
 
-(3) 通过中西文化的异同比较，提高跨文化交际的能力。由于这是一门新学科，它所包含的实际内容仍在不断丰富，牵涉到的理论问题人们也仍在探讨，需要在实践中不断加以丰富和完善。通过对文化和交际的本质及过程学习，对文化模式的剖析及建构，对文化身份及跨文化身份互动的描摹，对跨文化交际能力的实际训练，本课程立足核心概念，深挖价值观体系，把中国文化和价值观更为立体和深刻地传输给当代中国大学生，加强他们的评判力，增强自身国际对话能力，更好的看待自身文化与他文化的关系。&quot;</p><h2>教学内容</h2><p class="body">&quot; 课程概况 课程目的 课程大纲 考核方式 教科书和主要参考书 课程历史和现状 该课程产生的原因 奠基之作：The Silent Language 该课程在国内和国外高校开设的情况&quot;
-&quot;基本概念 文化 跨文化 交际 跨文化交际△★&quot;
-&quot;信念与价值观 文化休克 文化的元素△ 文化模式★ 框架△ 单一文化的模式 多元文化模式 儒家思想对东方人际关系和交际方式的影响★ 家庭的地位和功能&quot;
-&quot;作为世界观的宗教： 宗教共性 宗教及其价值观 &quot;
-&quot;语言与人 交际中的符号系统△ 词汇语义的文化差异与翻译 I.A. Richards对意义功能的阐释 语境 句法、声韵的差异△ 翻译★ &quot;
-文化与身份 1.社会身份2. 身份习得 3.身份与跨文化互动△★
-&quot;非语言交际 功能 外貌 眼神交流 体势语★ 气味 空间和距离 美国标准 案例分析&quot;
-&quot;跨文化交际能力培养 意识培养 能力培养△ 课程与实践★&quot;</p><h2>课程思政</h2><p class="body">如何看待社会与文化，文化变化的方式，从而提醒学生通过自己，从我做起净化文化，提升整体文化，维护传统优秀文化。
-文化模式的划分与建构，有助于学生独立思考和看待本文化和他文化。有助于学生培养独立思考能力，判断力。
-帮助学生更有能力进行跨文化互动，成为全球公民，更具备民族文化意识，更强文化自信，文化身份构建更完善。
-意识先行，实践紧随。帮助学生认识到实践出真知。</p><h2>章节安排（8 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>&quot; 课程概况 课程目的 课程大纲 考核方式 教科书和主要参考书 课程历史和现状 该课程产生的原因 奠基之作：The Silent Language 该课程在国内和国外高校开设的情况&quot;</td><td class="n">2</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">2</td></tr><tr><td class="c">2</td><td>&quot;基本概念 文化 跨文化 交际 跨文化交际△★&quot;</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">3</td><td>&quot;信念与价值观 文化休克 文化的元素△ 文化模式★ 框架△ 单一文化的模式 多元文化模式 儒家思想对东方人际关系和交际方式的影响★ 家庭的地位和功能&quot;</td><td class="n">8</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">4</td><td>&quot;作为世界观的宗教： 宗教共性 宗教及其价值观 &quot;</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">5</td><td>&quot;语言与人 交际中的符号系统△ 词汇语义的文化差异与翻译 I.A. Richards对意义功能的阐释 语境 句法、声韵的差异△ 翻译★ &quot;</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">6</td><td>文化与身份 1.社会身份2. 身份习得 3.身份与跨文化互动△★</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">7</td><td>&quot;非语言交际 功能 外貌 眼神交流 体势语★ 气味 空间和距离 美国标准 案例分析&quot;</td><td class="n">3</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">8</td><td>&quot;跨文化交际能力培养 意识培养 能力培养△ 课程与实践★&quot;</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第2章</b> 如何看待社会与文化，文化变化的方式，从而提醒学生通过自己，从我做起净化文化，提升整体文化，维护传统优秀文化。</li><li><b>第3章</b> 文化模式的划分与建构，有助于学生独立思考和看待本文化和他文化。有助于学生培养独立思考能力，判断力。</li><li><b>第6章</b> 帮助学生更有能力进行跨文化互动，成为全球公民，更具备民族文化意识，更强文化自信，文化身份构建更完善。</li><li><b>第8章</b> 意识先行，实践紧随。帮助学生认识到实践出真知。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/14020801.html">查看原始页面</a><a href="../json/14020801.json">下载 JSON</a><a href="../txt/14020801.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+(3) 通过中西文化的异同比较，提高跨文化交际的能力。由于这是一门新学科，它所包含的实际内容仍在不断丰富，牵涉到的理论问题人们也仍在探讨，需要在实践中不断加以丰富和完善。通过对文化和交际的本质及过程学习，对文化模式的剖析及建构，对文化身份及跨文化身份互动的描摹，对跨文化交际能力的实际训练，本课程立足核心概念，深挖价值观体系，把中国文化和价值观更为立体和深刻地传输给当代中国大学生，加强他们的评判力，增强自身国际对话能力，更好的看待自身文化与他文化的关系。&quot;</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>对英语国家概况和英美社会与文化有基本的了解，对中国文化与西方文化的差异有敏锐的感知力。</li><li>掌握文化的定义和特征，交际的定义和特征，影响跨文化交际活动的各种因素、跨文化交际的途径以及跨文化交际学的研究方法等。</li><li>通过中西文化的异同比较，提高跨文化交际的能力。由于这是一门新学科，它所包含的实际内容仍在不断丰富，牵涉到的理论问题人们也仍在探讨，需要在实践中不断加以丰富和完善。</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>平时作业、出勤、课堂表现、跨文化身份日志等</td><td>跨文化冲突案例剧本及表演</td><td>期末考试</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">30%</td><td class="n">20%</td><td class="n">50%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">&quot; 课程概况 课程目的 课程大纲 考核方式 教科书和主要参考书 课程历史和现状 该课程产生的原因 奠基之作：The Silent Language 该课程在国内和国外高校开设的情况&quot;</td><td class="n cb">2</td><td class="n cb">2</td></tr><tr><td class="c cb">2</td><td class="cb">&quot;基本概念 文化 跨文化 交际 跨文化交际△★&quot;</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>如何看待社会与文化，文化变化的方式，从而提醒学生通过自己，从我做起净化文化，提升整体文化，维护传统优秀文化。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">&quot;信念与价值观 文化休克 文化的元素△ 文化模式★ 框架△ 单一文化的模式 多元文化模式 儒家思想对东方人际关系和交际方式的影响★ 家庭的地位和功能&quot;</td><td class="n cb">8</td><td class="n cb">8</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>文化模式的划分与建构，有助于学生独立思考和看待本文化和他文化。有助于学生培养独立思考能力，判断力。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">4</td><td class="cb">&quot;作为世界观的宗教： 宗教共性 宗教及其价值观 &quot;</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr><td class="c cb">5</td><td class="cb">&quot;语言与人 交际中的符号系统△ 词汇语义的文化差异与翻译 I.A. Richards对意义功能的阐释 语境 句法、声韵的差异△ 翻译★ &quot;</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr><td class="c cb">6</td><td class="cb">文化与身份 1.社会身份2. 身份习得 3.身份与跨文化互动△★</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>帮助学生更有能力进行跨文化互动，成为全球公民，更具备民族文化意识，更强文化自信，文化身份构建更完善。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">7</td><td class="cb">&quot;非语言交际 功能 外貌 眼神交流 体势语★ 气味 空间和距离 美国标准 案例分析&quot;</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr><td class="c cb">8</td><td class="cb">&quot;跨文化交际能力培养 意识培养 能力培养△ 课程与实践★&quot;</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>意识先行，实践紧随。帮助学生认识到实践出真知。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">32</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>跨文化交际(9th edition)			跨文化交际(9th edition)					跨文化交际(9th edition)</td><td>samovar, et.al</td><td>9787301317594</td><td>北京大学出版社</td><td class="n">2021</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>
