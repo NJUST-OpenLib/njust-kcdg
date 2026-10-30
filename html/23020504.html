@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,29 +22,50 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>机械工程综合实习<span class="tag on">在用</span></h1><div class="sub">课程编号 23020504</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>23020504</td></tr><tr><th>英文名称</th><td>Comprehensive?Practice?on?Mechanical?Engineering</td></tr><tr><th>开课单位</th><td>工程训练中心</td></tr><tr><th>学分</th><td>2</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>校内实习</td></tr><tr><th>课程负责人</th><td>王景贵</td></tr><tr><th>审核人</th><td>张小兵</td></tr><tr><th>总学时</th><td>80</td></tr><tr><th>讲课学时</th><td>0</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>十级制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>课堂表现:40%；实验操作:50%；作品展示:10%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>认识团队合作的重要性，正确处理团队和个人的关系，在团队中如何发挥自己所长，具有良好的沟通能；</li><li>强化设计能力，掌握机电产品设计流程和方法，熟练掌握机电产品设计常用结构设计软件和仿真软件；</li><li>提升综合工艺能力，能够编制零件加工工艺卡，正确选择工、夹、量具；</li><li>强化动手能力,独立操作加工设备完成机械零件加工和装配，具有机电产品调试和处理实际工程问题能力；强化劳动意识，工作现场设备卫生整备；</li><li>德智体美劳全面发展；</li><li>勇于担当，脚踏实地，善于观察，团结协作，创新发展；</li></ul><h2>课程简介</h2><p class="body">机电综合实践是一门综合性实践课程，通过虚拟现代企业角色体验，完成真实产品的开发过程，让学生了解产品全生命周期概念，进而培养机械类专业学生综合运用机械工程知识的能力，突出设计能力和综合工艺能力培养。课程要求学生具有机械设计与制造的基础知识、电控原理及编程能力、计算机绘图技能、工程管理知识等相关能力。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>机械工程综合实习<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>23020504</b></span><span><em>学分</em><b>2</b></span><span><em>学时</em><b>80</b></span><span><em>考核类型</em><b>考查</b></span></div><div class="files top"><a href="../original/23020504.html">查看原始页面</a><a href="../json/23020504.json">下载 JSON</a><a href="../txt/23020504.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>23020504</td><th>课程名称(中)</th><td>机械工程综合实习</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Comprehensive?Practice?on?Mechanical?Engineering</td></tr><tr><th>开课单位</th><td>工程训练中心</td><th>课程类别</th><td>校内实习</td></tr><tr><th>课程负责人(执笔人)</th><td>王景贵</td><th>审核人</th><td>张小兵</td></tr><tr><th>学分</th><td>2</td><th>学时</th><td>80</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>十级制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">机电综合实践是一门综合性实践课程，通过虚拟现代企业角色体验，完成真实产品的开发过程，让学生了解产品全生命周期概念，进而培养机械类专业学生综合运用机械工程知识的能力，突出设计能力和综合工艺能力培养。课程要求学生具有机械设计与制造的基础知识、电控原理及编程能力、计算机绘图技能、工程管理知识等相关能力。
 
 课程分十个模块，即：
 
@@ -62,7 +89,7 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 10.场地竞赛：按照竞赛规则，在场地上完成比赛，获得场地竞赛环节得分。
 
-11.答辩：制作答辩PPT，准备与小车设计与制造相关的知识，回答必答题。自述时长为5分钟，答辩题目准备3分钟后开始回答，一人主答，其他成员可作补充。</p><h2>教学目的与要求</h2><p class="body">①认识团队合作的重要性，正确处理团队和个人的关系，在团队中如何发挥自己所长，具有良好的沟通能；
+11.答辩：制作答辩PPT，准备与小车设计与制造相关的知识，回答必答题。自述时长为5分钟，答辩题目准备3分钟后开始回答，一人主答，其他成员可作补充。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">①认识团队合作的重要性，正确处理团队和个人的关系，在团队中如何发挥自己所长，具有良好的沟通能；
 
 ②强化设计能力，掌握机电产品设计流程和方法，熟练掌握机电产品设计常用结构设计软件和仿真软件；
 
@@ -72,24 +99,4 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 ⑤德智体美劳全面发展；
 
-思政目标：勇于担当，脚踏实地，善于观察，团结协作，创新发展。</p><h2>教学内容</h2><p class="body">课程动员：进行课前动员，宣布课程组织形式和内容、团队组建、考核办法、课时分配、组内分工、纪律等方面要求；
-项目启动：解读命题，分析命题中关键点，使学生对命题有全面深刻的理解，为课程顺利开展做好准备。
-产品开发设计：①对现有同类产品进行查询，对查询结果进行优劣性评估，确定本团队总体设计方案；②绘制设计草图，包括车身结构形式和最大尺寸范围、原动机安装方式、动力传递形式（传动链设计），行走轮和转向轮结构和尺寸、实现轨迹控制的机构，明确各功能部件间的位置布局关系；③将草图提交供指导教师评审，确定是否可行。
-机械结构设计：①完成小车车架设计（结构形式和工程材料选用）；②完成传动链设计（包括齿轮、带轮、轴系及轴承座）；③完成原动机设计（原动机形式、安装方式和结构尺寸设计）④完成小车轨迹控制方案设计及速度控制设计；⑤撰写设计说明书（设计思想阐述、设计计算说明书；思路文字说明）；⑥提交3D设计模型和设计说明书供指导教师评审，进行改进设计。
-工程化设计：①将3D模型图转换，输出二维工程图供机械加工用（打印所有自加工零件纸质文件）；②编制“机械加工工艺过程卡片” ；③用于3D打印零件的STL格式文件：④用于激光切割DXF格式文件；⑤用于电火花线切割的DWG格式文件。
-装配图绘制：绘制小车二维装配图和三维装配爆炸图。
-工程制造：①学习机加工机床操作技能，熟练完成机床操作，完成机加工件的加工（参考各类机床操作指导书，现场接受操作技能培训，学会轴类、盘套类零件的加工技能）；②学习激光切割机（非金属切割）操作技能；③学习3D打印机操作；④学习电火花线切割机床操作。所有加工均在指导老师指导下自主完成；
-装配调试：①依据装配图，准备所需物料（加工件、标准件、借用件、外购件），完成小车整车装配，调试到可顺利运行；②在标准场地上进行综合性能调试，使小车可以完成自行和轨迹控制功能。
-工程文件修订、整理：①二维装配图；②三维爆炸图；③传动系统简图③二维工程图④机械加工工艺过程卡片。
-场地竞赛：按照竞赛规则，在标准场地上完成比赛，获得场地竞赛环节得分。
-答辩：①制作答辩PPT，由主讲人自诉项目总结报告，时长3～5分钟；②团队成员逐一进行自我评价，阐述自己承担任务、完成情况、收获，包括对课程的意见和建议等。③课程负责人对课程王城情况做总结点评。</p><h2>课程思政</h2><p class="body">①端正学习态度②遵守规则③建立光荣劳动理念。
-①尊师重教②勤于思考③胆大心细务实
-①正确认识数控技术上差距，发奋图强学习；②团结合作，发挥团队精神；③敢于实践，勇于创新。
-①心系国家，勇于担当；②团结合作，发挥团队精神；③敢于实践，勇于创新。
-①人的可塑性是非常强②绿色环保意识③团队合作精神。
-①创新是发展原动力②只有打牢基础才能成才③科学无国界但科学家要爱国。
-①态度决定人一生成就高低；②只有坚持不懈才能取得成功；③向榜样学习，激发热情，为国做贡献。
-①劳动光荣；②工匠精神伟大；③实干兴邦。
-①做好本职，发挥螺丝钉精神；②只有相互配合，才能获得成功；③职业没有高低贵贱，只有分工不同。
-①在继承传统时要不断创新发展；②再简单的重复不断积累，厚积薄发；③劳动创造力美。
-①基础性研究极其重要，要耐得住寂寞；②勇于担当，努力学习，为国奉献；③人才竞争是国家间竞争的核心，服务于国家建设应成为大学生理想与追求。</p><h2>章节安排（11 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>课程动员：进行课前动员，宣布课程组织形式和内容、团队组建、考核办法、课时分配、组内分工、纪律等方面要求；</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">1</td></tr><tr><td class="c">2</td><td>项目启动：解读命题，分析命题中关键点，使学生对命题有全面深刻的理解，为课程顺利开展做好准备。</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">3</td><td class="n">0</td><td class="n">3</td></tr><tr><td class="c">3</td><td>产品开发设计：①对现有同类产品进行查询，对查询结果进行优劣性评估，确定本团队总体设计方案；②绘制设计草图，包括车身结构形式和最大尺寸范围、原动机安装方式、动力传递形式（传动链设计），行走轮和转向轮结构和尺寸、实现轨迹控制的机构，明确各功能部件间的位置布局关系；③将草图提交供指导教师评审，确定是否可行。</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">4</td><td>机械结构设计：①完成小车车架设计（结构形式和工程材料选用）；②完成传动链设计（包括齿轮、带轮、轴系及轴承座）；③完成原动机设计（原动机形式、安装方式和结构尺寸设计）④完成小车轨迹控制方案设计及速度控制设计；⑤撰写设计说明书（设计思想阐述、设计计算说明书；思路文字说明）；⑥提交3D设计模型和设计说明书供指导教师评审，进行改进设计。</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">5</td><td>工程化设计：①将3D模型图转换，输出二维工程图供机械加工用（打印所有自加工零件纸质文件）；②编制“机械加工工艺过程卡片” ；③用于3D打印零件的STL格式文件：④用于激光切割DXF格式文件；⑤用于电火花线切割的DWG格式文件。</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">6</td><td>装配图绘制：绘制小车二维装配图和三维装配爆炸图。</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">16</td><td class="n">0</td><td class="n">16</td></tr><tr><td class="c">7</td><td>工程制造：①学习机加工机床操作技能，熟练完成机床操作，完成机加工件的加工（参考各类机床操作指导书，现场接受操作技能培训，学会轴类、盘套类零件的加工技能）；②学习激光切割机（非金属切割）操作技能；③学习3D打印机操作；④学习电火花线切割机床操作。所有加工均在指导老师指导下自主完成；</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">16</td><td class="n">0</td><td class="n">16</td></tr><tr><td class="c">8</td><td>装配调试：①依据装配图，准备所需物料（加工件、标准件、借用件、外购件），完成小车整车装配，调试到可顺利运行；②在标准场地上进行综合性能调试，使小车可以完成自行和轨迹控制功能。</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">8</td><td class="n">0</td><td class="n">8</td></tr><tr><td class="c">9</td><td>工程文件修订、整理：①二维装配图；②三维爆炸图；③传动系统简图③二维工程图④机械加工工艺过程卡片。</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">10</td><td>场地竞赛：按照竞赛规则，在标准场地上完成比赛，获得场地竞赛环节得分。</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">11</td><td>答辩：①制作答辩PPT，由主讲人自诉项目总结报告，时长3～5分钟；②团队成员逐一进行自我评价，阐述自己承担任务、完成情况、收获，包括对课程的意见和建议等。③课程负责人对课程王城情况做总结点评。</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">4</td></tr><tr><th></th><th>合计</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">80</th><th style="text-align:right"></th><th style="text-align:right">80</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> ①端正学习态度②遵守规则③建立光荣劳动理念。</li><li><b>第2章</b> ①尊师重教②勤于思考③胆大心细务实</li><li><b>第3章</b> ①正确认识数控技术上差距，发奋图强学习；②团结合作，发挥团队精神；③敢于实践，勇于创新。</li><li><b>第4章</b> ①心系国家，勇于担当；②团结合作，发挥团队精神；③敢于实践，勇于创新。</li><li><b>第5章</b> ①人的可塑性是非常强②绿色环保意识③团队合作精神。</li><li><b>第6章</b> ①创新是发展原动力②只有打牢基础才能成才③科学无国界但科学家要爱国。</li><li><b>第7章</b> ①态度决定人一生成就高低；②只有坚持不懈才能取得成功；③向榜样学习，激发热情，为国做贡献。</li><li><b>第8章</b> ①劳动光荣；②工匠精神伟大；③实干兴邦。</li><li><b>第9章</b> ①做好本职，发挥螺丝钉精神；②只有相互配合，才能获得成功；③职业没有高低贵贱，只有分工不同。</li><li><b>第10章</b> ①在继承传统时要不断创新发展；②再简单的重复不断积累，厚积薄发；③劳动创造力美。</li><li><b>第11章</b> ①基础性研究极其重要，要耐得住寂寞；②勇于担当，努力学习，为国奉献；③人才竞争是国家间竞争的核心，服务于国家建设应成为大学生理想与追求。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/23020504.html">查看原始页面</a><a href="../json/23020504.json">下载 JSON</a><a href="../txt/23020504.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+思政目标：勇于担当，脚踏实地，善于观察，团结协作，创新发展。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>认识团队合作的重要性，正确处理团队和个人的关系，在团队中如何发挥自己所长，具有良好的沟通能；</li><li>强化设计能力，掌握机电产品设计流程和方法，熟练掌握机电产品设计常用结构设计软件和仿真软件；</li><li>提升综合工艺能力，能够编制零件加工工艺卡，正确选择工、夹、量具；</li><li>强化动手能力,独立操作加工设备完成机械零件加工和装配，具有机电产品调试和处理实际工程问题能力；强化劳动意识，工作现场设备卫生整备；</li><li>德智体美劳全面发展；</li><li>勇于担当，脚踏实地，善于观察，团结协作，创新发展；</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>课堂表现</td><td>实验操作</td><td>作品展示</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">40%</td><td class="n">50%</td><td class="n">10%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">实践</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">课程动员：进行课前动员，宣布课程组织形式和内容、团队组建、考核办法、课时分配、组内分工、纪律等方面要求；</td><td class="n cb">1</td><td class="n cb">1</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①端正学习态度②遵守规则③建立光荣劳动理念。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">项目启动：解读命题，分析命题中关键点，使学生对命题有全面深刻的理解，为课程顺利开展做好准备。</td><td class="n cb">3</td><td class="n cb">3</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①尊师重教②勤于思考③胆大心细务实</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">产品开发设计：①对现有同类产品进行查询，对查询结果进行优劣性评估，确定本团队总体设计方案；②绘制设计草图，包括车身结构形式和最大尺寸范围、原动机安装方式、动力传递形式（传动链设计），行走轮和转向轮结构和尺寸、实现轨迹控制的机构，明确各功能部件间的位置布局关系；③将草图提交供指导教师评审，确定是否可行。</td><td class="n cb">8</td><td class="n cb">8</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①正确认识数控技术上差距，发奋图强学习；②团结合作，发挥团队精神；③敢于实践，勇于创新。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">4</td><td class="cb">机械结构设计：①完成小车车架设计（结构形式和工程材料选用）；②完成传动链设计（包括齿轮、带轮、轴系及轴承座）；③完成原动机设计（原动机形式、安装方式和结构尺寸设计）④完成小车轨迹控制方案设计及速度控制设计；⑤撰写设计说明书（设计思想阐述、设计计算说明书；思路文字说明）；⑥提交3D设计模型和设计说明书供指导教师评审，进行改进设计。</td><td class="n cb">8</td><td class="n cb">8</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①心系国家，勇于担当；②团结合作，发挥团队精神；③敢于实践，勇于创新。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">5</td><td class="cb">工程化设计：①将3D模型图转换，输出二维工程图供机械加工用（打印所有自加工零件纸质文件）；②编制“机械加工工艺过程卡片” ；③用于3D打印零件的STL格式文件：④用于激光切割DXF格式文件；⑤用于电火花线切割的DWG格式文件。</td><td class="n cb">8</td><td class="n cb">8</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①人的可塑性是非常强②绿色环保意识③团队合作精神。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">6</td><td class="cb">装配图绘制：绘制小车二维装配图和三维装配爆炸图。</td><td class="n cb">16</td><td class="n cb">16</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①创新是发展原动力②只有打牢基础才能成才③科学无国界但科学家要爱国。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">7</td><td class="cb">工程制造：①学习机加工机床操作技能，熟练完成机床操作，完成机加工件的加工（参考各类机床操作指导书，现场接受操作技能培训，学会轴类、盘套类零件的加工技能）；②学习激光切割机（非金属切割）操作技能；③学习3D打印机操作；④学习电火花线切割机床操作。所有加工均在指导老师指导下自主完成；</td><td class="n cb">16</td><td class="n cb">16</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①态度决定人一生成就高低；②只有坚持不懈才能取得成功；③向榜样学习，激发热情，为国做贡献。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">8</td><td class="cb">装配调试：①依据装配图，准备所需物料（加工件、标准件、借用件、外购件），完成小车整车装配，调试到可顺利运行；②在标准场地上进行综合性能调试，使小车可以完成自行和轨迹控制功能。</td><td class="n cb">8</td><td class="n cb">8</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①劳动光荣；②工匠精神伟大；③实干兴邦。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">9</td><td class="cb">工程文件修订、整理：①二维装配图；②三维爆炸图；③传动系统简图③二维工程图④机械加工工艺过程卡片。</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①做好本职，发挥螺丝钉精神；②只有相互配合，才能获得成功；③职业没有高低贵贱，只有分工不同。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">10</td><td class="cb">场地竞赛：按照竞赛规则，在标准场地上完成比赛，获得场地竞赛环节得分。</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①在继承传统时要不断创新发展；②再简单的重复不断积累，厚积薄发；③劳动创造力美。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">11</td><td class="cb">答辩：①制作答辩PPT，由主讲人自诉项目总结报告，时长3～5分钟；②团队成员逐一进行自我评价，阐述自己承担任务、完成情况、收获，包括对课程的意见和建议等。③课程负责人对课程王城情况做总结点评。</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>①基础性研究极其重要，要耐得住寂寞；②勇于担当，努力学习，为国奉献；③人才竞争是国家间竞争的核心，服务于国家建设应成为大学生理想与追求。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">80</td><td class="n">80</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr><tr><td class="c">1</td><td>激光加工</td><td>能够将加工文件导入到设备中，设置合理的加工参数，操作设备加工出合格的工件。</td><td class="n">8</td><td>操作性实验</td></tr><tr><td class="c">2</td><td>电火花加工</td><td>掌握电火花线切割机床操作技能，包括换丝、穿丝、更换导电块；独立完成加工零件程序自动编程，熟练操作机床完成工件加工。</td><td class="n">16</td><td>综合性实验</td></tr><tr><td class="c">3</td><td>综合性能测试</td><td>以竞赛的形式展示作品的综合性能，在给定能量的前提下，在赛道上进行避障运行，争取行进最大距离和有效绕过更多障碍桩。</td><td class="n">4</td><td>综合性实验</td></tr><tr><td class="c">4</td><td>数控铣加工</td><td>制定加工工艺，编制加工程序，建立加工坐标系，选择合适的道具，操作机床加工出合格的工件，检验零件是否符合要求。</td><td class="n">16</td><td>综合性实验</td></tr><tr><td class="c">5</td><td>装配</td><td>选择合适的工具，将检验合格的零件进行整车装配调试，使其完成预期功能指标，实现自行运转，轨迹可控。</td><td class="n">16</td><td>综合性实验</td></tr><tr><td class="c">6</td><td>数控车加工</td><td>制定加工工艺，编制加工程序，建立加工坐标系，选择合适的道具，操作机床加工出合格的工件，检验零件是否符合要求。</td><td class="n">16</td><td>综合性实验</td></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>以项目驱动的机械创新设计与实践</td><td>傅水根</td><td>978-7-302-32477-5</td><td>清华大学出版社</td><td class="n">2013</td></tr><tr><td>先进制造技术基础实习				先进制造技术基础实习			先进制造技术基础实习</td><td>王景贵、刘东升</td><td>978-7-118-05806-2</td><td>国防工业出版社</td><td class="n">2008</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>
