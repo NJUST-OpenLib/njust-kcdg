@@ -192,6 +192,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "安全原理与危险化学测评技术",
+   "editor": "刘荣海，陈网桦，胡毅亭",
+   "isbn": "9787502557904",
+   "press": "化学工业出版社",
+   "year": "2004"
+  },
+  {
+   "title": "安全系统工程",
+   "editor": "胡毅亭，陈网桦，卫延安",
+   "isbn": "9787305065910",
+   "press": "南京大学出版社",
+   "year": "2009"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03020503",
  "hasOriginal": true
 }

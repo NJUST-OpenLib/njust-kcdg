@@ -186,6 +186,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《化学生物学导论》",
+   "editor": "马林 古练权",
+   "isbn": "9787502580414",
+   "press": "化学工业出版社出版",
+   "year": "2012"
+  },
+  {
+   "title": "《生物有机化学》",
+   "editor": "古练权，马林",
+   "isbn": "9787040063141",
+   "press": "高等教育出版社出版",
+   "year": "1998"
+  },
+  {
+   "title": "《生物化学》（第四版）",
+   "editor": "沈同",
+   "isbn": "9787040457988",
+   "press": "高等教育出版社",
+   "year": "2017"
+  },
+  {
+   "title": "《化学生物学基础》",
+   "editor": "刘磊",
+   "isbn": "9787030287670",
+   "press": "科学出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=15ED9606C68E4FE98A953F64811997B4",
  "hasOriginal": true
 }

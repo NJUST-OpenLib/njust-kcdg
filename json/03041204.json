@@ -139,6 +139,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "安全评价（上、下）",
+   "editor": "国家安全生产监督管理总局",
+   "isbn": "9787502026431",
+   "press": "煤炭工业出版社",
+   "year": "2005"
+  },
+  {
+   "title": "安全原理与危险化学测评技术",
+   "editor": "刘荣海",
+   "isbn": "9787502557904",
+   "press": "化学工业出版社",
+   "year": "2004"
+  },
+  {
+   "title": "安全管理",
+   "editor": "饶国宁",
+   "isbn": "9787305076435",
+   "press": "南京大学出版社",
+   "year": "2010"
+  },
+  {
+   "title": "化工过程安全",
+   "editor": "赵劲松",
+   "isbn": "9787122244291",
+   "press": "化学工业出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=CB4F151ADA8B4BE4B61CB42AAE17C82F",
  "hasOriginal": true
 }

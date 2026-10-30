@@ -114,6 +114,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "新能源材料",
+   "editor": "吴其胜",
+   "isbn": "978-7-5628-5051-9",
+   "press": "华东理工大学出版社",
+   "year": "2017"
+  },
+  {
+   "title": "新能源材料概论",
+   "editor": "张玉兰、蔺锡柱",
+   "isbn": "978-7-122-34986-6",
+   "press": "化学工业出版社",
+   "year": "2022"
+  },
+  {
+   "title": "新能源材料与器件",
+   "editor": "王新东、王萌",
+   "isbn": "978-7-122-33549-4",
+   "press": "化学工业出版社",
+   "year": "2019"
+  },
+  {
+   "title": "新能源材料技术",
+   "editor": "朱继平",
+   "isbn": "978-7-122-21820-9",
+   "press": "化学工业出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=F64989AE2029409E8F7FE6551D1B1776",
  "hasOriginal": true
 }

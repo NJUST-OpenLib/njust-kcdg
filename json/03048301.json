@@ -176,6 +176,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "职业卫生与防护（第2版)",
+   "editor": "陈沅江",
+   "isbn": "978-7-111-59774-2",
+   "press": "机械工业出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03048301",
  "hasOriginal": true
 }

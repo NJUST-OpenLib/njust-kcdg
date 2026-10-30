@@ -190,6 +190,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《核燃料》",
+   "editor": "李冠兴，武胜",
+   "isbn": "9787122001047",
+   "press": "化学工业出版社",
+   "year": "2007"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=97CA08CCA5D14B60ADCCFA0AF6CFCA2A",
  "hasOriginal": true
 }

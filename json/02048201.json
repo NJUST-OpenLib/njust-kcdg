@@ -163,6 +163,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "转基因生物安全",
+   "editor": "曾北危",
+   "isbn": "7502554343",
+   "press": "化学工业出版社",
+   "year": "2004"
+  },
+  {
+   "title": "生物安全与防止污染",
+   "editor": "朱守一",
+   "isbn": "9787502525774",
+   "press": "化学工业出版社",
+   "year": "1999"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=18211EAB404A4EB19008A731D31281AE",
  "hasOriginal": true
 }

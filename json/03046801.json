@@ -153,6 +153,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "原子核物理（修订版）",
+   "editor": "卢希庭",
+   "isbn": "9787502221881",
+   "press": "原子能出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03046801",
  "hasOriginal": true
 }

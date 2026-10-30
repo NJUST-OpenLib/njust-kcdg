@@ -138,6 +138,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "环保设备及应用（第二版）",
+   "editor": "周敬宣，段金明",
+   "isbn": "978-7-122-21119-4",
+   "press": "化学工业出版社",
+   "year": "2014"
+  },
+  {
+   "title": "环保设备-原理 设计 应用",
+   "editor": "刘宏",
+   "isbn": "978-7-122-34884-5",
+   "press": "化学工业出版社",
+   "year": "2019"
+  },
+  {
+   "title": "环保设备基础",
+   "editor": "李永峰，李巧燕，宋玉珍",
+   "isbn": "978-7-122-29152-3",
+   "press": "化学工业出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=02028401",
  "hasOriginal": true
 }

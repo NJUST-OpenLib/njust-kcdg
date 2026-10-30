@@ -115,6 +115,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "表面活性剂化学（第2版）",
+   "editor": "王世荣，李祥高，刘东志，等",
+   "isbn": "978-7-122-07783-7",
+   "press": "化学工业出版社",
+   "year": "2010"
+  },
+  {
+   "title": "表面活性剂化学",
+   "editor": "陆明",
+   "isbn": "978-7-801-72867-8",
+   "press": "兵器工业出版社",
+   "year": "2007"
+  },
+  {
+   "title": "Surface and Colloid Chemistry",
+   "editor": "P Somasundaran",
+   "isbn": "？978-1-492-36595-2",
+   "press": "create Space Independent Publishing Platform",
+   "year": "2013"
+  },
+  {
+   "title": "表面活性剂、胶体与界面化学基础",
+   "editor": "崔正刚",
+   "isbn": "978-7-122-34178-5",
+   "press": "化学工业出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03020902",
  "hasOriginal": true
 }

@@ -73,6 +73,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "from Ethnomycology to Fungal Biotechnology",
+   "editor": "R Kumar，KR Aneja",
+   "isbn": "",
+   "press": "Springer US",
+   "year": "1999"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E7E6069D0F554CC98434E01759985050",
  "hasOriginal": true
 }

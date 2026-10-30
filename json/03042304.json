@@ -112,6 +112,44 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "爆炸理论",
+   "editor": "韩志伟、王伯良等",
+   "isbn": "9787576308679",
+   "press": "北京理工大学出版社",
+   "year": "2022"
+  },
+  {
+   "title": "爆炸及其作用",
+   "editor": "北京工业学院八系",
+   "isbn": "",
+   "press": "国防工业出版社",
+   "year": "1979"
+  },
+  {
+   "title": "一维不定常流与冲击波",
+   "editor": "李维新",
+   "isbn": "9787118028690",
+   "press": "国防工业出版社",
+   "year": "2003"
+  },
+  {
+   "title": "爆炸及其应用技术",
+   "editor": "张俊秀，刘光烈",
+   "isbn": "9787801324337",
+   "press": "兵器工业出版社",
+   "year": "1998"
+  },
+  {
+   "title": "军用混合炸药",
+   "editor": "孙业斌，惠君明，曹欣茂",
+   "isbn": "9787800388767",
+   "press": "国防工业出版社",
+   "year": "1995"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=FF6009074A2A43CC85FF8A7AC0D78B00",
  "hasOriginal": true
 }

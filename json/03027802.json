@@ -151,6 +151,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "环境监测 （第五版）",
+   "editor": "奚旦立",
+   "isbn": "978-7-04-050987-8",
+   "press": "高等教育出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03027802",
  "hasOriginal": true
 }

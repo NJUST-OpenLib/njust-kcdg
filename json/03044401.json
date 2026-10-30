@@ -139,6 +139,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "环境工程CAD（第3版）",
+   "editor": "李颖，吴菁，李英",
+   "isbn": "978-7-111-66364-5",
+   "press": "机械工业出版社",
+   "year": "2020"
+  },
+  {
+   "title": "环境工程CAD",
+   "editor": "马承荣，景长勇",
+   "isbn": "978-7-5629-5623-5",
+   "press": "武汉理工大学出版社",
+   "year": "2017"
+  },
+  {
+   "title": "环境工程CAD应用技术（第二版）",
+   "editor": "潘理黎",
+   "isbn": "978-7-122-14726-4",
+   "press": "化学工业出版社",
+   "year": "2012"
+  },
+  {
+   "title": "环境工程制图与CAD",
+   "editor": "张晶",
+   "isbn": "978-7-122-20173-7",
+   "press": "化学工业出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03044401",
  "hasOriginal": true
 }

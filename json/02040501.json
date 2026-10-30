@@ -194,6 +194,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "辐射化学基础教程",
+   "editor": "彭静",
+   "isbn": "9787301259375",
+   "press": "北京大学出版社",
+   "year": "2015"
+  },
+  {
+   "title": "辐射化学入门",
+   "editor": "张曼维",
+   "isbn": "9787312003837",
+   "press": "中国科学技术大学出版社",
+   "year": "2003"
+  },
+  {
+   "title": "辐射技术与先进材料",
+   "editor": "吴国忠",
+   "isbn": "9787313141972",
+   "press": "上海交大出版社",
+   "year": "2016"
+  },
+  {
+   "title": "高分子材料辐射加工技术及进展",
+   "editor": "翟茂林",
+   "isbn": "9787502553753",
+   "press": "化学工业出版社",
+   "year": "2004"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=FE5E3E68574D46AEBAAFE8A838FCA493",
  "hasOriginal": true
 }

@@ -99,6 +99,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "纳米药物（第一版）",
+   "editor": "蒋晨",
+   "isbn": "9787562842248",
+   "press": "华东理工大学出版社",
+   "year": "2015/8/1"
+  },
+  {
+   "title": "纳米技术与精准医疗",
+   "editor": "崔大祥等",
+   "isbn": "9787313204783",
+   "press": "上海交通大学出版社",
+   "year": "2020/3/1"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A96276F0264D4EA9AC86088586F7891D",
  "hasOriginal": true
 }

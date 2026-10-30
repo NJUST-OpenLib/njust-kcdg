@@ -151,6 +151,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "现代生物仪器分析",
+   "editor": "聂永心",
+   "isbn": "9787122198495",
+   "press": "化学工业出版社",
+   "year": "2014"
+  },
+  {
+   "title": "仪器分析教程(第3版)",
+   "editor": "张新祥，李美仙，李娜",
+   "isbn": "9787301328880",
+   "press": "北京大学出版社",
+   "year": "2022"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=02023101",
  "hasOriginal": true
 }

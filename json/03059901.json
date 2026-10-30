@@ -137,6 +137,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "胶体与界面化学",
+   "editor": "陈宗淇",
+   "isbn": "9787040099263",
+   "press": "高等教育出版社",
+   "year": "2001"
+  },
+  {
+   "title": "胶体与表面化学（第四版）",
+   "editor": "沈钟，赵振国，康万利",
+   "isbn": "9787122129826",
+   "press": "化学工业出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03059901",
  "hasOriginal": true
 }

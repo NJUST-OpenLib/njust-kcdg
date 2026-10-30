@@ -231,6 +231,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Nanoparticulate Drug Delivery Systems",
+   "editor": "Deepak Thassu, Michel Deleers",
+   "isbn": "9780367453114",
+   "press": "北京大学医学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "药用生物纳米材料",
+   "editor": "Challa Kumar",
+   "isbn": "9787030255150",
+   "press": "科学出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=02022701",
  "hasOriginal": true
 }

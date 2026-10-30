@@ -218,6 +218,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "In Vitro Diagnostic Industry in China",
+   "editor": "Haibo Song, Jian'er Yao",
+   "isbn": "9811623155",
+   "press": "Springer",
+   "year": "2019"
+  },
+  {
+   "title": "In？Vitro Diagnostic Devices: Introduction to Current Point？of？Care Diagnostic Devices",
+   "editor": "Chao-Ming Chen, Chen-Meng Kuan, Chien-Fu Chen",
+   "isbn": "9783319197364",
+   "press": "Springer",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=BF6721C6447F4BC496132880EDF93D65",
  "hasOriginal": true
 }

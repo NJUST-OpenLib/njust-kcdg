@@ -86,6 +86,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "大气污染控制工程",
+   "editor": "郝吉明，马广大，王书肖",
+   "isbn": "",
+   "press": "高等教育出版社",
+   "year": "2010"
+  },
+  {
+   "title": "大气污染控制工程",
+   "editor": "郝吉明，马广大，王书肖",
+   "isbn": "",
+   "press": "高等教育出版社",
+   "year": "2010"
+  },
+  {
+   "title": "水污染控制工程",
+   "editor": "高廷耀，顾国维，周琪",
+   "isbn": "",
+   "press": "高等教育出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03031096",
  "hasOriginal": true
 }

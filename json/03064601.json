@@ -113,6 +113,44 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "有机化合物结构分析",
+   "editor": "邹建平，王璐，增润生",
+   "isbn": "9787030160287",
+   "press": "科学出版社",
+   "year": "2005"
+  },
+  {
+   "title": "有机分析",
+   "editor": "杨红",
+   "isbn": "9787040261219",
+   "press": "高等教育出版社",
+   "year": "2009"
+  },
+  {
+   "title": "单晶结构分析原理与实践",
+   "editor": "陈小明，蔡继文",
+   "isbn": "9787030192165",
+   "press": "科学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "精细化学品剖析及常用技术原理",
+   "editor": "贾长英　等",
+   "isbn": "9787511411341",
+   "press": "中国石化出版社有限公司",
+   "year": "2011"
+  },
+  {
+   "title": "药物分析",
+   "editor": "赵春杰",
+   "isbn": "9787302279303",
+   "press": "清华大学出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=EA2D9903A7854CF0ADE3B682B8583E3F",
  "hasOriginal": true
 }

@@ -99,6 +99,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "蒙特卡罗方法在实验核物理中的应用",
+   "editor": "许淑艳",
+   "isbn": "978-7-5022-3641-0",
+   "press": "原子能出版社",
+   "year": ""
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=0B13161CC0734E1DBD5E31379362B3D1",
  "hasOriginal": true
 }

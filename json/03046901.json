@@ -168,6 +168,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "辐射剂量学",
+   "editor": "魏志勇",
+   "isbn": "9787811338237",
+   "press": "哈尔滨工程出版社",
+   "year": "2010"
+  },
+  {
+   "title": "辐射剂量学",
+   "editor": "田志恒",
+   "isbn": "7502204741",
+   "press": "原子能出版社",
+   "year": "1992"
+  },
+  {
+   "title": "电离辐射剂量学基础",
+   "editor": "孙亮",
+   "isbn": "9787502265021",
+   "press": "中国原子能出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03046901",
  "hasOriginal": true
 }

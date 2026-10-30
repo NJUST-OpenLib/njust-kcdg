@@ -165,6 +165,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "环境纳米科学与技术",
+   "editor": "江桂斌;全燮;刘景富;朱利中;郭良宏",
+   "isbn": "",
+   "press": "科学出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=EC420FF4DBED4E9EBCA9BF55EC1E3645",
  "hasOriginal": true
 }

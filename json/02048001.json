@@ -164,6 +164,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "参考数目：工程伦理（第2版）",
+   "editor": "李正风等",
+   "isbn": "9787302524670",
+   "press": "清华大学出版社",
+   "year": "2019.06"
+  },
+  {
+   "title": "教材：生物医学工程伦理",
+   "editor": "郑小林",
+   "isbn": "9787121398421",
+   "press": "电子工业出版社",
+   "year": "2020.11"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8B6E27E26BAA4FC28F0780B57982072E",
  "hasOriginal": true
 }

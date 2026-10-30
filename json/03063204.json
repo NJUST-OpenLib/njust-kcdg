@@ -163,6 +163,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "科技论文写作与发表教程（第八版）",
+   "editor": "（美）芭芭拉·盖斯特尔（Barbara Gastel）,（美）罗伯特·A.戴（Robert A. Day）著；任治刚译",
+   "isbn": "978-7-121-33523-5",
+   "press": "北京：电子工业出版社",
+   "year": "2018"
+  },
+  {
+   "title": "毕业论文写作导论",
+   "editor": "刘晓华，任廷琦",
+   "isbn": "978-7-03-014435-5",
+   "press": "北京：科学出版社",
+   "year": "2004"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E0035E0BE0874A9B8DA78F20322F7FD2",
  "hasOriginal": true
 }

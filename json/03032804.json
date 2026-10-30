@@ -124,6 +124,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "物理化学（第五版）",
+   "editor": "天津大学物理化学教研室",
+   "isbn": "9787040262797",
+   "press": "高等教育出版社",
+   "year": "2009"
+  },
+  {
+   "title": "物理化学（第五版）",
+   "editor": "傅献彩 等",
+   "isbn": "9787040167696",
+   "press": "高等教育出版社",
+   "year": "2009"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03032804",
  "hasOriginal": true
 }

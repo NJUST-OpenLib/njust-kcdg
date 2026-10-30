@@ -203,6 +203,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "安全人机工程学",
+   "editor": "廖可兵，刘爱群",
+   "isbn": "978-7-5020-7724-2",
+   "press": "应急管理出版社",
+   "year": "2020"
+  },
+  {
+   "title": "安全人机工程学",
+   "editor": "李红杰，鲁顺清",
+   "isbn": "7-5625-2086-0",
+   "press": "中国地质大学出版社",
+   "year": "2006"
+  },
+  {
+   "title": "安全人机工程学",
+   "editor": "谢庆森、王秉权",
+   "isbn": "7-5618-1233-7",
+   "press": "天津大学出版社",
+   "year": "2002"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03020301",
  "hasOriginal": true
 }

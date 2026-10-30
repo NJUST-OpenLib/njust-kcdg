@@ -125,6 +125,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "注：\n1.",
+   "editor": "",
+   "isbn": "",
+   "press": "",
+   "year": ""
+  },
+  {
+   "title": "科技论文写作与发表教程（第八版）",
+   "editor": "（美）Barbara Gastel（芭芭拉 盖斯特尔）， Robert A. Day（罗伯特 A. 戴）",
+   "isbn": "9787121335235",
+   "press": "电子工业出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4317E461C0ED4BF38F50889B47788D2B",
  "hasOriginal": true
 }

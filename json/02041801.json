@@ -192,6 +192,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "水处理电化学原理与技术",
+   "editor": "曲久辉",
+   "isbn": "9787030187246",
+   "press": "科学出版社",
+   "year": "2007"
+  },
+  {
+   "title": "应用电化学",
+   "editor": "肖友军",
+   "isbn": "978-7-122-15999-1",
+   "press": "化学工业出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B3662503B2AF442A82A9C692BECCD21D",
  "hasOriginal": true
 }

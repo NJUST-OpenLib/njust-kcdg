@@ -111,6 +111,57 @@
    }
   }
  ],
+ "books": [],
+ "labs": [
+  {
+   "name": "Linux操作系统",
+   "content": "学习使用linux系统",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "原子轨道的量子力学计算",
+   "content": "计算原子轨道并使用图形界面显示",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "Lewis结构式和共振",
+   "content": "了解Lewis结构式的局限性",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "分子振动光谱计算",
+   "content": "分子特征振动频率的计算",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "分子结构优化",
+   "content": "分子势能面形状和结构",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "分子轨道理论和反应过渡态",
+   "content": "化学反应中化学键的变化",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "键的解离能和酸度",
+   "content": "计算化学键键能",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "Hückel方法",
+   "content": "共轭体系电子结构的计算",
+   "hours": "2",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03049501",
  "hasOriginal": true
 }

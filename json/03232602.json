@@ -111,6 +111,33 @@
    }
   }
  ],
+ "books": [],
+ "labs": [
+  {
+   "name": "硫酸铜提纯",
+   "content": "无机化合物的提纯",
+   "hours": "4",
+   "type": "操作性实验"
+  },
+  {
+   "name": "三草酸根合铁(III)酸钾配合物晶体的制备",
+   "content": "无机复盐的制备",
+   "hours": "4",
+   "type": "操作性实验"
+  },
+  {
+   "name": "三草酸根合铁(III)酸钾磁化率的测定",
+   "content": "配合物磁性质的验证",
+   "hours": "3",
+   "type": "验证性实验"
+  },
+  {
+   "name": "元素性质：锡 铅 锑 铋 铬 锰 铁 钴 镍 铜 银 锌 镉",
+   "content": "p区、d区化合物性质的验证",
+   "hours": "5",
+   "type": "验证性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03232602",
  "hasOriginal": true
 }

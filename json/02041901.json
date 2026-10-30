@@ -73,6 +73,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "现代分离科学",
+   "editor": "刘震",
+   "isbn": "",
+   "press": "化学工业出版社",
+   "year": "2017"
+  },
+  {
+   "title": "分离科学与技术",
+   "editor": "陈立钢 廖丽霞",
+   "isbn": "",
+   "press": "化学工业出版社",
+   "year": "2014"
+  },
+  {
+   "title": "金属有机框架材料",
+   "editor": "陈小明，张杰鹏",
+   "isbn": "",
+   "press": "化学工业出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B47CF48D09274617945B7BFA991EA565",
  "hasOriginal": true
 }

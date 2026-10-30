@@ -100,6 +100,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "生化工艺学",
+   "editor": "陈来同",
+   "isbn": "7-5004-4301-3",
+   "press": "科学出版社",
+   "year": "2018"
+  },
+  {
+   "title": "生物工厂工艺设计",
+   "editor": "邓祥元",
+   "isbn": "9787122346568",
+   "press": "化学工业出版社",
+   "year": "2020"
+  },
+  {
+   "title": "AutoCAD2018基础教程机械实例版",
+   "editor": "周惠群",
+   "isbn": "9787122317186",
+   "press": "化学工业出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A16250AA7C1E44FB9711F69B7A44B00D",
  "hasOriginal": true
 }

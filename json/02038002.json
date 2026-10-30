@@ -142,6 +142,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "大气污染控制工程设计教程",
+   "editor": "张慧",
+   "isbn": "978-7-5029-5961-6",
+   "press": "气象出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=335338ABF7C74976B560D4EB8AAE9EFC",
  "hasOriginal": true
 }

@@ -125,6 +125,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "核反应堆物理分析（第五版）",
+   "editor": "谢仲生",
+   "isbn": "978-7-569-31704-6",
+   "press": "西安交通大学出版社",
+   "year": "2020"
+  },
+  {
+   "title": "反应堆工程（第三版）",
+   "editor": "阎昌琪",
+   "isbn": "978-7-566-12552-1",
+   "press": "哈尔滨工程大学出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03047301",
  "hasOriginal": true
 }

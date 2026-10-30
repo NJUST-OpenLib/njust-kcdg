@@ -194,6 +194,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "水污染控制工程",
+   "editor": "高廷耀等",
+   "isbn": "978-7-04-041459-2",
+   "press": "高等教育出版社",
+   "year": "2015.4"
+  },
+  {
+   "title": "建筑与小区雨水控制及利用工程技术规范 GB 50400",
+   "editor": "中华人民共和国国家标准",
+   "isbn": "无",
+   "press": "中国计划出版社",
+   "year": "2016"
+  },
+  {
+   "title": "建筑给水排水设计规范 GB 50015",
+   "editor": "中华人民共和国国家标准",
+   "isbn": "无",
+   "press": "中国计划出版社",
+   "year": "2019"
+  },
+  {
+   "title": "室外排水设计规范 GB 50014",
+   "editor": "中华人民共和国国家标准",
+   "isbn": "无",
+   "press": "中国计划出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3255CB5FB0AF42059A9B8DB84DD0A8E7",
  "hasOriginal": true
 }

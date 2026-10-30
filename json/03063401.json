@@ -163,6 +163,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "防火与防爆工程",
+   "editor": "李斌",
+   "isbn": "9787560357898",
+   "press": "哈尔滨工业大学出版社",
+   "year": "2016"
+  },
+  {
+   "title": "安全评价师国家职业资格培训教程（第2版）",
+   "editor": "中国职业培训技术指导中心，中国安全生产协会",
+   "isbn": "9787504585844",
+   "press": "中国劳动社会保障出版社",
+   "year": "2010"
+  },
+  {
+   "title": "安全系统工程",
+   "editor": "胡毅亭，陈网桦，卫延安",
+   "isbn": "9787305065910",
+   "press": "南京大学出版社",
+   "year": "2009"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=2C1893EF10C04CE189B97F55339DCEC6",
  "hasOriginal": true
 }

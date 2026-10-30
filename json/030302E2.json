@@ -138,6 +138,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Fundamentals of Enzyme Engineering",
+   "editor": "Young Je Yoo",
+   "isbn": "9789402410266",
+   "press": "Springer",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=030302E2",
  "hasOriginal": true
 }

@@ -139,6 +139,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "生物工程及生物技术专业英语",
+   "editor": "范伟平",
+   "isbn": "9787560943022",
+   "press": "华中科技大学出版社",
+   "year": "2007"
+  },
+  {
+   "title": "生物工程生物技术专业英语",
+   "editor": "邬行彦、储炬、宫衡",
+   "isbn": "9787502526313",
+   "press": "化学工业出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C234EF4D3F5E420C9D41A0FFBEB8BC8A",
  "hasOriginal": true
 }

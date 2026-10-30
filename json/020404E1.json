@@ -73,6 +73,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "Handbook of Biosensors and Biochips (2 vols)",
+   "editor": "R. S. Marks",
+   "isbn": "",
+   "press": "Wiley",
+   "year": "2007"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=CB6D55D1C0A84590BA0A8BEC875C5D57",
  "hasOriginal": true
 }

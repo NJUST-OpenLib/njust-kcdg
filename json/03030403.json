@@ -150,6 +150,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "现代大学化学",
+   "editor": "王风云,夏明珠,雷武",
+   "isbn": "9787122062581",
+   "press": "化学工业出版社",
+   "year": "2009"
+  },
+  {
+   "title": "化学与社会",
+   "editor": "蔡苹",
+   "isbn": "9787030270504",
+   "press": "科学出版社",
+   "year": "2010"
+  },
+  {
+   "title": "从化学的角度看世界",
+   "editor": "吴旦,刘萍,朱红",
+   "isbn": "7-50257-7998",
+   "press": "化学工业出版社",
+   "year": "2006"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03030403",
  "hasOriginal": true
 }

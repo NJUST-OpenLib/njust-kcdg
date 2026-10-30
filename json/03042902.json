@@ -164,6 +164,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "环境仪器分析（第二版）",
+   "editor": "韩长秀 毕成良",
+   "isbn": "978-7-122-33126-7",
+   "press": "化学工业出版社",
+   "year": "2018"
+  },
+  {
+   "title": "环境仪器分析（第二版）",
+   "editor": "钱沙华 韦进宝",
+   "isbn": "978-7-5111-0648-3",
+   "press": "中国环境科学出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03042902",
  "hasOriginal": true
 }

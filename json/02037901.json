@@ -103,6 +103,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "特种废水处理工程（第二版）",
+   "editor": "李家科",
+   "isbn": "978-7-112-19613-5",
+   "press": "中国建筑工业出版社",
+   "year": "2016"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=02037901",
  "hasOriginal": true
 }

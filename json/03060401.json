@@ -137,6 +137,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "化工过程热风险",
+   "editor": "陈网桦",
+   "isbn": "9787122373380",
+   "press": "化学工业出版社",
+   "year": "2020"
+  },
+  {
+   "title": "安全管理",
+   "editor": "饶国宁",
+   "isbn": "9787305076435",
+   "press": "南京大学出版社",
+   "year": "2010"
+  },
+  {
+   "title": "防火防爆工程",
+   "editor": "解立峰",
+   "isbn": "9787502451363",
+   "press": "哈尔滨工业大学出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03060401",
  "hasOriginal": true
 }

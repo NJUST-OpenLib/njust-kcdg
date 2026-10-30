@@ -163,6 +163,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "无机化学（第六版）",
+   "editor": "孟长功",
+   "isbn": "978-7-04-050429-3",
+   "press": "高等教育出版社",
+   "year": "2018"
+  },
+  {
+   "title": "工科大学化学（第二版）",
+   "editor": "强亮生 徐崇泉",
+   "isbn": "978-7-04-026281-0",
+   "press": "高等教育出版社",
+   "year": "2009"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03030404",
  "hasOriginal": true
 }

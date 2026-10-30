@@ -138,6 +138,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "核能与环境",
+   "editor": "Ronald E.Herster，Roy M.Harrison编；朱安娜 等译",
+   "isbn": "9787040439410",
+   "press": "高等教育出版社",
+   "year": "2015"
+  },
+  {
+   "title": "核环境学基础",
+   "editor": "宋妙发，强亦忠",
+   "isbn": "7-5022-2127-1",
+   "press": "原子能出版社",
+   "year": "1999"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=03047501",
  "hasOriginal": true
 }
