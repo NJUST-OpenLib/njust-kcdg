@@ -1,0 +1,118 @@
+{
+ "code": "110312E2",
+ "slug": "110312E2",
+ "name": "线性代数【英】",
+ "nameEn": "Linear Algebra[E]",
+ "credit": 2,
+ "dept": "数学与统计学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 8490,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "沈玉萍",
+  "reviewer": "许春根",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:10%；平时作业:30%；期末考试:60%",
+  "goals": [
+   "To grasp concepts and properties of determinants, complete solution to linear equations, vector spaces Rn, Linear independence, eigenvalues and eigenvectors.",
+   "To be experienced in these operations: calculating determinants, the inverse of a matrix, the rank of a matrix, and solving linear equations, eigenvalues and eigenvectors of a matrix and the standard form of a quadratic form.",
+   "To improve the capabilities of students in logical reasoning and solving problems.",
+   "To improve the capabilities of students in problem analyzing."
+  ],
+  "intro": "Linear algebra is a basic course in colleges and universities. It mainly studies the linear theory of finite-dimensional spaces. With the universal applications of computer technology and the rapid development of high-tech, this theory increasingly penetrated into all fields of science. As a basis for research in various disciplines, linear algebra course needs to be more strengthened and improved. \n\nThis course consists of seven chapters: \n\nChapter 1 starts with vectors and matrices. Chapter 2 begins the algebra of matrices: using elimination to solve linear equations. Chapter 3 is linear algebra at the best level: subspaces. Chapter 4 introduces orthogonality and projections.\n\nChapter 5 gives formulas of determinants. Chapter 6 tells us how to diagonalize a symmetric marix using its eigenvalues and eigenvectors. \n\nPreliminary knowledge such as vector algebra and space analytic geometry is required before learning this course. Classroom lecturing with moderate practice courses is the main teaching method and written examinations are the primary means of assessment.",
+  "objectives": "Linear Algebra is a basic course for general education, of which the basic theory and arithmetic are widely applied to various fields of engineering technologies. Its contents are relatively more of abstraction and logicality in theoretical derivation. This course could lay an essential foundation for the subsequent courses, cultivate and promote its students in abstract thinking and logical reasoning.\n\n1. To grasp concepts and properties of determinants, complete solution to linear equations, vector spaces Rn, Linear independence, eigenvalues and eigenvectors.\n\n2. To be experienced in these operations: calculating determinants, the inverse of a matrix, the rank of a matrix, and solving linear equations, eigenvalues and eigenvectors of a matrix and the standard form of a quadratic form.\n\n3. To improve the capabilities of students in problem analyzing, logical reasoning and solving.",
+  "contents": "1 Introduction to Vectors 1.1 Vectors and Linear Combinations 1.2 Lengths and Dot Products 1.3 Matices★\n2 Solving Linear Equations 2.1 Vectors and Linear Equations 2.2 The Idea of Elimination△ 2.3 Elimination Using Matices★ 2.4 Rules for Matrix Operations 2.5 Inverse Matrices△★ 2.6 Elimination=Factorization: A=LU ★ 2.7 Transposes and Permutations\n3 Vector Spaces and Subspaces 3.1 Spaces of Vectors 3.2 The Nullspace of A: Solving Ax=0△ 3.3 The Rank and the Row Reduced Form△ 3.4 The Complete Solution to Ax=b △★ 3.5 Independence, Basis and Dimension★ 3.6 Dimensions of the Four Subspaces\n4 Orthogonality 4.1 Orthogonalith of the Four Subspaces 4.2 Projections△ 4.3 Orthogonal Bases and Gram-Schmidt△★\n5 Determinants 5.1 The Properties of Determinants△ 5.2 Permutations and Cofactors★ 5.3 Cramer's Rule, Inverses, and Volumes\n6 Eigenvalues and Eigenvectors 6.1 Introduction to Eigenvalues△★ 6.2 Diagonalizing a Matrix△★ 6.3 Symmetric Matices 6.4 Positive Definite Matrices△★",
+  "ideology": "To be experienced in these operations.\nTo Improve the capabilities of students in problem analyzing.\nTo improve the capabilities of students in logical reasoning and solving problems."
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "1 Introduction to Vectors 1.1 Vectors and Linear Combinations 1.2 Lengths and Dot Products 1.3 Matices★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "2 Solving Linear Equations 2.1 Vectors and Linear Equations 2.2 The Idea of Elimination△ 2.3 Elimination Using Matices★ 2.4 Rules for Matrix Operations 2.5 Inverse Matrices△★ 2.6 Elimination=Factorization: A=LU ★ 2.7 Transposes and Permutations",
+   "ideology": "To be experienced in these operations.",
+   "hours": {
+    "lecture": 7,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 7
+   }
+  },
+  {
+   "no": 3,
+   "title": "3 Vector Spaces and Subspaces 3.1 Spaces of Vectors 3.2 The Nullspace of A: Solving Ax=0△ 3.3 The Rank and the Row Reduced Form△ 3.4 The Complete Solution to Ax=b △★ 3.5 Independence, Basis and Dimension★ 3.6 Dimensions of the Four Subspaces",
+   "ideology": "To Improve the capabilities of students in problem analyzing.",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 4,
+   "title": "4 Orthogonality 4.1 Orthogonalith of the Four Subspaces 4.2 Projections△ 4.3 Orthogonal Bases and Gram-Schmidt△★",
+   "ideology": "To improve the capabilities of students in logical reasoning and solving problems.",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 5,
+   "title": "5 Determinants 5.1 The Properties of Determinants△ 5.2 Permutations and Cofactors★ 5.3 Cramer's Rule, Inverses, and Volumes",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "6 Eigenvalues and Eigenvectors 6.1 Introduction to Eigenvalues△★ 6.2 Diagonalizing a Matrix△★ 6.3 Symmetric Matices 6.4 Positive Definite Matrices△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=110312E2",
+ "hasOriginal": true
+}

@@ -1,0 +1,143 @@
+{
+ "code": "110226E1",
+ "slug": "110226E1",
+ "name": "概率与统计【英】",
+ "nameEn": "OProbability and Statistics[E]",
+ "credit": 3,
+ "dept": "数学与统计学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 8299,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课(不含实践环节)",
+  "teacher": "吕艳",
+  "reviewer": "许春根",
+  "totalHours": 48,
+  "lectureHours": 48,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考试",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "Homework, Attendance, Classroom Performance, etc:20%；Online Learning:10%；Final Exam:70%",
+  "goals": [
+   "Enable students to systematically acquire the basic concepts, theories and calculation methods of probability theory and mathematical statistics.",
+   "Cultivate students' ability to use random thinking and statistical thinking to think about practical problems in their majors, possess a theoretical foundation in analyzing and processing data with randomness, and be able to use statistical methods and software to analyze and process data.",
+   "Cultivate students' abstract and rigorous logical thinking and reasoning abilities, cultivate their exploratory spirit, scientific research literacy, and the ability to learn independently."
+  ],
+  "intro": "“Probability and statistics”is a course that study and reveal statistical laws in random phenomena. Probability and statistics are closely related to reality, and they are widely used in natural sciences, technological sciences, social sciences, military, and industrial and agricultural production. They cover almost all scientific and technological fields and are the basic methods and tools for analyzing and solving problems with random characteristics in various disciplines. Probability and Statistics, as a compulsory public basic course for undergraduate students majoring in science and engineering at our university, focuses on introducing commonly used and basic concepts and methods of probability statistics in engineering technology. \n\nThe course content includes: basic concepts of probability theory, random variables and their distribution, multi-dimensional random variable and its distribution, numerical characteristics of random variables, laws of large numbers and the central limit theorem, sampling and sampling distributions, parameter estimation, hypothesis testing of the basic parameters ideas and methods. \n\nThe preparatory knowledge for this course is advanced mathematics and linear algebra.",
+  "objectives": "This course is intended to serve the concept and method of probability theory and mathematical statistics. We provide the basic definitions, theorems and methods of probability theory, present the most frequently used distributions, provide several statistical methods and their applications. We are hopeful that this course will become a useful course for students who might not have a high level of mathematical maturity, and who expect to use the theory and methods in the studies in their own fields.",
+  "contents": "1. Introduction to Probability 1.1 Experiments and Events △ 1.2 Set Theory 1.3 The Definition of Probability△ 1.4 Sample spaces; 1.5 Counting Methods 1.6 Combinatorial Methods 1.7 Multinomial Coefficients 1.8 The Probability of a Union of Events\n2. Conditional probability 2.1 The Definition of Conditional probability△ 2.2 Independent Events△ 2.3 Bayes’Theorem△★\n3. Random variables and Distribution 3.1 Random variables and Discrete Distributions 3.2 Continuous Distributions△★ 3.3 The Cumulative Distribution Function 3.4 Marginal Distribution△ 3.5 Functions of a Random Variable△ 3.6 Functions of Two or More Random Variables△\n4. Expectation 4.1 The Expectation of a Random Variable△ 4.2 Properties of Expectations△ 4.3 Variance△ 4.4 Moments★ 4.5 Covariance and Correlation△\n5. Special Distributions 5.1 Introduction 5.2 The Bernoulli and Binomial Distributions △ 5.3 The Poisson Distributions△ 5.4 The Normal Distributions△ 5.5 The Multinormal Distributions★\n6. Large Random Samples 6.1 The Law of Large Numbers△★ 6.2 The Central Limit Theorem△★\n7. Estimation 7.1 Moment Estimation Method △ 7. 2 Maximum Likelihood Estimation Method△★\n8 Testing Hypotheses 8.1 The t Test△★ 8.2 The F Distributions△★ 8.3 Problems of Testing Hypotheses△★",
+  "ideology": "Strengthen the core values of socialism and combine Chinese excellent traditional culture education with probability and statistics\nBy explaining the basic theory and examples of probability theory, we can strengthen the education of \"four self-confidence\" of socialism with Chinese characteristics\nThe concept of sample and population implies a dialectical relationship from part to whole and from finite to infinite"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "1. Introduction to Probability 1.1 Experiments and Events △ 1.2 Set Theory 1.3 The Definition of Probability△ 1.4 Sample spaces; 1.5 Counting Methods 1.6 Combinatorial Methods 1.7 Multinomial Coefficients 1.8 The Probability of a Union of Events",
+   "ideology": "Strengthen the core values of socialism and combine Chinese excellent traditional culture education with probability and statistics",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 2,
+   "title": "2. Conditional probability 2.1 The Definition of Conditional probability△ 2.2 Independent Events△ 2.3 Bayes’Theorem△★",
+   "ideology": "By explaining the basic theory and examples of probability theory, we can strengthen the education of \"four self-confidence\" of socialism with Chinese characteristics",
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 3,
+   "title": "3. Random variables and Distribution 3.1 Random variables and Discrete Distributions 3.2 Continuous Distributions△★ 3.3 The Cumulative Distribution Function 3.4 Marginal Distribution△ 3.5 Functions of a Random Variable△ 3.6 Functions of Two or More Random Variables△",
+   "ideology": null,
+   "hours": {
+    "lecture": 12,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 12
+   }
+  },
+  {
+   "no": 4,
+   "title": "4. Expectation 4.1 The Expectation of a Random Variable△ 4.2 Properties of Expectations△ 4.3 Variance△ 4.4 Moments★ 4.5 Covariance and Correlation△",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 5,
+   "title": "5. Special Distributions 5.1 Introduction 5.2 The Bernoulli and Binomial Distributions △ 5.3 The Poisson Distributions△ 5.4 The Normal Distributions△ 5.5 The Multinormal Distributions★",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  },
+  {
+   "no": 6,
+   "title": "6. Large Random Samples 6.1 The Law of Large Numbers△★ 6.2 The Central Limit Theorem△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 7,
+   "title": "7. Estimation 7.1 Moment Estimation Method △ 7. 2 Maximum Likelihood Estimation Method△★",
+   "ideology": "The concept of sample and population implies a dialectical relationship from part to whole and from finite to infinite",
+   "hours": {
+    "lecture": 6,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 6
+   }
+  },
+  {
+   "no": 8,
+   "title": "8 Testing Hypotheses 8.1 The t Test△★ 8.2 The F Distributions△★ 8.3 Problems of Testing Hypotheses△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 4,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 4
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=110226E1",
+ "hasOriginal": true
+}

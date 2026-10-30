@@ -1,0 +1,78 @@
+{
+ "code": "100602E1",
+ "slug": "100602E1",
+ "name": "Python与深度学习【英】",
+ "nameEn": "Python f#111;r Deep Learning[E]",
+ "credit": 2,
+ "dept": "自动化学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 7438,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（含实践）",
+  "teacher": "王军",
+  "reviewer": "殷明慧",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": null,
+  "isSkill": "否",
+  "examWeight": "课堂编程:30%；课后作业:20%；Project1:25%；project2:25%",
+  "goals": [
+   "掌握深度学习相关概念、术语、原理的英文词汇及其释义，能够就一般现代机器学习问题运用英语进行读、写、听、说方面的交流和应用；",
+   "掌握现代深度学习编程方法，了解流行的深度学习编程包用于分析、解决自动化领域复杂工程问题。",
+   "独立完成项目分析、设计与实现，锻炼自主科研能力"
+  ],
+  "intro": "\"本课程以实际项目为导向：学生将接受实务训练，透过实际的程式设计项目，运用深度学习技巧解决认知问题。课程的主题包括Python编程、机器学习、神经网络和深度学习的概念、流行的深度学习编程包（如PyCharm和Abaconda）以及一些深度学习编程项目。 \n\n先修课程：C或C++或JAVA等程序设计课程，熟练掌握编程基础尤为重要。本课程教学形式为线上授课。考试采用写报告形式，学习成绩将根据平时作业、期末报告综合评定。\n\n\"",
+  "objectives": "1.了解深度学习算法；2.设计合适的深度学习模型以解决现实问题；3.使用Python、Numpy、TensorFlow或Keras实现深度学习算法；4.解决模型训练中的一些常见问题，如过拟合、过拟合等。\"",
+  "contents": "Python编程\n深度学习网络,流行的深度学习编程包\n程序设计项目实践",
+  "ideology": null
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Python编程",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  },
+  {
+   "no": 2,
+   "title": "深度学习网络,流行的深度学习编程包",
+   "ideology": null,
+   "hours": {
+    "lecture": 16,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 16
+   }
+  },
+  {
+   "no": 3,
+   "title": "程序设计项目实践",
+   "ideology": null,
+   "hours": {
+    "lecture": 8,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 8
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3FA090F33B2F420BB89217C952CBE323",
+ "hasOriginal": true
+}
