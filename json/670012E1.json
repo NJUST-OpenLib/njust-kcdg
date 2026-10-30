@@ -1,0 +1,198 @@
+{
+ "code": "670012E1",
+ "slug": "670012E1",
+ "name": "模式分类【英】",
+ "nameEn": "Pattern Classification",
+ "credit": 2,
+ "dept": "智能科学与技术学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 12354,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "陈豪",
+  "reviewer": "吴鹏",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现、考勤情况:30%；课程设计:70%",
+  "goals": [
+   "1.提升模式分类知识，以便为特定模式识别应用选择合适的算法和模型;",
+   "1. Improve the knowledge of pattern classification in order to select appropriate algorithms and models for specific pattern recognition applications;",
+   "2.使用各种数据分析模型来评估与备选决策相关的成本和风险，并找到针对特定模式识别任务的最佳解决方案;",
+   "2. Use various data analysis models to evaluate the costs and risks associated with alternative decisions and find the best solution for specific pattern recognition tasks;",
+   "3.在现实世界的项目中应用模式识别技术，以团队形式协同工作，以开发解决方案，并针对给定场景给出方法和成果。",
+   "3. Apply pattern recognition technology in real-world projects, work together as a team to develop solutions, and give methods and results for a given scenario."
+  ],
+  "intro": "本课程以决策论为主线，系统性地介绍模式分类和识别的统计学方法，包括参数估计、模型学习、非参数模型、EM算法、支撑向量机方法等理论知识，并且结合Python来提高智能制造工程专业学生的模式分类算法基础以及代码设计能力。课程内容：\n\n1.引言：主题概述、要求和评估任务说明；\n\n2.贝叶斯决策理论：风险建模、贝叶斯规则和决策理论及其在模式识别中的应用；\n\n3.贝叶斯网络：贝叶斯网络的概率模型、结构学习问题和贝叶斯网络的推理；\n\n4.最大似然估计：最大似然估计的原理，与MAP的比较，以及其他模型选择准则，包括MDL、MML、BIC等；\n\n5.降维：主成分分析、流形学习等；\n\n6.特征选择：特征选择与特征提取、特征向量和特征值应用；\n\n7.贝叶斯估计；\n\n8.线性判别函数；\n\n9.支持向量机（SVM）；\n\n10.期望最大化（EM）算法：MLE理论和EM算法的导数，将选择EM的一些应用作为案例研究；\n\n11.非参数估计：核方法和KNN分类；\n\n12.选定的热门研究课题。\n\n预修课程：1.高等数学；2.线性代数；3.程序设计。\n\nFor this subject, we will have the following sessions:\n\n1. Introduction: overview of the subject, together with the requirements, and the description on the assessment tasks \n\n2. Bayesian Decision Theory: risk modeling, Bayesian rules and Decision Theory and their application in pattern recognition. \n\n3. Bayesian Networks: The probability model of Bayesian network, the structure learning problem, and the inference on Bayesian network.\n\n4. Maximum likelihood Estimation: The principle of MLE, and the comparison with MAP, and other model selection criterions including MDL, MML, BIC, etc. \n\n5. Dimensionality Reduction: Principal Component Analysis, Manifold Learning, etc \n\n6. Feature selection: feature selection vs feature extraction, eigenvector and eigenvalue applications \n\n7. Bayesian Estimation: \n\n8. Linear Discriminant Functions \n\n9. Support Vector Machines (SVMs) \n\n10. Expectation-Maximization (EM) Algorithm: The theory of MLE and the derivatives of EM algorithm. Some applications of EM will be selected as case studies. \n\n11. Non-parametric Estimation: Kernel methods and KNN classification \n\n12. selected Hot Research Topics",
+  "objectives": "课程教学以课堂教学、课程设计、综合讨论、以及授课教师的科研项目与积累等共同实施。通过授课与讨论、课程设计等重点培养学生的模式识别模型选择能力、实现能力、测试结果分析能力和创新能力，培养学生的工程实践能力： 1. 提升模式分类知识，以便为特定模式识别应用选择合适的算法和模型; 2. 使用各种数据分析模型来评估与备选决策相关的成本和风险，并找到针对特定模式识别任务的最佳解决方案; 3.在现实世界的项目中应用模式识别技术，以团队形式协同工作，以开发解决方案，并针对给定场景给出方法和成果。\n\nThis subject deals with the fundamentals of characterizing and recognizing patterns and features of interest in numerical data. We discuss the basic tools and theory for statistical pattern recognition, with applications to computer vision, social science data analysis, and more. First, we will focus on generative methods such as those based on Bayes decision theory and related techniques of parameter estimation and density estimation. Next, we will focus on discriminative pattern classification methods such as nearest-neighbor classification and support vector machines.",
+  "contents": "引言：主题概述、要求和评估任务说明； Introduction: overview of the subject, together with the requirements, and the description on the assessment tasks.\n贝叶斯决策理论：风险建模、贝叶斯规则和决策理论及其在模式识别中的应用; Bayesian Decision Theory: risk modeling, Bayesian rules and Decision Theory and their application in pattern recognition.\n贝叶斯网络：贝叶斯网络的概率模型、结构学习问题和贝叶斯网络的推理； Bayesian Networks: The probability model of Bayesian network, the structure learning problem, and the inference on Bayesian network.\n最大似然估计：最大似然估计的原理，与MAP的比较，以及其他模型选择准则，包括MDL、MML、BIC等； Maximum likelihood Estimation: The principle of MLE, and the comparison with MAP, and other model selection criterions including MDL, MML, BIC, etc.\n降维：主成分分析、流形学习等； Dimensionality Reduction: Principal Component Analysis, Manifold Learning, etc.\n特征选择：特征选择与特征提取、特征向量和特征值应用； Feature selection: feature selection vs feature extraction, eigenvector and eigenvalue applications.\n贝叶斯估计； Bayesian Estimation.\n线性判别函数； Linear Discriminant Functions.\n支持向量机（SVM）； Support Vector Machines (SVMs).\n期望最大化（EM）算法：MLE理论和EM算法的导数，将选择EM的一些应用作为案例研究； Expectation-Maximization (EM) Algorithm: The theory of MLE and the derivatives of EM algorithm. Some applications of EM will be selected as case studies.\n非参数估计：核方法和KNN分类； Non-parametric Estimation: Kernel methods and KNN classification.\n选定的热门研究课题； selected Hot Research Topics.",
+  "ideology": "介绍中外模式分类研究现状，激发学生爱国情感，鼓励学生今后投入相关领域建设。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。\n选取国内国防、民生相关应用案例，让学生了解本课程对国家需求的密切关系。"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "引言：主题概述、要求和评估任务说明； Introduction: overview of the subject, together with the requirements, and the description on the assessment tasks.",
+   "ideology": "介绍中外模式分类研究现状，激发学生爱国情感，鼓励学生今后投入相关领域建设。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 2,
+   "title": "贝叶斯决策理论：风险建模、贝叶斯规则和决策理论及其在模式识别中的应用; Bayesian Decision Theory: risk modeling, Bayesian rules and Decision Theory and their application in pattern recognition.",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "贝叶斯网络：贝叶斯网络的概率模型、结构学习问题和贝叶斯网络的推理； Bayesian Networks: The probability model of Bayesian network, the structure learning problem, and the inference on Bayesian network.",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "最大似然估计：最大似然估计的原理，与MAP的比较，以及其他模型选择准则，包括MDL、MML、BIC等； Maximum likelihood Estimation: The principle of MLE, and the comparison with MAP, and other model selection criterions including MDL, MML, BIC, etc.",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "降维：主成分分析、流形学习等； Dimensionality Reduction: Principal Component Analysis, Manifold Learning, etc.",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 6,
+   "title": "特征选择：特征选择与特征提取、特征向量和特征值应用； Feature selection: feature selection vs feature extraction, eigenvector and eigenvalue applications.",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 7,
+   "title": "贝叶斯估计； Bayesian Estimation.",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 8,
+   "title": "线性判别函数； Linear Discriminant Functions.",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 9,
+   "title": "支持向量机（SVM）； Support Vector Machines (SVMs).",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 10,
+   "title": "期望最大化（EM）算法：MLE理论和EM算法的导数，将选择EM的一些应用作为案例研究； Expectation-Maximization (EM) Algorithm: The theory of MLE and the derivatives of EM algorithm. Some applications of EM will be selected as case studies.",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 11,
+   "title": "非参数估计：核方法和KNN分类； Non-parametric Estimation: Kernel methods and KNN classification.",
+   "ideology": "与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  },
+  {
+   "no": 12,
+   "title": "选定的热门研究课题； selected Hot Research Topics.",
+   "ideology": "选取国内国防、民生相关应用案例，让学生了解本课程对国家需求的密切关系。",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=364213468BFA4FF2B85F5913F51DFA15",
+ "hasOriginal": true
+}
