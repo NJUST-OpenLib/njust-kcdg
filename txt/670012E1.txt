@@ -1,0 +1,158 @@
+﻿# 模式分类【英】
+
+课程编号: 670012E1
+英文名称: Pattern Classification
+开课单位: 智能科学与技术学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 陈豪
+- 审核人: 吴鹏
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 课堂表现、考勤情况:30%；课程设计:70%
+
+## 课程目标
+
+1. 1.提升模式分类知识，以便为特定模式识别应用选择合适的算法和模型;
+2. 1. Improve the knowledge of pattern classification in order to select appropriate algorithms and models for specific pattern recognition applications;
+3. 2.使用各种数据分析模型来评估与备选决策相关的成本和风险，并找到针对特定模式识别任务的最佳解决方案;
+4. 2. Use various data analysis models to evaluate the costs and risks associated with alternative decisions and find the best solution for specific pattern recognition tasks;
+5. 3.在现实世界的项目中应用模式识别技术，以团队形式协同工作，以开发解决方案，并针对给定场景给出方法和成果。
+6. 3. Apply pattern recognition technology in real-world projects, work together as a team to develop solutions, and give methods and results for a given scenario.
+
+## 课程简介
+
+本课程以决策论为主线，系统性地介绍模式分类和识别的统计学方法，包括参数估计、模型学习、非参数模型、EM算法、支撑向量机方法等理论知识，并且结合Python来提高智能制造工程专业学生的模式分类算法基础以及代码设计能力。课程内容：
+
+1.引言：主题概述、要求和评估任务说明；
+
+2.贝叶斯决策理论：风险建模、贝叶斯规则和决策理论及其在模式识别中的应用；
+
+3.贝叶斯网络：贝叶斯网络的概率模型、结构学习问题和贝叶斯网络的推理；
+
+4.最大似然估计：最大似然估计的原理，与MAP的比较，以及其他模型选择准则，包括MDL、MML、BIC等；
+
+5.降维：主成分分析、流形学习等；
+
+6.特征选择：特征选择与特征提取、特征向量和特征值应用；
+
+7.贝叶斯估计；
+
+8.线性判别函数；
+
+9.支持向量机（SVM）；
+
+10.期望最大化（EM）算法：MLE理论和EM算法的导数，将选择EM的一些应用作为案例研究；
+
+11.非参数估计：核方法和KNN分类；
+
+12.选定的热门研究课题。
+
+预修课程：1.高等数学；2.线性代数；3.程序设计。
+
+For this subject, we will have the following sessions:
+
+1. Introduction: overview of the subject, together with the requirements, and the description on the assessment tasks 
+
+2. Bayesian Decision Theory: risk modeling, Bayesian rules and Decision Theory and their application in pattern recognition. 
+
+3. Bayesian Networks: The probability model of Bayesian network, the structure learning problem, and the inference on Bayesian network.
+
+4. Maximum likelihood Estimation: The principle of MLE, and the comparison with MAP, and other model selection criterions including MDL, MML, BIC, etc. 
+
+5. Dimensionality Reduction: Principal Component Analysis, Manifold Learning, etc 
+
+6. Feature selection: feature selection vs feature extraction, eigenvector and eigenvalue applications 
+
+7. Bayesian Estimation: 
+
+8. Linear Discriminant Functions 
+
+9. Support Vector Machines (SVMs) 
+
+10. Expectation-Maximization (EM) Algorithm: The theory of MLE and the derivatives of EM algorithm. Some applications of EM will be selected as case studies. 
+
+11. Non-parametric Estimation: Kernel methods and KNN classification 
+
+12. selected Hot Research Topics
+
+## 教学目的与要求
+
+课程教学以课堂教学、课程设计、综合讨论、以及授课教师的科研项目与积累等共同实施。通过授课与讨论、课程设计等重点培养学生的模式识别模型选择能力、实现能力、测试结果分析能力和创新能力，培养学生的工程实践能力： 1. 提升模式分类知识，以便为特定模式识别应用选择合适的算法和模型; 2. 使用各种数据分析模型来评估与备选决策相关的成本和风险，并找到针对特定模式识别任务的最佳解决方案; 3.在现实世界的项目中应用模式识别技术，以团队形式协同工作，以开发解决方案，并针对给定场景给出方法和成果。
+
+This subject deals with the fundamentals of characterizing and recognizing patterns and features of interest in numerical data. We discuss the basic tools and theory for statistical pattern recognition, with applications to computer vision, social science data analysis, and more. First, we will focus on generative methods such as those based on Bayes decision theory and related techniques of parameter estimation and density estimation. Next, we will focus on discriminative pattern classification methods such as nearest-neighbor classification and support vector machines.
+
+## 教学内容
+
+引言：主题概述、要求和评估任务说明； Introduction: overview of the subject, together with the requirements, and the description on the assessment tasks.
+贝叶斯决策理论：风险建模、贝叶斯规则和决策理论及其在模式识别中的应用; Bayesian Decision Theory: risk modeling, Bayesian rules and Decision Theory and their application in pattern recognition.
+贝叶斯网络：贝叶斯网络的概率模型、结构学习问题和贝叶斯网络的推理； Bayesian Networks: The probability model of Bayesian network, the structure learning problem, and the inference on Bayesian network.
+最大似然估计：最大似然估计的原理，与MAP的比较，以及其他模型选择准则，包括MDL、MML、BIC等； Maximum likelihood Estimation: The principle of MLE, and the comparison with MAP, and other model selection criterions including MDL, MML, BIC, etc.
+降维：主成分分析、流形学习等； Dimensionality Reduction: Principal Component Analysis, Manifold Learning, etc.
+特征选择：特征选择与特征提取、特征向量和特征值应用； Feature selection: feature selection vs feature extraction, eigenvector and eigenvalue applications.
+贝叶斯估计； Bayesian Estimation.
+线性判别函数； Linear Discriminant Functions.
+支持向量机（SVM）； Support Vector Machines (SVMs).
+期望最大化（EM）算法：MLE理论和EM算法的导数，将选择EM的一些应用作为案例研究； Expectation-Maximization (EM) Algorithm: The theory of MLE and the derivatives of EM algorithm. Some applications of EM will be selected as case studies.
+非参数估计：核方法和KNN分类； Non-parametric Estimation: Kernel methods and KNN classification.
+选定的热门研究课题； selected Hot Research Topics.
+
+## 课程思政
+
+介绍中外模式分类研究现状，激发学生爱国情感，鼓励学生今后投入相关领域建设。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+选取国内国防、民生相关应用案例，让学生了解本课程对国家需求的密切关系。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | 引言：主题概述、要求和评估任务说明； Introduction: overview of the subject, together with the requirements, and the description on the assessment tasks. | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | 贝叶斯决策理论：风险建模、贝叶斯规则和决策理论及其在模式识别中的应用; Bayesian Decision Theory: risk modeling, Bayesian rules and Decision Theory and their application in pattern recognition. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 3 | 贝叶斯网络：贝叶斯网络的概率模型、结构学习问题和贝叶斯网络的推理； Bayesian Networks: The probability model of Bayesian network, the structure learning problem, and the inference on Bayesian network. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 4 | 最大似然估计：最大似然估计的原理，与MAP的比较，以及其他模型选择准则，包括MDL、MML、BIC等； Maximum likelihood Estimation: The principle of MLE, and the comparison with MAP, and other model selection criterions including MDL, MML, BIC, etc. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 5 | 降维：主成分分析、流形学习等； Dimensionality Reduction: Principal Component Analysis, Manifold Learning, etc. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 6 | 特征选择：特征选择与特征提取、特征向量和特征值应用； Feature selection: feature selection vs feature extraction, eigenvector and eigenvalue applications. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 7 | 贝叶斯估计； Bayesian Estimation. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 8 | 线性判别函数； Linear Discriminant Functions. | 3 | 0 | 0 | 0 | 0 | 3 |
+| 9 | 支持向量机（SVM）； Support Vector Machines (SVMs). | 3 | 0 | 0 | 0 | 0 | 3 |
+| 10 | 期望最大化（EM）算法：MLE理论和EM算法的导数，将选择EM的一些应用作为案例研究； Expectation-Maximization (EM) Algorithm: The theory of MLE and the derivatives of EM algorithm. Some applications of EM will be selected as case studies. | 2 | 0 | 0 | 0 | 0 | 2 |
+| 11 | 非参数估计：核方法和KNN分类； Non-parametric Estimation: Kernel methods and KNN classification. | 2 | 0 | 0 | 0 | 0 | 2 |
+| 12 | 选定的热门研究课题； selected Hot Research Topics. | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第1章 思政融入: 介绍中外模式分类研究现状，激发学生爱国情感，鼓励学生今后投入相关领域建设。
+- 第2章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第3章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第4章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第5章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第6章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第7章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第8章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第9章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第10章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第11章 思政融入: 与我国相关研究现状联系，激发学生的科研精神，培养学生创新能力。
+- 第12章 思政融入: 选取国内国防、民生相关应用案例，让学生了解本课程对国家需求的密切关系。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=364213468BFA4FF2B85F5913F51DFA15
