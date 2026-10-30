@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,29 +22,50 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>围棋入门<span class="tag on">在用</span></h1><div class="sub">课程编号 00000258</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>00000258</td></tr><tr><th>英文名称</th><td>Elementary Go</td></tr><tr><th>开课单位</th><td>能源与动力工程学院</td></tr><tr><th>学分</th><td>1</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人</th><td>洪亮</td></tr><tr><th>审核人</th><td>余永刚</td></tr><tr><th>总学时</th><td>32</td></tr><tr><th>讲课学时</th><td>32</td></tr><tr><th>实验学时</th><td>0</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr></table><h2>课程目标</h2><ul class="goals"><li>浅说围棋；行棋规则与胜负计算；（围棋概念与初步）</li><li>围棋中如何吃子；围棋眼与死活棋；反提与打劫；</li><li>围棋布局要领、基础定式及常用术语（围棋下法中基本要领）</li><li>围棋中盘对弈先后次序与手筋技巧；</li><li>官子计算技巧；</li><li>人工智能AI对战人类实战分析及人类对围棋定式等重新认识；</li></ul><h2>课程简介</h2><p class="body">围棋作为一门科学，它可以最大限度地开发智力，启迪思维，锻炼头脑，陶冶情操。在围棋的对弈中，包含着形象思维、逻辑思维的创作。它能增强机械记忆和理解记忆，它能提高人们的计算本领。下围棋对儿童少年的智力发展起到积极作用，使他们能更好的分析事物。本课程以介绍围棋基本知识和对弈方法为教学目标，是一门理论性、实践性很强的自我与发展类课程。
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>围棋入门<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>00000258</b></span><span><em>学分</em><b>1</b></span><span><em>学时</em><b>32</b></span><span><em>考核类型</em><b>考试</b></span></div><div class="files top"><a href="../original/00000258.html">查看原始页面</a><a href="../json/00000258.json">下载 JSON</a><a href="../txt/00000258.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>00000258</td><th>课程名称(中)</th><td>围棋入门</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Elementary Go</td></tr><tr><th>开课单位</th><td>能源与动力工程学院</td><th>课程类别</th><td>理论课（不含实践）</td></tr><tr><th>课程负责人(执笔人)</th><td>洪亮</td><th>审核人</th><td>余永刚</td></tr><tr><th>学分</th><td>1</td><th>学时</th><td>32</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考试</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">围棋作为一门科学，它可以最大限度地开发智力，启迪思维，锻炼头脑，陶冶情操。在围棋的对弈中，包含着形象思维、逻辑思维的创作。它能增强机械记忆和理解记忆，它能提高人们的计算本领。下围棋对儿童少年的智力发展起到积极作用，使他们能更好的分析事物。本课程以介绍围棋基本知识和对弈方法为教学目标，是一门理论性、实践性很强的自我与发展类课程。
 
 教学内容：
 
@@ -46,10 +73,6 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 5.反提与打劫；6.围棋规则；7.　围棋布局要领、基础定式及常用术语；
 
-强调理论与实践的紧密结合，锻炼学生实践过程心算能力；</p><h2>教学目的与要求</h2><p class="body">本课程的设置，旨在使学生系统地学习并了解围棋是一项内涵丰富、棋理深奥的体育项目。内涵丰富在于围棋和哲学、逻辑学、数学、社会学、军事科学等多学科有着千丝万缕的联系。每一学科都可在其中找出围棋的影子，每个问题都可用棋理来诠释。
+强调理论与实践的紧密结合，锻炼学生实践过程心算能力；</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">本课程的设置，旨在使学生系统地学习并了解围棋是一项内涵丰富、棋理深奥的体育项目。内涵丰富在于围棋和哲学、逻辑学、数学、社会学、军事科学等多学科有着千丝万缕的联系。每一学科都可在其中找出围棋的影子，每个问题都可用棋理来诠释。
 
-围棋教学的过程，就是一个让学生主动发展的过程。围棋集知识性、趣味性、竞争性与一体，吸引学生全身心地投入。围棋每一局都是新的，每一次选点的不惟一性、不确定性、不可测性，都能充分发挥学生的想象力，充分体现学生的个体能力和思维优点，主动地、创造性地进行构思。这对培养思维的前后、左右、上下、正反、远近、宏微、虚实、异同等等多种能力，是极有裨益的。</p><h2>教学内容</h2><p class="body">浅说围棋； 行棋规则与胜负计算； 围棋中如何吃子“下子”；
-围棋眼与死活棋； 反提与打劫； 围棋打劫规则；
-围棋布局要领、基础定式及常用术语； 围棋中盘对弈先后次序与手筋技巧； 官子计算技巧； 人工智能AI对战人类实战分析及人类对围棋定式等重新认识；</p><h2>课程思政</h2><p class="body">1.思想性 充分挖掘课程思政素材，将社会主义核心价值观融入教学，把正确世界观、人生观和价值观培养贯穿于教学全过程。 2.科学性 课件完整、系统，能完全覆盖本门课程；重难点突出，理论联系实际，论证严密，传授知识正确、丰富。
-3.适用性 紧扣教材和教学大纲，符合认知规律，启发引导性强，有利于激发学生学习的积极性和主动性。
-4.新颖性 课件更新及时，注重引入前沿AI知识，介绍相关领域的新思想、新成果。</p><h2>章节安排（3 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>浅说围棋； 行棋规则与胜负计算； 围棋中如何吃子“下子”；</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">5</td></tr><tr><td class="c">2</td><td>围棋眼与死活棋； 反提与打劫； 围棋打劫规则；</td><td class="n">10</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">10</td></tr><tr><td class="c">3</td><td>围棋布局要领、基础定式及常用术语； 围棋中盘对弈先后次序与手筋技巧； 官子计算技巧； 人工智能AI对战人类实战分析及人类对围棋定式等重新认识；</td><td class="n">17</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">17</td></tr><tr><th></th><th>合计</th><th style="text-align:right">32</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">32</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 1.思想性 充分挖掘课程思政素材，将社会主义核心价值观融入教学，把正确世界观、人生观和价值观培养贯穿于教学全过程。 2.科学性 课件完整、系统，能完全覆盖本门课程；重难点突出，理论联系实际，论证严密，传授知识正确、丰富。</li><li><b>第2章</b> 3.适用性 紧扣教材和教学大纲，符合认知规律，启发引导性强，有利于激发学生学习的积极性和主动性。</li><li><b>第3章</b> 4.新颖性 课件更新及时，注重引入前沿AI知识，介绍相关领域的新思想、新成果。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/00000258.html">查看原始页面</a><a href="../json/00000258.json">下载 JSON</a><a href="../txt/00000258.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+围棋教学的过程，就是一个让学生主动发展的过程。围棋集知识性、趣味性、竞争性与一体，吸引学生全身心地投入。围棋每一局都是新的，每一次选点的不惟一性、不确定性、不可测性，都能充分发挥学生的想象力，充分体现学生的个体能力和思维优点，主动地、创造性地进行构思。这对培养思维的前后、左右、上下、正反、远近、宏微、虚实、异同等等多种能力，是极有裨益的。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>浅说围棋；行棋规则与胜负计算；（围棋概念与初步）</li><li>围棋中如何吃子；围棋眼与死活棋；反提与打劫；</li><li>围棋布局要领、基础定式及常用术语（围棋下法中基本要领）</li><li>围棋中盘对弈先后次序与手筋技巧；</li><li>官子计算技巧；</li><li>人工智能AI对战人类实战分析及人类对围棋定式等重新认识；</li></ul><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">讲课</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">浅说围棋； 行棋规则与胜负计算； 围棋中如何吃子“下子”；</td><td class="n cb">5</td><td class="n cb">5</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>1.思想性 充分挖掘课程思政素材，将社会主义核心价值观融入教学，把正确世界观、人生观和价值观培养贯穿于教学全过程。 2.科学性 课件完整、系统，能完全覆盖本门课程；重难点突出，理论联系实际，论证严密，传授知识正确、丰富。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">围棋眼与死活棋； 反提与打劫； 围棋打劫规则；</td><td class="n cb">10</td><td class="n cb">10</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>3.适用性 紧扣教材和教学大纲，符合认知规律，启发引导性强，有利于激发学生学习的积极性和主动性。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">3</td><td class="cb">围棋布局要领、基础定式及常用术语； 围棋中盘对弈先后次序与手筋技巧； 官子计算技巧； 人工智能AI对战人类实战分析及人类对围棋定式等重新认识；</td><td class="n cb">17</td><td class="n cb">17</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>4.新颖性 课件更新及时，注重引入前沿AI知识，介绍相关领域的新思想、新成果。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">32</td><td class="n">32</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>邱百瑞围棋初级教程</td><td>邱百瑞</td><td>—</td><td>人民教育出版社</td><td class="n">1991</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>
