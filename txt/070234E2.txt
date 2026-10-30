@@ -1,78 +1,70 @@
-﻿# 国际贸易【英】
-
-课程编号: 070234E2
-英文名称: International  Trade[E]
-开课单位: 经济管理学院
-学分: 2
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 070234E2
+- 课程名称(中): 国际贸易【英】
 - 授课语种: 英文
+- 课程名称(英): International  Trade[E]
+- 开课单位: 经济管理学院
 - 课程类别: 理论课（不含实践）
-- 课程负责人: 宗永建
+- 课程负责人(执笔人): 宗永建
 - 审核人: 于晶
-- 总学时: 32
-- 讲课学时: 32
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 2
+- 学时: 32
+- 是否为术科课: 否
 - 考核类型: 考试
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: (未填):40%；(未填):60%
 
-## 课程目标
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
+
+International trade is focused on fundamental knowledge like theories, policies, etc. on international trade. This course will provide an overall understanding of international trade development and functions, international market formation, international trade process, factors influencing international trade, international trade organizations, and so on. The course will provide a unified framework to address these issues and to study effects of trade policies, measures and organizations on international trade. These theories and analytic tools will be used to understand the trade conditions and conflicts between China and other countries.
+
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
+
+This is one of the core courses for international economic and trade major. This course provides students with a broad understanding of international trade concepts, theories, policies, measures, regulations, organizations, etc. It will give students an overall understanding of international trade and develop the analytical skills of international trade cases according to certain trade treaties and policies. Meanwhile, by learning the students will grasp usage of different trade terms, trade rules and measures as well as strengthen English listening, speaking and communication skills.This course is a propaedeutic introduction of international trade concepts, theories, policies, measures, treaties and agreements, organizations and so on. It aims to help students who intend to work in fields relevant to international trade or business to get an overview of international trade and get well prepared for further study in the major.
+
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
 1. Understand certain concepts, theories of international trade
 2. Grasp policies, measurements, treaties and agreements, main organizations of international trade and know their influences on it
 3. Get skills of case analyzing, learn to think all-around, carefully and objectively from the point of international trade regulations, laws, terms and policies.
 
-## 课程简介
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-International trade is focused on fundamental knowledge like theories, policies, etc. on international trade. This course will provide an overall understanding of international trade development and functions, international market formation, international trade process, factors influencing international trade, international trade organizations, and so on. The course will provide a unified framework to address these issues and to study effects of trade policies, measures and organizations on international trade. These theories and analytic tools will be used to understand the trade conditions and conflicts between China and other countries.
+| 考核方式 | 1 | 2 | 合计 |
+|---|---|---|---|
+| 名称 | (未填) | (未填) | |
+| 占比 | 40% | 60% | 100% |
 
-## 教学目的与要求
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-This is one of the core courses for international economic and trade major. This course provides students with a broad understanding of international trade concepts, theories, policies, measures, regulations, organizations, etc. It will give students an overall understanding of international trade and develop the analytical skills of international trade cases according to certain trade treaties and policies. Meanwhile, by learning the students will grasp usage of different trade terms, trade rules and measures as well as strengthen English listening, speaking and communication skills.This course is a propaedeutic introduction of international trade concepts, theories, policies, measures, treaties and agreements, organizations and so on. It aims to help students who intend to work in fields relevant to international trade or business to get an overview of international trade and get well prepared for further study in the major.
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Get skills of case analyzing, learn to think all-around, carefully and objectively from the point of international trade regulations, laws, terms and policies. | 4 | 4 |
+| 2 | Know the development of international trade. ？ Understand functions of international trade on country economy and sustainable development. | 3 | 3 |
+| 3 | Grasp definitions, types and developing proceeds of international division of labor. ？ Understand factors influencing international division of labor.△ | 4 | 4 |
+| 4 | Understand definition, formation, characteristics development and elements of international market. ？ Know modes of corporations’ entering into international market and influencing factors. ？ Grasp definitions of international value and international market price and role of the law of value in international trade. | 4 | 4 |
+| 5 | Identify international free trade theories and protective theories. ？ Understand connotations and differences between different theories. | 4 | 4 |
+| 6 | Be aware of international trade policies. ？ Be able to grasp the connotation, targets and effects of the trade policies. | 2 | 2 |
+| 7 | Learn different types of international trade measures including tariff and non-tariff measures. ？ Grasp the connotations of different types of tariffs.△？★？ Know aims of different tariffs. | 4 | 4 |
+| 8 | Grasp definitions, classifications, legal principles of trade treaty and agreement. ？ Learn about GATT. | 2 | 2 |
+| 9 | Get aware of foundation background, aims, objectives, functions, organizational framework, basic principles, some main agreements, etc OF WTO. ？ Learn WTO’s main rules in detail△ | 3 | 3 |
+| 10 | Understand definitions and origins of regional economic integration△ ？ Know relative theories and current practices. | 2 | 2 |
+| 合计 |  | 32 | 32 |
 
-## 教学内容
+- 第1章 思政融入点：from the Canton fair to illustrate the concept of a community with a shared future of mankind
+- 第2章 思政融入点：share the concept of a community of life for man and nature
+- 第10章 思政融入点：share the initiative of belt and road
 
-Get skills of case analyzing, learn to think all-around, carefully and objectively from the point of international trade regulations, laws, terms and policies.
-Know the development of international trade. ？ Understand functions of international trade on country economy and sustainable development.
-Grasp definitions, types and developing proceeds of international division of labor. ？ Understand factors influencing international division of labor.△
-Understand definition, formation, characteristics development and elements of international market. ？ Know modes of corporations’ entering into international market and influencing factors. ？ Grasp definitions of international value and international market price and role of the law of value in international trade.
-Identify international free trade theories and protective theories. ？ Understand connotations and differences between different theories.
-Be aware of international trade policies. ？ Be able to grasp the connotation, targets and effects of the trade policies.
-Learn different types of international trade measures including tariff and non-tariff measures. ？ Grasp the connotations of different types of tariffs.△？★？ Know aims of different tariffs.
-Grasp definitions, classifications, legal principles of trade treaty and agreement. ？ Learn about GATT.
-Get aware of foundation background, aims, objectives, functions, organizational framework, basic principles, some main agreements, etc OF WTO. ？ Learn WTO’s main rules in detail△
-Understand definitions and origins of regional economic integration△ ？ Know relative theories and current practices.
+## 实验项目
 
-## 课程思政
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
 
-from the Canton fair to illustrate the concept of a community with a shared future of mankind
-share the concept of a community of life for man and nature
-share the initiative of belt and road
+## 教材与参考书目
 
-## 章节安排
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| International Trade 15th edition | Robert J. Carbaugh | 978-7-300-24177-7 | China Renin UP | 2017 |
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Get skills of case analyzing, learn to think all-around, carefully and objectively from the point of international trade regulations, laws, terms and policies. | 4 | 0 | 0 | 0 | 0 | 4 |
-| 2 | Know the development of international trade. ？ Understand functions of international trade on country economy and sustainable development. | 3 | 0 | 0 | 0 | 0 | 3 |
-| 3 | Grasp definitions, types and developing proceeds of international division of labor. ？ Understand factors influencing international division of labor.△ | 4 | 0 | 0 | 0 | 0 | 4 |
-| 4 | Understand definition, formation, characteristics development and elements of international market. ？ Know modes of corporations’ entering into international market and influencing factors. ？ Grasp definitions of international value and international market price and role of the law of value in international trade. | 4 | 0 | 0 | 0 | 0 | 4 |
-| 5 | Identify international free trade theories and protective theories. ？ Understand connotations and differences between different theories. | 4 | 0 | 0 | 0 | 0 | 4 |
-| 6 | Be aware of international trade policies. ？ Be able to grasp the connotation, targets and effects of the trade policies. | 2 | 0 | 0 | 0 | 0 | 2 |
-| 7 | Learn different types of international trade measures including tariff and non-tariff measures. ？ Grasp the connotations of different types of tariffs.△？★？ Know aims of different tariffs. | 4 | 0 | 0 | 0 | 0 | 4 |
-| 8 | Grasp definitions, classifications, legal principles of trade treaty and agreement. ？ Learn about GATT. | 2 | 0 | 0 | 0 | 0 | 2 |
-| 9 | Get aware of foundation background, aims, objectives, functions, organizational framework, basic principles, some main agreements, etc OF WTO. ？ Learn WTO’s main rules in detail△ | 3 | 0 | 0 | 0 | 0 | 3 |
-| 10 | Understand definitions and origins of regional economic integration△ ？ Know relative theories and current practices. | 2 | 0 | 0 | 0 | 0 | 2 |
-
-- 第1章 思政融入: from the Canton fair to illustrate the concept of a community with a shared future of mankind
-- 第2章 思政融入: share the concept of a community of life for man and nature
-- 第10章 思政融入: share the initiative of belt and road
+注意：*字段为必填项
 
 ---
 

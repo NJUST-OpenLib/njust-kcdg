@@ -1,36 +1,18 @@
-﻿# 专业英语【英】
-
-课程编号: 070826E1
-英文名称: Specialized English[E]
-开课单位: 经济管理学院
-学分: 1
-课程状态: 在用
-
-## 大纲信息
-
-- 版本: 2022
+﻿- 课程编号: 070826E1
+- 课程名称(中): 专业英语【英】
 - 授课语种: 中英
+- 课程名称(英): Specialized English[E]
+- 开课单位: 经济管理学院
 - 课程类别: 理论课(含实践环节)
-- 课程负责人: 石绣天
+- 课程负责人(执笔人): 石绣天
 - 审核人: 石绣天
-- 总学时: 16
-- 讲课学时: 16
-- 实验学时: 0
-- 上机学时: 0
+- 学分: 1
+- 学时: 16
+- 是否为术科课: 否
 - 考核类型: 考试
 - 成绩记载: 百分制
-- 是否术科课: 否
-- 成绩构成: 闭卷考试:60%；平时作业:15%；测验:15%；出勤:10%
 
-## 课程目标
-
-1. 掌握会计基础知识点，及英语状态下的名词称呼。
-2. 掌握会计的分类及账户的设置等内容的英文状态下的名词称呼
-3. 掌握资产项目中现金、存款等项目的核算及英文状态下的名词称呼
-4. 掌握负债、收入、所有者权益等项目的核算及英文状态下的名词称呼
-5. 学习财务报表的英文编写
-
-## 课程简介
+## 课程介绍【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】
 
 1) 本课程的性质 
 本课程是会计学专业的必修课程。对于会计学专业的学生而言,本课程的教学重点不在于训练学生的英语语法、时态等，而是主要采用课堂讲授及课堂讨论等教学方法，通过与我国相关会计科目的比较，使学生认识到中外会计科目的相同点和不同点，较为系统地用英语阐述了财务会计、成本管理会计、财务管理及审计学等专业知识，帮助学生提高阅读英语会计文献和使用英语处理常规会计业务的能力，从而体现学生职业技能的培训与训练。
@@ -51,7 +33,7 @@
 第十章 Income Statement Items 
 第十一章 Auditing
 
-## 教学目的与要求
+## 课程目标【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】
 
 1）总体目标
 学生完成本课程的学习后，能够把财务会计知识和英语融合，了解最新的国际财务会计动态，全面提高自身的专业英语水平、扩充专业英语词汇，同时学会用英语处理常规经济业务，提高英语会计相关文献的阅读速度和潜在发展能力，以满足当前会计国际化的要求。
@@ -63,45 +45,56 @@
  （3）素质目标
 学生完成本课程学习后，能够认识到专业英语的重要性，培养求知欲和探索精神，明白应该拓宽自己的视野，在专业英语沟通与交流中培养全面素质。
 
-## 教学内容
+## 课程目标分条说明【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】
 
-Chapter 1 Financial Report Δ1.1 Financial Statements 1.2 Notes and Other information
-Chapter 2 Financial Statement Analysis Δ2.1 Basics of Financial Statement Analysis Δ2.2 Tools of Financial Statement Analysis 2.3 Earning Power and Irregular Items 2.4 Limitations of Financial Statement Analysis
-Chapter 3 Financial Accounting Conceptual Framework 3.1 The Purpose of Accounting Δ3.2 Accounting Basis Δ3.3 Accounting Assumptions 3.4 Financial Accounting Principles 3.5 Financial Accounting Measurement Bases ★3.6 Qualitative Characteristics of Accounting Information
-Chapter 4 Cash and Receivables Δ4.1 Cash Δ4.2 Receivables
-Chapter 5 Inventories 5.1 Inventory Basics 5.2 Physical Goods Included In Inventory Δ5.3 Determining Actual Quantities in the Inventory Δ5.4 Costs Included In Inventory Δ5.5 Inventory Accounting Systems ★5.6 Methods of Pricing Inventory at Cost
-Chapter 6 Plant Assets, Intangibles and Goodwill Δ6.1 Plant Assets Δ6.2 Intangibles 6.3 Goodwill
-Chapter 7 Investments 7.1 Concept of Investments Δ7.2 Accounting for Debt Investments Δ7.3 Accounting for Stock Investments ★7.4 Valuing and Reporting Investments
-Chapter 8 Liabilities Δ8.1 Current Liabilities Δ★8.2 Long？Term Liabilities 8.3 Estimated Liabilities, Loss Contingencies, and Commitments
-Chapter 9 Owner’s Equity 9.1 Concept of the Corporation 9.2 Paid？in Capital Δ9.3 Capital Reserve Δ9.4 Appropriated Retained Earnings ★9.5 Undistributed Profit
-Chapter 10 Income Statement Items Δ10.1 Revenue Δ10.2 Expenses Δ10.3 Profit
-Chapter 11 Auditing 11.1 Overview of the Audit Δ★11.2 Materiality and Auditing Risk Δ11.3 Auditing Evidence and Auditing Sampling
+1. 掌握会计基础知识点，及英语状态下的名词称呼。
+2. 掌握会计的分类及账户的设置等内容的英文状态下的名词称呼
+3. 掌握资产项目中现金、存款等项目的核算及英文状态下的名词称呼
+4. 掌握负债、收入、所有者权益等项目的核算及英文状态下的名词称呼
+5. 学习财务报表的英文编写
 
-## 课程思政
+## 考核方式及成绩占比【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】
 
-讲解财报编制时，需要提醒同学秉持严肃认真的科学精神，处理票据业务要细心准确，编制记账凭证要规范。
-存货项目中关于2019年增值税率变化的知识点，结合我国税收制度，融入减税降费对于减轻企业税费负担，增强国家经济实力从而惠及民众。
-负债相关项目关于应交税费知识点时结合明星偷漏税巨额罚款事件，融入"社会主义核心价值观"中的法制理念。
+| 考核方式 | 1 | 2 | 3 | 4 | 合计 |
+|---|---|---|---|---|---|
+| 名称 | 闭卷考试 | 平时作业 | 测验 | 出勤 | |
+| 占比 | 60% | 15% | 15% | 10% | 100% |
 
-## 章节安排
+## 教学内容及安排【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】
 
-| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
-|---|---|---|---|---|---|---|---|
-| 1 | Chapter 1 Financial Report Δ1.1 Financial Statements 1.2 Notes and Other information | 1 | 0 | 0 | 0 | 0 | 1 |
-| 2 | Chapter 2 Financial Statement Analysis Δ2.1 Basics of Financial Statement Analysis Δ2.2 Tools of Financial Statement Analysis 2.3 Earning Power and Irregular Items 2.4 Limitations of Financial Statement Analysis | 2 | 0 | 0 | 0 | 0 | 2 |
-| 3 | Chapter 3 Financial Accounting Conceptual Framework 3.1 The Purpose of Accounting Δ3.2 Accounting Basis Δ3.3 Accounting Assumptions 3.4 Financial Accounting Principles 3.5 Financial Accounting Measurement Bases ★3.6 Qualitative Characteristics of Accounting Information | 2 | 0 | 0 | 0 | 0 | 2 |
-| 4 | Chapter 4 Cash and Receivables Δ4.1 Cash Δ4.2 Receivables | 2 | 0 | 0 | 0 | 0 | 2 |
-| 5 | Chapter 5 Inventories 5.1 Inventory Basics 5.2 Physical Goods Included In Inventory Δ5.3 Determining Actual Quantities in the Inventory Δ5.4 Costs Included In Inventory Δ5.5 Inventory Accounting Systems ★5.6 Methods of Pricing Inventory at Cost | 2 | 0 | 0 | 0 | 0 | 2 |
-| 6 | Chapter 6 Plant Assets, Intangibles and Goodwill Δ6.1 Plant Assets Δ6.2 Intangibles 6.3 Goodwill | 1 | 0 | 0 | 0 | 0 | 1 |
-| 7 | Chapter 7 Investments 7.1 Concept of Investments Δ7.2 Accounting for Debt Investments Δ7.3 Accounting for Stock Investments ★7.4 Valuing and Reporting Investments | 1 | 0 | 0 | 0 | 0 | 1 |
-| 8 | Chapter 8 Liabilities Δ8.1 Current Liabilities Δ★8.2 Long？Term Liabilities 8.3 Estimated Liabilities, Loss Contingencies, and Commitments | 1 | 0 | 0 | 0 | 0 | 1 |
-| 9 | Chapter 9 Owner’s Equity 9.1 Concept of the Corporation 9.2 Paid？in Capital Δ9.3 Capital Reserve Δ9.4 Appropriated Retained Earnings ★9.5 Undistributed Profit | 2 | 0 | 0 | 0 | 0 | 2 |
-| 10 | Chapter 10 Income Statement Items Δ10.1 Revenue Δ10.2 Expenses Δ10.3 Profit | 1 | 0 | 0 | 0 | 0 | 1 |
-| 11 | Chapter 11 Auditing 11.1 Overview of the Audit Δ★11.2 Materiality and Auditing Risk Δ11.3 Auditing Evidence and Auditing Sampling | 1 | 0 | 0 | 0 | 0 | 1 |
+| 章号 | 教学内容 | 讲课 | 小计 |
+|---|---|---|---|
+| 1 | Chapter 1 Financial Report Δ1.1 Financial Statements 1.2 Notes and Other information | 1 | 1 |
+| 2 | Chapter 2 Financial Statement Analysis Δ2.1 Basics of Financial Statement Analysis Δ2.2 Tools of Financial Statement Analysis 2.3 Earning Power and Irregular Items 2.4 Limitations of Financial Statement Analysis | 2 | 2 |
+| 3 | Chapter 3 Financial Accounting Conceptual Framework 3.1 The Purpose of Accounting Δ3.2 Accounting Basis Δ3.3 Accounting Assumptions 3.4 Financial Accounting Principles 3.5 Financial Accounting Measurement Bases ★3.6 Qualitative Characteristics of Accounting Information | 2 | 2 |
+| 4 | Chapter 4 Cash and Receivables Δ4.1 Cash Δ4.2 Receivables | 2 | 2 |
+| 5 | Chapter 5 Inventories 5.1 Inventory Basics 5.2 Physical Goods Included In Inventory Δ5.3 Determining Actual Quantities in the Inventory Δ5.4 Costs Included In Inventory Δ5.5 Inventory Accounting Systems ★5.6 Methods of Pricing Inventory at Cost | 2 | 2 |
+| 6 | Chapter 6 Plant Assets, Intangibles and Goodwill Δ6.1 Plant Assets Δ6.2 Intangibles 6.3 Goodwill | 1 | 1 |
+| 7 | Chapter 7 Investments 7.1 Concept of Investments Δ7.2 Accounting for Debt Investments Δ7.3 Accounting for Stock Investments ★7.4 Valuing and Reporting Investments | 1 | 1 |
+| 8 | Chapter 8 Liabilities Δ8.1 Current Liabilities Δ★8.2 Long？Term Liabilities 8.3 Estimated Liabilities, Loss Contingencies, and Commitments | 1 | 1 |
+| 9 | Chapter 9 Owner’s Equity 9.1 Concept of the Corporation 9.2 Paid？in Capital Δ9.3 Capital Reserve Δ9.4 Appropriated Retained Earnings ★9.5 Undistributed Profit | 2 | 2 |
+| 10 | Chapter 10 Income Statement Items Δ10.1 Revenue Δ10.2 Expenses Δ10.3 Profit | 1 | 1 |
+| 11 | Chapter 11 Auditing 11.1 Overview of the Audit Δ★11.2 Materiality and Auditing Risk Δ11.3 Auditing Evidence and Auditing Sampling | 1 | 1 |
+| 合计 |  | 16 | 16 |
 
-- 第2章 思政融入: 讲解财报编制时，需要提醒同学秉持严肃认真的科学精神，处理票据业务要细心准确，编制记账凭证要规范。
-- 第5章 思政融入: 存货项目中关于2019年增值税率变化的知识点，结合我国税收制度，融入减税降费对于减轻企业税费负担，增强国家经济实力从而惠及民众。
-- 第8章 思政融入: 负债相关项目关于应交税费知识点时结合明星偷漏税巨额罚款事件，融入"社会主义核心价值观"中的法制理念。
+- 第2章 思政融入点：讲解财报编制时，需要提醒同学秉持严肃认真的科学精神，处理票据业务要细心准确，编制记账凭证要规范。
+- 第5章 思政融入点：存货项目中关于2019年增值税率变化的知识点，结合我国税收制度，融入减税降费对于减轻企业税费负担，增强国家经济实力从而惠及民众。
+- 第8章 思政融入点：负债相关项目关于应交税费知识点时结合明星偷漏税巨额罚款事件，融入"社会主义核心价值观"中的法制理念。
+
+## 实验项目
+
+| 序号 | 实验名称 | 实验内容与要求 | 实验学时 | 实验类型 |
+|---|---|---|---|---|
+
+## 教材与参考书目
+
+| 书名 | 主编 | ISBN书号 | 出版社 | 出版年度 |
+|---|---|---|---|---|
+| 《会计英语》 | 耿晓兰、李秀敏 | 9787563527700 | 北京邮电大学 | 2011年 |
+| 《西方财务会计》 | 余恕莲、曹妍、李相志 | 9787566308764 | 对外经贸大学 | 2013年 |
+| 《会计专业英语教程》（第四版） | 马建威 | 9787565441332 | 东北财经大学 | 2021年 |
+
+注意：*字段为必填项
 
 ---
 
