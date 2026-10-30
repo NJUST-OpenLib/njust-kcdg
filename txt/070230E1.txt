@@ -1,0 +1,70 @@
+﻿# 国际技术贸易【英】
+
+课程编号: 070230E1
+英文名称: International Technology Trade[E]
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 谢荣辉
+- 审核人: 于晶
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 是否术科课: 否
+- 成绩构成: 出勤及课堂表现:10%；平时作业:30%；开卷考试:60%
+
+## 课程目标
+
+1. 1、Understand the basic concepts of international Technology Trade
+2. 2、Understand the various methods of international Technology
+3. 3、Understand the key contents of international technology trade
+4. 4、Memorize the related customs and laws related to international technology trade
+
+## 课程简介
+
+The course International Technology is for students majoring in international economics and trade. Both as a new type of business practice and a new academic discipline, this course lays particular emphasis on the direct mobility of technology, one of the most important and special production factors. The course contents mainly includes the basic theories and practices of international technology trade. Besides relevant policies and legislations, the teaching focuses are objects & means of international technology trade, the procedure of international technology trade’s deal negotiation, the technology trade contract, the price & payment of technology transaction, the taxes and duties of technology trade, etc. The students should have the knowledge of international trade & practices of international trade prior to the study of this course.
+
+The required courses for this course include international trade, international finance and international investment and transnational corporations etc.
+
+## 教学目的与要求
+
+The main function of this course is to enable the students to amass theoretical knowledge and improve their professional ability on the field of international technology trade, master the general procedures for different international technology trade, grasp the basic knowledge and skills for international technology trade negotiation,to sign and fulfilling a contract for international technology and lay the foundation for their future business career.
+
+## 教学内容
+
+An overview of International Technology Trade: Understand the concepts and connotations of technology and international technology trade, characteristics and category of technology, and understand the relationship of international technology trade and other businesses.
+The objects and means of international technology trade: Enable the students to understand the objects and means of international technology trade; distinguish the main objects of international technology trade, especially the primary mean of international technology trade---Licensing Trade
+International technology trade and intellectual property protection: Enable the students to analyze the relationship between intellectual property protection and international technology trade; understand the international acknowledged rules related to international technology trade, and the important international agreements related to international technology trade.
+The theories of International technology trade: Enable the students to perceive the theories of International technology trade; use these theories to analyze practice cases of international technology trade.
+The trading procedure of international technologies’ import & export: Enable the students to understand the preparatory work of technology trade, the negotiation and contract signing. ？ Learn to perceive the import and export procedure of international technologies, and the implementation of technology trade contract.
+The international technology trade contracts:？Enable the students to understand license contract and other forms of technology trade contract; solve the issues such as guaranty, breach of contract and claim
+The price &; payment of international technology trade：Enable the students to understand the price &; payment of international technology trade; perceive the characteristic of technology price, and the payment of technology royalty fees
+The other issues related to international technology trade: Enable the students to understand what restrictive business practices are; perceive tax of international technology trade, and law application of contract and solution for disputes
+The legislation and convention of international technology trade management: Enable the students to understand the legislation and convention of international technology trade management
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | An overview of International Technology Trade: Understand the concepts and connotations of technology and international technology trade, characteristics and category of technology, and understand the relationship of international technology trade and other businesses. | 4 | 0 | 0 | 0 | 0 | 4 |
+| 2 | The objects and means of international technology trade: Enable the students to understand the objects and means of international technology trade; distinguish the main objects of international technology trade, especially the primary mean of international technology trade---Licensing Trade | 4 | 0 | 0 | 0 | 0 | 4 |
+| 3 | International technology trade and intellectual property protection: Enable the students to analyze the relationship between intellectual property protection and international technology trade; understand the international acknowledged rules related to international technology trade, and the important international agreements related to international technology trade. | 4 | 0 | 0 | 0 | 0 | 4 |
+| 4 | The theories of International technology trade: Enable the students to perceive the theories of International technology trade; use these theories to analyze practice cases of international technology trade. | 4 | 0 | 0 | 0 | 0 | 4 |
+| 5 | The trading procedure of international technologies’ import & export: Enable the students to understand the preparatory work of technology trade, the negotiation and contract signing. ？ Learn to perceive the import and export procedure of international technologies, and the implementation of technology trade contract. | 4 | 0 | 0 | 0 | 0 | 4 |
+| 6 | The international technology trade contracts:？Enable the students to understand license contract and other forms of technology trade contract; solve the issues such as guaranty, breach of contract and claim | 4 | 0 | 0 | 0 | 0 | 4 |
+| 7 | The price &; payment of international technology trade：Enable the students to understand the price &; payment of international technology trade; perceive the characteristic of technology price, and the payment of technology royalty fees | 3 | 0 | 0 | 0 | 0 | 3 |
+| 8 | The other issues related to international technology trade: Enable the students to understand what restrictive business practices are; perceive tax of international technology trade, and law application of contract and solution for disputes | 3 | 0 | 0 | 0 | 0 | 3 |
+| 9 | The legislation and convention of international technology trade management: Enable the students to understand the legislation and convention of international technology trade management | 2 | 0 | 0 | 0 | 0 | 2 |
+
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070230E1

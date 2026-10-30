@@ -1,0 +1,75 @@
+﻿# 国际金融【英】
+
+课程编号: 070232E2
+英文名称: International Finance[E]
+开课单位: 经济管理学院
+学分: 3
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 巩雪
+- 审核人: 于晶
+- 总学时: 48
+- 讲课学时: 48
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 课堂表现:10%；平时作业:10%；PPT展示:20%；课程论文:60%
+
+## 课程目标
+
+1. Master the basic principles
+2. Understand the basic operating mechanism of international finance
+3. Analyze international financial trends
+
+## 课程简介
+
+International Finance is one of the core courses of the major "International Economics and Trade". With the development of international flow of commodities, capital, labor and other factors, the interdependence of a country"s economy and the world economy has increased, and international finance introduces the goal of internal and external equilibrium under the open economy from the perspective of money and finance. Besides, this course plays an important role in cultivating talents with extensive knowledge and high quality to meet the requirements of nowadays society. The main content of this course includes the following chapters: International Monetary System, Balance of Payments, Exchange Rate, International Financial Market, International Financial Regulation.
+
+The prerequisite courses for this course are: Microeconomics, Macroeconomics, and Finance.
+
+## 教学目的与要求
+
+Through the implementation of each teaching unit of this course, students can master the basic knowledge, basic theories and basic practices of international finance, and have complete knowledge of engaging in foreign economic and trade and financial activities. Students are required to integrate theory with practice, be able to understand and explain the main practical issues in international finance, grasp the development trend of international finance, and cultivate the ability to independently analyze and solve international monetary and financial problems.
+
+Basic requirements: (1) Master the principle; (2) Understand the operating mechanism; (3) Analyze international financial trends. "
+
+## 教学内容
+
+International Monetary System: evolution of the International Monetary System△★; Current exchange rate system arrangements△
+Balance of Payments: the concept of Balance of Payments and the type of account△; Analysis of the causes of imbalances in the balance of payments account and methods of adjustment△ ★
+Exchange Rate: the concept of Foreign Exchange and Exchange Rate △; Characteristics and functions of the Foreign Exchange Market△; Determination of Exchange Rate△ ★
+International Financial Market: the development history of International Financial Market△; Classification and characteristics of International Financial Markets△
+Financial Derivatives: the concept of Financial Derivatives△; Types and characteristics of Financial Derivatives ★
+International Financial Regulations: types of International Financial Risks△★; Basic principles of International Financial Regulation△
+
+## 课程思政
+
+"By explaining the new changes in the composition of SDR and the development of RMB internationalization, let international students understand the important role played by China in the international monetary system in recent years. Let international students understand China, respect China and be willing to cooperate with China when they go back home and get employed in relative positions. "
+Through the explanation of various influencing factors of exchange rates, students will deeply understand the close relationship between international finance and international political economy. In the current extremely complex international environment, students are taught to look at and analyze problems with comprehensive and critical thinking. Let international students understand the effort China made for financial stability in our area.
+Through the analysis of the characteristics and roles of the international financial market, students can understand the important position of the international financial market in the process of international economic globalization and integrated development, cultivate students' ability to innovate and practice.
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | International Monetary System: evolution of the International Monetary System△★; Current exchange rate system arrangements△ | 8 | 0 | 0 | 0 | 0 | 8 |
+| 2 | Balance of Payments: the concept of Balance of Payments and the type of account△; Analysis of the causes of imbalances in the balance of payments account and methods of adjustment△ ★ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 3 | Exchange Rate: the concept of Foreign Exchange and Exchange Rate △; Characteristics and functions of the Foreign Exchange Market△; Determination of Exchange Rate△ ★ | 16 | 0 | 0 | 0 | 0 | 16 |
+| 4 | International Financial Market: the development history of International Financial Market△; Classification and characteristics of International Financial Markets△ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 5 | Financial Derivatives: the concept of Financial Derivatives△; Types and characteristics of Financial Derivatives ★ | 8 | 0 | 0 | 0 | 0 | 8 |
+| 6 | International Financial Regulations: types of International Financial Risks△★; Basic principles of International Financial Regulation△ | 4 | 0 | 0 | 0 | 0 | 4 |
+
+- 第1章 思政融入: "By explaining the new changes in the composition of SDR and the development of RMB internationalization, let international students understand the important role played by China in the international monetary system in recent years. Let international students understand China, respect China and be willing to cooperate with China when they go back home and get employed in relative positions. "
+- 第3章 思政融入: Through the explanation of various influencing factors of exchange rates, students will deeply understand the close relationship between international finance and international political economy. In the current extremely complex international environment, students are taught to look at and analyze problems with comprehensive and critical thinking. Let international students understand the effort China made for financial stability in our area.
+- 第4章 思政融入: Through the analysis of the characteristics and roles of the international financial market, students can understand the important position of the international financial market in the process of international economic globalization and integrated development, cultivate students' ability to innovate and practice.
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070232E2

@@ -1,0 +1,91 @@
+﻿# 国际商务谈判【英】
+
+课程编号: 070483E1
+英文名称: International Business Negotiation[E]
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 孙芳
+- 审核人: 于晶
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: Evaluation 1（Class participation）:20%；Evaluation2（assignments and presentations）:20%；Evaluation3（Course Report/ Exam）:60%
+
+## 课程目标
+
+1. Be acquainted with two core approaches to negotiation.
+2. Understand the characteristics and utilities of international business negotiation.
+3. Learn how to observe and adapt to communication for business people from different cultures.
+4. Increase awareness of the negotiation process in general including the psychological sub-process.
+5. Understand the impact of culture on international business negotiation
+
+## 课程简介
+
+International Business Negotiation is designed for students (international students in particular)majored in International Economics and Trade. The purpose of this course is to help students to understand the theory and process of international business negotiation and to provide students with opportunities to develop individual negotiation skills for commercial transactions across countries. The course is designed to be relevant to negotiation situations, in the field of international business in particular.
+
+## 教学目的与要求
+
+International Business Negotiation presents negotiation theories and communication negotiation, individual differences and cultural implications on international business negotiation. In addition to the theory and exercises presented in class, students practice negotiating with role-playing simulations.
+
+Upon completion of this course, students will
+
+1. Understand the characteristics and utilities of international business negotiation;
+
+2. Be acquainted with two core approaches to negotiation: the basic dynamics of competitive bargaining and the basic dynamics of integrative negotiation; learn a variety of strategies employed by negotiators in the international business arena;
+
+3. Increase awareness of the negotiation process in general including the psychological sub-process;
+
+4. Understand the impact of culture on international business negotiations;
+
+5. Learn how to observe and adapt to communication for business people from different cultures.
+
+## 教学内容
+
+Introduction: nature, characteristics, process of international business negotiation
+Distributive bargaining strategies and tactics: concepts△, Fundamental strategies and tactical tasks, hardball tactics★
+Integrative bargaining strategies and tactics:Key steps in the integrative negotiation process△ , Factors that facilitate successful integrative negotiation
+Communication in international business negotiation: Distortions in negotiation, How to improve communication★?
+Perception, cognition and emotion
+Power and Influence— Sources of power, Routes to influence△
+International and Cross-Cultural Negotiation:Conceptualizing culture and negotiation,The influence of culture on negotiation: managerial and research perspectives△; Culturally responsive negotiation strategies★
+Managing difficult negotiations:The nature of difficult-to-resolve negotiations; How to resolve impasses★
+Best practices in international business negotiation: Analysis and case studies
+
+## 课程思政
+
+Introduction of some core Chinese cultural values
+Explanation of some of Chinese approaches in business negotiations
+Core Chinese values and their implications in business negotiation
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Introduction: nature, characteristics, process of international business negotiation | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | Distributive bargaining strategies and tactics: concepts△, Fundamental strategies and tactical tasks, hardball tactics★ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 3 | Integrative bargaining strategies and tactics:Key steps in the integrative negotiation process△ , Factors that facilitate successful integrative negotiation | 4 | 0 | 0 | 0 | 0 | 4 |
+| 4 | Communication in international business negotiation: Distortions in negotiation, How to improve communication★? | 6 | 0 | 0 | 0 | 0 | 6 |
+| 5 | Perception, cognition and emotion | 2 | 0 | 0 | 0 | 0 | 2 |
+| 6 | Power and Influence— Sources of power, Routes to influence△ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 7 | International and Cross-Cultural Negotiation:Conceptualizing culture and negotiation,The influence of culture on negotiation: managerial and research perspectives△; Culturally responsive negotiation strategies★ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 8 | Managing difficult negotiations:The nature of difficult-to-resolve negotiations; How to resolve impasses★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 9 | Best practices in international business negotiation: Analysis and case studies | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第1章 思政融入: Introduction of some core Chinese cultural values
+- 第3章 思政融入: Explanation of some of Chinese approaches in business negotiations
+- 第7章 思政融入: Core Chinese values and their implications in business negotiation
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070483E1

@@ -1,0 +1,62 @@
+﻿# 微观经济学【英】
+
+课程编号: 070298E4
+英文名称: Microeconomics[E]
+开课单位: 经济管理学院
+学分: 4
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（含实践）
+- 课程负责人: 吴小康
+- 审核人: 于晶
+- 总学时: 64
+- 讲课学时: 48
+- 实验学时: 16
+- 上机学时: 0
+- 考核类型: 考试
+- 是否术科课: 否
+- 成绩构成: 课堂表现:20%；PPT展示:20%；平时作业:60%
+
+## 课程目标
+
+1. 1、 Understand the principles of microeconomics and methods. Understand the demand and consumption theory, elesiticity , utility and marginal theories
+2. 2、 Understand the assumptions and arguments in microeconomics.
+3. 3、Understand the market structures.the firms decision making theories etc.
+4. 4、Use the tools and theories to analyze economic decision-making and the real world. Help students to develop their capacity of insights in economic phenomena understanding and expert in various economic issues’ explaining.
+
+## 课程简介
+
+Microeconomics is a branch of economics that studies the behavior of individual households and firms in making decisions on the allocation of limited resources. Typically, it applies to markets where goods or services are bought and sold. Microeconomics examines how these decisions and behaviors affect the supply and demand for goods and services, which determines prices, and how prices, in turn, determine the quantity supplied and quantity demanded of goods and services. Microeconomics is in contrast to macroeconomics, which involves the “sum total of economic activity, dealing with the issues of growth, inflation, and unemployment.” Microeconomics also deals with the effects of national economic policies on the aforementioned aspects of the economy. Particularly in the wake of the Lucas critique, much of modern macroeconomic theory has been built upon ‘microfoundations’- i.e. based upon basic assumptions about micro-level behavior. One of the goals of microeconomics is to analyze market mechanisms that establish relative prices amongst goods and services and allocation of limited resources amongst many alternative uses. Microeconomics analyzes market failure, where markets fail to produce efficient results, and describes the theoretical conditions needed for perfect competition. Significant fields of study in microeconomics include general equilibrium, markets under asymmetric information, choice under uncertainty and economic applications of game theory. Also considered is the elasticity of products within the market system.
+
+## 教学目的与要求
+
+This course aims at building on first year undergraduate courses in economics and management so as to develop students" knowledge and skill in microeconomics. This course will cover a mix of old and new ideas in microeconomics theory as well as selected economics issues.
+
+## 教学内容
+
+Preliminaries: Supply, demand , market equilibrium and General Equilibrium : the economics of the consumer△; the behavior of firms△; the application of equilibrium theory△★ ,the theory of consumer choice under uncertainty and supply and demand△★. the economics of general equilibrium theory , welfare economics in theory and application ,the economics of imperfect information★.
+Market structure and Imperfect competition theory: the models of perfect competition, monopoly , oligopoly△★;game theory and choice under uncertainty △★
+Production and cost theories :the theory of labor supply△ ; the effects of taxes and benefits , savings behavior and auctions△
+Market failures and Nash Bargaining: the models of general equilibrium in an exchange economy and in a two-sector economy△; externalities and public goods and asymmetric information (such as signaling models)△★.Externalities;Public Goods; Small Number of Agents, Nash Bargaining
+Game Theory and Nash equilibrium: the Game theory △ and its applications to such problems as gambling and insurance,pollution and other environmental issues ,education and work choices under imperfect information .★
+Economic game modeling and analysis:Mathematical modeling and equilibrium solution of realistic economic game cases using game theory and methods
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Preliminaries: Supply, demand , market equilibrium and General Equilibrium : the economics of the consumer△; the behavior of firms△; the application of equilibrium theory△★ ,the theory of consumer choice under uncertainty and supply and demand△★. the economics of general equilibrium theory , welfare economics in theory and application ,the economics of imperfect information★. | 12 | 0 | 0 | 0 | 0 | 12 |
+| 2 | Market structure and Imperfect competition theory: the models of perfect competition, monopoly , oligopoly△★;game theory and choice under uncertainty △★ | 10 | 0 | 0 | 0 | 0 | 10 |
+| 3 | Production and cost theories :the theory of labor supply△ ; the effects of taxes and benefits , savings behavior and auctions△ | 10 | 0 | 0 | 0 | 0 | 10 |
+| 4 | Market failures and Nash Bargaining: the models of general equilibrium in an exchange economy and in a two-sector economy△; externalities and public goods and asymmetric information (such as signaling models)△★.Externalities;Public Goods; Small Number of Agents, Nash Bargaining | 8 | 0 | 0 | 0 | 0 | 8 |
+| 5 | Game Theory and Nash equilibrium: the Game theory △ and its applications to such problems as gambling and insurance,pollution and other environmental issues ,education and work choices under imperfect information .★ | 8 | 0 | 0 | 0 | 0 | 8 |
+| 6 | Economic game modeling and analysis:Mathematical modeling and equilibrium solution of realistic economic game cases using game theory and methods | 0 | 16 | 0 | 0 | 0 | 16 |
+
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3DA61F9DEC96497FB8C04948437275B9

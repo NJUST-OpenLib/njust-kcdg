@@ -1,0 +1,84 @@
+﻿# 国际经济学【英】
+
+课程编号: 070340E2
+英文名称: International Economics[E]
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 巩雪
+- 审核人: 于晶
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 是否术科课: 否
+- 成绩构成: 课堂表现:10%；PPT展示:20%；期末考试:70%
+
+## 课程目标
+
+1. Be able to apply mathematics in deducing international economics models and generate professional knowledge in the field of international trade and economics.
+2. Be able to apply the basic international trade and finance models and knowledge to identify, express, and analyze practical issues.
+3. Be able to design solutions to decision-making problems in the professional field of international trade, and reflect the sense of innovation in the design process, taking into account social, health, safety, legal, cultural and environmental factors.
+
+## 课程简介
+
+International Economics is the fundamental course for bachelor students majoring in International Economics and Trade. International Economics is a compulsory major course in the curriculum of International Economics and Trade. 
+
+International economics is concerned with the effects upon economic activity of international differences in productive resources and consumer preferences and the international institutions that affect them. It seeks to explain the patterns and consequences of transactions and interactions between the inhabitants of different countries. International trade studies goods-and-services flows across international boundaries from supply-and-demand factors, economic integration, international factor movements, and policy variables such as tariff rates and trade quotas. International monetary economics and macroeconomics studies money and macro flow across countries. International political economy from international relations studies issues and impacts from for example international conflicts, international negotiations, and international sanctions; national security and economic nationalism; and international agreements and observance.
+
+Preliminary course: Microeconomics and Macroeconomics.
+
+## 教学目的与要求
+
+This course is dedicated to realize the following training objectives: comprehensive analysis tools and methods of economics, statistics and econometrics, combining macro analysis and micro analysis, qualitative analysis and quantitative analysis, static analysis and dynamic analysis, and comprehensively and systematically explain the international economics theories. At the same time, it pays attention to the integration with the reality of international economic development, to cultivating students" skills on comprehensive analysis and problem-solving, and to forming a solid foundation for students" follow-up professional course study.
+
+Engineering knowledge: Be able to apply mathematics in deducing international economics models and generate professional knowledge in the field of international trade and economics.
+
+Problem Analysis: Be able to apply the basic international trade and finance models and knowledge to identify, express, and analyze practical issues.
+
+Design/development solutions: Be able to design solutions to decision-making problems in the professional field of international trade, and reflect the sense of innovation in the design process, taking into account social, health, safety, legal, cultural and environmental factors.
+
+Research: Be able to study decision-making issues in the professional field of international trade based on scientific principles and using scientific methods, including obtaining, analyzing and interpreting data, and obtaining reasonable and effective conclusions through information synthesis.
+
+Environment and Sustainable Development: Able to understand and evaluate the impact of professional practice on decision-making issues in the field of international trade on the sustainable development of the environment and society.
+
+Professional norms: Have humanities and social science literacy, a sense of social responsibility, be able to understand and abide by the professional ethics and norms of international trade in professional practice, and perform responsibilities.
+
+## 教学内容
+
+Introduction： the key facts relating to International Trade and International Macroeconomics△.
+International Trade Model: the derivation and applications of International Trade models△★; External Economies of Scale△★; Firms in the Global Economy.
+International Trade Policy: the Instruments of Trade Policy△★; the Political Economy of Trade Policy△; Controversies in Trade Policy.
+Open Economy Macro-policy: International Monetary Systems△; Optimum Currency Areas and the European Experience△; Financial Globalization: Opportunity and Crisis△.
+Developing Countries: Trade Policy in Developing Countries△; Growth, Crisis, and Reform in Developing Countries△.
+
+## 课程思政
+
+认识中国在国际经济中的重要积极作用，了解中国为构建“人类命运共同体”所作出的努力。
+认识中国特色社会主义制度优越性，坚定制度自信。
+认识中国特色社会主义市场经济和贸易政策，坚定道路自信。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Introduction： the key facts relating to International Trade and International Macroeconomics△. | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | International Trade Model: the derivation and applications of International Trade models△★; External Economies of Scale△★; Firms in the Global Economy. | 18 | 0 | 0 | 0 | 0 | 18 |
+| 3 | International Trade Policy: the Instruments of Trade Policy△★; the Political Economy of Trade Policy△; Controversies in Trade Policy. | 6 | 0 | 0 | 0 | 0 | 6 |
+| 4 | Open Economy Macro-policy: International Monetary Systems△; Optimum Currency Areas and the European Experience△; Financial Globalization: Opportunity and Crisis△. | 4 | 0 | 0 | 0 | 0 | 4 |
+| 5 | Developing Countries: Trade Policy in Developing Countries△; Growth, Crisis, and Reform in Developing Countries△. | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第1章 思政融入: 认识中国在国际经济中的重要积极作用，了解中国为构建“人类命运共同体”所作出的努力。
+- 第3章 思政融入: 认识中国特色社会主义制度优越性，坚定制度自信。
+- 第5章 思政融入: 认识中国特色社会主义市场经济和贸易政策，坚定道路自信。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=0F5BF889F29147DD96FBF029EA2820EB

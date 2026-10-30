@@ -1,0 +1,62 @@
+﻿# 国际经济学【英】
+
+课程编号: 070340E1
+英文名称: International Economics[E]
+开课单位: 经济管理学院
+学分: 3
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 谢荣辉
+- 审核人: 于晶
+- 总学时: 48
+- 讲课学时: 48
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 是否术科课: 否
+- 成绩构成: 出勤与课堂表现:20%；课堂作业:20%；开卷考试:60%
+
+## 课程目标
+
+1. 1、 Understand the knowledge of intermediate economic theories and methods, enable students to analyze the international economic issues in practice.
+2. 2、Provide students a clear, straightforward understanding of the current account of the main topics in international economics.
+3. 3、Help students to keep them perspective constantly in mind to take the explanations both intuitively appealing and rigorous.
+4. 4、After studying this course, whenever possible, students can not only use economic theory to explain and interpret experience, but can also use the basic theory and method of international economics to do the theoretical analysis works in practice.
+
+## 课程简介
+
+International economics is concerned with the effects upon economic activity of international differences in productive resources and consumer preferences and the international institutions that affect them. It seeks to explain the patterns and consequences of transactions and interactions between the inhabitants of different countries, including trade, investment and migration. International trade studies goods-and-services flows across international boundaries from supply-and-demand factors, economic integration, international factor movements, and policy variables such as tariff rates and trade quotas. International finance studies the flow of capital across international financial markets, and the effects of these movements on exchange rates. International monetary economics and macroeconomics studies money and macro flow across countries. International political economy from international relations studies issues and impacts from for example international conflicts, international negotiations, and international sanctions; national security and economic nationalism; and international agreements and observance.
+
+## 教学目的与要求
+
+This is a required course for the specialty of International Economics & trade and Economics. and this is also a basic course for majors of economics as well as a core course for majors of international economics and trade, aiming at the students’ mastery of the basic concepts, theories and assessment of international trade theory and policy as well as international finance theory and policy. For example, balance of payments adjustment mechanism, exchange rates and foreign exchange market, economic globalization theory and so on. The study of this course helps students know better about the operation rules of international trade, investment, and finance in the global economy, develops the student’s ability to analyze, summarize and solve practical problems.
+
+## 教学内容
+
+Introduction &; comparative advantage theory: the key facts relating to international trade and international macroeconomics△; the concept of comparative advantage and its determinants.
+The Ricardian and H-O Model: the working and applications of the Ricardian model of international trade△; Heckscher-Ohlin general equilibrium models of international trade.△;
+International trade Effects; Commercial Policy study: the implications of introducing imperfect competition and increasing returns to scale into models of international trade△; effects of international trade and of international trade policies on economic welfare and domestic goods and factor markets.△
+Balance of Payments:Relate international transactions to national income accounting; Discuss virtually every aspect of international monetary policy
+International Finance Model and International Finance theory : the determinants of the exchange rate and be able to evaluate alternative exchange rate regimes△. Mundell-Fleming model to illuminate a range of issues in international macroeconomics△★; how to model international borrowing as intertemporal trade△★.
+Open Economy Macro-policy: overview of the balance of payments△; the working of models of balance of payments and exchange rate.△ financial crises and international economic policy coordinations
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Introduction &; comparative advantage theory: the key facts relating to international trade and international macroeconomics△; the concept of comparative advantage and its determinants. | 8 | 0 | 0 | 0 | 0 | 8 |
+| 2 | The Ricardian and H-O Model: the working and applications of the Ricardian model of international trade△; Heckscher-Ohlin general equilibrium models of international trade.△; | 8 | 0 | 0 | 0 | 0 | 8 |
+| 3 | International trade Effects; Commercial Policy study: the implications of introducing imperfect competition and increasing returns to scale into models of international trade△; effects of international trade and of international trade policies on economic welfare and domestic goods and factor markets.△ | 10 | 0 | 0 | 0 | 0 | 10 |
+| 4 | Balance of Payments:Relate international transactions to national income accounting; Discuss virtually every aspect of international monetary policy | 6 | 0 | 0 | 0 | 0 | 6 |
+| 5 | International Finance Model and International Finance theory : the determinants of the exchange rate and be able to evaluate alternative exchange rate regimes△. Mundell-Fleming model to illuminate a range of issues in international macroeconomics△★; how to model international borrowing as intertemporal trade△★. | 8 | 0 | 0 | 0 | 0 | 8 |
+| 6 | Open Economy Macro-policy: overview of the balance of payments△; the working of models of balance of payments and exchange rate.△ financial crises and international economic policy coordinations | 8 | 0 | 0 | 0 | 0 | 8 |
+
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070340E1

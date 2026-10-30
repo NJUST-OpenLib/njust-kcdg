@@ -1,0 +1,71 @@
+﻿# 学术论文写作【英】
+
+课程编号: 070710E1
+英文名称: Academic Paper Writing[E]
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 巩雪
+- 审核人: 于晶
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 课堂表现:10%；平时作业:10%；PPT展示:20%；课程论文:60%
+
+## 课程目标
+
+1. Have a good ability to write academic prose in English
+2. Have a good familiarity with the formalities of academic writing
+3. Be able to present their research findings in a clear and structured manner
+
+## 课程简介
+
+The Academic Writing class is an intensive analysis of the principles of excellent academic writing for Scientists preparing a range of texts including research papers, conference proposals, conference posters, book chapters, technical reports, dissertations.
+
+Class discussion focuses on the central role of rhetorical positioning in the development of a clear, interesting, and rigorous science research paper. We talk about the significance of narrowing the problem space, the construction of logical arguments, the reporting and interpretation of data, as well as other important concepts including reader-oriented writing, genre, precision, tone, and strategies useful for redrafting and editing. Some of the sub-genres we analyze and practice include introductions, data commentaries, results/discussion, conclusions, and abstracts. 
+
+Prerequisite(s): English "
+
+## 教学目的与要求
+
+Our global is cultivating selected print and digital literacies necessary for successful written communication in academic, professional, and workplace settings where you may interact with fellow experts in business and related disciplines. Although the primary aim of this course involves helping you build your proficiency and confidence as a writer of English, we will also devote time and effort to improving your reading, critical reasoning, and research skills. A guiding principle of language and literacy development is that all skill areas are interdependent and that people become good writers not only by learning to write. "
+
+## 教学内容
+
+The Writing Process
+Elements of Writing
+Accuracy in Writing
+Writing Models
+
+## 课程思政
+
+Use relative writing materials to let international students understand China and love Chinese language.
+Use relative writing materials to let international students understand China and love Chinese language.
+Use relative writing materials to let international students understand China and love Chinese language.
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | The Writing Process | 8 | 0 | 0 | 0 | 0 | 8 |
+| 2 | Elements of Writing | 8 | 0 | 0 | 0 | 0 | 8 |
+| 3 | Accuracy in Writing | 8 | 0 | 0 | 0 | 0 | 8 |
+| 4 | Writing Models | 8 | 0 | 0 | 0 | 0 | 8 |
+
+- 第1章 思政融入: Use relative writing materials to let international students understand China and love Chinese language.
+- 第2章 思政融入: Use relative writing materials to let international students understand China and love Chinese language.
+- 第4章 思政融入: Use relative writing materials to let international students understand China and love Chinese language.
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070710E1

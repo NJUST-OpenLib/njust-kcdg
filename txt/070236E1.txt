@@ -1,0 +1,90 @@
+﻿# 国际贸易实务【英】
+
+课程编号: 070236E1
+英文名称: International Trade Practice[E]
+开课单位: 经济管理学院
+学分: 3
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 尤宏兵
+- 审核人: 于晶
+- 总学时: 48
+- 讲课学时: 48
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: (未填):10%；(未填):30%；(未填):60%
+
+## 课程目标
+
+1. Be able to express all trade terms of international goods contracts proficiently in English
+2. Be able to do international business negotiation
+3. Be able to correctly draft the international contracts for the sales of goods
+4. Be able to correctly and normatively calculate the export or import price
+5. Be able to formulate various clauses in international sales contracts in English
+6. Be able to correctly handle claims for international goods
+
+## 课程简介
+
+This course is a professional course for those students majored in International Economics and Trade. It is a practice-oriented curriculum. The course focuses on the discussion of the international sales of goods from the following four steps: preparation for international trade; international business negotiation; conclusion of the written contract and its contents; performance or execution of the international contract for the sales of goods.
+The contents are as follows: (1) Introduction; (2) Preparation for international trade; (3) International business negotiation and the structure and contents of the written contract; (4) Subject of the contract; (5) Price; (6) Transportation; (7) Insurance; (8) Payment;(9) General Terms in the S/C; (10) Performance of the contract.
+Preliminary course: International Trade; International Finance
+
+## 教学目的与要求
+
+It aims to provide the students with a fundamental understanding of the procedure of the import and the export. By studying this course, students will be acquainted with every segment of import and export activities. Students will be able to conduct negotiations independently in international business transactions, to take precautions against breach of contracts and to settle the claims according to relevant laws/acts and international customs and practices. 
+Upon successful completion of this course, students will be able to:
+(1) Have a general understanding on the procedure of import and export;
+(2) Be able to conclude a contract for the international sales of goods;
+(3) Understand the latest international customs and practices, conventions and relevant laws of international business;
+(4) Be able to draft and know how to check the documents needed in importation and exportation.
+(5) Be able to execute the contract for the international sales of goods.
+
+## 教学内容
+
+Concept of International Trade Practice△; Characteristics of International Trade△★; General Procedure for International Trade△; Teaching Materials
+Preparation For International Transaction; Market Research△; Preparing the Goods△; Setting Up Export Operation Plan; Establishing the Negotiation Team★; Understanding Key Trade Terms in the Contract; Promoting and Advertising the Goods in the Importing Countries; Establishing Business Relationship
+Business Negotiation Procedure; Enquiry; Offer△★;Counter-offer; Accept△★; Written Contract
+Name of Commodity△; Quality△★; Quantity△★; Packing and Marking
+Introduction to Price Terms△; Three Widely Used Price Terms Used for Any Transport Modes△★; Three Popular Price Terms Used for Sea and Inland Waterway Transport Only△★; Pricing Composition and Pricing Methods△★; Price Clause△
+Ocean Transportation△; Other Modes of Transportation; Ocean Bill of Lading△★; Other Shipping Documents; Shipment Clause in the S/C△
+Concept and Principles of Cargo Transportation Insurance△; Marine Risks and Losses△★; Coverage of Marine Cargo Insurance of CIC△★; Coverage of Marine Cargo Insurance of ICC△; Insurances for Cargoes Transported Except for Ocean Transportation; Procedures of Cargo Insurance△; Insurance Clause in the Sales Contract△
+Negotiable Instruments△★; Payment Method-Remittance△; Payment Method-Collection△; Payment Method-Letter of Credit△★; Payment Clause By L/C under Sales Contract△
+Commodity Inspection△;Disputes & Claims△;Arbitration△;Force Majeure△★
+Introduction to Performance of Contract△; The Performance of Export Contract△★; The Performance of Import Contract
+
+## 课程思政
+
+We should grasp the trend of economic globalization, support countries around the world to expand their opening up, oppose unilateralism and protectionism, and promote a better future for mankind
+Mutual Benefit
+Treat each other equally in international economic exchanges
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Concept of International Trade Practice△; Characteristics of International Trade△★; General Procedure for International Trade△; Teaching Materials | 4 | 0 | 0 | 0 | 0 | 4 |
+| 2 | Preparation For International Transaction; Market Research△; Preparing the Goods△; Setting Up Export Operation Plan; Establishing the Negotiation Team★; Understanding Key Trade Terms in the Contract; Promoting and Advertising the Goods in the Importing Countries; Establishing Business Relationship | 2 | 0 | 0 | 0 | 0 | 2 |
+| 3 | Business Negotiation Procedure; Enquiry; Offer△★;Counter-offer; Accept△★; Written Contract | 6 | 0 | 0 | 0 | 0 | 6 |
+| 4 | Name of Commodity△; Quality△★; Quantity△★; Packing and Marking | 4 | 0 | 0 | 0 | 0 | 4 |
+| 5 | Introduction to Price Terms△; Three Widely Used Price Terms Used for Any Transport Modes△★; Three Popular Price Terms Used for Sea and Inland Waterway Transport Only△★; Pricing Composition and Pricing Methods△★; Price Clause△ | 8 | 0 | 0 | 0 | 0 | 8 |
+| 6 | Ocean Transportation△; Other Modes of Transportation; Ocean Bill of Lading△★; Other Shipping Documents; Shipment Clause in the S/C△ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 7 | Concept and Principles of Cargo Transportation Insurance△; Marine Risks and Losses△★; Coverage of Marine Cargo Insurance of CIC△★; Coverage of Marine Cargo Insurance of ICC△; Insurances for Cargoes Transported Except for Ocean Transportation; Procedures of Cargo Insurance△; Insurance Clause in the Sales Contract△ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 8 | Negotiable Instruments△★; Payment Method-Remittance△; Payment Method-Collection△; Payment Method-Letter of Credit△★; Payment Clause By L/C under Sales Contract△ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 9 | Commodity Inspection△;Disputes & Claims△;Arbitration△;Force Majeure△★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 10 | Introduction to Performance of Contract△; The Performance of Export Contract△★; The Performance of Import Contract | 4 | 0 | 0 | 0 | 0 | 4 |
+
+- 第1章 思政融入: We should grasp the trend of economic globalization, support countries around the world to expand their opening up, oppose unilateralism and protectionism, and promote a better future for mankind
+- 第3章 思政融入: Mutual Benefit
+- 第5章 思政融入: Treat each other equally in international economic exchanges
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070236E1

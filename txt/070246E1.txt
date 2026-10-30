@@ -1,0 +1,67 @@
+﻿# 货币银行学【英】
+
+课程编号: 070246E1
+英文名称: Economics of Money and Banking[E]
+开课单位: 经济管理学院
+学分: 3
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 叶立新
+- 审核人: 于晶
+- 总学时: 48
+- 讲课学时: 48
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 成绩记载: 百分制
+- 是否术科课: 否
+
+## 课程目标
+
+1. Through introducing currency, credit, interest, financial markets, commercial banks and Central Bank, helping students understand principles, the mechanism and the latest developments of financial markets.
+2. Through the introduction of monetary demand, monetary supply, inflation and monetary policy, helping students understand the interrelationship between currency, credit and economy
+3. Through the introduction of general knowledge and principles of international finance, helping students know the methods to analyze financial problems in the open economy model
+
+## 课程简介
+
+This course is a basic theoretical course for economics major. The course focuses on cultivating students" ability to understand financial phenomenon in reality and improving their ability to analyze and solve practical problems. The curriculum includes the followings: currency and monetary system; credit; interest and interest rates; financial markets; financial institutions; commercial banks; the Central Bank. The prerequisites for this course are: Microeconomics, Macroeconomics.
+
+## 教学目的与要求
+
+The main purpose of this course is to help students understand the basic theory and basic knowledge of Money and Banking, cultivate students" dialectical materialistic world view and realistic attitude for science study, obtain self-learning ability and independent scientific research ability, realize the methods of analyzing and solving monetary and financial problems. Through the study of this course, students should have the ability to understand the financial phenomenon in reality and to write related academic papers.
+
+## 教学内容
+
+Introduction: Research Object and Research Content Of Monetary and Banking; Learning Objectives and Significance
+Currency and Monetary System: The Origin Of Currency; The Function Of Currency; The Definition Of Currency; The Monetary System.
+Credit: Credit and Its Relationship With Currency; Credit Form; Credit Tools;
+Interest and interest rates: interest; interest rate; interest rate decision ; the role of interest rates
+Financial Markets: Overview Of Financial Markets; Financial Instruments; Monetary Market; The Composition Of Capital Market
+Financial Institutions: Overview Of Financial Institutions; The Composition Of Financial Institutions; The Mode Of Financial Institutions
+Commercial Banks: Generation and Development of Commercial Banks; Business of Commercial Banks; Commercial Banks Management; Deposits and Monetary Management; Financial Innovation
+Central Bank: Emergence and Types Of Central Bank; Functions Of Central Bank; The Main Business Of Central Bank;
+Monetary Policy: Objectives of Monetary Policy; Tools of Monetary Policy; Transmission Mechanism of Monetary Policy
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Introduction: Research Object and Research Content Of Monetary and Banking; Learning Objectives and Significance | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | Currency and Monetary System: The Origin Of Currency; The Function Of Currency; The Definition Of Currency; The Monetary System. | 6 | 0 | 0 | 0 | 0 | 6 |
+| 3 | Credit: Credit and Its Relationship With Currency; Credit Form; Credit Tools; | 6 | 0 | 0 | 0 | 0 | 6 |
+| 4 | Interest and interest rates: interest; interest rate; interest rate decision ; the role of interest rates | 6 | 0 | 0 | 0 | 0 | 6 |
+| 5 | Financial Markets: Overview Of Financial Markets; Financial Instruments; Monetary Market; The Composition Of Capital Market | 6 | 0 | 0 | 0 | 0 | 6 |
+| 6 | Financial Institutions: Overview Of Financial Institutions; The Composition Of Financial Institutions; The Mode Of Financial Institutions | 6 | 0 | 0 | 0 | 0 | 6 |
+| 7 | Commercial Banks: Generation and Development of Commercial Banks; Business of Commercial Banks; Commercial Banks Management; Deposits and Monetary Management; Financial Innovation | 6 | 0 | 0 | 0 | 0 | 6 |
+| 8 | Central Bank: Emergence and Types Of Central Bank; Functions Of Central Bank; The Main Business Of Central Bank; | 6 | 0 | 0 | 0 | 0 | 6 |
+| 9 | Monetary Policy: Objectives of Monetary Policy; Tools of Monetary Policy; Transmission Mechanism of Monetary Policy | 4 | 0 | 0 | 0 | 0 | 4 |
+
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070246E1

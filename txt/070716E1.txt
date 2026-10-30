@@ -1,0 +1,80 @@
+﻿# 国际金融市场与机构【英】
+
+课程编号: 070716E1
+英文名称: International Financial Markets and Institutions[E]
+开课单位: 经济管理学院
+学分: 3
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 王伟藩
+- 审核人: 于晶
+- 总学时: 48
+- 讲课学时: 48
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: (未填):40%；(未填):60%
+
+## 课程目标
+
+1. 熟悉金融市场及金融机构的基本知识
+2. 分析复杂的国际金融问题
+3. 持续关注国际金融领域的热点问题
+
+## 课程简介
+
+国际金融市场和机构课程是为有兴趣从事金融市场和金融服务业的学生而开设的。本课程探讨了国际金融市场的作用、国际金融市场的种类及特点、不同类型金融市场中交易的工具、银行及其主要竞争对手在竞争日益激烈的金融服务市场中提供的服务，以及对市场中参与主体和产品的监管。本课程主要介绍现代国际金融市场和机构的基本原理、主要方法和最新发展。
+课程主要内容包括如下章节：全球视角的金融体系；国际货币体系；利率；货币市场与央行；债券市场与股票市场；金融财务报表；存贷款管理；金融监管。
+本课程所需的预修课程有：金融学、国际金融。
+The course of international financial markets and institutions is designed for students interested in pursuing careers in or learning more about the financial markets and financial services industry. It explores the role of financial markets, the instruments traded in financial markets, the services that banks and their principal competitors offer in an increasingly competitive financial-services marketplace, and the regulations on them.？ This course mainly focuses on the basic principles, main methods and newly development of modern international financial markets and institutions.
+Prerequisite(s): Finance, International Finance
+
+## 教学目的与要求
+
+本课程的目的是为学生提供金融市场的基本知识，并对国际银行和其他金融机构在国际金融市场中的地位和职能分析。通过学习本课程，学生将熟悉促进全球贸易和投资活动的关键金融市场和工具；了解金融机构的功能及其面临的风险；不仅掌握基本国际金融领域知识，而且持续关注国际金融领域的热点问题，学会分析复杂的金融问题并做出决策，探索有效应对这些挑战的方法。
+The purpose of this course is to provide students with a fundamental knowledge of the functions performed and the roles played by the financial system of financial market, as well as the status and roles of important financial institutions including international banks and other financial-service providers. By studying this course, students will be acquainted with the key financial markets and instruments that facilitate trade and investment activity on a global scale, understand what the financial institutions do for people and the risks they present. Students can learn to analyze financial problems as well as making financial decisions. Students can also examine the different risk exposures that confront financial-service providers today, discover ways to deal with these challenges efficiently and effectively, and keep focusing on the international events happening in the field of international financial markets and institutions.
+
+## 教学内容
+
+Global Financial System in Perspective: financial system△; financial assets; financial information★; financial market△
+International Monetary System: evolution of international monetary system△★; contemporary currency regimes△; internationalization of RMB△★
+Interest Rate: determinants of interest rates△★; calculating interest rates△★
+Money Market and Central Bank: characteristics of money market; instruments traded in money market△; central bank★
+Bond Market and Equity Market: categories of bonds△; characteristics of stock★
+Financial Statements and Financial-firm Performance: components in balance sheet and income statement△★; evaluate the performance of financial institutions△★
+Managing Sources of Funds and Providing Loans: deposit△; nondeposit; commercial loans; consumer loans△
+Regulation: regulation of financial market and international banking
+
+## 课程思政
+
+通过对国际货币体系演变的介绍，让留学生了解中国经济发展及人民币在国际金融体系中的作用，增加留学生对中国特色社会主义思想及社会主义核心价值观的深入了解。
+通过对国际银行财务报表数据及指标的分析，结合中国银行业的发展现状，让学生认识到中国银行业近年来在国际地位大幅提升带来的影响；激发留学生对学习中国金融业管理知识的动力。
+通过对银行资金管理的讲解，教学生学会用综合、辩证的思维看待和分析问题，培养学生的责任感、危机感和使命感
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Global Financial System in Perspective: financial system△; financial assets; financial information★; financial market△ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 2 | International Monetary System: evolution of international monetary system△★; contemporary currency regimes△; internationalization of RMB△★ | 8 | 0 | 0 | 0 | 0 | 8 |
+| 3 | Interest Rate: determinants of interest rates△★; calculating interest rates△★ | 4 | 0 | 0 | 0 | 0 | 4 |
+| 4 | Money Market and Central Bank: characteristics of money market; instruments traded in money market△; central bank★ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 5 | Bond Market and Equity Market: categories of bonds△; characteristics of stock★ | 8 | 0 | 0 | 0 | 0 | 8 |
+| 6 | Financial Statements and Financial-firm Performance: components in balance sheet and income statement△★; evaluate the performance of financial institutions△★ | 6 | 0 | 0 | 0 | 0 | 6 |
+| 7 | Managing Sources of Funds and Providing Loans: deposit△; nondeposit; commercial loans; consumer loans△ | 8 | 0 | 0 | 0 | 0 | 8 |
+| 8 | Regulation: regulation of financial market and international banking | 2 | 0 | 0 | 0 | 0 | 2 |
+
+- 第2章 思政融入: 通过对国际货币体系演变的介绍，让留学生了解中国经济发展及人民币在国际金融体系中的作用，增加留学生对中国特色社会主义思想及社会主义核心价值观的深入了解。
+- 第6章 思政融入: 通过对国际银行财务报表数据及指标的分析，结合中国银行业的发展现状，让学生认识到中国银行业近年来在国际地位大幅提升带来的影响；激发留学生对学习中国金融业管理知识的动力。
+- 第7章 思政融入: 通过对银行资金管理的讲解，教学生学会用综合、辩证的思维看待和分析问题，培养学生的责任感、危机感和使命感
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=B2F8452E867F4C4EB804B3A37F948CD4

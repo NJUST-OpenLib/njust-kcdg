@@ -1,0 +1,74 @@
+﻿# 管理综合评价
+
+课程编号: 07038904
+英文名称: Comprehensive Management Evaluation
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 中文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 江文奇
+- 审核人: 沈静远
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+
+## 课程目标
+
+1. 1、掌握管理综合评价各个过程的主要方法和技术
+2. 2、选取有效的评价方法，从而具备初步的用定量的手段解决复杂决策问题的能力
+3. 3、系统地掌握该领域的英语专业词汇以及科技论文的写作格式
+
+## 课程简介
+
+管理综合评价是管理科学与工程专业的一门核心课程，也是评价与决策研究方向的必修课程。通过管理综合评价指标的选择、指标值的规范化处理、指标权重的设计、相关管理综合评价方法的介绍，让学生了解相关问题的综合评价的具体思路和内容，为学生阅读该领域英语文献打下良好基础，为学生学年论文及毕业论文的研究工作提供了一类实用分析技术，提高学生的创新研究能力。
+
+本课程所需的预修课程有：概率论与数理统计，运筹学
+
+## 教学目的与要求
+
+通过本课程的学习，使学生掌握管理综合评价各个过程的主要方法和技术，了解如何选取有效的评价方法，从而具备初步的用定量的手段解决复杂决策问题的能力，具备一定的创新研究能力。本课程还培养学生系统地掌握该领域的英语专业词汇以及科技论文的写作格式，这将为学生阅读该领域英语文献及为英文写作打下坚实基础。
+
+## 教学内容
+
+"1 Introduction：The action of evaluation；The meaning of evaluation；the criteria evaluated selection " "1 Introduction：The action of evaluation；The meaning of evaluation；the criteria evaluated selection "
+"2 The important method qualitative evaluation； technological economic evaluation；multi-attribute evaluation；Data envelopment analysis；statistic evaluation；system engineering；fuzzy evaluation " "2 The important method qualitative evaluation； technological economic evaluation；multi-attribute evaluation；Data envelopment analysis；statistic evaluation；system engineering；fuzzy evaluation "
+"3 Qualitative evaluation methods：Scored method；Delphi method；brainstorm method " "3 Qualitative evaluation methods：Scored method；Delphi method；brainstorm method "
+"4 Normalization method：the normalization of crisp numbers； the normalization of fuzzy numbers " "4 Normalization method：the normalization of crisp numbers； the normalization of fuzzy numbers "
+"5 Weighting methods：subjective weighting；objective weighting ；the optimal weighting " "5 Weighting methods：subjective weighting；objective weighting ；the optimal weighting "
+"6 the comprehensive method：Topsis method；Vikor method；DEA method；Comprehensive index method； Effenciency evaluation method；fuzzy evaluation method " "6 the comprehensive method：Topsis method；Vikor method；DEA method；Comprehensive index method； Effenciency evaluation method；fuzzy evaluation method "
+"7 Application：the background；the analytic process " "7 Application：the background；the analytic process "
+
+## 课程思政
+
+介绍我国重大工程项目的评估案例，体现我国的强大自信，道路自信，分享我国经济建设的重大成就，介绍我国重大工程项目的评估案例，体现我国的强大自信，道路自信，分享我国经济建设的重大成就
+介绍我国关于评估过程中的学习机制，重点学习政治局常委会带头认真学习各类知识的鲜活案例 介绍我国关于评估过程中的学习机制，重点学习政治局常委会带头认真学习各类知识的鲜活案例
+重点介绍我国的民主集中制，领导人在决策过程中，充分发挥民主意识，提高评价的科学性 重点介绍我国的民主集中制，领导人在决策过程中，充分发挥民主意识，提高评价的科学性
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | "1 Introduction：The action of evaluation；The meaning of evaluation；the criteria evaluated selection " "1 Introduction：The action of evaluation；The meaning of evaluation；the criteria evaluated selection " | 3 | 0 | 0 | 0 | 0 | 3 |
+| 2 | "2 The important method qualitative evaluation； technological economic evaluation；multi-attribute evaluation；Data envelopment analysis；statistic evaluation；system engineering；fuzzy evaluation " "2 The important method qualitative evaluation； technological economic evaluation；multi-attribute evaluation；Data envelopment analysis；statistic evaluation；system engineering；fuzzy evaluation " | 5 | 0 | 0 | 0 | 0 | 5 |
+| 3 | "3 Qualitative evaluation methods：Scored method；Delphi method；brainstorm method " "3 Qualitative evaluation methods：Scored method；Delphi method；brainstorm method " | 4 | 0 | 0 | 0 | 0 | 4 |
+| 4 | "4 Normalization method：the normalization of crisp numbers； the normalization of fuzzy numbers " "4 Normalization method：the normalization of crisp numbers； the normalization of fuzzy numbers " | 3 | 0 | 0 | 0 | 0 | 3 |
+| 5 | "5 Weighting methods：subjective weighting；objective weighting ；the optimal weighting " "5 Weighting methods：subjective weighting；objective weighting ；the optimal weighting " | 7 | 0 | 0 | 0 | 0 | 7 |
+| 6 | "6 the comprehensive method：Topsis method；Vikor method；DEA method；Comprehensive index method； Effenciency evaluation method；fuzzy evaluation method " "6 the comprehensive method：Topsis method；Vikor method；DEA method；Comprehensive index method； Effenciency evaluation method；fuzzy evaluation method " | 5 | 0 | 0 | 0 | 0 | 5 |
+| 7 | "7 Application：the background；the analytic process " "7 Application：the background；the analytic process " | 5 | 0 | 0 | 0 | 0 | 5 |
+
+- 第1章 思政融入: 介绍我国重大工程项目的评估案例，体现我国的强大自信，道路自信，分享我国经济建设的重大成就，介绍我国重大工程项目的评估案例，体现我国的强大自信，道路自信，分享我国经济建设的重大成就
+- 第2章 思政融入: 介绍我国关于评估过程中的学习机制，重点学习政治局常委会带头认真学习各类知识的鲜活案例 介绍我国关于评估过程中的学习机制，重点学习政治局常委会带头认真学习各类知识的鲜活案例
+- 第7章 思政融入: 重点介绍我国的民主集中制，领导人在决策过程中，充分发挥民主意识，提高评价的科学性 重点介绍我国的民主集中制，领导人在决策过程中，充分发挥民主意识，提高评价的科学性
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=07038904

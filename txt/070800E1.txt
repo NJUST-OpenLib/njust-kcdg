@@ -1,0 +1,64 @@
+﻿# 毕业论文【英】
+
+课程编号: 070800E1
+英文名称: Graduation Thesis[E]
+开课单位: 经济管理学院
+学分: 14
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 毕业设计（论文）
+- 课程负责人: 尤宏兵
+- 审核人: 杨慧
+- 总学时: 560
+- 讲课学时: 0
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 是否术科课: 否
+- 成绩构成: 毕业论文:100%
+
+## 课程目标
+
+1. To be able to know how to write a literature review
+2. To be able to write an academic theisis
+3. To be able to analyze with at least one scientific research method
+
+## 课程简介
+
+Graduation Thesis is an important teaching and practical procedure. It is a kind of comprehensive test of solving both practical and management problems independently in international trade by utilizing the professional knowledge that the students have learned. Graduation Thesis includes the following tasks: (1)Pre-work： Tt contains Graduation Thesis Topic selection; Graduation Thesis Proposal and literature review; （2）Graduation Thesis which includes topic, abstract, keywords, body, references, and tables and or figures related to the thesis；（3）Thesis Defense. The Preparatory knowledge for the Graduation Thesis includes (1) Theoretical knowledge of international trade; (2) Econometric analysis methods; (3) Perfect English, especially for those students whose native language is not English.
+
+## 教学目的与要求
+
+The purpose of the graduation thesis for those undergraduates major in International Economics and Trade: (1) To cultivate the students" preliminary ability to carry out scientific research under the guidance of the tutor; (2) To make students understand the reality of international economy and trade and increase the perceptual knowledge of international economic activities through certain social practice; (3) To write the thesis through the collection of relevant literature and master the research trends in the field; (4) To cultivate the students" comprehensive analysis ability and writing ability through the writing of graduation thesis; (5) To cultivate the student"s ability to express their expression and answer questions through the defense.
+
+## 教学内容
+
+Graduation Thesis Topic selection
+Literature Review
+Graduate theisis
+
+## 课程思政
+
+Understand the principle of Mutual benefit and free trade policy
+Mutual Benefit
+peaceful coexistence
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Graduation Thesis Topic selection | 0 | 0 | 0 | 50 | 0 | 50 |
+| 2 | Literature Review | 0 | 0 | 0 | 100 | 0 | 100 |
+| 3 | Graduate theisis | 0 | 0 | 0 | 410 | 0 | 410 |
+
+- 第1章 思政融入: Understand the principle of Mutual benefit and free trade policy
+- 第2章 思政融入: Mutual Benefit
+- 第3章 思政融入: peaceful coexistence
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070800E1

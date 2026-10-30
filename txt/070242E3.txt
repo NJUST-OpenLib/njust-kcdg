@@ -1,0 +1,65 @@
+﻿# 宏观经济学【英】
+
+课程编号: 070242E3
+英文名称: Macroeconomics[E]
+开课单位: 经济管理学院
+学分: 3.5
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 温珺
+- 审核人: 于晶
+- 总学时: 56
+- 讲课学时: 56
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 课堂表现:15%；平时作业:20%；出勤:5%；闭卷考试:60%
+
+## 课程目标
+
+1. Understand what economics as a discipline deals with; what the main economic principles are.
+2. Apply economic models to analyze a situation in terms of economics.
+3. Interpret charts, graphs, and tables and use the information to make informed judgments.
+4. Communicate their ideas and understanding of economic issues using written, verbal and visual expression.
+
+## 课程简介
+
+This is one of two introductory courses in economics. This course studies the economy as a whole. It explains how economic events affect many households, firms, and markets simultaneously. It provides students with the opportunity to develop and refine their critical thinking/problem solving skills from a social science perspective.Students are required to learn microeconomics before taking the course.
+
+## 教学目的与要求
+
+This course specifically seeks to develop students’ critical thinking and problem-solving skills, especially as these apply to the analysis of macroeconomic theory and policy. It aims to develop students’ abilities to construct and sustain an argument using the phrases and concepts that economists use in their deliberations. A theoretical framework is developed in which students acquire an understanding of how economic agents interact and by doing so develop the literacy and verbal communication skills necessary for presenting arguments of an economic nature.
+
+## 教学内容
+
+Introduction to Macroeconomics
+Basic concepts of macroeconomics
+short-run: goods market
+financial markets:supply side
+IS-LM model
+medium run: AS-AD model
+long run: economic growth
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Introduction to Macroeconomics | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | Basic concepts of macroeconomics | 8 | 0 | 0 | 0 | 0 | 8 |
+| 3 | short-run: goods market | 10 | 0 | 0 | 0 | 0 | 10 |
+| 4 | financial markets:supply side | 10 | 0 | 0 | 0 | 0 | 10 |
+| 5 | IS-LM model | 8 | 0 | 0 | 0 | 0 | 8 |
+| 6 | medium run: AS-AD model | 10 | 0 | 0 | 0 | 0 | 10 |
+| 7 | long run: economic growth | 8 | 0 | 0 | 0 | 0 | 8 |
+
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8A4306A7661E4525A0570576971B71FD

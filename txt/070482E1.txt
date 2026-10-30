@@ -1,0 +1,75 @@
+﻿# 国际投资与跨国公司【英】
+
+课程编号: 070482E1
+英文名称: International Investment and Multinational Corporations[E]
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 宗永建
+- 审核人: 于晶
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 平时作业:30%；课程论文:70%
+
+## 课程目标
+
+1. Discuss basic concepts, conceptual frameworks, and some broader contexts of international investment & transnational corporations
+2. Analyze and discuss examples of international investment & transnational corporations
+3. Develop an understanding of the strategies of international investment & transnational corporations.
+
+## 课程简介
+
+International investment is a kind of economic behavior that investors transform their own money capital and industrial capital into physical assets, intangible assets or financial assets by transnational flow, and achieve added value through transnational business. The main body of international investment is transnational corporation. This course can be divided into 3 parts: the first is the knowledge of international investment and transnational corporation theory, the second part is the knowledge of transnational corporations management, the third part is international investment management.
+
+## 教学目的与要求
+
+International Investment & Transnational Corporations is one compulsory course for the undergraduate major of international economy and trade. The task of the course is to combine international investment & transnational corporation theory with international investment & transnational corporations practice. The course introduces the basic knowledge and skills of international investment & transnational corporation, cultivates and improves the students" ability to solve problems of international investment & transnational corporation activities, so that after graduation they can better adapt to the international investment & transnational corporation practice and management. After completion of the course students should learn how to write clearly and concisely, learn effectively, think critically and creatively, and work productively.
+
+## 教学内容
+
+outlines of international investment and transnational corporations: 1. international investment 2. main body of international investment -- transnational corporations△
+international investment and transnational corporation theories: 1. monopoly advantage theory△ 2. internalization theory 3. product life cycle theory 4. marginal industry expansion theory 5. international production eclectic theory△
+international investment and transnational corporations operating environment: 1. basic theory of international investment and transnational corporation operating environment 2. basic factors of international investment and transnational corporation operating environment△
+Organization and Human Resource Management of Transnational Corporation: 1. evolution of transnational corporations’ organizational structure 2. basic forms and choice of organizational structure of transnational corporations 3. management personnel’s quality and ability △ 4. management personnel training
+operation management of transnational corporation: 1. transnational corporation production management 2. transnational corporation quality management△
+Policy，Laws and Regulations Management of International Investment 1. foreign direct investment policy management of host country 2. foreign direct investment policy measures of all countries 3. laws and regulations management of international direct investment 4. relevant regulations of settling international investment disputes △
+company mergers and acquisitions in international investment: 1. principle of transnational corporations’ M&A△ 2. planning and operation of transnational corporations’ M&Acompany mergers and acquisitions in international investment:
+Feasibility Study of International Investment Project 1. overview of international investment project feasibility study 2. content of international investment project feasibility study
+
+## 课程思政
+
+take the number of Chinese corporations in the 500 largest corporations in the world as example to show our confidence in socialism system
+take China's political environment stability to attract more foreign investment as example to show the prority of our socialism system
+take the Japanese corporations' scandals in falsification as bad examples to the importance of honest
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | outlines of international investment and transnational corporations: 1. international investment 2. main body of international investment -- transnational corporations△ | 4 | 0 | 0 | 0 | 0 | 4 |
+| 2 | international investment and transnational corporation theories: 1. monopoly advantage theory△ 2. internalization theory 3. product life cycle theory 4. marginal industry expansion theory 5. international production eclectic theory△ | 4 | 0 | 0 | 0 | 0 | 4 |
+| 3 | international investment and transnational corporations operating environment: 1. basic theory of international investment and transnational corporation operating environment 2. basic factors of international investment and transnational corporation operating environment△ | 4 | 0 | 0 | 0 | 0 | 4 |
+| 4 | Organization and Human Resource Management of Transnational Corporation: 1. evolution of transnational corporations’ organizational structure 2. basic forms and choice of organizational structure of transnational corporations 3. management personnel’s quality and ability △ 4. management personnel training | 4 | 0 | 0 | 0 | 0 | 4 |
+| 5 | operation management of transnational corporation: 1. transnational corporation production management 2. transnational corporation quality management△ | 4 | 0 | 0 | 0 | 0 | 4 |
+| 6 | Policy，Laws and Regulations Management of International Investment 1. foreign direct investment policy management of host country 2. foreign direct investment policy measures of all countries 3. laws and regulations management of international direct investment 4. relevant regulations of settling international investment disputes △ | 4 | 0 | 0 | 0 | 0 | 4 |
+| 7 | company mergers and acquisitions in international investment: 1. principle of transnational corporations’ M&A△ 2. planning and operation of transnational corporations’ M&Acompany mergers and acquisitions in international investment: | 4 | 0 | 0 | 0 | 0 | 4 |
+| 8 | Feasibility Study of International Investment Project 1. overview of international investment project feasibility study 2. content of international investment project feasibility study | 4 | 0 | 0 | 0 | 0 | 4 |
+
+- 第1章 思政融入: take the number of Chinese corporations in the 500 largest corporations in the world as example to show our confidence in socialism system
+- 第3章 思政融入: take China's political environment stability to attract more foreign investment as example to show the prority of our socialism system
+- 第5章 思政融入: take the Japanese corporations' scandals in falsification as bad examples to the importance of honest
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070482E1

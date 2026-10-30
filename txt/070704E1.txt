@@ -1,0 +1,70 @@
+﻿# 国际商务环境【英】
+
+课程编号: 070704E1
+英文名称: International Business Environment[E]
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 巩雪
+- 审核人: 于晶
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 课堂表现:10%；平时作业:10%；PPT展示:20%；课程论文:60%
+
+## 课程目标
+
+1. Explain how and why the world's countries differ.
+2. Present a thorough review of the economics and politics of international trade and investment.
+3. Examine the strategies and structures of international businesses.
+4. Assess the special roles of an international business's various functions.
+
+## 课程简介
+
+The course moves beyond the broad environment to the specific organizational context, examining how multinational enterprises organize and compete in the international arena. The course deals with structure and management of multinational corporations and the management of functional activities on an international basis. Further more, from a strategic perspective, the course addresses the competitive challenges of doing business in differing geographic environments. The course builds on “International Business Environment” by examining how multinational firms respond to the international environment of business. Prerequisite(s): International Trade, International Finance.
+
+## 教学目的与要求
+
+"The primary goal of this course is to provide the student with an overview of the basic elements of global business environment. The course covers the actions directly involved in global strategy, the global marketing mix and managing the global marketing effort. Managers engaged in international business must understand the economic, political and social environments of business and learn to manage in risky and often uncertain conditions. In addition, they must work with employees, suppliers and partners from around the world who often have widely different expectations and capabilities. Simultaneously they must innovate, learn and outpace competitors if they are to survive in a global marketplace. Clearly, understanding all of the macro and micro factors involved in international business is no small task. The purpose of this course is to introduce students all of these factors and to help you develop an understanding of the fundamentals of international business. A major objective of this course is to develop an understanding of the international environment in which firms operate and how this environment impacts on firms’ decisions. This course will cover topics such as the nature and scope of international trade and investment, the role of international institutions, the international monetary system and exchange markets function, and some of the major issues involved in the functional aspects of international business. "
+
+## 教学内容
+
+Globalization
+National Differences in Political Economy
+Global Trade Environment
+Global Investment Environment
+Strategy and Structure of International Business
+
+## 课程思政
+
+Let international students see China's role on the world stage, enhance their understandings of China.
+Using case study method to let international student think critically when reading foreign news.
+Let international students understand trade frictions China faces, let them cooperate with China if they work in relative positions in the future.
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Globalization | 4 | 0 | 0 | 0 | 0 | 4 |
+| 2 | National Differences in Political Economy | 6 | 0 | 0 | 0 | 0 | 6 |
+| 3 | Global Trade Environment | 8 | 0 | 0 | 0 | 0 | 8 |
+| 4 | Global Investment Environment | 8 | 0 | 0 | 0 | 0 | 8 |
+| 5 | Strategy and Structure of International Business | 6 | 0 | 0 | 0 | 0 | 6 |
+
+- 第1章 思政融入: Let international students see China's role on the world stage, enhance their understandings of China.
+- 第2章 思政融入: Using case study method to let international student think critically when reading foreign news.
+- 第3章 思政融入: Let international students understand trade frictions China faces, let them cooperate with China if they work in relative positions in the future.
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070704E1

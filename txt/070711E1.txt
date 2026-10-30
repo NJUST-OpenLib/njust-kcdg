@@ -1,0 +1,62 @@
+﻿# 中级国际经贸：理论与实证【英】
+
+课程编号: 070711E1
+英文名称: Intermediate International Economics and Trade: Theory and Evidence[E]
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 温珺
+- 审核人: 于晶
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考试
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: 课堂表现:15%；平时作业:20%；出勤:5%；开卷考试:60%
+
+## 课程目标
+
+1. To know the key facts relating to international trade and international macroeconomics.
+2. To employ models to analyze the phenomena in international economics and trade.
+3. To read academic papers
+
+## 课程简介
+
+This course builds on the course Introductory International Economics and trade. It provides deeper understanding of the determinants and effects of international trade and Foreign Direct Investment and of exchange rate determination. In addition, it elaborates on the desirability of international trade policy and of macroeconomic policy in an open economy. This will be accomplished by taking a closer and a more formal look at the main models. The course also extends the theoretical and empirical framework by focusing on topics such as preferential trade arrangements, the desirability of different trade policies and exchange rate systems in view of a country"s stage of development.Students are required to learn Macroeconomics, Microeconomics, International Trade, International Finance and International Economics before taking this course. In addition, the basic knowledge in Calculus is also a prerequisite.
+
+## 教学目的与要求
+
+This course emphasizes both mathematical models and empirical studies of how well those models fit actual data. Upon successful completion of this course, the students will be able to work on understanding the economic logic (intuition)
+
+## 教学内容
+
+Introduction：world trade
+The Ricardian Model
+The Heckscher-Ohlin Model
+The Krugman Model
+The Melitz Model
+Gravity Model
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Introduction：world trade | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | The Ricardian Model | 4 | 0 | 0 | 0 | 0 | 4 |
+| 3 | The Heckscher-Ohlin Model | 4 | 0 | 0 | 0 | 0 | 4 |
+| 4 | The Krugman Model | 8 | 0 | 0 | 0 | 0 | 8 |
+| 5 | The Melitz Model | 8 | 0 | 0 | 0 | 0 | 8 |
+| 6 | Gravity Model | 6 | 0 | 0 | 0 | 0 | 6 |
+
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070711E1

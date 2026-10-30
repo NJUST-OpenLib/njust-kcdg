@@ -1,0 +1,101 @@
+﻿# 国际商务惯例【英】
+
+课程编号: 070703E1
+英文名称: International Business Customs  Practices[E]
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课（不含实践）
+- 课程负责人: 于晶
+- 审核人: 于晶
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 是否术科课: 否
+- 成绩构成: 课程论文:60%；平时成绩:40%
+
+## 课程目标
+
+1. 1、Master the basic customes and rules related to international trade and business
+2. 2、Use the knowledge to analyze some practical problems
+3. 3、Employ the knowledge to make some solutions
+4. 4、Be professional in related jobs
+
+## 课程简介
+
+"This course fully reflects the relevant international business customs and rules, such as trade terms, international transport, international transport insurance, international settlement and arbitrations etc. This course provides students with a broad understanding of international business customs & practices. Students will develop the analytical skills needed to understand and maneuver business in an American and International setting.
+
+Prerequisite courses: International Trade, International Trade Practice, International Finance etc..
+
+Exam: Class-based assessment and final written examanition.
+
+The score will be calculated by Class-based assessment (40%) and final written examanition (60%)."
+
+## 教学目的与要求
+
+"This course attempts to introduce a series of international customs and rules for international economic activities. The course aims to provide the students with a fundamental understanding of the international economic customs and rules. By studying this course, the student will be acquainted with every segment of customs and practices for import and export and be able to develop their abilities to settle the international business disputes independently.
+
+Specifically, the students are expected to have the following abilities after learning this course:
+
+1. Master the basic customes and rules related to international trade and business;
+
+2. Use the knowledge to analyze some practical problems;
+
+3. Employ the knowledge to make some solutions;
+
+4. Be professional in related jobs.
+
+"
+
+## 教学内容
+
+Introduction; The concept of international business customs &; rules, The evolvement of international business customs &; rules△; The contents and the research method of international business customs &; rules★
+International Customs &; Rules for Trade Terms; Warsaw-Oxford Rules, American Definition, INCOTERMS2010△★
+"Int’l treaties related to sale of goods; Convention on Uniform Law for the Int’l Sales of Goods, United Nations Convention on the Limitation Period in the International Sale of Goods, United Nations Convention on Contracts for the Int’l Sale of Goods △★"
+Int’l treaties related to transportation; Convention Concerning Int’l Carriage of Goods by Rail (COTIF), The Agreement on Int’l organisation for Int’l Carriage by Rail (OTIF)△★
+Int’l treaties related to documents; Uniform Rules for a Combined Transportation Document, UNCTAD/ICC Rules for Multimodal Transport Documents△★
+Int’l treaties related to payment; Convention on the Unification of the Law Relating to Bills of Ex-change and Promissory Notes, Convention on the settlement of Certain Conflicts of Laws in Connection with Bills of Exchange and Promissory Notes, Convention Providing a Uniform Law of Cheques△★
+Int’l treaties related to payment; Convention on the settlement of Certain Conflicts of Laws in Connection with Check, Convention on International Bill of Exchange and International Promissory Note of the United Nation△★
+Int’l treaties related to settlement; Uniform Rules for Collection, Uniform Customs &; Rules for Documentary Credits, Uniform Rules for Demand Guarantees△★
+Int’l treaties related to foreign trade management; WTO△★
+Int’l treaties related to dispute settlement; the New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards, Understanding on Rules and Procedures Governing the Settlement of Disputes (DSU)△★
+Int’l treaties related to int’l investment; Convention on the Settlement of Investment Disputes Between States and Nationals of Other States, Convention Establishing the Multilateral Investment Guarantee Agency△★
+Int’l treaties related to intellectual property rights; Paris Convention for the Protection of Industrial Property, Madrid Agreement Concerning the International Registration of Marks, Berne Convention for the Protection of Literary and Artistic Works, Universal Copyright Convention△★
+
+## 课程思政
+
+介绍中国坚持积极参与全球安全规则制定
+介绍中国在经济全球化进程中的崛起及所做的贡献，中国坚持经济全球化正确方向，坚定不移贯彻新发展理念
+介绍由中国发起和建立的亚投行与世界银行和亚洲发展银行的区别，留学生中很大一部分来自亚洲或一带一路沿线国家，亚投行的成立促进了亚洲区域的建设互联互通化和经济一体化的进程，并且加强中国及其他亚洲国家和地区的合作，重点介绍中国坚持共建共享和坚持交流互鉴的政策方针
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Introduction; The concept of international business customs &; rules, The evolvement of international business customs &; rules△; The contents and the research method of international business customs &; rules★ | 3 | 0 | 0 | 0 | 0 | 3 |
+| 2 | International Customs &; Rules for Trade Terms; Warsaw-Oxford Rules, American Definition, INCOTERMS2010△★ | 3 | 0 | 0 | 0 | 0 | 3 |
+| 3 | "Int’l treaties related to sale of goods; Convention on Uniform Law for the Int’l Sales of Goods, United Nations Convention on the Limitation Period in the International Sale of Goods, United Nations Convention on Contracts for the Int’l Sale of Goods △★" | 3 | 0 | 0 | 0 | 0 | 3 |
+| 4 | Int’l treaties related to transportation; Convention Concerning Int’l Carriage of Goods by Rail (COTIF), The Agreement on Int’l organisation for Int’l Carriage by Rail (OTIF)△★ | 3 | 0 | 0 | 0 | 0 | 3 |
+| 5 | Int’l treaties related to documents; Uniform Rules for a Combined Transportation Document, UNCTAD/ICC Rules for Multimodal Transport Documents△★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 6 | Int’l treaties related to payment; Convention on the Unification of the Law Relating to Bills of Ex-change and Promissory Notes, Convention on the settlement of Certain Conflicts of Laws in Connection with Bills of Exchange and Promissory Notes, Convention Providing a Uniform Law of Cheques△★ | 3 | 0 | 0 | 0 | 0 | 3 |
+| 7 | Int’l treaties related to payment; Convention on the settlement of Certain Conflicts of Laws in Connection with Check, Convention on International Bill of Exchange and International Promissory Note of the United Nation△★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 8 | Int’l treaties related to settlement; Uniform Rules for Collection, Uniform Customs &; Rules for Documentary Credits, Uniform Rules for Demand Guarantees△★ | 3 | 0 | 0 | 0 | 0 | 3 |
+| 9 | Int’l treaties related to foreign trade management; WTO△★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 10 | Int’l treaties related to dispute settlement; the New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards, Understanding on Rules and Procedures Governing the Settlement of Disputes (DSU)△★ | 3 | 0 | 0 | 0 | 0 | 3 |
+| 11 | Int’l treaties related to int’l investment; Convention on the Settlement of Investment Disputes Between States and Nationals of Other States, Convention Establishing the Multilateral Investment Guarantee Agency△★ | 2 | 0 | 0 | 0 | 0 | 2 |
+| 12 | Int’l treaties related to intellectual property rights; Paris Convention for the Protection of Industrial Property, Madrid Agreement Concerning the International Registration of Marks, Berne Convention for the Protection of Literary and Artistic Works, Universal Copyright Convention△★ | 3 | 0 | 0 | 0 | 0 | 3 |
+
+- 第1章 思政融入: 介绍中国坚持积极参与全球安全规则制定
+- 第9章 思政融入: 介绍中国在经济全球化进程中的崛起及所做的贡献，中国坚持经济全球化正确方向，坚定不移贯彻新发展理念
+- 第11章 思政融入: 介绍由中国发起和建立的亚投行与世界银行和亚洲发展银行的区别，留学生中很大一部分来自亚洲或一带一路沿线国家，亚投行的成立促进了亚洲区域的建设互联互通化和经济一体化的进程，并且加强中国及其他亚洲国家和地区的合作，重点介绍中国坚持共建共享和坚持交流互鉴的政策方针
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=070703E1

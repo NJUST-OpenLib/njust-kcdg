@@ -1,0 +1,92 @@
+﻿# 基于大数据的供应链管理【英】
+
+课程编号: 070471E1
+英文名称: Management in Supply Chain in Big Data Era[E]
+开课单位: 经济管理学院
+学分: 2
+课程状态: 在用
+
+## 大纲信息
+
+- 版本: 2022
+- 授课语种: 英文
+- 课程类别: 理论课(不含实践环节)
+- 课程负责人: 石绣天
+- 审核人: 石绣天
+- 总学时: 32
+- 讲课学时: 32
+- 实验学时: 0
+- 上机学时: 0
+- 考核类型: 考查
+- 成绩记载: 百分制
+- 是否术科课: 否
+- 成绩构成: (未填):10%；(未填):10%；(未填):10%；(未填):20%；(未填):50%
+
+## 课程目标
+
+1. 1、了解现代供应链管理理论在会计学、管理学科体系中的地位和作用，系统理解供应链管理的相关概念和理论。
+2. 1 、Get to know the position and application of supply chain cost management in the frontier of managerial accounting.
+3. 2、掌握供应链管理的基本理论、基本方法和基本模型建立技巧。
+4. 2、 Manage the basic theories, methologies, analytic models.
+5. 3、掌握运用供应链管理与大数据结合的相关知识，具备发现问题、分析问题、解决问题的综合分析能力和决策能力。
+6. 3、Manage the application of supply chain cost management theory and related knowledge; build up the ability to discover and find problems, analyze problems, then solve them.
+7. 4、面对大数据的挑战，掌握计算机分析技术，学会供应链信息共享等大数据背景下的问题分析。
+8. 4、Facing the challenge brought by big data, manage information technology, get to know the analysis in this scenario.
+9. 5、提高数据处理能力，突出数据分析与决策的培养特色。
+10. 5、Improve the ability of data processing, highlight the characteristic of training by focusing on data analysis and decision making。
+11. 6、洞察大数据+供应链管理理论与实践前沿，培养创新意识和创新能力。
+12. 6、Have insight into frontier of supply chain cost management with big data and develop creative awareness and ability.
+
+## 课程简介
+
+本课程是工商管理学科会计学专业的专业课程，是会计学两大分支之一管理会计的衍生课程，是管理决策与成本管理、供应链管理等多个主题多个学科的融合交叉课程，以供应链的视角，加强企业成本管理与控制、管理决策、强调企业间的竞争与合作，提高经济效益、社会效益为目标的一门应用性课程。本课程注重对学生管理分析决策能力和信息分析能力的培养，将拓宽学生视野、打破单一企业决策的思维壁垒。课程教学内容包括：供应链成本管理基本理论、供应链存货成本管理与控制、风险分摊、信息共享价值、供应链整合与成本控制、供应链战略合作、制造与外包成本管理、供应链协调机制设计、顾客价值与顾客关系管理、信息技术与供应链管理、决策系统与供应链管理等。
+本课程所需的预修课程有：会计学、成本会计、管理会计、生产运作管理。
+本课程考核包括期末考核和平时考核，考核方式包括课程论文、案例分析、模型设计、平时作业等。
+It is one of the core courses in accounting. and this course is the extension of managerial accounting, which is one of two branches of accounting. It is interface which combined with issues such as decision science, cost management and supply chain management.In order to improve economic performance and social efficience through cost management, this cousre focuses decisions, coordinations and competitions in corporations from a supply chain"s perspective.This course builds up students" ability of managerial analysis, decision making, information analysis, and widen their vision by discussing cost control along a seamless supply chain.
+Content of course includes: Introduction of supply chain management and cost management, inventory management and risk pooling,the value of information sharing, supply chain integration and cost control, strategic alliances, procurement and outsourcing strategies,coordination and supply chain design, customer value and supply chain management,new issues in supply chain management such as information technology for supply chain cost management and decision support systems for supply chain management. 
+Prerequisite course: Accounting, Cost Management, Managerial Accounting, Operations Management.
+
+## 教学目的与要求
+
+通过本课程的学习，使学生了解现代供应链成本管理结合大数据在会计学科前沿理论与实践中的地位和作用，系统理解供应链管理的相关概念和理论；掌握供应链成本管理的基本理论、基本方法和基本分析模型与大数据的结合点；掌握运用供应链成本管理理论及相关知识发现问题、分析问题、解决问题的综合分析能力和决策能力，主要包括：供应链管理理论体系及架构、供应链管理信息流、物料流、资金流的计量方法、常见分析模型构建、大数据背景下的供应链存货控制、供应链整合、供应链战略选择、供应链协调机制设计、顾客关系管理、信息共享等分析和决策、基于大数据的供应链成本管理体系研究与设计；面对大数据的挑战，掌握计算机分析技术，了解供应链管理决策模型在信息系统中的应用与设计，提高数据处理能力，突出数据分析与决策的培养特色；洞察学科前沿，培养创新意识和创新能力。
+在课堂中贯彻十九大思想，主要结合点有：1. 加快创新发展，夯实产业基础，在课程中强调互联网云计算大数据在供应链成本管理中的作用。2. 坚持绿色发展。在介绍基础课程内容当中，拓展可持续供应链、绿色供应链等内容。3. 
+课堂中强调四个自信：中国特色社会主义道路自信、理论自信、制度自信、文化自信。在案例选取中，以华为等具有我国特色的企业案例为主，突出四个自信。
+Though this course, students should get to know the position and application of supply chain cost management with big data in the frontier of managerial acounting; systematically understand the concepts and theories of management in supply chain with big data; manage the basic theories, methologies, analytic models; manage the application of cost management in supply chain theory and related knowledge; build up the ability to discove and find problems, analyze problems, then solve problems. Theories and abilities including: theoretical system and structure of in supply chain cost management, methods of quantifying supply chain cost, value of information, anaytic modeling framework, supply chain inventory control, supply chain integration, supply chain alliance, strategies selection, coordination and supply chain design, customer relation management, information sharing and decision making, cost control in supply chain with big data; facing the challenge brought by big data, manage information technology, get to know the design and application of decision models in supply chain cost management, improve the ability of data processing, highlight the characteristic of training by focusing on data analysis and decision making;have insight into frontier and develop creative awareness and ability.
+
+## 教学内容
+
+Introduction of big data supply chain cost management 大数据供应链成本管理概论 1.1 Supply chain cost management 供应链成本管理概论 1.2 △Relation of supply chain management, cost management, management accounting 供应链管理与成本管理、管理会计的关系 1.3 New opportunity in supply chain cost management: incentive of big data 大数据供应链成本管理的机遇与挑战
+Inventory cost management and risk pooling with big data 大数据+存货成本管理与风险分担 2.1 △Inventory cost management in a supply chain 供应链环境下的存货成本管理 2.2 Risk pooling effect供应链存货风险分担 2.3 △★Impact of big data on inventory management: strategies and case studies 大数据+存货管理理论模型与案例分析
+The value of information sharing 信息共享价值 3.1 △Quantifying the Bullwhip effect and ordering cost牛鞭效应与成本效应 3.2 △Effective forecasts in a supply chain供应链有效预测 3.3 Information for the coordination of systems协调系统的信息 3.4 ★Demand updating and information sharing with big data 大数据下的需求更新与信息共享
+Supply chain integration and coordination design 供应链整合、协调与契约设计 4.1 Double marginalization 双重边际化理论 4.2 Push, pull and push-pull systems 推动、拉动和推—拉式系统 4.3 △ Demand driven strategies and value of supply chain integration 需求驱动战略与供应链整合价值 4.4 ★The impact of the internet on supply chain strategies 互联网对供应链战略的影响 4.5 Centralized versus decentralized control 集中与分散控制的选择 4.6 △★Methods of supply chain coordination 供应链协调方法 4.7 △Contract design with information sharing 供应链契约设计与信息共享
+Strategic alliances 供应链成员管理 5.1 A framework for strategic alliances战略联盟的框架 5.2 △Supplier selection models with cost consideration 基于成本控制的供应商选择模型 5.3 △★Supplier code of conduct and application with big data 大数据环境下的供应商准则与应用评价
+Customer value and supply chain cost management with big data 大数据供应链顾客价值管理与渠道成本管理 6.1 △★Customer value and relation management with big data 大数据下顾客价值与顾客关系管理 6.2 ★Omnichannel strategy 全渠道策略 6.3 △★Channel management and cost control 渠道管理与成本控制
+Information technology for supply chain cost management供应链成本管理的常用信息技术 7.1 Goals of supply chain information technology 供应链信息技术的目标 7.2 △Standardization 供应链信息标准化 7.3 Information technology infrastructure 信息技术的基础设施 7.4 Supply chain management system components 供应链管理系统的组件 7.5 Integrating supply chain information technology 集成供应链信息技术 7.6 △★Blockchain: concepts, strategies and case studies 区块链：概念，策略与案例
+Decision support systems for supply chain cost management 供应链成本管理决策支持系统 8.1 The challenges of modelling with big data 大数据环境下建模面临的挑战 8.2 ★Structure of decision-support systems 决策支持系统的架构 8.3 △★Supply chain cost decision-support systems 供应链成本管理决策支持系统 8.4 selecting a supply chain DSS 供应链DSS系统的选择
+
+## 课程思政
+
+在课堂中贯彻十九大思想，主要结合点有：1. 加快创新发展，夯实产业基础，在课程中强调互联网云计算大数据在供应链成本管理中的作用。2. 坚持绿色发展。在介绍基础课程内容当中，拓展可持续供应链、绿色供应链等内容。
+课堂中强调四个自信：中国特色社会主义道路自信、理论自信、制度自信、文化自信。在案例选取中，以华为等具有我国特色的企业案例为主，突出四个自信。强调华为的供应链协调与需求更新、信息共享的机制与优势
+课堂中强调四个自信：中国特色社会主义道路自信、理论自信、制度自信、文化自信。以京东、苏宁为案例企业，介绍全渠道策略在案例企业中的应用，介绍二者在全球竞争中的优势。
+
+## 章节安排
+
+| 章节 | 内容 | 讲课 | 实验 | 上机 | 实践 | 课外 | 小计 |
+|---|---|---|---|---|---|---|---|
+| 1 | Introduction of big data supply chain cost management 大数据供应链成本管理概论 1.1 Supply chain cost management 供应链成本管理概论 1.2 △Relation of supply chain management, cost management, management accounting 供应链管理与成本管理、管理会计的关系 1.3 New opportunity in supply chain cost management: incentive of big data 大数据供应链成本管理的机遇与挑战 | 2 | 0 | 0 | 0 | 0 | 2 |
+| 2 | Inventory cost management and risk pooling with big data 大数据+存货成本管理与风险分担 2.1 △Inventory cost management in a supply chain 供应链环境下的存货成本管理 2.2 Risk pooling effect供应链存货风险分担 2.3 △★Impact of big data on inventory management: strategies and case studies 大数据+存货管理理论模型与案例分析 | 3 | 0 | 0 | 0 | 0 | 3 |
+| 3 | The value of information sharing 信息共享价值 3.1 △Quantifying the Bullwhip effect and ordering cost牛鞭效应与成本效应 3.2 △Effective forecasts in a supply chain供应链有效预测 3.3 Information for the coordination of systems协调系统的信息 3.4 ★Demand updating and information sharing with big data 大数据下的需求更新与信息共享 | 4 | 0 | 0 | 0 | 0 | 4 |
+| 4 | Supply chain integration and coordination design 供应链整合、协调与契约设计 4.1 Double marginalization 双重边际化理论 4.2 Push, pull and push-pull systems 推动、拉动和推—拉式系统 4.3 △ Demand driven strategies and value of supply chain integration 需求驱动战略与供应链整合价值 4.4 ★The impact of the internet on supply chain strategies 互联网对供应链战略的影响 4.5 Centralized versus decentralized control 集中与分散控制的选择 4.6 △★Methods of supply chain coordination 供应链协调方法 4.7 △Contract design with information sharing 供应链契约设计与信息共享 | 7 | 0 | 0 | 0 | 0 | 7 |
+| 5 | Strategic alliances 供应链成员管理 5.1 A framework for strategic alliances战略联盟的框架 5.2 △Supplier selection models with cost consideration 基于成本控制的供应商选择模型 5.3 △★Supplier code of conduct and application with big data 大数据环境下的供应商准则与应用评价 | 2 | 0 | 0 | 0 | 0 | 2 |
+| 6 | Customer value and supply chain cost management with big data 大数据供应链顾客价值管理与渠道成本管理 6.1 △★Customer value and relation management with big data 大数据下顾客价值与顾客关系管理 6.2 ★Omnichannel strategy 全渠道策略 6.3 △★Channel management and cost control 渠道管理与成本控制 | 3 | 0 | 0 | 0 | 0 | 3 |
+| 7 | Information technology for supply chain cost management供应链成本管理的常用信息技术 7.1 Goals of supply chain information technology 供应链信息技术的目标 7.2 △Standardization 供应链信息标准化 7.3 Information technology infrastructure 信息技术的基础设施 7.4 Supply chain management system components 供应链管理系统的组件 7.5 Integrating supply chain information technology 集成供应链信息技术 7.6 △★Blockchain: concepts, strategies and case studies 区块链：概念，策略与案例 | 6 | 0 | 0 | 0 | 0 | 6 |
+| 8 | Decision support systems for supply chain cost management 供应链成本管理决策支持系统 8.1 The challenges of modelling with big data 大数据环境下建模面临的挑战 8.2 ★Structure of decision-support systems 决策支持系统的架构 8.3 △★Supply chain cost decision-support systems 供应链成本管理决策支持系统 8.4 selecting a supply chain DSS 供应链DSS系统的选择 | 5 | 0 | 0 | 0 | 0 | 5 |
+
+- 第1章 思政融入: 在课堂中贯彻十九大思想，主要结合点有：1. 加快创新发展，夯实产业基础，在课程中强调互联网云计算大数据在供应链成本管理中的作用。2. 坚持绿色发展。在介绍基础课程内容当中，拓展可持续供应链、绿色供应链等内容。
+- 第3章 思政融入: 课堂中强调四个自信：中国特色社会主义道路自信、理论自信、制度自信、文化自信。在案例选取中，以华为等具有我国特色的企业案例为主，突出四个自信。强调华为的供应链协调与需求更新、信息共享的机制与优势
+- 第6章 思政融入: 课堂中强调四个自信：中国特色社会主义道路自信、理论自信、制度自信、文化自信。以京东、苏宁为案例企业，介绍全渠道策略在案例企业中的应用，介绍二者在全球竞争中的优势。
+
+---
+
+来源: https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=121C261C4B8B4734ADF774E6D04D79D0
