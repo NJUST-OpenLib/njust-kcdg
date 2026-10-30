@@ -151,6 +151,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "保护生物学",
+   "editor": "贾竞波",
+   "isbn": "978-7-04-032701-4",
+   "press": "高等教育出版社",
+   "year": "2011"
+  },
+  {
+   "title": "保护生物学",
+   "editor": "李俊清等",
+   "isbn": "9787503843389",
+   "press": "中国林业出版社",
+   "year": "2006"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=077C8BCC8C7946ED83AA88FB4425CCBF",
  "hasOriginal": true
 }

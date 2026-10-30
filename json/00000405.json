@@ -178,6 +178,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "龙舟运动高级教程(中国龙舟协会指定培训教材)",
+   "editor": "徐菊生",
+   "isbn": "",
+   "press": "中国电力",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=208BDEE0CF3644899BD92A20B627E929",
  "hasOriginal": true
 }

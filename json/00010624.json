@@ -100,6 +100,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "航空航天技术概论",
+   "editor": "宋笔峰",
+   "isbn": "9787118045031",
+   "press": "国防工业出版社",
+   "year": "2006"
+  },
+  {
+   "title": "导弹与航天技术概论",
+   "editor": "金永德",
+   "isbn": "9787560317755",
+   "press": "哈尔滨工业大学出版社",
+   "year": "2002"
+  },
+  {
+   "title": "航空航天概论",
+   "editor": "昂海松",
+   "isbn": "9787030430526",
+   "press": "科学出版社",
+   "year": "2008"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=00010624",
  "hasOriginal": true
 }

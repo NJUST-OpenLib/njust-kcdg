@@ -115,6 +115,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "从零开启大学生电子设计之路：基于MSP430 LaunchPad口袋实验平台",
+   "editor": "杨艳，傅强",
+   "isbn": "9787512415683",
+   "press": "北京航空航天大学出版社",
+   "year": "2014"
+  },
+  {
+   "title": "智能小车系统设计——基于STM32",
+   "editor": "潘志铭, 钟世达",
+   "isbn": "978-7-121-41098-7",
+   "press": "北京:电子工业出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=1FCC6E2AE8A5499B87B3927B4B6418DC",
  "hasOriginal": true
 }

@@ -164,6 +164,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "室内空气污染与防治",
+   "editor": "白志鹏，韩旸，袭著革",
+   "isbn": "",
+   "press": "化学工业出版社",
+   "year": "2013"
+  },
+  {
+   "title": "室内空气污染概论",
+   "editor": "张淑娟",
+   "isbn": "",
+   "press": "科学出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D0306E4E6A6A40ABB5BB2463E684012E",
  "hasOriginal": true
 }

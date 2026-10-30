@@ -151,6 +151,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "生物钟",
+   "editor": "(德）A.克拉默等主编；王晗编译",
+   "isbn": "9787030716842",
+   "press": "科学出版社",
+   "year": "2022"
+  },
+  {
+   "title": "生物节律与行为",
+   "editor": "郭金虎，曲卫敏，田雨",
+   "isbn": "9787118117493",
+   "press": "国防工业出版社",
+   "year": "2019"
+  },
+  {
+   "title": "生物节律与时间医学",
+   "editor": "冼励坚",
+   "isbn": "9787810487009",
+   "press": "郑州大学出版社",
+   "year": "2003"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3A695A8E5F7A4F0DBC3093A80CDC3B47",
  "hasOriginal": true
 }

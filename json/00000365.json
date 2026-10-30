@@ -124,6 +124,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "固体废物处理与资源化技术",
+   "editor": "何品晶",
+   "isbn": "9787040332346",
+   "press": "高等教育出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=EC3C9E756A034F24A05B1C13836EBE76",
  "hasOriginal": true
 }

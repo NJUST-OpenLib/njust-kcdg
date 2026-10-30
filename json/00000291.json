@@ -101,6 +101,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "人工智能导论",
+   "editor": "王万良",
+   "isbn": "978-7-04-047984-3",
+   "press": "高等教育出版社",
+   "year": "2017"
+  },
+  {
+   "title": "仿生智能计算",
+   "editor": "段海滨",
+   "isbn": "978-7-03-029558-3",
+   "press": "科学出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=473F476A01914CC6A56EE0F282489737",
  "hasOriginal": true
 }

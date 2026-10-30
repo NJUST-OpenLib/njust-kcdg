@@ -210,6 +210,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "组织行为学（第18版）",
+   "editor": "斯蒂芬·罗宾斯等",
+   "isbn": "978-7-300-28654-9",
+   "press": "中国人民大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "现代管理心理学（第5版）",
+   "editor": "程正方",
+   "isbn": "978-7-303-01107-0",
+   "press": "北京师范大学出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=1EEF1637C0904529A20AFA51ADDE6F6E",
  "hasOriginal": true
 }

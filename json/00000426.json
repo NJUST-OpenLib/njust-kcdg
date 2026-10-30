@@ -177,6 +177,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "自私的基因",
+   "editor": "理查德·道金斯",
+   "isbn": "978-7-5086-3415-9",
+   "press": "中信出版社",
+   "year": "2012"
+  },
+  {
+   "title": "流行病学",
+   "editor": "沈洪兵",
+   "isbn": "978-7-1171-7072-7",
+   "press": "人民卫生出版社",
+   "year": "2013"
+  },
+  {
+   "title": "环境与健康",
+   "editor": "刘新会",
+   "isbn": "978-7-3031-0024-8",
+   "press": "北京师范大学出版社",
+   "year": "2009"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=5812C42900AE4923A3F0B57445F9ABCE",
  "hasOriginal": true
 }

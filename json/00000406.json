@@ -260,6 +260,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "民族健身操教程",
+   "editor": "寸亚玲",
+   "isbn": "9787309094688",
+   "press": "复旦大学出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=F293D9F5CE954E20BDB32BA585F1E867",
  "hasOriginal": true
 }

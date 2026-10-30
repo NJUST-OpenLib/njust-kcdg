@@ -85,6 +85,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "航天无线电测控原理与系统",
+   "editor": "周智敏等",
+   "isbn": "9787121064715",
+   "press": "电子工业出版社",
+   "year": "2010"
+  },
+  {
+   "title": "世界航天发展史",
+   "editor": "顾诵芬等",
+   "isbn": "9787534921537",
+   "press": "河南科学技术出版社",
+   "year": "2000"
+  },
+  {
+   "title": "现代天文学与诺贝尔奖",
+   "editor": "吴鑫基著",
+   "isbn": "9787542875747",
+   "press": "北京大学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "卫星通信导论(第4版)",
+   "editor": "朱立东等",
+   "isbn": "9787121256219",
+   "press": "电子工业出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=00010360",
  "hasOriginal": true
 }

@@ -138,6 +138,62 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电子线路CAD",
+   "editor": "吕建平",
+   "isbn": "",
+   "press": "北京大学出版社",
+   "year": "2006"
+  },
+  {
+   "title": "计算机辅助设计教程与实训",
+   "editor": "欧阳全会",
+   "isbn": "",
+   "press": "北京大学出版社",
+   "year": "2007"
+  },
+  {
+   "title": "电子线路CAD实用教程",
+   "editor": "潘永雄",
+   "isbn": "",
+   "press": "西安电子科技大学出版社",
+   "year": "2007"
+  },
+  {
+   "title": "电子线路CAD",
+   "editor": "殷庆纵",
+   "isbn": "",
+   "press": "北京大学出版社",
+   "year": "2009"
+  }
+ ],
+ "labs": [
+  {
+   "name": "Multisim实例训练",
+   "content": "完成电路绘制及仿真",
+   "hours": "3",
+   "type": "设计性实验"
+  },
+  {
+   "name": "PCB绘制",
+   "content": "完成给定PCB图绘制",
+   "hours": "3",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Altium Designer原理图绘制训练",
+   "content": "完成给定原理图绘制",
+   "hours": "3",
+   "type": "设计性实验"
+  },
+  {
+   "name": "AutoCAD实例训练",
+   "content": "完成给定外形图纸绘制",
+   "hours": "3",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8F43C139BDED44B398DCA88C02BEC411",
  "hasOriginal": true
 }

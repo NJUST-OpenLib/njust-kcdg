@@ -73,6 +73,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《智慧城市创新创业资料集》",
+   "editor": "诸云",
+   "isbn": "",
+   "press": "内部资料暂未出版",
+   "year": ""
+  },
+  {
+   "title": "《大学生职业生涯规划和就业指导》",
+   "editor": "王渤",
+   "isbn": "",
+   "press": "南京大学出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=AC66D4743732442294D939219F6F4198",
  "hasOriginal": true
 }

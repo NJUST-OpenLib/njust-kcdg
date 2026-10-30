@@ -177,6 +177,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "计算机视觉教程（第2版）",
+   "editor": "章毓晋",
+   "isbn": "978-7-115-44154-6",
+   "press": "人民邮电出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=2588FE852C124D63B98B7E6177CE84F5",
  "hasOriginal": true
 }

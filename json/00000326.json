@@ -139,6 +139,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "环境科学与工程通识教程（第二版）",
+   "editor": "卢桂宁，党志",
+   "isbn": "9787030745996",
+   "press": "科学出版社",
+   "year": "2023"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=3F4192A9DF104F2E8CAA7769D628FB91",
  "hasOriginal": true
 }

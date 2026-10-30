@@ -169,6 +169,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "大学工科专业概论",
+   "editor": "房鼎业，涂善东",
+   "isbn": "9787562823728",
+   "press": "华东理工大学出版社",
+   "year": "2008"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E94CD5877A884C50B246ADC839337136",
  "hasOriginal": true
 }

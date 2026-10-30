@@ -166,6 +166,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《创新管理：赢得持续竞争优势》",
+   "editor": "陈劲",
+   "isbn": "9787301271285",
+   "press": "北京大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "《工业技术创新管理》",
+   "editor": "冯勤",
+   "isbn": "9787508430072",
+   "press": "中国水利水电出版社",
+   "year": "2005"
+  },
+  {
+   "title": "《创新经济学》",
+   "editor": "赵玉林",
+   "isbn": "9787302462163",
+   "press": "中国经济出版社",
+   "year": "2006"
+  },
+  {
+   "title": "《经济学300年（上、下册）》",
+   "editor": "何正斌",
+   "isbn": "9787535762979",
+   "press": "湖南科学技术出版社",
+   "year": "2000"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=CB413D3E8E384C1C83E5220CB9BCB9C8",
  "hasOriginal": true
 }

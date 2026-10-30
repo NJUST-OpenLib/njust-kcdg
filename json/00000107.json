@@ -127,6 +127,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《反恐技术装备》",
+   "editor": "陈晓东",
+   "isbn": "9787030269744",
+   "press": "科学出版社",
+   "year": "2010"
+  },
+  {
+   "title": "《世界著名反恐部队》",
+   "editor": "赵渊",
+   "isbn": "9787122124623",
+   "press": "化学工业出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=00000107",
  "hasOriginal": true
 }

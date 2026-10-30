@@ -112,6 +112,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "交通心理学教程",
+   "editor": "范士儒",
+   "isbn": "9787811097924",
+   "press": "中国人民公安大学出版社",
+   "year": "2007"
+  },
+  {
+   "title": "自动驾驶技术概论",
+   "editor": "王建等",
+   "isbn": "9787302537786",
+   "press": "清华大学出版社",
+   "year": "2019"
+  },
+  {
+   "title": "以人为本的智能汽车交互设计（HMI）",
+   "editor": "陈芳、雅克·特肯",
+   "isbn": "9787111687184",
+   "press": "机械工业出版社",
+   "year": "2021"
+  },
+  {
+   "title": "汽车人因工程学",
+   "editor": "盖伊·沃克",
+   "isbn": "9787111592570",
+   "press": "机械工业出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=9A22CBE66897409A9566ED4B96108114",
  "hasOriginal": true
 }

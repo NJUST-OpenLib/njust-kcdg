@@ -113,6 +113,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "中国电力与能源",
+   "editor": "吴金星",
+   "isbn": "9787111445708",
+   "press": "机械工业出版社",
+   "year": "2014"
+  },
+  {
+   "title": "能源经济学科前沿研究报告",
+   "editor": "",
+   "isbn": "",
+   "press": "",
+   "year": ""
+  },
+  {
+   "title": "能源工程概论",
+   "editor": "史丹，朱彤",
+   "isbn": "9787509635216",
+   "press": "经济管理出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=00000104",
  "hasOriginal": true
 }

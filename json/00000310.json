@@ -129,6 +129,37 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "CPU设计实战",
+   "editor": "汪文祥,邢金璋",
+   "isbn": "9787111674139",
+   "press": "机械工业出版社",
+   "year": "2021"
+  },
+  {
+   "title": "Computer Organization and Design--RISC-V Edition",
+   "editor": "David A. Patterson， John L. Hennessy",
+   "isbn": "978-0-12-812275-4",
+   "press": "MORGAN KAUFMANN PUBLISHER",
+   "year": "2018"
+  },
+  {
+   "title": "手把手教你RISC-V CPU（下）工程与实践",
+   "editor": "胡振波",
+   "isbn": "9787115569493",
+   "press": "人民邮电出版社",
+   "year": "2021"
+  },
+  {
+   "title": "手把手教你RISC-V CPU（上） 处理器设计",
+   "editor": "胡振波",
+   "isbn": "9787115568007",
+   "press": "人民邮电出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=CBCEDC23DB4C486C857FCDBC41DFB0EF",
  "hasOriginal": true
 }
