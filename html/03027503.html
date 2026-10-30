@@ -7,7 +7,13 @@ body{margin:0;padding:0;font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe U
 .crumb a{color:var(--accent);text-decoration:none}
 .crumb a:hover{text-decoration:underline}
 h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+/* 页面级摘要行。注意：这里必须写成 div.sub 限定作用域 ——
+   表头用的是 <th class="sub">讲课</th>，若写成裸 .sub，margin/flex 会漏到表头单元格上去 */
+div.sub{color:var(--muted);font-size:14px;margin-bottom:28px}
+.crest{font-size:14px;margin-bottom:28px;display:flex;flex-wrap:wrap;gap:6px 26px;align-items:baseline}
+.crest span{display:inline-flex;align-items:baseline;gap:7px}
+.crest em{font-style:normal;color:var(--muted)}
+.crest b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
 h2{font-size:16px;font-weight:650;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 table.meta{width:100%;border-collapse:collapse;font-size:14px;background:var(--soft);border-radius:8px;overflow:hidden}
 table.meta th,table.meta td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
@@ -16,29 +22,50 @@ table.meta th{width:130px;font-weight:500;color:var(--muted);white-space:nowrap}
 table.ch{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px}
 table.ch th,table.ch td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
 table.ch th{background:var(--soft);font-weight:600;font-size:12.5px;color:var(--muted);white-space:nowrap}
-table.ch td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
-table.ch td.c{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 所有表格单元格统一左对齐（含表头、数字列），数字用等宽字形保证纵列成线 */
+table.ch th,table.ch td{text-align:left}
+table.ch td.n{font-variant-numeric:tabular-nums;white-space:nowrap;color:#374151}
+table.ch td.c{font-variant-numeric:tabular-nums;white-space:nowrap}
 table.ch tr:hover td{background:#fafbfc}
+
+/* 教学内容及安排：两行表头 + 思政子行 */
+table.ch thead th{border-bottom:1px solid var(--line)}
+table.ch thead th.grp{border-left:1px solid var(--line)}
+table.ch thead th.sub{border-left:1px solid var(--line);font-weight:500}
+table.ch td.cb{vertical-align:top}
+table.ch td.ideocell{background:#fcfcfd;color:#3f4653;
+  font-size:13px;line-height:1.75;padding-top:7px;padding-bottom:9px}
+table.ch tr:hover td.ideocell{background:#fcfcfd}
+/* 思政子行右侧的学时格只留列线，不参与高亮，避免视觉上连成通栏 */
+table.ch td.ideoblank,table.ch tr:hover td.ideoblank{background:#fff}
+.ideo-tag{display:inline-block;font-size:11.5px;font-weight:600;color:#4338ca;
+  background:#eef2ff;border-radius:3px;padding:1px 6px;margin-right:8px}
+table.ch tr.sum td,table.ch tr.sum th{background:var(--soft);font-weight:600;border-bottom:none}
+.h2note{display:block;font-size:12px;font-weight:400;color:var(--muted);line-height:1.65;margin-top:3px}
 .dim{color:var(--muted)}
 p.body{margin:0;white-space:pre-wrap}
 ul.goals{margin:0;padding-left:22px}
 ul.goals li{margin-bottom:6px}
-.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
-.warn b{display:block;margin-bottom:6px}
-.warn p{margin:4px 0}
-.warn a{color:inherit;word-break:break-all}
 .note{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:20px 22px;text-align:center;color:var(--muted);font-size:14px;margin:20px 0}
 .files{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+/* 页面上方的入口行：靠左、无分隔线、下方留出表格间距 */
+.files.top{margin:0 0 26px;padding-top:0;border-top:none;justify-content:flex-start}
+.warn{background:var(--warnbg);border-left:3px solid #e0a800;padding:14px 18px;border-radius:0 6px 6px 0;font-size:13.5px;color:var(--warn);margin:24px 0}
+.warn p{margin:4px 0}
+.warn a{color:inherit;word-break:break-all}
 .files a{display:inline-block;padding:7px 16px;border:1px solid var(--line);border-radius:6px;font-size:13px;color:var(--accent);text-decoration:none;background:#fff}
 .files a:hover{border-color:var(--accent);background:#f5f9ff}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);line-height:1.7}
+.colophon{margin-top:10px}
+.colophon a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+.colophon a:hover{color:var(--fg);border-bottom-style:solid}
 .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;vertical-align:middle;margin-left:8px}
 .tag.on{background:#e6f4ea;color:#1a7f37}
 .tag.off{background:#f1f2f4;color:#6b7280}
 .tag.no{background:#fff3e0;color:#a86300}
 @media print{.crumb,.files{display:none}.wrap{padding:0;max-width:none}body{font-size:12pt}}
 @media(max-width:640px){.wrap{padding:24px 16px 60px}h1{font-size:21px}table.meta th{width:96px}}
-</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>环境工程专业实验<span class="tag on">在用</span></h1><div class="sub">课程编号 03027503</div><h2>基本信息</h2><table class="meta"><tr><th>课程编号</th><td>03027503</td></tr><tr><th>英文名称</th><td>Experiments on Environment Engineering</td></tr><tr><th>开课单位</th><td>环境与生物工程学院</td></tr><tr><th>学分</th><td>4</td></tr><tr><th>课程状态</th><td>在用</td></tr><tr><th>课程大纲</th><td>已公开</td></tr></table><h2>大纲信息</h2><table class="meta"><tr><th>版本</th><td>2022</td></tr><tr><th>授课语种</th><td>中文</td></tr><tr><th>课程类别</th><td>实验课</td></tr><tr><th>课程负责人</th><td>谢慧芳</td></tr><tr><th>审核人</th><td>张强</td></tr><tr><th>总学时</th><td>64</td></tr><tr><th>讲课学时</th><td>0</td></tr><tr><th>实验学时</th><td>64</td></tr><tr><th>上机学时</th><td>0</td></tr><tr><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr><tr><th>是否术科课</th><td>否</td></tr><tr><th>成绩构成</th><td>出勤、预习:20%；实验报告:60%；实验操作:20%</td></tr></table><h2>课程目标</h2><ul class="goals"><li>通过参与综合性、设计性、研究创新性等实验，学习如何针对特定需求条件，合理确定处理工艺及系统（或单元）参数，注意选择新技术和新方法。</li><li>学会常用实验仪器和设备的使用，掌握环境工程专业相关实验研究的方法及相关测试技术和方法，对环境工程领域相关物理、化学、生物现象进行研究和实验验证。</li><li>了解如何进行实验方案的设计，并采用科学方法制定实验方案，开展实验研究。</li><li>通过团队合作完成实验任务，培养团队合作精神，提高有效勾通的能力和进行环保相关课题实验研究的能力。</li><li>掌握正确采集、整理实验数据的方法，科学分析和解释实验结果，通过信息综合得到合理有效的结论，利用现代工具和正确的数理模型，分析实验结果。</li><li>加深对理论课程学习中基本概念、基本原理的理解。</li></ul><h2>课程简介</h2><p class="body">环境工程专业实验课是对学生分析问题、解决问题及独立工作能力培养的重要环节，本课程是环境工程专业必修的一门实验课程，主要包括了三方面的内容：
+</style></head><body><div class="wrap"><div class="crumb"><a href="../index.html">← 返回课程索引</a></div><h1>环境工程专业实验<span class="tag on">在用</span></h1><div class="crest"><span><em>课程编号</em><b>03027503</b></span><span><em>学分</em><b>4</b></span><span><em>学时</em><b>64</b></span><span><em>考核类型</em><b>考查</b></span></div><div class="files top"><a href="../original/03027503.html">查看原始页面</a><a href="../json/03027503.json">下载 JSON</a><a href="../txt/03027503.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><table class="meta"><tr><th>课程编号</th><td>03027503</td><th>课程名称(中)</th><td>环境工程专业实验</td></tr><tr><th>授课语种</th><td>中文</td><th>课程名称(英)</th><td>Experiments on Environment Engineering</td></tr><tr><th>开课单位</th><td>环境与生物工程学院</td><th>课程类别</th><td>实验课</td></tr><tr><th>课程负责人(执笔人)</th><td>谢慧芳</td><th>审核人</th><td>张强</td></tr><tr><th>学分</th><td>4</td><th>学时</th><td>64</td></tr><tr><th>是否为术科课</th><td>否</td><th>考核类型</th><td>考查</td></tr><tr><th>成绩记载</th><td>百分制</td></tr></table><h2>课程介绍<span class="h2note">【从本课程依托学科及专业背景引出教学内容（具体到章），及修学该课程所需的预备知识等；字数300-500字】</span></h2><p class="body">环境工程专业实验课是对学生分析问题、解决问题及独立工作能力培养的重要环节，本课程是环境工程专业必修的一门实验课程，主要包括了三方面的内容：
 
 1. 实验室安全知识、实验设计、误差与实验数据处理等基础知识；
 
@@ -50,6 +77,4 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 先修课程：环境监测、水污染控制工程、大气污染控制工程、固体废物处理工程；或环境工程学。
 
-成绩由各位指导老师依据预习、操作、报告等给出，最终成绩为各实验分数的平均值。</p><h2>教学目的与要求</h2><p class="body">课程旨在通过对实验的设计、操作和实验现象的观察分析，提高学生观察问题、分析问题和解决问题的能力；通过系列实验，使学生树立自觉遵守规章制度、操作规范的意识；通过对实验数据的采集、整理和分析，培养学生的科学求实精神与创新精神，促进养成客观、严谨、细致的科学观；同时培养学生的团队合作精神。</p><h2>教学内容</h2><p class="body">环境工程实验安全知识及实验设计及实验数据处理
-各实验项目</p><h2>课程思政</h2><p class="body">自觉遵守规章制度、操作规范的意识；
-科学求实精神与创新精神；客观、严谨、细致的科学观。</p><h2>章节安排（2 章）</h2><table class="ch"><tr><th>章</th><th>内容</th><th>讲课</th><th>实验</th><th>上机</th><th>实践</th><th>课外</th><th>小计</th></tr><tr><td class="c">1</td><td>环境工程实验安全知识及实验设计及实验数据处理</td><td class="n">0</td><td class="n">4</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">4</td></tr><tr><td class="c">2</td><td>各实验项目</td><td class="n">0</td><td class="n">60</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">60</td></tr><tr><th></th><th>合计</th><th style="text-align:right"></th><th style="text-align:right">64</th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right"></th><th style="text-align:right">64</th></tr></table><h2>章节思政要点</h2><ul class="goals"><li><b>第1章</b> 自觉遵守规章制度、操作规范的意识；</li><li><b>第2章</b> 科学求实精神与创新精神；客观、严谨、细致的科学观。</li></ul><div class="warn"><b>源站访问限制</b><p>数据来自南京理工大学教务系统「课程总库」<a href="https://bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz">bkjw.njust.edu.cn/njlgdx/pyfa/kcdgxz</a>。</p><p><b>校内</b>：智慧理工门户 → 教务系统 → 培养系统 → 课程总库，可直接打开。</p><p><b>校外</b>：请从 VPN 进入，需登录 2 次才能打开课程库。</p><p><b>直连</b>：互联网直接访问无法加载课程列表。</p></div><div class="files"><a href="../original/03027503.html">查看原始页面</a><a href="../json/03027503.json">下载 JSON</a><a href="../txt/03027503.txt">下载 TXT</a><a href="../index.html">返回索引</a></div><footer>本页由课程总库离线快照生成，共收录 12991 门课程。数据为抓取时点状态，可能与教务系统实时数据存在差异，以源系统为准。</footer></div></body></html>
+成绩由各位指导老师依据预习、操作、报告等给出，最终成绩为各实验分数的平均值。</p><h2>课程目标<span class="h2note">【学生修学本课程后，从要求掌握的科学方法、具备的创新能力等方面进行概述，同时简要说明本课程涵盖的课程思政目标，字数控制在300字】</span></h2><p class="body">课程旨在通过对实验的设计、操作和实验现象的观察分析，提高学生观察问题、分析问题和解决问题的能力；通过系列实验，使学生树立自觉遵守规章制度、操作规范的意识；通过对实验数据的采集、整理和分析，培养学生的科学求实精神与创新精神，促进养成客观、严谨、细致的科学观；同时培养学生的团队合作精神。</p><h2>课程目标分条说明<span class="h2note">【可不囊括所有的毕业要求点，一条课程目标可对应多个毕业要求】</span></h2><ul class="goals"><li>通过参与综合性、设计性、研究创新性等实验，学习如何针对特定需求条件，合理确定处理工艺及系统（或单元）参数，注意选择新技术和新方法。</li><li>学会常用实验仪器和设备的使用，掌握环境工程专业相关实验研究的方法及相关测试技术和方法，对环境工程领域相关物理、化学、生物现象进行研究和实验验证。</li><li>了解如何进行实验方案的设计，并采用科学方法制定实验方案，开展实验研究。</li><li>通过团队合作完成实验任务，培养团队合作精神，提高有效勾通的能力和进行环保相关课题实验研究的能力。</li><li>掌握正确采集、整理实验数据的方法，科学分析和解释实验结果，通过信息综合得到合理有效的结论，利用现代工具和正确的数理模型，分析实验结果。</li><li>加深对理论课程学习中基本概念、基本原理的理解。</li></ul><h2>考核方式及成绩占比<span class="h2note">【包括但不限于闭卷笔试、开卷笔试、半开半闭、在线考试、文献综述、口试、平时作业、调查报告、课程论文、课程设计、单元测验、期中测验、实验实习报告、实验操作、作品展示、课堂表现等，成绩合计为100%】</span></h2><table class="ch weight"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>合计</th></tr><tr><td class="c">考核方式</td><td>出勤、预习</td><td>实验报告</td><td>实验操作</td><td></td></tr><tr><td class="c">成绩占比</td><td class="n">20%</td><td class="n">60%</td><td class="n">20%</td><td class="n">100%</td></tr></table><h2>教学内容及安排<span class="h2note">【理论课程内容具体到节或知识块，用分号断开；上标“△”表示重点，“★”表示难点。课程设计、实习列出内容、安排、步骤和要求等。】</span></h2><table class="ch"><thead><tr><th rowspan="2">章号</th><th rowspan="2">教学内容</th><th class="grp" colspan="2">学时分配</th></tr><tr><th class="sub">实验</th><th class="sub">小计</th></tr></thead><tbody><tr><td class="c cb">1</td><td class="cb">环境工程实验安全知识及实验设计及实验数据处理</td><td class="n cb">4</td><td class="n cb">4</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>自觉遵守规章制度、操作规范的意识；</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr><td class="c cb">2</td><td class="cb">各实验项目</td><td class="n cb">60</td><td class="n cb">60</td></tr><tr class="ideo"><td class="c"></td><td class="ideocell"><span class="ideo-tag">思政融入点</span>科学求实精神与创新精神；客观、严谨、细致的科学观。</td><td class="ideoblank"></td><td class="ideoblank"></td></tr><tr class="sum"><td class="c">合计</td><td></td><td class="n">64</td><td class="n">64</td></tr></tbody></table><h2>实验项目</h2><table class="ch"><tr><th>序号</th><th>实验名称</th><th>实验内容与要求</th><th>实验学时</th><th>实验类型</th></tr><tr><td class="c">1</td><td>环境工程计算机仿真</td><td>通过计算机仿真软件，熟悉环境工程工艺过程,掌握环境污染控制的基本操作及参数设定。</td><td class="n">2</td><td>验证性实验</td></tr><tr><td class="c">2</td><td>氧传质系数的测定</td><td>了解氧转移机理及影响因素，掌握测定曝气装置氧总传质系数的实验方法，并对充氧能力进行测定和评价；能正确处理实验数据。</td><td class="n">4</td><td>综合性实验</td></tr><tr><td class="c">3</td><td>活性污泥性质的测定及剩余污泥的活性污泥性质的测定及剩余污泥的调理与脱水</td><td>掌握混合液悬浮固体各指标测定方法，并根据结果对系统运行状况进行评估；掌握剩余污泥比阻的测定及计算方法；在对剩余污泥性质测定的基础上，拟定调理方案，并通过污泥比阻和离心脱水过程的测定，评估调理方案。</td><td class="n">6</td><td>综合性实验</td></tr><tr><td class="c">4</td><td>离子交换法处理含铬废水</td><td>通过利用离子交换树脂处理含铬废水，使学生加深对离子交换基本理论的理解，掌握离子交换法处理废水和再生的操作方法，掌握离子交换容量的分析与计算，掌握穿透曲线和再生曲线的绘制方法。</td><td class="n">4</td><td>设计性实验</td></tr><tr><td class="c">5</td><td>活性炭吸附实验</td><td>通过静态吸附实验，了解活性炭的吸附性能和吸附原理，测定吸附等温线。掌握间歇式活性炭吸附工艺处理废水设计参数的确定方法。</td><td class="n">4</td><td>设计性实验</td></tr><tr><td class="c">6</td><td>光催化处理工业废水实验</td><td>在熟悉光催化处理污染物的实验步骤和了解催化剂的制备和预处理过程的基础上，设计实验方案，并完成光催化反应实验，并对实验结果进行分析讨论。</td><td class="n">4</td><td>研究创新性实验</td></tr><tr><td class="c">7</td><td>膜分离实验</td><td>掌握微滤和超滤膜分离的基本原理以及制备膜的一般方法，掌握膜分离设备的结构、工艺特点、操作方法。测定所制备膜在不同压力下通量变化，并对污染水样分离处理效果进行评价。</td><td class="n">6</td><td>研究创新性实验</td></tr><tr><td class="c">8</td><td>高浓度难降解废水组合工艺实验</td><td>针对给定的废水水质，制定处理工艺，并根据处理工艺，用提供的若干实验模型，组合不同水处理单元，对该废水进行处理，并综合运用各指标处理效果进行评价。</td><td class="n">6</td><td>设计性实验</td></tr><tr><td class="c">9</td><td>旋风及袋式除尘器性能的测定</td><td>在除尘器结构型式和粉尘特性一定的前提下，测试旋风除尘器及袋式除尘器的主要性能指标，掌握旋风及袋式除尘器性能测定的主要内容和方法，全面了解影响旋风及袋式除尘器压力损失、除尘效率的主要因素。</td><td class="n">4</td><td>综合性实验</td></tr><tr><td class="c">10</td><td>气体中氮氧化物的脱除实验</td><td>通过筛选合适的固体吸附剂来净化废气中的NOx，采用固定床进行吸附实验，考察不同种类固体吸附剂的吸附性能以及操作因素（主要包括吸附床进口浓度、空速和温度等）对脱氮率的影响。要求学生掌握吸附法净化废气中NOx（NO2）的原理和效果，掌握固体吸附剂改性方法和脱氮率的计算方法。</td><td class="n">4</td><td>设计性实验</td></tr><tr><td class="c">11</td><td>生物质生物质能热转化实验</td><td>通过测定生物质热解过程，加深对有机固体废物资源化的理解，掌握热解过程的基本操作技能，并了解不同样品的热值效果。</td><td class="n">4</td><td>研究创新性实验</td></tr><tr><td class="c">12</td><td>固体废物浸出毒性鉴别实验固体废物浸出毒性鉴别实验</td><td>掌握工业固体废物按危险性分类的方法，熟悉环保标准的应用；掌握浸出毒性的实验方法，了解浸出液成份的测定方法。</td><td class="n">4</td><td>综合性实验</td></tr><tr><td class="c">13</td><td>混凝实验</td><td>加深对混凝理论的理解，了解影响混凝效果的因素和混凝剂的筛选方法，选择和确定最佳的混凝工艺条件。</td><td class="n">4</td><td>综合性实验</td></tr><tr><td class="c">14</td><td>自由沉淀实验</td><td>观察沉淀过程，加深对自由沉淀特点、基本概念及沉淀规律的理解；掌握颗粒自由沉淀实验的方法，求出沉淀曲线。</td><td class="n">3</td><td>操作性实验</td></tr><tr><td class="c">15</td><td>压力溶气气浮实验</td><td>通过对小型压力溶气气浮设备及流程的介绍，掌握气浮方法的原理、气浮池及溶气释放器的构造。</td><td class="n">1</td><td>演示性实验</td></tr></table><h2>教材与参考书目</h2><table class="ch"><tr><th>书名</th><th>主编</th><th>ISBN书号</th><th>出版社</th><th>出版年度</th></tr><tr><td>环境工程实验</td><td>谢慧芳</td><td>无</td><td>南京理工大学</td><td class="n">2016</td></tr></table><div class="warn"><p>本数据来自南京理工大学教务系统</p><p>实时内容请在教务系统 → 培养系统 → 课程总库中查看（校内：<a href="https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp">https://bkjw.njust.edu.cn/njlgdx/indexsso.jsp</a>　校外使用Webvpn：<a href="https://webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp">webvpn.njust.edu.cn/https/77726476706e69737468656265737421f2fc4b8b693e62456d1cc7a99c406d361c/njlgdx/indexsso.jsp</a>）</p></div><footer>本页为课程总库离线快照，可能教务系统实时数据存在差异，请以教务系统为准。<div class="colophon">采集日期 2026-10-29　·　<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">津ICP备2023000212号-3</a></div></footer></div></body></html>
