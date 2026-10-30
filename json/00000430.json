@@ -1,0 +1,182 @@
+{
+ "code": "00000430",
+ "slug": "00000430",
+ "name": "运营管理中的数据分析与机器学习",
+ "nameEn": "Data Analytics and Machine Learning in Operations Management",
+ "credit": 1,
+ "dept": "经济管理学院",
+ "active": true,
+ "hasOutline": true,
+ "seq": 424,
+ "outline": {
+  "version": "2022",
+  "lang": "英文",
+  "category": "理论课（不含实践）",
+  "teacher": "周剑",
+  "reviewer": "沈静远",
+  "totalHours": 32,
+  "lectureHours": 32,
+  "labHours": 0,
+  "pcHours": 0,
+  "examType": "考查",
+  "gradeMode": "百分制",
+  "isSkill": "否",
+  "examWeight": "课堂表现:30%；课程论文:40%；课程论文PPT展示:30%",
+  "goals": [
+   "掌握一些常用统计和机器学习算法用于解决工业管理工程和供应链管理中基于数据驱动的实际问题，如产品的智能化可靠性评估和运维管理问题",
+   "掌握Python编程语言及常用统计和机器学习算法的Python实现",
+   "掌握人文经管类课程在目前大数据背景下的实际应用潜力和方向"
+  ],
+  "intro": "人工智能应用于大数据分析处理是当前社会热点。本课程将介绍一些常用统计和机器学习算法用于解决工业管理工程和供应链管理中数据驱动的实际问题。掌握Python编程语言及常用统计和机器学习算法的Python实现。\n\n课程内容分为理论知识和实际应用两部分。理论知识部分将介绍线性回归、分类、交叉验证、模型选择、支持向量机、树模型和聚类等常用统计和机器学习方法。实际应用部分将介绍Python编程语言的入门及如何基于Python编程语言将这些方法应用到运营管理的某些实际问题中，如系统的智能化可靠性评估及运维管理。预修课要求有基本的统计知识，包括正态分布，点估计，区间估计和假设检验等知识积累。",
+  "objectives": "掌握一些常用统计和机器学习算法用于解决工业管理工程和供应链管理中基于数据驱动的实际问题；掌握Python编程语言及常用统计和机器学习算法的Python实现。课程思政目标：介绍中国科研和教学工作者在Python语言的实际应用和教学方面取得的进展，激发学生学习的热情和创新的精神；通过国内真实的企业运营管理、产品的运维管理数据以及地区性相关数据的分析，展示中国改革开放的长期成果；通过案例分析和介绍，引导学生发扬积极探索的科学精神。",
+  "contents": "偏差方差权衡，概率/统计回顾\n线性回归△\nPython简介和线性回归应用\n分类△\n分类及其python实现△★\n交叉验证和bootstrap△\n模型选择\n支持向量机△★\n基于树的方法\nPython实现△★\n聚类和 Python 实现△★",
+  "ideology": "介绍中国科研和教学工作者在Python语言的实际应用和教学方面取得的进展，激发学生学习的热情和创新的精神\n通过国内真实的企业运营管理和地区性相关数据的分析，展示中国改革开放的长期成果\n通过案例分析和介绍，引导学生发扬积极探索的科学精神"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "偏差方差权衡，概率/统计回顾",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 2,
+   "title": "线性回归△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 3,
+   "title": "Python简介和线性回归应用",
+   "ideology": "介绍中国科研和教学工作者在Python语言的实际应用和教学方面取得的进展，激发学生学习的热情和创新的精神",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 4,
+   "title": "分类△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 5,
+   "title": "分类及其python实现△★",
+   "ideology": "通过国内真实的企业运营管理和地区性相关数据的分析，展示中国改革开放的长期成果",
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 6,
+   "title": "交叉验证和bootstrap△",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 7,
+   "title": "模型选择",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 8,
+   "title": "支持向量机△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 9,
+   "title": "基于树的方法",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 10,
+   "title": "Python实现△★",
+   "ideology": null,
+   "hours": {
+    "lecture": 3,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 3
+   }
+  },
+  {
+   "no": 11,
+   "title": "聚类和 Python 实现△★",
+   "ideology": "通过案例分析和介绍，引导学生发扬积极探索的科学精神",
+   "hours": {
+    "lecture": 2,
+    "lab": 0,
+    "pc": 0,
+    "practice": 0,
+    "extra": 0,
+    "total": 2
+   }
+  }
+ ],
+ "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=F1CBA324BE8F4ABEB537C70D1F289A7E",
+ "hasOriginal": true
+}
