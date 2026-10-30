@@ -139,6 +139,54 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "数学建模算法与应用",
+   "editor": "司守奎",
+   "isbn": "9787118122787",
+   "press": "国防工业出版社",
+   "year": "2021"
+  },
+  {
+   "title": "数学实验与数学软件",
+   "editor": "许春根",
+   "isbn": "9787564186524",
+   "press": "东南大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [
+  {
+   "name": "数学软件Matlab学习",
+   "content": "会用MATLAB软件解决实际问题",
+   "hours": "4",
+   "type": "综合性实验"
+  },
+  {
+   "name": "Python学习",
+   "content": "了解和学会使用Python语言",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "数学软件Mathematica学习",
+   "content": "熟练掌握并会用Mathematica软件画图、求导、积分等",
+   "hours": "6",
+   "type": "综合性实验"
+  },
+  {
+   "name": "数学综合性实验",
+   "content": "综合应用数学软件进行数学建模",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "信息安全与密码学",
+   "content": "在信息安全平台实现加密、数字签名及学习初步密码学知识",
+   "hours": "2",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=6C7E18861EB24E73AD484C978E466AF6",
  "hasOriginal": true
 }

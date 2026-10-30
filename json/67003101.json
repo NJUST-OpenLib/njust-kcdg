@@ -73,6 +73,35 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《智能控制——理论基础、算法设计与应用》",
+   "editor": "刘金琨",
+   "isbn": "9787302610700",
+   "press": "清华大学出版社",
+   "year": "2023"
+  }
+ ],
+ "labs": [
+  {
+   "name": "仿真环境搭建",
+   "content": "通过现代控制理论进行建模，得到状态空间方程",
+   "hours": "16",
+   "type": "综合性实验"
+  },
+  {
+   "name": "创建模型，调节各实验参数，优化仿真计算结果",
+   "content": "通过 Simscape Multibody 创建模型，包括坐标系、机构配置器、求解器、模型等。通过转换器与模拟框图连接，为方便定位摆杆的转轴和施加转动副，在小车上设置摆杆轴几何形状。\t将上述Multibody模型封装成子系统，设置输入面板，外接模拟电路。输入可变参数，给出初始值进行仿真计算。",
+   "hours": "32",
+   "type": "综合性实验"
+  },
+  {
+   "name": "仿真环境调试\t，搭建simulink仿真程序",
+   "content": "在simulink中建立控制系统的仿真模型，设计性能指标泛函J，将LQR控制器应用于实际控制模型，利用MATLAB Simulink中的Simscape Multibody模块进行3D仿真平台搭建。\t\t\t\n\n确定系统的参数，编写程序计算系统的状态方程，并利用MATLAB当中的LQR函数计算出反馈矩阵 k\t\t智慧工厂自动化小车数据采集分析与优化设计",
+   "hours": "32",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=047A9436CB76470B8746C25B02F8BDC9",
  "hasOriginal": true
 }

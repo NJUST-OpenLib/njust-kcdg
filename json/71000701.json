@@ -99,6 +99,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "点集拓扑讲义（第四版）",
+   "editor": "熊金城",
+   "isbn": "978-7040322378",
+   "press": "高等教育出版社",
+   "year": "2011"
+  },
+  {
+   "title": "基础拓扑学讲义",
+   "editor": "尤承业",
+   "isbn": "978-7301031032",
+   "press": "北京大学出版社",
+   "year": "2004"
+  },
+  {
+   "title": "基础拓扑学",
+   "editor": "Armstrong",
+   "isbn": "978-7115218865",
+   "press": "人民邮电出版社",
+   "year": "2010"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=0770EC55DDEC4B15818CEB8577387660",
  "hasOriginal": true
 }

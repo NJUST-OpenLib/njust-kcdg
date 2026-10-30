@@ -98,6 +98,42 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "从零开始掌握工业互联网.实操篇",
+   "editor": "黄志坚",
+   "isbn": "978-7-115-57285-1",
+   "press": "人民邮电出版社",
+   "year": "2021"
+  },
+  {
+   "title": "工业控制系统及应用",
+   "editor": "王华忠",
+   "isbn": "978-7-121-30685-3",
+   "press": "电子工业出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [
+  {
+   "name": "SCADA系统的构建",
+   "content": "基于研华的WebAccess/SCADA，构建具有数据采集和组态展示的数据采集与监视控制系统。",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "虚拟电梯控制仿真实验",
+   "content": "基于实验套装，通过半实物仿真，完成虚拟电梯控制的仿真实验。",
+   "hours": "4",
+   "type": "操作性实验"
+  },
+  {
+   "name": "边缘检测实验",
+   "content": "基于实验套装中的传感器、I/O采集模块、主流PLC、各种辅助线材、采集网关，实现数据采集和数据传输。",
+   "hours": "2",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=1F657A9A5D9540CA8E37E3DDA8717224",
  "hasOriginal": true
 }

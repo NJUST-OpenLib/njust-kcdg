@@ -99,6 +99,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "智能材料与结构系统",
+   "editor": "张光磊，杜彦良",
+   "isbn": "",
+   "press": "北京大学出版社",
+   "year": "2010"
+  },
+  {
+   "title": "机械振动的分析与控制以及计算方法",
+   "editor": "任明章",
+   "isbn": "",
+   "press": "机械工业出版社",
+   "year": "2011"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=DB00F1D5974746B9B3CA049D0D837CB5",
  "hasOriginal": true
 }

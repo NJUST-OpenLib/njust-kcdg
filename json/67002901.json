@@ -139,6 +139,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "参考书目《智能机器人技术基础》",
+   "editor": "张春芝",
+   "isbn": "9787111663881",
+   "press": "机械工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [
+  {
+   "name": "新型机器人设计",
+   "content": "了解机器人的结构与工作原理，了解机器人控制系统构成及其操作方法，实际编程操作控制机器人完成设定任务。",
+   "hours": "8",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=41E9669CA073447AADBC58B256280CE9",
  "hasOriginal": true
 }

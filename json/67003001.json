@@ -125,6 +125,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "智能调度",
+   "editor": "李新宇等",
+   "isbn": "9787302618546",
+   "press": "清华大学出版社",
+   "year": "2022.11"
+  }
+ ],
+ "labs": [
+  {
+   "name": "生产系统智能化技术综合实验",
+   "content": "实验内容：智能制造系统动态调度。\n要求：掌握运用生产系统智能化技术解决实际生产问题。",
+   "hours": "8",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8E2B66F2B4AE45D6BB3917A7602E4563",
  "hasOriginal": true
 }

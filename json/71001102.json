@@ -101,6 +101,49 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "最优化导论（第四版）",
+   "editor": "Edwin,K.P.,Chong，Stanislaw H.Zak.著，孙志强，白圣建，郑永斌，刘伟 译",
+   "isbn": "9787121404368",
+   "press": "电子工业出版社",
+   "year": "2021"
+  },
+  {
+   "title": "An introduction to optimization(fourth edition)",
+   "editor": "Edwin,K.P.,Chong，Stanislaw H.Zak.著",
+   "isbn": "9781118279014",
+   "press": "Wiley",
+   "year": "2013"
+  },
+  {
+   "title": "最优化：建模、算法与理论",
+   "editor": "刘浩洋，户将，李勇锋，文再文",
+   "isbn": "9787040550351",
+   "press": "高等教育出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [
+  {
+   "name": "无约束优化方法数值实验",
+   "content": "选择无约束算法进行编程，并对给定测试函数进行数值验证和效率比较",
+   "hours": "2",
+   "type": "验证性实验"
+  },
+  {
+   "name": "罚函数法数值实验",
+   "content": "编写外点罚函数法、内点罚函数法、增广拉格朗日函数法程序，对于测试函数比较算法优缺点",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "单纯形方法数值实验",
+   "content": "编写单纯形法程序，测试算法有效性",
+   "hours": "2",
+   "type": "验证性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8B659FF514D743FC82E9FAD5FEF040F3",
  "hasOriginal": true
 }

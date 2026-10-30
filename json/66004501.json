@@ -101,6 +101,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "信息服务与用户",
+   "editor": "胡昌平、胡潜、邓胜利",
+   "isbn": "9787307171848",
+   "press": "武汉大学出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=157BC3A836684ECBAF0FD4E310380DD7",
  "hasOriginal": true
 }

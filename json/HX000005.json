@@ -152,6 +152,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "余淼杰谈中美贸易：全球经贸新格局下的大国博弈",
+   "editor": "余淼杰",
+   "isbn": "‘9787301295335",
+   "press": "北京大学出版社",
+   "year": "2018"
+  },
+  {
+   "title": "全球化逆潮",
+   "editor": "[美] 约瑟夫·E.斯蒂格利茨",
+   "isbn": "‘9787111624738",
+   "press": "机械工业出版社",
+   "year": "2022"
+  },
+  {
+   "title": "中国经济安全展望报告（2022）",
+   "editor": "刘伟 苏剑",
+   "isbn": "’9787513668460",
+   "press": "中国经济出版社",
+   "year": "2022"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D885903628C74A3CAEBC1B34B2D22591",
  "hasOriginal": true
 }

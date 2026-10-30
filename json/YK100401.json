@@ -113,6 +113,44 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《初等数学》（全一册）",
+   "editor": "罗守山",
+   "isbn": "978-01-012580-0",
+   "press": "人民出版社",
+   "year": "2017"
+  },
+  {
+   "title": "《高等数学》（全一册）",
+   "editor": "罗守山",
+   "isbn": "978-01-012581-7",
+   "press": "人民出版社",
+   "year": "2017"
+  },
+  {
+   "title": "注：\n1.",
+   "editor": "",
+   "isbn": "",
+   "press": "",
+   "year": ""
+  },
+  {
+   "title": "高等数学练习册（全一册）",
+   "editor": "罗守山",
+   "isbn": "978-01-012633-3",
+   "press": "人民出版社",
+   "year": "2017"
+  },
+  {
+   "title": "初等数学练习册（全一册）",
+   "editor": "罗守山",
+   "isbn": "978-01-012632-6",
+   "press": "人民出版社",
+   "year": "2017"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=44C2C4CB9537430B8B54DB5006E6125E",
  "hasOriginal": true
 }

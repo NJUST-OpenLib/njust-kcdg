@@ -125,6 +125,35 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "计算机网络（第8版）",
+   "editor": "谢希仁",
+   "isbn": "9787121411748",
+   "press": "电子工业出版社",
+   "year": "2021"
+  }
+ ],
+ "labs": [
+  {
+   "name": "网络协议分析",
+   "content": "掌握网络分析软件，深入理解TCP/IP体系结构",
+   "hours": "2",
+   "type": "综合性实验"
+  },
+  {
+   "name": "常用网络工具的使用",
+   "content": "熟悉常用网络工具的使用",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "网络综合设计",
+   "content": "搭建Web、FTP服务器，深入理解客户服务器方式",
+   "hours": "2",
+   "type": "设计性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C1F0235C7436479F95A88B93FE21869D",
  "hasOriginal": true
 }

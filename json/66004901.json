@@ -140,6 +140,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "社会科学计算实验理论与应用",
+   "editor": "盛昭瀚",
+   "isbn": "",
+   "press": "三联出版社",
+   "year": "2009"
+  },
+  {
+   "title": "New Internet：大数据挖掘",
+   "editor": "谭磊",
+   "isbn": "",
+   "press": "电子工业出版社",
+   "year": "2013"
+  },
+  {
+   "title": "大数据预测",
+   "editor": "埃里克？西格尔",
+   "isbn": "",
+   "press": "中信出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=A53C657B4D014D0691E4163FDA269913",
  "hasOriginal": true
 }

@@ -125,6 +125,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "自动化导论（第三版）",
+   "editor": "周献中",
+   "isbn": "9787030728869",
+   "press": "科学出版社",
+   "year": "2022"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11EFFA2A81BC4F07BDD62128E436177D",
  "hasOriginal": true
 }

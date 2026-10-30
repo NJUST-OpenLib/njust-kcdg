@@ -137,6 +137,44 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "安全原理与危险化学测评技术",
+   "editor": "刘荣海",
+   "isbn": "9787502557904",
+   "press": "化学工业出版社",
+   "year": "2004"
+  },
+  {
+   "title": "安全管理",
+   "editor": "饶国宁",
+   "isbn": "9787305076435",
+   "press": "南京大学出版社",
+   "year": "2010"
+  },
+  {
+   "title": "安全人机工程",
+   "editor": "谢庆森",
+   "isbn": "7561812337",
+   "press": "天津大学出版社",
+   "year": "2012"
+  },
+  {
+   "title": "职业卫生与防护",
+   "editor": "陈沅江",
+   "isbn": "9787111259756",
+   "press": "机械工业出版社",
+   "year": "2009"
+  },
+  {
+   "title": "防火防爆工程",
+   "editor": "解立峰",
+   "isbn": "9787502451363",
+   "press": "哈尔滨工业大学出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=203FDF811D1E4C0EBBCB48A388521256",
  "hasOriginal": true
 }

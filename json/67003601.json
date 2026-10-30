@@ -204,6 +204,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "物流配送中心规划与设计",
+   "editor": "贾争现",
+   "isbn": "ISBN：9787111620082",
+   "press": "机械工业出版社",
+   "year": "2019"
+  },
+  {
+   "title": "智能制造系统及关键使能技术",
+   "editor": "唐敦兵",
+   "isbn": "ISBN：9787121429828",
+   "press": "电子工业出版社",
+   "year": "2022"
+  },
+  {
+   "title": "智能物联制造系统与决策",
+   "editor": "张映锋",
+   "isbn": "9787111606550",
+   "press": "机械工业出版社",
+   "year": "2018"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=153A9134C56F4C639142315509CDDDE8",
  "hasOriginal": true
 }

@@ -112,6 +112,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "工程优化设计及应用",
+   "editor": "张臣",
+   "isbn": "978-7-030-69479-9",
+   "press": "科学出版社",
+   "year": "2021"
+  },
+  {
+   "title": "Isight参数优化理论与实例详解",
+   "editor": "赖宇阳",
+   "isbn": "978-7-512-40958-3",
+   "press": "北京航空航天大学出版社",
+   "year": "2012"
+  },
+  {
+   "title": "机械优化设计",
+   "editor": "孙靖民",
+   "isbn": "978-7-111-56643-4",
+   "press": "机械工业出版社",
+   "year": "2003"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E0D2DB07E98D4553A3FFC9C129835961",
  "hasOriginal": true
 }

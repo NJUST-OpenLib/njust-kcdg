@@ -137,6 +137,62 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "流体力学与传热学基础",
+   "editor": "次英",
+   "isbn": "",
+   "press": "科学出版社",
+   "year": "2016"
+  },
+  {
+   "title": "Fundamentals of Therml-Fluid Sciences",
+   "editor": "Yunnus A Gengel, etc.",
+   "isbn": "",
+   "press": "MC Graw Hill Education",
+   "year": "2017"
+  },
+  {
+   "title": "流体力学与热工学基础",
+   "editor": "刘晓红等",
+   "isbn": "",
+   "press": "机械工业出版社",
+   "year": "2012"
+  },
+  {
+   "title": "热工基础（第三版）",
+   "editor": "张学学，李桂馥",
+   "isbn": "",
+   "press": "高等教育出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [
+  {
+   "name": "空气横掠单管时平均换热系数的测定",
+   "content": "了解实验装置、熟悉空气流速及管壁温度的测量方法，通过对实验数据的综合整理，掌握强制对流换热实验数据整理的方法。",
+   "hours": "1",
+   "type": "综合性实验"
+  },
+  {
+   "name": "空气定压比热的测定",
+   "content": "了解气体比热测定的基本原理和构思，掌握由实验数据计算出比热值和比热公式的方法。",
+   "hours": "1",
+   "type": "综合性实验"
+  },
+  {
+   "name": "伯努利实验",
+   "content": "熟悉实验过程，操作、观察，验证伯努利方程。",
+   "hours": "1",
+   "type": "综合性实验"
+  },
+  {
+   "name": "雷诺实验",
+   "content": "熟悉实验过程，操作、观察流态及转变，测量两种流态的能量损失。",
+   "hours": "1",
+   "type": "验证性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=F07928171545411ABEDEE900461250E0",
  "hasOriginal": true
 }

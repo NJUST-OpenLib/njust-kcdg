@@ -111,6 +111,42 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "微纳米制造技术及应用",
+   "editor": "张德远",
+   "isbn": "",
+   "press": "科学出版社有限责任公司",
+   "year": "2019"
+  },
+  {
+   "title": "微纳米加工技术及其应用",
+   "editor": "崔铮",
+   "isbn": "",
+   "press": "高等教育出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [
+  {
+   "name": "光刻掩膜板设计",
+   "content": "学习Coreldraw软件，掌握光刻掩膜板设计方法，完成光刻掩膜板设计。",
+   "hours": "2",
+   "type": "设计性实验"
+  },
+  {
+   "name": "氧等离子体键合实验",
+   "content": "基于氧等离子体处理器，完成玻璃与PDMS之间的快速键合。",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "软光刻实验",
+   "content": "根据自行设计的光掩膜，完成包括旋涂、曝光、显影、倒膜等在内的软光刻实验。",
+   "hours": "4",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=4AD5B1369017450684A2FB08C2ADE4CB",
  "hasOriginal": true
 }

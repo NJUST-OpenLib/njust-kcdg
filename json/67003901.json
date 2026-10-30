@@ -112,6 +112,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "智能制造标准化",
+   "editor": "中国电子技术标准化研究院",
+   "isbn": "9787302533375",
+   "press": "清华大学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=197F810519AA497F9F69A463EABB1913",
  "hasOriginal": true
 }

@@ -99,6 +99,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电气工程及其自动化专业导论",
+   "editor": "戈宝军",
+   "isbn": "9787111664277",
+   "press": "机械工业出版社",
+   "year": "2020"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E8D42435F0434464BC85B70DEA6127FC",
  "hasOriginal": true
 }

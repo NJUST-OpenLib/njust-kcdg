@@ -150,6 +150,48 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "电子系统设计——面向嵌入式硬件电路",
+   "editor": "马洪连",
+   "isbn": "978-7-121-34612-5",
+   "press": "电子工业出版社",
+   "year": "2018"
+  },
+  {
+   "title": "硬件电路设计与电子工艺基础",
+   "editor": "贾鹏飞，杨超.",
+   "isbn": "978-7-121-35093-1",
+   "press": "电子工业出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [
+  {
+   "name": "应用Multisim软件，搭建常用电子电路仿真环境",
+   "content": "搭建基于常用电子电路仿真环境，掌握常用电子电路仿真分析方法，验证典型常用电子电路的原理及工作方法。",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "应用Altium Designer软件，绘制基于微处理器最小系统硬件电路PCB图",
+   "content": "学习Altium Designer软件，掌握电路PCB图设计流程，完成微处理器最小系统硬件电路PCB图设计。",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "应用Altium Designer软件，绘制基于微处理器最小系统硬件电路原理图",
+   "content": "学习Altium Designer软件，掌握电路原理图设计流程，完成微处理器最小系统硬件电路原理图设计。",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "应用Multisim软件，搭建人机交互接口电路仿真环境",
+   "content": "搭建人机交互接口电路仿真环境，掌握并理解人机交互接口电路设计方法及工作原理。",
+   "hours": "2",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=11401F3F738C423F8AF75D86510A8932",
  "hasOriginal": true
 }

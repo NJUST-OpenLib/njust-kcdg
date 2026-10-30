@@ -112,6 +112,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "自动控制原理（第七版）",
+   "editor": "胡寿松",
+   "isbn": "9787030572912",
+   "press": "北京：科学出版社",
+   "year": "2019"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=E233920919144793B8FFE63D19D1F663",
  "hasOriginal": true
 }

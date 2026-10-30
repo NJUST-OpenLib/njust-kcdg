@@ -88,6 +88,16 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "智能制造应用技术与实践",
+   "editor": "蒋道霞",
+   "isbn": "9787113280727",
+   "press": "中国铁道出版社有限公司",
+   "year": "2021"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=7C67BCE6A04E4A08AB4C2F6A325C97EB",
  "hasOriginal": true
 }

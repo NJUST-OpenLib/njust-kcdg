@@ -203,6 +203,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "数字信号处理（第三版）",
+   "editor": "吴镇扬",
+   "isbn": "9787121347474",
+   "press": "高等教育出版社",
+   "year": "2016"
+  },
+  {
+   "title": "数字信号处理（第四版）",
+   "editor": "Sanjit K. Mitra",
+   "isbn": "9787121339097",
+   "press": "电子工业出版社",
+   "year": "2018"
+  },
+  {
+   "title": "数字信号处理导论（第二版）",
+   "editor": "胡广书",
+   "isbn": "9787302315346",
+   "press": "清华大学出版社",
+   "year": "2013"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=54F76485E645494BB2F8B25C8F53182E",
  "hasOriginal": true
 }

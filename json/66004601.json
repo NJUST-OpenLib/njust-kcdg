@@ -142,6 +142,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "信息管理基础",
+   "editor": "李广建等",
+   "isbn": "9787303146703",
+   "press": "北京师范大学出版社",
+   "year": "2013"
+  },
+  {
+   "title": "信息管理基础",
+   "editor": "岳剑波",
+   "isbn": "9787302022046",
+   "press": "清华大学出版社",
+   "year": "1999"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=1E3A339143A74F94BB4EABA599C17290",
  "hasOriginal": true
 }

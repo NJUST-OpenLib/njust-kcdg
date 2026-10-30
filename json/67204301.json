@@ -85,6 +85,39 @@
    }
   }
  ],
+ "books": [],
+ "labs": [
+  {
+   "name": "ModSim和Modbus互联",
+   "content": "实现虚拟数据输出与接收",
+   "hours": "4",
+   "type": "操作性实验"
+  },
+  {
+   "name": "Webaccess、Dashboard和SaaS Composer互联",
+   "content": "实现虚拟数据输出与工业云平台数据接收",
+   "hours": "4",
+   "type": "操作性实验"
+  },
+  {
+   "name": "Webaccess实际场景应用",
+   "content": "以ModSim模拟4-8个模块，每个模块4-10个数据作为输出，以Dashboard绘制战情图、以SaaS Composer绘制2D图（二选一）",
+   "hours": "24",
+   "type": "操作性实验"
+  },
+  {
+   "name": "EnSaaS工业云平台",
+   "content": "实现数据上云",
+   "hours": "4",
+   "type": "操作性实验"
+  },
+  {
+   "name": "Edgelink与SCADA互联",
+   "content": "实现工具箱数据发送与工业云平台数据接收",
+   "hours": "4",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=C4E37600A61945C28E459896B1CE3787",
  "hasOriginal": true
 }

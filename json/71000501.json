@@ -100,6 +100,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "数学论文写作概论",
+   "editor": "于忠文",
+   "isbn": "9787801344526",
+   "press": "航空工业出版社",
+   "year": "2007"
+  }
+ ],
+ "labs": [
+  {
+   "name": "Latex的使用",
+   "content": "应用Latex编辑数学科技论文",
+   "hours": "4",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D25E519036C44BE382E289FED93BE8A7",
  "hasOriginal": true
 }

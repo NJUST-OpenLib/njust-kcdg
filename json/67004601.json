@@ -125,6 +125,48 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "嵌入式控制系统原理与设计",
+   "editor": "樊卫华",
+   "isbn": "978-7-111-64576-4",
+   "press": "机械工业出版社",
+   "year": "2020"
+  },
+  {
+   "title": "ARM Cortex-M3嵌入式开发与实践-基于LPC1788和uC-OS-II",
+   "editor": "张勇",
+   "isbn": "978-7-302-40071-4",
+   "press": "清华大学出版社",
+   "year": "2015"
+  }
+ ],
+ "labs": [
+  {
+   "name": "开发环境与CPU测试",
+   "content": "熟悉Keil集成开发环境的使用，学习修改内存数据测试CPU的方法。",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "电机控制系统",
+   "content": "了解电机控制系统的硬件组成；设计并实现控制算法，完成系统调试。",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "传感器与数据采集",
+   "content": "了解基本数字式传感器的工作原理，学习利用外设接口采集传感器的数据。",
+   "hours": "2",
+   "type": "操作性实验"
+  },
+  {
+   "name": "GPIO端口使用与USART串口通信",
+   "content": "学习通过GPIO的置位/复位寄存器来控制相应的GPIO口的电平，掌握基本片内外设的控制方法。了解串行通信的基本知识，学习使用USART部件进行串口通信。",
+   "hours": "2",
+   "type": "操作性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=06CA53230AC64274B832DEE384D2B814",
  "hasOriginal": true
 }

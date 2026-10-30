@@ -194,6 +194,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "《知识产权读本》",
+   "editor": "支苏平",
+   "isbn": "9787509664261",
+   "press": "经济管理出版社",
+   "year": "2019"
+  },
+  {
+   "title": "《知识产权管理》（第二版）",
+   "editor": "朱雪忠",
+   "isbn": "9787040450491",
+   "press": "高等教育出版社",
+   "year": "2016"
+  },
+  {
+   "title": "《知识产权法》 （第五版）",
+   "editor": "吴汉东",
+   "isbn": "9787301303771",
+   "press": "法律出版社",
+   "year": "2014"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=D73F610616C74574A4FFE268A9342775",
  "hasOriginal": true
 }

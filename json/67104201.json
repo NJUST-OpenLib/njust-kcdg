@@ -87,6 +87,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "智能制造导论",
+   "editor": "周济、李培根",
+   "isbn": "978-7-04-055595-0",
+   "press": "高等教育出版社",
+   "year": "2021年"
+  },
+  {
+   "title": "统计学习方法",
+   "editor": "李航",
+   "isbn": "9787302517276",
+   "press": "清华大学出版社",
+   "year": "2019年"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=104BA49F56CB473499FBF2535F8B183F",
  "hasOriginal": true
 }

@@ -101,6 +101,23 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "毕业设计写作指南",
+   "editor": "袁军堂 张永春",
+   "isbn": "9787549915361",
+   "press": "江苏教育出版社",
+   "year": "2012"
+  }
+ ],
+ "labs": [
+  {
+   "name": "根据选题",
+   "content": "根据任务书",
+   "hours": "560",
+   "type": "综合性实验"
+  }
+ ],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=8F4B3F7026A54B4599E367489710995C",
  "hasOriginal": true
 }

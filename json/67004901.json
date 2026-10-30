@@ -99,6 +99,30 @@
    }
   }
  ],
+ "books": [
+  {
+   "title": "工业数据采集与管理系统（下册）",
+   "editor": "胡耀华、梁乃明",
+   "isbn": "978-7-111-69389-5",
+   "press": "机械工业出版社",
+   "year": "2021.12"
+  },
+  {
+   "title": "工业数据采集与管理系统（上册）",
+   "editor": "胡耀华、梁乃明",
+   "isbn": "978-7-111-69388-8",
+   "press": "机械工业出版社",
+   "year": "2021.12"
+  },
+  {
+   "title": "NB-IoT应用技术项目化教程",
+   "editor": "朱祥贤",
+   "isbn": "978-7-111-63855-1",
+   "press": "机械工业出版社",
+   "year": "2022.12"
+  }
+ ],
+ "labs": [],
  "source": "https://webvpn.njust.edu.cn/http-8080/77726476706e69737468656265737421a2a713d27661311e2659c7fdc907/kcxxAction.do?method=kcdgView&jx02id=F213DD11AA354D17B608A99EB6D9B1A3",
  "hasOriginal": true
 }
